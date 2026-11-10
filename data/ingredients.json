@@ -1,0 +1,302 @@
+[
+  {
+    "id": "onion",
+    "name": "양파",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": true
+  },
+  {
+    "id": "enoki",
+    "name": "팽이버섯",
+    "aliases": [
+      "팽이"
+    ],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": true
+  },
+  {
+    "id": "potato",
+    "name": "감자",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": true
+  },
+  {
+    "id": "carrot",
+    "name": "당근",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": true
+  },
+  {
+    "id": "zucchini",
+    "name": "애호박",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": true
+  },
+  {
+    "id": "green-onion",
+    "name": "대파",
+    "aliases": [
+      "파"
+    ],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": true
+  },
+  {
+    "id": "hot-pepper",
+    "name": "청양고추",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": true
+  },
+  {
+    "id": "green-pepper",
+    "name": "풋고추",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": true
+  },
+  {
+    "id": "shiitake",
+    "name": "표고버섯",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": true
+  },
+  {
+    "id": "pumpkin",
+    "name": "단호박",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": true
+  },
+  {
+    "id": "garlic",
+    "name": "마늘",
+    "aliases": [
+      "깐마늘"
+    ],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": true
+  },
+  {
+    "id": "squid",
+    "name": "오징어",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": true
+  },
+  {
+    "id": "pork",
+    "name": "돼지 앞다리살",
+    "aliases": [
+      "돼지고기"
+    ],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": true
+  },
+  {
+    "id": "shrimp",
+    "name": "새우",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": true
+  },
+  {
+    "id": "anchovy",
+    "name": "국멸치",
+    "aliases": [
+      "멸치"
+    ],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": true
+  },
+  {
+    "id": "beef-mince",
+    "name": "소고기 다짐육",
+    "aliases": [
+      "쇠고기"
+    ],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "egg",
+    "name": "계란",
+    "aliases": [
+      "달걀"
+    ],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": true
+  },
+  {
+    "id": "tofu",
+    "name": "두부",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": true
+  },
+  {
+    "id": "rice",
+    "name": "쌀",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": true
+  },
+  {
+    "id": "cream",
+    "name": "생크림",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "oil",
+    "name": "식용유",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": true
+  },
+  {
+    "id": "salt",
+    "name": "소금",
+    "aliases": [
+      "고운소금"
+    ],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": true
+  },
+  {
+    "id": "pepper",
+    "name": "후추가루",
+    "aliases": [
+      "후추"
+    ],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": true
+  },
+  {
+    "id": "gochujang",
+    "name": "고추장",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": true
+  },
+  {
+    "id": "chili",
+    "name": "고춧가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": true
+  },
+  {
+    "id": "sugar",
+    "name": "설탕",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": true
+  },
+  {
+    "id": "syrup",
+    "name": "물엿",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": true
+  },
+  {
+    "id": "wine",
+    "name": "맛술",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": true
+  },
+  {
+    "id": "minced-garlic",
+    "name": "다진 마늘",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": true
+  },
+  {
+    "id": "sesame-oil",
+    "name": "참기름",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": true
+  },
+  {
+    "id": "doenjang",
+    "name": "된장",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": true
+  },
+  {
+    "id": "kelp",
+    "name": "다시마",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "water",
+    "name": "물",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "curry",
+    "name": "카레 가루",
+    "aliases": [
+      "카레가루"
+    ],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": true
+  },
+  {
+    "id": "kimchi",
+    "name": "김치",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": true
+  }
+]
