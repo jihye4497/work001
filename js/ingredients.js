@@ -17,6 +17,8 @@ export function validateData(ingredients, recipes) {
       !(r.imagePath === null || typeof r.imagePath === 'string') ||
       !(r.cookMinutes === null || (Number.isFinite(r.cookMinutes) && r.cookMinutes > 0))) throw new Error('메뉴 데이터를 확인해 주세요.');
     recipeIds.add(r.id);
+    if (r.servingsStatus !== undefined && !['explicit', 'estimated'].includes(r.servingsStatus)) throw new Error('인분 확인 상태를 확인해 주세요.');
+    if (r.servingsStatus === 'estimated' && (typeof r.servingsEvidence !== 'string' || !r.servingsEvidence.trim())) throw new Error('추정 인분의 근거를 확인해 주세요.');
     for (const i of r.ingredients) {
       if (!i || !ids.has(i.ingredientId) || !(i.amount === null || (Number.isFinite(i.amount) && i.amount >= 0)) ||
         !(i.unit === null || (typeof i.unit === 'string' && i.unit.length > 0)) ||

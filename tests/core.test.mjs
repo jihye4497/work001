@@ -13,7 +13,8 @@ const draft = (ids = ['onion']) => ({ ...defaultDraft(), selectedIngredientIds: 
 const recipe = (id, name, type, rows) => ({ id, name, baseServings: 2, cookMinutes: null, cookingType: type, imagePath: null, sourceNote: '테스트 전용', ingredients: rows.map(([ingredientId, amount, unit]) => ({ ingredientId, amount, unit, note: null })) });
 
 test('실제 데이터 구조와 ID 참조 검증, 잘못된 필수값 거절', () => {
-  assert.equal(validateData(ingredients, recipes).recipes.length, 8);
+  assert.equal(validateData(ingredients, recipes).recipes.length, recipes.length);
+  assert.ok(recipes.length >= 9);
   assert.throws(() => validateData([{ ...ingredients[0], aliases: null }], []));
   assert.throws(() => validateData(ingredients, [{ ...recipes[0], baseServings: 0 }]));
   assert.throws(() => validateData(ingredients, [{ ...recipes[0], ingredients: [{ ingredientId: 'missing', amount: 1, unit: 'g', note: null }] }]));
@@ -50,7 +51,8 @@ test('모든 추천 후보는 관심 일반 재료 활용, 선택된 메뉴 중�
   }
   assert.deepEqual(recommend(ingredients, recipes, draft(['salt'])), []);
   assert.deepEqual(recommend(ingredients, recipes, draft([])), []);
-  assert.deepEqual(recommend(ingredients, recipes, draft(['enoki'])), []);
+  assert.deepEqual(recommend(ingredients, recipes, draft(['unregistered-id'])), []);
+  assert.ok(recommend(ingredients, recipes, draft(['enoki'])).every(r => r.matches.includes('enoki')));
 });
 test('세 모드 순위와 추천 이유는 양념을 제외한 계산 결과와 일치', () => {
   const rs = [recipe('used', '기존', '볶음', [['onion', 1, '개'], ['potato', 1, '개']]), recipe('a', '가', '볶음', [['onion', 1, '개'], ['potato', 1, '개'], ['salt', 1, 't']]), recipe('b', '나', '찌개', [['onion', 1, '개'], ['carrot', 1, '개']])];

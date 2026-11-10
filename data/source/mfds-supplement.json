@@ -1,0 +1,25 @@
+{
+  "source": "https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01",
+  "description": "공식 안내 페이지 SAMPLE 목록에서 2026-11-10 대조한 2건. 현재 API 1156건과 별도 보완 원문이며 영양 열량으로 인분을 확정하지 않음.",
+  "COOKRCP01": {
+    "total_count": "2",
+    "RESULT": { "CODE": "INFO-000", "MSG": "공식 안내 SAMPLE 목록 수동 대조" },
+    "row": [
+      {
+        "RCP_SEQ": "17",
+        "RCP_NM": "칼륨 듬뿍 고구마죽",
+        "RCP_WAY2": "끓이기",
+        "RCP_PAT2": "후식",
+        "RCP_PARTS_DTLS": "고구마죽 고구마 100g(2/3개), 설탕 2g(1/3작은술), 찹쌀가루 3g(2/3작은술),물 200ml(1컵), 잣 8g(8알)"
+      },
+      {
+        "RCP_SEQ": "16",
+        "RCP_NM": "누룽지 두부 계란죽",
+        "RCP_WAY2": "끓이기",
+        "RCP_PAT2": "밥",
+        "RCP_PARTS_DTLS": "채소준비 애호박 30g(1/6개), 표고버섯 20g(2개), 당근 5g(3×2×1cm) 누룽지 죽 누룽지 70g(1/3컵), 순두부 100g(1/4모), 달걀 50g(1개),참기름 3g(2/3작은술), 소금 약간, 참깨 약간, 흰 후추 약간",
+        "UNQUANTIFIED_INGREDIENTS": [ { "name": "물", "evidence": "누룽지와 물을 넣고 끓인다." } ]
+      }
+    ]
+  }
+}

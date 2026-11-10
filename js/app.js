@@ -3,6 +3,7 @@ import { MODES, MODE_DESCRIPTIONS, recommend, pageResults } from './recommendati
 import { aggregate, totalText, quantity, copyText } from './shopping-list.js';
 import { createStore } from './storage.js';
 import { el, button, link, empty } from './ui.js';
+import { servingLabel } from './servings.js';
 
 const page = document.body.dataset.page;
 const root = new URL('../', import.meta.url);
@@ -43,6 +44,7 @@ function selectedPanel() {
     const isOpen = openedRecipe === s.recipeId;
     return el('div', { class: 'selected-item' }, [
       button(`${recipe.name} · ${s.times}회`, () => { openedRecipe = isOpen ? null : s.recipeId; draw(); focus(id); }, 'secondary selected', { id, 'aria-expanded': String(isOpen), 'aria-controls': `edit-${s.recipeId}` }),
+      servingLabel(recipe) ? el('p', { class: 'muted' }, servingLabel(recipe)) : null,
       isOpen ? el('div', { class: 'counter', id: `edit-${s.recipeId}` }, [
         button('−', () => changeTimes(s, -1), 'secondary square', { id: `minus-${s.recipeId}`, disabled: s.times <= 1, 'aria-label': `${recipe.name} 조리 횟수 줄이기` }),
         el('span', { class: 'quantity' }, `${s.times}회`),
@@ -141,6 +143,7 @@ function drawRecipes() {
   const cards = slice.items.map(({ recipe, reasons }, index) => el('article', { class: 'recipe-card panel' }, [
     el('div', { class: 'section-heading' }, [el('span', { class: 'eyebrow' }, `추천 ${String(index + 1).padStart(2, '0')}`), el('span', { class: 'badge' }, recipe.cookingType)]),
     el('h3', {}, recipe.name),
+    el('p', { class: recipe.servingsStatus === 'estimated' ? 'notice warning' : 'muted' }, servingLabel(recipe)),
     recipe.cookMinutes !== null ? el('p', { class: 'muted' }, `${recipe.cookMinutes}분`) : null,
     el('ul', { class: 'reasons' }, reasons.map(reason => el('li', {}, reason))),
     button('담기 +', () => {
@@ -184,13 +187,14 @@ function drawShopping() {
       } });
       return el('div', { class: `shopping-row${checked ? ' is-checked' : ''}` }, [
         el('div', { class: 'shopping-main' }, [el('label', { class: 'check-label', htmlFor: check.id }, [check, el('span', { class: 'ingredient-name' }, row.ingredient.name)]), el('strong', { class: 'quantity' }, totalText(row))]),
-        el('ul', { class: 'uses' }, row.uses.map(use => el('li', {}, `${use.name} · ${quantity(use.amount, use.unit)}${use.note ? ` (${use.note})` : ''}`)))
+        row.estimated ? el('p', { class: 'muted' }, '인분 추정 포함') : null,
+        el('ul', { class: 'uses' }, row.uses.map(use => el('li', {}, `${use.name}${use.servingLabel ? ` · ${use.servingLabel}` : ''} · ${quantity(use.amount, use.unit)}${use.note ? ` (${use.note})` : ''}`)))
       ]);
     })]);
   }).filter(Boolean);
   host.replaceChildren(selectedPanel(), el('div', { class: 'section-heading shopping-toolbar' }, [el('p', { class: 'muted' }, `재료 ${rows.length}종 · 구매 체크 ${rows.filter(r => store.draft.checkedIngredientIds.includes(r.ingredient.id)).length}종`), copyButton]), copyFallback,
     ...(rows.length ? groups : [empty('선택한 메뉴가 없어요.', '메뉴를 담으면 재료별 필요량을 모아드려요.', url('recipes.html'), '메뉴 추천')]),
-    el('p', { class: 'notice' }, '필요량은 원문 인분을 기준으로 계산해요. 최종 구매 여부와 구매 포장 단위는 직접 확인해 주세요.'),
+    el('p', { class: 'notice' }, '필요량은 메뉴의 기준 인분으로 계산해요. 인분 추정이 포함된 수량은 실제 조리량에 맞춰 확인해 주세요. 최종 구매 여부와 구매 포장 단위는 직접 확인해 주세요.'),
     el('div', { class: 'actions' }, [link('메뉴 추천', url('recipes.html'), 'button secondary'), link('재료 선택', url('ingredients.html'), 'button secondary')]),
     el('div', { class: 'reset-area' }, button('새 장보기 시작', openReset, 'text-danger', { id: 'reset-draft' })));
 }
@@ -224,7 +228,7 @@ function drawSettings() {
   function describe() {
     const text = chosenMode === '세 가지 모두 비교' ? '메뉴 추천에서 세 가지 탭을 전환하며 비교해요. 처음에는 재료 최대 활용형을 보여드려요.' : MODE_DESCRIPTIONS[MODES.indexOf(chosenMode)];
     description.replaceChildren(el('strong', {}, '오징어·팽이버섯·양파·감자를 골랐다면'), el('p', {}, text),
-      el('p', { class: 'muted' }, '예: 오징어볶음은 오징어·양파를, 감자채볶음은 감자·양파를 활용해요. 팽이버섯이 포함된 검수 메뉴는 아직 준비 중이에요.'));
+      el('p', { class: 'muted' }, '예: 오징어볶음은 오징어·양파를, 감자채볶음은 감자·양파를 활용해요. 버섯초계탕은 팽이버섯·양파를 함께 활용해요.'));
   }
   const allowed = ['index.html', 'ingredients.html', 'recipes.html', 'shopping-list.html', 'guides/index.html', 'guides/squid.html', 'about.html', 'contact.html', 'privacy.html', 'terms.html', '404.html'];
   const requested = new URLSearchParams(location.search).get('return');

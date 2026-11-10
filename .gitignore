@@ -1,0 +1,6 @@
+# Local credentials: runtime site does not require these files.
+.env
+.env.*
+!.env.example
+*.key
+*.pem

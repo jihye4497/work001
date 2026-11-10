@@ -1,4 +1,5 @@
 import { CATEGORIES } from './ingredients.js';
+import { servingLabel } from './servings.js';
 
 export function aggregate(ingredients, recipes, selectedRecipes, servings) {
   const byId = new Map(ingredients.map(i => [i.id, i]));
@@ -14,7 +15,8 @@ export function aggregate(ingredients, recipes, selectedRecipes, servings) {
       const amount = item.amount === null ? null : item.amount * servings / recipe.baseServings * selection.times;
       if (amount === null || item.unit === null) row.unknown = true;
       else row.totals.set(item.unit, (row.totals.get(item.unit) || 0) + amount);
-      row.uses.push({ name: recipe.name, amount, unit: item.unit, note: item.note });
+      if (recipe.servingsStatus === 'estimated') row.estimated = true;
+      row.uses.push({ name: recipe.name, amount, unit: item.unit, note: item.note, servingLabel: servingLabel(recipe) });
       rows.set(ingredient.id, row);
     }
   }
@@ -35,7 +37,7 @@ export function copyText(rows, checkedIds) {
     const group = rows.filter(r => r.ingredient.category === category);
     if (!group.length) continue;
     lines.push(category);
-    for (const row of group) lines.push(`[${checkedIds.includes(row.ingredient.id) ? 'x' : ' '}] ${row.ingredient.name}: ${totalText(row)}`);
+    for (const row of group) lines.push(`[${checkedIds.includes(row.ingredient.id) ? 'x' : ' '}] ${row.ingredient.name}: ${totalText(row)}${row.estimated ? ' (인분 추정 포함)' : ''}`);
     lines.push('');
   }
   return lines.join('\n').trim();
