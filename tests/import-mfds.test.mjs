@@ -69,7 +69,7 @@ test('검수한 원문 g과 미기재 수량 유지, 기존 T·t와 합산하지
   const rows = aggregate(result.ingredients, result.recipes, [{ recipeId: 'mfds-cookrcp01-29', times: 2 }], 2);
   assert.equal(totalText(rows.find(r => r.ingredient.id === 'joseon-chives')), '200g');
   assert.equal(totalText(rows.find(r => r.ingredient.id === 'sesame-seeds')), '수량 미기재');
-  const d = defaultDraft(); d.selectedIngredientIds = ['joseon-chives'];
+  const d = defaultDraft(); d.selectedIngredientIds = ['joseon-chives'];d.activeInterestIds=[...d.selectedIngredientIds];
   assert.equal(recommend(result.ingredients, result.recipes, d)[0].recipe.id, 'mfds-cookrcp01-29');
 });
 test('sample 다운로드는5건을 전체 수집으로 가장하지 않고 추가 요청하지 않음', async () => {
@@ -100,7 +100,7 @@ test('전체 원본1156건 검사·중복 후보·재료정보 누락 보류', (
   assert.equal(result.report.unchanged.length, 23);
   assert.equal(result.report.totalSiteRecipes, 33);
   assert.ok(result.report.coverage.find(i => i.ingredientId === 'onion').recipeCount >= 8);
-  const d = defaultDraft(); d.selectedIngredientIds = ['onion'];
+  const d = defaultDraft(); d.selectedIngredientIds = ['onion'];d.activeInterestIds=[...d.selectedIngredientIds];
   assert.ok(recommend(allIngredients, allRecipes, d).length >= 8);
 });
 test('명시 인분은 유지하고 승인된 두 메뉴만 1인분 추정으로 분류', () => {
@@ -164,7 +164,7 @@ test('확장 데이터는 전체 원문 재검증·재실행 시 기존 메뉴�
   assert.ok(dumpling.ingredients.some(i=>i.sourceText==='양배추(10g)' && i.amount===10));
   assert.ok(dumpling.ingredients.every(i=>! /\)\s+[가-힣]/u.test(i.sourceText)));
   for(const ingredientId of ['onion','enoki','squid','potato','egg']) {
-    const draft=defaultDraft();draft.selectedIngredientIds=[ingredientId];
+    const draft=defaultDraft();draft.selectedIngredientIds=[ingredientId];draft.activeInterestIds=[...draft.selectedIngredientIds];
     assert.ok(recommend(allIngredients,expandedRecipes,draft).length>=8);
   }
 });

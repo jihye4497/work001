@@ -9,7 +9,7 @@ import { createStore, KEYS, defaultDraft, validDraft } from '../js/storage.js';
 const ingredients = JSON.parse(await readFile(new URL('../data/ingredients.json', import.meta.url)));
 const recipes = JSON.parse(await readFile(new URL('../data/recipes.json', import.meta.url)));
 const memory = () => { const map = new Map(); return { getItem: k => map.get(k) ?? null, setItem: (k, v) => map.set(k, v) }; };
-const draft = (ids = ['onion']) => ({ ...defaultDraft(), selectedIngredientIds: ids });
+const draft = (ids = ['onion']) => ({ ...defaultDraft(), selectedIngredientIds: ids, activeInterestIds: ids });
 const recipe = (id, name, type, rows) => ({ id, name, baseServings: 2, cookMinutes: null, cookingType: type, imagePath: null, sourceNote: '테스트 전용', ingredients: rows.map(([ingredientId, amount, unit]) => ({ ingredientId, amount, unit, note: null })) });
 
 test('실제 데이터 구조와 ID 참조 검증, 잘못된 필수값 거절', () => {
@@ -54,17 +54,17 @@ test('모든 추천 후보는 관심 일반 재료 활용, 선택된 메뉴 중�
   assert.deepEqual(recommend(ingredients, recipes, draft(['unregistered-id'])), []);
   assert.ok(recommend(ingredients, recipes, draft(['enoki'])).every(r => r.matches.includes('enoki')));
 });
-test('세 모드 순위와 추천 이유는 양념을 제외한 계산 결과와 일치', () => {
-  const rs = [recipe('used', '기존', '볶음', [['onion', 1, '개'], ['potato', 1, '개']]), recipe('a', '가', '볶음', [['onion', 1, '개'], ['potato', 1, '개'], ['salt', 1, 't']]), recipe('b', '나', '찌개', [['onion', 1, '개'], ['carrot', 1, '개']])];
-  const d = draft(); d.selectedRecipes = [{ recipeId: 'used', times: 1 }];
+test('두 모드 순위는 추가 구매와 주재료·보유 재료 활용을 구분하고 양념을 제외', () => {
+  const rs = [recipe('a', '양파볶음', '볶음', [['onion', 1, '개'], ['potato', 1, '개'], ['salt', 1, 't']]), recipe('b', '나', '찌개', [['onion', 1, '개']])];
+  const d = draft();
   d.activeRecommendationMode = MODES[0];
-  assert.equal(recommend(ingredients, rs, d)[0].recipe.id, 'a');
-  d.activeRecommendationMode = MODES[1];
-  const minimal = recommend(ingredients, rs, d);
-  assert.equal(minimal[0].extra.length, 0);
-  assert.match(minimal[0].reasons.join(' '), /추가 일반 재료 0종/);
-  d.activeRecommendationMode = MODES[2];
   assert.equal(recommend(ingredients, rs, d)[0].recipe.id, 'b');
+  d.activeRecommendationMode = MODES[1];
+  const result = recommend(ingredients, rs, d, [], ['potato']);
+  assert.equal(result[0].recipe.id, 'a');
+  assert.equal(result[0].extra.length, 0);
+  assert.match(result[0].reasons.join(' '), /양파 주재료 활용/);
+  assert.match(result[0].reasons.join(' '), /집에 있는 재료 1종/);
 });
 test('동점은 활용 재료 수·메뉴명으로 결정, 8개씩 페이지 표시', () => {
   const rs = Array.from({ length: 18 }, (_, n) => recipe(String(n), `테스트${String(n).padStart(2,'0')}`, '볶음', [['onion', 1, '개']]));
@@ -79,11 +79,11 @@ test('설정·현재 작업·추천 방식·체크 복원 및 작업만 초기�
   const storage = memory(); const first = createStore(storage);
   first.saveSettings({ '기본 식사 인원': 3, '기본 추천 방식': MODES[1] });
   first.draft.selectedIngredientIds = ['onion']; first.draft.selectedRecipes = [{ recipeId: 'squid-stir', times: 2 }];
-  first.draft.activeRecommendationMode = MODES[2]; first.draft.checkedIngredientIds = ['onion']; first.saveDraft();
+  first.draft.activeRecommendationMode = MODES[0]; first.draft.checkedIngredientIds = ['onion']; first.saveDraft();
   const restored = createStore(storage);
   assert.equal(restored.settings['기본 식사 인원'], 3);
   assert.equal(restored.draft.selectedRecipes[0].times, 2);
-  assert.equal(restored.draft.activeRecommendationMode, MODES[2]);
+  assert.equal(restored.draft.activeRecommendationMode, MODES[0]);
   assert.deepEqual(restored.draft.checkedIngredientIds, ['onion']);
   restored.reset();
   assert.deepEqual(restored.draft.selectedRecipes, []);

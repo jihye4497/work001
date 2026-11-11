@@ -1,4 +1,5 @@
 import { applyRecipeCategories } from './recipe-filters.js';
+import { primaryIngredientIds } from './ingredient-matching.js';
 export const CATEGORIES = ['채소·버섯', '육류·해산물', '두부·계란·기타', '양념·조미료'];
 
 export function validateData(ingredients, recipes) {
@@ -42,5 +43,7 @@ export async function loadData() {
     if (!response.ok) throw new Error('데이터를 불러오지 못했어요.');
     return response.json();
   }));
-  return validateData(data[0], applyRecipeCategories(data[1], data[2]));
+  const byId=new Map(data[0].map(i=>[i.id,i]));
+  const recipes=applyRecipeCategories(data[1],data[2]).map(r=>({...r,primaryIngredientIds:primaryIngredientIds(r,byId)}));
+  return validateData(data[0],recipes);
 }

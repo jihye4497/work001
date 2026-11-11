@@ -20,8 +20,8 @@ test('전체 메뉴 분류는 안정적인 ID로 연결하고 누락·이름 변
   assert.throws(()=>applyRecipeCategories([{...raw[0],name:'바뀐 메뉴'}],catalog));
 });
 
-test('종류 다중 선택은 합집합·겸용 중복 없음·전체 복귀·세 추천 방식 유지',()=>{
-  const draft=defaultDraft();draft.selectedIngredientIds=['onion'];
+test('종류 다중 선택은 합집합·겸용 중복 없음·전체 복귀·두 추천 방식 유지',()=>{
+  const draft=defaultDraft();draft.selectedIngredientIds=['onion'];draft.activeInterestIds=[...draft.selectedIngredientIds];
   draft.selectedFoodCategories=toggleFoodCategory([], '한식 주메뉴');
   draft.selectedFoodCategories=toggleFoodCategory(draft.selectedFoodCategories,'한식 반찬');
   for(const mode of MODES) {
@@ -55,7 +55,7 @@ test('이전 장보기는 종류 필드 없이 복원되고 제외 설정은 새
 });
 
 test('제외는 추천에서만 제거하고 기존 선택·횟수·사용 재료에는 영향 없음, 복원 즉시 재노출',()=>{
-  const draft=defaultDraft();draft.selectedIngredientIds=['onion'];draft.selectedRecipes=[{recipeId:'potato-stir',times:3}];
+  const draft=defaultDraft();draft.selectedIngredientIds=['onion'];draft.activeInterestIds=[...draft.selectedIngredientIds];draft.selectedRecipes=[{recipeId:'potato-stir',times:3}];
   const before=JSON.stringify(draft);
   const hidden=recommend(ingredients,recipes,draft,['squid-stir','potato-stir']);
   assert.ok(!hidden.some(x=>x.recipe.id==='squid-stir'));
