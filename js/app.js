@@ -1,6 +1,7 @@
-import { loadData, CATEGORIES, searchIngredients } from './ingredients.js';
+import { syncMenuIngredients } from './menu-ingredients.js';
+import { loadData, CATEGORIES, searchIngredients, quickPickIngredients } from './ingredients.js';
 import { MODES, MODE_DESCRIPTIONS, recommend, pageResults, searchMenus, recipeAvailability, replacementsFor } from './recommendations.js';
-import { aggregate, totalText, quantity, copyText, partitionShoppingRows } from './shopping-list.js';
+import { aggregate, selectedServings, totalText, quantity, selectedCopyText, partitionShoppingRows } from './shopping-list.js';
 import { createStore } from './storage.js';
 import { el, button, link, empty } from './ui.js';
 import { servingLabel } from './servings.js';
@@ -19,7 +20,11 @@ const live = document.querySelector('#live');
 let storage;
 try { storage = window.localStorage; } catch { storage = { getItem() { throw new Error(); }, setItem() { throw new Error(); } }; }
 const store = createStore(storage);
-let data, visible = 8, openedRecipe = null, toastTimer, selectedExpanded = false;
+let data, visible = 8, toastTimer, selectedExpanded = false;
+let selectedDrawerOpen = false, ownedOpen = false, excludedShoppingOpen = false;
+const expandedIngredients = new Set();
+let addedMenuFeedback = null;
+let ingredientTab = new URLSearchParams(location.search).get('tab') === 'planned' ? 'planned' : 'pantry';
 
 function announce(message, autoClear = false) {
   clearTimeout(toastTimer);
@@ -29,90 +34,147 @@ function announce(message, autoClear = false) {
 function warnings() {
   warningArea.replaceChildren(...store.warnings.map(text => el('p', { class: 'notice warning' }, text)));
 }
-function save() { store.saveDraft(); warnings(); }
+function save() { for(const selection of store.draft.selectedRecipes)selection.servings ??= selectedServings(selection,store.settings['기본 식사 인원']); if(data)syncMenuIngredients(store.draft,data.ingredients,data.recipes,store.pantryIngredientIds); store.saveDraft(); warnings(); }
 function focus(id) { document.getElementById(id)?.focus({ preventScroll: true }); }
-document.querySelectorAll('[data-settings]').forEach(a => { a.href = settingsUrl(); a.textContent = `${store.settings['기본 식사 인원']}명 · 설정`; });
+document.querySelectorAll('[data-settings]').forEach(a => { a.href = settingsUrl(); a.textContent = `${store.settings['기본 식사 인원']}인 · 설정`; });
 warnings();
 if (!store.configured && ['ingredients', 'recipes', 'shopping-list'].includes(page)) {
   warningArea.append(el('p', { class: 'notice' }, [link('홈에서 식사 인원과 집에 있는 재료를 확인해 주세요.', url('index.html'))]));
 }
 
 function resetVisible() { visible = 8; }
-function selectedMenuLabel(name, times) {
-  // Preserve the stored name; add a line-break opportunity before a dish word.
-  const ending = name.match(/^(.+?)(불고기|고기말이|김치찌개|된장찌개|볶음밥|비빔밥|리조또|스파게티|파스타|찌개|볶음|조림|무침|구이|전골|샐러드)$/);
-  const space = name.lastIndexOf(' ');
-  const prefix = ending ? ending[1] : space >= 0 ? name.slice(0, space + 1) : '';
-  const lastWord = ending ? ending[2] : name.slice(prefix.length);
-  return el('strong', {class: 'selected-name'}, [prefix, prefix ? el('wbr') : null,
-    el('span', {class: 'selected-tail'}, [lastWord, el('span', {class: 'selected-times'}, ` ×${times}회`)])]);
-}
-function selectedPanel() {
+function selectedPanel(compact = false) {
   const entries = store.draft.selectedRecipes.map(s => {
     const recipe = data.recipes.find(r => r.id === s.recipeId);
-    const id = `selected-${s.recipeId}`;
-    const isOpen = openedRecipe === s.recipeId;
-    return el('div', { class: 'selected-item' }, [
-      button([selectedMenuLabel(recipe.name, s.times), el('span', { class: 'muted selected-basis' }, servingLabel(recipe))], () => { openedRecipe = isOpen ? null : s.recipeId; draw(); focus(id); }, 'secondary selected selected-menu-button', { id, title: `${recipe.name} ×${s.times}회 · ${servingLabel(recipe)}`, 'aria-label': `${recipe.name} ×${s.times}회 · ${servingLabel(recipe)}`, 'aria-expanded': String(isOpen), 'aria-controls': `edit-${s.recipeId}` }),
-      isOpen ? el('div', { class: 'counter', id: `edit-${s.recipeId}` }, [
-        ...Object.entries(s.ingredientReplacements || {}).map(([from,to]) => el('p', {class:'muted'}, `${data.ingredients.find(i=>i.id===from)?.name} → ${data.ingredients.find(i=>i.id===to)?.name} 활용`)),
-        button('−', () => changeTimes(s, -1), 'secondary square', { id: `minus-${s.recipeId}`, disabled: s.times <= 1, 'aria-label': `${recipe.name} 조리 횟수 줄이기` }),
-        el('span', { class: 'quantity' }, `${s.times}회`),
-        button('+', () => changeTimes(s, 1), 'secondary square', { id: `plus-${s.recipeId}`, disabled: s.times >= Number.MAX_SAFE_INTEGER, 'aria-label': `${recipe.name} 조리 횟수 늘리기` }),
-        button('삭제', () => { store.draft.selectedRecipes = store.draft.selectedRecipes.filter(x => x.recipeId !== s.recipeId); openedRecipe = null; resetVisible(); save(); draw(); focus('selected-title'); announce(`${recipe.name} 메뉴를 삭제했어요.`); }, 'text-danger', { 'aria-label': `${recipe.name} 삭제` })
-      ]) : null
+    return el('div', {class:'selected-item'}, [
+      el('div', {class:'selected-line'}, [
+        el('div', {class:'selected-menu-label'}, [
+          el('strong', {class:'selected-name'}, recipe.name),
+          ...Object.entries(s.ingredientReplacements||{}).map(([from,to])=>el('span',{class:'muted selected-basis'},`${data.ingredients.find(i=>i.id===from)?.name} → ${data.ingredients.find(i=>i.id===to)?.name} 활용`))
+        ]),
+        el('div', {class:'counter', role:'group', 'aria-label':`${recipe.name} 준비할 인분`}, [
+          button('−',()=>changeTimes(s,-1,compact),'secondary square',{id:`minus-${s.recipeId}`,'aria-label':`${recipe.name} 인분 줄이기`}),
+          el('span',{class:'times-value'},`${selectedServings(s,store.settings['기본 식사 인원'])}인분`),
+          button('+',()=>changeTimes(s,1,compact),'secondary square',{id:`plus-${s.recipeId}`,disabled:selectedServings(s,store.settings['기본 식사 인원'])>=Number.MAX_SAFE_INTEGER,'aria-label':`${recipe.name} 인분 늘리기`})
+        ])
+      ])
     ]);
   });
-  return el('section', { class: 'panel selected-panel', 'aria-labelledby': 'selected-title' }, [
-    el('div', { class: 'section-heading' }, [el('h2', { id: 'selected-title', tabIndex: -1 }, `선택 메뉴 ${entries.length}개`), entries.length > 3 ? button(selectedExpanded ? '접기' : `전체 ${entries.length}개 보기`, () => { selectedExpanded = !selectedExpanded; draw(); focus('toggle-selected'); }, 'secondary', { id: 'toggle-selected', 'aria-expanded': String(selectedExpanded), 'aria-controls': 'selected-menu-list' }) : null]),
-    entries.length ? el('div', { class: 'chips', id: 'selected-menu-list' }, selectedExpanded ? entries : entries.slice(0,3)) : el('p', { class: 'muted' }, '추천 메뉴를 담아 주세요.')
+  return el('section',{class:'panel selected-panel','aria-label':'선택 메뉴'},[
+    compact ? button(`선택 메뉴 ${entries.length}개 ${selectedDrawerOpen?'접기 ▴':'확인 ▾'}`,()=>{selectedDrawerOpen=!selectedDrawerOpen;draw();focus('selected-drawer-toggle');},'secondary drawer-toggle',{id:'selected-drawer-toggle','aria-expanded':String(selectedDrawerOpen),'aria-controls':'selected-content'}) :
+      el('div',{class:'section-heading'},[el('h2',{id:'selected-title',tabIndex:-1},`선택 메뉴 ${entries.length}개`),el('span',{class:'muted selected-hint'},'− / + 로 인분 조절')]),
+    el('div',{id:'selected-content',hidden:compact&&!selectedDrawerOpen},[
+      entries.length ? el('div',{id:'selected-menu-list'},selectedExpanded?entries:entries.slice(0,3)) : el('p',{class:'muted'},'추천 메뉴를 담아 주세요.'),
+      entries.length>3 ? button(selectedExpanded?'접기 ▴':`나머지 ${entries.length-3}개 더 보기 ▾`,()=>{selectedExpanded=!selectedExpanded;draw();focus('toggle-selected');},'secondary list-more',{id:'toggle-selected','aria-expanded':String(selectedExpanded)}) : null
+    ])
   ]);
 }
-function changeTimes(selection, difference) {
-  selection.times = Math.max(1, Math.min(Number.MAX_SAFE_INTEGER, selection.times + difference));
+function changeTimes(selection, difference, compact = false) {
+  if(difference<0&&selectedServings(selection,store.settings['기본 식사 인원'])===1) {
+    const recipe=data.recipes.find(r=>r.id===selection.recipeId);
+    const cancel=button('취소',()=>dialog.close(),'secondary');
+    const dialog=el('dialog',{'aria-labelledby':'remove-menu-title','aria-describedby':'remove-menu-description'},[
+      el('h2',{id:'remove-menu-title'},'메뉴를 삭제할까요?'),
+      el('p',{id:'remove-menu-description'},`${recipe.name} 메뉴와 이 메뉴에만 필요한 구매 재료를 목록에서 제거해요.`),
+      el('div',{class:'actions'},[cancel,button('메뉴 삭제',()=>{
+        store.draft.selectedRecipes=store.draft.selectedRecipes.filter(s=>s.recipeId!==selection.recipeId);
+        save();draw();dialog.close();focus(compact?'selected-drawer-toggle':'selected-title');
+        announce(`${recipe.name} 메뉴를 삭제했어요. 필요량을 다시 계산했어요.`);
+      },'danger')])
+    ]);
+    dialog.addEventListener('close',()=>{dialog.remove();focus(`minus-${selection.recipeId}`);});
+    document.body.append(dialog);dialog.showModal();cancel.focus();return;
+  }
+  selection.servings = Math.max(1, Math.min(Number.MAX_SAFE_INTEGER, selectedServings(selection,store.settings['기본 식사 인원']) + difference));
   resetVisible(); save(); draw();
-  focus(selection.times === 1 ? `plus-${selection.recipeId}` : `${difference > 0 ? 'plus' : 'minus'}-${selection.recipeId}`);
-  announce(`조리 횟수를 ${selection.times}회로 변경했어요. 필요량을 다시 계산했어요.`);
+  focus(`${difference > 0 ? 'plus' : 'minus'}-${selection.recipeId}`);
+  announce(`준비할 양을 ${selection.servings}인분으로 변경했어요. 필요량을 다시 계산했어요.`);
 }
 
 function ingredientPicker(pantry = false) {
   const prefix = pantry ? 'pantry' : 'ingredient';
   const selectedIds = () => pantry ? store.pantryIngredientIds : store.draft.selectedIngredientIds;
-  const selected = el('div', { class: 'chips' });
-  const heading = el('h3');
+  const selected = el('div', { class: 'chips', id:`${prefix}-selected-chips` });
+  let selectionExpanded=false;
+  const moreSelected=button('+ 더 보기',()=>{selectionExpanded=!selectionExpanded;measureSelection();},'secondary selection-more',{hidden:true,'aria-expanded':'false','aria-controls':selected.id});
+  let selectionObserver;
+  function measureSelection() {
+    if(selected.isConnected===false){selectionObserver?.disconnect();return;}
+    moreSelected.hidden=true;
+    moreSelected.textContent=selectionExpanded?'− 접기':'+ 더 보기';
+    const chips=[...selected.children].filter(node=>node!==moreSelected&&node.tagName?.toLowerCase()==='button');
+    chips.forEach(node=>{node.hidden=false;});
+    const positions=chips.map(chip=>chip.offsetTop);
+    const rows=[];
+    for(const top of positions)if(!rows.some(row=>Math.abs(row-top)<2))rows.push(top);
+    const cutoff=rows[2];
+    const overflow=rows.length>2;
+    if(overflow&&!selectionExpanded)chips.forEach((node,index)=>{node.hidden=positions[index]>=cutoff-1;});
+    moreSelected.hidden=!overflow;
+    if(overflow&&!selectionExpanded) {
+      const visibleChips=chips.filter(node=>!node.hidden);
+      while(visibleChips.length&&moreSelected.offsetTop>rows[1]+1)visibleChips.pop().hidden=true;
+    }
+    moreSelected.setAttribute('aria-expanded',String(selectionExpanded&&overflow));
+  }
+  function scheduleSelectionMeasure(){if(typeof requestAnimationFrame==='function')requestAnimationFrame(measureSelection);}
   const quick = el('div', { class: 'quick-sections' });
-  const input = el('input', { id: `${prefix}-search`, type: 'search', placeholder: '예: 오징어, 양파', role: 'combobox', autocomplete: 'off', 'aria-autocomplete': 'list', 'aria-expanded': 'false', 'aria-controls': `${prefix}-results` });
+  let activeCategory = CATEGORIES[0];
+  const categoryTabs = el('div', {class:'ingredient-categories horizontal-buttons',role:'group','aria-label':'재료 종류'});
+  const selectedSummary = el('p', {class:'selection-heading'});
+  const selection = el('section', {class:'ingredient-selection','aria-label':'선택한 재료'}, [selectedSummary, selected]);
+  const input = el('input', { id: `${prefix}-search`, type: 'search', placeholder: '전체 재료 검색', role: 'combobox', autocomplete: 'off', 'aria-autocomplete': 'list', 'aria-expanded': 'false', 'aria-controls': `${prefix}-results` });
   const results = el('div', { id: `${prefix}-results`, role: 'listbox', class: 'search-results', hidden: true });
   const hint = el('p', { class: 'muted', role: 'status' });
   let matches = [], active = -1;
   function toggle(id, addOnly = false) {
     const ids = selectedIds();
     const next = ids.includes(id) ? (addOnly ? ids : ids.filter(x => x !== id)) : [...ids, id];
-    if (pantry) { store.setPantryIngredientIds(next); warnings(); }
+    if (pantry) { store.setPantryIngredientIds(next); save(); }
     else {
+      store.draft.manualIngredientIds ??= [...ids];
+      store.draft.suppressedAutoIngredientIds ??= [];
+      if(ids.includes(id)&&!addOnly) {
+        store.draft.manualIngredientIds=store.draft.manualIngredientIds.filter(x=>x!==id);
+        store.draft.suppressedAutoIngredientIds=[...new Set([...store.draft.suppressedAutoIngredientIds,id])];
+      } else {
+        store.draft.manualIngredientIds=[...new Set([...store.draft.manualIngredientIds,id])];
+        store.draft.suppressedAutoIngredientIds=store.draft.suppressedAutoIngredientIds.filter(x=>x!==id);
+      }
       store.draft.selectedIngredientIds = next;
       store.draft.activeInterestIds = store.draft.activeInterestIds.filter(x => next.includes(x));
       if (!ids.includes(id)) store.draft.activeInterestIds.push(id);
       save();
     }
+    const sourceButton=document.getElementById(pantry?'source-pantry':'source-planned');
+    if(sourceButton)sourceButton.textContent=`${pantry?'집에 있는 재료':'새로 살 관심 재료'} ${next.length}`;
     update(); announce(`${pantry ? '집에 있는 재료' : '새로 살 재료'} ${next.length}개를 선택했어요.`);
   }
   function update() {
-    heading.textContent = `선택한 재료 ${selectedIds().length}개`;
+    selectedSummary.textContent = `선택한 재료 ${selectedIds().length}개`;
+    const categoryLabels = [['채소','버섯'],['육류','해산물'],['두부·계란','기타'],['양념','조미료']];
+    categoryTabs.replaceChildren(...CATEGORIES.map((category,index)=>button(
+      categoryLabels[index].map(line=>el('span',{},line)),
+      ()=>{activeCategory=category;update();focus(`${prefix}-category-${index}`);},
+      category===activeCategory?'secondary selected':'secondary',
+      {id:`${prefix}-category-${index}`,'aria-label':category,'aria-pressed':String(category===activeCategory)})));
     selected.replaceChildren(...selectedIds().map(id => {
       const item = data.ingredients.find(i => i.id === id);
       return button(`${item.name} ×`, () => { toggle(id); input.focus(); }, 'secondary selected', { 'aria-label': `${item.name} 선택 해제` });
     }));
-    if (!selected.childNodes.length) selected.append(el('p', { class: 'muted' }, '아래 재료를 누르거나 이름을 검색해 주세요.'));
+    if(selected.childNodes.length)selected.append(moreSelected);
+    if (!selected.childNodes.length) selected.append(el('p', { class: 'muted' }, '선택한 재료가 없어요.'));
     quick.replaceChildren(...CATEGORIES.map(category => {
-      const group = data.ingredients.filter(i => i.category === category && i.isQuickPick);
+      const group = quickPickIngredients(data.ingredients, category).filter(i => !selectedIds().includes(i.id));
+      if (category !== activeCategory) return null;
       if (!group.length) return null;
       return el('section', {}, [el('h3', {}, category), el('div', { class: 'chips' }, group.map(i => {
         const checked = selectedIds().includes(i.id);
-        return button(`${checked ? '✓ ' : '+ '}${i.name}`, () => { toggle(i.id); focus(`${prefix}-quick-${i.id}`); }, checked ? 'secondary selected' : 'secondary', { id: `${prefix}-quick-${i.id}`, 'aria-pressed': String(checked) });
+        return button(`${checked ? '✓ ' : '+ '}${i.name}`, () => { toggle(i.id); focus(`${prefix}-category-${CATEGORIES.indexOf(category)}`); }, checked ? 'secondary selected' : 'secondary', { id: `${prefix}-quick-${i.id}`, 'aria-pressed': String(checked) });
       }))]);
     }).filter(Boolean));
     search();
+    scheduleSelectionMeasure();
   }
   function choose(item) { toggle(item.id, true); input.value = ''; close(); input.focus(); }
   function close() { results.hidden = true; input.setAttribute('aria-expanded', 'false'); input.removeAttribute('aria-activedescendant'); active = -1; hint.textContent = ''; }
@@ -120,7 +182,7 @@ function ingredientPicker(pantry = false) {
     matches = searchIngredients(data.ingredients, input.value).slice(0, 30); active = -1;
     results.hidden = !input.value.trim();
     input.setAttribute('aria-expanded', String(!results.hidden)); input.removeAttribute('aria-activedescendant');
-    results.replaceChildren(...matches.map((item, index) => el('div', { id: `${prefix}-option-${index}`, role: 'option', 'aria-selected': 'false', class: 'search-option', onmousedown: event => event.preventDefault(), onclick: () => choose(item) }, `${item.name}${selectedIds().includes(item.id) ? ' · 선택됨' : ''}`)));
+    results.replaceChildren(...matches.map((item, index) => el('div', { id: `${prefix}-option-${index}`, role: 'option', 'aria-selected': 'false', class: 'search-option', onmousedown: event => event.preventDefault(), onclick: () => choose(item) }, [el('span', {class:'search-result-name'}, item.name), selectedIds().includes(item.id) ? el('span', {class:'search-result-status'}, '✓ 선택됨') : null])));
     hint.textContent = input.value.trim() ? (matches.length ? `${matches.length}개까지 표시해요. 위아래 방향키로 고르고 Enter를 눌러 주세요.` : '등록된 재료가 없어요. 다른 이름으로 검색해 주세요.') : '';
   }
   input.addEventListener('input', search);
@@ -136,28 +198,57 @@ function ingredientPicker(pantry = false) {
   });
   input.addEventListener('blur', close);
   const picker = el('section', {class: 'panel pantry-picker'}, [
-    el('div', {class: 'section-heading'}, [el('h2', {}, pantry ? '집에 있는 재료' : '새로 살 재료'), pantry ? null : link('집에 있는 재료 수정', url('index.html#pantry'))]),
-    pantry ? el('p', {class: 'muted picker-help'}, '집에 있는 재료를 골라 주세요. 양은 입력하지 않아도 돼요.') : null,
-    el('label', {htmlFor: input.id, class: 'field-label'}, '재료명 검색'), input, results, hint, el('div', {class:'ingredient-selection'}, [heading, selected]), quick,
-    pantry ? null : el('p', {class: 'muted'}, '재료를 바꿔도 이미 담은 메뉴는 유지돼요.')
+
+
+    selection, categoryTabs,
+    el('label', {htmlFor: input.id, class: 'flow-heading'}, '전체 재료 검색'), input, results, hint, quick
   ]);
   update();
+  if(typeof ResizeObserver==='function'){selectionObserver=new ResizeObserver(measureSelection);selectionObserver.observe(selected);}
+  if(document.fonts?.ready)document.fonts.ready.then(scheduleSelectionMeasure);
   return picker;
 }
 
 function drawHome() {
-  const people = el('div', {class: 'people-options', role: 'group', 'aria-label': '기본 식사 인원'}, [1,2,3,4].map(n => button(`${n}명`, () => {
-    store.saveSettings({...store.settings, '기본 식사 인원': n}); warnings(); drawHome(); focus(`people-${n}`);
-    document.querySelectorAll('[data-settings]').forEach(a => {a.textContent = `${n}명 · 설정`;});
-    announce(`${n}명 기준으로 필요량을 계산해요.`);
-  }, store.settings['기본 식사 인원'] === n ? 'secondary selected' : 'secondary', {id: `people-${n}`, 'aria-pressed': String(store.settings['기본 식사 인원'] === n)})));
-  host.replaceChildren(el('section', {class: 'panel'}, [el('h2', {}, '보통 몇 명이 드시나요?'), people]),
-    el('div', {id: 'pantry', tabIndex: -1}, ingredientPicker(true)),
-    el('div', {class: 'actions'}, link('새로 살 재료 고르기 →', url('ingredients.html'), 'button primary')));
+  const people = el('div',{class:'people-options',role:'group','aria-label':'기본 식사 인원'},[1,2,3,4].map(n=>button(`${n}명`,()=>{
+    store.saveSettings({...store.settings,'기본 식사 인원':n});warnings();drawHome();focus('home-start');
+    document.querySelectorAll('[data-settings]').forEach(a=>{a.textContent=`${n}인 · 설정`;});
+  },store.settings['기본 식사 인원']===n?'secondary selected':'secondary',{id:`people-${n}`,'aria-pressed':String(store.settings['기본 식사 인원']===n)})));
+  host.replaceChildren(...[
+    !store.configured?el('section',{class:'panel people-setup'},[el('h2',{},'보통 몇 명이 드시나요?'),people]):null,
+    el('a',{id:'home-start',href:url('ingredients.html'),class:'button primary'},'재료 선택하러 가기 →'),
+    el('details',{class:'home-mode-guide'},[el('summary',{},'추천 방식이 궁금하다면'),
+      el('p',{},'추가 구매 최소 · 담은 재료로 만들며 더 살 재료를 줄여요.'),
+      el('p',{},'관심 재료 활용 · 고른 관심 재료가 모두 들어가는 메뉴를 찾아요.')])
+  ].filter(Boolean));
 }
 function drawIngredients() {
-  host.replaceChildren(ingredientPicker(), el('div', {class: 'actions'}, link('추천 메뉴 →', url('recipes.html'), 'button primary')),
-    el('p', {class: 'muted'}, '메뉴를 먼저 찾고 싶다면 재료 선택 없이 추천 메뉴의 검색창을 이용해 주세요.'));
+  const selectedPantry=ingredientTab==='pantry';
+  const tabs=el('div',{class:'ingredient-source-tabs',role:'tablist','aria-label':'재료 선택 구분'},[
+    ['pantry',`집에 있는 재료 ${store.pantryIngredientIds.length}`],['planned',`새로 살 관심 재료 ${store.draft.selectedIngredientIds.length}`]
+  ].map(([tab,label])=>button(label,()=>{ingredientTab=tab;drawIngredients();focus(`source-${tab}`);},ingredientTab===tab?'secondary selected':'secondary',{id:`source-${tab}`,role:'tab','aria-selected':String(ingredientTab===tab),'aria-controls':'ingredient-source-panel'})));
+  host.replaceChildren(tabs,el('div',{id:'ingredient-source-panel',role:'tabpanel','aria-labelledby':`source-${ingredientTab}`},ingredientPicker(selectedPantry)),
+    el('div',{class:'actions'},link('추천 메뉴 →',url('recipes.html'),'button primary')));
+}
+
+function addMenu(recipe, replacements = {}, fromSearch = false) {
+  if(store.draft.selectedRecipes.some(s=>s.recipeId===recipe.id))return;
+  const purchaseRows = () => partitionShoppingRows(aggregate(data.ingredients,data.recipes,store.draft.selectedRecipes,store.settings['기본 식사 인원']),store.pantryIngredientIds,data.ingredients)[0].rows;
+  const previousIds=new Set(purchaseRows().map(row=>row.ingredient.id));
+  store.draft.selectedRecipes.push({recipeId:recipe.id,times:1,servings:store.settings['기본 식사 인원'],...(Object.keys(replacements).length?{ingredientReplacements:replacements}:{})});
+  const added=purchaseRows().filter(row=>!previousIds.has(row.ingredient.id));
+  addedMenuFeedback={name:recipe.name,ingredients:added.map(row=>row.ingredient.name),noPurchases:purchaseRows().length===0};
+  if(fromSearch)store.draft.menuQuery='';
+  resetVisible();save();drawRecipes();focus(fromSearch?'menu-search':'results-title');
+}
+function renderAddedMenuFeedback() {
+  const area=document.getElementById('added-menu-feedback');
+  if(!area)return;
+  if(!addedMenuFeedback){area.replaceChildren();return;}
+  const {name,ingredients,noPurchases}=addedMenuFeedback;
+  area.replaceChildren(el('div',{class:'added-feedback-heading'},[el('strong',{},`${name} 메뉴를 담았어요.`),button('닫기',()=>{addedMenuFeedback=null;renderAddedMenuFeedback();focus('results-title');},'secondary',{'aria-label':'재료 추가 알림 닫기'})]),
+    el('p',{},ingredients.length?`새로 추가된 구매 재료: ${ingredients.slice(0,3).join('·')}${ingredients.length>3?` 외 ${ingredients.length-3}개`:''}`:noPurchases?'추가로 구매할 재료가 없어요.':'이미 담긴 재료의 필요량을 업데이트했어요.'),
+    ...(ingredients.length>3?[el('details',{},[el('summary',{},`전체 ${ingredients.length}개 보기`),el('ul',{},ingredients.map(name=>el('li',{},name)))])]:[]));
 }
 
 function drawRecipes() {
@@ -171,6 +262,12 @@ function drawRecipes() {
       event.preventDefault();setMode(MODES[event.key === 'Home' ? 0 : event.key === 'End' ? MODES.length-1 : (index+(event.key === 'ArrowRight'?1:-1)+MODES.length)%MODES.length]);
     }
   })));
+  const allInterestsSelected=interests.length>0&&interests.every(i=>store.draft.activeInterestIds.includes(i.id));
+  const toggleAllInterests=button(allInterestsSelected?'모두 해제':'모두 선택',()=>{
+    store.draft.activeInterestIds=allInterestsSelected?[]:interests.map(i=>i.id);
+    resetVisible();save();drawRecipes();focus('toggle-all-interests');
+    announce(allInterestsSelected?'관심 재료 선택을 모두 해제했어요.':'관심 재료를 모두 선택했어요.');
+  },'secondary interest-select-all',{id:'toggle-all-interests',disabled:!interests.length});
   const interestChips = el('div', {class: 'chips interest-chips', role: 'group', 'aria-label': '활용할 관심 재료'}, interests.map(i => {
     const checked = store.draft.activeInterestIds.includes(i.id);
     return button(`${checked ? '✓ ' : ''}${i.name}`, () => {
@@ -185,8 +282,12 @@ function drawRecipes() {
       resetVisible();save();drawRecipes();focus(`food-${index}`);
     }, checked?'secondary selected':'secondary', {id:`food-${index}`, 'aria-pressed':String(checked)});
   }));
-  const input = el('input', {id:'menu-search', type:'search', value:store.draft.menuQuery, maxLength:200, placeholder:'김치찌개처럼 먹고 싶은 메뉴 검색', autocomplete:'off', 'aria-controls':'menu-results'});
+  const input = el('input', {id:'menu-search', type:'search', value:store.draft.menuQuery, maxLength:200, placeholder:'먹고 싶은 메뉴가 있다면 검색해 보세요', autocomplete:'off', 'aria-controls':'menu-search-list'});
+  const searchList=el('section',{id:'menu-search-list',class:'menu-search-list',hidden:true,'aria-label':'전체 메뉴 검색 결과'});
   const content = el('div', {id:'menu-results'});
+  const resultTitle=el('h2',{id:'results-title',tabIndex:-1},'추천 메뉴');
+  const resultCount=el('span',{class:'muted'});
+  const resultHeading=el('div',{class:'section-heading results-heading'},[resultTitle,resultCount]);
   function renderResults() {
     const query = store.draft.menuQuery.trim();
     const results = query ? searchMenus(data.recipes,query).map(recipe => {
@@ -194,14 +295,39 @@ function drawRecipes() {
       return {recipe, reasons:[`집에 있는 재료 ${availability.owned.length}종 · 구매할 재료 ${availability.buy.length}종`, availability.buy.length ? `구매할 재료: ${availability.buy.join('·')}` : '양념·조미료는 장보기 목록에서 확인해 주세요.'], replacements:replacementsFor(recipe,data.ingredients,[...store.draft.selectedIngredientIds,...store.pantryIngredientIds])};
     }) : recommend(data.ingredients,data.recipes,store.draft,store.excludedRecipeIds,store.pantryIngredientIds);
     const slice = pageResults(results,visible);
+    resultTitle.textContent=query?'메뉴 검색 결과':'추천 메뉴';
+    resultCount.textContent=`${results.length}개 중 ${slice.items.length}개`;
+    searchList.hidden=!query;
+    content.hidden=Boolean(query);
+    if(query) {
+      const choices=slice.items.map(({recipe,replacements})=>{
+        const added=store.draft.selectedRecipes.some(s=>s.recipeId===recipe.id);
+        return button([el('span',{class:'search-menu-name search-result-name'},recipe.name),el('span',{class:'search-result-status'},added?'✓ 담김':'담기 +'),el('span',{class:'search-result-meta'},servingLabel(recipe))],()=>{
+          addMenu(recipe,replacements,true);
+        },'search-menu-option',{disabled:added,'aria-label':`${recipe.name} ${added?'담김':'담기'}`});
+      });
+      choices.forEach((choice,index)=>choice.addEventListener('keydown',event=>{
+        if(event.key==='Escape'){event.preventDefault();input.focus();searchList.hidden=true;}
+        if(!['ArrowDown','ArrowUp'].includes(event.key))return;
+        event.preventDefault();const enabled=choices.filter(b=>!b.disabled),current=enabled.indexOf(choice);
+        const next=enabled[current+(event.key==='ArrowDown'?1:-1)];if(next)next.focus();else input.focus();
+      }));
+      searchList.replaceChildren(...[
+        el('div',{class:'search-list-heading'},[el('span',{role:'status'},`전체 메뉴 검색 · ${results.length}개`),button('검색 지우기',()=>{store.draft.menuQuery='';input.value='';resetVisible();save();renderResults();input.focus();},'secondary')]),
+        ...choices,
+        !choices.length?el('p',{class:'muted'},'검색 결과가 없어요. 다른 메뉴 이름을 입력해 주세요.'):null,
+        slice.hasMore?button('검색 결과 더 보기',()=>{visible+=8;renderResults();},'secondary list-more'):null
+      ].filter(Boolean));
+      return;
+    }
+    searchList.replaceChildren();
     const cards = slice.items.map(({recipe,reasons,replacements}) => {
       const added = store.draft.selectedRecipes.some(s=>s.recipeId===recipe.id);
       return el('article', {class:'recipe-card panel'}, [
         recipe.imagePath ? el('img', {src:recipe.imagePath, alt:'', loading:'lazy', class:'recipe-image'}) : null,
-        el('h3', {},recipe.name), el('p', {class:'muted'},servingLabel(recipe)), el('p', {class:'muted recipe-reason'},reasons[0]),
+        el('h3', {},recipe.name), el('p', {class:'muted recipe-meta'},servingLabel(recipe)),
         el('div', {class:'recipe-card-actions'}, [button(added?'담김':'담기 +', () => {
-          if(!store.draft.selectedRecipes.some(s=>s.recipeId===recipe.id)) store.draft.selectedRecipes.push({recipeId:recipe.id,times:1,...(Object.keys(replacements||{}).length?{ingredientReplacements:replacements}:{})});
-          resetVisible();save();drawRecipes();focus('results-title');announce(`${recipe.name} 메뉴를 담았어요.`);
+          addMenu(recipe,replacements);
         }, 'primary', {disabled:added, 'aria-label':`${recipe.name} 담기`}),
         el('details', {class:'recipe-options'}, [el('summary', {'aria-label':`${recipe.name} 더 보기`},'⋯'), el('div', {class:'recipe-options-content'}, [
           el('ul', {class:'reasons'},reasons.map(reason=>el('li',{},reason))),
@@ -209,20 +335,30 @@ function drawRecipes() {
         ])])])
       ]);
     });
-    content.replaceChildren(...[el('div', {class:'section-heading'}, [el('h2',{id:'results-title',tabIndex:-1},query?'메뉴 검색 결과':'추천 메뉴'),el('span',{class:'muted'},`${results.length}개 중 ${slice.items.length}개`)]),
-      query ? el('p',{class:'muted search-scope'},'전체 등록 메뉴에서 검색해요. 관심 재료·음식 종류·추천 제외 설정은 적용하지 않아요.') : null,
+    content.replaceChildren(...[
+      query ? el('div',{class:'search-scope'},[el('span',{class:'muted'},'전체 메뉴 검색 중 · 추천 조건 미적용'),button('검색 지우기',()=>{store.draft.menuQuery='';input.value='';resetVisible();save();renderResults();input.focus();},'secondary')]) : null,
       cards.length ? el('div',{class:'card-grid'},cards) : empty(query?'검색 결과가 없어요.':'현재 조건에 맞는 추천 메뉴가 없어요.',query?'메뉴 이름을 짧게 바꿔 검색해 주세요.':'관심 재료를 선택하거나 음식 종류를 바꿔 주세요. 메뉴 이름으로 직접 검색할 수도 있어요.'),
       slice.hasMore ? button('더 보기',()=>{visible+=8;renderResults();focus('more');},'secondary',{id:'more'}) : null].filter(Boolean));
   }
+  input.addEventListener('keydown',event=>{
+    if(event.isComposing)return;
+    if(event.key==='Escape'){searchList.hidden=true;}
+    if(['ArrowDown','Enter'].includes(event.key)&&!searchList.hidden){const first=[...searchList.children].find(node=>node.className?.includes('search-menu-option')&&!node.disabled);if(first){event.preventDefault();first.focus();}}
+  });
   input.addEventListener('input',()=>{store.draft.menuQuery=input.value.slice(0,200);resetVisible();save();renderResults();});
-  host.replaceChildren(selectedPanel(),
-    el('section',{class:'recommendation-controls'}, [tabs,el('p',{class:'muted mode-explanation'},MODE_DESCRIPTIONS[modeIndex]),
-      el('div',{class:'section-heading'},[el('h2',{},'관심 재료'),link('새로 살 재료 수정',url('ingredients.html'))]),
-      interests.length?interestChips:el('p',{class:'muted'},'새로 살 재료를 고르면 관심 재료로 표시돼요.'),filters]),
+  host.replaceChildren(
     el('section',{id:'recommendations-panel','aria-label':'추천 메뉴와 검색'},[
-      el('label',{htmlFor:input.id,class:'field-label'},'전체 메뉴 검색'),input,el('div',{id:'recipe-feedback',role:'status','aria-live':'polite'}),content]),
-    el('div',{class:'actions'},link('장보기 목록 →',url('shopping-list.html'),'button primary')));
-  filters.scrollLeft=foodScroll;renderResults();
+      el('section',{class:'recommendation-controls'},[
+        tabs,
+        el('div',{class:'food-kinds'},[el('span',{class:'flow-heading'},'음식 종류'),filters]),
+        modeIndex===1?el('div',{class:'interest-section'},[el('div',{class:'section-heading'},[el('span',{class:'field-label'},'관심 재료'),el('div',{class:'interest-actions'},[toggleAllInterests,link('재료 수정',url('ingredients.html?tab=planned'))])]),interests.length?interestChips:link('관심 재료 고르기',url('ingredients.html?tab=planned'))]):null
+      ]),el('div',{id:'recipe-feedback',role:'status','aria-live':'polite'}),
+      el('div',{id:'added-menu-feedback',role:'status','aria-live':'polite'}),resultHeading,
+      el('label',{htmlFor:input.id,class:'flow-heading'},'메뉴 검색'),input,searchList,content
+    ]),
+    el('div',{class:'recipe-bottom'},[selectedPanel(true),link('장보기 목록 →',url('shopping-list.html'),'button primary')])
+  );
+  filters.scrollLeft=foodScroll;renderResults();renderAddedMenuFeedback();
   function setMode(mode){store.draft.activeRecommendationMode=mode;resetVisible();save();drawRecipes();focus(`mode-${MODES.indexOf(mode)}`);}
 }
 
@@ -240,39 +376,103 @@ function excludeRecipe(recipe) {
 
 function drawShopping() {
   const rows = aggregate(data.ingredients, data.recipes, store.draft.selectedRecipes, store.settings['기본 식사 인원']);
+  const partitions = partitionShoppingRows(rows,store.pantryIngredientIds,data.ingredients);
+  const excludedIds=store.draft.excludedShoppingIngredientIds || [];
+  const excludedRows=partitions[0].rows.filter(row=>excludedIds.includes(row.ingredient.id));
+  partitions[0].rows=partitions[0].rows.filter(row=>!excludedIds.includes(row.ingredient.id));
+  const buying=partitions[0].rows;
+  const selectedRows=buying.filter(row=>store.draft.checkedIngredientIds.includes(row.ingredient.id));
   const copyFallback = el('div');
   const copyButton = button('목록 복사', async () => {
-    const text = copyText(rows, store.draft.checkedIngredientIds, store.pantryIngredientIds, data.ingredients);
+    const text = selectedCopyText(buying, store.draft.checkedIngredientIds);
     try { await navigator.clipboard.writeText(text); announce('목록을 복사했어요.', true); }
     catch {
       const area = el('textarea', { readOnly: true, rows: 10, value: text, 'aria-label': '복사할 장보기 목록' });
       copyFallback.replaceChildren(el('p', { class: 'notice warning' }, '복사하지 못했어요. 아래 목록을 선택해 복사해 주세요.'), area);
       area.focus(); area.select();
     }
-  }, 'secondary', { disabled: !rows.length });
-  const groups = partitionShoppingRows(rows, store.pantryIngredientIds, data.ingredients).map(({title: category, rows: group}) => {
-    if (!group.length) return null;
-    return el('section', { class: 'panel shopping-category' }, [el('h2', {}, category), ...group.map(row => {
-      const checked = store.draft.checkedIngredientIds.includes(row.ingredient.id);
-      const check = el('input', { type: 'checkbox', id: `check-${row.ingredient.id}`, checked, onchange: event => {
-        const ids = store.draft.checkedIngredientIds;
-        store.draft.checkedIngredientIds = event.target.checked ? [...new Set([...ids, row.ingredient.id])] : ids.filter(id => id !== row.ingredient.id);
-        save(); draw(); focus(`check-${row.ingredient.id}`);
-      } });
-      return el('div', { class: `shopping-row${checked ? ' is-checked' : ''}` }, [
-        el('div', { class: 'shopping-main' }, [el('label', { class: 'check-label', htmlFor: check.id }, [check, el('span', { class: 'ingredient-name' }, row.ingredient.name)]), el('strong', { class: 'quantity' }, totalText(row))]),
-        row.estimated ? el('p', { class: 'muted' }, '인분 추정 포함') : null,
-        el('ul', { class: 'uses' }, row.uses.map(use => el('li', {}, [
-          el('span', { class: 'use-name' }, use.name),
-          ' ', el('span', { class: 'use-detail' }, `· ${use.servings}명분 ×${use.times}회`),
-          ' ', el('span', { class: 'use-detail' }, `· ${quantity(use.amount, use.unit)}`)
+  }, 'secondary', { id:'copy-selected', disabled: !selectedRows.length });
+  const allSelected=buying.length>0&&selectedRows.length===buying.length;
+  const toggleAll=el('input',{type:'checkbox',id:'toggle-shopping-selection',checked:allSelected,disabled:!buying.length,
+    'aria-label':'구매할 재료 전체 선택 또는 해제',onchange:()=>{
+      store.draft.checkedIngredientIds=allSelected?[]:buying.map(row=>row.ingredient.id);
+      save();drawShopping();focus('toggle-shopping-selection');
+    }});
+  toggleAll.indeterminate=selectedRows.length>0&&!allSelected;
+  const purchaseHeading=el('div',{class:'purchase-heading'},[
+    el('h2',{},`구매할 재료 ${buying.length}종`)
+  ]);
+  const excludeSelected=button('구매 제외',()=>{
+    const selectedIds=selectedRows.map(row=>row.ingredient.id);
+    let applied=false;
+    const cancel=button('취소',()=>dialog.close(),'secondary');
+    function applyReason(owned) {
+      if(owned) {
+        store.setPantryIngredientIds([...new Set([...store.pantryIngredientIds,...selectedIds])]);
+        store.draft.excludedShoppingIngredientIds=excludedIds.filter(id=>!selectedIds.includes(id));
+        ownedOpen=true;
+      } else {
+        store.draft.excludedShoppingIngredientIds=[...new Set([...excludedIds,...selectedIds])];
+      }
+      store.draft.checkedIngredientIds=store.draft.checkedIngredientIds.filter(id=>!selectedIds.includes(id));
+      applied=true;save();drawShopping();dialog.close();
+      focus(owned?'owned-shopping-summary':'excluded-shopping-summary');
+      announce(`${selectedIds.length}개 재료를 ${owned?'집에 있는 재료로 저장했어요.':'이번 구매에서 제외했어요.'}`);
+    }
+    const dialog=el('dialog',{'aria-labelledby':'exclude-ingredients-title','aria-describedby':'exclude-ingredients-description'},[
+      el('h2',{id:'exclude-ingredients-title'},'구매 목록에서 제외할까요?'),
+      el('p',{id:'exclude-ingredients-description'},`선택한 재료 ${selectedIds.length}종의 제외 이유를 골라 주세요.`),
+      el('div',{class:'exclusion-reasons'},[
+        button([el('strong',{},'이미 있어요'),el('span',{class:'muted'},'집에 있는 재료로 저장해 다음 장보기에도 반영해요.')],()=>applyReason(true),'secondary'),
+        button([el('strong',{},'지금은 안 사고 싶어요'),el('span',{class:'muted'},'이번 장보기에서만 제외해요. 나중에 복원할 수 있어요.')],()=>applyReason(false),'secondary')
+      ]),cancel
+    ]);
+    dialog.addEventListener('close',()=>{dialog.remove();if(!applied)focus('exclude-selected-ingredients');});
+    document.body.append(dialog);dialog.showModal();cancel.focus();
+  },'secondary',{id:'exclude-selected-ingredients',disabled:!selectedRows.length});
+  const excludedSection=excludedRows.length?el('details',{class:'shopping-category excluded-shopping',open:excludedShoppingOpen},[
+    el('summary',{id:'excluded-shopping-summary'},`구매에서 제외한 재료 ${excludedRows.length}개`),
+    ...excludedRows.map(row=>el('div',{class:'excluded-shopping-row'},[
+      el('span',{},row.ingredient.name),el('span',{class:'quantity'},totalText(row)),
+      button('복원',()=>{
+        store.draft.excludedShoppingIngredientIds=excludedIds.filter(id=>id!==row.ingredient.id);
+        store.draft.checkedIngredientIds=store.draft.checkedIngredientIds.filter(id=>id!==row.ingredient.id);
+        save();drawShopping();focus(`check-${row.ingredient.id}`);announce(`${row.ingredient.name} 재료를 복원했어요.`);
+      },'secondary',{'aria-label':`${row.ingredient.name} 구매 목록에 복원`})
+    ]))
+  ]):null;
+  excludedSection?.addEventListener('toggle',()=>{excludedShoppingOpen=excludedSection.open;});
+  const groups = partitions.map(({title,rows:group})=>{
+    if(!group.length&&title!=='구매할 재료')return null;
+    const list=group.map(row=>{
+      const id=row.ingredient.id, checked=store.draft.checkedIngredientIds.includes(id);
+      const check=el('input',{type:'checkbox',id:`check-${id}`,checked,'aria-label':`${row.ingredient.name} 선택`,onchange:event=>{
+        store.draft.checkedIngredientIds=event.target.checked?[...new Set([...store.draft.checkedIngredientIds,id])]:store.draft.checkedIngredientIds.filter(x=>x!==id);
+        save();drawShopping();focus(`check-${id}`);
+      }});
+      const open=expandedIngredients.has(id);
+      return el('div',{class:`shopping-row${checked?' is-checked':''}`},[
+        el('div',{class:`shopping-main${title==='집에 있는 재료'?' owned-main':''}`},[title==='집에 있는 재료'?null:el('label',{class:'check-label',htmlFor:check.id},check),
+          button([el('span',{class:'ingredient-name'},[row.ingredient.name,row.ingredient.isSeasoning?el('span',{class:'seasoning-tag'},'양념'):null]),el('span',{class:'quantity'},totalText(row)),el('span',{'aria-hidden':'true'},open?'⌃':'⌄')],()=>{
+            if(open)expandedIngredients.delete(id);else expandedIngredients.add(id);
+            drawShopping();focus(`ingredient-detail-${id}`);
+          },'ingredient-detail',{id:`ingredient-detail-${id}`,'aria-expanded':String(open),'aria-controls':`uses-${id}`})
+        ]),
+        el('ul',{class:'uses',id:`uses-${id}`,hidden:!open},row.uses.map(use=>el('li',{},[
+          el('span',{class:'use-name'},use.name),' ',el('span',{class:'use-detail'},`· ${use.servings*use.times}인분`),' ',el('span',{class:'use-detail'},`· ${quantity(use.amount,use.unit)}`)
         ])))
       ]);
-    })]);
+    });
+    if(title==='집에 있는 재료') {
+      const details=el('details',{class:'shopping-category owned-disclosure',open:ownedOpen},[el('summary',{id:'owned-shopping-summary',tabIndex:-1},`집에 있는 재료 ${group.length}종 · 필요량 확인`),...list]);
+      details.addEventListener('toggle',()=>{ownedOpen=details.open;});return details;
+    }
+    return el('section',{class:'shopping-category purchase-category'},[purchaseHeading,el('div',{class:'purchase-controls'},[el('div',{class:'purchase-selection-info'},[el('label',{class:'purchase-select-label',htmlFor:toggleAll.id},[toggleAll,'전체 선택']),el('span',{class:'muted purchase-selection-count'},`선택 ${selectedRows.length}종`)]),el('div',{class:'shopping-selection-actions'},[copyButton,excludeSelected])]),copyFallback,...list]);
   }).filter(Boolean);
-  host.replaceChildren(selectedPanel(), el('div', { class: 'section-heading shopping-toolbar' }, [el('p', { class: 'muted' }, `재료 ${rows.length}종 · 구매 체크 ${rows.filter(r => store.draft.checkedIngredientIds.includes(r.ingredient.id)).length}종`), copyButton]), copyFallback,
+  host.replaceChildren(selectedPanel(),
     ...(rows.length ? groups : [empty('선택한 메뉴가 없어요.', '메뉴를 담으면 재료별 필요량을 모아드려요.', url('recipes.html'), '추천 메뉴')]),
-    el('p', { class: 'notice' }, '필요량은 메뉴의 기준 인분과 조리 횟수로 계산해요. 최종 구매 여부와 구매 포장 단위는 직접 확인해 주세요.'),
+    ...(excludedSection?[excludedSection]:[]),
+    el('p', { class: 'notice' }, '필요량은 선택 메뉴에 표시된 인분으로 계산해요. 최종 구매 여부와 구매 포장 단위는 직접 확인해 주세요.'),
     el('div', { class: 'actions' }, [link('추천 메뉴', url('recipes.html'), 'button secondary'), link('재료 선택', url('ingredients.html'), 'button secondary')]),
     el('div', { class: 'reset-area' }, button('새 장보기 시작', openReset, 'text-danger', { id: 'reset-draft' })));
 }
@@ -281,7 +481,7 @@ function openReset() {
   const cancel = button('취소', () => dialog.close(), 'secondary');
   const dialog = el('dialog', { 'aria-labelledby': 'reset-title', 'aria-describedby': 'reset-description' }, [
     el('h2', { id: 'reset-title' }, '새 장보기 시작'),
-    el('p', { id: 'reset-description' }, '현재 관심 식재료, 선택 메뉴, 조리 횟수, 구매 체크를 지우고 새 장보기를 시작할까요? 기본 설정·집에 있는 재료·제외한 메뉴는 유지돼요.'),
+    el('p', { id: 'reset-description' }, '현재 관심 식재료, 선택 메뉴, 인분, 재료 선택과 구매 제외를 지우고 새 장보기를 시작할까요? 기본 설정·집에 있는 재료·제외한 메뉴는 유지돼요.'),
     el('div', { class: 'actions' }, [cancel, button('새 장보기 시작', () => {
       const saved = store.reset(); dialog.close(); warnings();
       if (saved) location.assign(url('ingredients.html'));
@@ -330,7 +530,7 @@ function drawSettings() {
     catch { announce('제외한 메뉴를 불러오지 못했어요. 연결을 확인하고 다시 눌러 주세요.'); }
     finally { manage.disabled = false; }
   }, 'secondary', { id: 'manage-excluded' });
-  host.replaceChildren(form, link('집에 있는 재료 수정', url('index.html#pantry'), 'button secondary'), el('section', { class: 'panel exclusion-settings' }, [el('h2', {}, '추천 제외 설정'), manage, el('p', { class: 'muted' }, '제외한 메뉴는 새 장보기를 시작해도 유지돼요. 여기서 다시 추천받을 수 있어요.')])); describe();
+  host.replaceChildren(form, link('집에 있는 재료 수정', url('ingredients.html?tab=pantry'), 'button secondary'), el('section', { class: 'panel exclusion-settings' }, [el('h2', {}, '추천 제외 설정'), manage, el('p', { class: 'muted' }, '제외한 메뉴는 새 장보기를 시작해도 유지돼요. 여기서 다시 추천받을 수 있어요.')])); describe();
   if (new URLSearchParams(location.search).get('excluded') === '1') { manage.click(); history.replaceState(null, '', location.href.replace(/&excluded=1/, '')); }
 }
 
@@ -392,13 +592,9 @@ async function start() {
   host.setAttribute('aria-busy', 'true');
   host.replaceChildren(el('p', { class: 'loading', role: 'status' }, '재료와 메뉴를 불러오는 중이에요.'));
   try {
-    data = await loadData(); store.reconcile(data.ingredients, data.recipes); warnings(); draw();
+    data = await loadData(); store.reconcile(data.ingredients, data.recipes); save(); draw();
     // The fragment target does not exist until the asynchronous data load finishes.
-    if (page === 'home' && location.hash === '#pantry') {
-      const pantry = document.getElementById('pantry');
-      pantry.focus({ preventScroll: true });
-      pantry.scrollIntoView({ block: 'start', behavior: 'instant' });
-    }
+    if (page === 'home' && location.hash === '#pantry') location.assign(url('ingredients.html?tab=pantry'));
   }
   catch { host.replaceChildren(empty('데이터를 불러오지 못했어요.', '연결을 확인하고 다시 시도해 주세요. 저장된 장보기는 지우지 않았어요.'), button('다시 시도', start, 'primary')); }
   finally { host.setAttribute('aria-busy', 'false'); }

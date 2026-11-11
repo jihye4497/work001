@@ -11,9 +11,10 @@ export function validDraft(d) {
   return d && d.schemaVersion === 1 && [...MODES,...LEGACY_MODES].includes(d.activeRecommendationMode) &&
     (d.activeInterestIds === undefined || (Array.isArray(d.activeInterestIds) && d.activeInterestIds.every(id=>typeof id==='string') && new Set(d.activeInterestIds).size===d.activeInterestIds.length)) &&
     (d.menuQuery === undefined || (typeof d.menuQuery==='string'&&d.menuQuery.length<=200)) &&
+    ['manualIngredientIds', 'suppressedAutoIngredientIds', 'excludedShoppingIngredientIds'].every(k => d[k] === undefined || (Array.isArray(d[k]) && d[k].every(id => typeof id === 'string') && new Set(d[k]).size === d[k].length)) &&
     (d.selectedFoodCategories === undefined || validFoodCategories(d.selectedFoodCategories)) &&
     ['selectedIngredientIds', 'checkedIngredientIds'].every(k => Array.isArray(d[k]) && d[k].every(id => typeof id === 'string') && new Set(d[k]).size === d[k].length) &&
-    Array.isArray(d.selectedRecipes) && d.selectedRecipes.every(s => s && typeof s.recipeId === 'string' && Number.isSafeInteger(s.times) && s.times >= 1 && (s.ingredientReplacements===undefined || (s.ingredientReplacements&&typeof s.ingredientReplacements==='object'&&!Array.isArray(s.ingredientReplacements)&&Object.values(s.ingredientReplacements).every(id=>typeof id==='string')))) &&
+    Array.isArray(d.selectedRecipes) && d.selectedRecipes.every(s => s && typeof s.recipeId === 'string' && Number.isSafeInteger(s.times) && s.times >= 1 && (s.servings===undefined || (Number.isSafeInteger(s.servings)&&s.servings>=1)) && (s.ingredientReplacements===undefined || (s.ingredientReplacements&&typeof s.ingredientReplacements==='object'&&!Array.isArray(s.ingredientReplacements)&&Object.values(s.ingredientReplacements).every(id=>typeof id==='string')))) &&
     new Set(d.selectedRecipes.map(s => s.recipeId)).size === d.selectedRecipes.length;
 }
 
@@ -43,6 +44,7 @@ export function createStore(storage) {
     draft.activeRecommendationMode=normalizeMode(draft.activeRecommendationMode);
     draft.activeInterestIds ??= [...draft.selectedIngredientIds];
     draft.menuQuery ??= '';
+    draft.excludedShoppingIngredientIds ??= [];
     draft.selectedFoodCategories ||= [];
     const preferences = read(KEYS.preferences, p => p && p.schemaVersion === 1 && Array.isArray(p.excludedRecipeIds) && p.excludedRecipeIds.every(id => typeof id === 'string') && new Set(p.excludedRecipeIds).size === p.excludedRecipeIds.length, { excludedRecipeIds: [] });
     excludedRecipeIds = preferences.excludedRecipeIds;
@@ -88,6 +90,7 @@ export function createStore(storage) {
       const before = JSON.stringify(draft);
       draft.selectedIngredientIds = draft.selectedIngredientIds.filter(id => ids.has(id));
       draft.activeInterestIds = draft.activeInterestIds.filter(id=>draft.selectedIngredientIds.includes(id));
+      draft.excludedShoppingIngredientIds = (draft.excludedShoppingIngredientIds || []).filter(id => ids.has(id));
       draft.checkedIngredientIds = draft.checkedIngredientIds.filter(id => ids.has(id));
       draft.selectedRecipes = draft.selectedRecipes.filter(s => rids.has(s.recipeId));
       for(const selection of draft.selectedRecipes) if(selection.ingredientReplacements) {

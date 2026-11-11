@@ -105,3 +105,33 @@ test('삭제된 ID만 정리하고 유효한 메뉴와 횟수 보존', () => {
   assert.deepEqual(store.draft.selectedRecipes, [{ recipeId: 'squid-stir', times: 2 }]);
   assert.ok(store.warnings.length);
 });
+
+
+test('메뉴별 정수 인분은 원본 비례 계산·저장 복원하고 잘못된 인분을 거절',()=>{
+ const fixture=[{...recipe('portion','인분 테스트','찌개',[['onion',400,'g']]),baseServings:4}];
+ const d=draft();d.selectedRecipes=[{recipeId:'portion',times:2,servings:3}];
+ assert.equal(totalText(aggregate(ingredients,fixture,d.selectedRecipes,2)[0]),'300g');
+ assert.equal(totalText(aggregate(ingredients,fixture,d.selectedRecipes,4)[0]),'300g');
+ const storage=memory();const store=createStore(storage);store.draft.selectedRecipes=d.selectedRecipes;store.saveDraft();
+ assert.equal(createStore(storage).draft.selectedRecipes[0].servings,3);
+ for(const servings of [0,-1,1.5,'3',null,Number.MAX_SAFE_INTEGER+1]) {
+  assert.equal(validDraft({...d,selectedRecipes:[{recipeId:'portion',times:1,servings}]}),false);
+ }
+ assert.equal(validDraft(d),true);
+});
+
+
+test('물·생수는 구매와 선택 복사에서 제외하고 원본 합산·탄산수·육수는 보존',async()=>{
+ const {partitionShoppingRows,selectedCopyText}=await import('../js/shopping-list.js');
+ const names=['물','생수','탄산수','육수'];
+ const items=names.map(name=>ingredients.find(i=>i.name===name));assert.ok(items.every(Boolean));
+ const r=recipe('water-check','물 제외 확인','찌개',items.map(i=>[i.id,100,'g']));
+ const rows=aggregate(ingredients,[r],[{recipeId:r.id,times:1}],2);
+ assert.equal(rows.length,4);assert.ok(rows.every(row=>totalText(row)==='100g'));
+ const groups=partitionShoppingRows(rows,[],ingredients);
+ assert.deepEqual(new Set(groups[0].rows.map(row=>row.ingredient.name)),new Set(['탄산수','육수']));
+ const copied=selectedCopyText(rows,items.map(i=>i.id));
+ assert.deepEqual(new Set(copied.split('\n')),new Set(['탄산수: 100g','육수: 100g']));
+ assert.equal(partitionShoppingRows(rows,[items[0].id],ingredients)[1].rows[0].ingredient.name,'물');
+ assert.equal(r.ingredients.length,4);
+});

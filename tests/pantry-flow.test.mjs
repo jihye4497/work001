@@ -31,7 +31,7 @@ test('김치찌개 부위 대체는 실제 선택 부위로 합산하고 동일 
  const rows=aggregate(foods,[stew],[{recipeId:'stew',times:2,ingredientReplacements:result.replacements}],3);
  assert.equal(totalText(rows.find(r=>r.ingredient.id==='neck')),'60g');
  assert.ok(!rows.some(r=>r.ingredient.id==='front'));
- assert.deepEqual(partitionShoppingRows(rows,['onion'],foods).map(g=>g.rows.map(r=>r.ingredient.id)),[['neck'],['onion'],['salt']]);
+ assert.deepEqual(partitionShoppingRows(rows,['onion'],foods).map(g=>g.rows.map(r=>r.ingredient.id)),[['neck','salt'],['onion']]);
  assert.match(copyText(rows,[],['onion'],foods),/구매할 재료\n\[ \] 돼지고기 목살: 60g/);
  assert.deepEqual(recommend(foods,[stew],draft(['beef'])),[]);
  assert.deepEqual(recommend(foods,[stew],draft(['mince'])),[]);
@@ -54,4 +54,24 @@ test('예전 세 방식 저장값을 변환하고 보유·제외는 새 장보�
  assert.equal(restored.draft.menuQuery,'김치');restored.reset();
  assert.deepEqual(restored.pantryIngredientIds,['onion']);assert.deepEqual(restored.excludedRecipeIds,['b']);
  assert.equal(restored.draft.menuQuery,'');assert.deepEqual(restored.draft.activeInterestIds,[]);
+});
+
+test('양념은 보유 선택 시에만 보유 구획으로 이동하며 접힘과 무관한 복사에 포함',()=>{
+ const recipe=dish('a','오징어볶음',['squid','salt']);
+ const rows=aggregate(foods,[recipe],[{recipeId:'a',times:1}],1);
+ assert.deepEqual(partitionShoppingRows(rows,[],foods).map(g=>g.rows.map(r=>r.ingredient.id)),[['squid','salt'],[]]);
+ assert.deepEqual(partitionShoppingRows(rows,['salt'],foods).map(g=>g.rows.map(r=>r.ingredient.id)),[['squid'],['salt']]);
+ assert.match(copyText(rows,[],['salt'],foods),/집에 있는 재료\n\[ \] 소금: 10g \(양념\)/);
+});
+
+test('구매 최소는 관심 해제에 영향받지 않고 보유만으로 추천하며 미보유 양념을 추가 구매에 포함',()=>{
+ const recipes=[dish('a','오징어볶음',['squid','onion']),dish('b','오징어무침',['squid','salt'])];
+ const d={...draft(['squid']),activeRecommendationMode:MODES[0],activeInterestIds:[]};
+ assert.equal(recommend(foods,recipes,d,[],['onion']).length,2);
+ const ownedOnly={...d,selectedIngredientIds:[]};
+ const result=recommend(foods,recipes,ownedOnly,[],['squid','onion']);
+ assert.equal(result[0].recipe.id,'a');assert.deepEqual(result[0].extra,[]);
+ assert.deepEqual(result.find(r=>r.recipe.id==='b').extra,['salt']);
+ assert.deepEqual(recommend(foods,recipes,ownedOnly),[]);
+ d.activeRecommendationMode=MODES[1];assert.deepEqual(recommend(foods,recipes,d,[],['squid']),[]);
 });

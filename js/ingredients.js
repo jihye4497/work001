@@ -47,3 +47,15 @@ export async function loadData() {
   const recipes=applyRecipeCategories(data[1],data[2]).map(r=>({...r,primaryIngredientIds:primaryIngredientIds(r,byId)}));
   return validateData(data[0],recipes);
 }
+
+// Display-only curation; imported ingredient definitions remain unchanged.
+const QUICK_PICK_NAMES = {
+  '채소·버섯': ['양파','팽이버섯','감자','당근','애호박','대파','청양고추','풋고추','표고버섯','단호박','마늘','양배추','오이','무','콩나물','시금치','브로콜리','깻잎','새송이버섯','양송이버섯'],
+  '육류·해산물': ['오징어','돼지 앞다리살','새우','국멸치','소고기','삼겹살','닭다릿살','닭 가슴살','고등어','갈치','연어','꽃게','바지락','홍합','굴','낙지','주꾸미','베이컨','돼지고기 목심','소고기 다짐육'],
+  '두부·계란·기타': ['계란','두부','쌀','김치','밥','순두부','연두부','우유','치즈','플레인 요거트','당면','소면','스파게티','어묵','떡','누룽지','밀가루','부침가루','전분','라이스페이퍼'],
+  '양념·조미료': ['식용유','소금','후추가루','고추장','고춧가루','설탕','물엿','맛술','다진 마늘','참기름','된장','카레 가루','간장','국간장','식초','참깨','올리브유','굴소스','액젓','마요네즈']
+};
+export function quickPickIngredients(ingredients, category) {
+  const group = ingredients.filter(i => i.category === category);
+  return (QUICK_PICK_NAMES[category] || []).map(name => group.find(i => i.name === name)).filter(Boolean);
+}
