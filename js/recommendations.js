@@ -5,7 +5,7 @@ export const MODE_DESCRIPTIONS = [
   '선택 메뉴에 없는 조리 유형을 먼저 보여줘요. 관심 식재료와 공통 재료도 함께 고려해요.'
 ];
 
-export function recommend(ingredients, recipes, draft) {
+export function recommend(ingredients, recipes, draft, excludedRecipeIds = []) {
   const general = new Set(ingredients.filter(i => !i.isSeasoning).map(i => i.id));
   const interests = new Set(draft.selectedIngredientIds.filter(id => general.has(id)));
   if (!interests.size) return [];
@@ -13,7 +13,9 @@ export function recommend(ingredients, recipes, draft) {
   const used = new Set(selected.flatMap(r => r.ingredients.map(i => i.ingredientId)).filter(id => general.has(id)));
   const types = new Set(selected.map(r => r.cookingType));
   const names = new Map(ingredients.map(i => [i.id, i.name]));
-  const pool = recipes.filter(r => !selected.some(s => s.id === r.id)).map(recipe => {
+  const excluded = new Set(excludedRecipeIds);
+  const categories = draft.selectedFoodCategories || [];
+  const pool = recipes.filter(r => !excluded.has(r.id) && !selected.some(s => s.id === r.id) && (!categories.length || r.foodCategories?.some(c => categories.includes(c)))).map(recipe => {
     const ids = [...new Set(recipe.ingredients.map(i => i.ingredientId))].filter(id => general.has(id));
     const matches = ids.filter(id => interests.has(id));
     const shared = ids.filter(id => used.has(id));

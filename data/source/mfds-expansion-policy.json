@@ -407,5 +407,7 @@
     "bakery": "제빵·제과 메뉴 제외",
     "pickles": "미표기 대량 절임은 추정하지 않고 향후 반찬 구분 검토용으로 보류"
   },
-  "approvedSnapshotHash": "dd042f6f6ecc6cbf3af99f83db2c5693dbc03b4ad4fc737e3ea962fd498632d4"
+  "approvedSnapshotHash": "dd042f6f6ecc6cbf3af99f83db2c5693dbc03b4ad4fc737e3ea962fd498632d4",
+  "expansionApprovedOn": "2026-11-11",
+  "confirmedServingRule": "사용자 직접 확인 및 승인(2026-11-11): 인분 미표기 메뉴는 1인분 기준으로 사용. 원문에 명시된 2·4인분 등의 기준은 우선 보존. 공식 원문 전체 검증 완료를 의미하지 않으며 재료량·원문 단위는 변환하지 않음."
 }

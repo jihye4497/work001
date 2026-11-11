@@ -1,19 +1,21 @@
 import { MODES } from './recommendations.js';
-export const KEYS = { settings: 'jmd_settings_v1', draft: 'jmd_draft_v1', meta: 'jmd_meta_v1' };
+import { validFoodCategories } from './recipe-filters.js';
+export const KEYS = { settings: 'jmd_settings_v1', draft: 'jmd_draft_v1', meta: 'jmd_meta_v1', preferences: 'jmd_recipe_preferences_v1' };
 export const defaultSettings = () => ({ '기본 식사 인원': 1, '기본 추천 방식': MODES[0] });
-export const defaultDraft = (mode = MODES[0]) => ({ schemaVersion: 1, selectedIngredientIds: [], selectedRecipes: [], activeRecommendationMode: MODES.includes(mode) ? mode : MODES[0], checkedIngredientIds: [] });
+export const defaultDraft = (mode = MODES[0]) => ({ schemaVersion: 1, selectedIngredientIds: [], selectedRecipes: [], activeRecommendationMode: MODES.includes(mode) ? mode : MODES[0], checkedIngredientIds: [], selectedFoodCategories: [] });
 export function validSettings(s) {
   return s && Number.isInteger(s['기본 식사 인원']) && s['기본 식사 인원'] >= 1 && s['기본 식사 인원'] <= 4 && [...MODES, '세 가지 모두 비교'].includes(s['기본 추천 방식']);
 }
 export function validDraft(d) {
   return d && d.schemaVersion === 1 && MODES.includes(d.activeRecommendationMode) &&
+    (d.selectedFoodCategories === undefined || validFoodCategories(d.selectedFoodCategories)) &&
     ['selectedIngredientIds', 'checkedIngredientIds'].every(k => Array.isArray(d[k]) && d[k].every(id => typeof id === 'string') && new Set(d[k]).size === d[k].length) &&
     Array.isArray(d.selectedRecipes) && d.selectedRecipes.every(s => s && typeof s.recipeId === 'string' && Number.isSafeInteger(s.times) && s.times >= 1) &&
     new Set(d.selectedRecipes.map(s => s.recipeId)).size === d.selectedRecipes.length;
 }
 
 export function createStore(storage) {
-  let settings = defaultSettings(), draft = defaultDraft(), configured = false;
+  let settings = defaultSettings(), draft = defaultDraft(), configured = false, excludedRecipeIds = [];
   const warnings = new Set();
   const warn = text => warnings.add(text);
   const unavailable = '이 브라우저에 저장하지 못했어요. 지금 화면에서는 계속 사용할 수 있지만 다시 방문하면 내용이 남지 않을 수 있어요.';
@@ -34,6 +36,9 @@ export function createStore(storage) {
     configured = settings !== null;
     settings ||= defaultSettings();
     draft = read(KEYS.draft, validDraft, defaultDraft(settings['기본 추천 방식']));
+    draft.selectedFoodCategories ||= [];
+    const preferences = read(KEYS.preferences, p => p && p.schemaVersion === 1 && Array.isArray(p.excludedRecipeIds) && p.excludedRecipeIds.every(id => typeof id === 'string') && new Set(p.excludedRecipeIds).size === p.excludedRecipeIds.length, { excludedRecipeIds: [] });
+    excludedRecipeIds = preferences.excludedRecipeIds;
     read(KEYS.meta, m => m && m.schemaVersion === 1 && typeof m.lastSavedAt === 'string' && Number.isFinite(Date.parse(m.lastSavedAt)), null);
   }
   function saveDraft() {
@@ -46,6 +51,13 @@ export function createStore(storage) {
   restore();
   return {
     get settings() { return settings; }, get draft() { return draft; }, get configured() { return configured; },
+    get excludedRecipeIds() { return [...excludedRecipeIds]; },
+    setExcludedRecipeIds(ids) {
+      if (!Array.isArray(ids) || !ids.every(id => typeof id === 'string')) throw new Error('제외한 메뉴를 확인해 주세요.');
+      excludedRecipeIds = [...new Set(ids)];
+      try { storage.setItem(KEYS.preferences, JSON.stringify({ schemaVersion: 1, excludedRecipeIds })); return true; }
+      catch { warn(unavailable); return false; }
+    },
     get warnings() { return [...warnings]; },
     saveDraft,
     saveSettings(next) {

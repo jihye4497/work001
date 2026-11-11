@@ -12,13 +12,18 @@ import { parseWrittenAmount } from '../scripts/mfds-quantity.mjs';
 const load = async path => JSON.parse(await readFile(new URL(path, import.meta.url), 'utf8'));
 const snapshot = await load('../data/source/mfds-page2.json');
 const expandedReviews = await load('../data/source/mfds-reviews.json');
-const reviews = expandedReviews.filter(r=>!r.reviewBatch);
+const reviews = structuredClone(expandedReviews.filter(r=>!r.reviewBatch)).map(r=>{
+  if(r.servingsStatus==='user-confirmed' && r.previousServingsEvidence) {
+    r.servingsStatus='estimated';r.servingsEvidence=r.previousServingsEvidence;
+  }
+  return r;
+});
 const fullSnapshot = await load('../data/source/mfds-response.json');
 const supplement = await load('../data/source/mfds-supplement.json');
 const allIngredients = await load('../data/ingredients.json');
 const expandedRecipes = await load('../data/recipes.json');
 // Keep the original 33-menu fixtures to verify earlier behavior independently.
-const allRecipes = expandedRecipes.filter(r=>!r.id.startsWith('mfds-cookrcp01-') || reviews.some(v=>r.id===`mfds-cookrcp01-${v.sourceId}`));
+const allRecipes = auditAndMerge([fullSnapshot,supplement],allIngredients,expandedRecipes.filter(r=>!r.id.startsWith('mfds-cookrcp01-')),reviews,'2026-11-10').recipes;
 const oldIngredients = allIngredients.filter(i => !reviews[0].ingredientDefinitions.some(d => d.id === i.id));
 const oldRecipes = allRecipes.filter(r => !r.id.startsWith('mfds-cookrcp01-'));
 const run = (snapshots = [snapshot], checked = reviews, rs = oldRecipes) => auditAndMerge(snapshots, oldIngredients, rs, checked, '2026-11-10');
@@ -167,7 +172,7 @@ test('확장 데이터는 전체 원문 재검증·재실행 시 기존 메뉴�
 test('명시 인분과 180mg을 보존하고 인원·횟수에 따라 같은 단위로만 계산',()=>{
   const risotto=expandedRecipes.find(r=>r.id==='mfds-cookrcp01-353');
   const milkId=allIngredients.find(i=>i.name==='우유').id;
-  assert.equal(risotto.servingsStatus,'estimated');
+  assert.equal(risotto.servingsStatus,'user-confirmed');
   assert.equal(risotto.ingredients.find(i=>i.ingredientId===milkId).amount,180);
   assert.equal(risotto.ingredients.find(i=>i.ingredientId===milkId).unit,'mg');
   const rows=aggregate(allIngredients,expandedRecipes,[{recipeId:risotto.id,times:2}],2);

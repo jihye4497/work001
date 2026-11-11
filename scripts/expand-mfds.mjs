@@ -3,18 +3,28 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { hash, explicitServing, normalizeName, auditAndMerge } from './import-mfds.mjs';
 import { parseWrittenAmount, parsePlainAmount } from './mfds-quantity.mjs';
+import { applyRecipeCategories } from '../js/recipe-filters.js';
+import { classifyMfdsMenu } from './mfds-menu-categories.mjs';
 const read = async p => JSON.parse(await readFile(new URL('../'+p,import.meta.url),'utf8'));
 const write = async (p,v) => writeFile(new URL('../'+p,import.meta.url),JSON.stringify(v,null,2)+'\n');
 const policy=await read('data/source/mfds-expansion-policy.json');
+const expandAll=process.argv.includes('--all-reviewed');
+if(expandAll && !policy.expansionApprovedOn) throw Error('확대 검수 승인이 필요합니다.');
+const extraReview=expandAll?await read('data/source/mfds-ingredient-review.json'):{categories:{},sections:{}};
 const snapshot=await read('data/source/mfds-response.json');
 if(hash(JSON.stringify(snapshot.COOKRCP01.row))!==policy.approvedSnapshotHash) throw Error('승인 후 원본 목록이 변경되었습니다. 재검토가 필요합니다.');
 const supplement=await read('data/source/mfds-supplement.json');
 const ingredients=await read('data/ingredients.json'), allRecipes=await read('data/recipes.json');
 const allReviews=await read('data/source/mfds-reviews.json');
-const batchIds=new Set(allReviews.filter(r=>r.reviewBatch==='2026-11-10-expansion').map(r=>`mfds-cookrcp01-${r.sourceId}`));
+const batchIds=new Set(allReviews.filter(r=>!expandAll && r.reviewBatch==='2026-11-10-expansion').map(r=>`mfds-cookrcp01-${r.sourceId}`));
 const recipes=allRecipes.filter(r=>!batchIds.has(r.id));
 const baseRecipes=structuredClone(recipes);
-const reviews=allReviews.filter(r=>r.reviewBatch!=='2026-11-10-expansion');
+const reviews=allReviews.filter(r=>expandAll || r.reviewBatch!=='2026-11-10-expansion');
+if(expandAll) for(const review of reviews) if(review.servingsStatus==='estimated') {
+  review.previousServingsEvidence ||= review.servingsEvidence;
+  review.servingsStatus='user-confirmed';review.confirmedOn=policy.expansionApprovedOn;
+  review.servingsEvidence=policy.confirmedServingRule;
+}
 const candidates=new Set(policy.candidateIds);
 const bakery=/빵|쿠키|타르트|케이크|케익|스콘|브라우니|머핀|파운드|베이글|깜빠뉴|비스킷|마들렌|와플/;
 const pickle=/장아찌|동치미|짱아지|김치|깍두기|피클|절임/;
@@ -22,14 +32,29 @@ const norm=s=>s.replace(/\s/g,'');
 const additions=[], held=[], proposedNames=new Set();
 const kinds={'찌기':'찜','끓이기':'끓이기','굽기':'구이','볶기':'볶음','튀기기':'튀김','기타':'기타'};
 const knownNames=new Map(ingredients.flatMap(i=>[i.name,...i.aliases].map(n=>[norm(n),i])));
+if(expandAll) for(const [alias,canonical] of Object.entries(extraReview.aliases||{})) {
+  const standard=knownNames.get(norm(canonical));
+  if(!standard) continue;
+  if(knownNames.has(norm(alias))) continue;
+  if(!standard.aliases.includes(alias)) standard.aliases.push(alias);
+  knownNames.set(norm(alias),standard);
+}
+if(expandAll) for(const review of reviews) for(const definition of review.ingredientDefinitions||[]) {
+  const standard=ingredients.find(i=>i.id===definition.id);
+  if(standard) Object.assign(definition,structuredClone(standard));
+}
 
 function parse(row) {
   const raw=row.RCP_PARTS_DTLS, serving=explicitServing(raw), labels=[];
   let body=serving ? raw.slice(serving[0].length) : raw;
+  for(const label of extraReview.sections[row.RCP_SEQ]||[]) {
+    if(!body.includes(label)) throw Error('검토한 소제목이 원문에 없습니다');
+    labels.push(label);body=body.replace(label,'\n');
+  }
   // Source formatting and named ingredient sections are recorded as exact spans.
   body=body.replace(/[가-힣][가-힣 \t·-]*[:：]/gu,m=>{labels.push(m);return '\n';});
   body=body.replace(/<\/?strong>|<br\s*\/?\s*>|[•●]|\[[^\]\n]*\]/giu,m=>{labels.push(m);return '\n';});
-  body=body.replace(/^(\s*재료\s+)|^(\s*(?:주재료|양념|부재료)\s*)$/gmu,m=>{labels.push(m);return ' ';});
+  body=body.replace(/^(\s*재료\s+)|^(\s*(?:주재료|양념|부재료)\s*)$/gmu,m=>{labels.push(m.trim());return ' ';});
   const lines=body.split('\n');
   body=lines.map(line=>{
     const sections={'85':['케일 샐러드','오미자 드레싱'],'18':['버섯볶음','두유 소스','곁들임'],'39':['냉스프','고명'],'3769':['소바육수 재료']};
@@ -51,11 +76,16 @@ function parse(row) {
   for(let text of chunks) {
     text=text.replace(/^[\s*\-<>\[\]]+|[\s*\-<>\[\].]+$/gu,m=>{if(m.trim()) labels.push(m.trim());return '';});
     if(!text) continue;
+    for(const prefix of extraReview.headingPrefixes||[]) if(text.startsWith(prefix+' ') && /^[가-힣]/u.test(text.slice(prefix.length+1))) {
+      labels.push(prefix+' ');text=text.slice(prefix.length+1);break;
+    }
     const heading=text.match(/^(?:저염간장양념|허브오일드레싱|복분자소스|쇠고기 양념장|조림양념|유자드레싱|밥 밑간|톳 무침양념|참치밑간|사과드레싱|토마토소스|닭고기 삶는 재료|비빔소스|고기 밑간|완두콩드레싱|피시볼반죽|새알심|보리된장|배사과소스|홍초물|레몬소스|양념장|양념|소스[123]?|육수|달래무침|해초 밑간|주먹밥|두부강된장)\s+/u);
     if(heading && /^[가-힣]/u.test(text.slice(heading[0].length))) {labels.push(heading[0]);text=text.slice(heading[0].length);}
     let name, parsed, format, m;
     if((m=text.match(/^(.+?)\s*(약간|소량|적당량)$/u))) {
       name=m[1].trim();parsed={amount:null,unit:null};format='qualitative';
+    } else if(expandAll && (m=text.match(/^([가-힣a-zA-Z][가-힣a-zA-Z\s·()-]*?)\s+(\d+(?:\.\d+)?)$/u))) {
+      name=m[1].trim();parsed={amount:null,unit:null};format='missing-unit';
     } else if((m=text.match(/^(.+?)\s*(\d+\/\d+|\d+(?:\.\d+)?)\s*(mg|kg|g|ml|mL|L|㎖|개|장|대|마리|모|쪽|컵|알|T|t)(?:\s*\([^()]*\))?$/u))) {
       name=m[1].trim(); parsed=parsePlainAmount(text.slice(name.length).trim());format='plain';
     } else if((m=text.match(/^([^()]+?)\s*\(([^]*)\)$/u))) {
@@ -77,13 +107,14 @@ function parse(row) {
       const definition={id,name,aliases:[],category,isSeasoning:category==='양념·조미료',isQuickPick:false};
       if(!definitions.some(d=>d.id===id)) definitions.push(definition);
     }
-    items.push({ingredientId:id,sourceName:name,sourceText:text,...(format?{sourceFormat:format}:{}),...parsed,note:`${format==='unresolved'?'원문 수량 범위·복합 표기 확인 필요; ':''}원문 재료: ${text}`});
+    items.push({ingredientId:id,sourceName:name,sourceText:text,...(format?{sourceFormat:format}:{}),...parsed,note:`${format==='missing-unit'?'원문 단위 미기재; ':format==='unresolved'?'원문 수량 범위·복합 표기 확인 필요; ':''}원문 재료: ${text}`});
   }
   if(!items.length) throw Error('재료 없음');
-  return {sourceId:row.RCP_SEQ,sourceHash:hash(raw),reviewedOn:policy.approvedOn,reviewBatch:'2026-11-10-expansion',
+  const date=expandAll?policy.expansionApprovedOn:policy.approvedOn;
+  return {sourceId:row.RCP_SEQ,sourceHash:hash(raw),reviewedOn:date,reviewBatch:expandAll?'2026-11-11-expansion':'2026-11-10-expansion',
     baseServings:serving?Number(serving[1]||serving[2]):1,
     servingEvidence:serving?.[0]??null,
-    ...(!serving?{servingsStatus:'estimated',assumptionApprovedOn:policy.approvedOn,servingsEvidence:`원문 인분 미표기. 전체 목록 사전 검토 후보 ${row.RCP_SEQ}; ${items.slice(0,4).map(i=>i.sourceText).join(' · ')} 등 전체 재료량을 대조해 1인분으로 추정. 개인별 식사량 차이가 있으며 소스는 별도 인분 계산 없이 원문량 유지. ${row.RCP_SEQ==='353'?'우유 180mg은 사용자 요청으로 원문 그대로 유지.':''}`} : {}),
+    ...(!serving?(expandAll?{servingsStatus:'user-confirmed',confirmedOn:date,servingsEvidence:policy.confirmedServingRule}:{servingsStatus:'estimated',assumptionApprovedOn:policy.approvedOn,servingsEvidence:`원문 인분 미표기. 전체 목록 사전 검토 후보 ${row.RCP_SEQ}; ${items.slice(0,4).map(i=>i.sourceText).join(' · ')} 등 전체 재료량을 대조해 1인분으로 추정. 개인별 식사량 차이가 있으며 소스는 별도 인분 계산 없이 원문량 유지. ${row.RCP_SEQ==='353'?'우유 180mg은 사용자 요청으로 원문 그대로 유지.':''}`}) : {}),
     cookingType:kinds[row.RCP_WAY2],sectionLabels:labels,ingredientDefinitions:definitions,ingredients:items};
 }
 
@@ -95,6 +126,7 @@ const groups={
   '양념·조미료':new Set('올리브오일|요리술|울금가루|통깨|커리 소스|발사믹크림|들깨가루|머스터드|토마토소스|버터|굴소스|해선장|새우가루|함초가루'.split('|'))
 };
 function categoryFor(name) {return Object.entries(groups).find(([,names])=>names.has(name))?.[0];}
+for(const [category,names] of Object.entries(extraReview.categories)) for(const name of names) groups[category].add(name);
 for(const [category,names] of Object.entries({
  '채소·버섯':'실파다진것|청·홍고추다진것|양파채친것|통조림 홀토마토|미나리잎장식|피망채친것|2가지색 미니파프리카',
  '육류·해산물':'닭고기가슴살|통조림 참치',
@@ -117,28 +149,44 @@ for(const row of snapshot.COOKRCP01.row) {
   if(reviews.some(r=>r.sourceId===row.RCP_SEQ)) continue;
   if(row.RCP_SEQ==='3568') {held.push({sourceId:row.RCP_SEQ,name:row.RCP_NM,reason:'메뉴명 참깨가지말이밥과 원문 닭고기·스파게티 재료 불일치; 3571과 재료 목록 동일'});continue;}
   const serving=explicitServing(row.RCP_PARTS_DTLS);
-  if(bakery.test(row.RCP_NM)) {held.push({sourceId:row.RCP_SEQ,name:row.RCP_NM,reason:'사용자 요청: 제빵·제과 제외'});continue;}
-  if(!serving && !candidates.has(row.RCP_SEQ)) {
+  if((bakery.test(row.RCP_NM) && !['레몬, 파슬리 빵가루를 입힌 도미','빵 대신 어묵 사라다'].includes(row.RCP_NM)) || (extraReview.bakerySourceIds||[]).includes(row.RCP_SEQ)) {held.push({sourceId:row.RCP_SEQ,name:row.RCP_NM,reason:'사용자 요청: 제빵·제과 제외'});continue;}
+  if(!expandAll && !serving && !candidates.has(row.RCP_SEQ)) {
     if(pickle.test(row.RCP_NM)) held.push({sourceId:row.RCP_SEQ,name:row.RCP_NM,reason:'절임·반찬: 명시 인분 없음; 향후 분류·분량 검토',sourceCategory:row.RCP_PAT2});
     continue;
   }
   try {
     const review=parse(row);
     // Verify all original spans, amounts, IDs and duplicate names before accepting.
-    const result=auditAndMerge([{COOKRCP01:{...snapshot.COOKRCP01,row:[row]}}],ingredients,recipes,[review],policy.approvedOn);
+    if(recipes.some(r=>normalizeName(r.name)===normalizeName(row.RCP_NM))) throw Error('기존 메뉴명 중복');
+    const usedIds=new Set(review.ingredients.map(i=>i.ingredientId));
+    const result=auditAndMerge([{COOKRCP01:{...snapshot.COOKRCP01,row:[row]}}],ingredients.filter(i=>usedIds.has(i.id)),[],[review],expandAll?policy.expansionApprovedOn:policy.approvedOn);
     if(!result.report.added.length) throw Error('기존 메뉴명 중복');
     for(const d of review.ingredientDefinitions) if(!ingredients.some(i=>i.id===d.id)) {ingredients.push(d);knownNames.set(norm(d.name),d);}
-    reviews.push(review); additions.push({sourceId:row.RCP_SEQ,name:row.RCP_NM,status:serving?'explicit':'estimated',baseServings:review.baseServings,sourceCategory:row.RCP_PAT2});
+    reviews.push(review); additions.push({sourceId:row.RCP_SEQ,name:row.RCP_NM,status:serving?'explicit':review.servingsStatus,baseServings:review.baseServings,sourceCategory:row.RCP_PAT2});
     recipes.push(result.recipes.at(-1));
   } catch(e) {held.push({sourceId:row.RCP_SEQ,name:row.RCP_NM,reason:e.message,rawIngredients:row.RCP_PARTS_DTLS});}
 }
-console.log(JSON.stringify({additions:additions.length,held:held.length,...(process.argv.includes('--names')?{newNames:[...proposedNames]}:{}),reasons:held.filter(x=>x.rawIngredients).map(x=>({id:x.sourceId,reason:x.reason}))}));
+console.log(JSON.stringify({additions:additions.length,held:held.length,...(process.argv.includes('--names')?{newNames:[...proposedNames]}:{reasons:held.filter(x=>x.rawIngredients).map(x=>({id:x.sourceId,reason:x.reason}))})}));
 if(process.argv.includes('--write') && !process.argv.includes('--names')) {
-  const result=auditAndMerge([snapshot,supplement],await read('data/ingredients.json'),baseRecipes,reviews,policy.approvedOn);
+  if(policy.expansionApprovedOn && !expandAll) throw Error('확대 승인 후에는 --all-reviewed --write로 실행하세요.');
+  const result=auditAndMerge([snapshot,supplement],ingredients,baseRecipes,reviews,expandAll?policy.expansionApprovedOn:policy.approvedOn);
   if(allRecipes.some(r=>!result.recipes.some(next=>next.id===r.id))) throw Error('기존 메뉴가 검수에서 제외되었습니다. 저장 전에 확인하세요.');
+  const catalog=await read('data/recipe-categories.json');
+  const categoryIds=new Set(catalog.entries.map(e=>e.recipeId));
+  for(const recipe of result.recipes) if(!categoryIds.has(recipe.id)) {
+    const row=snapshot.COOKRCP01.row.find(r=>`mfds-cookrcp01-${r.RCP_SEQ}`===recipe.id);
+    if(!row) throw Error('신규 메뉴의 분류 원문 없음');
+    catalog.entries.push(classifyMfdsMenu(row));categoryIds.add(recipe.id);
+  }
+  applyRecipeCategories(result.recipes,catalog);
   await write('data/source/mfds-reviews.json',reviews);
   await write('data/ingredients.json',result.ingredients);
   await write('data/recipes.json',result.recipes);
   await write('data/source/mfds-import-report.json',result.report);
-  await write('data/source/mfds-expansion-report.json',{reviewedOn:policy.approvedOn,policy:policy.policy,added:additions,held});
+  await write('data/recipe-categories.json',catalog);
+  const reportPath=expandAll?'data/source/mfds-expansion-report-2026-11-11.json':'data/source/mfds-expansion-report.json';
+  let previousAdded=[];
+  if(expandAll) { try { previousAdded=(await read(reportPath)).added||[]; } catch {} }
+  const history=new Map([...previousAdded,...additions].map(a=>[a.sourceId,a]));
+  await write(reportPath,{reviewedOn:expandAll?policy.expansionApprovedOn:policy.approvedOn,policy:{...policy.policy,...(expandAll?{servings:policy.confirmedServingRule}: {})},added:expandAll?[...history.values()]:additions,newlyAdded:additions.map(a=>a.sourceId),held});
 }

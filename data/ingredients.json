@@ -70,7 +70,9 @@
   {
     "id": "shiitake",
     "name": "표고버섯",
-    "aliases": [],
+    "aliases": [
+      "표고"
+    ],
     "category": "채소·버섯",
     "isSeasoning": false,
     "isQuickPick": true
@@ -204,7 +206,10 @@
   {
     "id": "gochujang",
     "name": "고추장",
-    "aliases": [],
+    "aliases": [
+      "고추자",
+      "l고추장"
+    ],
     "category": "양념·조미료",
     "isSeasoning": true,
     "isQuickPick": true
@@ -342,7 +347,9 @@
   {
     "id": "sesame-seeds",
     "name": "참깨",
-    "aliases": [],
+    "aliases": [
+      "참께"
+    ],
     "category": "양념·조미료",
     "isSeasoning": true,
     "isQuickPick": false
@@ -574,7 +581,10 @@
   {
     "id": "mfds-ingredient-893e840d1e9b",
     "name": "올리브유",
-    "aliases": [],
+    "aliases": [
+      "오릴브오일",
+      "올ㄹ브오일"
+    ],
     "category": "양념·조미료",
     "isSeasoning": true,
     "isQuickPick": false
@@ -806,7 +816,9 @@
   {
     "id": "mfds-ingredient-db1ba495772d",
     "name": "파슬리가루",
-    "aliases": [],
+    "aliases": [
+      "파스리가루"
+    ],
     "category": "양념·조미료",
     "isSeasoning": true,
     "isQuickPick": false
@@ -822,7 +834,9 @@
   {
     "id": "mfds-ingredient-bdf1dab028fe",
     "name": "다진 돼지고기",
-    "aliases": [],
+    "aliases": [
+      "다진 돼기고기"
+    ],
     "category": "육류·해산물",
     "isSeasoning": false,
     "isQuickPick": false
@@ -934,7 +948,10 @@
   {
     "id": "mfds-ingredient-f5c09ec93f6a",
     "name": "느타리버섯",
-    "aliases": [],
+    "aliases": [
+      "느타리",
+      "느타리벗서"
+    ],
     "category": "채소·버섯",
     "isSeasoning": false,
     "isQuickPick": false
@@ -974,7 +991,9 @@
   {
     "id": "mfds-ingredient-4d21b5532cae",
     "name": "소고기",
-    "aliases": [],
+    "aliases": [
+      "쇠고기샄코기"
+    ],
     "category": "육류·해산물",
     "isSeasoning": false,
     "isQuickPick": false
@@ -1110,7 +1129,10 @@
   {
     "id": "mfds-ingredient-07b494cb626b",
     "name": "새송이버섯",
-    "aliases": [],
+    "aliases": [
+      "새송이",
+      "새송이벗서"
+    ],
     "category": "채소·버섯",
     "isSeasoning": false,
     "isQuickPick": false
@@ -1302,7 +1324,9 @@
   {
     "id": "mfds-ingredient-1183d873ae18",
     "name": "넛맥가루",
-    "aliases": [],
+    "aliases": [
+      "넉맥"
+    ],
     "category": "양념·조미료",
     "isSeasoning": true,
     "isQuickPick": false
@@ -1438,7 +1462,9 @@
   {
     "id": "mfds-ingredient-816951c7d303",
     "name": "브로콜리",
-    "aliases": [],
+    "aliases": [
+      "브러컬리"
+    ],
     "category": "채소·버섯",
     "isSeasoning": false,
     "isQuickPick": false
@@ -1478,7 +1504,9 @@
   {
     "id": "white-pepper",
     "name": "흰 후추",
-    "aliases": [],
+    "aliases": [
+      "흰추후"
+    ],
     "category": "양념·조미료",
     "isSeasoning": true,
     "isQuickPick": false
@@ -2006,7 +2034,9 @@
   {
     "id": "mfds-ingredient-c86aeadfd3a3",
     "name": "머스터드",
-    "aliases": [],
+    "aliases": [
+      "머스터드조스"
+    ],
     "category": "양념·조미료",
     "isSeasoning": true,
     "isQuickPick": false
@@ -2502,7 +2532,9 @@
   {
     "id": "mfds-ingredient-d6882b71e042",
     "name": "두릅",
-    "aliases": [],
+    "aliases": [
+      "두릎"
+    ],
     "category": "채소·버섯",
     "isSeasoning": false,
     "isQuickPick": false
@@ -2526,7 +2558,9 @@
   {
     "id": "mfds-ingredient-6d924947c657",
     "name": "청고추",
-    "aliases": [],
+    "aliases": [
+      "청고주"
+    ],
     "category": "채소·버섯",
     "isSeasoning": false,
     "isQuickPick": false
@@ -2886,7 +2920,9 @@
   {
     "id": "mfds-ingredient-e813b7e99d2b",
     "name": "미니새송이",
-    "aliases": [],
+    "aliases": [
+      "미니새송이버섯"
+    ],
     "category": "채소·버섯",
     "isSeasoning": false,
     "isQuickPick": false
@@ -4854,7 +4890,9 @@
   {
     "id": "mfds-ingredient-179c7a2bef0f",
     "name": "쇠고기 등심",
-    "aliases": [],
+    "aliases": [
+      "소고기등심"
+    ],
     "category": "육류·해산물",
     "isSeasoning": false,
     "isQuickPick": false
@@ -5454,7 +5492,10 @@
   {
     "id": "mfds-ingredient-372f86004f20",
     "name": "쇠고기(우둔)",
-    "aliases": [],
+    "aliases": [
+      "소고기 우둔살",
+      "소고기 우둔"
+    ],
     "category": "육류·해산물",
     "isSeasoning": false,
     "isQuickPick": false
@@ -5886,7 +5927,9 @@
   {
     "id": "mfds-ingredient-c85d48c8feb8",
     "name": "돼지고기목살",
-    "aliases": [],
+    "aliases": [
+      "돼지목살"
+    ],
     "category": "육류·해산물",
     "isSeasoning": false,
     "isQuickPick": false
@@ -6286,7 +6329,9 @@
   {
     "id": "mfds-ingredient-ff3cae2652a1",
     "name": "계피가루",
-    "aliases": [],
+    "aliases": [
+      "게피"
+    ],
     "category": "양념·조미료",
     "isSeasoning": true,
     "isQuickPick": false
@@ -7366,6 +7411,3526 @@
   {
     "id": "mfds-ingredient-4d90112dae06",
     "name": "레드크러쉬드 페퍼",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-8f767e52f95f",
+    "name": "황태(채)",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-d861b2662453",
+    "name": "시금치우유 소스",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-25c4f28ba106",
+    "name": "크랜베리",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-0b30df4cb35c",
+    "name": "다진 오이피클",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-4ef9b7d8ecdb",
+    "name": "소면",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-2e5beab753b6",
+    "name": "석류",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-9100138a1135",
+    "name": "볶은 흑임자",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-c999986f4413",
+    "name": "노루궁뎅이버섯",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f9a9271c9041",
+    "name": "냉이",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-0c617c349b56",
+    "name": "실고추",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-35c8d03660ed",
+    "name": "떡국 떡",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-66c2e0988c1c",
+    "name": "스팸(마일드)",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-31a7253a4fae",
+    "name": "소시지",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-ad1dfdc2f2a6",
+    "name": "오렌지즙",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-a45b9e660b5f",
+    "name": "석류즙",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-0dd8a0b9094c",
+    "name": "새우젓국",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-a6d09209a339",
+    "name": "자색고구마",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6830376aa4b2",
+    "name": "저염살라미",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-1b3767522b88",
+    "name": "배춧잎",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6a3d8245ace0",
+    "name": "우렁이",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-07cff3f1a2bf",
+    "name": "가시오가피",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-5a12412ad192",
+    "name": "치자가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-d7d67157bd25",
+    "name": "황태채",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-b5e79b7b494e",
+    "name": "백김치",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6cc0b2cfdf8f",
+    "name": "통조림 햄",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-df33856fbf0d",
+    "name": "사골육수",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-99f031997583",
+    "name": "당귀",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6db9af7c4bac",
+    "name": "오가피",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-937fe9c8a06c",
+    "name": "쌀겨",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-9093b17afaa0",
+    "name": "마른 다시마",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-04426515007f",
+    "name": "표고버섯 밑동",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-0056c2c9772e",
+    "name": "백합",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-72ba9bac8ab5",
+    "name": "홀토마토",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-cd0011ef2816",
+    "name": "먹물파스타",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-e901b43550ab",
+    "name": "2가지색 파프리카",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-d8c518054e98",
+    "name": "물김치국물",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-826e8e7e7e13",
+    "name": "미니파프리카",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-1d10d486e8e5",
+    "name": "후르츠칵테일",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-97fe7edfa95b",
+    "name": "생강청",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-396f270e175d",
+    "name": "건바질",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-9f39955d307e",
+    "name": "르네디종 홀그레인머스터",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-a4215a312666",
+    "name": "커피",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-106db96b9486",
+    "name": "백일송이",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-814bdd184a16",
+    "name": "치즈가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-ee5f12ed5242",
+    "name": "버섯마늘소금",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-4a330d6d6689",
+    "name": "해물육수",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-27fc00371177",
+    "name": "광어",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-00f46dc0f475",
+    "name": "코코넛밀크",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-93b67319837e",
+    "name": "하얀된장",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-e8036e28f6c5",
+    "name": "백년초국수",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-62f2e592a9c4",
+    "name": "뽕잎국수",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-476e1f5d640f",
+    "name": "치자국수",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6dd3a9f4360b",
+    "name": "펜네",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-2b6b11564963",
+    "name": "오곡",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-89aa540d3a3f",
+    "name": "디종머스터드",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f9673bfe76b3",
+    "name": "콜라비",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-44a4013b89a4",
+    "name": "오미자",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-ebac9d6c1af3",
+    "name": "무화과",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-9c374e52ab04",
+    "name": "고수",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-a6c698fb04b7",
+    "name": "찬밥",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-9672e0d5c20d",
+    "name": "민어",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-9bbcc3d7bd2d",
+    "name": "간 홍고추",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-ef6da5e9840c",
+    "name": "간 양파",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-a43b1b6bdda4",
+    "name": "휘핑크림",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-7c8b7ff1146d",
+    "name": "저염치즈",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-e8c4952d0c17",
+    "name": "신선초",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-e31ceadba745",
+    "name": "적겨자",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-da5195773e81",
+    "name": "쌀파스타면",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-94f3ee4dc905",
+    "name": "청국장",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-0e9dd1fba9f0",
+    "name": "두 가지 색 파프리카",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-2c6e62397792",
+    "name": "채 썬 돼지고기",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-5c540c9b8f3e",
+    "name": "라면스프",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6a3dc7df6beb",
+    "name": "허브크러스트",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-ca47193f2d3b",
+    "name": "마늘오일",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f66dc419647e",
+    "name": "돼지머리",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-8e9ccf75bdaa",
+    "name": "우동면",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-093d6b557199",
+    "name": "간편어간장",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-5c7ad48c1e03",
+    "name": "땅콩잼",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-36151d10f137",
+    "name": "풋사과",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-62d0d9e0099a",
+    "name": "거피한 들깨가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-8c3801abeeab",
+    "name": "논우렁",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-a80def2f4502",
+    "name": "생선살",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-fe7fc3a9d35a",
+    "name": "현미쌀",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-db2f8a944f6c",
+    "name": "조",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-e4f0ab8d4fd3",
+    "name": "미니버섯",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-88021e14b3d7",
+    "name": "물녹말",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-68438dd6fc1d",
+    "name": "화이트크림",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-c7b4a0f7ee7c",
+    "name": "옥수수콘",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-372ff6db901e",
+    "name": "새싹",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-104ff4409e3d",
+    "name": "귤병",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-c0acb9a2f952",
+    "name": "포카치아빵",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-1360c0f4781e",
+    "name": "무장아찌",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-156c4b6179c9",
+    "name": "생치즈",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-a9efa6efa678",
+    "name": "루꼴라",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-0da023548f0d",
+    "name": "생청국장",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-60f0e219b922",
+    "name": "찹쌀현미밥",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-e80db296718a",
+    "name": "다진 붉은 고추",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-af0ffc44a1a6",
+    "name": "다진 풋고추",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-4203c4cdcebe",
+    "name": "부순 참깨",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6b9405d34411",
+    "name": "봄동",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-3109c2534177",
+    "name": "낙지 다리",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-beece57626a0",
+    "name": "데친 꼬막살",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-e893e6d6ee54",
+    "name": "다진 당근",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-bec0e96da012",
+    "name": "다진 애호박",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-096db88f30ae",
+    "name": "깻잎장아찌",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6772b134ff2b",
+    "name": "피클",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-8cfd7a6bba88",
+    "name": "머스터드소스",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-b8b330c64877",
+    "name": "통조림 연어",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-2c9671a76849",
+    "name": "데리야키소스",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-771b57400872",
+    "name": "채 썬 쇠고기",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-0a8ede630588",
+    "name": "양념족발",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-87234064f9ef",
+    "name": "맥주",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-9810ad642ce1",
+    "name": "갈은 소고기",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-b5b892ea9194",
+    "name": "갈은 돼지고기",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-d9a010b774f5",
+    "name": "통삼겹",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-3210b12de6cd",
+    "name": "천연다시다",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-87b6c85d8c40",
+    "name": "파스타면",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-9e4ff32ef14a",
+    "name": "열무김치",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-7886e6dbc9ca",
+    "name": "청홍고추 각각",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-7e5eac9afd0e",
+    "name": "생들기름",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f23d16243fba",
+    "name": "찜갈비",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-e63211c86359",
+    "name": "마른미역줄기",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-3608be9cde33",
+    "name": "쇠고기구이용",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-d82f213abfea",
+    "name": "알마늘",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-79f8e6ad771c",
+    "name": "허브식초",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-c9e04df32d92",
+    "name": "올방개묵",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-5057125c052e",
+    "name": "검정깨묵 각각",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6aacb44976bc",
+    "name": "크린베리",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-92c5de62a484",
+    "name": "어린이치즈",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-8723d374d85e",
+    "name": "삼색분말",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-c88a111b2b76",
+    "name": "라이스페퍼",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-88b59565fc66",
+    "name": "시금치가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-287d47dec051",
+    "name": "호박가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-db7a6cfaa03a",
+    "name": "백년초가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-dadf26e93486",
+    "name": "보리쌀",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-81040f259533",
+    "name": "토마토페스트",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f93c3b9b67a3",
+    "name": "삶은 메추리알",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-045d431e925c",
+    "name": "빠금장",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-a409de070108",
+    "name": "블루베리잼",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-4234c47e7d4c",
+    "name": "소 다진 쇠고기",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-474448592b22",
+    "name": "닭다리",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-96f3c7f59c2c",
+    "name": "붉은피망",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-bd584a1d7948",
+    "name": "크렌베리",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-ad17ab48c065",
+    "name": "냉동고등어",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-809af5a4f409",
+    "name": "볶은율무",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-b04126346909",
+    "name": "볶은수수",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f62e2ed39be9",
+    "name": "혼합견과",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-14b26cab577a",
+    "name": "기름",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-a62e2b0b2a30",
+    "name": "절임물",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-04cbc5cbbef3",
+    "name": "파마산가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-5061c5a2f991",
+    "name": "마늘칩",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-e51fb08426d0",
+    "name": "흰앙금",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-bb13abf09be6",
+    "name": "한천",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-86560da63a28",
+    "name": "장어",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-0ea3a7f24f0f",
+    "name": "단단한 두부",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-257b06efc874",
+    "name": "증편",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-1d98755b1723",
+    "name": "망고",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6f89a454fb8e",
+    "name": "다진 파프리카(노랑)",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-3675dc2d8090",
+    "name": "다진 청피망",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-8ff583c5a0d8",
+    "name": "다진 홍피망",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-a169abba88d6",
+    "name": "판젤라틴",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-aec1b5d4d20c",
+    "name": "뽕잎가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-8fefe599b72c",
+    "name": "체리",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-239a729f88de",
+    "name": "화이트 초콜릿",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f8cbef5a4576",
+    "name": "피스타치오",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-c5fd6d4cd9fd",
+    "name": "헤이즐넛",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f12ceee899b7",
+    "name": "통조림콩",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-21bf5e830351",
+    "name": "망고퓨레",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-761527dc16a7",
+    "name": "줄기토마토",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-2fc6e87d5eb7",
+    "name": "계피",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-699ce35da582",
+    "name": "자몽",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-fa0e501acb4b",
+    "name": "석류 원액",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-e9dd353a7099",
+    "name": "레시틴가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-3acf08f39c59",
+    "name": "레드치커리",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-56600eb4d78e",
+    "name": "마늘종",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-4a20f70be589",
+    "name": "치킨스톡",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-9bbe179ee05b",
+    "name": "멸치다시마육수",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-516772db370a",
+    "name": "대구",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-054bf6673919",
+    "name": "쑥가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6eaf23fa857f",
+    "name": "북어",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f3ff75d4f471",
+    "name": "데친 미나리",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-cf315d2e13c3",
+    "name": "어슷 썬 풋고추",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-2b111dbcf8cc",
+    "name": "불린 당면",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-a50f8746cd8d",
+    "name": "불린 무말랭이",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-0cd0bf5fd0aa",
+    "name": "단배추",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6510cb6d1539",
+    "name": "마른 새우",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-e7459f703559",
+    "name": "보리새우",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-b1b5763a9853",
+    "name": "메밀묵",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6145aceed44d",
+    "name": "미니양배추",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-0194817f5bbc",
+    "name": "래디시",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-5c29cb6b95e8",
+    "name": "곤드레나물",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-697a92b08e4b",
+    "name": "우렁",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-42452c2897da",
+    "name": "근대",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-701cb90b5ae5",
+    "name": "뒤포리(밴댕이)",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-d7b9fe9bfb95",
+    "name": "쌀밥",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-9497608ce1a5",
+    "name": "배추김치",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-9d4609963290",
+    "name": "다진 호두",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-9e48277f4243",
+    "name": "매실원액",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-9f98a0c634ff",
+    "name": "젤라틴",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-459599e2f0d0",
+    "name": "석박지",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6c1b0f2e9016",
+    "name": "통계피",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-3ba77288e2b5",
+    "name": "허브소금",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f397ea74d9df",
+    "name": "곤약국수",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-77921c395496",
+    "name": "그라놀라",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-7f4981ce8cdf",
+    "name": "찰보리",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-fb3f91ba8a90",
+    "name": "건조토마토",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-e90f1fa6b977",
+    "name": "귀리",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-d47e4bd2de69",
+    "name": "녹차가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-3582537fa7a1",
+    "name": "천연조미료",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-e500faf448ca",
+    "name": "보리된장",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-8fbe46042b98",
+    "name": "실치",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-b6036f634beb",
+    "name": "귤",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-642e50b33f3e",
+    "name": "다진 견과류",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-b0bca836959d",
+    "name": "바나나식초",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-ceefd54ce3bc",
+    "name": "꽁치살",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-421cfc84116c",
+    "name": "발효겨자",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f701b9f9e285",
+    "name": "다진 잣",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-3b95426c44f1",
+    "name": "불린 표고버섯",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-dbc23db85cdb",
+    "name": "자숙새우",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-b3a161a12049",
+    "name": "소라살",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-3ff060662d58",
+    "name": "멕시코고추",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-400dae630580",
+    "name": "바케트",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-d117b4124fd0",
+    "name": "일식된장",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-2e3a4cfb481b",
+    "name": "녹차소금",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-218782cd7236",
+    "name": "마늘튀김",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-3691aa2ad08b",
+    "name": "어린채소",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-82a8e57d8239",
+    "name": "크림소스",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-b6f3d13fc4e4",
+    "name": "동치미",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-93cbc370cae0",
+    "name": "국수",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-716167feef47",
+    "name": "파스타",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6f80012e29a1",
+    "name": "피클링스파이스",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-8b4b844464d0",
+    "name": "먹물",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f979274822e9",
+    "name": "쥬키니호박",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-2228846a7b7d",
+    "name": "막걸리",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-542b92a9b0c1",
+    "name": "얼린 홍시",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-48b951a0289b",
+    "name": "홍합살",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-cb379438c906",
+    "name": "김장김치",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-eb1369ab6609",
+    "name": "새우젓국물",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-7aa9d57468d6",
+    "name": "통생강",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-81b1ea517bec",
+    "name": "씨겨자",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-de38477fa90b",
+    "name": "유기농 밀가루",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-d330751eedb6",
+    "name": "루콜라",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-3dda474b7ef1",
+    "name": "덧밀가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-d7c8417ee3db",
+    "name": "미더덕",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-72afb9790476",
+    "name": "치킨육수",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-5edfc949d8e7",
+    "name": "칵텔새우",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-4ff07fab252b",
+    "name": "커리가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-84015672b5d2",
+    "name": "레몬제스트",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-992fdd338453",
+    "name": "토막 낸 닭",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-17ef9faac3e2",
+    "name": "건표고버섯 불릴 물",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-410daa1e837b",
+    "name": "건청양고추",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-ddb1500289b1",
+    "name": "건당면",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f587a6c334c1",
+    "name": "우무묵",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-8377bf606806",
+    "name": "얼린포도알",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-4c2833ebc133",
+    "name": "오미자액",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-51e771a60a60",
+    "name": "깐호두",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-fed3558e606e",
+    "name": "전복살",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-1e87869a73d8",
+    "name": "건로즈마리",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-c2e72b8f38de",
+    "name": "딸기잼",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-2ed0a9972c5c",
+    "name": "오미자청",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-e76a9cb45e3f",
+    "name": "훈제연어",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-b2f4be12454d",
+    "name": "스위트칠리",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-ec9463562106",
+    "name": "돈가스소스",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-dd4e5ccb9a54",
+    "name": "동치미국물",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-35c760de4983",
+    "name": "황도",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-723631251317",
+    "name": "흑미",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-e857b2fff7b8",
+    "name": "오이피클",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-90e64e718021",
+    "name": "고추피클",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-91a7e7288fce",
+    "name": "석류주스",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-3664687afadf",
+    "name": "엿기름",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-13d8fbf308c8",
+    "name": "백년초",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-dc41dee3c597",
+    "name": "다슬기살",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-12f68ce8dd7a",
+    "name": "참다래",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-9eb4f5cd75ee",
+    "name": "크래커",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-08cac01a77e4",
+    "name": "단호박가루",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-ff06783627a9",
+    "name": "햄",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-0ab1e69b288f",
+    "name": "닭살",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-30cbf6b514b4",
+    "name": "강황쌀",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-fbf6c7b8b8a8",
+    "name": "건도토리묵",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-553f611fb463",
+    "name": "명이김치",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-1eb11e1c7a4d",
+    "name": "쪽갈비",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-5bb37ac3880e",
+    "name": "홀그레인 머스터즈",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-792c7cb6c636",
+    "name": "청경재",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-650f7b22bfb7",
+    "name": "채소국물",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-890729b04d55",
+    "name": "멸치간장",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-b98777346bb5",
+    "name": "잣 바질페이소스",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-66ce87475cdd",
+    "name": "드라이토마토",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-37521f798f64",
+    "name": "명란젓",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-5af0b13f704c",
+    "name": "홀스레디쉬",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-c17581991d03",
+    "name": "야채국물",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-d8638a03b6b6",
+    "name": "닭날개",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-505b0adb0a74",
+    "name": "셀러리 줄기",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-ed0e90733d1a",
+    "name": "과일",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-2d861990429b",
+    "name": "아가베 시럽",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-ccf4472da81d",
+    "name": "스트링치즈",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-44463c11c5b2",
+    "name": "무말랭이",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-48834fc7cf58",
+    "name": "아삭이고추",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-37517776cc3b",
+    "name": "냉동 곤약",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-76e191d8dfd9",
+    "name": "채 썬 양파",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-928603cf6063",
+    "name": "납작 썬 마늘",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-653ce5dd79ed",
+    "name": "채소 육수",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-edb8334777b8",
+    "name": "간 마늘",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-3ec7755c5870",
+    "name": "주재료 애호박",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-d04a97549bcb",
+    "name": "콩물",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-b13df4fe132c",
+    "name": "사이다",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-d54d5cd4ce93",
+    "name": "코코넛워터",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-339a7176ded9",
+    "name": "그릭요거트",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-052e865071e1",
+    "name": "아몬드 플레이크",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-b810bcfaf556",
+    "name": "쿠스쿠스",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-80ff4d9b6ea9",
+    "name": "김가루",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-c7704eb69c43",
+    "name": "구운 호두",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-4792bc6015a4",
+    "name": "멥쌀가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-a2838ba16372",
+    "name": "삶은 감자",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-01dc1e3287d5",
+    "name": "녹인 무염 버터",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-c4d868c1b818",
+    "name": "건로즈메리",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-24aba75e91d0",
+    "name": "쫄면 사리",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-db9200dd20f1",
+    "name": "화이트와인식초",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-27d0aa41e534",
+    "name": "크래비",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-b306c1427163",
+    "name": "냉동 새우살",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-0d5267755a37",
+    "name": "냉동 아보카도",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-bc9f20640e04",
+    "name": "절임 올리브",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-83f05a781fb0",
+    "name": "간 파르메산치즈",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-d810aed3a95a",
+    "name": "요플레",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-9513e0409a9a",
+    "name": "건곤드레나물",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-b8ea1c04c530",
+    "name": "전분물",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-8719f64f469c",
+    "name": "닭안심살",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-2add59570bbe",
+    "name": "불린 함초",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-9d0d0cc7e076",
+    "name": "메주가루",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-cedde71fd75b",
+    "name": "소고기(정강이살)",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-02def078d41c",
+    "name": "닭뼈육수",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-416d806c1867",
+    "name": "파르미지아노 치즈",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-92164e4ee27e",
+    "name": "닭고기(다리살)",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-0f7706d92c4d",
+    "name": "포도",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-ae9b02c58c33",
+    "name": "미니사과",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-101f5b0bb75f",
+    "name": "누룩소금",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-669a39ae2732",
+    "name": "생새우",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-119b11144094",
+    "name": "바질다진것",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-10259e3382dc",
+    "name": "자몽주수",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-ed85c1985b8a",
+    "name": "귤통조림",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-c4cd78625204",
+    "name": "복숭아",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-d2619e351ed7",
+    "name": "식혜",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6058ea41f351",
+    "name": "설탕시럽",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-e89daa395c49",
+    "name": "산딸기",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-99d5772c64c7",
+    "name": "사과작은것",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-af01373cc073",
+    "name": "실파송송썬것",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-b5adeb3c5405",
+    "name": "달걀 삶은것",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-855afdd300f2",
+    "name": "에멘탈 치즈",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f5fa7531cadd",
+    "name": "바케트빵",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-5536f7dd91e4",
+    "name": "삼계탕용 닭",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6fe0abafadc0",
+    "name": "삼계탕 티백",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-81dd6ff44565",
+    "name": "삼계탕 육수",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-99a93e198d3b",
+    "name": "펜넬파스타",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6a1120132ed3",
+    "name": "생밤",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6bb15e7da9d2",
+    "name": "카스텔라",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-46dc45c7376e",
+    "name": "밀가루박력분",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-d7e97abac199",
+    "name": "베이킹파우더",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-3b4aff4029cf",
+    "name": "백련초가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-df604411f541",
+    "name": "아이스크림",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-b53f1c375be7",
+    "name": "냉동홍시",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-c4da175d9790",
+    "name": "잡곡밥흑미 검은콩",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-0d530d6d325e",
+    "name": "피자치즈",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-92a42e5c6bd1",
+    "name": "밀가루중력분",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-293c250e9591",
+    "name": "이스트",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-687495c2ca98",
+    "name": "따뜻한물",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-4a8d6662609c",
+    "name": "닭 정육",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-1f20290ec54e",
+    "name": "딸기쨈",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-c03cdfe13b10",
+    "name": "낫토",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-7e1bea15e4eb",
+    "name": "시래기불린것",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-3dd77c8e8a7b",
+    "name": "조랭이떡",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-d02fb8de3522",
+    "name": "들깨",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-96e8b8ca3dbb",
+    "name": "가루녹차",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-9f0ab9dff136",
+    "name": "건함초",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-c46f513d59f6",
+    "name": "수란",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-79c6b35b6883",
+    "name": "팔각",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-5bc4094c98ad",
+    "name": "검은콩튀밥",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6ff1aea26d83",
+    "name": "쌀튀밥",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-09e6c0236ec5",
+    "name": "메닐튀밥",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-b6201ef5b494",
+    "name": "현미가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-14974905ffec",
+    "name": "손질된 흰살생선",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-d2f8fda21c5b",
+    "name": "허니머스터드소스",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-5a8665d5c9bf",
+    "name": "과메기",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-7a66811505ec",
+    "name": "매실장아찌",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-4d8a23b4e487",
+    "name": "건홍고추",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-4d6be9cfdd0d",
+    "name": "쇠고기살코기",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-132d2660b150",
+    "name": "할라피뇨다진것",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-62341fb4a880",
+    "name": "시금치(포항초)",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-eea77c425fc5",
+    "name": "검정깨(볶은 것)",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-9050fb19ec1a",
+    "name": "멍게살",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-38b46e3e4925",
+    "name": "곰피",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-3c221846c69a",
+    "name": "오미자 액기스",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-649c7c428fbe",
+    "name": "민들레",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-0ef1a8511f38",
+    "name": "풋마늘",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-a8d7b74dd5aa",
+    "name": "건오징어",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-508982c042ec",
+    "name": "카스텔라가루",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-a3c7c751ec43",
+    "name": "곤약미",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-048ca4a327ab",
+    "name": "크림",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-36644f798f0b",
+    "name": "중력분",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-09a1eca446ad",
+    "name": "강력분",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-5fd9fec7c668",
+    "name": "체리토마토",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-ae2c4bc80ec1",
+    "name": "앤다이브",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-21330c864416",
+    "name": "삼색파프리카",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-0fb76a629dcb",
+    "name": "현미튀밥",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-de6aff3b0049",
+    "name": "쌀국수",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f7196cf20c51",
+    "name": "넛맥",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-fb22238238c3",
+    "name": "바닐라빈",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-c569381bcf9d",
+    "name": "말린 홍고추",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-02ddc80fb44c",
+    "name": "양조식초",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f6f92cd2ce88",
+    "name": "마늘쫑",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-799a230c92ac",
+    "name": "옥수수가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-151c2679dc7f",
+    "name": "아몬드가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-b9e36e116273",
+    "name": "코코넛슬라이스",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-fa973b9a12df",
+    "name": "호떡반죽",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f5d44bd109e8",
+    "name": "마스카포네치즈",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-eb216137aa99",
+    "name": "박력분",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-4a8532280ccb",
+    "name": "마스카르포네치즈",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-36239d8e1840",
+    "name": "렌틸콩",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-2ef20543c80e",
+    "name": "호박고구마",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-8d30246f8a15",
+    "name": "푸룬",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-7f48393bd33f",
+    "name": "백앙금",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-ef06ea778670",
+    "name": "말린오미자",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-78ca13d70c23",
+    "name": "생수",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-c58d3c9f969a",
+    "name": "각얼음",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-958ebe6a6fcc",
+    "name": "유자",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6003326f7a9f",
+    "name": "메주콩",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-0654d7387d17",
+    "name": "민트잎",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f468e7ced611",
+    "name": "무첨가두유",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-55daf5a7649d",
+    "name": "타가토스",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-589fdb64c269",
+    "name": "고구마칩",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-34c4c1fad4ca",
+    "name": "녹차",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-87c85d601e01",
+    "name": "삶은 쌀소면",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-7299ae3de195",
+    "name": "청포도",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-104eff6c98a4",
+    "name": "한천가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f98037255123",
+    "name": "흰강낭콩",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-d6e9235b2f96",
+    "name": "쑥 파우더",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-66f76f3266a9",
+    "name": "구운 김",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-6674643eb8f8",
+    "name": "불린 라이스페이퍼",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-f94405076de8",
+    "name": "찐 고구마",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-1d0c7fc59d66",
+    "name": "무염 치즈",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-ae7f1e68ff8b",
+    "name": "동태살",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mfds-ingredient-04b7c3114af7",
+    "name": "키위소스",
     "aliases": [],
     "category": "양념·조미료",
     "isSeasoning": true,

@@ -51,11 +51,14 @@ export function auditAndMerge(snapshots, ingredients, recipes, reviews, date) {
     const servingEvidence = review.servingEvidence;
     const explicitServings = servingEvidence && explicitServing(servingEvidence);
     const estimated = review.servingsStatus === 'estimated';
-    if (estimated) {
+    const userConfirmed = review.servingsStatus === 'user-confirmed';
+    if (userConfirmed) {
+      if (review.baseServings !== 1 || explicitServing(row.RCP_PARTS_DTLS) || !review.servingsEvidence?.trim() || !review.confirmedOn) throw new Error(`사용자 확인 인분 근거 불일치: ${id}`);
+    } else if (estimated) {
       if (review.baseServings !== 1 || explicitServing(row.RCP_PARTS_DTLS) || !review.servingsEvidence?.trim() || !review.assumptionApprovedOn) throw new Error(`추정 인분 근거 불일치: ${id}`);
     } else if (!explicitServings || explicitServings[0] !== servingEvidence || Number(explicitServings[1] || explicitServings[2]) !== review.baseServings || !row.RCP_PARTS_DTLS.startsWith(servingEvidence)) throw new Error(`기준 인분 근거 불일치: ${id}`);
     if (!review.reviewedOn || !Array.isArray(review.ingredients) || !review.ingredients.length) throw new Error(`검수 기록 누락: ${id}`);
-    let unreviewed = estimated ? row.RCP_PARTS_DTLS : row.RCP_PARTS_DTLS.replace(servingEvidence, '');
+    let unreviewed = estimated || userConfirmed ? row.RCP_PARTS_DTLS : row.RCP_PARTS_DTLS.replace(servingEvidence, '');
     for (const label of review.sectionLabels || []) {
       if (!unreviewed.includes(label)) throw new Error(`구획 근거 불일치: ${id}`);
       unreviewed = unreviewed.replace(label, '');
@@ -79,7 +82,9 @@ export function auditAndMerge(snapshots, ingredients, recipes, reviews, date) {
       if (![standard.name, ...standard.aliases].some(name => name.replace(/\s/g,'') === sourceName.replace(/\s/g,''))) throw new Error(`원문 표준 재료명 불일치: ${id}`);
       if (!item.sourceText.startsWith(sourceName)) throw new Error(`원문 재료명 누락: ${id}`);
       let written = item.sourceText.slice(sourceName.length).trim();
-      if (item.sourceFormat === 'unresolved') {
+      if (item.sourceFormat === 'missing-unit') {
+        if(item.amount !== null || item.unit !== null || !/^\d+(?:\.\d+)?$/u.test(written) || !item.note?.includes('단위 미기재')) throw new Error(`미기재 단위 근거 불일치: ${id}`);
+      } else if (item.sourceFormat === 'unresolved') {
         if(item.amount !== null || item.unit !== null || !/^\([^]+\)$/u.test(written) || !item.note?.includes('확인 필요')) throw new Error(`보류 수량 근거 불일치: ${id}`);
         let parseable=false;
         try {parseWrittenAmount(written.slice(1,-1));parseable=true;} catch {}
@@ -107,10 +112,15 @@ export function auditAndMerge(snapshots, ingredients, recipes, reviews, date) {
     }
     const next = { id: recipeId, name: row.RCP_NM, baseServings: review.baseServings, cookMinutes: null, cookingType: review.cookingType, imagePath: null,
       ...(estimated ? { servingsStatus: 'estimated', servingsEvidence: review.servingsEvidence } : {}),
-      sourceNote: `식품의약품안전처 COOKRCP01 / RCP_SEQ=${id}; ${SOURCE}; 이용허락범위 제한 없음: ${LICENSE}; ${estimated ? '1인분 기준(추정); 사용자 승인 ' + review.assumptionApprovedOn : '원문 ' + review.servingEvidence}; 재료·수량·원문 단위 대조 ${review.reviewedOn}; sha256=${review.sourceHash}; 사진·조리 설명 미사용.`, ingredients: recipeIngredients };
+      ...(userConfirmed ? { servingsStatus: 'user-confirmed', servingsEvidence: review.servingsEvidence } : {}),
+      sourceNote: `식품의약품안전처 COOKRCP01 / RCP_SEQ=${id}; ${SOURCE}; 이용허락범위 제한 없음: ${LICENSE}; ${userConfirmed ? '1인분 기준; 사용자 확인 ' + review.confirmedOn : estimated ? '1인분 기준(추정); 사용자 승인 ' + review.assumptionApprovedOn : '원문 ' + review.servingEvidence}; 재료·수량·원문 단위 대조 ${review.reviewedOn}; sha256=${review.sourceHash}; 사진·조리 설명 미사용.`, ingredients: recipeIngredients };
     const existing = resultRecipes.find(r => r.id === recipeId);
     if (existing) {
-      if (JSON.stringify(existing) !== JSON.stringify(next)) throw new Error(`기존 가져온 메뉴와 검수 내용이 다릅니다: ${id}`);
+      if (JSON.stringify(existing) !== JSON.stringify(next)) {
+        const stable = r => JSON.stringify(Object.fromEntries(Object.entries(r).filter(([k]) => !['servingsStatus','servingsEvidence','sourceNote'].includes(k))));
+        if (existing.servingsStatus === 'estimated' && userConfirmed && stable(existing) === stable(next)) Object.assign(existing,next);
+        else throw new Error(`기존 가져온 메뉴와 검수 내용이 다릅니다: ${id}`);
+      }
       unchanged.push(recipeId);
     } else { resultRecipes.push(next); nameMap.set(nameKey, next); added.push(recipeId); }
   }
@@ -134,7 +144,7 @@ export function auditAndMerge(snapshots, ingredients, recipes, reviews, date) {
     identicalIngredientTextGroups: [...groupedIngredients.values()].filter(group => group.length > 1),
     explicitServingRows: [...identities.values()].filter(row => explicitServing(row.RCP_PARTS_DTLS)).length,
     added, unchanged, pending, totalSiteRecipes: resultRecipes.length, coverage,
-    servingClassification: { explicitReviewed: resultRecipes.filter(r => r.id.startsWith('mfds-cookrcp01-') && r.servingsStatus !== 'estimated').length, estimated: resultRecipes.filter(r => r.servingsStatus === 'estimated').map(r => ({ id: r.id, name: r.name, evidence: r.servingsEvidence })), pending: pending.length },
+    servingClassification: { explicitReviewed: resultRecipes.filter(r => r.id.startsWith('mfds-cookrcp01-') && !['estimated','user-confirmed'].includes(r.servingsStatus)).length, userConfirmed: resultRecipes.filter(r => r.servingsStatus === 'user-confirmed').length, estimated: resultRecipes.filter(r => r.servingsStatus === 'estimated').map(r => ({ id: r.id, name: r.name, evidence: r.servingsEvidence })), pending: pending.length },
     limitation: '확인한 원문과 일치하는 명시적 검수 기록만 반영합니다. 전체 수집 수와 반영 메뉴 수는 다릅니다. 비슷한 메뉴명의 의미상 중복은 최종 수동 검수가 필요합니다.'
   } };
 }
