@@ -419,3 +419,23 @@ test('제목 체크는 부분 선택을 나타내고 제외 이유 취소·보�
  await button(restored.body,'새 장보기 시작').click();await button(find(restored.body,x=>x.tagName==='dialog'),'새 장보기 시작').click();
  assert.ok(JSON.parse(restored.saved.get('jmd_recipe_preferences_v1')).pantryIngredientIds.includes(id));
 });
+
+
+test('추천 카드 공식 사진은 지연 로딩하고 실패 시 숨기며 메뉴 담기는 유지',async()=>{
+ const {body,saved}=await load('recipes');
+ const image=all(body).find(x=>x.tagName==='img'&&x.className==='recipe-image'&&x.attrs.src.startsWith('https://'));assert.ok(image);
+ assert.equal(image.attrs.loading,'lazy');assert.equal(image.attrs.decoding,'async');
+ assert.ok(image.attrs.src.startsWith('https://www.foodsafetykorea.go.kr/'));
+ await image.fire('error');assert.equal(image.hidden,true);
+ const card=image.parent.parent;await button(card,'담기 +').click();assert.equal(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes.length,1);
+ const shopping=await load('shopping-list',[],{draft:JSON.parse(saved.get('jmd_draft_v1'))});assert.equal(all(shopping.body).some(x=>x.tagName==='img'),false);
+});
+
+
+test('추천의 생성 사진에는 AI 표시가 있고 검색 결과는 사진 없이 유지',async()=>{
+ const {body}=await load('recipes');
+ const label=all(body).find(x=>x.className==='ai-image-label');assert.ok(label);assert.equal(label.textContent,'AI 생성 이미지');
+ const image=label.parent.children.find(x=>x.tagName==='img');assert.ok(image.attrs.src.includes('/assets/images/generated/'));
+ const input=document.getElementById('menu-search');input.value='김치찌개';await input.fire('input');
+ assert.equal(all(document.getElementById('menu-search-list')).some(x=>x.tagName==='img'),false);
+});

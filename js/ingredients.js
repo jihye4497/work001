@@ -1,3 +1,4 @@
+import { applyRecipeImages } from './recipe-images.js';
 import { applyRecipeCategories } from './recipe-filters.js';
 import { primaryIngredientIds } from './ingredient-matching.js';
 export const CATEGORIES = ['채소·버섯', '육류·해산물', '두부·계란·기타', '양념·조미료'];
@@ -37,14 +38,14 @@ export function searchIngredients(ingredients, query) {
 }
 
 export async function loadData() {
-  const urls = ['../data/ingredients.json', '../data/recipes.json', '../data/recipe-categories.json'];
+  const urls = ['../data/ingredients.json', '../data/recipes.json', '../data/recipe-categories.json', '../data/recipe-images.json', '../data/generated-recipe-images.json'];
   const data = await Promise.all(urls.map(async path => {
     const response = await fetch(new URL(path, import.meta.url));
     if (!response.ok) throw new Error('데이터를 불러오지 못했어요.');
     return response.json();
   }));
   const byId=new Map(data[0].map(i=>[i.id,i]));
-  const recipes=applyRecipeCategories(data[1],data[2]).map(r=>({...r,primaryIngredientIds:primaryIngredientIds(r,byId)}));
+  const recipes=applyRecipeImages(applyRecipeCategories(data[1],data[2]),data[3],data[4]).map(r=>({...r,primaryIngredientIds:primaryIngredientIds(r,byId)}));
   return validateData(data[0],recipes);
 }
 

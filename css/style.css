@@ -8,7 +8,7 @@
   --nav-icon-size: 18px; --nav-icon-gap: 6px;
   --selected-basis-size: 14px; --selected-basis-line: 20px;
   --home-step-icon: 40px; --home-step-arrow: 24px; --home-step-arrow-top: 8px;
-  --recipe-image-ratio: 1.6; --home-title: 32px; --home-title-line: 44px;
+  --recipe-image-ratio: 1; --home-title: 32px; --home-title-line: 44px;
   --hero-space: 64px; --hero-title-size: 28px; --hero-title-line: 40px;
   --hero-number-size: 22px; --narrow-width: 640px;
   --search-max-height: 320px; --sidebar-width: 320px;
@@ -203,7 +203,7 @@ details[open] > summary::before { content: '−'; }
 .recipe-card.panel { display: flex; flex-direction: column; padding: var(--s3); border: var(--line) solid var(--divider); border-radius: var(--radius-card); box-shadow: var(--shadow-soft); gap: var(--s2); }
 .recipe-card h3 { font-size: var(--compact-title); line-height: var(--small-line); letter-spacing: -.4px; }
 .recipe-card .recipe-meta { color: var(--muted); font-size: var(--selected-basis-size); line-height: var(--selected-basis-line); }
-.recipe-image { width: 100%; aspect-ratio: var(--recipe-image-ratio); object-fit: cover; border-radius: var(--radius-control); }
+.recipe-image { width: 100%; height: auto; aspect-ratio: var(--recipe-image-ratio); object-fit: cover; border-radius: var(--radius-control); }
 .recipe-card-actions { display: grid; grid-template-columns: minmax(0,1fr) var(--touch); gap: var(--s1); padding-top: var(--s3); margin-top: auto; }
 .recipe-card-actions > .primary { background: var(--secondary); color: var(--primary); border-color: transparent; padding-inline: var(--s1); }
 .recipe-card-actions > .primary:hover { background: var(--pantry-hover); }
@@ -319,7 +319,7 @@ dialog h2 { font-size: var(--heading-size); margin-bottom: var(--s3); }
   .ingredient-source-tabs .button,.mode-tabs .button { font-size: var(--body-size); }
 }
 @media (min-width: 768px) {
-  :root { --gutter: 24px; }
+  :root { --gutter: 24px; --recipe-image-ratio: 1.6; }
   main { padding-top: var(--s6); }
   .brand { font-size: var(--heading-size); }
   .main-nav a { font-size: var(--body-size); }
@@ -346,3 +346,10 @@ dialog h2 { font-size: var(--heading-size); margin-bottom: var(--s3); }
   html { scroll-behavior: auto; }
   *,*::before,*::after { animation: none !important; transition: none !important; }
 }
+
+.photo-credit { margin-top: var(--s3); font-size: var(--selected-basis-size); line-height: var(--selected-basis-line); }
+.photo-credit a { color: var(--muted); }
+
+.recipe-visual { position: relative; }
+.recipe-visual .recipe-image { display: block; }
+.ai-image-label { position: absolute; bottom: var(--s2); left: var(--s2); padding: var(--s1) var(--s2); background: var(--surface); color: var(--muted); border-radius: var(--radius-control); font-size: var(--selected-basis-size); line-height: var(--selected-basis-line); }

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generator": "built-in image_gen",
+  "description": "AI 생성 예시 이미지. 실제 조리 결과 사진이 아님. 기존 사진을 참고하거나 편집하지 않고 레시피 재료명으로 새로 생성.",
+  "entries": [
+    {
+      "recipeId": "kimchi-stew",
+      "name": "김치찌개",
+      "path": "assets/images/generated/kimchi-stew.png",
+      "imageKind": "generated",
+      "generatedOn": "2026-11-11"
+    },
+    {
+      "recipeId": "squid-stir",
+      "name": "오징어볶음",
+      "path": "assets/images/generated/squid-stir.png",
+      "imageKind": "generated",
+      "generatedOn": "2026-11-11"
+    },
+    {
+      "recipeId": "potato-stir",
+      "name": "감자채볶음",
+      "path": "assets/images/generated/potato-stir.png",
+      "imageKind": "generated",
+      "generatedOn": "2026-11-11"
+    },
+    {
+      "recipeId": "doenjang-stew",
+      "name": "된장찌개",
+      "path": "assets/images/generated/doenjang-stew.png",
+      "imageKind": "generated",
+      "generatedOn": "2026-11-11"
+    },
+    {
+      "recipeId": "curry",
+      "name": "카레",
+      "path": "assets/images/generated/curry.png",
+      "imageKind": "generated",
+      "generatedOn": "2026-11-11"
+    },
+    {
+      "recipeId": "pumpkin-soup",
+      "name": "단호박 스프",
+      "path": "assets/images/generated/pumpkin-soup.png",
+      "imageKind": "generated",
+      "generatedOn": "2026-11-11"
+    },
+    {
+      "recipeId": "shrimp-porridge",
+      "name": "새우 계란죽",
+      "path": "assets/images/generated/shrimp-porridge.png",
+      "imageKind": "generated",
+      "generatedOn": "2026-11-11"
+    },
+    {
+      "recipeId": "beef-porridge",
+      "name": "쇠고기죽",
+      "path": "assets/images/generated/beef-porridge.png",
+      "imageKind": "generated",
+      "generatedOn": "2026-11-11"
+    }
+  ]
+}

@@ -324,7 +324,7 @@ function drawRecipes() {
     const cards = slice.items.map(({recipe,reasons,replacements}) => {
       const added = store.draft.selectedRecipes.some(s=>s.recipeId===recipe.id);
       return el('article', {class:'recipe-card panel'}, [
-        recipe.imagePath ? el('img', {src:recipe.imagePath, alt:'', loading:'lazy', class:'recipe-image'}) : null,
+        recipe.imagePath ? el('div',{class:'recipe-visual'},[el('img', {src:recipe.imagePath, alt:'', loading:'lazy', decoding:'async', referrerPolicy:'no-referrer', width:480, height:300, class:'recipe-image', onerror:event=>{event.target.hidden=true;const visual=event.target.closest?.('.recipe-visual');if(visual)visual.hidden=true;}}),recipe.imageKind==='generated'?el('span',{class:'ai-image-label'},'AI 생성 이미지'):null]) : null,
         el('h3', {},recipe.name), el('p', {class:'muted recipe-meta'},servingLabel(recipe)),
         el('div', {class:'recipe-card-actions'}, [button(added?'담김':'담기 +', () => {
           addMenu(recipe,replacements);
@@ -338,7 +338,8 @@ function drawRecipes() {
     content.replaceChildren(...[
       query ? el('div',{class:'search-scope'},[el('span',{class:'muted'},'전체 메뉴 검색 중 · 추천 조건 미적용'),button('검색 지우기',()=>{store.draft.menuQuery='';input.value='';resetVisible();save();renderResults();input.focus();},'secondary')]) : null,
       cards.length ? el('div',{class:'card-grid'},cards) : empty(query?'검색 결과가 없어요.':'현재 조건에 맞는 추천 메뉴가 없어요.',query?'메뉴 이름을 짧게 바꿔 검색해 주세요.':'관심 재료를 선택하거나 음식 종류를 바꿔 주세요. 메뉴 이름으로 직접 검색할 수도 있어요.'),
-      slice.hasMore ? button('더 보기',()=>{visible+=8;renderResults();focus('more');},'secondary',{id:'more'}) : null].filter(Boolean));
+      slice.hasMore ? button('더 보기',()=>{visible+=8;renderResults();focus('more');},'secondary',{id:'more'}) : null,
+      slice.items.some(item=>item.recipe.imagePath&&item.recipe.imageKind!=='generated')?el('p',{class:'photo-credit'},link('사진 출처 · 식품의약품안전처', 'https://www.data.go.kr/data/15060073/openapi.do')):null].filter(Boolean));
   }
   input.addEventListener('keydown',event=>{
     if(event.isComposing)return;

@@ -1,0 +1,48 @@
+{
+  "collectedOn": "2026-11-11",
+  "sourceTotal": 1156,
+  "recipes": 1033,
+  "linked": 1023,
+  "missing": [
+    {
+      "recipeId": "squid-stir",
+      "name": "오징어볶음"
+    },
+    {
+      "recipeId": "potato-stir",
+      "name": "감자채볶음"
+    },
+    {
+      "recipeId": "doenjang-stew",
+      "name": "된장찌개"
+    },
+    {
+      "recipeId": "kimchi-stew",
+      "name": "김치찌개"
+    },
+    {
+      "recipeId": "curry",
+      "name": "카레"
+    },
+    {
+      "recipeId": "pumpkin-soup",
+      "name": "단호박 스프"
+    },
+    {
+      "recipeId": "shrimp-porridge",
+      "name": "새우 계란죽"
+    },
+    {
+      "recipeId": "beef-porridge",
+      "name": "쇠고기죽"
+    },
+    {
+      "recipeId": "mfds-cookrcp01-17",
+      "name": "칼륨 듬뿍 고구마죽"
+    },
+    {
+      "recipeId": "mfds-cookrcp01-16",
+      "name": "누룽지 두부 계란죽"
+    }
+  ]
+}
