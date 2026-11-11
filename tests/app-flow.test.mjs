@@ -53,7 +53,7 @@ test('추천 화면의 다중 선택·담기·횟수 편집·제외와 실행 �
   await document.getElementById('food-1').click();await document.getElementById('food-2').click();
   assert.deepEqual(JSON.parse(saved.get('jmd_draft_v1')).selectedFoodCategories,['한식 주메뉴','한식 반찬']);
   const card=find(body,x=>x.className.includes('recipe-card'));
-  await button(card,'담기 +').click();
+  await button(card,'담기 +').click();await document.getElementById('confirm-add-menu').click();
   assert.equal(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes.length,1);
   await document.getElementById('selected-drawer-toggle').click();
   await button(body,'+').click();
@@ -113,7 +113,7 @@ test('메뉴 검색은 재료 해제 후에도 전체에서 찾고 검색 지우
  assert.equal(all(body).filter(x=>x.className==='recipe-card panel').length,0);
  const search=document.getElementById('menu-search');search.value='김치찌개';await search.fire('input');
  assert.ok(find(body,x=>x.className.includes('search-menu-option')));
- await find(body,x=>x.className.includes('search-menu-option')).click();
+ await find(body,x=>x.className.includes('search-menu-option')).click();await document.getElementById('confirm-add-menu').click();
  assert.equal(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes.length,1);
  const current=document.getElementById('menu-search');current.value='';await current.fire('input');
  const updated=JSON.parse(saved.get('jmd_draft_v1'));
@@ -207,7 +207,7 @@ test('한 글자 검색 목록·더 보기·추천 제외 무시·직접 담기�
  input.value=recipe.name;await input.fire('input');
  const choice=options().find(x=>x.attrs['aria-label']===`${recipe.name} 담기`);assert.ok(choice);
  await input.fire('keydown',{key:'ArrowDown'});assert.ok(document.activeElement.className.includes('search-menu-option'));
- await choice.click();
+ await choice.click();await document.getElementById('confirm-add-menu').click();
  const draft=JSON.parse(saved.get('jmd_draft_v1'));assert.equal(draft.selectedRecipes[0].recipeId,recipe.id);assert.equal(draft.menuQuery,'');
  assert.equal(document.getElementById('menu-search-list').hidden,true);
  input.value=recipe.name;const current=document.getElementById('menu-search');current.value=recipe.name;await current.fire('input');
@@ -221,7 +221,7 @@ test('한 글자 검색 목록·더 보기·추천 제외 무시·직접 담기�
 test('검색 메뉴를 담으면 재료가 자동 추가되고 삭제 시 직접 선택 재료만 보존',async()=>{
  const {body,saved}=await load('recipes',[],{draft:{schemaVersion:1,selectedIngredientIds:['onion'],selectedRecipes:[],activeRecommendationMode:'추가 구매 최소',activeInterestIds:['onion'],checkedIngredientIds:[]}});
  const input=document.getElementById('menu-search');input.value='김치찌개';await input.fire('input');
- const choice=all(body).find(x=>x.className.includes('search-menu-option'));await choice.click();
+ const choice=all(body).find(x=>x.className.includes('search-menu-option'));await choice.click();await document.getElementById('confirm-add-menu').click();
  let d=JSON.parse(saved.get('jmd_draft_v1'));assert.ok(d.selectedIngredientIds.length>1);assert.deepEqual(d.manualIngredientIds,['onion']);
  await document.getElementById('selected-drawer-toggle').click();
  await document.getElementById(`minus-${d.selectedRecipes[0].recipeId}`).click();await document.getElementById(`minus-${d.selectedRecipes[0].recipeId}`).click();await button(body,'메뉴 삭제').click();
@@ -288,34 +288,30 @@ test('관심 선택 태그의 측정된 첫 두 줄만 표시하며 더 보기·
  } finally {delete globalThis.ResizeObserver;}
 });
 
-test('검색 담기 알림은 보유·기존 구매를 빼고 새 재료와 양념만 표시하며 닫아도 선택 유지',async()=>{
- const recipes=JSON.parse(await readFile(new URL('../data/recipes.json',import.meta.url),'utf8'));
- const ingredients=JSON.parse(await readFile(new URL('../data/ingredients.json',import.meta.url),'utf8'));
- const {aggregate,partitionShoppingRows}=await import('../js/shopping-list.js');
- const target=recipes.find(r=>r.id==='kimchi-stew');
- const draft={schemaVersion:1,selectedIngredientIds:[],selectedRecipes:[{recipeId:'squid-stir',times:1}],activeRecommendationMode:'추가 구매 최소',activeInterestIds:[],checkedIngredientIds:[]};
- const pantry=['kimchi'];
- const before=new Set(partitionShoppingRows(aggregate(ingredients,recipes,draft.selectedRecipes,2),pantry,ingredients)[0].rows.map(r=>r.ingredient.id));
- const {body,saved}=await load('recipes',[],{draft,pantry});
- const input=document.getElementById('menu-search');input.value=target.name;await input.fire('input');
- await all(body).find(x=>x.className.includes('search-menu-option')&&x.attrs['aria-label']===`${target.name} 담기`).click();
- const feedback=document.getElementById('added-menu-feedback');assert.match(feedback.textContent,/새로 추가된 구매 재료/);
- const after=JSON.parse(saved.get('jmd_draft_v1'));
- const added=partitionShoppingRows(aggregate(ingredients,recipes,after.selectedRecipes,2),pantry,ingredients)[0].rows.filter(r=>!before.has(r.ingredient.id));
- for(const row of added)assert.ok(feedback.textContent.includes(row.ingredient.name));
- const whole=all(feedback).filter(x=>x.tagName==='li').map(x=>x.textContent);
- if(added.length>3)assert.deepEqual(whole,added.map(r=>r.ingredient.name));
- await button(feedback,'닫기').click();assert.equal(feedback.textContent,'');
- assert.equal(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes.length,2);
-});
-test('추천 카드 담기도 알림을 표시하고 모두 보유하면 추가 구매 없음으로 안내',async()=>{
- const raw=JSON.parse(await readFile(new URL('../data/ingredients.json',import.meta.url),'utf8'));
- const {body}=await load('recipes',[],{pantry:raw.map(i=>i.id)});
- const card=all(body).find(x=>x.className==='recipe-card panel');assert.ok(card);
- await button(card,'담기 +').click();
- assert.match(document.getElementById('added-menu-feedback').textContent,/추가로 구매할 재료가 없어요/);
+test('검색·추천 담기는 사전 확인 모달로 재료를 나누고 취소·확인 전까지 저장하지 않음',async()=>{
+ const draft={schemaVersion:1,selectedIngredientIds:['kimchi'],selectedRecipes:[],activeRecommendationMode:'추가 구매 최소',activeInterestIds:[],checkedIngredientIds:[]};
+ const {body,saved}=await load('recipes',[],{draft,pantry:['onion','minced-garlic']});
+ const input=document.getElementById('menu-search');input.value='김치찌개';await input.fire('input');
+ const choice=all(body).find(x=>x.className.includes('search-menu-option')&&x.attrs['aria-label']==='김치찌개 담기');choice.focus();
+ const before=saved.get('jmd_draft_v1');await choice.click();
+ let dialog=document.getElementById('add-menu-dialog');assert.ok(dialog.open);assert.equal(saved.get('jmd_draft_v1'),before);
+ assert.match(dialog.textContent,/김치찌개 메뉴를 담으시겠습니까/);assert.match(dialog.textContent,/새로운 재료:/);assert.match(dialog.textContent,/관심 재료: 김치/);
+ assert.equal(document.getElementById('add-menu-materials').textContent.includes('양파'),false);
+ await document.getElementById('cancel-add-menu').click();assert.equal(saved.get('jmd_draft_v1'),before);assert.equal(document.activeElement,choice);
+ await choice.click();dialog=document.getElementById('add-menu-dialog');await dialog.fire('cancel');dialog.close();assert.equal(saved.get('jmd_draft_v1'),before);
+ await choice.click();await document.getElementById('confirm-add-menu').click();
+ assert.equal(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes.length,1);assert.equal(document.getElementById('add-menu-dialog'),undefined);assert.equal(document.getElementById('added-menu-feedback'),undefined);
+ assert.equal(document.getElementById('menu-search').value,'');
 });
 
+test('추천 재료가 모두 보유 상태이면 구매 불필요 표시·확인 후에만 추가',async()=>{
+ const ingredients=JSON.parse(await readFile(new URL('../data/ingredients.json',import.meta.url),'utf8'));
+ const {body,saved}=await load('recipes',[],{pantry:ingredients.map(i=>i.id)});
+ const card=all(body).find(x=>x.className==='recipe-card panel');assert.ok(card);
+ await button(card,'담기 +').click();assert.match(document.getElementById('add-menu-dialog').textContent,/집에 있는 재료로 만들 수 있어요/);
+ assert.equal(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes.length,0);
+ await document.getElementById('confirm-add-menu').click();assert.equal(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes.length,1);
+});
 
 test('원본 4인분도 설정 인분으로 시작하고 1인분 증감·취소·삭제·복원을 처리',async()=>{
  const {aggregate,totalText}=await import('../js/shopping-list.js');
@@ -427,7 +423,7 @@ test('추천 카드 공식 사진은 지연 로딩하고 실패 시 숨기며 �
  assert.equal(image.attrs.loading,'lazy');assert.equal(image.attrs.decoding,'async');
  assert.ok(image.attrs.src.startsWith('https://www.foodsafetykorea.go.kr/'));
  await image.fire('error');assert.equal(image.hidden,true);
- const card=image.parent.parent;await button(card,'담기 +').click();assert.equal(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes.length,1);
+ const card=image.parent.parent;await button(card,'담기 +').click();await document.getElementById('confirm-add-menu').click();assert.equal(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes.length,1);
  const shopping=await load('shopping-list',[],{draft:JSON.parse(saved.get('jmd_draft_v1'))});assert.equal(all(shopping.body).some(x=>x.tagName==='img'),false);
 });
 

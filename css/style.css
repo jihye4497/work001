@@ -213,11 +213,6 @@ details[open] > summary::before { content: '−'; }
 .recipe-options-content { position: absolute; right: 0; bottom: 100%; width: min(280px,calc(100vw - var(--gutter) * 2)); max-height: 50dvh; overflow-y: auto; padding: var(--s3); background: var(--surface); border: var(--line) solid var(--divider); border-radius: var(--radius-card); box-shadow: var(--shadow-dialog); z-index: 3; }
 .recipe-card:nth-child(odd) .recipe-options-content { left: calc(-1 * var(--touch)); right: auto; width: min(240px,calc(100vw / 2 - var(--gutter))); }
 .reasons { font-size: var(--selected-basis-size); line-height: var(--selected-basis-line); margin: 0 0 var(--s3); padding-left: var(--s4); }
-#added-menu-feedback:not(:empty) { margin-block: var(--s3); padding: var(--s3); background: var(--secondary); border-radius: var(--radius-card); }
-.added-feedback-heading { display: flex; justify-content: space-between; align-items: center; gap: var(--s2); }
-.added-feedback-heading strong { font-size: var(--body-size); }
-.added-feedback-heading .button { flex-shrink: 0; background: transparent; border: 0; color: var(--muted); font-size: var(--selected-basis-size); }
-#added-menu-feedback p,#added-menu-feedback li { font-size: var(--selected-basis-size); line-height: var(--selected-basis-line); }
 .recipe-bottom { position: sticky; bottom: 0; z-index: 5; background: var(--surface); border: var(--line) solid var(--divider); border-radius: var(--radius-card) var(--radius-card) 0 0; box-shadow: 0 -4px 16px #25332B08; padding: var(--s2) var(--s3) max(var(--s3),env(safe-area-inset-bottom)); margin-top: var(--s5); }
 .recipe-bottom > .primary { width: 100%; }
 .recipe-bottom .selected-panel { border: 0; margin: 0; padding: 0; background: transparent; }
@@ -353,3 +348,8 @@ dialog h2 { font-size: var(--heading-size); margin-bottom: var(--s3); }
 .recipe-visual { position: relative; }
 .recipe-visual .recipe-image { display: block; }
 .ai-image-label { position: absolute; bottom: var(--s2); left: var(--s2); padding: var(--s1) var(--s2); background: var(--surface); color: var(--muted); border-radius: var(--radius-control); font-size: var(--selected-basis-size); line-height: var(--selected-basis-line); }
+
+.add-menu-materials { max-height: 50dvh; overflow-y: auto; font-size: var(--body-size); line-height: var(--body-line); }
+.add-menu-materials strong { color: var(--text); }
+.add-menu-materials p { color: var(--muted); }
+.add-menu-dialog .actions { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); }
