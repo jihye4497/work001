@@ -135,3 +135,20 @@ test('물·생수는 구매와 선택 복사에서 제외하고 원본 합산·�
  assert.equal(partitionShoppingRows(rows,[items[0].id],ingredients)[1].rows[0].ingredient.name,'물');
  assert.equal(r.ingredients.length,4);
 });
+
+
+test('용도만 다른 소금은 대표 소금으로 검색·보유 매칭·동일 단위 합산하고 소금물은 분리',async()=>{
+ const {matchIngredient}=await import('../js/ingredient-matching.js');
+ const {partitionShoppingRows}=await import('../js/shopping-list.js');
+ const byId=new Map(ingredients.map(i=>[i.id,i]));
+ const blanch=ingredients.find(i=>i.name==='소금(데치는용)');const bitter=ingredients.find(i=>i.name==='소금(쓴맛 제거용)');
+ const water=ingredients.find(i=>i.name==='소금물');const low=ingredients.find(i=>i.name==='저염소금');
+ assert.deepEqual(searchIngredients(ingredients,'소금(데치는용)').map(i=>i.id),['salt']);
+ const fixture=recipe('salt-check','소금 확인','찜',[[blanch.id,2,'g'],[bitter.id,3,'g'],['salt',1,'t'],[water.id,100,'mL'],[low.id,4,'g']]);
+ assert.equal(matchIngredient(blanch.id,'salt',fixture,byId),2);assert.equal(matchIngredient(water.id,'salt',fixture,byId),0);assert.equal(matchIngredient(low.id,'salt',fixture,byId),0);
+ const before=JSON.stringify(fixture);const rows=aggregate(ingredients,[fixture],[{recipeId:fixture.id,times:1}],2);
+ assert.equal(totalText(rows.find(r=>r.ingredient.id==='salt')),'5g + 1t');
+ assert.ok(rows.some(r=>r.ingredient.id===water.id));assert.ok(rows.some(r=>r.ingredient.id===low.id));
+ const groups=partitionShoppingRows(rows,['salt'],ingredients);assert.deepEqual(groups[1].rows.map(r=>r.ingredient.id),['salt']);
+ assert.equal(JSON.stringify(fixture),before);
+});

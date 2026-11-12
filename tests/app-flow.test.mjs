@@ -268,7 +268,7 @@ test('보유 선택 태그의 측정된 첫 한 줄만 표시하며 더 보기·
   await button(body,'− 접기').click();assert.equal(chips.filter(x=>!x.hidden).length,2);
   chips.forEach(chip=>{chip.offsetTop=0;});measure();
   assert.equal(chips.filter(x=>!x.hidden).length,6);assert.equal(find(body,x=>x.className.includes('selection-more')).hidden,true);
-  assert.match(body.textContent,/선택한 재료 6개/);
+  assert.equal(find(body,x=>x.className==='selection-heading'),undefined);
  } finally {delete globalThis.ResizeObserver;}
 });
 
@@ -284,7 +284,7 @@ test('관심 선택 태그의 측정된 첫 한 줄만 표시하며 더 보기·
   await button(body,'− 접기').click();assert.equal(chips.filter(x=>!x.hidden).length,2);
   chips.forEach(chip=>{chip.offsetTop=0;});measure();
   assert.equal(chips.filter(x=>!x.hidden).length,6);assert.equal(find(body,x=>x.className.includes('selection-more')).hidden,true);
-  assert.match(body.textContent,/선택한 재료 6개/);
+  assert.equal(find(body,x=>x.className==='selection-heading'),undefined);
  } finally {delete globalThis.ResizeObserver;}
 });
 
@@ -449,4 +449,20 @@ test('제철은 별도 분류 탭으로 존재하며 각 보유·관심에 선�
   const candidates=all(body).filter(x=>x.id?.startsWith(`${prefix}-quick-`));
   if(candidates.length){const id=candidates[0].id.slice(`${prefix}-quick-`.length);await candidates[0].click();const ids=tab==='pantry'?JSON.parse(saved.get('jmd_recipe_preferences_v1')).pantryIngredientIds:JSON.parse(saved.get('jmd_draft_v1')).selectedIngredientIds;assert.ok(ids.includes(id));}
  }
+});
+
+
+test('하위 분류는 전체 기본·세부 필터·전체 검색·선택 제외·더보기 동작을 보존',async()=>{
+ const {body}=await load('ingredients',[],{search:'?tab=planned',draft:{schemaVersion:1,selectedIngredientIds:[],selectedRecipes:[],activeRecommendationMode:'추가 구매 최소',checkedIngredientIds:[]}});
+ assert.equal(document.getElementById('ingredient-subcategory-0').attrs['aria-pressed'],'true');
+ const quick=()=>all(body).filter(x=>x.id?.startsWith('ingredient-quick-'));
+ assert.equal(quick()[0].textContent,'+ 양파');assert.equal(quick().length,24);
+ await document.getElementById('ingredient-ingredient-more').click();assert.equal(quick().length,48);
+ await document.getElementById('ingredient-subcategory-2').click();
+ assert.ok(quick().some(x=>x.textContent==='+ 사과'));assert.equal(document.getElementById('ingredient-quick-onion'),undefined);
+ const search=document.getElementById('ingredient-search');search.value='새우';await search.fire('input');assert.match(document.getElementById('ingredient-results').textContent,/새우/);
+ await document.getElementById('ingredient-category-1').click();assert.equal(document.getElementById('ingredient-subcategory-0').attrs['aria-pressed'],'true');
+ await document.getElementById('ingredient-subcategory-4').click();assert.ok(document.getElementById('ingredient-quick-egg'));
+ await document.getElementById('ingredient-quick-egg').click();assert.equal(document.getElementById('ingredient-quick-egg'),undefined);
+ await document.getElementById('ingredient-category--1').click();assert.equal(find(body,x=>x.className==='ingredient-subcategories').hidden,true);
 });

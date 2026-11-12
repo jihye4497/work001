@@ -1,6 +1,6 @@
 import { CATEGORIES } from './ingredients.js';
 import { servingLabel } from './servings.js';
-import { ingredientKey } from './ingredient-matching.js';
+import { ingredientKey, representativeIngredient } from './ingredient-matching.js';
 
 export function selectedServings(selection, household) {
   return selection.servings ?? household * selection.times;
@@ -14,7 +14,7 @@ export function aggregate(ingredients, recipes, selectedRecipes, servings) {
     const recipe = byRecipe.get(selection.recipeId);
     if (!recipe) throw new Error('선택 메뉴의 데이터를 찾을 수 없어요.');
     for (const item of recipe.ingredients) {
-      const ingredient = byId.get(selection.ingredientReplacements?.[item.ingredientId] || item.ingredientId);
+      const ingredient = representativeIngredient(byId.get(selection.ingredientReplacements?.[item.ingredientId] || item.ingredientId),byId);
       if (!ingredient) throw new Error('재료 데이터를 찾을 수 없어요.');
       const row = rows.get(ingredient.id) || { ingredient, totals: new Map(), unknown: false, uses: [] };
       const amount = item.amount === null ? null : item.amount * selectedServings(selection, servings) / recipe.baseServings;

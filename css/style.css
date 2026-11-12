@@ -152,7 +152,6 @@ details[open] > summary::before { content: '−'; }
 /* Ingredient picker: chips carry meaning; categories remain secondary. */
 .panel.pantry-picker { padding: 0; border: 0; border-radius: 0; background: transparent; }
 .ingredient-selection { padding-bottom: var(--s3); border-bottom: var(--line) solid var(--divider); margin-bottom: var(--s3); }
-.selection-heading { font-size: var(--selected-basis-size); color: var(--muted); margin-bottom: var(--s2); }
 .ingredient-selection .button { border-radius: var(--pill-radius); font-size: var(--selected-basis-size); font-weight: var(--weight-normal); padding: var(--s2) var(--s3); }
 #pantry-selected-chips .selected { background: var(--pantry-bg); color: var(--pantry-text); border-color: transparent; }
 #ingredient-selected-chips .selected { background: var(--interest-bg); color: var(--interest-text); border-color: transparent; }
@@ -359,3 +358,7 @@ dialog h2 { font-size: var(--heading-size); margin-bottom: var(--s3); }
 .seasonal-heading { font-size: var(--selected-basis-size); color: var(--muted); margin-bottom: var(--s2); }
 .seasonal-source { font-size: var(--selected-basis-size); line-height: var(--selected-basis-line); margin-top: var(--s3); }
 .seasonal-source a { color: var(--muted); }
+
+.ingredient-subcategories { display: flex; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: thin; gap: var(--s1); margin-bottom: var(--s3); }
+.ingredient-subcategories .button { white-space: nowrap; flex: 0 0 auto; min-height: var(--touch); padding: var(--s1) var(--s2); border: 0; border-radius: var(--pill-radius); background: transparent; color: var(--muted); font-size: var(--selected-basis-size); font-weight: var(--weight-normal); }
+.ingredient-subcategories .button.selected { background: var(--secondary); color: var(--primary); font-weight: var(--weight-button); }
