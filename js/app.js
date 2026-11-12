@@ -518,7 +518,7 @@ function drawSettings() {
     description.replaceChildren(el('strong', {}, '오징어·팽이버섯·양파·감자를 골랐다면'), el('p', {}, text),
       el('p', { class: 'muted' }, '예: 오징어볶음은 오징어·양파를, 감자채볶음은 감자·양파를 활용해요. 버섯초계탕은 팽이버섯·양파를 함께 활용해요.'));
   }
-  const allowed = ['index.html', 'ingredients.html', 'recipes.html', 'shopping-list.html', 'guides/index.html', 'guides/squid.html', 'about.html', 'contact.html', 'privacy.html', 'terms.html', '404.html'];
+  const allowed = ['index.html', 'ingredients.html', 'recipes.html', 'shopping-list.html', 'about.html', 'contact.html', 'privacy.html', 'terms.html', '404.html'];
   const requested = new URLSearchParams(location.search).get('return');
   const returnPath = store.configured && allowed.includes(requested) ? requested : 'ingredients.html';
   const result = el('div', { role: 'status' });

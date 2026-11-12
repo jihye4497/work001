@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>오늘의 장바구니</title>
+    <link>https://work001-c91.pages.dev/</link>
+    <description>오늘의 장바구니의 새 콘텐츠 소식을 전합니다.</description>
+    <language>ko-KR</language>
+    <atom:link href="https://work001-c91.pages.dev/rss.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
