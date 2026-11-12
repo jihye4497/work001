@@ -256,34 +256,34 @@ test('보유·구매 예정 재료는 선택하면 아래에서 숨고 위에서
  }
 });
 
-test('보유 선택 태그의 측정된 첫 두 줄만 표시하며 더 보기·접기와 폭 변경을 처리',async()=>{
+test('보유 선택 태그의 측정된 첫 한 줄만 표시하며 더 보기·접기와 폭 변경을 처리',async()=>{
  let measure;
  globalThis.ResizeObserver=class {constructor(callback){measure=callback;}observe(){}disconnect(){}};
  try {
   const {body}=await load('ingredients',[],{search:'?tab=pantry',pantry:['onion','potato','carrot','enoki','salt','oil']});
   const chips=document.getElementById('pantry-selected-chips').children.filter(x=>!x.className.includes('selection-more'));
   chips.forEach((chip,index)=>{chip.offsetTop=Math.floor(index/2)*56;});measure();
-  assert.equal(chips.filter(x=>!x.hidden).length,4);
-  await button(body,'+ 더 보기').click();assert.equal(chips.filter(x=>!x.hidden).length,6);
-  await button(body,'− 접기').click();assert.equal(chips.filter(x=>!x.hidden).length,4);
+  assert.equal(chips.filter(x=>!x.hidden).length,2);
+  await find(body,x=>x.className.includes('selection-more')).click();assert.equal(chips.filter(x=>!x.hidden).length,6);
+  await button(body,'− 접기').click();assert.equal(chips.filter(x=>!x.hidden).length,2);
   chips.forEach(chip=>{chip.offsetTop=0;});measure();
-  assert.equal(chips.filter(x=>!x.hidden).length,6);assert.equal(button(body,'+ 더 보기').hidden,true);
+  assert.equal(chips.filter(x=>!x.hidden).length,6);assert.equal(find(body,x=>x.className.includes('selection-more')).hidden,true);
   assert.match(body.textContent,/선택한 재료 6개/);
  } finally {delete globalThis.ResizeObserver;}
 });
 
-test('관심 선택 태그의 측정된 첫 두 줄만 표시하며 더 보기·접기와 폭 변경을 처리',async()=>{
+test('관심 선택 태그의 측정된 첫 한 줄만 표시하며 더 보기·접기와 폭 변경을 처리',async()=>{
  let measure;
  globalThis.ResizeObserver=class {constructor(callback){measure=callback;}observe(){}disconnect(){}};
  try {
   const {body}=await load('ingredients',[],{search:'?tab=planned',draft:{schemaVersion:1,selectedIngredientIds:['onion','potato','carrot','enoki','salt','oil'],selectedRecipes:[],activeRecommendationMode:'추가 구매 최소',activeInterestIds:[],checkedIngredientIds:[]}});
   const chips=document.getElementById('ingredient-selected-chips').children.filter(x=>!x.className.includes('selection-more'));
   chips.forEach((chip,index)=>{chip.offsetTop=Math.floor(index/2)*56;});measure();
-  assert.equal(chips.filter(x=>!x.hidden).length,4);
-  await button(body,'+ 더 보기').click();assert.equal(chips.filter(x=>!x.hidden).length,6);
-  await button(body,'− 접기').click();assert.equal(chips.filter(x=>!x.hidden).length,4);
+  assert.equal(chips.filter(x=>!x.hidden).length,2);
+  await find(body,x=>x.className.includes('selection-more')).click();assert.equal(chips.filter(x=>!x.hidden).length,6);
+  await button(body,'− 접기').click();assert.equal(chips.filter(x=>!x.hidden).length,2);
   chips.forEach(chip=>{chip.offsetTop=0;});measure();
-  assert.equal(chips.filter(x=>!x.hidden).length,6);assert.equal(button(body,'+ 더 보기').hidden,true);
+  assert.equal(chips.filter(x=>!x.hidden).length,6);assert.equal(find(body,x=>x.className.includes('selection-more')).hidden,true);
   assert.match(body.textContent,/선택한 재료 6개/);
  } finally {delete globalThis.ResizeObserver;}
 });
@@ -434,4 +434,19 @@ test('추천의 생성 사진에는 AI 표시가 있고 검색 결과는 사진 
  const image=label.parent.children.find(x=>x.tagName==='img');assert.ok(image.attrs.src.includes('/assets/images/generated/'));
  const input=document.getElementById('menu-search');input.value='김치찌개';await input.fire('input');
  assert.equal(all(document.getElementById('menu-search-list')).some(x=>x.tagName==='img'),false);
+});
+
+
+test('제철은 별도 분류 탭으로 존재하며 각 보유·관심에 선택하고 농산·육수산 분류 유지',async()=>{
+ for(const tab of ['pantry','planned']) {
+  const {body,saved}=await load('ingredients',[],{search:`?tab=${tab}`,draft:{schemaVersion:1,selectedIngredientIds:[],selectedRecipes:[],activeRecommendationMode:'추가 구매 최소',activeInterestIds:[],checkedIngredientIds:[]}});
+  const prefix=tab==='pantry'?'pantry':'ingredient';
+  const tabs=all(body).filter(x=>x.id?.startsWith(`${prefix}-category-`));assert.deepEqual(tabs.map(x=>x.textContent),['제철','농산물','육·수산','기타','양념']);
+  assert.ok(document.getElementById(`${prefix}-quick-rice`));
+  await document.getElementById(`${prefix}-category-1`).click();
+  assert.ok(document.getElementById(`${prefix}-quick-kelp`));
+  await document.getElementById(`${prefix}-category--1`).click();
+  const candidates=all(body).filter(x=>x.id?.startsWith(`${prefix}-quick-`));
+  if(candidates.length){const id=candidates[0].id.slice(`${prefix}-quick-`.length);await candidates[0].click();const ids=tab==='pantry'?JSON.parse(saved.get('jmd_recipe_preferences_v1')).pantryIngredientIds:JSON.parse(saved.get('jmd_draft_v1')).selectedIngredientIds;assert.ok(ids.includes(id));}
+ }
 });

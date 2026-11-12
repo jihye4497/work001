@@ -1,5 +1,6 @@
+import { BROWSE_CATEGORIES, browseIngredients, seasonalIngredients } from './ingredient-browse.js';
 import { syncMenuIngredients } from './menu-ingredients.js';
-import { loadData, CATEGORIES, searchIngredients, quickPickIngredients } from './ingredients.js';
+import { loadData, CATEGORIES, searchIngredients } from './ingredients.js';
 import { MODES, MODE_DESCRIPTIONS, recommend, pageResults, searchMenus, recipeAvailability, replacementsFor } from './recommendations.js';
 import { aggregate, selectedServings, totalText, quantity, selectedCopyText, partitionShoppingRows } from './shopping-list.js';
 import { createStore } from './storage.js';
@@ -100,25 +101,28 @@ function ingredientPicker(pantry = false) {
   function measureSelection() {
     if(selected.isConnected===false){selectionObserver?.disconnect();return;}
     moreSelected.hidden=true;
-    moreSelected.textContent=selectionExpanded?'− 접기':'+ 더 보기';
+    moreSelected.textContent=selectionExpanded?'− 접기':'+ 더보기';
     const chips=[...selected.children].filter(node=>node!==moreSelected&&node.tagName?.toLowerCase()==='button');
     chips.forEach(node=>{node.hidden=false;});
     const positions=chips.map(chip=>chip.offsetTop);
     const rows=[];
     for(const top of positions)if(!rows.some(row=>Math.abs(row-top)<2))rows.push(top);
-    const cutoff=rows[2];
-    const overflow=rows.length>2;
+    const cutoff=rows[1];
+    const overflow=rows.length>1;
     if(overflow&&!selectionExpanded)chips.forEach((node,index)=>{node.hidden=positions[index]>=cutoff-1;});
     moreSelected.hidden=!overflow;
     if(overflow&&!selectionExpanded) {
       const visibleChips=chips.filter(node=>!node.hidden);
-      while(visibleChips.length&&moreSelected.offsetTop>rows[1]+1)visibleChips.pop().hidden=true;
+      moreSelected.textContent=`+${chips.filter(node=>node.hidden).length}개 더보기`;
+      while(visibleChips.length&&moreSelected.offsetTop>rows[0]+1){visibleChips.pop().hidden=true;moreSelected.textContent=`+${chips.filter(node=>node.hidden).length}개 더보기`;}
     }
     moreSelected.setAttribute('aria-expanded',String(selectionExpanded&&overflow));
   }
   function scheduleSelectionMeasure(){if(typeof requestAnimationFrame==='function')requestAnimationFrame(measureSelection);}
   const quick = el('div', { class: 'quick-sections' });
-  let activeCategory = CATEGORIES[0];
+  let activeCategory = BROWSE_CATEGORIES[0];
+  const browseTabs=['제철',...BROWSE_CATEGORIES];
+  const seasonal=seasonalIngredients(data.ingredients);
   const categoryTabs = el('div', {class:'ingredient-categories',role:'group','aria-label':'재료 종류'});
   const selectedSummary = el('p', {class:'selection-heading'});
   const selection = el('section', {class:'ingredient-selection','aria-label':'선택한 재료'}, [selectedSummary, selected]);
@@ -151,27 +155,24 @@ function ingredientPicker(pantry = false) {
   }
   function update() {
     selectedSummary.textContent = `선택한 재료 ${selectedIds().length}개`;
-    const categoryLabels = [['채소','버섯'],['육류','해산물'],['두부·계란','기타'],['양념','조미료']];
-    categoryTabs.replaceChildren(...CATEGORIES.map((category,index)=>button(
-      categoryLabels[index].map(line=>el('span',{},line)),
-      ()=>{activeCategory=category;update();focus(`${prefix}-category-${index}`);},
+    categoryTabs.replaceChildren(...browseTabs.map((category,index)=>button(
+      category,
+      ()=>{activeCategory=category;update();focus(`${prefix}-category-${index-1}`);},
       category===activeCategory?'secondary selected':'secondary',
-      {id:`${prefix}-category-${index}`,'aria-label':category,'aria-pressed':String(category===activeCategory)})));
+      {id:`${prefix}-category-${index-1}`,'aria-label':category,'aria-pressed':String(category===activeCategory)})));
     selected.replaceChildren(...selectedIds().map(id => {
       const item = data.ingredients.find(i => i.id === id);
       return button(`${item.name} ×`, () => { toggle(id); input.focus(); }, 'secondary selected', { 'aria-label': `${item.name} 선택 해제` });
     }));
     if(selected.childNodes.length)selected.append(moreSelected);
     if (!selected.childNodes.length) selected.append(el('p', { class: 'muted' }, '선택한 재료가 없어요.'));
-    quick.replaceChildren(...CATEGORIES.map(category => {
-      const group = quickPickIngredients(data.ingredients, category).filter(i => !selectedIds().includes(i.id));
-      if (category !== activeCategory) return null;
-      if (!group.length) return null;
-      return el('section', {}, [el('h3', {}, category), el('div', { class: 'chips' }, group.map(i => {
-        const checked = selectedIds().includes(i.id);
-        return button(`${checked ? '✓ ' : '+ '}${i.name}`, () => { toggle(i.id); focus(`${prefix}-category-${CATEGORIES.indexOf(category)}`); }, checked ? 'secondary selected' : 'secondary', { id: `${prefix}-quick-${i.id}`, 'aria-pressed': String(checked) });
-      }))]);
-    }).filter(Boolean));
+    const group=(activeCategory==='제철'?seasonal.items:browseIngredients(data.ingredients,activeCategory)).filter(i=>!selectedIds().includes(i.id));
+    quick.replaceChildren(
+      ...(activeCategory==='제철'?[el('p',{class:'seasonal-heading'},`${seasonal.month}월 제철 재료`)] : []),
+      el('div',{class:'chips'},group.map(i=>button(`+ ${i.name}`,()=>{toggle(i.id);focus(`${prefix}-category-${browseTabs.indexOf(activeCategory)-1}`);},'secondary',{id:`${prefix}-quick-${i.id}`,'aria-pressed':'false'}))),
+      ...(!group.length?[el('p',{class:'muted picker-help'},activeCategory==='제철'&&!seasonal.items.length?'이달의 제철 자료를 준비하고 있어요. 전체 검색에서 재료를 골라 주세요.':'이 목록의 재료를 모두 선택했어요. 전체 검색에서 더 찾아보세요.')]:[]),
+      ...(activeCategory==='제철'?seasonal.sources.map(source=>el('p',{class:'seasonal-source'},link(source.name,source.url))):[])
+    );
     search();
     scheduleSelectionMeasure();
   }

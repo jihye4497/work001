@@ -157,8 +157,8 @@ details[open] > summary::before { content: '−'; }
 #pantry-selected-chips .selected { background: var(--pantry-bg); color: var(--pantry-text); border-color: transparent; }
 #ingredient-selected-chips .selected { background: var(--interest-bg); color: var(--interest-text); border-color: transparent; }
 .ingredient-selection .chips > .selection-more { background: transparent; border: var(--line) dashed var(--border); color: var(--muted); }
-.ingredient-categories { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: var(--s1); padding: 0; margin-bottom: var(--s2); border-bottom: var(--line) solid var(--divider); }
-.ingredient-categories .button { position: relative; width: 100%; border-radius: 0; display: flex; flex-direction: column; gap: 0; padding: var(--s2) 0; min-height: var(--s8); border: 0; background: transparent; color: var(--muted); font-size: var(--selected-basis-size); font-weight: var(--weight-normal); line-height: var(--selected-basis-line); }
+.ingredient-categories { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: var(--s1); padding: 0; margin-bottom: var(--s2); border-bottom: var(--line) solid var(--divider); }
+.ingredient-categories .button { position: relative; width: 100%; border-radius: 0; display: flex; flex-direction: row; gap: 0; padding: var(--s2) 0; min-height: var(--touch); white-space: nowrap; border: 0; background: transparent; color: var(--muted); font-size: var(--selected-basis-size); font-weight: var(--weight-normal); line-height: var(--selected-basis-line); }
 .ingredient-categories .button:hover { background: transparent; color: var(--primary); }
 .ingredient-categories .button.selected { background: transparent; color: var(--primary); font-weight: var(--weight-button); }
 .ingredient-categories .button.selected::after { content: ''; position: absolute; bottom: calc(-1 * var(--line)); left: 50%; transform: translateX(-50%); width: var(--s6); height: var(--heading-rule); background: var(--primary); border-radius: var(--pill-radius); }
@@ -355,3 +355,7 @@ dialog h2 { font-size: var(--heading-size); margin-bottom: var(--s3); }
 .add-menu-materials strong { color: var(--text); }
 .add-menu-materials p { color: var(--muted); }
 .add-menu-dialog .actions { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); }
+
+.seasonal-heading { font-size: var(--selected-basis-size); color: var(--muted); margin-bottom: var(--s2); }
+.seasonal-source { font-size: var(--selected-basis-size); line-height: var(--selected-basis-line); margin-top: var(--s3); }
+.seasonal-source a { color: var(--muted); }
