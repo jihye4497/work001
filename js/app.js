@@ -119,7 +119,7 @@ function ingredientPicker(pantry = false) {
   function scheduleSelectionMeasure(){if(typeof requestAnimationFrame==='function')requestAnimationFrame(measureSelection);}
   const quick = el('div', { class: 'quick-sections' });
   let activeCategory = CATEGORIES[0];
-  const categoryTabs = el('div', {class:'ingredient-categories horizontal-buttons',role:'group','aria-label':'재료 종류'});
+  const categoryTabs = el('div', {class:'ingredient-categories',role:'group','aria-label':'재료 종류'});
   const selectedSummary = el('p', {class:'selection-heading'});
   const selection = el('section', {class:'ingredient-selection','aria-label':'선택한 재료'}, [selectedSummary, selected]);
   const input = el('input', { id: `${prefix}-search`, type: 'search', placeholder: '전체 재료 검색', role: 'combobox', autocomplete: 'off', 'aria-autocomplete': 'list', 'aria-expanded': 'false', 'aria-controls': `${prefix}-results` });

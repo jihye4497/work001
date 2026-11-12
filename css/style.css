@@ -157,10 +157,12 @@ details[open] > summary::before { content: '−'; }
 #pantry-selected-chips .selected { background: var(--pantry-bg); color: var(--pantry-text); border-color: transparent; }
 #ingredient-selected-chips .selected { background: var(--interest-bg); color: var(--interest-text); border-color: transparent; }
 .ingredient-selection .chips > .selection-more { background: transparent; border: var(--line) dashed var(--border); color: var(--muted); }
-.ingredient-categories { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: var(--s1); padding: 0; margin-bottom: var(--s3); }
-.ingredient-categories .button { display: flex; flex-direction: column; gap: 0; padding: var(--s2) 0; min-height: var(--s8); border: 0; background: transparent; color: var(--muted); font-size: var(--selected-basis-size); font-weight: var(--weight-normal); line-height: var(--selected-basis-line); }
-.ingredient-categories .button.selected { background: var(--secondary); color: var(--primary); font-weight: var(--weight-button); }
-.quick-sections { margin-top: var(--s4); }
+.ingredient-categories { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: var(--s1); padding: 0; margin-bottom: var(--s2); border-bottom: var(--line) solid var(--divider); }
+.ingredient-categories .button { position: relative; width: 100%; border-radius: 0; display: flex; flex-direction: column; gap: 0; padding: var(--s2) 0; min-height: var(--s8); border: 0; background: transparent; color: var(--muted); font-size: var(--selected-basis-size); font-weight: var(--weight-normal); line-height: var(--selected-basis-line); }
+.ingredient-categories .button:hover { background: transparent; color: var(--primary); }
+.ingredient-categories .button.selected { background: transparent; color: var(--primary); font-weight: var(--weight-button); }
+.ingredient-categories .button.selected::after { content: ''; position: absolute; bottom: calc(-1 * var(--line)); left: 50%; transform: translateX(-50%); width: var(--s6); height: var(--heading-rule); background: var(--primary); border-radius: var(--pill-radius); }
+.quick-sections { margin-top: var(--s3); }
 .quick-sections h3 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
 .quick-sections .button { border-color: var(--divider); background: var(--surface); padding-inline: var(--s3); font-weight: var(--weight-normal); box-shadow: var(--shadow-soft); }
 .quick-sections .button:hover { border-color: var(--pantry-border); background: var(--secondary); }
