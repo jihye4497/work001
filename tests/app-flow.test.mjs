@@ -124,7 +124,7 @@ test('메뉴 검색은 재료 해제 후에도 전체에서 찾고 검색 지우
 
 test('장보기 보유별 구획·현재 인원·횟수·복사·체크와 초기화 취소·확인이 연결됨',async()=>{
  const {body,saved}=await load('shopping-list',['excluded'],{pantry:['onion'],draft:{schemaVersion:1,selectedIngredientIds:['squid'],selectedRecipes:[{recipeId:'squid-stir',times:2}],activeRecommendationMode:'재료 최대 활용형',checkedIngredientIds:[]}});
- assert.match(body.textContent,/구매할 재료/);assert.match(body.textContent,/집에 있는 재료/);assert.match(body.textContent,/양념/);
+ assert.match(body.textContent,/구매할 재료/);assert.match(body.textContent,/우리 집 재료/);assert.match(body.textContent,/양념/);
  assert.match(body.textContent,/4인분/);
  await button(body,'+').click();
  assert.match(body.textContent,/5인분/);
@@ -295,7 +295,7 @@ test('검색·추천 담기는 사전 확인 모달로 재료를 나누고 취�
  const choice=all(body).find(x=>x.className.includes('search-menu-option')&&x.attrs['aria-label']==='김치찌개 담기');choice.focus();
  const before=saved.get('jmd_draft_v1');await choice.click();
  let dialog=document.getElementById('add-menu-dialog');assert.ok(dialog.open);assert.equal(saved.get('jmd_draft_v1'),before);
- assert.match(dialog.textContent,/김치찌개 메뉴를 담으시겠습니까/);assert.match(dialog.textContent,/새로운 재료:/);assert.match(dialog.textContent,/관심 재료: 김치/);
+ assert.match(dialog.textContent,/김치찌개 메뉴를 담으시겠습니까/);assert.match(dialog.textContent,/새로운 재료:/);assert.match(dialog.textContent,/장바구니 재료: 김치/);
  assert.equal(document.getElementById('add-menu-materials').textContent.includes('양파'),false);
  await document.getElementById('cancel-add-menu').click();assert.equal(saved.get('jmd_draft_v1'),before);assert.equal(document.activeElement,choice);
  await choice.click();dialog=document.getElementById('add-menu-dialog');await dialog.fire('cancel');dialog.close();assert.equal(saved.get('jmd_draft_v1'),before);
@@ -308,7 +308,7 @@ test('추천 재료가 모두 보유 상태이면 구매 불필요 표시·확�
  const ingredients=JSON.parse(await readFile(new URL('../data/ingredients.json',import.meta.url),'utf8'));
  const {body,saved}=await load('recipes',[],{pantry:ingredients.map(i=>i.id)});
  const card=all(body).find(x=>x.className==='recipe-card panel');assert.ok(card);
- await button(card,'담기 +').click();assert.match(document.getElementById('add-menu-dialog').textContent,/집에 있는 재료로 만들 수 있어요/);
+ await button(card,'담기 +').click();assert.match(document.getElementById('add-menu-dialog').textContent,/우리 집 재료로 만들 수 있어요/);
  assert.equal(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes.length,0);
  await document.getElementById('confirm-add-menu').click();assert.equal(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes.length,1);
 });
@@ -322,7 +322,7 @@ test('원본 4인분도 설정 인분으로 시작하고 1인분 증감·취소�
   const draft={schemaVersion:1,selectedIngredientIds:[],selectedRecipes:[{recipeId:recipe.id,times:1}],activeRecommendationMode:'추가 구매 최소',checkedIngredientIds:[]};
   const {body,saved}=await load('shopping-list',[],{people,draft});
   const count=()=>find(body,x=>x.className==='times-value').textContent;
-  assert.match(body.textContent,new RegExp(`${people}인 · 설정`));
+  assert.equal(find(body,x=>x.attrs['data-settings']!==undefined).textContent,'설정');
   assert.equal(count(),`${people}인분`);
   const meat=recipe.ingredients.find(i=>i.amount!==null&&i.unit==='g');
   const verifyAmount=servings=>{
@@ -465,4 +465,38 @@ test('하위 분류는 전체 기본·세부 필터·전체 검색·선택 제�
  await document.getElementById('ingredient-subcategory-4').click();assert.ok(document.getElementById('ingredient-quick-egg'));
  await document.getElementById('ingredient-quick-egg').click();assert.equal(document.getElementById('ingredient-quick-egg'),undefined);
  await document.getElementById('ingredient-category--1').click();assert.equal(find(body,x=>x.className==='ingredient-subcategories').hidden,true);
+});
+
+
+test('설정 안내는 저장해도 실제 추천 방식을 바꾸지 않음',async()=>{
+ const {body,saved}=await load('settings');
+ const before=saved.get('jmd_draft_v1');
+ assert.equal(all(body).filter(x=>x.tagName==='input'&&x.name==='mode').length,0);
+ await document.getElementById('guide-mode-1').click();
+ assert.match(document.getElementById('mode-guide-description').textContent,/두 재료가 모두/);
+ assert.equal(saved.get('jmd_draft_v1'),before);
+ await document.getElementById('guide-mode-0').click();
+ assert.match(document.getElementById('mode-guide-description').textContent,/양파와 대파/);
+ await find(body,x=>x.tagName==='form').fire('submit');
+ assert.equal(JSON.parse(saved.get('jmd_settings_v1'))['기본 추천 방식'],'관심 재료 활용');
+ assert.equal(JSON.parse(saved.get('jmd_draft_v1')).activeRecommendationMode,'관심 재료 활용');
+});
+
+
+test('설정에서 보유 편집은 변경 인원을 저장하고 펼친 선택 목록으로 이동',async()=>{
+ const {body,saved}=await load('settings');
+ const person=all(body).find(x=>x.tagName==='input'&&x.name==='servings'&&x.value===3);
+ await person.fire('change');await document.getElementById('edit-pantry').click();
+ assert.equal(JSON.parse(saved.get('jmd_settings_v1'))['기본 식사 인원'],3);
+ assert.match(location.assigned,/ingredients.html\?tab=pantry&expand=pantry$/);
+ let measure;
+ globalThis.ResizeObserver=class {constructor(callback){measure=callback;}observe(){}disconnect(){}};
+ try {
+  const {body:picker}=await load('ingredients',[],{search:'?tab=pantry&expand=pantry',pantry:['onion','potato','carrot','enoki','salt','oil']});
+  const chips=document.getElementById('pantry-selected-chips').children.filter(x=>!x.className.includes('selection-more'));
+  chips.forEach((chip,index)=>{chip.offsetTop=Math.floor(index/2)*56;});measure();
+  assert.equal(chips.filter(x=>!x.hidden).length,6);
+  assert.equal(button(picker,'− 접기').getAttribute('aria-expanded'),'true');
+  await button(picker,'− 접기').click();assert.equal(chips.filter(x=>!x.hidden).length,2);
+ } finally {delete globalThis.ResizeObserver;}
 });

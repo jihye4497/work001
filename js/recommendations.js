@@ -1,14 +1,15 @@
-import { matchIngredient, primaryIngredientIds } from './ingredient-matching.js';
+import { matchIngredient, primaryIngredientIds, representativeIngredient } from './ingredient-matching.js';
 export const MODES=['추가 구매 최소','관심 재료 활용'];
+export const MODE_LABELS=['추가 구매 최소','고른 재료 활용'];
 export const LEGACY_MODES=['재료 최대 활용형','추가 재료 최소형','여러 끼 식단형','세 가지 모두 비교'];
 export const normalizeMode=mode=>mode==='재료 최대 활용형'?MODES[1]:MODES.includes(mode)?mode:MODES[0];
 export const MODE_DESCRIPTIONS=[
-  '집에 있는 재료와 새로 살 재료를 활용해요. 이 목록 외에 더 살 재료가 적은 메뉴부터 보여드려요. 보유하지 않은 양념도 포함해요.',
-  '선택한 관심 재료가 모두 들어가는 메뉴예요. 주재료로 활용하는 메뉴, 집에 있는 재료를 많이 쓰는 메뉴부터 보여드려요.'
+  '우리 집 재료와 장바구니 재료를 활용하는 메뉴를 찾아요. 그 밖에 더 사야 할 재료가 적은 메뉴부터 추천해요.',
+  '장바구니 재료 중 활용하고 싶은 재료를 선택해 보세요. 선택한 재료가 모두 들어가는 메뉴를 찾고, 그 재료를 주재료로 쓰는 메뉴부터 추천해요.'
 ];
 export function recommend(ingredients,recipes,draft,excludedRecipeIds=[],pantryIds=[]) {
   const byId=new Map(ingredients.map(i=>[i.id,i]));
-  const general=new Set(ingredients.filter(i=>!i.isSeasoning).map(i=>i.id));
+  const general=new Set(ingredients.filter(i=>!representativeIngredient(i,byId).isSeasoning).map(i=>i.id));
   const planned=draft.selectedIngredientIds.filter(id=>general.has(id));
   const mode=normalizeMode(draft.activeRecommendationMode);
   const active=mode===MODES[0]?[...new Set([...planned,...pantryIds.filter(id=>general.has(id))])]:(draft.activeInterestIds??planned).filter(id=>planned.includes(id));
@@ -43,7 +44,7 @@ export function recommend(ingredients,recipes,draft,excludedRecipeIds=[],pantryI
     result.push({recipe,matches:assignments.map(a=>a.target),mainMatches:mains,owned:uniqueOwned,shared:uniqueOwned,extra,replacements,
       substitutionCount:assignments.filter(a=>a.score===1).length,
       reasons:[mains.length?names(mains)+' 주재료 활용':names(assignments.map(a=>a.target))+' 재료 활용',
-        '집에 있는 재료 '+uniqueOwned.length+'종 활용 · '+(extra.length?'추가 구매 '+extra.length+'종':'추가 구매 없음'),
+        '우리 집 재료 '+uniqueOwned.length+'종 활용 · '+(extra.length?'추가 구매 '+extra.length+'종':'추가 구매 없음'),
         ...Object.entries(replacements).map(([from,to])=>byId.get(from).name+' → '+byId.get(to).name+' 활용')]});
   }
   result.sort((a,b)=>(mode===MODES[0]?a.extra.length-b.extra.length||b.owned.length-a.owned.length||b.mainMatches.length-a.mainMatches.length:b.mainMatches.length-a.mainMatches.length||b.owned.length-a.owned.length||a.extra.length-b.extra.length)||a.substitutionCount-b.substitutionCount||a.recipe.name.localeCompare(b.recipe.name,'ko')||a.recipe.id.localeCompare(b.recipe.id));

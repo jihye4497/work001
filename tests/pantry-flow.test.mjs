@@ -61,7 +61,7 @@ test('양념은 보유 선택 시에만 보유 구획으로 이동하며 접힘�
  const rows=aggregate(foods,[recipe],[{recipeId:'a',times:1}],1);
  assert.deepEqual(partitionShoppingRows(rows,[],foods).map(g=>g.rows.map(r=>r.ingredient.id)),[['squid','salt'],[]]);
  assert.deepEqual(partitionShoppingRows(rows,['salt'],foods).map(g=>g.rows.map(r=>r.ingredient.id)),[['squid'],['salt']]);
- assert.match(copyText(rows,[],['salt'],foods),/집에 있는 재료\n\[ \] 소금: 10g \(양념\)/);
+ assert.match(copyText(rows,[],['salt'],foods),/우리 집 재료\n\[ \] 소금: 10g \(양념\)/);
 });
 
 test('구매 최소는 관심 해제에 영향받지 않고 보유만으로 추천하며 미보유 양념을 추가 구매에 포함',()=>{

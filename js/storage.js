@@ -1,6 +1,6 @@
 import { MODES, LEGACY_MODES, normalizeMode } from './recommendations.js';
 import { validFoodCategories } from './recipe-filters.js';
-import { matchIngredient } from './ingredient-matching.js';
+import { matchIngredient, representativeIngredient } from './ingredient-matching.js';
 export const KEYS = { settings: 'jmd_settings_v1', draft: 'jmd_draft_v1', meta: 'jmd_meta_v1', preferences: 'jmd_recipe_preferences_v1' };
 export const defaultSettings = () => ({ '기본 식사 인원': 1, '기본 추천 방식': MODES[0] });
 export const defaultDraft = (mode = MODES[0]) => ({ schemaVersion: 1, selectedIngredientIds: [], selectedRecipes: [], activeRecommendationMode: normalizeMode(mode), checkedIngredientIds: [], selectedFoodCategories: [], activeInterestIds: [], menuQuery: '' });
@@ -98,8 +98,9 @@ export function createStore(storage) {
         const recipe=recipes.find(r=>r.id===selection.recipeId),byId=new Map(ingredients.map(i=>[i.id,i]));
         selection.ingredientReplacements=Object.fromEntries(Object.entries(selection.ingredientReplacements).filter(([from,to])=>sourceIds.has(from)&&ids.has(to)&&matchIngredient(from,to,recipe,byId)>0));
       }
-      const pantry=pantryIngredientIds.filter(id=>ids.has(id));
-      if(pantry.length!==pantryIngredientIds.length){pantryIngredientIds=pantry;savePreferences();warn('현재 목록에 없는 보유 재료만 제외했어요.');}
+      const byIngredientId=new Map(ingredients.map(i=>[i.id,i]));
+      const pantry=[...new Set(pantryIngredientIds.filter(id=>ids.has(id)).map(id=>representativeIngredient(byIngredientId.get(id),byIngredientId).id))];
+      if(JSON.stringify(pantry)!==JSON.stringify(pantryIngredientIds)){pantryIngredientIds=pantry;savePreferences();warn('보유 재료의 중복 표기와 현재 목록에 없는 항목을 정리했어요.');}
       if (before !== JSON.stringify(draft)) { warn('현재 데이터에 없는 항목을 복구 과정에서 제외했어요. 나머지 선택과 횟수는 유지했어요.'); saveDraft(); }
     },
     reset() { draft = defaultDraft(settings['기본 추천 방식']); return saveDraft(); }

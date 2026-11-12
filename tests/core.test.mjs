@@ -64,7 +64,7 @@ test('두 모드 순위는 추가 구매와 주재료·보유 재료 활용을 �
   assert.equal(result[0].recipe.id, 'a');
   assert.equal(result[0].extra.length, 0);
   assert.match(result[0].reasons.join(' '), /양파 주재료 활용/);
-  assert.match(result[0].reasons.join(' '), /집에 있는 재료 1종/);
+  assert.match(result[0].reasons.join(' '), /우리 집 재료 1종/);
 });
 test('동점은 활용 재료 수·메뉴명으로 결정, 8개씩 페이지 표시', () => {
   const rs = Array.from({ length: 18 }, (_, n) => recipe(String(n), `테스트${String(n).padStart(2,'0')}`, '볶음', [['onion', 1, '개']]));

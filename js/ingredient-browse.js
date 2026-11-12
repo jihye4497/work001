@@ -1,3 +1,4 @@
+import { isIngredientAlias } from './ingredient-aliases.js';
 import { isPlainSaltVariant } from './ingredient-matching.js';
 export const BROWSE_CATEGORIES=['농산물','육·수산','기타','양념'];
 export const BROWSE_SUBCATEGORIES={
@@ -43,7 +44,7 @@ export function ingredientBrowseGroup(ingredient) {
 export function browseCategory(ingredient) {return ingredientBrowseGroup(ingredient).category;}
 export function browseIngredients(ingredients,category,subcategory='전체') {
  const order=new Map((PRIORITY[category]||[]).map((name,index)=>[name,index]));
- return ingredients.filter(i=>!isPlainSaltVariant(i)&&i.name!=='소금물').filter(i=>{const g=ingredientBrowseGroup(i);return g.category===category&&(subcategory==='전체'||g.subcategory===subcategory);})
+ return ingredients.filter(i=>!isIngredientAlias(i)&&!isPlainSaltVariant(i)&&i.name!=='소금물').filter(i=>{const g=ingredientBrowseGroup(i);return g.category===category&&(subcategory==='전체'||g.subcategory===subcategory);})
  .sort((a,b)=>(order.get(a.name)??999)-(order.get(b.name)??999)||a.name.localeCompare(b.name,'ko')||a.id.localeCompare(b.id));
 }
 export function koreaMonth(date=new Date()) {

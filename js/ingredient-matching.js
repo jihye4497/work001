@@ -1,13 +1,20 @@
+import { canonicalIngredientName } from './ingredient-aliases.js';
 // Preparation notes do not define a different salt product. Salt water is intentionally separate.
 export function isPlainSaltVariant(ingredient) {
   return /^소금\((?:데치는용|쓴맛제거용)\)$/.test(ingredient?.name?.replace(/\s/g,'')||'');
 }
+const nameIndexes=new WeakMap();
 export function representativeIngredient(ingredient,byId) {
-  return isPlainSaltVariant(ingredient)?byId.get('salt')||ingredient:ingredient;
+  if(isPlainSaltVariant(ingredient))return byId.get('salt')||ingredient;
+  const name=canonicalIngredientName(ingredient);
+  if(!name)return ingredient;
+  if(!nameIndexes.has(byId))nameIndexes.set(byId,new Map([...byId.values()].map(item=>[item.name,item])));
+  return nameIndexes.get(byId).get(name)||ingredient;
 }
 export function ingredientKey(ingredient) {
   if(!ingredient)return '';
   if(ingredient.id==='salt'||isPlainSaltVariant(ingredient))return 'salt';
+  const canonical=canonicalIngredientName(ingredient);if(canonical)return `named:${canonical}`;
   const n=ingredient.name.replace(/\s/g,''),prep=/다진|갈은|분쇄|민찌/.test(n)?'다진:':'';
   if(/돼지|돈육|한돈|삼겹/.test(n)) {
     const cut=/목살|목심/.test(n)?'목살':/앞다리|전지/.test(n)?'앞다리':/삼겹/.test(n)?'삼겹살':/사태/.test(n)?'사태':null;

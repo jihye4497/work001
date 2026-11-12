@@ -21,7 +21,7 @@ export function aggregate(ingredients, recipes, selectedRecipes, servings) {
       if (amount === null || item.unit === null) row.unknown = true;
       else row.totals.set(item.unit, (row.totals.get(item.unit) || 0) + amount);
       if (recipe.servingsStatus === 'estimated') row.estimated = true;
-      row.uses.push({ name: recipe.name, amount, unit: item.unit, note: item.note, servingLabel: servingLabel(recipe), servings: selectedServings(selection, servings), times: 1 });
+      row.uses.push({ originalIngredientName:byId.get(item.ingredientId)?.name, name: recipe.name, amount, unit: item.unit, note: item.note, servingLabel: servingLabel(recipe), servings: selectedServings(selection, servings), times: 1 });
       rows.set(ingredient.id, row);
     }
   }
@@ -40,8 +40,8 @@ const isDrinkingWater = ingredient => ['물', '생수'].includes(ingredient.name
 
 export function partitionShoppingRows(rows, pantryIds = [], ingredients = []) {
   const keys = new Set(ingredients.filter(i => pantryIds.includes(i.id)).map(ingredientKey));
-  return ['구매할 재료', '집에 있는 재료'].map(title => ({title, rows: rows.filter(row => {
-    const group = pantryIds.includes(row.ingredient.id) || keys.has(ingredientKey(row.ingredient)) ? '집에 있는 재료' : '구매할 재료';
+  return ['구매할 재료', '우리 집 재료'].map(title => ({title, rows: rows.filter(row => {
+    const group = pantryIds.includes(row.ingredient.id) || keys.has(ingredientKey(row.ingredient)) ? '우리 집 재료' : '구매할 재료';
     return group === title && (title !== '구매할 재료' || !isDrinkingWater(row.ingredient));
   })}));
 }
