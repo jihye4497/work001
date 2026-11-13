@@ -1,4 +1,5 @@
 import { matchIngredient, primaryIngredientIds, representativeIngredient } from './ingredient-matching.js';
+import { isCookingWater } from './ingredient-aliases.js';
 export const MODES=['추가 구매 최소','관심 재료 활용'];
 export const MODE_LABELS=['추가 구매 최소','고른 재료 활용'];
 export const LEGACY_MODES=['재료 최대 활용형','추가 재료 최소형','여러 끼 식단형','세 가지 모두 비교'];
@@ -37,7 +38,7 @@ export function recommend(ingredients,recipes,draft,excludedRecipeIds=[],pantryI
       else if(!planned.some(target=>matchIngredient(source,target,recipe,byId)>0))extra.push(source);
     }
     if(mode===MODES[0]) for(const id of new Set(recipe.ingredients.map(i=>i.ingredientId))) {
-      if(byId.get(id)?.isSeasoning && ![...draft.selectedIngredientIds,...pantryIds].some(target=>matchIngredient(id,target,recipe,byId)>0)) extra.push(id);
+      if(byId.get(id)?.isSeasoning && !isCookingWater(byId.get(id)) && ![...draft.selectedIngredientIds,...pantryIds].some(target=>matchIngredient(id,target,recipe,byId)>0)) extra.push(id);
     }
     const mains=assignments.filter(a=>primary.has(a.source)).map(a=>a.target),uniqueOwned=[...new Set(owned)];
     const names=values=>values.map(id=>byId.get(id).name).join('·');

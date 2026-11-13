@@ -1,4 +1,4 @@
-import { isIngredientAlias } from './ingredient-aliases.js';
+import { isIngredientAlias, isCookingWater } from './ingredient-aliases.js';
 import { isPlainSaltVariant } from './ingredient-matching.js';
 export const BROWSE_CATEGORIES=['농산물','육·수산','기타','양념'];
 export const BROWSE_SUBCATEGORIES={
@@ -23,6 +23,8 @@ const PRIORITY={
 };
 export function ingredientBrowseGroup(ingredient) {
  const n=ingredient.name.replace(/\s/g,'');
+ if(n==='보리새우')return {category:'육·수산',subcategory:'해산물'};
+ if(n==='땅콩버터')return {category:'기타',subcategory:'가공식품'};
  if(EGGS.test(n)&&!(/마요네즈|소스|가루/.test(n)))return {category:'육·수산',subcategory:'알류'};
  if(/이리/.test(n)&&!(/치즈|요리/.test(n)))return {category:'육·수산',subcategory:'해산물'};
  if(SEAWEED.test(n)&&!(/김치|가루|소스|장국|기름|튀김/.test(n)))return {category:'육·수산',subcategory:'해조류'};
@@ -44,7 +46,7 @@ export function ingredientBrowseGroup(ingredient) {
 export function browseCategory(ingredient) {return ingredientBrowseGroup(ingredient).category;}
 export function browseIngredients(ingredients,category,subcategory='전체') {
  const order=new Map((PRIORITY[category]||[]).map((name,index)=>[name,index]));
- return ingredients.filter(i=>!isIngredientAlias(i)&&!isPlainSaltVariant(i)&&i.name!=='소금물').filter(i=>{const g=ingredientBrowseGroup(i);return g.category===category&&(subcategory==='전체'||g.subcategory===subcategory);})
+ return ingredients.filter(i=>!isCookingWater(i)&&!isIngredientAlias(i)&&!isPlainSaltVariant(i)&&i.name!=='소금물').filter(i=>{const g=ingredientBrowseGroup(i);return g.category===category&&(subcategory==='전체'||g.subcategory===subcategory);})
  .sort((a,b)=>(order.get(a.name)??999)-(order.get(b.name)??999)||a.name.localeCompare(b.name,'ko')||a.id.localeCompare(b.id));
 }
 export function koreaMonth(date=new Date()) {

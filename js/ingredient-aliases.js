@@ -11,10 +11,22 @@ export const INGREDIENT_ALIAS_GROUPS=[
  {name:'바질',aliases:['바질잎','바질다진것']},
  {name:'건바질',aliases:['바질마른것']},
  {name:'파르메산 치즈',aliases:['파마산치즈','간 파르메산치즈'],note:'갈아서 사용한 원문 형태 유지'},
- {name:'파르메산 치즈가루',aliases:['파마산치즈가루','파마산가루']}
+ {name:'파르메산 치즈가루',aliases:['파마산치즈가루','파마산가루']},
+ {name:'호두',aliases:['다진 호두'],note:'칼로 다진 손질 정보는 원문에 유지'},
+ {name:'볶은 호두',aliases:['구운 호두']},
+ {name:'밤',aliases:['깐밤']},
+ {name:'거피들깨가루',aliases:['거피한 들깨가루']},
+ {name:'미소된장',aliases:['일본된장','일식된장','일식된장 미소']},
+ {name:'고추냉이',aliases:['고추냉이 갠것']},
+ {name:'가다랑어포',aliases:['가쓰오부시','가쯔오부시','가츠오부시']},
+ {name:'사과',aliases:['굵게 다진 사과']},
+ {name:'레몬껍질',aliases:['레몬(껍질)']},
+ {name:'건미역',aliases:['건조미역','미역마른것','마른 미역']}
 ];
 const compact=name=>name?.normalize('NFKC').replace(/\s/g,'');
 const aliases=new Map(INGREDIENT_ALIAS_GROUPS.flatMap(group=>group.aliases.map(name=>[compact(name),group.name])));
 const bases=new Map(INGREDIENT_ALIAS_GROUPS.map(group=>[compact(group.name),group.name]));
 export function canonicalIngredientName(ingredient) {return aliases.get(compact(ingredient?.name))||bases.get(compact(ingredient?.name))||null;}
 export function isIngredientAlias(ingredient) {return aliases.has(compact(ingredient?.name));}
+// Exact reviewed cooking-water label only; preserve its raw recipe amount and purpose.
+export function isCookingWater(ingredient) {return ['물','생수','건표고버섯불릴물'].includes(compact(ingredient?.name));}

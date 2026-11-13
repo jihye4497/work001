@@ -1,4 +1,5 @@
 import { representativeIngredient } from './ingredient-matching.js';
+import { isCookingWater } from './ingredient-aliases.js';
 import { applyRecipeImages } from './recipe-images.js';
 import { applyRecipeCategories } from './recipe-filters.js';
 import { primaryIngredientIds } from './ingredient-matching.js';
@@ -36,7 +37,7 @@ export function searchIngredients(ingredients, query) {
   const q = query.trim().normalize('NFKC').toLocaleLowerCase('ko');
   if (!q) return [];
   const byId=new Map(ingredients.map(i=>[i.id,i]));
-  return [...new Map(ingredients.filter(i => [i.name, ...i.aliases].some(n => n.normalize('NFKC').toLocaleLowerCase('ko').includes(q))).map(i=>{const representative=representativeIngredient(i,byId);return [representative.id,representative];})).values()];
+  return [...new Map(ingredients.filter(i => !isCookingWater(i) && [i.name, ...i.aliases].some(n => n.normalize('NFKC').toLocaleLowerCase('ko').includes(q))).map(i=>{const representative=representativeIngredient(i,byId);return [representative.id,representative];})).values()];
 }
 
 export async function loadData() {

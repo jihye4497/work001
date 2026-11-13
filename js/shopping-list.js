@@ -1,4 +1,5 @@
 import { CATEGORIES } from './ingredients.js';
+import { isCookingWater } from './ingredient-aliases.js';
 import { servingLabel } from './servings.js';
 import { ingredientKey, representativeIngredient } from './ingredient-matching.js';
 
@@ -36,7 +37,7 @@ export function quantity(amount, unit) {
 export function totalText(row) {
   return [...row.totals].map(([unit, amount]) => quantity(amount, unit)).concat(row.unknown ? ['수량 미기재'] : []).join(' + ');
 }
-const isDrinkingWater = ingredient => ['물', '생수'].includes(ingredient.name.trim());
+const isDrinkingWater = isCookingWater;
 
 export function partitionShoppingRows(rows, pantryIds = [], ingredients = []) {
   const keys = new Set(ingredients.filter(i => pantryIds.includes(i.id)).map(ingredientKey));
