@@ -43,7 +43,7 @@ const load=async (page,excludedIds=[],overrides={})=>{
   // app.js derives its data URLs from import.meta.url (file: in this test).
   globalThis.fetch=async url=>({ok:true,json:async()=>JSON.parse(await readFile(url,'utf8'))});
   await import(`../js/app.js?flow=${page}-${Math.random()}`);
-  for(let i=0;i<10&&!find(body,x=>x.className.includes(page==='recipes'?'recipe-card':page==='home'?'home-mode-guide':page==='shopping-list'?'shopping-category':'settings-form'));i++)await new Promise(resolve=>setTimeout(resolve,10));
+  for(let i=0;i<10&&!find(body,x=>x.className.includes(page==='recipes'?'recipe-card':page==='home'?'people-setup':page==='shopping-list'?'shopping-category':'settings-form'));i++)await new Promise(resolve=>setTimeout(resolve,10));
   return {body,saved};
 };
 
@@ -105,7 +105,7 @@ test('홈에서 인원을 저장하고 보유 재료는 재료 선택의 별도 
  await document.getElementById('pantry-quick-onion').click();
  assert.equal(JSON.parse(saved.get('jmd_settings_v1'))['기본 식사 인원'],3);
  assert.ok(document.getElementById('source-pantry').textContent.includes('1'));
- assert.match(body.textContent,/재료 선택하러 가기/);
+ assert.match(body.textContent,/재료 선택하고 시작하기/);
 });
 test('메뉴 검색은 재료 해제 후에도 전체에서 찾고 검색 지우면 추천 조건을 복원',async()=>{
  const {body,saved}=await load('recipes');
@@ -228,20 +228,22 @@ test('검색 메뉴를 담으면 재료가 자동 추가되고 삭제 시 직접
  d=JSON.parse(saved.get('jmd_draft_v1'));assert.deepEqual(d.selectedRecipes,[]);assert.deepEqual(d.selectedIngredientIds,['onion']);
 });
 
-test('관심 재료 전체 선택·전체 해제·부분 선택 상태와 모드 전환 후 유지',async()=>{
+test('이번 요리 재료 선택 해제·개별 재선택과 모드 전환 후 유지',async()=>{
  const {body,saved}=await load('recipes',[],{draft:{schemaVersion:1,selectedIngredientIds:['onion','squid'],selectedRecipes:[],activeRecommendationMode:'관심 재료 활용',activeInterestIds:['onion'],checkedIngredientIds:[]}});
- assert.equal(document.getElementById('toggle-all-interests').textContent,'모두 선택');
- await document.getElementById('toggle-all-interests').click();
- assert.deepEqual(new Set(JSON.parse(saved.get('jmd_draft_v1')).activeInterestIds),new Set(['onion','squid']));
- assert.equal(document.getElementById('toggle-all-interests').textContent,'모두 해제');
+ assert.ok(document.getElementById('toggle-all-interests'));
+ assert.equal(body.textContent.includes('여러 개를 고르면, 그 재료가 모두'),false);
+ assert.equal(document.getElementById('toggle-all-interests').textContent,'선택 해제');
  await document.getElementById('toggle-all-interests').click();
  assert.deepEqual(JSON.parse(saved.get('jmd_draft_v1')).activeInterestIds,[]);
- assert.equal(document.getElementById('toggle-all-interests').textContent,'모두 선택');
+ assert.equal(document.getElementById('toggle-all-interests').disabled,true);
+ assert.match(body.textContent,/이번 요리에 어떤 재료를 쓸까요/);
+ assert.equal(document.getElementById('menu-results').textContent,'재료를 고르면 추천 메뉴가 여기에 보여요.');
  await document.getElementById('interest-squid').click();
- assert.equal(document.getElementById('toggle-all-interests').textContent,'모두 선택');
+ assert.equal(document.getElementById('toggle-all-interests').disabled,false);
  await document.getElementById('mode-0').click();assert.equal(document.getElementById('toggle-all-interests'),undefined);
  await document.getElementById('mode-1').click();
  assert.deepEqual(JSON.parse(saved.get('jmd_draft_v1')).activeInterestIds,['squid']);
+ assert.deepEqual(JSON.parse(saved.get('jmd_draft_v1')).selectedIngredientIds,['onion','squid']);
 });
 
 test('보유·구매 예정 재료는 선택하면 아래에서 숨고 위에서 해제하면 복원',async()=>{
@@ -322,7 +324,7 @@ test('원본 4인분도 설정 인분으로 시작하고 1인분 증감·취소�
   const draft={schemaVersion:1,selectedIngredientIds:[],selectedRecipes:[{recipeId:recipe.id,times:1}],activeRecommendationMode:'추가 구매 최소',checkedIngredientIds:[]};
   const {body,saved}=await load('shopping-list',[],{people,draft});
   const count=()=>find(body,x=>x.className==='times-value').textContent;
-  assert.equal(find(body,x=>x.attrs['data-settings']!==undefined).textContent,'설정');
+  assert.equal(find(body,x=>x.attrs['data-settings']!==undefined).getAttribute('aria-label'),'설정');
   assert.equal(count(),`${people}인분`);
   const meat=recipe.ingredients.find(i=>i.amount!==null&&i.unit==='g');
   const verifyAmount=servings=>{
@@ -499,4 +501,16 @@ test('설정에서 보유 편집은 변경 인원을 저장하고 펼친 선택 
   assert.equal(button(picker,'− 접기').getAttribute('aria-expanded'),'true');
   await button(picker,'− 접기').click();assert.equal(chips.filter(x=>!x.hidden).length,2);
  } finally {delete globalThis.ResizeObserver;}
+});
+
+
+test('고른 재료의 결과가 없으면 위 안내와 결과 상태를 갱신하고 검색과 구분',async()=>{
+ const recipes=JSON.parse(await readFile(new URL('../data/recipes.json',import.meta.url),'utf8'));
+ const {body}=await load('recipes',recipes.map(r=>r.id),{draft:{schemaVersion:1,selectedIngredientIds:['onion'],activeInterestIds:['onion'],selectedRecipes:[],activeRecommendationMode:'관심 재료 활용',checkedIngredientIds:[]}});
+ assert.match(body.textContent,/재료를 줄이거나 음식 종류를 바꿔 보세요/);
+ assert.equal(document.getElementById('menu-results').textContent,'선택한 재료를 모두 활용한 추천 메뉴가 없어요.재료를 줄이거나 음식 종류를 바꿔 보세요.');
+ const input=document.getElementById('menu-search');input.value='김치찌개';await input.fire('input');
+ assert.match(body.textContent,/고른 재료가 모두 들어가는 메뉴를 찾아요/);
+ input.value='';await input.fire('input');
+ assert.match(document.getElementById('menu-results').textContent,/선택한 재료를 모두 활용한 추천 메뉴가 없어요/);
 });

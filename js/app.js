@@ -37,7 +37,7 @@ function warnings() {
 }
 function save() { for(const selection of store.draft.selectedRecipes)selection.servings ??= selectedServings(selection,store.settings['기본 식사 인원']); if(data)syncMenuIngredients(store.draft,data.ingredients,data.recipes,store.pantryIngredientIds); store.saveDraft(); warnings(); }
 function focus(id) { document.getElementById(id)?.focus({ preventScroll: true }); }
-document.querySelectorAll('[data-settings]').forEach(a => { a.href = settingsUrl(); a.textContent = '설정'; });
+document.querySelectorAll('[data-settings]').forEach(a => { a.href = settingsUrl(); a.setAttribute('aria-label','설정'); a.setAttribute('title','설정'); });
 warnings();
 if (!store.configured && ['ingredients', 'recipes', 'shopping-list'].includes(page)) {
   warningArea.append(el('p', { class: 'notice' }, [link('홈에서 식사 인원과 우리 집 재료를 확인해 주세요.', url('index.html'))]));
@@ -218,14 +218,10 @@ function ingredientPicker(pantry = false) {
 function drawHome() {
   const people = el('div',{class:'people-options',role:'group','aria-label':'기본 식사 인원'},[1,2,3,4].map(n=>button(`${n}명`,()=>{
     store.saveSettings({...store.settings,'기본 식사 인원':n});warnings();drawHome();focus('home-start');
-    document.querySelectorAll('[data-settings]').forEach(a=>{a.textContent='설정';});
   },store.settings['기본 식사 인원']===n?'secondary selected':'secondary',{id:`people-${n}`,'aria-pressed':String(store.settings['기본 식사 인원']===n)})));
   host.replaceChildren(...[
     !store.configured?el('section',{class:'panel people-setup'},[el('h2',{},'보통 몇 명이 드시나요?'),people]):null,
-    el('a',{id:'home-start',href:url('ingredients.html'),class:'button primary'},'재료 선택하러 가기 →'),
-    el('details',{class:'home-mode-guide'},[el('summary',{},'추천 방식이 궁금하다면'),
-      el('p',{},'추가 구매 최소 · 담은 재료로 만들며 더 살 재료를 줄여요.'),
-      el('p',{},'고른 재료 활용 · 고른 재료가 모두 들어가는 메뉴를 찾아요.')])
+    el('a',{id:'home-start',href:url('ingredients.html'),class:'button primary'},'재료 선택하고 시작하기 →')
   ].filter(Boolean));
 }
 function drawIngredients() {
@@ -278,12 +274,12 @@ function drawRecipes() {
       event.preventDefault();setMode(MODES[event.key === 'Home' ? 0 : event.key === 'End' ? MODES.length-1 : (index+(event.key === 'ArrowRight'?1:-1)+MODES.length)%MODES.length]);
     }
   })));
-  const allInterestsSelected=interests.length>0&&interests.every(i=>store.draft.activeInterestIds.includes(i.id));
-  const toggleAllInterests=button(allInterestsSelected?'모두 해제':'모두 선택',()=>{
-    store.draft.activeInterestIds=allInterestsSelected?[]:interests.map(i=>i.id);
+  const interestHeading=el('span',{class:'field-label'},'이번 요리에 어떤 재료를 쓸까요?');
+  const toggleAllInterests=button('선택 해제',()=>{
+    store.draft.activeInterestIds=[];
     resetVisible();save();drawRecipes();focus('toggle-all-interests');
-    announce(allInterestsSelected?'장바구니 재료 선택을 모두 해제했어요.':'장바구니 재료를 모두 선택했어요.');
-  },'secondary interest-select-all',{id:'toggle-all-interests',disabled:!interests.length});
+    announce('이번 요리에 쓸 재료 선택을 해제했어요.');
+  },'secondary interest-select-all',{id:'toggle-all-interests',disabled:!store.draft.activeInterestIds.length});
   const interestChips = el('div', {class: 'chips interest-chips', role: 'group', 'aria-label': '활용할 장바구니 재료'}, interests.map(i => {
     const checked = store.draft.activeInterestIds.includes(i.id);
     return button(`${checked ? '✓ ' : ''}${i.name}`, () => {
@@ -310,6 +306,10 @@ function drawRecipes() {
       const availability = recipeAvailability(recipe,data.ingredients,store.pantryIngredientIds);
       return {recipe, reasons:[`우리 집 재료 ${availability.owned.length}종 · 구매할 재료 ${availability.buy.length}종`, availability.buy.length ? `구매할 재료: ${availability.buy.join('·')}` : '양념·조미료는 장보기 목록에서 확인해 주세요.'], replacements:replacementsFor(recipe,data.ingredients,[...store.draft.selectedIngredientIds,...store.pantryIngredientIds])};
     }) : recommend(data.ingredients,data.recipes,store.draft,store.excludedRecipeIds,store.pantryIngredientIds);
+    if(modeIndex===1) {
+      const hasSelection=interests.some(i=>store.draft.activeInterestIds.includes(i.id));
+      interestHeading.textContent=!hasSelection?'이번 요리에 어떤 재료를 쓸까요?':query||results.length?'고른 재료가 모두 들어가는 메뉴를 찾아요.':'재료를 줄이거나 음식 종류를 바꿔 보세요.';
+    }
     const slice = pageResults(results,visible);
     resultTitle.textContent=query?'메뉴 검색 결과':'추천 메뉴';
     resultCount.textContent=`${results.length}개 중 ${slice.items.length}개`;
@@ -353,7 +353,13 @@ function drawRecipes() {
     });
     content.replaceChildren(...[
       query ? el('div',{class:'search-scope'},[el('span',{class:'muted'},'전체 메뉴 검색 중 · 추천 조건 미적용'),button('검색 지우기',()=>{store.draft.menuQuery='';input.value='';resetVisible();save();renderResults();input.focus();},'secondary')]) : null,
-      cards.length ? el('div',{class:'card-grid'},cards) : empty(query?'검색 결과가 없어요.':'현재 조건에 맞는 추천 메뉴가 없어요.',query?'메뉴 이름을 짧게 바꿔 검색해 주세요.':'장바구니 재료를 선택하거나 음식 종류를 바꿔 주세요. 메뉴 이름으로 직접 검색할 수도 있어요.'),
+      cards.length ? el('div',{class:'card-grid'},cards) : query
+        ? empty('검색 결과가 없어요.','메뉴 이름을 짧게 바꿔 검색해 주세요.')
+        : modeIndex===1
+          ? interests.some(i=>store.draft.activeInterestIds.includes(i.id))
+            ? empty('선택한 재료를 모두 활용한 추천 메뉴가 없어요.','재료를 줄이거나 음식 종류를 바꿔 보세요.')
+            : el('div',{class:'empty'},el('p',{},'재료를 고르면 추천 메뉴가 여기에 보여요.'))
+          : empty('현재 조건에 맞는 추천 메뉴가 없어요.','장바구니 재료를 선택하거나 음식 종류를 바꿔 주세요. 메뉴 이름으로 직접 검색할 수도 있어요.'),
       slice.hasMore ? button('더 보기',()=>{visible+=8;renderResults();focus('more');},'secondary',{id:'more'}) : null,
       slice.items.some(item=>item.recipe.imagePath&&item.recipe.imageKind!=='generated')?el('p',{class:'photo-credit'},link('사진 출처 · 식품의약품안전처', 'https://www.data.go.kr/data/15060073/openapi.do')):null].filter(Boolean));
   }
@@ -368,7 +374,7 @@ function drawRecipes() {
       el('section',{class:'recommendation-controls'},[
         tabs,
         el('div',{class:'food-kinds'},[el('span',{class:'flow-heading'},'음식 종류'),filters]),
-        modeIndex===1?el('div',{class:'interest-section'},[el('div',{class:'section-heading'},[el('span',{class:'field-label'},'장바구니 재료'),el('div',{class:'interest-actions'},[toggleAllInterests,link('재료 수정',url('ingredients.html?tab=planned'))])]),interests.length?interestChips:link('장바구니 재료 고르기',url('ingredients.html?tab=planned'))]):null
+        modeIndex===1?el('div',{class:'interest-section'},[el('div',{class:'section-heading'},[interestHeading,el('div',{class:'interest-actions'},[toggleAllInterests,link('재료 수정',url('ingredients.html?tab=planned'))])]),interests.length?interestChips:link('장바구니 재료 고르기',url('ingredients.html?tab=planned'))]):null
       ]),el('div',{id:'recipe-feedback',role:'status','aria-live':'polite'}),
       resultHeading,
       el('label',{htmlFor:input.id,class:'flow-heading'},'메뉴 검색'),input,searchList,content
