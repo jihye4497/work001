@@ -1,0 +1,5161 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-23",
+  "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+  "sourceName": "무니키친MoonyKitchen",
+  "sourceUrl": "https://www.youtube.com/@MoonyKitchen/playlists",
+  "completePublicTraversal": true,
+  "completeShortsTraversal": true,
+  "publicShortsCount": 97,
+  "publicVideoCount": 293,
+  "counts": {
+    "registered": 61,
+    "pending": 220,
+    "excluded-short": 4,
+    "excluded-duplicate": 0,
+    "excluded-nonrecipe": 8,
+    "excluded-other-channel": 0
+  },
+  "scope": "사용자 지정 채널의 공개 재생목록 기준. 메뉴명은 정보란에서 확인하고 사진·조리 문장을 복제하지 않으며 원본 재료 사실을 대조한 메뉴만 등록. 모든 영상의 레시피 등록 완료를 뜻하지 않음.",
+  "entries": [
+    {
+      "videoId": "kLF6onKMarI",
+      "sourceTitle": "건강하고 살안찌게 아침식사로 이거 마시고 있어요❤️",
+      "sourceUrl": "https://www.youtube.com/watch?v=kLF6onKMarI",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Xr5-_Oiw64bAQjlavj4mh"
+      ],
+      "playlistTitles": [
+        "카페 Cafe"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-kLF6onKMarI",
+      "descriptionMenuName": "비건라떼"
+    },
+    {
+      "videoId": "cBBhf7BJdZI",
+      "sourceTitle": "이 두부요리는 두부조림 보다 더 맛있고 쉬워서 요새 거의 매일 만들어요 👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=cBBhf7BJdZI",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5E0NaqbtsvFxopkNINS7Ok",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채식 Vegan",
+        "두부 Tofu",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-cBBhf7BJdZI",
+      "descriptionMenuName": "두부부침"
+    },
+    {
+      "videoId": "c4F13wILnVk",
+      "sourceTitle": "밀가루 없이 끝까지 바삭한 부추전 만들어 보세요!",
+      "sourceUrl": "https://www.youtube.com/watch?v=c4F13wILnVk",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5E0NaqbtsvFxopkNINS7Ok",
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채식 Vegan",
+        "전 Jeon (Pancake, Omelet)",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-c4F13wILnVk",
+      "descriptionMenuName": "부추전"
+    },
+    {
+      "videoId": "ALeW6Kk6M0c",
+      "sourceTitle": "토마토는 이렇게 매일 2주만 드셔보세요‼️ 토마토 영양소 200% 살리고 항암, 당뇨, 고혈압에도 좋아요👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=ALeW6Kk6M0c",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5E0NaqbtsvFxopkNINS7Ok",
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채식 Vegan",
+        "토마토 Tomato",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-ALeW6Kk6M0c",
+      "descriptionMenuName": "토마토마리네이드"
+    },
+    {
+      "videoId": "_LBpJvb-p5o",
+      "sourceTitle": "여름 내내 먹어도 절대 살찌지 않는 비빔국수, 너무 맛있어요😋  25kg 감량 노하우",
+      "sourceUrl": "https://www.youtube.com/watch?v=_LBpJvb-p5o",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5_LQqtHXAaCsaR8mCl8Ksh"
+      ],
+      "playlistTitles": [
+        "국수 Noodles"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "X9jv3gLsBsI",
+      "sourceTitle": "불 없이 섞기만 하세요. 모밀국수는 이 방법이 최고입니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=X9jv3gLsBsI",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5_LQqtHXAaCsaR8mCl8Ksh"
+      ],
+      "playlistTitles": [
+        "국수 Noodles"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "swPArDu7zak",
+      "sourceTitle": "1분컷 가능! 초초초오오오 간단한~ 다이어트 국수, 절대 살 안찌는 저칼로리 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=swPArDu7zak",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5_LQqtHXAaCsaR8mCl8Ksh",
+        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "국수 Noodles",
+        "건강 Health",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란은 다이어트 국수로만 지칭하여 구체 메뉴명 확인 대기. 해초국수·콩국물 원문 양은 확인됨."
+    },
+    {
+      "videoId": "nJ662cyW4Po",
+      "sourceTitle": "와... 이 레시피 알아두셨다가 여름 내내 비벼드세요. 비빔장 황금 비율",
+      "sourceUrl": "https://www.youtube.com/watch?v=nJ662cyW4Po",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5_LQqtHXAaCsaR8mCl8Ksh"
+      ],
+      "playlistTitles": [
+        "국수 Noodles"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "lCLcQ0XS0bs",
+      "sourceTitle": "여름에 시원하게 살빠지는 저칼로리 냉국수 강력 추천!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=lCLcQ0XS0bs",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5_LQqtHXAaCsaR8mCl8Ksh",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "국수 Noodles",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-lCLcQ0XS0bs",
+      "descriptionMenuName": "냉국수"
+    },
+    {
+      "videoId": "oj6Lc4wN3hE",
+      "sourceTitle": "이거 정말 맛있는데...",
+      "sourceUrl": "https://www.youtube.com/watch?v=oj6Lc4wN3hE",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5_LQqtHXAaCsaR8mCl8Ksh",
+        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1",
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0"
+      ],
+      "playlistTitles": [
+        "국수 Noodles",
+        "해물 Seafood",
+        "국 찌개 Soup Stew"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-oj6Lc4wN3hE",
+      "descriptionMenuName": "어묵탕"
+    },
+    {
+      "videoId": "si03Y6z5ke4",
+      "sourceTitle": "와~ 양배추로 만들었는데 진짜 너무 맛있어서 깜짝 놀랐어요🤩 양배추 토스트 핫도그⁉️",
+      "sourceUrl": "https://www.youtube.com/watch?v=si03Y6z5ke4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg",
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "k-yRW47mTBA",
+      "sourceTitle": "간편하고 쉬워서 아침식사로 딱 이에요 👍🏻 또띠아와 달걀...❤️",
+      "sourceUrl": "https://www.youtube.com/watch?v=k-yRW47mTBA",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란에 또띠아·달걀 재료만 소개되어 구체 메뉴명 확인 대기."
+    },
+    {
+      "videoId": "i1MPmpdHD7E",
+      "sourceTitle": "양배추로 제발 이 요리 꼭 해보세요🙏🏻 와🎉",
+      "sourceUrl": "https://www.youtube.com/watch?v=i1MPmpdHD7E",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg",
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-i1MPmpdHD7E",
+      "descriptionMenuName": "양배추 오믈렛"
+    },
+    {
+      "videoId": "2uo450zVAIY",
+      "sourceTitle": "순두부와 달걀로 만들었어요😋 식구들이 맛있다고 매일 해달래요👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=2uo450zVAIY",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg",
+        "두부 Tofu"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란에 순두부 요리로만 소개되어 구체 메뉴명 확인 대기."
+    },
+    {
+      "videoId": "GLV1Fvudd5g",
+      "sourceTitle": "요즘 유행하는 두부 토스트😍 식빵 없이 담백하고 맛이 좋아요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=GLV1Fvudd5g",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-GLV1Fvudd5g",
+      "descriptionMenuName": "두부 토스트"
+    },
+    {
+      "videoId": "-6IitgDtf0A",
+      "sourceTitle": "아침을 이렇게 드시면 더 건강해지고 날씬해집니다❣️",
+      "sourceUrl": "https://www.youtube.com/watch?v=-6IitgDtf0A",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "9V5Mo_OaSBg",
+      "sourceTitle": "간편하고 맛있어서 매일 아침 이렇게 먹고있어요‼️ 두부와 계란요리",
+      "sourceUrl": "https://www.youtube.com/watch?v=9V5Mo_OaSBg",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg",
+        "두부 Tofu"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란에 순두부·계란 요리로만 소개되어 구체 메뉴명 확인 대기."
+    },
+    {
+      "videoId": "17soKpUuF7M",
+      "sourceTitle": "양배추로 만드는 아침식사👍🏻 토스트는 빵 없이 이렇게 하세요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=17soKpUuF7M",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "전 Jeon (Pancake, Omelet)",
+        "달걀 Egg",
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-17soKpUuF7M",
+      "descriptionMenuName": "토스트"
+    },
+    {
+      "videoId": "fVTnNxSBjxY",
+      "sourceTitle": "춥고 귀찮아서 아침은 이렇게 먹고 있어요 😋 간편 아침식사, 토마토 요리, 달걀 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=fVTnNxSBjxY",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "토마토 Tomato",
+        "국 찌개 Soup Stew",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란에 토마토·달걀 아침식사로만 소개되어 구체 메뉴명 확인 대기."
+    },
+    {
+      "videoId": "v1pH58lRtAw",
+      "sourceTitle": "양배추 왜 이렇게 안 드세요? 간단하고 맛있는 양배추 요리 😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=v1pH58lRtAw",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg",
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "videoId": "IRnO1_5dXug",
+      "sourceTitle": "맛있고 속 편해서 거의 매일 아침식사로 만들어요‼️ 달걀과 두부요리",
+      "sourceUrl": "https://www.youtube.com/watch?v=IRnO1_5dXug",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "국 찌개 Soup Stew",
+        "달걀 Egg",
+        "두부 Tofu"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란에 순두부·계란 아침식사로만 소개되어 구체 메뉴명 확인 대기."
+    },
+    {
+      "videoId": "2BugCeqIQ6g",
+      "sourceTitle": "두부 한 모와 계란으로 간단하고 맛있는 한 끼 식사 만들어 보세요 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=2BugCeqIQ6g",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg",
+        "두부 Tofu"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "xExfLHDs4YA",
+      "sourceTitle": "양배추로 간단하고 맛있는😋 아침식사 만들어 보세요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=xExfLHDs4YA",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "GE_18gLbqT4",
+      "sourceTitle": "달걀과 자투리 채소로 충분해요~ 건강하고 간단한 아침식사",
+      "sourceUrl": "https://www.youtube.com/watch?v=GE_18gLbqT4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "토마토 Tomato",
+        "전 Jeon (Pancake, Omelet)",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "ws5yKjhQZHo",
+      "sourceTitle": "25kg 감량하고 10년 유지 다이어터의 살 안찌게 빵 먹는 방법",
+      "sourceUrl": "https://www.youtube.com/watch?v=ws5yKjhQZHo",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "해물 Seafood"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "IRhpRwIHRbw",
+      "sourceTitle": "단 두가지 재료로 2분안에 아침식사를 만들어보세요. 맛있어요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=IRhpRwIHRbw",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란에 달걀로 만드는 아침으로만 소개되어 구체 메뉴명 확인 대기."
+    },
+    {
+      "videoId": "gFY4j4Gz5WY",
+      "sourceTitle": "[노밀가루]아침식사로 강추!!! 절대 살안찌는 핫도그",
+      "sourceUrl": "https://www.youtube.com/watch?v=gFY4j4Gz5WY",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-gFY4j4Gz5WY",
+      "descriptionMenuName": "에그도그"
+    },
+    {
+      "videoId": "PF6N8vwopX8",
+      "sourceTitle": "[원팬, 초간단] 무조건 살빠지는 메뉴, 여름 토마토에 달걀이 빠지면?",
+      "sourceUrl": "https://www.youtube.com/watch?v=PF6N8vwopX8",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "토마토 Tomato",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "IyHNPBfo6-o",
+      "sourceTitle": "[지방파괴 식단] 에그인헬, 꿀팁과 원리까지 다 알려줌!!!, 계란 다이어트, 샥슈카",
+      "sourceUrl": "https://www.youtube.com/watch?v=IyHNPBfo6-o",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "토마토 Tomato",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "직접 만든 만능 토마토소스100g 사용. 제조 전체의 완성수율·사용 비율이 없어 원재료로 분해할 근거 확인 대기."
+    },
+    {
+      "videoId": "Hhm5-fjVBX0",
+      "sourceTitle": "SNS 핫템‼️ 간단하고 맛있어요😋 아침식사 3가지",
+      "sourceUrl": "https://www.youtube.com/watch?v=Hhm5-fjVBX0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-Hhm5-fjVBX0",
+      "descriptionMenuName": "에그 머핀"
+    },
+    {
+      "videoId": "Opv3xVnGc-E",
+      "sourceTitle": "아침식사로 새로운 또띠아 양배추 토스트를 만들어 보세요 😍 빵보다 맛있어요👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=Opv3xVnGc-E",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg",
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-Opv3xVnGc-E",
+      "descriptionMenuName": "양배추 토스트"
+    },
+    {
+      "videoId": "4c--v3SP1Ks",
+      "sourceTitle": "3가지 재료로 세상 부드러운 오믈렛 만들어 보세요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=4c--v3SP1Ks",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-4c--v3SP1Ks",
+      "descriptionMenuName": "수플레 오믈렛"
+    },
+    {
+      "videoId": "zBHDKF139vA",
+      "sourceTitle": "두부와 달걀로 단백질 폭탄💣 아침식사 드셔보세요‼️ 담백하고 영양 가득한 두부 계란찜💯 뱃살이 쭉쭉 빠져요🤩",
+      "sourceUrl": "https://www.youtube.com/watch?v=zBHDKF139vA",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg",
+        "두부 Tofu"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "-7osBTjnrGw",
+      "sourceTitle": "두부를 이렇게 먹으면 살이 안 쪄요. 25kg 감량 할 때 먹었던 두부밥",
+      "sourceUrl": "https://www.youtube.com/watch?v=-7osBTjnrGw",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5_POP0FxZE3u3uMX8rGY95",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "밥 Rice",
+        "두부 Tofu",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "xHjzFg-tQI0",
+      "sourceTitle": "25kg 감량하고 10년 넘게 유지한 내가 요새 즐겨먹는 새로운 밥",
+      "sourceUrl": "https://www.youtube.com/watch?v=xHjzFg-tQI0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5_POP0FxZE3u3uMX8rGY95",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "밥 Rice",
+        "양배추 Cabbage",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "videoId": "X81i4SgKBMQ",
+      "sourceTitle": "볶음밥은 이렇게 드세요. 제발🙏🏻  너무 맛있는데 살도 빠져요. 단백질 폭탄💣",
+      "sourceUrl": "https://www.youtube.com/watch?v=X81i4SgKBMQ",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5_POP0FxZE3u3uMX8rGY95",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "밥 Rice",
+        "두부 Tofu"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "3L6Zr1EV260",
+      "sourceTitle": "절대 살안찌는 부추 비빔밥, 25kg 감량하고 10년 유지한 다이어트식단",
+      "sourceUrl": "https://www.youtube.com/watch?v=3L6Zr1EV260",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5_POP0FxZE3u3uMX8rGY95"
+      ],
+      "playlistTitles": [
+        "밥 Rice"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "7mgwZw7xf4U",
+      "sourceTitle": "25kg 감량할 때 먹었던 밥",
+      "sourceUrl": "https://www.youtube.com/watch?v=7mgwZw7xf4U",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5_POP0FxZE3u3uMX8rGY95",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "밥 Rice",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "YR3YtxROuak",
+      "sourceTitle": "이 방법을 알고나서 양상추는 더이상 생으로 안 먹어요 ❤️ 왜냐면...",
+      "sourceUrl": "https://www.youtube.com/watch?v=YR3YtxROuak",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5z40QG7BzRhg9aH4tahAQ6",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "샐러드 Salad",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "Kjd8OZU18u4",
+      "sourceTitle": "양배추를 이렇게 했더니 너무 맛있어서 매일 먹어요‼️ 양배추 한 통 순삭 👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=Kjd8OZU18u4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5z40QG7BzRhg9aH4tahAQ6",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "샐러드 Salad",
+        "양배추 Cabbage",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "ooYPlMfby4o",
+      "sourceTitle": "양배추와 참치는 이렇게 드세요‼️ 세상 간단하고 맛있습니다🤩",
+      "sourceUrl": "https://www.youtube.com/watch?v=ooYPlMfby4o",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5z40QG7BzRhg9aH4tahAQ6",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "샐러드 Salad",
+        "양배추 Cabbage",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "videoId": "NOXVJuK2gJ4",
+      "sourceTitle": "순두부는 제발🙏🏻 이렇게 드세요‼️ 살도 안찌고 너무 맛있어요❤️",
+      "sourceUrl": "https://www.youtube.com/watch?v=NOXVJuK2gJ4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "두부 Tofu"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-NOXVJuK2gJ4",
+      "descriptionMenuName": "순두부그라탕"
+    },
+    {
+      "videoId": "Gja3ptBJY5E",
+      "sourceTitle": "순두부 찌개에 이거 한스푼 넣어보세요‼️ 대박집 순두부 찌개보다 400배 더 맛있고 절대 실패하지 않아요👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=Gja3ptBJY5E",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "국 찌개 Soup Stew",
+        "두부 Tofu",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-Gja3ptBJY5E",
+      "descriptionMenuName": "순두부 찌개"
+    },
+    {
+      "videoId": "964hwrnoeig",
+      "sourceTitle": "#2 평생 써먹는 건강해지고 살빠지는 레시피입니다. 항암, 항염증, 디톡스",
+      "sourceUrl": "https://www.youtube.com/watch?v=964hwrnoeig",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "건강 Health"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "gUVs3NiRDJs",
+      "sourceTitle": "#1 평생 써먹는 건강해지고 살빠지는 레시피입니다. 꼭 해보세요❣️ 항암과 클렌징",
+      "sourceUrl": "https://www.youtube.com/watch?v=gUVs3NiRDJs",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "국 찌개 Soup Stew",
+        "건강 Health",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "UyzSWpIIBbA",
+      "sourceTitle": "가지와 토마토는 간단하게 이렇게 해보세요‼️ 피자보다 더 맛있고 살도 안쪄요👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=UyzSWpIIBbA",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "전 Jeon (Pancake, Omelet)"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "E__F3vWxExQ",
+      "sourceTitle": "강력한 해독효과, 항암, 당뇨, 고혈압에도 좋은 토마토 절임😋 죽은 혈관이 살아나요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=E__F3vWxExQ",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "videoId": "Poffr1W9ewE",
+      "sourceTitle": "토마토에 달걀을 부어보세요🙏🏻  간단하고 맛있어서 아침식사로 최고입니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=Poffr1W9ewE",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "전 Jeon (Pancake, Omelet)",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "bAuEhpgRHpM",
+      "sourceTitle": "월 매출 3000만원 인기 카페 사장님이 알려주신 최고 맛있는 샌드위치‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=bAuEhpgRHpM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "r-BA0P8uOkc",
+      "sourceTitle": "토마토 왜 이렇게 안 드세요? 이렇게 하면 혈관이 살아나고 항암, 당뇨, 고혈압에도 좋아요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=r-BA0P8uOkc",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "videoId": "vspl-Oy5bsk",
+      "sourceTitle": "혈관을 살리고 염증을 없애는 최고의 채소요리👍🏻 항산화 영양소 듬뿍, 고혈압, 당뇨에도 좋아요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=vspl-Oy5bsk",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-vspl-Oy5bsk",
+      "descriptionMenuName": "라따뚜이"
+    },
+    {
+      "videoId": "eBZ4_KTUg7A",
+      "sourceTitle": "간단한데 진짜 맛있는 살안찌는 파스타",
+      "sourceUrl": "https://www.youtube.com/watch?v=eBZ4_KTUg7A",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "두부 Tofu",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "LPxOcAJUgvM",
+      "sourceTitle": "[역대급 초간단!!!] 영양소 손실없이 무조건 살빠지는 채소찜, 다이어트 최고의 식단",
+      "sourceUrl": "https://www.youtube.com/watch?v=LPxOcAJUgvM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "기본 Basic",
+        "건강 Health",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "집에 있는 야채400g만 표기되어 정확한 식재료 종류 확인 대기."
+    },
+    {
+      "videoId": "odZRf_X5orA",
+      "sourceTitle": "토마토는 이렇게 해보세요‼️ 강력한 항산화 효과로 2주만 꾸준히 먹어도 몸속 독소가 제거되고 혈관이 살아나요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=odZRf_X5orA",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "국 찌개 Soup Stew",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "WSSLsGbwcJM",
+      "sourceTitle": "진짜 살빠지고 맛있어요😍  항산화 영양소 듬뿍👍🏻  염증을 제거하고 혈관을 튼튼하게 해줘요‼️ 채소 가득, 라따뚜이",
+      "sourceUrl": "https://www.youtube.com/watch?v=WSSLsGbwcJM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-WSSLsGbwcJM",
+      "descriptionMenuName": "라따뚜이"
+    },
+    {
+      "videoId": "jcA41b4cRaQ",
+      "sourceTitle": "[진짜 맛있음!] 마음까지 따뜻해지는 소시지 토마토 스튜, 칠리 토마토 스프",
+      "sourceUrl": "https://www.youtube.com/watch?v=jcA41b4cRaQ",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "국 찌개 Soup Stew"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-jcA41b4cRaQ",
+      "descriptionMenuName": "소시지 토마토 스튜"
+    },
+    {
+      "videoId": "ex-nrxXw71o",
+      "sourceTitle": "정말 살빠져요. 이탈리아 가정식, 가지요리, 야채 맛있게 먹는법, 저탄수화물, 저탄고지 키토식단",
+      "sourceUrl": "https://www.youtube.com/watch?v=ex-nrxXw71o",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "r28sPfPSoTQ",
+      "sourceTitle": "토마토는 이렇게 해서 거의 모든 요리에 넣어보세요‼️ 항암, 항산화, 당뇨, 고혈압에도 좋은 만능 토마토 소스",
+      "sourceUrl": "https://www.youtube.com/watch?v=r28sPfPSoTQ",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-r28sPfPSoTQ",
+      "descriptionMenuName": "만능 토마토 소스"
+    },
+    {
+      "videoId": "51-DdRHLi2Y",
+      "sourceTitle": "쉽고 빠르고 맛있는 달걀요리‼️ 아이들이 이것만 달라고 하네요 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=51-DdRHLi2Y",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-51-DdRHLi2Y",
+      "descriptionMenuName": "달걀 만두"
+    },
+    {
+      "videoId": "t-veXBf_Ra4",
+      "sourceTitle": "봄에는 꼭 이 채소전을 해보세요‼️ 간단하고 너무 맛있어요 👉🏻👈🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=t-veXBf_Ra4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "videoId": "mqtcHm32dLM",
+      "sourceTitle": "두부로 만들었는데 식구들이 고기보다 더 맛있데요👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=mqtcHm32dLM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "달걀 Egg",
+        "두부 Tofu"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-mqtcHm32dLM",
+      "descriptionMenuName": "두부전"
+    },
+    {
+      "videoId": "ve_DKp6i5B0",
+      "sourceTitle": "배추를 이렇게 해보세요‼️ 간단하고 너무 맛있어요😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=ve_DKp6i5B0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-ve_DKp6i5B0",
+      "descriptionMenuName": "배추전"
+    },
+    {
+      "videoId": "dWz94HFqDU8",
+      "sourceTitle": "내장지방 싹 다 녹이는 대파는 밥대신 이렇게 드세요 👍🏻 뱃살이 너무 빠져 고민 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=dWz94HFqDU8",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-dWz94HFqDU8",
+      "descriptionMenuName": "파전"
+    },
+    {
+      "videoId": "-IobWfRmPq0",
+      "sourceTitle": "400원 팽이버섯은 이렇게 해보세요‼️ 간단하고 맛이 좋아요 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=-IobWfRmPq0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "videoId": "nvojrMwWzwg",
+      "sourceTitle": "두부는 이렇게 해보세요‼️ 고기보다 훨씬 맛있고 가족들이 너무 좋아합니다💕❤️",
+      "sourceUrl": "https://www.youtube.com/watch?v=nvojrMwWzwg",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "두부 Tofu"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "videoId": "relI8nAKNKw",
+      "sourceTitle": "계란과 양배추를 튀겨보세요‼️ 엄청난 결과가 나옵니다 🤩😍👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=relI8nAKNKw",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "달걀 Egg",
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-relI8nAKNKw",
+      "descriptionMenuName": "양배추 패티"
+    },
+    {
+      "videoId": "hXx_pqMM1tA",
+      "sourceTitle": "달걀과 밀가루 없이 양배추는 이렇게 하세요‼️ 최고로 맛있습니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=hXx_pqMM1tA",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "양배추 Cabbage",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "mMO4RlNG96s",
+      "sourceTitle": "배추 안 먹는 딸아이도 몇 접시 순삭했네요‼️ 밀가루 없이 더 건강하고 맛있는 배추전 😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=mMO4RlNG96s",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "sBMIS_CyPvE",
+      "sourceTitle": "전을 이렇게 부치면 살도 안찌고 훨씬 맛있어요‼️ 밀가루 없이 쉽고 더 맛있는 채소 부침개😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=sBMIS_CyPvE",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "yULmVNGhZb4",
+      "sourceTitle": "완전 강추‼️ 가지로 왜 전 안부치세요? 정말 입에서 살살 녹아요 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=yULmVNGhZb4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "videoId": "wdm5E8_il2A",
+      "sourceTitle": "아침식사로 완전 추천합니다! 인생 오믈렛 😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=wdm5E8_il2A",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-wdm5E8_il2A",
+      "descriptionMenuName": "오믈렛"
+    },
+    {
+      "videoId": "TRryXWRHKU0",
+      "sourceTitle": "밀가루 없이 줄서서 먹는 대박집 부침개 부치는 법,",
+      "sourceUrl": "https://www.youtube.com/watch?v=TRryXWRHKU0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-TRryXWRHKU0",
+      "descriptionMenuName": "미나리새우전"
+    },
+    {
+      "videoId": "kIu2F4AgFJc",
+      "sourceTitle": "노밀가루, 노오븐 절대 살안찌는 피자",
+      "sourceUrl": "https://www.youtube.com/watch?v=kIu2F4AgFJc",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-kIu2F4AgFJc",
+      "descriptionMenuName": "피자"
+    },
+    {
+      "videoId": "ZqbvulD7rPw",
+      "sourceTitle": "밀가루 없이 두툼하게 전 부치는 법, 야채전",
+      "sourceUrl": "https://www.youtube.com/watch?v=ZqbvulD7rPw",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "달걀 Egg",
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-ZqbvulD7rPw",
+      "descriptionMenuName": "야채전"
+    },
+    {
+      "videoId": "TXx96IqQgWc",
+      "sourceTitle": "김밥을 이렇게 하면 살 안쪄요 ‼️ 밥 없는 김밥보다 더 맛있고 만들기 쉬운 양배추 김밥 ❤️",
+      "sourceUrl": "https://www.youtube.com/watch?v=TXx96IqQgWc",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "김밥 Gimbap",
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "0wywf4Hjq-M",
+      "sourceTitle": "양배추 김밥 말고 양배추 주먹밥 🍙  더 간단하고 맛이 좋아요 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=0wywf4Hjq-M",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "김밥 Gimbap",
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "HdBvbJjMpR0",
+      "sourceTitle": "양배추 김밥, 이렇게 하면 밥 없는 김밥 보다 맛있고 쉬워요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=HdBvbJjMpR0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "김밥 Gimbap",
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "V8KMMzzFUis",
+      "sourceTitle": "양배추 폭탄💣 김밥😍 이렇게 먹으면 5kg 감량은 기본‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8KMMzzFUis",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "김밥 Gimbap",
+        "양배추 Cabbage",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "Pp2TqnIhSBE",
+      "sourceTitle": "이 김밥은 꼭 만들어 보셔야 하는데...쉽고 맛있거든요~",
+      "sourceUrl": "https://www.youtube.com/watch?v=Pp2TqnIhSBE",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ"
+      ],
+      "playlistTitles": [
+        "김밥 Gimbap"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "B0WgKrLbjV8",
+      "sourceTitle": "밥없는 꼬마김밥을 만들어 볼까? | 살안찌는 다이어트 김밥",
+      "sourceUrl": "https://www.youtube.com/watch?v=B0WgKrLbjV8",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "김밥 Gimbap",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-B0WgKrLbjV8",
+      "descriptionMenuName": "꼬마김밥"
+    },
+    {
+      "videoId": "Tml7gORfC38",
+      "sourceTitle": "[꿀팁! 다드림] OOOO로 쉽게 만드는 다이어트 주먹밥, 밥버거, 오니기라즈",
+      "sourceUrl": "https://www.youtube.com/watch?v=Tml7gORfC38",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "김밥 Gimbap",
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "GyDYQPVKxck",
+      "sourceTitle": "[꿀팁! 밥 3스푼] 김밥 만들 때 이것으로 시간 절약, 맛있는 집 김밥 비법 알려드림",
+      "sourceUrl": "https://www.youtube.com/watch?v=GyDYQPVKxck",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ"
+      ],
+      "playlistTitles": [
+        "김밥 Gimbap"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "HAmHijbuyvU",
+      "sourceTitle": "밥없는 김밥, 다이어트 김밥, 키토김밥, 김밥 예쁘게 마는 법, Kimbap Recipe | KETO, LCHF, Low Carb Recipe, 저탄수, 저탄고지, 키토제닉 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=HAmHijbuyvU",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ"
+      ],
+      "playlistTitles": [
+        "김밥 Gimbap"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "VV0XnOmCRpM",
+      "sourceTitle": "종이호일로 왜 요리 안하세요? 이렇게 간단하고 맛있는데...😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=VV0XnOmCRpM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1",
+        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "해물 Seafood",
+        "건강 Health",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "videoId": "hm4yLs-sxoU",
+      "sourceTitle": "간단하고 맛있는 국, 찌개 요리😋 가족들이 너무 좋아해요‼️ 코로나에 최적화된 집밥 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=hm4yLs-sxoU",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1",
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0"
+      ],
+      "playlistTitles": [
+        "해물 Seafood",
+        "국 찌개 Soup Stew"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "videoId": "EUhEeE5Vh60",
+      "sourceTitle": "25kg 감량하고 10년 유지한 다이어터의 밥 먹는 방법",
+      "sourceUrl": "https://www.youtube.com/watch?v=EUhEeE5Vh60",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1"
+      ],
+      "playlistTitles": [
+        "해물 Seafood"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "D4ejxlQwRdA",
+      "sourceTitle": "생선을 이렇게 구우면 집안에 생선 냄새가 1도 안 나고 훨씬 맛있어집니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=D4ejxlQwRdA",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1",
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
+      ],
+      "playlistTitles": [
+        "해물 Seafood",
+        "기본 Basic"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "Yih142DON_k",
+      "sourceTitle": "[약혐]오징어는 물에 데치면 손해!!!, 매우 쉬운 오징어 손질법",
+      "sourceUrl": "https://www.youtube.com/watch?v=Yih142DON_k",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "해물 Seafood",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "_9TGwKsUMwM",
+      "sourceTitle": "[ASMR]저탄고지, 키토제닉, 저탄수화물, 연어포케 레시피 (연어꽃), SALMON POKE RECIPE, LCHF, Ketogenic, Lowcarb",
+      "sourceUrl": "https://www.youtube.com/watch?v=_9TGwKsUMwM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "해물 Seafood",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-_9TGwKsUMwM",
+      "descriptionMenuName": "연어포케"
+    },
+    {
+      "videoId": "iQDfoHtlZ1Q",
+      "sourceTitle": "저탄수, 키토제닉 봉골레 파스타 만들기, LowCarb, Ketogenic Vongole pasta",
+      "sourceUrl": "https://www.youtube.com/watch?v=iQDfoHtlZ1Q",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1"
+      ],
+      "playlistTitles": [
+        "해물 Seafood"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "3sSkkx9MaxY",
+      "sourceTitle": "김치찌개는 제발 새로운 방법으로 끓이세요 🙏🏻 너무 맛있어서 기절합니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=3sSkkx9MaxY",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "abTCWmjRjFM",
+      "sourceTitle": "김치찌개는 제발 이렇게 끓이세요🙏🏻 진짜 너무 맛있어요!!! 우리집 인기메뉴",
+      "sourceUrl": "https://www.youtube.com/watch?v=abTCWmjRjFM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "YXUHH-9v0a4",
+      "sourceTitle": "두부를 이렇게 요리하세요‼️ 식구들이 너무 맛있다고 매일 해달라고 졸라요🤩",
+      "sourceUrl": "https://www.youtube.com/watch?v=YXUHH-9v0a4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "두부 Tofu"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "XHdi7XvSs0w",
+      "sourceTitle": "맛 없으면 돈 안받아요🤣 우리집 아이들이 제발 매일 해달라고 조르는 그 소고기 요리 ❤️",
+      "sourceUrl": "https://www.youtube.com/watch?v=XHdi7XvSs0w",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-XHdi7XvSs0w",
+      "descriptionMenuName": "뚝배기 불고기"
+    },
+    {
+      "videoId": "p9gcTUAmqsE",
+      "sourceTitle": "평생 건강하고 날씬하게 살려고 양배추는 이렇게 먹어요. #7",
+      "sourceUrl": "https://www.youtube.com/watch?v=p9gcTUAmqsE",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "건강 Health",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-p9gcTUAmqsE",
+      "descriptionMenuName": "미네스트로네"
+    },
+    {
+      "videoId": "sUfxGut9xE8",
+      "sourceTitle": "미역국은 제발 이렇게 끓이세요‼️ 인생 미역국, 천국의 맛❤️",
+      "sourceUrl": "https://www.youtube.com/watch?v=sUfxGut9xE8",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-sUfxGut9xE8",
+      "descriptionMenuName": "미역국"
+    },
+    {
+      "videoId": "n-zNjCJhw_k",
+      "sourceTitle": "겨울에 두부는 이렇게 요리하세요~ 😋 매일 먹어도 질리지 않아요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=n-zNjCJhw_k",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "두부 Tofu",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "videoId": "IMvO7aBct7w",
+      "sourceTitle": "두부로 이렇게 하세요‼️ 진짜 기절할 정도로 맛있네요👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=IMvO7aBct7w",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "두부 Tofu",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "videoId": "k6hII4CZ4gA",
+      "sourceTitle": "#5 평생 써먹는 살빠지고 건강하게 오래살기 위하여 고기 먹는 법 입니다. 꼭 해보세요❣️",
+      "sourceUrl": "https://www.youtube.com/watch?v=k6hII4CZ4gA",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "건강 Health",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "videoId": "XFEJgyvUQQ4",
+      "sourceTitle": "두부를 이렇게 요리해 보세요‼️ 우리집 최고 메뉴입니다 😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=XFEJgyvUQQ4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "두부 Tofu",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "videoId": "FBcTIeEJw7Q",
+      "sourceTitle": "순두부집보다 400배 더 맛있습니다‼️ 이렇게 하면 맛에 놀라 자빠집니다 😋😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=FBcTIeEJw7Q",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "두부 Tofu"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-FBcTIeEJw7Q",
+      "descriptionMenuName": "순두부 찌개"
+    },
+    {
+      "videoId": "la8s80dcEkk",
+      "sourceTitle": "양배추와 가을 채소로 만들었어요😍 건강하고 맛있고 속이 편해요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=la8s80dcEkk",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "양배추 Cabbage",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "gPYIp5nrR0k",
+      "sourceTitle": "대파와 소고기를 이렇게 했더니 식구들이 너무 맛있다고 난리에요! 살빠지는 대파 소고기 찌개",
+      "sourceUrl": "https://www.youtube.com/watch?v=gPYIp5nrR0k",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "zPvtnhwkw-E",
+      "sourceTitle": "여름채소로 살빠지는 고추장찌개, 꼭 해보세요!!! 진짜 너~무 맛있음",
+      "sourceUrl": "https://www.youtube.com/watch?v=zPvtnhwkw-E",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-zPvtnhwkw-E",
+      "descriptionMenuName": "고추장찌개"
+    },
+    {
+      "videoId": "BxvkW4FD0C4",
+      "sourceTitle": "[초간단] 계란을 휘저어 넣기만 하면 끝나는 속편한 간편식, 다이어트 식단, 해장국 추천",
+      "sourceUrl": "https://www.youtube.com/watch?v=BxvkW4FD0C4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "멸치15개·다시마·물1000ml로 직접 만드는 육수의 완성수율과 실제1000ml 사용의 관계 확인 대기."
+    },
+    {
+      "videoId": "4v-qOeMo9Ek",
+      "sourceTitle": "[한식vs양식]등갈비로 쉽고 고급진 손님초대요리 2가지, 김치찜, 바베큐 폭립",
+      "sourceUrl": "https://www.youtube.com/watch?v=4v-qOeMo9Ek",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "김치찜·폭립 공통 재료의 요리별 배분과 전체 사용 분량 확인 대기."
+    },
+    {
+      "videoId": "ib5oC_pYhUs",
+      "sourceTitle": "4가지 재료로 잡내 없는 깔끔한 갈비탕 만들기",
+      "sourceUrl": "https://www.youtube.com/watch?v=ib5oC_pYhUs",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "gvJm-2jBRr8",
+      "sourceTitle": "(  )로 5분안에 가능, 순두부찌개",
+      "sourceUrl": "https://www.youtube.com/watch?v=gvJm-2jBRr8",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "oABH69vAtQM",
+      "sourceTitle": "제대로 알려드려요~ 사골 끓이는 방법, 인생 설렁탕 만들기, 저탄수화물, 키토제닉 다이어트",
+      "sourceUrl": "https://www.youtube.com/watch?v=oABH69vAtQM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "사골 제조 원재료 일부 수량은 있으나 물·고기·최종 제조분량이 없어 계산 기준 확인 대기."
+    },
+    {
+      "videoId": "vTb8KgIBpFM",
+      "sourceTitle": "자주 써서 더 유용한 살림템들 (이케아, 다이소, 자주)",
+      "sourceUrl": "https://www.youtube.com/watch?v=vTb8KgIBpFM",
+      "sourceName": "무니데이MoonyDay",
+      "channelId": "UCcVEa_f0q_t4WeHEmzVf_MQ",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "-QA9iryyEEM",
+      "sourceTitle": "추운 날씨, 따뜻한 집밥 레시피 3가지 (feat. 플렉스쿡)",
+      "sourceUrl": "https://www.youtube.com/watch?v=-QA9iryyEEM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "Ipd93pLXT_o",
+      "sourceTitle": "가을 겨울에 우리집 인기 만점인 두부 반찬‼️ 채식 도시락, 다이어트 도시락🍱",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ipd93pLXT_o",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen",
+        "두부 Tofu",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "Se7EqwnSevM",
+      "sourceTitle": "써보니 정말 좋았던 조리도구",
+      "sourceUrl": "https://www.youtube.com/watch?v=Se7EqwnSevM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "DMItpG4a0Ag",
+      "sourceTitle": "재구매만 수십번한 마켓컬리 추천템들~ 완전 강추",
+      "sourceUrl": "https://www.youtube.com/watch?v=DMItpG4a0Ag",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "yBkPgzfC6nM",
+      "sourceTitle": "와플팬으로 스테이크를 구우면 일어나는 일 😱😓😭",
+      "sourceUrl": "https://www.youtube.com/watch?v=yBkPgzfC6nM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "-3sGcVA-Vm8",
+      "sourceTitle": "안보면 손해, 레몬 남김없이 사용하는 꿀팁!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=-3sGcVA-Vm8",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R",
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen",
+        "기본 Basic",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "uZbnL3tkH48",
+      "sourceTitle": "[1분] 매우 쉬운 스텐팬 세척법",
+      "sourceUrl": "https://www.youtube.com/watch?v=uZbnL3tkH48",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "Dubqswfz158",
+      "sourceTitle": "이제 잘못 버리지 마세요. 잘못 알고 버려지는 것들 25가지",
+      "sourceUrl": "https://www.youtube.com/watch?v=Dubqswfz158",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "gsAxEHCHUnE",
+      "sourceTitle": "[25kg감량 10년유지] 다이어터의 간단한 식사와 간식, 당질제한, 키토제닉, 아이허브",
+      "sourceUrl": "https://www.youtube.com/watch?v=gsAxEHCHUnE",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "97xZUmP6OF0",
+      "sourceTitle": "특별한 3가지 반찬 + 이벤트",
+      "sourceUrl": "https://www.youtube.com/watch?v=97xZUmP6OF0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "wsmF18jtEaI",
+      "sourceTitle": "아이허브 10년 유저의 찐템 30가지",
+      "sourceUrl": "https://www.youtube.com/watch?v=wsmF18jtEaI",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "iyLGCAY0UY0",
+      "sourceTitle": "이 책은 과연 뭐하는 책인가? (feat. 출간안내)",
+      "sourceUrl": "https://www.youtube.com/watch?v=iyLGCAY0UY0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "uxEZ0eu1V3Y",
+      "sourceTitle": "꼭 필요한 5개의 냄비와 팬, 팬 리뷰와 냄비 추천",
+      "sourceUrl": "https://www.youtube.com/watch?v=uxEZ0eu1V3Y",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "fPAqE6TSfcY",
+      "sourceTitle": "내가 10년 넘게 사용했던 냄비 리뷰와 추천",
+      "sourceUrl": "https://www.youtube.com/watch?v=fPAqE6TSfcY",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "80vrs44Tu_o",
+      "sourceTitle": "[활용꿀팁!] 오븐형 에어프라이어 요리 모음 (with 마키나랩), 역대 최대 용량의 에어프라이어",
+      "sourceUrl": "https://www.youtube.com/watch?v=80vrs44Tu_o",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "_haCIP1NQP4",
+      "sourceTitle": "[이벤트있음] QnA#2, 당뇨식단, 키토베이킹, 레시피, 촬영도구, 조리도구, 추천요리, 알레르기 등 잡다구리 모음집",
+      "sourceUrl": "https://www.youtube.com/watch?v=_haCIP1NQP4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "ScUU17eeNp4",
+      "sourceTitle": "과학적이고 현실적인 야채 보관법",
+      "sourceUrl": "https://www.youtube.com/watch?v=ScUU17eeNp4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R",
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen",
+        "기본 Basic",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "GMjSo8x8q_w",
+      "sourceTitle": "2만에 올리는 1만기념 QnA (직업? 부작용? 털갈이? 모닝루틴?)",
+      "sourceUrl": "https://www.youtube.com/watch?v=GMjSo8x8q_w",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "iSGuWBfhXFM",
+      "sourceTitle": "과연 코팅팬은 ㅆㄹㄱ 일까?, 무쇠팬vs스텐팬vs코팅팬 비교하기, 후라이팬 구매시 꼭 봐야할 영상,Which Pan Is the best?",
+      "sourceUrl": "https://www.youtube.com/watch?v=iSGuWBfhXFM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "86L09f2FA9g",
+      "sourceTitle": "아이허브 10년 유저가 꼭 구매하는 아이템👍🏻 400% 만족‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=86L09f2FA9g",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "pni8wBJgHP0",
+      "sourceTitle": "나만 알고 싶었던 채소 보관법, 다이어트 샐러드, 밀프렙😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=pni8wBJgHP0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "건강 Health",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "U9YJ3icAQKs",
+      "sourceTitle": "단 2가지 재료‼️ 견과류 버터 중 제일 고소하고 맛이 좋아요.😍 호두버터",
+      "sourceUrl": "https://www.youtube.com/watch?v=U9YJ3icAQKs",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "EdQsyo8eu50",
+      "sourceTitle": "최고로 꾸덕하고 쫀쫀한 그릭요거트 만드는 방법, 엄청 쉬움",
+      "sourceUrl": "https://www.youtube.com/watch?v=EdQsyo8eu50",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
+      ],
+      "playlistTitles": [
+        "기본 Basic"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-EdQsyo8eu50",
+      "descriptionMenuName": "그릭요거트"
+    },
+    {
+      "videoId": "2u8Y8-AKw8A",
+      "sourceTitle": "고혈압, 당뇨에 현미는 제발 그냥 드시지 마세요‼️ 뱃살 쏙 빠지고 더 부드럽고 맛있어요💯",
+      "sourceUrl": "https://www.youtube.com/watch?v=2u8Y8-AKw8A",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "oan3e9GMqGU",
+      "sourceTitle": "설탕없이 레몬청 만들고 인기 카페 음료도 만들어보세요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=oan3e9GMqGU",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "디저트 Dessert",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "Z-saV8gletU",
+      "sourceTitle": "집에 우유가 있다면 끓여보세요!! 시판 크림치즈 보다 400배 부드럽고 맛있어요 👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=Z-saV8gletU",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
+      ],
+      "playlistTitles": [
+        "기본 Basic"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-Z-saV8gletU",
+      "descriptionMenuName": "리코타 치즈"
+    },
+    {
+      "videoId": "b2OYNuGzZ4M",
+      "sourceTitle": "양배추는 이렇게 쪄보세요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=b2OYNuGzZ4M",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
+      ],
+      "playlistTitles": [
+        "기본 Basic"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "videoId": "kOS_EGIExvU",
+      "sourceTitle": "[부드럽고 꾸덕한] 달걀없이 살안찌는 저칼로리 마요네즈",
+      "sourceUrl": "https://www.youtube.com/watch?v=kOS_EGIExvU",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "건강 Health",
+        "두부 Tofu"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-kOS_EGIExvU",
+      "descriptionMenuName": "마요네즈"
+    },
+    {
+      "videoId": "lJCKb5vU2vQ",
+      "sourceTitle": "[벌레주의] 브로콜리는 절대 물에 데치지 마세요!!! 브로콜리 영양소 400% 섭취하는 2가지 방법",
+      "sourceUrl": "https://www.youtube.com/watch?v=lJCKb5vU2vQ",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "D0IchYBpyGM",
+      "sourceTitle": "[실패 없는] 진짜 살안찌는 마요네즈, 매우 쉽고 간단함",
+      "sourceUrl": "https://www.youtube.com/watch?v=D0IchYBpyGM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "달걀 Egg",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-D0IchYBpyGM",
+      "descriptionMenuName": "마요네즈"
+    },
+    {
+      "videoId": "6EURp5k_fBE",
+      "sourceTitle": "생강은 이렇게 드세요. 설탕없이 건강한 생강 활용법 3가지",
+      "sourceUrl": "https://www.youtube.com/watch?v=6EURp5k_fBE",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "aRnAfg_Zbq4",
+      "sourceTitle": "요거트 만들기는 이 영상으로 끝! 실패없이 완벽한 요거트 만드는 법",
+      "sourceUrl": "https://www.youtube.com/watch?v=aRnAfg_Zbq4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "joGFLqwLW64",
+      "sourceTitle": "내가 다이어트 밥에 꼭 넣는 이것! 곤약 말고, 간헐적 단식, 탄수화물 제한",
+      "sourceUrl": "https://www.youtube.com/watch?v=joGFLqwLW64",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "77onIuMZiq4",
+      "sourceTitle": "[요리의 기본] 만능양념장 만들기, 만능고추장, 만능소스, 저탄수 다이어트 | Multi Purpose Gochujang Sauce, Korean Red Pepper Sauce",
+      "sourceUrl": "https://www.youtube.com/watch?v=77onIuMZiq4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "UcJUerpDGho",
+      "sourceTitle": "[반전주의!] 꾸덕꾸덕 집에서 만드는 사워크림, Super Thick and Rich Homemade Sour Cream",
+      "sourceUrl": "https://www.youtube.com/watch?v=UcJUerpDGho",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
+      ],
+      "playlistTitles": [
+        "기본 Basic"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "UOWYEGyvVs0",
+      "sourceTitle": "[1분꿀팁]편의점 인기템! 감동란 만들기, 반숙란, 소금계란, 계란요리, 계란삶는법, Egg Recipes, Perfect Boiled Egg, Egg Fast",
+      "sourceUrl": "https://www.youtube.com/watch?v=UOWYEGyvVs0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-UOWYEGyvVs0",
+      "descriptionMenuName": "감동란"
+    },
+    {
+      "videoId": "vSPXdchs5vI",
+      "sourceTitle": "[요리의 기본] 만능간장 만들기, 맛간장, 다마리간장 (저탄수) | Multi Purpose Soy Sauce, Korean Sauce (Low Carb Recipe)",
+      "sourceUrl": "https://www.youtube.com/watch?v=vSPXdchs5vI",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
+      ],
+      "playlistTitles": [
+        "기본 Basic"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-vSPXdchs5vI",
+      "descriptionMenuName": "만능 간장"
+    },
+    {
+      "videoId": "888TF2wzfGs",
+      "sourceTitle": "[1분 꿀팁!] 집에서 만드는 초간단 찜질방 계란, 계란요리 | Korean Sauna Eggs",
+      "sourceUrl": "https://www.youtube.com/watch?v=888TF2wzfGs",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "fsfGBQk36Z8",
+      "sourceTitle": "건강에 좋은 오일은? 불포화 지방산, 다이어트 오일, 오메가 3, 요리용 오일, 아보카도 오일 추천",
+      "sourceUrl": "https://www.youtube.com/watch?v=fsfGBQk36Z8",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
+      ],
+      "playlistTitles": [
+        "기본 Basic"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-nonrecipe",
+      "reason": "정보란을 확인한 조리도구·영양 정보·식재료 손질/보관 또는 커피 추출 방법 안내 영상. 분량 있는 완성 메뉴 재료표가 아니므로 제외."
+    },
+    {
+      "videoId": "L82tF4ei-A4",
+      "sourceTitle": "절대 먹지 말아야 할 기름!!! 포화지방 끝장정리! 살빠지는 오일, 다이어트 기름",
+      "sourceUrl": "https://www.youtube.com/watch?v=L82tF4ei-A4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
+      ],
+      "playlistTitles": [
+        "기본 Basic"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-nonrecipe",
+      "reason": "정보란을 확인한 조리도구·영양 정보·식재료 손질/보관 또는 커피 추출 방법 안내 영상. 분량 있는 완성 메뉴 재료표가 아니므로 제외."
+    },
+    {
+      "videoId": "LYBt0CBPOog",
+      "sourceTitle": "천연감미료 총정리와 절대 사용하지 말하야 할 당류 ( 키토, KETO, 저탄고지, LCHF, 당질제한, 糖質制限 )",
+      "sourceUrl": "https://www.youtube.com/watch?v=LYBt0CBPOog",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
+      ],
+      "playlistTitles": [
+        "기본 Basic"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-nonrecipe",
+      "reason": "정보란을 확인한 조리도구·영양 정보·식재료 손질/보관 또는 커피 추출 방법 안내 영상. 분량 있는 완성 메뉴 재료표가 아니므로 제외."
+    },
+    {
+      "videoId": "U3Oy8aoOyvA",
+      "sourceTitle": "[ENG SUB] 콜리플라워 라이스 만드는 법, 콜리플라워 요리 6가지, How to make  Cauliflower Rice, 6 Cauliflower Recipes",
+      "sourceUrl": "https://www.youtube.com/watch?v=U3Oy8aoOyvA",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
+      ],
+      "playlistTitles": [
+        "기본 Basic"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "8yAAznAotfU",
+      "sourceTitle": "[ENG SUB] 싱싱한 대파 보관법, 대파 고르는 법,  How to keep spring onions",
+      "sourceUrl": "https://www.youtube.com/watch?v=8yAAznAotfU",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
+      ],
+      "playlistTitles": [
+        "기본 Basic"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-nonrecipe",
+      "reason": "정보란을 확인한 조리도구·영양 정보·식재료 손질/보관 또는 커피 추출 방법 안내 영상. 분량 있는 완성 메뉴 재료표가 아니므로 제외."
+    },
+    {
+      "videoId": "4E8-80jS3qc",
+      "sourceTitle": "완벽한 콩나물보관법, 아삭한 콩나물데치기, How to keep bean sprouts",
+      "sourceUrl": "https://www.youtube.com/watch?v=4E8-80jS3qc",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-nonrecipe",
+      "reason": "정보란을 확인한 조리도구·영양 정보·식재료 손질/보관 또는 커피 추출 방법 안내 영상. 분량 있는 완성 메뉴 재료표가 아니므로 제외."
+    },
+    {
+      "videoId": "u3VY5UYhrII",
+      "sourceTitle": "완벽하게 계란삶는법, 달걀 몇 분 삶을까?, Perfectly boiled eggs",
+      "sourceUrl": "https://www.youtube.com/watch?v=u3VY5UYhrII",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
+      ],
+      "playlistTitles": [
+        "기본 Basic"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-nonrecipe",
+      "reason": "정보란을 확인한 조리도구·영양 정보·식재료 손질/보관 또는 커피 추출 방법 안내 영상. 분량 있는 완성 메뉴 재료표가 아니므로 제외."
+    },
+    {
+      "videoId": "oHCQFYHVPEc",
+      "sourceTitle": "와~ 대박‼️ 오트밀로 완전 쉽고 맛있게 절대 살안찌는 쿠키 만들어 보세요. 제발🙏🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=oHCQFYHVPEc",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-oHCQFYHVPEc",
+      "descriptionMenuName": "오트밀 쿠키"
+    },
+    {
+      "videoId": "bQe69C5quO8",
+      "sourceTitle": "이 음료 정말 너무너무 맛있는데... 카페에는 안 팔아요😭 봄 카페 음료 🌸",
+      "sourceUrl": "https://www.youtube.com/watch?v=bQe69C5quO8",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "재료표는 있지만 정보란의 현재 음료 고유 메뉴명과 찻잎 종류가 확인되지 않아 보류. 추천 링크의 다른 메뉴명은 사용하지 않음."
+    },
+    {
+      "videoId": "ojg8StDFjz0",
+      "sourceTitle": "너무 맛있어서 매일 만들어 먹지만 카페에는 없어요 😂",
+      "sourceUrl": "https://www.youtube.com/watch?v=ojg8StDFjz0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "재료표는 있지만 정보란의 현재 음료 고유 메뉴명과 티 종류가 확인되지 않아 보류. 제목으로 메뉴명을 만들지 않음."
+    },
+    {
+      "videoId": "nlZ-yrWMRoE",
+      "sourceTitle": "두부로 이게 가능하네요⁉️ 쉽고 간단하게 만드는 초콜릿❤️",
+      "sourceUrl": "https://www.youtube.com/watch?v=nlZ-yrWMRoE",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-nlZ-yrWMRoE",
+      "descriptionMenuName": "파베 초콜릿"
+    },
+    {
+      "videoId": "jKCHQWwB1H0",
+      "sourceTitle": "단 3가지 재료로 단백질 가득 폭신한 달걀빵 만들어 보세요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=jKCHQWwB1H0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-jKCHQWwB1H0",
+      "descriptionMenuName": "구름빵"
+    },
+    {
+      "videoId": "ujOBiIDASmI",
+      "sourceTitle": "이 디저트는 정말 살 안쪄요‼️ 간단하게 섞어 만들었는데 다들 어디서 샀냐고 물어요👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=ujOBiIDASmI",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-ujOBiIDASmI",
+      "descriptionMenuName": "까눌레"
+    },
+    {
+      "videoId": "h21WuV-YLX0",
+      "sourceTitle": "팥죽 끓일 때 제발 이거 넣지 마세요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=h21WuV-YLX0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-h21WuV-YLX0",
+      "descriptionMenuName": "팥죽"
+    },
+    {
+      "videoId": "IxtzkewIiWA",
+      "sourceTitle": "우유로 만들었어요‼️ 부드럽고 달콤한 살 안찌는 간식 😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=IxtzkewIiWA",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "xxCUC3vtCqo",
+      "sourceTitle": "25kg 감량할 때 먹은 아이스크림입니다‼️ 매우 쉬움 ⚠️",
+      "sourceUrl": "https://www.youtube.com/watch?v=xxCUC3vtCqo",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "zsFzLC7cQVs",
+      "sourceTitle": "여름에 시원하게 힘 안들이고 빙수 드셔보세요📢 기계 강판 없이 설빙 뺨치는 빙수 만드는 방법❣️",
+      "sourceUrl": "https://www.youtube.com/watch?v=zsFzLC7cQVs",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "qccaa8eWaK4",
+      "sourceTitle": "[ 초간단, 기계❌] 역대급!!! 설탕 없이 진하고 부드러운 아이스크림 꼭 만들어보세요. 투ㄱㄷ맛",
+      "sourceUrl": "https://www.youtube.com/watch?v=qccaa8eWaK4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "64LOADZHZAY",
+      "sourceTitle": "노오븐! 노밀가루! 단 4가지 재료! 역대급 맛있는 케이크를 만들어 보세요. 정말 맛있음❣️",
+      "sourceUrl": "https://www.youtube.com/watch?v=64LOADZHZAY",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "a5XNbDPJqO8",
+      "sourceTitle": "No 밀가루! 초간단! 너무 맛있어서 깜짝 놀라는 당근 케이크 만들어보세요. 🥕😋❤️",
+      "sourceUrl": "https://www.youtube.com/watch?v=a5XNbDPJqO8",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-a5XNbDPJqO8",
+      "descriptionMenuName": "당근 케이크"
+    },
+    {
+      "videoId": "jr6nFMZQI-E",
+      "sourceTitle": "치즈케이크 중에서 가장 간단하고 최고로 맛이 좋아요. 😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=jr6nFMZQI-E",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-jr6nFMZQI-E",
+      "descriptionMenuName": "치즈케이크"
+    },
+    {
+      "videoId": "jceEj6Jpt24",
+      "sourceTitle": "티라미수는 이렇게 만들어보세요. 세상 간단하고 맛있어요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=jceEj6Jpt24",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "티라미수의 레이디핑거는 별도 영상 레시피만 연결되고 현재 케이크에 쓰는 실제 사용량이 없어 원재료 분해/구매량 확인 대기."
+    },
+    {
+      "videoId": "48UmtSqUdeE",
+      "sourceTitle": "[노오븐] 밀가루 없이 전자레인지로 절대 살 안찌는 초콜릿 케이크 만들기",
+      "sourceUrl": "https://www.youtube.com/watch?v=48UmtSqUdeE",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-48UmtSqUdeE",
+      "descriptionMenuName": "초코 케이크"
+    },
+    {
+      "videoId": "S6sTJ6uCatc",
+      "sourceTitle": "[초간단] 노밀가루, 절대 살안찌는 식빵",
+      "sourceUrl": "https://www.youtube.com/watch?v=S6sTJ6uCatc",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "식빵 8회분이 명시됐지만 아몬드가루150·차전자피가루30·골드플렉시드밀50의 원문 단위가 빠져 주재료 구매량 확인 대기."
+    },
+    {
+      "videoId": "-JPnL34RRSM",
+      "sourceTitle": "역대급 초간단!!! 1분안에 불 없이 찐한 밀크티 만드는 방법",
+      "sourceUrl": "https://www.youtube.com/watch?v=-JPnL34RRSM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony--JPnL34RRSM",
+      "descriptionMenuName": "밀크티"
+    },
+    {
+      "videoId": "4Y5R62GmO6M",
+      "sourceTitle": "분노의 다이어트 달고나커피, 오조오억번 저은 듯",
+      "sourceUrl": "https://www.youtube.com/watch?v=4Y5R62GmO6M",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "nmj4IZSLsoI",
+      "sourceTitle": "집에서 쉽고 맛있게 커피 내리는 3가지 방법",
+      "sourceUrl": "https://www.youtube.com/watch?v=nmj4IZSLsoI",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-nonrecipe",
+      "reason": "정보란을 확인한 조리도구·영양 정보·식재료 손질/보관 또는 커피 추출 방법 안내 영상. 분량 있는 완성 메뉴 재료표가 아니므로 제외."
+    },
+    {
+      "videoId": "5u3v77i7nHU",
+      "sourceTitle": "[5분완성] 저세상맛 저탄수화물 다이어트 그래놀라 이제 만들어 드세요!",
+      "sourceUrl": "https://www.youtube.com/watch?v=5u3v77i7nHU",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-5u3v77i7nHU",
+      "descriptionMenuName": "저탄수 그래놀라"
+    },
+    {
+      "videoId": "GEUL59x9bg4",
+      "sourceTitle": "[귀여움폭발] 내가 아이들에게 만들어 주는 진짜 딸기우유, 저탄수화물 다이어트 무설탕 딸기라떼, 홈카페",
+      "sourceUrl": "https://www.youtube.com/watch?v=GEUL59x9bg4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-GEUL59x9bg4",
+      "descriptionMenuName": "딸기 우유"
+    },
+    {
+      "videoId": "XTVAiQ3n_bg",
+      "sourceTitle": "[장건강] 신기한 요거트 먹는법, 홈카페",
+      "sourceUrl": "https://www.youtube.com/watch?v=XTVAiQ3n_bg",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "JTVSd_jWwic",
+      "sourceTitle": "[기발함주의!] 내가 아이들에게 만들어 주는 진짜 초코우유, 살안찌는 다이어트 초코라떼, 홈카페",
+      "sourceUrl": "https://www.youtube.com/watch?v=JTVSd_jWwic",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-JTVSd_jWwic",
+      "descriptionMenuName": "초코우유"
+    },
+    {
+      "videoId": "yobM2-2FB08",
+      "sourceTitle": "카페보다 맛있는 꿀잠 밀크티, 진한 밀크티 만들기, 불면증에 좋은 차, 홈카페",
+      "sourceUrl": "https://www.youtube.com/watch?v=yobM2-2FB08",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-yobM2-2FB08",
+      "descriptionMenuName": "꿀잠 밀크티"
+    },
+    {
+      "videoId": "AtkGm8jphd0",
+      "sourceTitle": "[당류2g]중독성 있는 맛! 살안찌는 마약 치즈스콘, 다이어트 간식, 저탄수화물 레시피, 키토 베이킹, 당뇨 빵",
+      "sourceUrl": "https://www.youtube.com/watch?v=AtkGm8jphd0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-AtkGm8jphd0",
+      "descriptionMenuName": "치즈스콘"
+    },
+    {
+      "videoId": "SWP0xcychyk",
+      "sourceTitle": "[당류 3g] 꾸덕하고 진한 저탄수 치즈케이크 만들기, 키토 베이킹, Low Carb Baked CheeseCake, KETO Baking",
+      "sourceUrl": "https://www.youtube.com/watch?v=SWP0xcychyk",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-SWP0xcychyk",
+      "descriptionMenuName": "치즈케이크"
+    },
+    {
+      "videoId": "NHo36S_25a4",
+      "sourceTitle": "[당류 1g, 노아몬드가루] 저탄수 다이어트 꾸덕한 브라우니 만들기, Low Carb Fudge Brownie, KETO Baking",
+      "sourceUrl": "https://www.youtube.com/watch?v=NHo36S_25a4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-NHo36S_25a4",
+      "descriptionMenuName": "브라우니"
+    },
+    {
+      "videoId": "9YJdTdHTB18",
+      "sourceTitle": "집에서 콜드브루를 만드는 정말 쉬운 3가지 방법, 더치커피",
+      "sourceUrl": "https://www.youtube.com/watch?v=9YJdTdHTB18",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-nonrecipe",
+      "reason": "정보란을 확인한 조리도구·영양 정보·식재료 손질/보관 또는 커피 추출 방법 안내 영상. 분량 있는 완성 메뉴 재료표가 아니므로 제외."
+    },
+    {
+      "videoId": "K5yZt5hf72Q",
+      "sourceTitle": "[순탄수 4g] 다이어트 에그타르트, Low Carb Egg Tart Recipe | 살빠지는 간식, 저탄수 레시피, 간헐적 단식",
+      "sourceUrl": "https://www.youtube.com/watch?v=K5yZt5hf72Q",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-K5yZt5hf72Q",
+      "descriptionMenuName": "에그타르트"
+    },
+    {
+      "videoId": "mMk2be55ecM",
+      "sourceTitle": "[자세한 설명] 마시면 무조건 살빠지는 물, 디톡스에도 좋음",
+      "sourceUrl": "https://www.youtube.com/watch?v=mMk2be55ecM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "xQaxjDwu6f8",
+      "sourceTitle": "[NoMusic]기적의 다이어트 음료 3가지(살빠지는 음료), 3 Low Carb Drinks",
+      "sourceUrl": "https://www.youtube.com/watch?v=xQaxjDwu6f8",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "pending",
+      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "videoId": "vL2_0ldclWA",
+      "sourceTitle": "살빠지는 음료, 다이어트 모카 프라푸치노, 카페모카, Low Carb Mocha Frappuccino, KETO Drink, LCHF Recipe, 키토음료, 간헐적단식 식단",
+      "sourceUrl": "https://www.youtube.com/watch?v=vL2_0ldclWA",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-vL2_0ldclWA",
+      "descriptionMenuName": "모카 프라푸치노"
+    },
+    {
+      "videoId": "0y3Juik_1Zk",
+      "sourceTitle": "다이어트 케이크, 저탄수 제누와즈, Low Carb Sponge Cake Sheet, Genoise | KETO Cake, LCHF, 키토간식, 저탄수 베이킹",
+      "sourceUrl": "https://www.youtube.com/watch?v=0y3Juik_1Zk",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-0y3Juik_1Zk",
+      "descriptionMenuName": "제누와즈"
+    },
+    {
+      "videoId": "EQkcDUwQrJY",
+      "sourceTitle": "다이어트 딸기 크림소다, 방탄커피가 지겹다면, Low Carb Strawberry Cream Soda | KETO, LCHF, Ketogenic, 저탄고지, 키토제닉, 저탄수",
+      "sourceUrl": "https://www.youtube.com/watch?v=EQkcDUwQrJY",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "원본 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "videoId": "k3NNJkqNl10",
+      "sourceTitle": "저탄수 다이어트 무설탕 딸기잼, Low Carb Sugar Free Strawberry Jam | LCHF, Ketogenic Recipe, 저탄고지, 키토제닉, 당질제한 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=k3NNJkqNl10",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "registered",
+      "recipeId": "moony-k3NNJkqNl10",
+      "descriptionMenuName": "무설탕 딸기잼"
+    },
+    {
+      "videoId": "2LyWnUNPAUg",
+      "sourceTitle": "노오븐, 살빠지는 다이어트 딸기 레어 치즈케이크, No Oven KETO Strawberry Rare Cheese Cake | LCHF, Ketogenic, 저탄수, 간헐적 단식",
+      "sourceUrl": "https://www.youtube.com/watch?v=2LyWnUNPAUg",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "5Iyj3rpHX1E",
+      "sourceTitle": "무설탕 모히토, No Sugar Mojito | LCHF, Ketogenic, KETO Recipes, 저탄고지, 키토, 키토제닉, 다이어트 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=5Iyj3rpHX1E",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert",
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "_ViWUF1W2CE",
+      "sourceTitle": "저탄수 다이어트 아인슈페너, 비엔나커피, KETO Einspanner, Vienna Coffee (LCHF, Ketogenic, 저탄고지, 키토간식, 다이어트 식단, 홈카페)",
+      "sourceUrl": "https://www.youtube.com/watch?v=_ViWUF1W2CE",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "bOn6vjC9H1Y",
+      "sourceTitle": "키토 치즈폼 그린티(녹차), KETO Cheese foam Green Tea (LCHF, Ketogenic Recipe, 저탄고지, 키토식단, 방탄커피 대신)",
+      "sourceUrl": "https://www.youtube.com/watch?v=bOn6vjC9H1Y",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "7F6-Bd76Wmg",
+      "sourceTitle": "키토 티라미수 라떼, KETO Tiramisu Latte, (방탄커피 지겨울때, LCHF, Low Carb, Ketogenic, KETO Dessert, 저탄고지, 키토간식)",
+      "sourceUrl": "https://www.youtube.com/watch?v=7F6-Bd76Wmg",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "v4vro5nTOMw",
+      "sourceTitle": "[ASMR] 키토 레어 치즈케이크, KETO Rare CheeseCake, (LCHF, Low Carb, Ketogenic Recipe, 저탄고지, 저탄수, 키토베이킹, 키토빵)",
+      "sourceUrl": "https://www.youtube.com/watch?v=v4vro5nTOMw",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "ROTxtrFFDyA",
+      "sourceTitle": "살안찌는 통밀쿠키, KETO Wheat Bran Cookies, (LCHF, Low Carb, Ketogenic Dessert, 간헐적 단식, 저탄수, 키토제닉 레시피)",
+      "sourceUrl": "https://www.youtube.com/watch?v=ROTxtrFFDyA",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "zMSR92hoac0",
+      "sourceTitle": "Vegan, KETO ICE POP Recipe, Ice Cream, 키토 아이스 바, 아이스크림 (LCHF, Low Carb, Ketogenic, 저탄고지, 저탄수, 키토제닉)",
+      "sourceUrl": "https://www.youtube.com/watch?v=zMSR92hoac0",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert",
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "I7eJw4WAPPw",
+      "sourceTitle": "[ASMR] 다이어트 바크초콜릿, 키토초콜릿 만들기, KETO Chocolate Bark (LCHF, Low Carb, Ketogenic Recipe, 저탄고지, 키토제닉 식단)",
+      "sourceUrl": "https://www.youtube.com/watch?v=I7eJw4WAPPw",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert",
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "JDyW-3-XT2E",
+      "sourceTitle": "[ASMR] 키토 초코 마들렌 KETO Chocolate Madeleine (LCHF, Gluten Free, Low Carb, 저탄고지, 당질제한, 글루텐프리)",
+      "sourceUrl": "https://www.youtube.com/watch?v=JDyW-3-XT2E",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "9GEeK08ec_8",
+      "sourceTitle": "[ASMR] 키토 티라미수, LCHF, Tiramisu ( KETO, Low Carb, No Sugar, 저탄수,  糖質制限)",
+      "sourceUrl": "https://www.youtube.com/watch?v=9GEeK08ec_8",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "zVzeHG4D1BU",
+      "sourceTitle": "[ASMR] KETO, LCHF, Ladyfingers ( Low Carb Cookies ), 키토쿠키, 저탄고지, 무설탕 레이디핑거 만들기, 糖質制限",
+      "sourceUrl": "https://www.youtube.com/watch?v=zVzeHG4D1BU",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "lI9ddp-1w4Y",
+      "sourceTitle": "[ASMR] KETO, LCHF, Plain Scone with Red Bean Paste and Butter, 키토, 저탄고지, 앙버터플레인스콘, 糖質制限, スコーン",
+      "sourceUrl": "https://www.youtube.com/watch?v=lI9ddp-1w4Y",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "rNeVC0sG9N8",
+      "sourceTitle": "저탄수 다이어트 초코 아이스크림 (젤라또), KETO, LCHF, Chocolate Ice Cream Recipe (gelato), 糖質制限, チョコアイスクリーム",
+      "sourceUrl": "https://www.youtube.com/watch?v=rNeVC0sG9N8",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "t8M3KAsDQkY",
+      "sourceTitle": "다이어트 간식, 레몬 마들렌, KETO Lemon Madeleine (No Sugar, Gluten Free, 糖質制限, 키토, 저탄고지, 저탄수, 당질제한)",
+      "sourceUrl": "https://www.youtube.com/watch?v=t8M3KAsDQkY",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "s5AqiaPW4R4",
+      "sourceTitle": "살빠지는 다이어트 방탄쿠키 (방탄커피 맛) LCHF,  KETO Bulletproof Cookie ,  糖質制限",
+      "sourceUrl": "https://www.youtube.com/watch?v=s5AqiaPW4R4",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "3x3a9o-tvfE",
+      "sourceTitle": "[ASMR] KETO, LCHF, Vanilla Ice Cream, 키토, 저탄고지, 바닐라 아이스크림, 糖質制限, バニラアイスクリーム",
+      "sourceUrl": "https://www.youtube.com/watch?v=3x3a9o-tvfE",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "7Y4LRQ8AkoE",
+      "sourceTitle": "[ASMR] KETO, LCHF, NO-BAKE, Meal Prep Bottle Strawberry Cheesecake, 키토, 저탄고지 보틀 딸기 치즈케이크, 밀프렙",
+      "sourceUrl": "https://www.youtube.com/watch?v=7Y4LRQ8AkoE",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "XXiqZo9IcPE",
+      "sourceTitle": "KETO, LCHF Green Tea Frappuccino (Bulletproof Tea, Stabucks Recipe), 키토, 저탄고지 그린티 프라푸치노, 방탄커피가 지겹다면",
+      "sourceUrl": "https://www.youtube.com/watch?v=XXiqZo9IcPE",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "IlV0G-1P1iQ",
+      "sourceTitle": "살빠지는 다이어트 간식, 3가지 맛 큐브 치즈, 3 Flavors Cube Cheese Recipe, 키토, 저탄고지 간식, KETO, LCHF Snack",
+      "sourceUrl": "https://www.youtube.com/watch?v=IlV0G-1P1iQ",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "1W3KFkMVZzg",
+      "sourceTitle": "[ASMR] 저탄고지, 키토, 방탄코코아 만들기, 방탄커피가 지겹다면, LCHF, Ketogenic, BulletProof Cocoa(Hot Cocholate) RECIPE",
+      "sourceUrl": "https://www.youtube.com/watch?v=1W3KFkMVZzg",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "Q4A_jGdK6eM",
+      "sourceTitle": "오조오억번 저어만든 다이어트 에그커피",
+      "sourceUrl": "https://www.youtube.com/watch?v=Q4A_jGdK6eM",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert",
+        "달걀 Egg"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "S4FkaJ1WVXE",
+      "sourceTitle": "발렌타인데이 다이어트, 무설탕, 키토 화이트 파베초콜릿 만들기 (생초콜릿, 녹차초콜릿, 딸기초콜릿), No Sugar Keto White Pave Chocolate",
+      "sourceUrl": "https://www.youtube.com/watch?v=S4FkaJ1WVXE",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "4KDNGIP0KU0",
+      "sourceTitle": "발렌타인데이 저탄수, 키토 파베초콜릿 만들기 (생초콜릿), How To Make Pave Chocholate",
+      "sourceUrl": "https://www.youtube.com/watch?v=4KDNGIP0KU0",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "urXVmXuC9CM",
+      "sourceTitle": "[ENG SUB] ASMR 집에서 커피 로스팅, 핸드드립 방법, 홈카페, How To Coffee Rosting & Hand Drip At Home",
+      "sourceUrl": "https://www.youtube.com/watch?v=urXVmXuC9CM",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "DtmfFj2Hjqs",
+      "sourceTitle": "[ENG SUB]저탄수, 글루텐프리, 키토베이킹 수플레 팬케이크 만들기, LowCarb, GlutenFree Fluffy Japanese Pancake",
+      "sourceUrl": "https://www.youtube.com/watch?v=DtmfFj2Hjqs",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "bZA7KdtWDUA",
+      "sourceTitle": "간헐적 단식, FMD 식단을 도와주는 버터커피, 방탄커피 레시피,  HOW TO MAKE BULLETPROOF COFFEE",
+      "sourceUrl": "https://www.youtube.com/watch?v=bZA7KdtWDUA",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "ucjhMHwgZzE",
+      "sourceTitle": "저탄수, 글루텐프리, 키토 제누와즈 만들기, KETO, LCHF Genoise",
+      "sourceUrl": "https://www.youtube.com/watch?v=ucjhMHwgZzE",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "--AtWkrggHU",
+      "sourceTitle": "[ENG SUB]글루텐프리, 저탄수, 키토빵 클라우드브레드 만들기, Gluten free, Lowcarb, Keto CLOUD BREAD",
+      "sourceUrl": "https://www.youtube.com/watch?v=--AtWkrggHU",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "q8NbYVOhvcI",
+      "sourceTitle": "[ENG SUB]저탄수 홈메이드 그래놀라 만들기, HOW TO MAKE KETO GRANOLA",
+      "sourceUrl": "https://www.youtube.com/watch?v=q8NbYVOhvcI",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "RXqO2JtCqHw",
+      "sourceTitle": "[ENG SUB]다이어트 초콜릿, 팻밤 만들기, 키토 초콜릿, Keto Chocolate, Fat Bomb Recipe",
+      "sourceUrl": "https://www.youtube.com/watch?v=RXqO2JtCqHw",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "uQZAvMqpb0A",
+      "sourceTitle": "[ENG SUB]저탄수,키토 스콘 만들기,How to make LCHF Scone",
+      "sourceUrl": "https://www.youtube.com/watch?v=uQZAvMqpb0A",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "4PV3qxg6Cxg",
+      "sourceTitle": "[ENG SUB] 저탄수, 키토제닉 코코넛 리얼 딸기라떼 만들기, 생딸기우유 레시피, VEGAN, LCHF, Real Strawberry Coconut Latte",
+      "sourceUrl": "https://www.youtube.com/watch?v=4PV3qxg6Cxg",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "BIFkrSG1kgc",
+      "sourceTitle": "두부와 계란으로 쉽고 맛있고 부담없는 아침식사 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=BIFkrSG1kgc",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "달걀 Egg",
+        "두부 Tofu"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "DJTt3nwSiII",
+      "sourceTitle": "인생 반찬 찾았네요‼️ 가족들이 이것만 찾아요😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=DJTt3nwSiII",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "달걀 Egg"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "48M1hzOemr0",
+      "sourceTitle": "정말 쉽고 맛있는 단호박 요리 👍🏻 치즈폭포 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=48M1hzOemr0",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "달걀 Egg"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "NEL9LdL5fCw",
+      "sourceTitle": "25kg 감량하고 10년 유지한 다이어터의 양배추 먹는 법",
+      "sourceUrl": "https://www.youtube.com/watch?v=NEL9LdL5fCw",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "달걀 Egg",
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "ptr45LFkNws",
+      "sourceTitle": "밥에 달걀을 깨 넣어보세요. 정말 맛있답니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=ptr45LFkNws",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "달걀 Egg"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "Li3eUwMFsZE",
+      "sourceTitle": "절대 살 안찌는 단호박 케이크 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=Li3eUwMFsZE",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "달걀 Egg"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "eIUGgWrC6gQ",
+      "sourceTitle": "누구나 따라하는 쉬운 달걀요리 13가지, 베스트 모음",
+      "sourceUrl": "https://www.youtube.com/watch?v=eIUGgWrC6gQ",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "달걀 Egg"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "vXRYO4NniQs",
+      "sourceTitle": "[5분] 간편하고 맛있어서 아침 식사로 추천합니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=vXRYO4NniQs",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "달걀 Egg"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "gCfoCvReSqI",
+      "sourceTitle": "달걀로 꼭 해보세요. 정말 맛있어요~  계란찜 레시피 종결판",
+      "sourceUrl": "https://www.youtube.com/watch?v=gCfoCvReSqI",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "달걀 Egg"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "XYvBXkMe0N0",
+      "sourceTitle": "[꿀팁!] 면역력에 좋은 다이어트 계란볶음밥, 원리까지 다 알려드림, 다이어트 도시락",
+      "sourceUrl": "https://www.youtube.com/watch?v=XYvBXkMe0N0",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "달걀 Egg"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "rU8TwA2Pbhg",
+      "sourceTitle": "SNS에서 핫~했던 빵으로 길거리토스트 만들기, 다이어트 식단, 저탄수화물, 키토제닉",
+      "sourceUrl": "https://www.youtube.com/watch?v=rU8TwA2Pbhg",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "달걀 Egg"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "NAk5hDEzXCM",
+      "sourceTitle": "마약계란 만들기, 달걀 껍질 잘 까는 법, 계란삶는법, 계란요리, 계란 장조림, 반숙계란, Egg Recipes",
+      "sourceUrl": "https://www.youtube.com/watch?v=NAk5hDEzXCM",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "달걀 Egg"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "y-s9fKrpcBs",
+      "sourceTitle": "[NO MUSIC] 스텐팬으로 푹신 두툼한 계란말이 만들기, Korean Style Egg Omelet",
+      "sourceUrl": "https://www.youtube.com/watch?v=y-s9fKrpcBs",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "달걀 Egg"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "b2_veabuxDk",
+      "sourceTitle": "[EN/JP] [스걸파/오락관] 송희수 코치(?)의 맞춤 응원으로 실시간 레벨업 중인 조나인 @.@ I 턴즈 vs 앤프 #유료광고포함#스트릿댄스걸스파이터",
+      "sourceUrl": "https://www.youtube.com/watch?v=b2_veabuxDk",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "달걀 Egg"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "KB6yZJbvxBI",
+      "sourceTitle": "달걀과 두부로 만들었는데 쉽고 맛있어요 👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=KB6yZJbvxBI",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "달걀 Egg",
+        "양배추 Cabbage",
+        "두부 Tofu"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "a4zFDfFt1oc",
+      "sourceTitle": "28평 신혼집 룸투어 l 화이트 인테리어 I 미니멀 I 신혼 필수템 I LG가전 추천 I 가격 공유",
+      "sourceUrl": "https://www.youtube.com/watch?v=a4zFDfFt1oc",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "달걀 Egg",
+        "두부 Tofu"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "0kalhA6zZz0",
+      "sourceTitle": "양배추와 당근은 이렇게 해보세요‼️ 만성 염증이 사라져요💯 평생 써먹는 살빠지고 건강하게 오래사는 레시피😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=0kalhA6zZz0",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "건강 Health",
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "fnCQHWmNOKM",
+      "sourceTitle": "#4 평생 써먹는 건강하게 오래살기 위하여 매일 챙겨먹는 것 ❤️",
+      "sourceUrl": "https://www.youtube.com/watch?v=fnCQHWmNOKM",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2"
+      ],
+      "playlistTitles": [
+        "건강 Health"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "jyk-tPqvtak",
+      "sourceTitle": "#3 평생 써먹는 살빠지고 건강하게 오래사는 레시피입니다. 꼭 해보세요❣️",
+      "sourceUrl": "https://www.youtube.com/watch?v=jyk-tPqvtak",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2"
+      ],
+      "playlistTitles": [
+        "건강 Health"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "Fy4WZhLLDQE",
+      "sourceTitle": "속이 불편하시다면 이거 드셔보세요. 위와 장에 좋은 음식",
+      "sourceUrl": "https://www.youtube.com/watch?v=Fy4WZhLLDQE",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "건강 Health",
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "yU3GC2_9px0",
+      "sourceTitle": "브로콜리 영양소 제대로 섭취하는 역대급 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=yU3GC2_9px0",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "건강 Health",
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "2vb1k0qpjnw",
+      "sourceTitle": "건강과 피부를 위해서 일주일에 한 번은 꼭 먹는 이것‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=2vb1k0qpjnw",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2"
+      ],
+      "playlistTitles": [
+        "건강 Health"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "gVrRxqb8qlg",
+      "sourceTitle": "양배추와 달걀은 새로운 방법으로 드세요‼️ 쉽고 빠르고 맛있습니다 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=gVrRxqb8qlg",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "KQH35X1WoDw",
+      "sourceTitle": "양배추는 이렇게 드셔보세요‼️ 간단하고 맛이 좋아요😍 3가지 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=KQH35X1WoDw",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "rU0eWdi3JXM",
+      "sourceTitle": "양배추는 데치지 말고 이렇게 해보세요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=rU0eWdi3JXM",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "양배추 Cabbage",
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "1LeeHsodWsM",
+      "sourceTitle": "양배추 이렇게 꼭 한 번 해보세요. 간단한데 정말 맛있네요. 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=1LeeHsodWsM",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "양배추 Cabbage",
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "cz25yGsViIY",
+      "sourceTitle": "내 딸이 제일 좋아하는 양배추 요리",
+      "sourceUrl": "https://www.youtube.com/watch?v=cz25yGsViIY",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "I9dPg7eTX58",
+      "sourceTitle": "간단한데 최고 맛있는 양배추 요리, 코우슬로",
+      "sourceUrl": "https://www.youtube.com/watch?v=I9dPg7eTX58",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "양배추 Cabbage",
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "_9MsfKYqzdg",
+      "sourceTitle": "[이것만 알면 실패안함!] 유산균폭탄, 독일식 양배추김치, 사우어크라우트 만들기, 양배추절임",
+      "sourceUrl": "https://www.youtube.com/watch?v=_9MsfKYqzdg",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "양배추 Cabbage",
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "sbi0dz7DN0E",
+      "sourceTitle": "[꿀팁!!! 알려드림] 다이어트 샌드위치, 언위치 만들기, 빵없는 샌드위치, 뚱뚱한 샌드위치, Low Carb Unwich, KETO Breadless Sandwich",
+      "sourceUrl": "https://www.youtube.com/watch?v=sbi0dz7DN0E",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "mjzpjM9IZqA",
+      "sourceTitle": "한국인 99%가 이 양배추 요리를 좋아합니다 #Shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=mjzpjM9IZqA",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "채널 Shorts 탭 또는 원본 영상 메타에서 쇼츠로 확인되어 등록 대상에서 제외."
+    },
+    {
+      "videoId": "C8XW1offX7M",
+      "sourceTitle": "치킨 먹을때 생각나는 거 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=C8XW1offX7M",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "채널 Shorts 탭 또는 원본 영상 메타에서 쇼츠로 확인되어 등록 대상에서 제외."
+    },
+    {
+      "videoId": "vyQdQIFZCwc",
+      "sourceTitle": "감량할 때 많이 먹었던 메뉴 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=vyQdQIFZCwc",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "채널 Shorts 탭 또는 원본 영상 메타에서 쇼츠로 확인되어 등록 대상에서 제외."
+    },
+    {
+      "videoId": "QQ3njcTwk2Y",
+      "sourceTitle": "두부 요리중 제일 간단하고 엄청 맛있어서 추천해요. 신박한 두부요리",
+      "sourceUrl": "https://www.youtube.com/watch?v=QQ3njcTwk2Y",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "두부 Tofu",
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "F8dG2iWZw3o",
+      "sourceTitle": "간단 재료로 쉬운데 엄청 맛있는 두부쌈장",
+      "sourceUrl": "https://www.youtube.com/watch?v=F8dG2iWZw3o",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "두부 Tofu",
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "VvnVTpT9TF8",
+      "sourceTitle": "이 레시피는 꼭 따라해 보세요, 정말 맛있어요, 두부조림",
+      "sourceUrl": "https://www.youtube.com/watch?v=VvnVTpT9TF8",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "두부 Tofu",
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "co_ysemL1FM",
+      "sourceTitle": "아이가 이 반찬만 해달래요👍🏻 두부반찬❤️ #Shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=co_ysemL1FM",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "두부 Tofu"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "채널 Shorts 탭 또는 원본 영상 메타에서 쇼츠로 확인되어 등록 대상에서 제외."
+    },
+    {
+      "videoId": "tdLzvjGFe0E",
+      "sourceTitle": "콩나물과 두부로 만들었어요‼️ 이건 무조건 해보세요😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=tdLzvjGFe0E",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "두부 Tofu",
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "KHlFT-oZsPU",
+      "sourceTitle": "간단하고 맛있는 두부요리 9가지 👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=KHlFT-oZsPU",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "두부 Tofu"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "woCk7yC6lzo",
+      "sourceTitle": "채소 싫어하는 식구도 너무 맛있어서 매일 해달래요‼️ 두부 채소카레😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=woCk7yC6lzo",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "두부 Tofu",
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "7AxEmElJLJU",
+      "sourceTitle": "치킨보다 더 맛있는 닭요리‼️ 식구들이 매일 해달라고 하네요😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=7AxEmElJLJU",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "고기 Meat"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "49HUtcAVYbg",
+      "sourceTitle": "닭 가슴살이라면 질색하는 남편도 이 요리는 매일 해달라고 합니다. 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=49HUtcAVYbg",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "고기 Meat"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "0CdyiDHn1iI",
+      "sourceTitle": "먹어본 닭 가슴살 요리 중 제일 맛있습니다 😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=0CdyiDHn1iI",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "고기 Meat"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "QyclrLJ2aqE",
+      "sourceTitle": "평생 써먹는~ 기사식당 뺨 때리고 도망가는 제육볶음 레시피 😋 맛 보장‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=QyclrLJ2aqE",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "고기 Meat"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "Th7-8OHRjD8",
+      "sourceTitle": "간단하고 맛있는 도시락 싸는 방법, 직장인 도시락, 어린이 도시락",
+      "sourceUrl": "https://www.youtube.com/watch?v=Th7-8OHRjD8",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "고기 Meat"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "VWGr0dS7RrU",
+      "sourceTitle": "김치에 딱‼️ 평생 써먹는 인생 돼지고기 보쌈 (수육) 하는 법😍 이거 넣지 마세요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=VWGr0dS7RrU",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "고기 Meat"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "RwxVXzkARD8",
+      "sourceTitle": "25kg 감량할 때 먹었던 식단, 빠르고 쉬워요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=RwxVXzkARD8",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "고기 Meat"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "4G8OKrU5BWY",
+      "sourceTitle": "이 집코바 치킨은 훨신 싸고 맛있습니다👍🏻 사장님 죄송해요🙏🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=4G8OKrU5BWY",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "고기 Meat"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "g8gfeNTj21Y",
+      "sourceTitle": "눈오는날 초간단 미역국 끓여먹고 속아파서 먹은 간식들",
+      "sourceUrl": "https://www.youtube.com/watch?v=g8gfeNTj21Y",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "고기 Meat"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "K3EbUPY3gSc",
+      "sourceTitle": "고기는 이렇게 드세요. 물없이 고기 채소찜",
+      "sourceUrl": "https://www.youtube.com/watch?v=K3EbUPY3gSc",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "고기 Meat"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "q3ZjIVbUKX8",
+      "sourceTitle": "흔한 재료로 쉽게 만드는 닭요리, 간단한데 겁나 맛있음",
+      "sourceUrl": "https://www.youtube.com/watch?v=q3ZjIVbUKX8",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "고기 Meat"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "vSjxobodvbI",
+      "sourceTitle": "가을 겨울 무를 이렇게 해보세요‼️ 1년 내내 행복합니다😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=vSjxobodvbI",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "_ee47nsfoJw",
+      "sourceTitle": "무를 이렇게 썰어보세요‼️ 김치보다 맛있고 인생 반찬이 탄생합니다 ❤️",
+      "sourceUrl": "https://www.youtube.com/watch?v=_ee47nsfoJw",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "gDgKIsGEnLM",
+      "sourceTitle": "배 터지게 먹어도 절대 살찌지 않아요‼️ 쉽고 맛있는 잡채 ❤️",
+      "sourceUrl": "https://www.youtube.com/watch?v=gDgKIsGEnLM",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "bB5KSj905mI",
+      "sourceTitle": "오이는 이 방법이 최고입니다. 먹어보고 감동받은 오이 레시피, 여름반찬 추천",
+      "sourceUrl": "https://www.youtube.com/watch?v=bB5KSj905mI",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "RgTxExPyeP4",
+      "sourceTitle": "왜 이거 안해보세요? 이거는 꼭 해보세요~ 가지요리 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=RgTxExPyeP4",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "cHtf1XUIguo",
+      "sourceTitle": "여름 반찬 강추!!! 오이는 꼭 이렇게 해보세요. 물도 안 생기고 끝까지 아삭합니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=cHtf1XUIguo",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "NIP52cKCnnA",
+      "sourceTitle": "물컹한 가지 식감이 싫다면 이렇게 해보세요. 훨씬 맛있어요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=NIP52cKCnnA",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "qJO2hiFPE1I",
+      "sourceTitle": "배추 한 통 순삭하는 레시피 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=qJO2hiFPE1I",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "pVFLeGElltw",
+      "sourceTitle": "구하기 어렵고 비싼 식재료 구경해보세요~ 😆",
+      "sourceUrl": "https://www.youtube.com/watch?v=pVFLeGElltw",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "jJVCLc_DMe8",
+      "sourceTitle": "양상추는 제발 이렇게 드세요 🙏🏻 배터지게 먹어도 살이 쭉쭉 빠져요 🤩",
+      "sourceUrl": "https://www.youtube.com/watch?v=jJVCLc_DMe8",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "M7zHvLOcZ4k",
+      "sourceTitle": "양상추는 더이상 생으로 말고 이렇게 해보세요. 너무 맛있어요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=M7zHvLOcZ4k",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "a394RYfZbWY",
+      "sourceTitle": "정말 맛있는 오이요리",
+      "sourceUrl": "https://www.youtube.com/watch?v=a394RYfZbWY",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "-mv5cUu17jU",
+      "sourceTitle": "불없이 쉽게, 활용도 높고 정말 맛있는 파스타 소스입니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=-mv5cUu17jU",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "UrGQ5293d7E",
+      "sourceTitle": "[초간단] 끓이지 않고 채소절임, 채소장아찌 만드는 법, 살안찌는 여름반찬",
+      "sourceUrl": "https://www.youtube.com/watch?v=UrGQ5293d7E",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "rpAva42tJes",
+      "sourceTitle": "길가에 흔히 있는 이것으로 초간단 김치 담그기",
+      "sourceUrl": "https://www.youtube.com/watch?v=rpAva42tJes",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "nsLS6L_jcZ8",
+      "sourceTitle": "엄청 크고 길쭉한 이것으로 요리해보자. 살빠지는 최고의 식품",
+      "sourceUrl": "https://www.youtube.com/watch?v=nsLS6L_jcZ8",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "uGpM5udWoj4",
+      "sourceTitle": "[과학적인 설명] 건강하고 맛있는 버섯 리조또, 다이어트 식단",
+      "sourceUrl": "https://www.youtube.com/watch?v=uGpM5udWoj4",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "videoId": "cY9OrcjhMqg",
+      "sourceTitle": "초간단 살빠지는 다이어트 고추장 만들기, Low Carb Gochujang Recipe 저탄수, 키토, 당질제한 레시피, KETO,  LCHF Recipe",
+      "sourceUrl": "https://www.youtube.com/watch?v=cY9OrcjhMqg",
+      "sourceName": null,
+      "channelId": null,
+      "playlistIds": [
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "채소 vegetable"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "YouTube 요청 제한으로 원본 확인 미실행"
+    }
+  ]
+}

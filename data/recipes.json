@@ -120027,5 +120027,3993 @@
         "note": "원문: 고춧가루 약간"
       }
     ]
+  },
+  {
+    "id": "moony-kLF6onKMarI",
+    "name": "비건라떼",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "아몬드밀크400ml와 에스프레소2샷 전체를 작은 음료2잔으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "음료",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=kLF6onKMarI",
+    "sourceTitle": "건강하고 살안찌게 아침식사로 이거 마시고 있어요❤️",
+    "sourceNote": "무니키친MoonyKitchen / 영상 kLF6onKMarI; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "moony-black-soybean-powder",
+        "amount": 2,
+        "unit": "Tbsp",
+        "note": "원문: 검은콩가루 2Tbsp"
+      },
+      {
+        "ingredientId": "moony-black-sesame-powder",
+        "amount": 1,
+        "unit": "Tbsp",
+        "note": "원문: 흑임자가루 1Tbsp"
+      },
+      {
+        "ingredientId": "moony-almond-milk",
+        "amount": 400,
+        "unit": "ml",
+        "note": "원문: 아몬드밀크 400ml"
+      },
+      {
+        "ingredientId": "moony-espresso",
+        "amount": 2,
+        "unit": "샷",
+        "note": "원문: 에스프레소 2샷"
+      }
+    ]
+  },
+  {
+    "id": "moony-cBBhf7BJdZI",
+    "name": "두부부침",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "두부2모와 양념 전량을 반찬4인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "부침",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=cBBhf7BJdZI",
+    "sourceTitle": "이 두부요리는 두부조림 보다 더 맛있고 쉬워서 요새 거의 매일 만들어요 👍🏻",
+    "sourceNote": "무니키친MoonyKitchen / 영상 cBBhf7BJdZI; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "tofu",
+        "amount": 2,
+        "unit": "모",
+        "note": "원문: 두부 2모"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 오일"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 3,
+        "unit": "큰술",
+        "note": "원문: 간장 3큰술"
+      },
+      {
+        "ingredientId": "mfds-ingredient-44dae654a56c",
+        "amount": 1,
+        "unit": "큰술",
+        "note": "원문: 알룰로스 또는 올리고당 1큰술 · 원문 대체재 중 알룰로스 한 가지만 선택"
+      },
+      {
+        "ingredientId": "moony-raw-sesame-oil",
+        "amount": 1,
+        "unit": "큰술",
+        "note": "원문: 생참기름 1큰술"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "큰술",
+        "note": "원문: 다진 대파 1큰술"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": 1,
+        "unit": "작은술",
+        "note": "원문: 마늘 1작은술"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 2,
+        "unit": "큰술",
+        "note": "원문: 고춧가루 2큰술"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 참깨"
+      }
+    ]
+  },
+  {
+    "id": "moony-c4F13wILnVk",
+    "name": "부추전",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "부추150g·양파반개·전분5큰술 전체를 곁들임2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "전",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=c4F13wILnVk",
+    "sourceTitle": "밀가루 없이 끝까지 바삭한 부추전 만들어 보세요!",
+    "sourceNote": "무니키친MoonyKitchen / 영상 c4F13wILnVk; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-1ad0b371b22f",
+        "amount": 150,
+        "unit": "g",
+        "note": "원문: 부추 150g"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 양파 1/2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fb37e6e6db2c",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 붉은 고추 2개"
+      },
+      {
+        "ingredientId": "hot-pepper",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 청양 고추 1개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-3149d339dd07",
+        "amount": 5,
+        "unit": "큰술",
+        "note": "원문: 감자 전분 5큰술"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 3,
+        "unit": "큰술",
+        "note": "원문: 물 3큰술"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 기름"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 1,
+        "unit": "큰술",
+        "note": "원문: 식초 1큰술"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 1,
+        "unit": "큰술",
+        "note": "원문: 간장 1큰술"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 0.5,
+        "unit": "큰술",
+        "note": "원문: 고추가루 1/2큰술"
+      }
+    ]
+  },
+  {
+    "id": "moony-ALeW6Kk6M0c",
+    "name": "토마토마리네이드",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "토마토3개 전체를 곁들임3인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "절임",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=ALeW6Kk6M0c",
+    "sourceTitle": "토마토는 이렇게 매일 2주만 드셔보세요‼️ 토마토 영양소 200% 살리고 항암, 당뇨, 고혈압에도 좋아요👍🏻",
+    "sourceNote": "무니키친MoonyKitchen / 영상 ALeW6Kk6M0c; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-b72d4a479483",
+        "amount": 3,
+        "unit": "개",
+        "note": "원문: 토마토 3개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-893e840d1e9b",
+        "amount": 3,
+        "unit": "큰술",
+        "note": "원문: 올리브오일 3큰술"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후추"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a241b958c151",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 바질 (생략가능)"
+      }
+    ]
+  },
+  {
+    "id": "moony-lCLcQ0XS0bs",
+    "name": "냉국수",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "오이2개·물700ml·모둠해초10g 전체를3인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "냉국수",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=lCLcQ0XS0bs",
+    "sourceTitle": "여름에 시원하게 살빠지는 저칼로리 냉국수 강력 추천!!!",
+    "sourceNote": "무니키친MoonyKitchen / 영상 lCLcQ0XS0bs; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "moony-assorted-seaweed",
+        "amount": 10,
+        "unit": "g",
+        "note": "원문: 모둠 해초 10g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-3ba1c580e487",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 오이 2개"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 양파 50g"
+      },
+      {
+        "ingredientId": "green-pepper",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 청고추 1개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fb37e6e6db2c",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 홍고추 1개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-44dae654a56c",
+        "amount": 3,
+        "unit": "Ts",
+        "note": "원문: 알룰로스 3Ts"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 1,
+        "unit": "Ts",
+        "note": "원문: 소금 1Ts"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 7,
+        "unit": "Ts",
+        "note": "원문: 식초 7Ts"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 700,
+        "unit": "ml",
+        "note": "원문: 물 700ml"
+      }
+    ]
+  },
+  {
+    "id": "moony-oj6Lc4wN3hE",
+    "name": "어묵탕",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "무300g·곤약우동200g·어묵수량범위와 양념 전량을 국4인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "탕",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=oj6Lc4wN3hE",
+    "sourceTitle": "이거 정말 맛있는데...",
+    "sourceNote": "무니키친MoonyKitchen / 영상 oj6Lc4wN3hE; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "generic-anchovies",
+        "amount": 10,
+        "unit": "마리",
+        "note": "원문: 멸치 10마리"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a367ab3717bf",
+        "amount": 300,
+        "unit": "g",
+        "note": "원문: 무 300g"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 대파 흰부분 1/2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-ac1b9f7968ce",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "원문: 통후추 1tsp"
+      },
+      {
+        "ingredientId": "kelp",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 다시마 손바닥 보다 크게 · 손바닥보다 크게는 크기 설명이며 수량을 임의 생성하지 않음"
+      },
+      {
+        "ingredientId": "mfds-ingredient-798e141239c6",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 오뎅 200-300g · 원문 재료 수량 범위를 임의 단일값으로 만들지 않음"
+      },
+      {
+        "ingredientId": "moony-konjac-udon",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 곤약우동 200g"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 양파 50g"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 파 50g"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": 15,
+        "unit": "g",
+        "note": "원문: 마늘 15g"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": 0.5,
+        "unit": "Tbsp",
+        "note": "원문: 참깨 1/2Tbsp"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 1,
+        "unit": "Tbsp",
+        "note": "원문: 고춧가루 1Tbsp"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 6,
+        "unit": "Tbsp",
+        "note": "원문: 간장 6Tbsp"
+      },
+      {
+        "ingredientId": "mfds-ingredient-44dae654a56c",
+        "amount": 2,
+        "unit": "Tbsp",
+        "note": "원문: 알룰로스(또는 올리고당) 2Tbsp · 원문 대체재 중 알룰로스 한 가지만 선택"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b394c0b684c3",
+        "amount": 1,
+        "unit": "Tbsp",
+        "note": "원문: 청주 1Tbsp"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 1,
+        "unit": "Tbsp",
+        "note": "원문: 참기름 1Tbsp"
+      }
+    ]
+  },
+  {
+    "id": "moony-i1MPmpdHD7E",
+    "name": "양배추 오믈렛",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "양배추150g·채소130g·모차렐라70g·토마토소스100g 전체를2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "오믈렛",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=i1MPmpdHD7E",
+    "sourceTitle": "양배추로 제발 이 요리 꼭 해보세요🙏🏻 와🎉",
+    "sourceNote": "무니키친MoonyKitchen / 영상 i1MPmpdHD7E; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-e8715cd21524",
+        "amount": 150,
+        "unit": "g",
+        "note": "원문: 양배추 150g"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 양파 50g"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후추"
+      },
+      {
+        "ingredientId": "mfds-ingredient-89c32e73d52f",
+        "amount": 30,
+        "unit": "g",
+        "note": "원문: 양송이 30g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c23026ffcb73",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 파프리카 50g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2dde7bbf29ff",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 토마토소스 100g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-f5b86ce7b828",
+        "amount": 70,
+        "unit": "g",
+        "note": "원문: 모차렐라 치즈 70g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-893e840d1e9b",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 올리브오일"
+      }
+    ]
+  },
+  {
+    "id": "moony-GLV1Fvudd5g",
+    "name": "두부 토스트",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "두부300g·달걀3개·채소와 치즈 전체를2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "토스트",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=GLV1Fvudd5g",
+    "sourceTitle": "요즘 유행하는 두부 토스트😍 식빵 없이 담백하고 맛이 좋아요‼️",
+    "sourceNote": "무니키친MoonyKitchen / 영상 GLV1Fvudd5g; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "tofu",
+        "amount": 300,
+        "unit": "g",
+        "note": "원문: 두부 1모 300g"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 양파 50g"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "줄기",
+        "note": "원문: 대파 1줄기"
+      },
+      {
+        "ingredientId": "carrot",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 당근 약간"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후추"
+      },
+      {
+        "ingredientId": "mfds-ingredient-17990d617617",
+        "amount": 2,
+        "unit": "큰술",
+        "note": "원문: 전분 2큰술"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 3,
+        "unit": "개",
+        "note": "원문: 달걀 3개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-3c28b22e1094",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 체더치즈"
+      },
+      {
+        "ingredientId": "mfds-ingredient-f5b86ce7b828",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 모짜렐라 치즈"
+      }
+    ]
+  },
+  {
+    "id": "moony-17soKpUuF7M",
+    "name": "토스트",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "양배추200g·감자100g·달걀3개·치즈와 햄 전체를3인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "토스트",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=17soKpUuF7M",
+    "sourceTitle": "양배추로 만드는 아침식사👍🏻 토스트는 빵 없이 이렇게 하세요‼️",
+    "sourceNote": "무니키친MoonyKitchen / 영상 17soKpUuF7M; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-e8715cd21524",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 양배추 200g"
+      },
+      {
+        "ingredientId": "potato",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 감자 100g"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 3,
+        "unit": "개",
+        "note": "원문: 달걀 3개"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "줄기",
+        "note": "원문: 대파 흰부분 1줄기"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후추"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1b1754189e7",
+        "amount": 3,
+        "unit": "장",
+        "note": "원문: 슬라이스치즈 3장"
+      },
+      {
+        "ingredientId": "mfds-ingredient-ff06783627a9",
+        "amount": 3,
+        "unit": "장",
+        "note": "원문: 햄 3장"
+      },
+      {
+        "ingredientId": "mfds-ingredient-f5b86ce7b828",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 모짜렐라 치즈 50g"
+      }
+    ]
+  },
+  {
+    "id": "moony-gFY4j4Gz5WY",
+    "name": "에그도그",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "소시지2개·계란4개·치즈60g 전체를2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "핫도그",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=gFY4j4Gz5WY",
+    "sourceTitle": "[노밀가루]아침식사로 강추!!! 절대 살안찌는 핫도그",
+    "sourceNote": "무니키친MoonyKitchen / 영상 gFY4j4Gz5WY; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "egg",
+        "amount": 4,
+        "unit": "개",
+        "note": "원문: 계란 4개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-f5b86ce7b828",
+        "amount": 60,
+        "unit": "g",
+        "note": "원문: 모차렐라치즈 60g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-31a7253a4fae",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 소시지 2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1cd732f2243",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 파슬리"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 마늘"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후추"
+      }
+    ]
+  },
+  {
+    "id": "moony-Hhm5-fjVBX0",
+    "name": "에그 머핀",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "소시지6개·달걀200g·채소200g·치즈90g 전체를3인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "머핀",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=Hhm5-fjVBX0",
+    "sourceTitle": "SNS 핫템‼️ 간단하고 맛있어요😋 아침식사 3가지",
+    "sourceNote": "무니키친MoonyKitchen / 영상 Hhm5-fjVBX0; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-e8715cd21524",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 양배추 100g"
+      },
+      {
+        "ingredientId": "potato",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 감자 100g"
+      },
+      {
+        "ingredientId": "vienna-sausages",
+        "amount": 6,
+        "unit": "개",
+        "note": "원문: 목우촌 BT21 비엔나소시지 6개 · 원문 상품명 중 식재료 종류만 표준화"
+      },
+      {
+        "ingredientId": "mfds-ingredient-f5b86ce7b828",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 모짜렐라 치즈 50g"
+      },
+      {
+        "ingredientId": "moony-oat-flour",
+        "amount": 1,
+        "unit": "큰술",
+        "note": "원문: 오트밀 가루 1큰술"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후추 약간"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 달걀 4개 (200g)"
+      },
+      {
+        "ingredientId": "mfds-ingredient-3c28b22e1094",
+        "amount": 40,
+        "unit": "g",
+        "note": "원문: 체다치즈 40g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-46b97d1a17c3",
+        "amount": 10,
+        "unit": "g",
+        "note": "원문: 버터 10g"
+      }
+    ]
+  },
+  {
+    "id": "moony-Opv3xVnGc-E",
+    "name": "양배추 토스트",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "양배추300g·달걀4개·채소100g 등 전체를3인분으로 편집 추정. 또띠아15cm/22cm는 크기로만 보존(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "토스트",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=Opv3xVnGc-E",
+    "sourceTitle": "아침식사로 새로운 또띠아 양배추 토스트를 만들어 보세요 😍 빵보다 맛있어요👍🏻",
+    "sourceNote": "무니키친MoonyKitchen / 영상 Opv3xVnGc-E; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-e8715cd21524",
+        "amount": 300,
+        "unit": "g",
+        "note": "원문: 양배추 300g"
+      },
+      {
+        "ingredientId": "carrot",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 당근 50g"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 대파 50g"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 4,
+        "unit": "개",
+        "note": "원문: 달걀 4개"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후추"
+      },
+      {
+        "ingredientId": "mfds-ingredient-ff06783627a9",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 햄"
+      },
+      {
+        "ingredientId": "mfds-ingredient-f5b86ce7b828",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 치즈 (모차렐라, 슬라이스) · 원문 치즈 종류 중 모차렐라 한 가지만 선택. 수량 미기재"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2dc56e992873",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 또띠아 15cm 22cm · 15cm와22cm는 지름 표기이며 장수로 오인하지 않음"
+      }
+    ]
+  },
+  {
+    "id": "moony-4c--v3SP1Ks",
+    "name": "수플레 오믈렛",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "달걀3개 전체를 가벼운 아침식사2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "오믈렛",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=4c--v3SP1Ks",
+    "sourceTitle": "3가지 재료로 세상 부드러운 오믈렛 만들어 보세요‼️",
+    "sourceNote": "무니키친MoonyKitchen / 영상 4c--v3SP1Ks; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "egg",
+        "amount": 3,
+        "unit": "개",
+        "note": "원문: 달걀 3개"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 0.5,
+        "unit": "Tbsp",
+        "note": "원문: 감미료 또는 설탕 1/2 Tbsp · 원문 대체재 중 성분이 명확한 설탕 한 가지만 선택"
+      },
+      {
+        "ingredientId": "mfds-ingredient-50579b3b04ec",
+        "amount": 0.5,
+        "unit": "Tbsp",
+        "note": "원문: 옥수수전분 또는 칡전분 1/2Tbsp (생략가능) · 원문 대체재 중 옥수수전분 한 가지만 선택. 생략 가능한 재료임"
+      }
+    ]
+  },
+  {
+    "id": "moony-NOXVJuK2gJ4",
+    "name": "순두부그라탕",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "순두부1개·토마토퓨레300g·채소와 치즈 전체를2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "그라탕",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=NOXVJuK2gJ4",
+    "sourceTitle": "순두부는 제발🙏🏻 이렇게 드세요‼️ 살도 안찌고 너무 맛있어요❤️",
+    "sourceNote": "무니키친MoonyKitchen / 영상 NOXVJuK2gJ4; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "onion",
+        "amount": 0.25,
+        "unit": "개",
+        "note": "원문: 양파 1/4개"
+      },
+      {
+        "ingredientId": "shiitake",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 표고버섯 2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-6bb87f27a254",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 피망 1/2개"
+      },
+      {
+        "ingredientId": "soft-tofu",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 순두부 1개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-f5b86ce7b828",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 모차렐라 치즈"
+      },
+      {
+        "ingredientId": "moony-tomato-puree",
+        "amount": 300,
+        "unit": "g",
+        "note": "원문: 토마토 퓨레 300g"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": 1,
+        "unit": "큰술",
+        "note": "원문: 마늘 1큰술"
+      },
+      {
+        "ingredientId": "mfds-ingredient-25af69ba5ced",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 건고추 약간"
+      },
+      {
+        "ingredientId": "mfds-ingredient-893e840d1e9b",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 올리브오일"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      }
+    ]
+  },
+  {
+    "id": "moony-Gja3ptBJY5E",
+    "name": "순두부 찌개",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "순두부1개·토마토1개·대파1줄기와 양념 전체를2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "찌개",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=Gja3ptBJY5E",
+    "sourceTitle": "순두부 찌개에 이거 한스푼 넣어보세요‼️ 대박집 순두부 찌개보다 400배 더 맛있고 절대 실패하지 않아요👍🏻",
+    "sourceNote": "무니키친MoonyKitchen / 영상 Gja3ptBJY5E; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "줄기",
+        "note": "원문: 대파 1줄기"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b72d4a479483",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 토마토 1개"
+      },
+      {
+        "ingredientId": "soft-tofu",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 순두부 1개"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 1,
+        "unit": "큰술",
+        "note": "원문: 고춧가루 1큰술"
+      },
+      {
+        "ingredientId": "mfds-ingredient-753a8e8a1b82",
+        "amount": 1,
+        "unit": "큰술",
+        "note": "원문: 토마토 페이스트 1큰술"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 1,
+        "unit": "큰술",
+        "note": "원문: 간장 1큰술"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 마늘 약간"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후추"
+      }
+    ]
+  },
+  {
+    "id": "moony-vspl-Oy5bsk",
+    "name": "라따뚜이",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "채소700g과 양념 전체를 곁들임4인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "스튜",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=vspl-Oy5bsk",
+    "sourceTitle": "혈관을 살리고 염증을 없애는 최고의 채소요리👍🏻 항산화 영양소 듬뿍, 고혈압, 당뇨에도 좋아요‼️",
+    "sourceNote": "무니키친MoonyKitchen / 영상 vspl-Oy5bsk; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "onion",
+        "amount": 150,
+        "unit": "g",
+        "note": "원문: 양파 150g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c23026ffcb73",
+        "amount": 150,
+        "unit": "g",
+        "note": "원문: 파프리카 150g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-f979274822e9",
+        "amount": 150,
+        "unit": "g",
+        "note": "원문: 쥬키니 호박 150g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b16bec1ce2b9",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 가지 100g"
+      },
+      {
+        "ingredientId": "moony-broccoli-stalk",
+        "amount": 150,
+        "unit": "g",
+        "note": "원문: 브로콜리 줄기 150g"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": 1,
+        "unit": "Ts",
+        "note": "원문: 마늘 1Ts"
+      },
+      {
+        "ingredientId": "mfds-ingredient-893e840d1e9b",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 올리브유"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후추"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a220699d6aec",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 월계수 잎"
+      }
+    ]
+  },
+  {
+    "id": "moony-WSSLsGbwcJM",
+    "name": "라따뚜이",
+    "baseServings": 6,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "주채소900g·소스채소600g 전체를 곁들임6인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "스튜",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=WSSLsGbwcJM",
+    "sourceTitle": "진짜 살빠지고 맛있어요😍  항산화 영양소 듬뿍👍🏻  염증을 제거하고 혈관을 튼튼하게 해줘요‼️ 채소 가득, 라따뚜이",
+    "sourceNote": "무니키친MoonyKitchen / 영상 WSSLsGbwcJM; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-f979274822e9",
+        "amount": 300,
+        "unit": "g",
+        "note": "원문: 쥬키니 호박 300g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b16bec1ce2b9",
+        "amount": 300,
+        "unit": "g",
+        "note": "원문: 가지 300g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b72d4a479483",
+        "amount": 300,
+        "unit": "g",
+        "note": "원문: 토마토 300g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c23026ffcb73",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 파프리카 200g"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 양파 200g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b72d4a479483",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 토마토 200g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-62076db88e70",
+        "amount": 3,
+        "unit": "줄기",
+        "note": "원문: 타임 3줄기"
+      },
+      {
+        "ingredientId": "mfds-ingredient-893e840d1e9b",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 올리브오일"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후추(취향)"
+      }
+    ]
+  },
+  {
+    "id": "moony-jcA41b4cRaQ",
+    "name": "소시지 토마토 스튜",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "토마토퓨레400ml·채소육수300ml·소시지와 채소 전체를4인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "스튜",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=jcA41b4cRaQ",
+    "sourceTitle": "[진짜 맛있음!] 마음까지 따뜻해지는 소시지 토마토 스튜, 칠리 토마토 스프",
+    "sourceNote": "무니키친MoonyKitchen / 영상 jcA41b4cRaQ; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-893e840d1e9b",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 올리브오일"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 마늘 3~5쪽 · 원문 재료 수량 범위를 임의 단일값으로 만들지 않음"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 대파 1/2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-31a7253a4fae",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소시지 3~4개 · 원문 재료 수량 범위를 임의 단일값으로 만들지 않음"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 양파 1/2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c23026ffcb73",
+        "amount": 150,
+        "unit": "g",
+        "note": "원문: 파프리카 50g (적색, 노란색, 녹색 각각) · 원문 적색·노란색·녹색 각각50g을 같은 재료ID·같은단위로 합산"
+      },
+      {
+        "ingredientId": "generic-mushrooms",
+        "amount": 70,
+        "unit": "g",
+        "note": "원문: 버섯 70g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-653ce5dd79ed",
+        "amount": 300,
+        "unit": "ml",
+        "note": "원문: 채소육수 300ml"
+      },
+      {
+        "ingredientId": "moony-tomato-puree",
+        "amount": 400,
+        "unit": "ml",
+        "note": "원문: 토마토퓨레 400ml"
+      },
+      {
+        "ingredientId": "mfds-ingredient-53a407817823",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 사워크림"
+      },
+      {
+        "ingredientId": "mfds-ingredient-4d90112dae06",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 크러쉬드 레드페퍼"
+      },
+      {
+        "ingredientId": "mfds-ingredient-34ad6d1dcc11",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 파프리카파우더"
+      },
+      {
+        "ingredientId": "mfds-ingredient-1ab7e2574c59",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 강황가루"
+      }
+    ]
+  },
+  {
+    "id": "moony-r28sPfPSoTQ",
+    "name": "만능 토마토 소스",
+    "baseServings": 8,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "토마토퓨레680g·토마토200g·양파등 전체를8회 곁들임용으로 편집 추정. 완성수율을 중량으로 확정하지 않음(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "소스",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=r28sPfPSoTQ",
+    "sourceTitle": "토마토는 이렇게 해서 거의 모든 요리에 넣어보세요‼️ 항암, 항산화, 당뇨, 고혈압에도 좋은 만능 토마토 소스",
+    "sourceNote": "무니키친MoonyKitchen / 영상 r28sPfPSoTQ; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "garlic",
+        "amount": 35,
+        "unit": "g",
+        "note": "원문: 마늘 35g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-893e840d1e9b",
+        "amount": 2,
+        "unit": "Ts",
+        "note": "원문: 올리브오일 2Ts"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 양파 큰 것 1/2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c23026ffcb73",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 파프리카 1/2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b72d4a479483",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 토마토 200g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a8619f312213",
+        "amount": 0.5,
+        "unit": "Ts",
+        "note": "원문: 발사믹식초 1/2Ts"
+      },
+      {
+        "ingredientId": "moony-tomato-puree",
+        "amount": 680,
+        "unit": "g",
+        "note": "원문: 토마토퓨레 680g"
+      }
+    ]
+  },
+  {
+    "id": "moony-51-DdRHLi2Y",
+    "name": "달걀 만두",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "달걀3개·팽이버섯반통·채소 전체를 곁들임2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "전",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=51-DdRHLi2Y",
+    "sourceTitle": "쉽고 빠르고 맛있는 달걀요리‼️ 아이들이 이것만 달라고 하네요 😋",
+    "sourceNote": "무니키친MoonyKitchen / 영상 51-DdRHLi2Y; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "enoki",
+        "amount": 0.5,
+        "unit": "통",
+        "note": "원문: 팽이버섯 1/2통"
+      },
+      {
+        "ingredientId": "carrot",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 당근"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 대파"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 3,
+        "unit": "개",
+        "note": "원문: 달걀 3개"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 기름"
+      }
+    ]
+  },
+  {
+    "id": "moony-mqtcHm32dLM",
+    "name": "두부전",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "두부300g·달걀2개·팽이버섯1묶음과 채소 전체를 반찬3인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "전",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=mqtcHm32dLM",
+    "sourceTitle": "두부로 만들었는데 식구들이 고기보다 더 맛있데요👍🏻",
+    "sourceNote": "무니키친MoonyKitchen / 영상 mqtcHm32dLM; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "줄기",
+        "note": "원문: 대파 1줄기"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fb37e6e6db2c",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 홍고추 1개"
+      },
+      {
+        "ingredientId": "green-pepper",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 청고추 1개"
+      },
+      {
+        "ingredientId": "enoki",
+        "amount": 1,
+        "unit": "묶음",
+        "note": "원문: 팽이버섯 1묶음"
+      },
+      {
+        "ingredientId": "tofu",
+        "amount": 300,
+        "unit": "g",
+        "note": "원문: 두부 300g"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 달걀 2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-3149d339dd07",
+        "amount": 2,
+        "unit": "큰술",
+        "note": "원문: 감자전분 2큰술 (반죽 상태에 따라 추가)"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후추"
+      }
+    ]
+  },
+  {
+    "id": "moony-ve_DKp6i5B0",
+    "name": "배추전",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "배추200g·달걀3개·양파반개와 대파 전체를 반찬2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "전",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=ve_DKp6i5B0",
+    "sourceTitle": "배추를 이렇게 해보세요‼️ 간단하고 너무 맛있어요😋",
+    "sourceNote": "무니키친MoonyKitchen / 영상 ve_DKp6i5B0; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "onion",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 양파 1/2개"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "줄기",
+        "note": "원문: 대파 1줄기"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a18cd4c77384",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 배추 200g"
+      },
+      {
+        "ingredientId": "green-pepper",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 청, 홍고추 각 1개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fb37e6e6db2c",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 청, 홍고추 각 1개"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 3,
+        "unit": "개",
+        "note": "원문: 달걀 3개"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후추"
+      }
+    ]
+  },
+  {
+    "id": "moony-dWz94HFqDU8",
+    "name": "파전",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "대파100g·해물200g·달걀2개·오트밀가루3큰술 전체를 곁들임3인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "전",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=dWz94HFqDU8",
+    "sourceTitle": "내장지방 싹 다 녹이는 대파는 밥대신 이렇게 드세요 👍🏻 뱃살이 너무 빠져 고민 😋",
+    "sourceNote": "무니키친MoonyKitchen / 영상 dWz94HFqDU8; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "onion",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 양파 1/2개"
+      },
+      {
+        "ingredientId": "green-pepper",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 청고추 홍고추 각 1개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fb37e6e6db2c",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 청고추 홍고추 각 1개"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 대파 100g"
+      },
+      {
+        "ingredientId": "moony-mixed-seafood",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 해물 200g"
+      },
+      {
+        "ingredientId": "moony-oat-flour",
+        "amount": 3,
+        "unit": "큰술",
+        "note": "원문: 오트밀 가루 3큰술"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 달걀 2개"
+      }
+    ]
+  },
+  {
+    "id": "moony-relI8nAKNKw",
+    "name": "양배추 패티",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "양배추500g·양파250g·달걀2개·가루2Tbsp 전체를4인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "부침",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=relI8nAKNKw",
+    "sourceTitle": "계란과 양배추를 튀겨보세요‼️ 엄청난 결과가 나옵니다 🤩😍👍🏻",
+    "sourceNote": "무니키친MoonyKitchen / 영상 relI8nAKNKw; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-e8715cd21524",
+        "amount": 500,
+        "unit": "g",
+        "note": "원문: 양배추 500g"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 250,
+        "unit": "g",
+        "note": "원문: 양파 250g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1cd732f2243",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 파슬리"
+      },
+      {
+        "ingredientId": "moony-oat-flour",
+        "amount": 2,
+        "unit": "Tbsp",
+        "note": "원문: 오트밀가루 2Tbsp (전분, 밀가루 차전자피 가루 대체가능)"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 달걀 2개"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 오일"
+      }
+    ]
+  },
+  {
+    "id": "moony-wdm5E8_il2A",
+    "name": "오믈렛",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "달걀3개·채소60g·우유2Tbsp 전체를2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "오믈렛",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=wdm5E8_il2A",
+    "sourceTitle": "아침식사로 완전 추천합니다! 인생 오믈렛 😍",
+    "sourceNote": "무니키친MoonyKitchen / 영상 wdm5E8_il2A; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-614bdb9f46c8",
+        "amount": 15,
+        "unit": "g",
+        "note": "원문: 시금치 15g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c23026ffcb73",
+        "amount": 25,
+        "unit": "g",
+        "note": "원문: 레드 파프리카 25g"
+      },
+      {
+        "ingredientId": "moony-shallot",
+        "amount": 20,
+        "unit": "g",
+        "note": "원문: 양파(샬롯) 20g · 원문이 샬롯으로 명시한 양파 종류 보존"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 3,
+        "unit": "개",
+        "note": "원문: 달걀 3개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2b7e75051be2",
+        "amount": 2,
+        "unit": "Tbsp",
+        "note": "원문: 우유 2Tbsp"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      }
+    ]
+  },
+  {
+    "id": "moony-TRryXWRHKU0",
+    "name": "미나리새우전",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "미나리100g·양파100g·건새우30g·달걀2개 전체를 곁들임2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "전",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=TRryXWRHKU0",
+    "sourceTitle": "밀가루 없이 줄서서 먹는 대박집 부침개 부치는 법,",
+    "sourceNote": "무니키친MoonyKitchen / 영상 TRryXWRHKU0; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-e49ac78e9ae8",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 미나리 100g"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 양파 100g"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": 10,
+        "unit": "g",
+        "note": "원문: 마늘 10g"
+      },
+      {
+        "ingredientId": "hot-pepper",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 청양고추 2개"
+      },
+      {
+        "ingredientId": "moony-psyllium-husk-powder",
+        "amount": 10,
+        "unit": "g",
+        "note": "원문: 차전자피 가루 10g"
+      },
+      {
+        "ingredientId": "moony-cassava-flour",
+        "amount": 10,
+        "unit": "g",
+        "note": "원문: 카사바 가루 10g (오트 파이버로 대체 가능)"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 달걀 2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-93193bf761a6",
+        "amount": 1,
+        "unit": "Tbsp",
+        "note": "원문: 어간장 1Tbsp"
+      },
+      {
+        "ingredientId": "mfds-ingredient-6dc2f9be1106",
+        "amount": 30,
+        "unit": "g",
+        "note": "원문: 건새우 30g"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 마늘 약간"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 1,
+        "unit": "Tbsp",
+        "note": "원문: 간장 1Tbsp"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 1,
+        "unit": "Tbsp",
+        "note": "원문: 식초 1Tbsp"
+      },
+      {
+        "ingredientId": "mfds-ingredient-4d90112dae06",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 크러쉬드 레드페퍼 약간"
+      }
+    ]
+  },
+  {
+    "id": "moony-kIu2F4AgFJc",
+    "name": "피자",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "팽이버섯100g·양파50g·달걀2개·베이컨50g·치즈100g 전체를2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "피자",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=kIu2F4AgFJc",
+    "sourceTitle": "노밀가루, 노오븐 절대 살안찌는 피자",
+    "sourceNote": "무니키친MoonyKitchen / 영상 kIu2F4AgFJc; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "enoki",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 팽이버섯 100g"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 양파 50g"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 달걀 2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-753a8e8a1b82",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 토마토페이스트 50g"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금 약간"
+      },
+      {
+        "ingredientId": "mfds-ingredient-6bb87f27a254",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 피망 1개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-4546732a7075",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 베이컨 50g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-928f436c94d3",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 블랙올리브 50g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-0d530d6d325e",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 피자치즈 100g"
+      }
+    ]
+  },
+  {
+    "id": "moony-ZqbvulD7rPw",
+    "name": "야채전",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "양배추200g·당근30g·대파30g·달걀4개 전체를 곁들임3인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "전",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZqbvulD7rPw",
+    "sourceTitle": "밀가루 없이 두툼하게 전 부치는 법, 야채전",
+    "sourceNote": "무니키친MoonyKitchen / 영상 ZqbvulD7rPw; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-e8715cd21524",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 양배추 200g"
+      },
+      {
+        "ingredientId": "carrot",
+        "amount": 30,
+        "unit": "g",
+        "note": "원문: 당근 30g"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 30,
+        "unit": "g",
+        "note": "원문: 대파 30g"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 4,
+        "unit": "개",
+        "note": "원문: 달걀 4개"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후추"
+      }
+    ]
+  },
+  {
+    "id": "moony-B0WgKrLbjV8",
+    "name": "꼬마김밥",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "김6장·달걀5개·당근1개·시금치200g 전체를3인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "김밥",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=B0WgKrLbjV8",
+    "sourceTitle": "밥없는 꼬마김밥을 만들어 볼까? | 살안찌는 다이어트 김밥",
+    "sourceNote": "무니키친MoonyKitchen / 영상 B0WgKrLbjV8; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "carrot",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 당근 1개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-614bdb9f46c8",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 시금치 200g"
+      },
+      {
+        "ingredientId": "yellow-pickled-radish",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 김밥용 단무지 6-7줄 · 원문 재료 수량 범위를 임의 단일값으로 만들지 않음"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 5,
+        "unit": "개",
+        "note": "원문: 계란 5개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a0d5f241aa6f",
+        "amount": 6,
+        "unit": "장",
+        "note": "원문: 김 6장"
+      },
+      {
+        "ingredientId": "mfds-ingredient-8680a1111b22",
+        "amount": 0.5,
+        "unit": "Tbsp",
+        "note": "원문: 겨자 1/2 Tbsp"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 1,
+        "unit": "Tbsp",
+        "note": "원문: 식초 1 Tbsp"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 1,
+        "unit": "Tbsp",
+        "note": "원문: 간장 1 Tbsp"
+      },
+      {
+        "ingredientId": "mfds-ingredient-44dae654a56c",
+        "amount": 1,
+        "unit": "Tbsp",
+        "note": "원문: 알룰로스 1 Tbsp"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b6201ef5b494",
+        "amount": 1,
+        "unit": "Tsp",
+        "note": "원문: 현미가루 1Tsp"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 50,
+        "unit": "ml",
+        "note": "원문: 물 50ml"
+      }
+    ]
+  },
+  {
+    "id": "moony-_9TGwKsUMwM",
+    "name": "연어포케",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "연어150g·아보카도1개·채소와 양념 전량을2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "포케",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=_9TGwKsUMwM",
+    "sourceTitle": "[ASMR]저탄고지, 키토제닉, 저탄수화물, 연어포케 레시피 (연어꽃), SALMON POKE RECIPE, LCHF, Ketogenic, Lowcarb",
+    "sourceNote": "무니키친MoonyKitchen / 영상 _9TGwKsUMwM; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-efb9f504bbc1",
+        "amount": 150,
+        "unit": "g",
+        "note": "원문: 연어 150g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-333442819923",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 치커리 100g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-282e093dd16a",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 아보카도 1개"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 30,
+        "unit": "g",
+        "note": "원문: 양파 30g"
+      },
+      {
+        "ingredientId": "carrot",
+        "amount": 30,
+        "unit": "g",
+        "note": "원문: 당근 30g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-0001d000b7bb",
+        "amount": 30,
+        "unit": "g",
+        "note": "원문: 자색양배추 30g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b636a3065df1",
+        "amount": 20,
+        "unit": "g",
+        "note": "원문: 무순 20g"
+      },
+      {
+        "ingredientId": "kimchi",
+        "amount": 30,
+        "unit": "g",
+        "note": "원문: 묵은지 30g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 30,
+        "unit": "ml",
+        "note": "원문: (간장 30ml + 감미료 15g) · 원문 만능간장3T 옆에 직접 명시된 구성량 반영"
+      },
+      {
+        "ingredientId": "moony-sweetener",
+        "amount": 15,
+        "unit": "g",
+        "note": "원문: (간장 30ml + 감미료 15g) · 원문 만능간장3T 옆에 직접 명시된 구성량 반영"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 식초 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c566ca8515a3",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 레몬즙 1T"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "t",
+        "note": "원문: 다진파 1t"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 1,
+        "unit": "t",
+        "note": "원문: 다진마늘 1t"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fcf2d4ba8a5a",
+        "amount": 1,
+        "unit": "t",
+        "note": "원문: 다진생강 1t"
+      },
+      {
+        "ingredientId": "mfds-ingredient-8c58177b879b",
+        "amount": 1,
+        "unit": "t",
+        "note": "원문: 와사비 1t"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2eba1ed878bb",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 아보카도 오일 4T"
+      }
+    ]
+  },
+  {
+    "id": "moony-XHdi7XvSs0w",
+    "name": "뚝배기 불고기",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "소고기300g·양파1개·버섯과 양념 전체를2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "불고기",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=XHdi7XvSs0w",
+    "sourceTitle": "맛 없으면 돈 안받아요🤣 우리집 아이들이 제발 매일 해달라고 조르는 그 소고기 요리 ❤️",
+    "sourceNote": "무니키친MoonyKitchen / 영상 XHdi7XvSs0w; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "onion",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 양파 1개"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "줄기",
+        "note": "원문: 대파 1줄기"
+      },
+      {
+        "ingredientId": "shiitake",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 표고버섯 1개"
+      },
+      {
+        "ingredientId": "carrot",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 당근"
+      },
+      {
+        "ingredientId": "enoki",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 팽이버섯"
+      },
+      {
+        "ingredientId": "mfds-ingredient-4d21b5532cae",
+        "amount": 300,
+        "unit": "g",
+        "note": "원문: 소고기 300g"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": 1,
+        "unit": "큰술",
+        "note": "원문: 마늘 1큰술"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b394c0b684c3",
+        "amount": 2,
+        "unit": "큰술",
+        "note": "원문: 청주 2큰술"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 2,
+        "unit": "큰술",
+        "note": "원문: 간장 2큰술"
+      },
+      {
+        "ingredientId": "mfds-ingredient-44dae654a56c",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 알룰로스 1-2큰술 · 원문 재료 수량 범위를 임의 단일값으로 만들지 않음"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 참기름"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후추"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e0b1eb622107",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 생강"
+      },
+      {
+        "ingredientId": "mfds-ingredient-93193bf761a6",
+        "amount": 1,
+        "unit": "큰술",
+        "note": "원문: 어간장 1큰술"
+      },
+      {
+        "ingredientId": "tuna-extract",
+        "amount": 1,
+        "unit": "큰술",
+        "note": "원문: 참치액 1큰술"
+      }
+    ]
+  },
+  {
+    "id": "moony-p9gcTUAmqsE",
+    "name": "미네스트로네",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "병아리콩200g·토마토퓨레400g·당근150g·셀러리100g등 전체를4인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "수프",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=p9gcTUAmqsE",
+    "sourceTitle": "평생 건강하고 날씬하게 살려고 양배추는 이렇게 먹어요. #7",
+    "sourceNote": "무니키친MoonyKitchen / 영상 p9gcTUAmqsE; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "moony-broccoli-stalk",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 브로콜리 줄기 1개"
+      },
+      {
+        "ingredientId": "moony-cabbage-core",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 양배추 심지 1개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b72d4a479483",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 토마토 1개"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 양파 1/2개"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 마늘 3-4쪽 · 원문 재료 수량 범위를 임의 단일값으로 만들지 않음"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b1daa35b5b6a",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 샐러리 100g"
+      },
+      {
+        "ingredientId": "carrot",
+        "amount": 150,
+        "unit": "g",
+        "note": "원문: 당근 150g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-f3d263dc4d03",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 병아리콩 200g"
+      },
+      {
+        "ingredientId": "moony-tomato-puree",
+        "amount": 400,
+        "unit": "g",
+        "note": "원문: 토마토 퓨레 400g"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "mfds-ingredient-893e840d1e9b",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 올리브유"
+      },
+      {
+        "ingredientId": "mfds-ingredient-face3e31cce5",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 케일 3-4잎 · 원문 재료 수량 범위를 임의 단일값으로 만들지 않음"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1cd732f2243",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 파슬리 약간"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2b2c7fd0b494",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 파르메산 치즈 약간"
+      }
+    ]
+  },
+  {
+    "id": "moony-sUfxGut9xE8",
+    "name": "미역국",
+    "baseServings": 8,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "물3리터·소고기400g·미역25g 전체를 국8인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "국",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=sUfxGut9xE8",
+    "sourceTitle": "미역국은 제발 이렇게 끓이세요‼️ 인생 미역국, 천국의 맛❤️",
+    "sourceNote": "무니키친MoonyKitchen / 영상 sUfxGut9xE8; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-b1bbf6fb8abc",
+        "amount": 25,
+        "unit": "g",
+        "note": "원문: 미역 25g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-4d21b5532cae",
+        "amount": 400,
+        "unit": "g",
+        "note": "원문: 소고기 400g"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 3,
+        "unit": "리터",
+        "note": "원문: 물 3리터"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "줄기",
+        "note": "원문: 대파 1줄기"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": 1,
+        "unit": "작은술",
+        "note": "원문: 후추 1작은술"
+      },
+      {
+        "ingredientId": "mfds-ingredient-93193bf761a6",
+        "amount": 1,
+        "unit": "큰술",
+        "note": "원문: 어간장 1큰술"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금 약간"
+      }
+    ]
+  },
+  {
+    "id": "moony-FBcTIeEJw7Q",
+    "name": "순두부 찌개",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "순두부350g·달걀수량범위·채소와 양념 전체를2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "찌개",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=FBcTIeEJw7Q",
+    "sourceTitle": "순두부집보다 400배 더 맛있습니다‼️ 이렇게 하면 맛에 놀라 자빠집니다 😋😍",
+    "sourceNote": "무니키친MoonyKitchen / 영상 FBcTIeEJw7Q; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "soft-tofu",
+        "amount": 350,
+        "unit": "g",
+        "note": "원문: 순두부 350g"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 2,
+        "unit": "큰술",
+        "note": "원문: 고춧가루 2큰술"
+      },
+      {
+        "ingredientId": "gochujang",
+        "amount": 0.5,
+        "unit": "큰술",
+        "note": "원문: 고추장 1/2큰술"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 0.25,
+        "unit": "개",
+        "note": "원문: 양파 1/4개"
+      },
+      {
+        "ingredientId": "shiitake",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 표고버섯 1-2개 · 원문 재료 수량 범위를 임의 단일값으로 만들지 않음"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 달걀 1-2개 · 원문 재료 수량 범위를 임의 단일값으로 만들지 않음"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 2,
+        "unit": "줄기",
+        "note": "원문: 대파 2줄기"
+      }
+    ]
+  },
+  {
+    "id": "moony-zPvtnhwkw-E",
+    "name": "고추장찌개",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "돼지고기150g·채소680g과 양념 전량을4인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "찌개",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=zPvtnhwkw-E",
+    "sourceTitle": "여름채소로 살빠지는 고추장찌개, 꼭 해보세요!!! 진짜 너~무 맛있음",
+    "sourceNote": "무니키친MoonyKitchen / 영상 zPvtnhwkw-E; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "onion",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 양파 200g"
+      },
+      {
+        "ingredientId": "potato",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 감자 100g"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 대파 50g"
+      },
+      {
+        "ingredientId": "zucchini",
+        "amount": 150,
+        "unit": "g",
+        "note": "원문: 애호박 150g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b16bec1ce2b9",
+        "amount": 150,
+        "unit": "g",
+        "note": "원문: 가지 150g"
+      },
+      {
+        "ingredientId": "green-pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 청고추 홍고추 30g · 원문 청고추와 홍고추 합계30g이나 개별 배분 미기재"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fb37e6e6db2c",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 청고추 홍고추 30g · 원문 청고추와 홍고추 합계30g이나 개별 배분 미기재"
+      },
+      {
+        "ingredientId": "generic-pork",
+        "amount": 150,
+        "unit": "g",
+        "note": "원문: 돼지고기 150g"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 1,
+        "unit": "Ts",
+        "note": "원문: 다진 마늘 1Ts"
+      },
+      {
+        "ingredientId": "gochujang",
+        "amount": 2,
+        "unit": "Ts",
+        "note": "원문: 고추장 2Ts"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b394c0b684c3",
+        "amount": 2,
+        "unit": "Ts",
+        "note": "원문: 청주 2Ts"
+      },
+      {
+        "ingredientId": "moony-sweetener",
+        "amount": 1,
+        "unit": "ts",
+        "note": "원문: 감미료 1ts"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후추"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 1,
+        "unit": "Ts",
+        "note": "원문: 간장 1Ts"
+      }
+    ]
+  },
+  {
+    "id": "moony-EdQsyo8eu50",
+    "name": "그릭요거트",
+    "baseServings": 10,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "우유2.1L 전체 제조량을10회 섭취용으로 편집 추정. 유청분리 후 완성중량은 임의 확정하지 않음(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "요거트",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=EdQsyo8eu50",
+    "sourceTitle": "최고로 꾸덕하고 쫀쫀한 그릭요거트 만드는 방법, 엄청 쉬움",
+    "sourceNote": "무니키친MoonyKitchen / 영상 EdQsyo8eu50; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-2b7e75051be2",
+        "amount": 2.1,
+        "unit": "L",
+        "note": "원문: 우유 2.1L"
+      },
+      {
+        "ingredientId": "moony-probiotic-culture",
+        "amount": 3,
+        "unit": "알",
+        "note": "원문: 유산균 3알"
+      }
+    ]
+  },
+  {
+    "id": "moony-Z-saV8gletU",
+    "name": "리코타 치즈",
+    "baseServings": 10,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "우유1500ml·생크림500ml 전체 제조량을10회 곁들임용으로 편집 추정. 완성중량은 임의 확정하지 않음(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "치즈",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=Z-saV8gletU",
+    "sourceTitle": "집에 우유가 있다면 끓여보세요!! 시판 크림치즈 보다 400배 부드럽고 맛있어요 👍🏻",
+    "sourceNote": "무니키친MoonyKitchen / 영상 Z-saV8gletU; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-2b7e75051be2",
+        "amount": 1500,
+        "unit": "ml",
+        "note": "원문: 우유 1500ml"
+      },
+      {
+        "ingredientId": "cream",
+        "amount": 500,
+        "unit": "ml",
+        "note": "원문: 생크림 500ml"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 0.5,
+        "unit": "큰술",
+        "note": "원문: 소금 1/2큰술"
+      },
+      {
+        "ingredientId": "mfds-ingredient-3de26124efde",
+        "amount": 4,
+        "unit": "큰술",
+        "note": "원문: 레몬 4큰술"
+      }
+    ]
+  },
+  {
+    "id": "moony-kOS_EGIExvU",
+    "name": "마요네즈",
+    "baseServings": 10,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "두부200g·오일50ml 전체 제조량을10회 곁들임용으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "소스",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=kOS_EGIExvU",
+    "sourceTitle": "[부드럽고 꾸덕한] 달걀없이 살안찌는 저칼로리 마요네즈",
+    "sourceNote": "무니키친MoonyKitchen / 영상 kOS_EGIExvU; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "tofu",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 두부 200g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-893e840d1e9b",
+        "amount": 50,
+        "unit": "ml",
+        "note": "원문: 올리브오일 50ml"
+      },
+      {
+        "ingredientId": "mfds-ingredient-3dc3110342da",
+        "amount": 1,
+        "unit": "Tbsp",
+        "note": "원문: 애플사이다비네거 1Tbsp"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 2,
+        "unit": "꼬집",
+        "note": "원문: 소금 2 꼬집"
+      }
+    ]
+  },
+  {
+    "id": "moony-D0IchYBpyGM",
+    "name": "마요네즈",
+    "baseServings": 10,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "달걀1개·오일200ml 전체 제조량을10회 곁들임용으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "소스",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=D0IchYBpyGM",
+    "sourceTitle": "[실패 없는] 진짜 살안찌는 마요네즈, 매우 쉽고 간단함",
+    "sourceNote": "무니키친MoonyKitchen / 영상 D0IchYBpyGM; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "egg",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 계란 1개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-89aa540d3a3f",
+        "amount": 10,
+        "unit": "g",
+        "note": "원문: 디종 머스터드 10g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 10,
+        "unit": "ml",
+        "note": "원문: 식초 10ml"
+      },
+      {
+        "ingredientId": "mfds-ingredient-893e840d1e9b",
+        "amount": 200,
+        "unit": "ml",
+        "note": "원문: 오일 200ml (MCT, 아보카도오일, 올리브오일) · 원문 선택 오일 중 올리브오일 한 가지만 반영"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 2,
+        "unit": "g",
+        "note": "원문: 소금 2g (2~3꼬집) · 원문 병기 중량2g 사용. 꼬집 범위를 단일값으로 만들지 않음"
+      }
+    ]
+  },
+  {
+    "id": "moony-UOWYEGyvVs0",
+    "name": "감동란",
+    "baseServings": 6,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "달걀6개 전체를1개씩6회 곁들임용으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "삶기",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=UOWYEGyvVs0",
+    "sourceTitle": "[1분꿀팁]편의점 인기템! 감동란 만들기, 반숙란, 소금계란, 계란요리, 계란삶는법, Egg Recipes, Perfect Boiled Egg, Egg Fast",
+    "sourceNote": "무니키친MoonyKitchen / 영상 UOWYEGyvVs0; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "egg",
+        "amount": 6,
+        "unit": "개",
+        "note": "원문: 달걀 6개"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 5,
+        "unit": "큰술",
+        "note": "원문: 소금 5큰술"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 350,
+        "unit": "ml",
+        "note": "원문: 물 350ml"
+      }
+    ]
+  },
+  {
+    "id": "moony-vSPXdchs5vI",
+    "name": "만능 간장",
+    "baseServings": 40,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "간장1L·청주300ml·물200ml 등 소스 전체 제조량을 40회 곁들임 분량으로 편집 추정. 원문 전체 사용 인분 미기재. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "소스",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=vSPXdchs5vI",
+    "sourceTitle": "[요리의 기본] 만능간장 만들기, 맛간장, 다마리간장 (저탄수) | Multi Purpose Soy Sauce, Korean Sauce (Low Carb Recipe)",
+    "sourceNote": "무니키친MoonyKitchen / 영상 vSPXdchs5vI; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "water",
+        "amount": 200,
+        "unit": "ml",
+        "note": "원문: 물 200ml"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b394c0b684c3",
+        "amount": 100,
+        "unit": "ml",
+        "note": "원문: 청주 100ml"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 300,
+        "unit": "g",
+        "note": "원문: 양파 300g"
+      },
+      {
+        "ingredientId": "carrot",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 당근 50g"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": 30,
+        "unit": "g",
+        "note": "원문: 마늘 30g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e0b1eb622107",
+        "amount": 20,
+        "unit": "g",
+        "note": "원문: 생강 20g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-ac1b9f7968ce",
+        "amount": 1,
+        "unit": "ts",
+        "note": "원문: 통후추 1ts"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 1,
+        "unit": "L",
+        "note": "원문: 간장 1L"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b394c0b684c3",
+        "amount": 200,
+        "unit": "ml",
+        "note": "원문: 청주 200ml"
+      },
+      {
+        "ingredientId": "mfds-ingredient-44dae654a56c",
+        "amount": 200,
+        "unit": "ml",
+        "note": "원문: 알룰로스 200ml"
+      },
+      {
+        "ingredientId": "moony-lakanto-sweetener",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 라칸토 감미료 50g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-3de26124efde",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 레몬 1개"
+      }
+    ]
+  },
+  {
+    "id": "moony-oHCQFYHVPEc",
+    "name": "오트밀 쿠키",
+    "baseServings": 8,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "오트밀70g·아몬드가루100g·호두90g 등 쿠키 전체 반죽을 간식 8인분으로 편집 추정. 원문 제조 개수 미기재. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "쿠키",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=oHCQFYHVPEc",
+    "sourceTitle": "와~ 대박‼️ 오트밀로 완전 쉽고 맛있게 절대 살안찌는 쿠키 만들어 보세요. 제발🙏🏻",
+    "sourceNote": "무니키친MoonyKitchen / 영상 oHCQFYHVPEc; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "egg",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 달걀 1개"
+      },
+      {
+        "ingredientId": "moony-sweetener",
+        "amount": 36,
+        "unit": "g",
+        "note": "원문: 감미료 36g (달지 않은 레시피)"
+      },
+      {
+        "ingredientId": "mfds-ingredient-46b97d1a17c3",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 버터 50g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-50cc514b4881",
+        "amount": 70,
+        "unit": "g",
+        "note": "원문: 오트밀 70g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-151c2679dc7f",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 아몬드 가루 100g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-8cf1776ae981",
+        "amount": 90,
+        "unit": "g",
+        "note": "원문: 호두 90g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-f3821d13fbb7",
+        "amount": 20,
+        "unit": "g",
+        "note": "원문: 말린 블루베리 20g"
+      },
+      {
+        "ingredientId": "moony-dried-cranberry",
+        "amount": 30,
+        "unit": "g",
+        "note": "원문: 말린 크랜베리 30g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-ff3cae2652a1",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 시나몬 파우더"
+      },
+      {
+        "ingredientId": "mfds-ingredient-d7e97abac199",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 베이킹 파우더"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      }
+    ]
+  },
+  {
+    "id": "moony-nlZ-yrWMRoE",
+    "name": "파베 초콜릿",
+    "baseServings": 6,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "초콜릿200g·순두부70g 전체를 간식6인분으로 편집 추정. 감미료 원문 범위는 수량 미기재로 보존. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "디저트",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=nlZ-yrWMRoE",
+    "sourceTitle": "두부로 이게 가능하네요⁉️ 쉽고 간단하게 만드는 초콜릿❤️",
+    "sourceNote": "무니키친MoonyKitchen / 영상 nlZ-yrWMRoE; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "moony-chocolate",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 초콜릿 200g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-44dae654a56c",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 알룰로스 (올리고당, 물엿, 설탕 대체가능) 1-2큰술 · 원문 1-2큰술 범위를 임의 단일값으로 정하지 않음. 대체 재료는 합산하지 않고 알룰로스만 포함"
+      },
+      {
+        "ingredientId": "soft-tofu",
+        "amount": 70,
+        "unit": "g",
+        "note": "원문: 순두부 (두부, 연두부) 70g · 원문의 대체 두부 중 순두부 한 가지만 포함"
+      },
+      {
+        "ingredientId": "moony-cocoa-powder",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 코코아 파우더"
+      }
+    ]
+  },
+  {
+    "id": "moony-jKCHQWwB1H0",
+    "name": "구름빵",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "달걀흰자2개·전분1큰술 전체를 간식2인분으로 편집 추정. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "빵",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=jKCHQWwB1H0",
+    "sourceTitle": "단 3가지 재료로 단백질 가득 폭신한 달걀빵 만들어 보세요‼️",
+    "sourceNote": "무니키친MoonyKitchen / 영상 jKCHQWwB1H0; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-404f0cc04abd",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 달걀 흰자 2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-17990d617617",
+        "amount": 1,
+        "unit": "큰술",
+        "note": "원문: 전분 1큰술"
+      },
+      {
+        "ingredientId": "moony-erythritol",
+        "amount": 1,
+        "unit": "큰술",
+        "note": "원문: 에리스리톨 (감미료) 1큰술"
+      }
+    ]
+  },
+  {
+    "id": "moony-ujOBiIDASmI",
+    "name": "까눌레",
+    "baseServings": 8,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "우유500ml·두 전분/가루 각65g 등의 까눌레 전체 반죽을 간식8인분으로 편집 추정. 원문 제조 개수 미기재. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "디저트",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=ujOBiIDASmI",
+    "sourceTitle": "이 디저트는 정말 살 안쪄요‼️ 간단하게 섞어 만들었는데 다들 어디서 샀냐고 물어요👍🏻",
+    "sourceNote": "무니키친MoonyKitchen / 영상 ujOBiIDASmI; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-2b7e75051be2",
+        "amount": 500,
+        "unit": "ml",
+        "note": "원문: 우유 500ml"
+      },
+      {
+        "ingredientId": "mfds-ingredient-46b97d1a17c3",
+        "amount": 25,
+        "unit": "g",
+        "note": "원문: 버터 25g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fb22238238c3",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 바닐라빈 1개"
+      },
+      {
+        "ingredientId": "moony-arrowroot-starch",
+        "amount": 65,
+        "unit": "g",
+        "note": "원문: 애로우루트 전분 65g"
+      },
+      {
+        "ingredientId": "moony-oat-flour",
+        "amount": 65,
+        "unit": "g",
+        "note": "원문: 오트 밀가루 65g"
+      },
+      {
+        "ingredientId": "moony-erythritol",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 에리스리톨 125g~150g · 원문 수량 범위를 임의 단일값으로 정하지 않고 원문 메모로 보존"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 달걀 1개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-dbb0e086bcf7",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 달걀 노른자 2개"
+      }
+    ]
+  },
+  {
+    "id": "moony-h21WuV-YLX0",
+    "name": "팥죽",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "팥300ml·물1000ml 전체를 죽4인분으로 편집 추정. 팥의 원문 부피 단위ml를 유지. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "죽",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=h21WuV-YLX0",
+    "sourceTitle": "팥죽 끓일 때 제발 이거 넣지 마세요‼️",
+    "sourceNote": "무니키친MoonyKitchen / 영상 h21WuV-YLX0; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-6cc2af0e2d5e",
+        "amount": 300,
+        "unit": "ml",
+        "note": "원문: 팥 300ml"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 1000,
+        "unit": "ml",
+        "note": "원문: 물 1000ml"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 감미료 또는 설탕 · 원문 대체 선택지 중 종류가 명확한 설탕 한 가지만 포함"
+      }
+    ]
+  },
+  {
+    "id": "moony-a5XNbDPJqO8",
+    "name": "당근 케이크",
+    "baseServings": 6,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "달걀120g·아몬드가루102g·당근77g 등 전체 반죽을 간식6인분으로 편집 추정. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "케이크",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=a5XNbDPJqO8",
+    "sourceTitle": "No 밀가루! 초간단! 너무 맛있어서 깜짝 놀라는 당근 케이크 만들어보세요. 🥕😋❤️",
+    "sourceNote": "무니키친MoonyKitchen / 영상 a5XNbDPJqO8; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "egg",
+        "amount": 120,
+        "unit": "g",
+        "note": "원문: 달걀 120g (2개)"
+      },
+      {
+        "ingredientId": "mfds-ingredient-14b26cab577a",
+        "amount": 63,
+        "unit": "g",
+        "note": "원문: 오일 63g"
+      },
+      {
+        "ingredientId": "moony-erythritol",
+        "amount": 51,
+        "unit": "g",
+        "note": "원문: 에리스리톨 51g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c566ca8515a3",
+        "amount": 13,
+        "unit": "g",
+        "note": "원문: 레몬즙 13g"
+      },
+      {
+        "ingredientId": "carrot",
+        "amount": 77,
+        "unit": "g",
+        "note": "원문: 당근 77g"
+      },
+      {
+        "ingredientId": "moony-dried-aronia",
+        "amount": 25,
+        "unit": "g",
+        "note": "원문: 말린 아로니아 25g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-8cf1776ae981",
+        "amount": 32,
+        "unit": "g",
+        "note": "원문: 호두 32g"
+      },
+      {
+        "ingredientId": "moony-coconut-flour",
+        "amount": 20,
+        "unit": "g",
+        "note": "원문: 코코넛파우더 20g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-151c2679dc7f",
+        "amount": 102,
+        "unit": "g",
+        "note": "원문: 아몬드가루 102g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-1183d873ae18",
+        "amount": 0.5,
+        "unit": "작은술",
+        "note": "원문: 넛맥가루 1/2작은술"
+      },
+      {
+        "ingredientId": "mfds-ingredient-ff3cae2652a1",
+        "amount": 1,
+        "unit": "작은술",
+        "note": "원문: 시나몬가루 1작은술"
+      },
+      {
+        "ingredientId": "mfds-ingredient-d7e97abac199",
+        "amount": 4,
+        "unit": "g",
+        "note": "원문: 베이킹파우더 4g"
+      },
+      {
+        "ingredientId": "moony-baking-soda",
+        "amount": 3,
+        "unit": "g",
+        "note": "원문: 베이킹소다 3g"
+      }
+    ]
+  },
+  {
+    "id": "moony-jr6nFMZQI-E",
+    "name": "치즈케이크",
+    "baseServings": 8,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "크림치즈450g·생크림225g·달걀150g 등 전체 케이크를 간식8인분으로 편집 추정. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "케이크",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=jr6nFMZQI-E",
+    "sourceTitle": "치즈케이크 중에서 가장 간단하고 최고로 맛이 좋아요. 😍",
+    "sourceNote": "무니키친MoonyKitchen / 영상 jr6nFMZQI-E; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-40d7072c85f1",
+        "amount": 450,
+        "unit": "g",
+        "note": "원문: 크림치즈 450g"
+      },
+      {
+        "ingredientId": "moony-erythritol",
+        "amount": 110,
+        "unit": "g",
+        "note": "원문: 에리스리톨 110g"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 150,
+        "unit": "g",
+        "note": "원문: 전란 150g"
+      },
+      {
+        "ingredientId": "cream",
+        "amount": 225,
+        "unit": "g",
+        "note": "원문: 생크림 225g"
+      },
+      {
+        "ingredientId": "moony-kudzu-starch",
+        "amount": 25,
+        "unit": "g",
+        "note": "원문: 칡전분 25g"
+      }
+    ]
+  },
+  {
+    "id": "moony-48UmtSqUdeE",
+    "name": "초코 케이크",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "달걀1개·버터40g과 초콜릿50g 등 전체 케이크·토핑을 간식2인분으로 편집 추정. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "케이크",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=48UmtSqUdeE",
+    "sourceTitle": "[노오븐] 밀가루 없이 전자레인지로 절대 살 안찌는 초콜릿 케이크 만들기",
+    "sourceNote": "무니키친MoonyKitchen / 영상 48UmtSqUdeE; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-46b97d1a17c3",
+        "amount": 40,
+        "unit": "g",
+        "note": "원문: 버터 40g"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 계란 1개"
+      },
+      {
+        "ingredientId": "moony-erythritol",
+        "amount": 20,
+        "unit": "g",
+        "note": "원문: 에리스리톨 20g"
+      },
+      {
+        "ingredientId": "moony-cocoa-powder",
+        "amount": 10,
+        "unit": "g",
+        "note": "원문: 코코아가루 10g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-151c2679dc7f",
+        "amount": 20,
+        "unit": "g",
+        "note": "원문: 아몬드가루 20g"
+      },
+      {
+        "ingredientId": "moony-oat-fiber",
+        "amount": 10,
+        "unit": "g",
+        "note": "원문: 오트파이버 10g"
+      },
+      {
+        "ingredientId": "moony-whey-protein",
+        "amount": 10,
+        "unit": "g",
+        "note": "원문: 훼이 프로틴 10g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-d7e97abac199",
+        "amount": 3,
+        "unit": "g",
+        "note": "원문: 베이킹파우더 3g"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금 약간"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c566ca8515a3",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "원문: 레몬즙 1tsp"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2b7e75051be2",
+        "amount": 20,
+        "unit": "ml",
+        "note": "원문: 우유 20ml"
+      },
+      {
+        "ingredientId": "mfds-ingredient-44dae654a56c",
+        "amount": 1,
+        "unit": "Tbsp",
+        "note": "원문: 알룰로스 1Tbsp"
+      },
+      {
+        "ingredientId": "moony-dark-chocolate",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 다크 초콜릿 50g"
+      }
+    ]
+  },
+  {
+    "id": "moony--JPnL34RRSM",
+    "name": "밀크티",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "우유400ml·물80ml와 홍차15g 전체를 음료2인분으로 편집 추정. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "음료",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=-JPnL34RRSM",
+    "sourceTitle": "역대급 초간단!!! 1분안에 불 없이 찐한 밀크티 만드는 방법",
+    "sourceNote": "무니키친MoonyKitchen / 영상 -JPnL34RRSM; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "moony-black-tea",
+        "amount": 15,
+        "unit": "g",
+        "note": "원문: 홍차 15g"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 80,
+        "unit": "ml",
+        "note": "원문: 물 80ml"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2b7e75051be2",
+        "amount": 400,
+        "unit": "ml",
+        "note": "원문: 우유 400ml"
+      }
+    ]
+  },
+  {
+    "id": "moony-5u3v77i7nHU",
+    "name": "저탄수 그래놀라",
+    "baseServings": 12,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "견과류480g·알룰로스70g·코코넛오일35g 전체를 토핑/간식12인분으로 편집 추정. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "그래놀라",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=5u3v77i7nHU",
+    "sourceTitle": "[5분완성] 저세상맛 저탄수화물 다이어트 그래놀라 이제 만들어 드세요!",
+    "sourceNote": "무니키친MoonyKitchen / 영상 5u3v77i7nHU; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "moony-coconut-oil",
+        "amount": 35,
+        "unit": "g",
+        "note": "원문: 코코넛오일 35g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-44dae654a56c",
+        "amount": 70,
+        "unit": "g",
+        "note": "원문: 알룰로스 70g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fb22238238c3",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 바닐라빈 1개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-ade8b7b5790a",
+        "amount": 480,
+        "unit": "g",
+        "note": "원문: 견과류 또는 씨앗 480g · 원문 대체 선택지 중 견과류 한 가지만 포함. 특정 견과류 종류는 임의 지정하지 않음"
+      }
+    ]
+  },
+  {
+    "id": "moony-GEUL59x9bg4",
+    "name": "딸기 우유",
+    "baseServings": 1,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "우유160ml·딸기5알 전체를 음료1인분으로 편집 추정. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "음료",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=GEUL59x9bg4",
+    "sourceTitle": "[귀여움폭발] 내가 아이들에게 만들어 주는 진짜 딸기우유, 저탄수화물 다이어트 무설탕 딸기라떼, 홈카페",
+    "sourceNote": "무니키친MoonyKitchen / 영상 GEUL59x9bg4; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-8e8964075c06",
+        "amount": 5,
+        "unit": "알",
+        "note": "원문: 딸기 5알"
+      },
+      {
+        "ingredientId": "mfds-ingredient-44dae654a56c",
+        "amount": 10,
+        "unit": "ml",
+        "note": "원문: 알룰로스 10ml"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2b7e75051be2",
+        "amount": 160,
+        "unit": "ml",
+        "note": "원문: 우유 160ml"
+      }
+    ]
+  },
+  {
+    "id": "moony-JTVSd_jWwic",
+    "name": "초코우유",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "우유320ml·초콜릿40g·알룰로스40ml 전체를 음료2인분으로 편집 추정. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "음료",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=JTVSd_jWwic",
+    "sourceTitle": "[기발함주의!] 내가 아이들에게 만들어 주는 진짜 초코우유, 살안찌는 다이어트 초코라떼, 홈카페",
+    "sourceNote": "무니키친MoonyKitchen / 영상 JTVSd_jWwic; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "moony-90-percent-chocolate",
+        "amount": 40,
+        "unit": "g",
+        "note": "원문: 90% 초콜릿 40g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2b7e75051be2",
+        "amount": 320,
+        "unit": "ml",
+        "note": "원문: 우유 320ml"
+      },
+      {
+        "ingredientId": "mfds-ingredient-44dae654a56c",
+        "amount": 40,
+        "unit": "ml",
+        "note": "원문: 알룰로스 40ml"
+      }
+    ]
+  },
+  {
+    "id": "moony-yobM2-2FB08",
+    "name": "꿀잠 밀크티",
+    "baseServings": 1,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "우유200ml·물100ml·루이보스티7g 등 전체를 음료1인분으로 편집 추정. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "음료",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=yobM2-2FB08",
+    "sourceTitle": "카페보다 맛있는 꿀잠 밀크티, 진한 밀크티 만들기, 불면증에 좋은 차, 홈카페",
+    "sourceNote": "무니키친MoonyKitchen / 영상 yobM2-2FB08; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "moony-rooibos-tea",
+        "amount": 7,
+        "unit": "g",
+        "note": "원문: 루이보스티 7g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e0b1eb622107",
+        "amount": 20,
+        "unit": "g",
+        "note": "원문: 생강 20g"
+      },
+      {
+        "ingredientId": "moony-cinnamon-stick",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 시나몬스틱 1개"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 100,
+        "unit": "ml",
+        "note": "원문: 물 100ml"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2b7e75051be2",
+        "amount": 200,
+        "unit": "ml",
+        "note": "원문: 우유 200ml"
+      }
+    ]
+  },
+  {
+    "id": "moony-AtkGm8jphd0",
+    "name": "치즈스콘",
+    "baseServings": 8,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "아몬드가루225g·치즈140g 등 스콘 전체 반죽을 간식8인분으로 편집 추정. 원문 제조 개수 미기재. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "스콘",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=AtkGm8jphd0",
+    "sourceTitle": "[당류2g]중독성 있는 맛! 살안찌는 마약 치즈스콘, 다이어트 간식, 저탄수화물 레시피, 키토 베이킹, 당뇨 빵",
+    "sourceNote": "무니키친MoonyKitchen / 영상 AtkGm8jphd0; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-151c2679dc7f",
+        "amount": 225,
+        "unit": "g",
+        "note": "원문: 아몬드 가루 225g"
+      },
+      {
+        "ingredientId": "moony-flaxseed-meal",
+        "amount": 45,
+        "unit": "g",
+        "note": "원문: 플랙씨드 가루 45g"
+      },
+      {
+        "ingredientId": "moony-tapioca-starch",
+        "amount": 30,
+        "unit": "g",
+        "note": "원문: 타피오카 전분 30g"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 1,
+        "unit": "g",
+        "note": "원문: 소금 1g"
+      },
+      {
+        "ingredientId": "moony-erythritol",
+        "amount": 22,
+        "unit": "g",
+        "note": "원문: 에리스리톨 22g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-d7e97abac199",
+        "amount": 9,
+        "unit": "g",
+        "note": "원문: 베이킹 파우더 9g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-40d7072c85f1",
+        "amount": 60,
+        "unit": "g",
+        "note": "원문: 크림치즈 60g"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 달걀 50g"
+      },
+      {
+        "ingredientId": "moony-lactose-free-milk",
+        "amount": 35,
+        "unit": "g",
+        "note": "원문: 유당제거 우유 35g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a82ee6c25c83",
+        "amount": 140,
+        "unit": "g",
+        "note": "원문: 치즈 140g"
+      }
+    ]
+  },
+  {
+    "id": "moony-SWP0xcychyk",
+    "name": "치즈케이크",
+    "baseServings": 8,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "크림치즈360g·생크림220g과 별도 시트 전체를 케이크8인분으로 편집 추정. 원문 15cm는 틀 지름으로 인분 아님. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "케이크",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=SWP0xcychyk",
+    "sourceTitle": "[당류 3g] 꾸덕하고 진한 저탄수 치즈케이크 만들기, 키토 베이킹, Low Carb Baked CheeseCake, KETO Baking",
+    "sourceNote": "무니키친MoonyKitchen / 영상 SWP0xcychyk; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-151c2679dc7f",
+        "amount": 58,
+        "unit": "g",
+        "note": "원문: 아몬드가루 58g"
+      },
+      {
+        "ingredientId": "moony-coconut-flour",
+        "amount": 20,
+        "unit": "g",
+        "note": "원문: 코코넛가루 20g"
+      },
+      {
+        "ingredientId": "moony-xanthan-gum",
+        "amount": 1,
+        "unit": "g",
+        "note": "원문: 잔탄검 1g"
+      },
+      {
+        "ingredientId": "moony-lakanto-sweetener",
+        "amount": 9,
+        "unit": "g",
+        "note": "원문: 라칸토 감미료 9g"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 1,
+        "unit": "꼬집",
+        "note": "원문: 소금 한 꼬집"
+      },
+      {
+        "ingredientId": "mfds-ingredient-dbb0e086bcf7",
+        "amount": 19,
+        "unit": "g",
+        "note": "원문: 계란 노른자 1개 (19g)"
+      },
+      {
+        "ingredientId": "mfds-ingredient-46b97d1a17c3",
+        "amount": 25,
+        "unit": "g",
+        "note": "원문: 버터 25g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-40d7072c85f1",
+        "amount": 360,
+        "unit": "g",
+        "note": "원문: 크림치즈 360g"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 110,
+        "unit": "g",
+        "note": "원문: 달걀 110g"
+      },
+      {
+        "ingredientId": "moony-lakanto-sweetener",
+        "amount": 63,
+        "unit": "g",
+        "note": "원문: 라칸토 감미료 63g"
+      },
+      {
+        "ingredientId": "moony-kudzu-starch",
+        "amount": 25,
+        "unit": "g",
+        "note": "원문: 칡 전분 25g"
+      },
+      {
+        "ingredientId": "cream",
+        "amount": 220,
+        "unit": "g",
+        "note": "원문: 생크림 220g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c566ca8515a3",
+        "amount": 1,
+        "unit": "ts",
+        "note": "원문: 레몬즙 1ts"
+      }
+    ]
+  },
+  {
+    "id": "moony-NHo36S_25a4",
+    "name": "브라우니",
+    "baseServings": 10,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "카카오매스240g·버터120g·달걀150g 등 전체 브라우니를 간식10인분으로 편집 추정. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "케이크",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=NHo36S_25a4",
+    "sourceTitle": "[당류 1g, 노아몬드가루] 저탄수 다이어트 꾸덕한 브라우니 만들기, Low Carb Fudge Brownie, KETO Baking",
+    "sourceNote": "무니키친MoonyKitchen / 영상 NHo36S_25a4; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "moony-cacao-mass",
+        "amount": 240,
+        "unit": "g",
+        "note": "원문: 카카오매스 240g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-90014f617190",
+        "amount": 120,
+        "unit": "g",
+        "note": "원문: 무염버터 120g"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 2,
+        "unit": "g",
+        "note": "원문: 소금 2g"
+      },
+      {
+        "ingredientId": "cream",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 생크림 50g (우유가능)"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 150,
+        "unit": "g",
+        "note": "원문: 달걀 150g"
+      },
+      {
+        "ingredientId": "moony-lakanto-sweetener",
+        "amount": 67,
+        "unit": "g",
+        "note": "원문: 라칸토 감미료 67g"
+      },
+      {
+        "ingredientId": "moony-flaxseed-meal",
+        "amount": 43,
+        "unit": "g",
+        "note": "원문: 플랙시드 가루 43g"
+      },
+      {
+        "ingredientId": "moony-unsweetened-cocoa-powder",
+        "amount": 24,
+        "unit": "g",
+        "note": "원문: 무가당 코코아 파우더 24g"
+      }
+    ]
+  },
+  {
+    "id": "moony-K5yZt5hf72Q",
+    "name": "에그타르트",
+    "baseServings": 6,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "크러스트와 필링 전량을 타르트6인분으로 편집 추정. 원문 달걀노른자1개와3개는 각각 시트·필링 분량으로 모두 포함. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "타르트",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=K5yZt5hf72Q",
+    "sourceTitle": "[순탄수 4g] 다이어트 에그타르트, Low Carb Egg Tart Recipe | 살빠지는 간식, 저탄수 레시피, 간헐적 단식",
+    "sourceNote": "무니키친MoonyKitchen / 영상 K5yZt5hf72Q; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-151c2679dc7f",
+        "amount": 117,
+        "unit": "g",
+        "note": "원문: 아몬드가루 117g"
+      },
+      {
+        "ingredientId": "moony-coconut-flour",
+        "amount": 40,
+        "unit": "g",
+        "note": "원문: 코코넛가루 40g"
+      },
+      {
+        "ingredientId": "moony-xanthan-gum",
+        "amount": 1.5,
+        "unit": "g",
+        "note": "원문: 잔탄검 1.5g"
+      },
+      {
+        "ingredientId": "moony-lakanto-sweetener",
+        "amount": 18,
+        "unit": "g",
+        "note": "원문: 라칸토 감미료 18g"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 1,
+        "unit": "꼬집",
+        "note": "원문: 소금 한 꼬집"
+      },
+      {
+        "ingredientId": "mfds-ingredient-dbb0e086bcf7",
+        "amount": 19,
+        "unit": "g",
+        "note": "원문: 계란 노른자 1개 (19g)"
+      },
+      {
+        "ingredientId": "mfds-ingredient-46b97d1a17c3",
+        "amount": 65,
+        "unit": "g",
+        "note": "원문: 버터 65g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-dbb0e086bcf7",
+        "amount": 57,
+        "unit": "g",
+        "note": "원문: 계란 노른자 3개 (57g)"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2b7e75051be2",
+        "amount": 100,
+        "unit": "ml",
+        "note": "원문: 우유 100ml"
+      },
+      {
+        "ingredientId": "cream",
+        "amount": 90,
+        "unit": "ml",
+        "note": "원문: 생크림 90ml"
+      },
+      {
+        "ingredientId": "moony-lakanto-sweetener",
+        "amount": 34,
+        "unit": "g",
+        "note": "원문: 라칸토 34g"
+      },
+      {
+        "ingredientId": "moony-vanilla-extract",
+        "amount": 5,
+        "unit": "ml",
+        "note": "원문: 바닐라 익스트랙 5ml"
+      }
+    ]
+  },
+  {
+    "id": "moony-vL2_0ldclWA",
+    "name": "모카 프라푸치노",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "아몬드밀크1컵·얼음1컵과 생크림150ml 등 음료·토핑 전체를 음료2인분으로 편집 추정. 원문400ml 표기는 인분 명시가 아님. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "음료",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=vL2_0ldclWA",
+    "sourceTitle": "살빠지는 음료, 다이어트 모카 프라푸치노, 카페모카, Low Carb Mocha Frappuccino, KETO Drink, LCHF Recipe, 키토음료, 간헐적단식 식단",
+    "sourceNote": "무니키친MoonyKitchen / 영상 vL2_0ldclWA; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-a4215a312666",
+        "amount": 2,
+        "unit": "tsp",
+        "note": "원문: 커피 2tsp"
+      },
+      {
+        "ingredientId": "moony-cocoa-powder",
+        "amount": 3,
+        "unit": "tsp",
+        "note": "원문: 코코아 파우더 3tsp"
+      },
+      {
+        "ingredientId": "moony-lakanto-sweetener",
+        "amount": 1,
+        "unit": "tsp",
+        "note": "원문: 라칸토 감미료 1tsp"
+      },
+      {
+        "ingredientId": "mfds-ingredient-44dae654a56c",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 알룰로스 취향껏"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 60,
+        "unit": "cc",
+        "note": "원문: 따뜻한 물 60cc"
+      },
+      {
+        "ingredientId": "moony-chocolate",
+        "amount": 2,
+        "unit": "조각",
+        "note": "원문: 초콜릿 2조각"
+      },
+      {
+        "ingredientId": "mfds-ingredient-84ce6fedead1",
+        "amount": 1,
+        "unit": "컵",
+        "note": "원문: 얼음 1컵"
+      },
+      {
+        "ingredientId": "moony-almond-milk",
+        "amount": 1,
+        "unit": "컵",
+        "note": "원문: 아몬드 밀크 1컵"
+      },
+      {
+        "ingredientId": "cream",
+        "amount": 150,
+        "unit": "ml",
+        "note": "원문: 생크림 150ml"
+      },
+      {
+        "ingredientId": "moony-lakanto-sweetener",
+        "amount": 2,
+        "unit": "tsp",
+        "note": "원문: 라칸토 감미료 2tsp"
+      },
+      {
+        "ingredientId": "moony-chocolate",
+        "amount": 1,
+        "unit": "조각",
+        "note": "원문: 초콜릿 1조각 (장식용)"
+      }
+    ]
+  },
+  {
+    "id": "moony-0y3Juik_1Zk",
+    "name": "제누와즈",
+    "baseServings": 6,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "노른자80g·흰자110g·아몬드가루75g 등 케이크 시트 전체를 간식6인분으로 편집 추정. 원문 틀15cm는 인분 아님. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "케이크",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=0y3Juik_1Zk",
+    "sourceTitle": "다이어트 케이크, 저탄수 제누와즈, Low Carb Sponge Cake Sheet, Genoise | KETO Cake, LCHF, 키토간식, 저탄수 베이킹",
+    "sourceNote": "무니키친MoonyKitchen / 영상 0y3Juik_1Zk; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-dbb0e086bcf7",
+        "amount": 80,
+        "unit": "g",
+        "note": "원문: 노른자 80g"
+      },
+      {
+        "ingredientId": "moony-lakanto-sweetener",
+        "amount": 10,
+        "unit": "g",
+        "note": "원문: 라칸토 감미료 10g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-404f0cc04abd",
+        "amount": 110,
+        "unit": "g",
+        "note": "원문: 흰자 110g"
+      },
+      {
+        "ingredientId": "moony-lakanto-sweetener",
+        "amount": 40,
+        "unit": "g",
+        "note": "원문: 라칸토 감미료 40g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-151c2679dc7f",
+        "amount": 75,
+        "unit": "g",
+        "note": "원문: 아몬드 가루 75g"
+      },
+      {
+        "ingredientId": "moony-kudzu-starch",
+        "amount": 15,
+        "unit": "g",
+        "note": "원문: 칡 전분 15g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2b7e75051be2",
+        "amount": 20,
+        "unit": "g",
+        "note": "원문: 우유 20g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-46b97d1a17c3",
+        "amount": 10,
+        "unit": "g",
+        "note": "원문: 버터 10g"
+      }
+    ]
+  },
+  {
+    "id": "moony-k3NNJkqNl10",
+    "name": "무설탕 딸기잼",
+    "baseServings": 15,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "딸기300g·라즈베리150g 등 잼 전체 제조량을 곁들임15인분으로 편집 추정. 단위 없는 레몬 분수는 임의 환산하지 않음. 2026-11-23 사용자 승인에 따른 편집 추정이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "잼",
+    "imagePath": null,
+    "sourceName": "무니키친MoonyKitchen",
+    "sourceUrl": "https://www.youtube.com/watch?v=k3NNJkqNl10",
+    "sourceTitle": "저탄수 다이어트 무설탕 딸기잼, Low Carb Sugar Free Strawberry Jam | LCHF, Ketogenic Recipe, 저탄고지, 키토제닉, 당질제한 레시피",
+    "sourceNote": "무니키친MoonyKitchen / 영상 k3NNJkqNl10; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-8e8964075c06",
+        "amount": 300,
+        "unit": "g",
+        "note": "원문: 딸기 300g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-824a57d52c3d",
+        "amount": 150,
+        "unit": "g",
+        "note": "원문: 라즈베리 150g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-55bd83857398",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 레몬제스트 1/2 · 원문 1/2의 단위가 없어 임의 개수·중량으로 환산하지 않음"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c566ca8515a3",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 레몬즙 1/4 · 원문 1/4의 단위가 없어 임의 개수·부피로 환산하지 않음"
+      },
+      {
+        "ingredientId": "moony-lakanto-sweetener",
+        "amount": 38,
+        "unit": "g",
+        "note": "원문: 라칸토 감미료 38g"
+      }
+    ]
   }
 ]

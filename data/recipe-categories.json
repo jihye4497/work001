@@ -12482,6 +12482,494 @@
         "한식 주메뉴"
       ],
       "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-kLF6onKMarI",
+      "name": "비건라떼",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-cBBhf7BJdZI",
+      "name": "두부부침",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "moony-c4F13wILnVk",
+      "name": "부추전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "moony-ALeW6Kk6M0c",
+      "name": "토마토마리네이드",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-lCLcQ0XS0bs",
+      "name": "냉국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-oj6Lc4wN3hE",
+      "name": "어묵탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "moony-i1MPmpdHD7E",
+      "name": "양배추 오믈렛",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-GLV1Fvudd5g",
+      "name": "두부 토스트",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-17soKpUuF7M",
+      "name": "토스트",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-gFY4j4Gz5WY",
+      "name": "에그도그",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-Hhm5-fjVBX0",
+      "name": "에그 머핀",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-Opv3xVnGc-E",
+      "name": "양배추 토스트",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-4c--v3SP1Ks",
+      "name": "수플레 오믈렛",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-NOXVJuK2gJ4",
+      "name": "순두부그라탕",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-Gja3ptBJY5E",
+      "name": "순두부 찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "moony-vspl-Oy5bsk",
+      "name": "라따뚜이",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-WSSLsGbwcJM",
+      "name": "라따뚜이",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-jcA41b4cRaQ",
+      "name": "소시지 토마토 스튜",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-r28sPfPSoTQ",
+      "name": "만능 토마토 소스",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-51-DdRHLi2Y",
+      "name": "달걀 만두",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "moony-mqtcHm32dLM",
+      "name": "두부전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "moony-ve_DKp6i5B0",
+      "name": "배추전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "moony-dWz94HFqDU8",
+      "name": "파전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "moony-relI8nAKNKw",
+      "name": "양배추 패티",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-wdm5E8_il2A",
+      "name": "오믈렛",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-TRryXWRHKU0",
+      "name": "미나리새우전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "moony-kIu2F4AgFJc",
+      "name": "피자",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-ZqbvulD7rPw",
+      "name": "야채전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "moony-B0WgKrLbjV8",
+      "name": "꼬마김밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-_9TGwKsUMwM",
+      "name": "연어포케",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-XHdi7XvSs0w",
+      "name": "뚝배기 불고기",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-p9gcTUAmqsE",
+      "name": "미네스트로네",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-sUfxGut9xE8",
+      "name": "미역국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "moony-FBcTIeEJw7Q",
+      "name": "순두부 찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "moony-zPvtnhwkw-E",
+      "name": "고추장찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "moony-EdQsyo8eu50",
+      "name": "그릭요거트",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-Z-saV8gletU",
+      "name": "리코타 치즈",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-kOS_EGIExvU",
+      "name": "마요네즈",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-D0IchYBpyGM",
+      "name": "마요네즈",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-UOWYEGyvVs0",
+      "name": "감동란",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "moony-vSPXdchs5vI",
+      "name": "만능 간장",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-oHCQFYHVPEc",
+      "name": "오트밀 쿠키",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-nlZ-yrWMRoE",
+      "name": "파베 초콜릿",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-jKCHQWwB1H0",
+      "name": "구름빵",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-ujOBiIDASmI",
+      "name": "까눌레",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-h21WuV-YLX0",
+      "name": "팥죽",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-a5XNbDPJqO8",
+      "name": "당근 케이크",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-jr6nFMZQI-E",
+      "name": "치즈케이크",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-48UmtSqUdeE",
+      "name": "초코 케이크",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony--JPnL34RRSM",
+      "name": "밀크티",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-5u3v77i7nHU",
+      "name": "저탄수 그래놀라",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-GEUL59x9bg4",
+      "name": "딸기 우유",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-JTVSd_jWwic",
+      "name": "초코우유",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-yobM2-2FB08",
+      "name": "꿀잠 밀크티",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-AtkGm8jphd0",
+      "name": "치즈스콘",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-SWP0xcychyk",
+      "name": "치즈케이크",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-NHo36S_25a4",
+      "name": "브라우니",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-K5yZt5hf72Q",
+      "name": "에그타르트",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-vL2_0ldclWA",
+      "name": "모카 프라푸치노",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-0y3Juik_1Zk",
+      "name": "제누와즈",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-k3NNJkqNl10",
+      "name": "무설탕 딸기잼",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
     }
   ]
 }

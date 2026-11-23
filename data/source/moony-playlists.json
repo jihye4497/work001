@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+  "sourceName": "무니키친MoonyKitchen",
+  "sourceUrl": "https://www.youtube.com/@MoonyKitchen/playlists",
+  "checkedOn": "2026-11-23",
+  "entries": [
+    {
+      "playlistId": "PLCled-p0JtA6Xr5-_Oiw64bAQjlavj4mh",
+      "title": "카페 Cafe",
+      "publicVideoCount": 1,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLCled-p0JtA5E0NaqbtsvFxopkNINS7Ok",
+      "title": "채식 Vegan",
+      "publicVideoCount": 3,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLCled-p0JtA5_LQqtHXAaCsaR8mCl8Ksh",
+      "title": "국수 Noodles",
+      "publicVideoCount": 6,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+      "title": "아침식사 Breakfast",
+      "publicVideoCount": 23,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLCled-p0JtA5_POP0FxZE3u3uMX8rGY95",
+      "title": "밥 Rice",
+      "publicVideoCount": 5,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLCled-p0JtA5z40QG7BzRhg9aH4tahAQ6",
+      "title": "샐러드 Salad",
+      "publicVideoCount": 3,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+      "title": "토마토 Tomato",
+      "publicVideoCount": 22,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLCled-p0JtA6WOnlWQyGtimRDVy3U84gZ",
+      "title": "짧은 영상 Shorts",
+      "publicVideoCount": 0,
+      "excludedPlaylist": true
+    },
+    {
+      "playlistId": "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+      "title": "전 Jeon (Pancake, Omelet)",
+      "publicVideoCount": 21,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ",
+      "title": "김밥 Gimbap",
+      "publicVideoCount": 9,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1",
+      "title": "해물 Seafood",
+      "publicVideoCount": 9,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+      "title": "국 찌개 Soup Stew",
+      "publicVideoCount": 27,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R",
+      "title": "주방 Kitchen",
+      "publicVideoCount": 21,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+      "title": "기본 Basic",
+      "publicVideoCount": 29,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz",
+      "title": "디저트 Dessert",
+      "publicVideoCount": 71,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+      "title": "달걀 Egg",
+      "publicVideoCount": 58,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
+      "title": "건강 Health",
+      "publicVideoCount": 15,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
+      "title": "양배추 Cabbage",
+      "publicVideoCount": 30,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
+      "title": "두부 Tofu",
+      "publicVideoCount": 30,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU",
+      "title": "고기 Meat",
+      "publicVideoCount": 23,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU",
+      "title": "채소 vegetable",
+      "publicVideoCount": 82,
+      "excludedPlaylist": false
+    }
+  ],
+  "completePublicTraversal": true
+}
