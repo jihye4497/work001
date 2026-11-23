@@ -198662,5 +198662,311 @@
         "note": "원문: 멸치 다시다 : 1/2숟가락"
       }
     ]
+  },
+  {
+    "id": "paik-bFX5lJgCPBQ",
+    "name": "당면만둣국",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 만두 175g·불린 당면 120g·물 500ml·달걀 1개의 전체 양을 밥과 곁들이는 2인분으로 편집 추정. 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "국",
+    "imagePath": null,
+    "sourceName": "백종원의 요리비책",
+    "sourceUrl": "https://www.youtube.com/watch?v=bFX5lJgCPBQ",
+    "sourceTitle": "쌀쌀한 가을에 당면만둣국 한 그릇",
+    "sourceNote": "사용자 제공 원문 재료표 대조 2026-11-23. 영상 원문 직접 재접근은 미확인. 병기 중량·부피 우선, 단위 환산 없음. 양념장 전량 포함. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "water",
+        "amount": 500,
+        "unit": "ml",
+        "note": "원문: 정수물 500ml"
+      },
+      {
+        "ingredientId": "frozen-dumplings",
+        "amount": 175,
+        "unit": "g",
+        "note": "원문: 냉동 만두 5개 (175g)"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2b111dbcf8cc",
+        "amount": 120,
+        "unit": "g",
+        "note": "원문: 불린 당면 2컵 (120g)"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 35,
+        "unit": "g",
+        "note": "원문: 대파 1/3대 (35g)"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 60,
+        "unit": "g",
+        "note": "원문: 양파 1/4개 (60g)"
+      },
+      {
+        "ingredientId": "hot-pepper",
+        "amount": 10,
+        "unit": "g",
+        "note": "원문: 청양고추 1개 (10g)"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 달걀 1개"
+      },
+      {
+        "ingredientId": "seasoned-gim",
+        "amount": 2,
+        "unit": "g",
+        "note": "원문: 조미김가루 적당량 (2g)"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 20,
+        "unit": "g",
+        "note": "원문: 간마늘 1큰술 (20g)"
+      },
+      {
+        "ingredientId": "gochujang",
+        "amount": 20,
+        "unit": "g",
+        "note": "원문: 고추장 1큰술 (20g)"
+      },
+      {
+        "ingredientId": "mfds-ingredient-065674f43417",
+        "amount": 6,
+        "unit": "g",
+        "note": "원문: 고운고춧가루 1큰술 (6g)"
+      },
+      {
+        "ingredientId": "mfds-ingredient-dab18d11ef50",
+        "amount": 20,
+        "unit": "g",
+        "note": "원문: 액젓 2큰술 (20g)"
+      },
+      {
+        "ingredientId": "beef-dashida",
+        "amount": 4,
+        "unit": "g",
+        "note": "원문: 소고기다시다 1/3큰술 (4g)"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후춧가루 약간"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": 14,
+        "unit": "g",
+        "note": "원문: 식용유 2큰술 (14g)"
+      }
+    ]
+  },
+  {
+    "id": "paik-4RnCNlE1b6U",
+    "name": "냄비 무밥",
+    "baseServings": 3,
+    "servingsStatus": "explicit",
+    "servingsEvidence": "사용자가 전달한 원문 [냄비 무밥] 3인분 기준 명시. 양념장 전량 포함.",
+    "cookMinutes": null,
+    "cookingType": "밥",
+    "imagePath": null,
+    "sourceName": "백종원의 요리비책",
+    "sourceUrl": "https://www.youtube.com/watch?v=4RnCNlE1b6U",
+    "sourceTitle": "초간단 \"무\"밥 이렇게 드세요",
+    "sourceNote": "사용자 제공 원문 재료표 대조 2026-11-23. 영상 원문 직접 재접근은 미확인. 병기 중량·부피 우선, 단위 환산 없음. 양념장 전량 포함. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-a367ab3717bf",
+        "amount": 330,
+        "unit": "g",
+        "note": "원문: 무 약 1/4개 (330g)"
+      },
+      {
+        "ingredientId": "rice",
+        "amount": 320,
+        "unit": "g",
+        "note": "원문: 쌀 2컵 (320g)"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 360,
+        "unit": "g",
+        "note": "원문: 정수물 2컵 (360g)"
+      },
+      {
+        "ingredientId": "beef-mince",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 간소고기 1컵 (100g)"
+      },
+      {
+        "ingredientId": "shiitake",
+        "amount": 40,
+        "unit": "g",
+        "note": "원문: 표고버섯 2개 (40g)"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 14,
+        "unit": "g",
+        "note": "원문: 참기름 2큰술 (14g)"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 대파 ½대 (50g) · 양념장"
+      },
+      {
+        "ingredientId": "hot-pepper",
+        "amount": 10,
+        "unit": "g",
+        "note": "원문: 청양고추 1개 (10g) · 양념장"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 10,
+        "unit": "g",
+        "note": "원문: 간마늘 ½큰술 (10g) · 양념장"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 진간장 5큰술 (50g) · 양념장"
+      },
+      {
+        "ingredientId": "mfds-ingredient-0fd99b873117",
+        "amount": 8,
+        "unit": "g",
+        "note": "원문: 굵은고춧가루 1큰술 (8g) · 양념장"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 7,
+        "unit": "g",
+        "note": "원문: 참기름 1큰술 (7g) · 양념장"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": 5,
+        "unit": "g",
+        "note": "원문: 통깨 1큰술 (5g) · 양념장"
+      }
+    ]
+  },
+  {
+    "id": "paik-TFcNckg-1bQ",
+    "name": "고추장찌개",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 돼지고기 목살 210g·두부 150g·애호박 160g·물 500ml의 전체 양을 밥과 먹는 2인분으로 편집 추정. 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "찌개",
+    "imagePath": null,
+    "sourceName": "백종원의 요리비책",
+    "sourceUrl": "https://www.youtube.com/watch?v=TFcNckg-1bQ",
+    "sourceTitle": "느낌 좋아~ 느좋 고추장찌개",
+    "sourceNote": "사용자 제공 원문 재료표 대조 2026-11-23. 영상 원문 직접 재접근은 미확인. 병기 중량·부피 우선, 단위 환산 없음. 양념장 전량 포함. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "water",
+        "amount": 500,
+        "unit": "ml",
+        "note": "원문: 정수물 500ml"
+      },
+      {
+        "ingredientId": "mfds-ingredient-48f0320f90f9",
+        "amount": 210,
+        "unit": "g",
+        "note": "원문: 돼지고기목살 1+½컵 (210g)"
+      },
+      {
+        "ingredientId": "tofu",
+        "amount": 150,
+        "unit": "g",
+        "note": "원문: 두부 ½모 (150g)"
+      },
+      {
+        "ingredientId": "zucchini",
+        "amount": 160,
+        "unit": "g",
+        "note": "원문: 애호박 ½개 (160g)"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 120,
+        "unit": "g",
+        "note": "원문: 양파 ½개 (120g)"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 대파 ½대 (50g)"
+      },
+      {
+        "ingredientId": "hot-pepper",
+        "amount": 10,
+        "unit": "g",
+        "note": "원문: 청양고추 2개 (10g)"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": 14,
+        "unit": "g",
+        "note": "원문: 식용유 2큰술 (14g)"
+      },
+      {
+        "ingredientId": "gochujang",
+        "amount": 30,
+        "unit": "g",
+        "note": "원문: 고추장 1+1/2큰술 (30g) · 양념재료"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2d8307addb5e",
+        "amount": 30,
+        "unit": "g",
+        "note": "원문: 새우젓 1+1/2큰술 (30g) · 양념재료"
+      },
+      {
+        "ingredientId": "mfds-ingredient-065674f43417",
+        "amount": 6,
+        "unit": "g",
+        "note": "원문: 고운 고춧가루 1큰술 (6g) · 양념재료"
+      },
+      {
+        "ingredientId": "mfds-ingredient-0fd99b873117",
+        "amount": 4,
+        "unit": "g",
+        "note": "원문: 굵은 고춧가루 ½큰술 (4g) · 양념재료"
+      },
+      {
+        "ingredientId": "mfds-ingredient-87abf0d56e01",
+        "amount": 10,
+        "unit": "g",
+        "note": "원문: 국간장 1큰술(10g) · 양념재료"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 20,
+        "unit": "g",
+        "note": "원문: 간마늘 1큰술 (20g) · 양념재료"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후춧가루 약간 · 양념재료"
+      }
+    ]
   }
 ]

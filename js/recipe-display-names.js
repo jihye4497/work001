@@ -1,0 +1,61 @@
+// Reviewed display names only. Source titles, quantities, IDs and import policies stay intact.
+// Each entry addresses a duplicate within the same publisher; other publishers are untouched.
+export const RECIPE_DISPLAY_NAMES = [
+ ['paik-udirCMIxs_c','고추장찌개','대패삼겹살 고추장찌개','재료표의 대패 삼겹살'],
+ ['paik-TFcNckg-1bQ','고추장찌개','돼지목살 두부 고추장찌개','재료표의 돼지고기목살·두부'],
+ ['paik--yCwkUS0ECE','기름떡볶이','밀떡 기름떡볶이','재료표에 밀떡볶이떡 명시'],
+ ['paik-JzyYs3lV2Gs','두부 콩국수','두부 콩국수(2021 버전)','원본 제목 2021ver.'],
+ ['paik-fk0-PSrOMo4','두부 콩국수','두부 콩국수(마리텔 버전)','원본 제목 마리텔에서 선보였던 콩국수'],
+ ['paik-p3IQTouKyH0','소불고기','등심 소불고기','재료표 쇠고기등심'],
+ ['paik-PjMWHZ3ubsQ','소갈비찜','소갈비찜(추석 편)','원본 제목 이번 추석엔 푸짐한 소갈비찜'],
+ ['paik--EwR5eshbPE','닭볶음탕','닭볶음탕(말복 편)','원본 제목 말복에는 얼큰한 닭볶음탕'],
+ ['paik-yI67M3IS4GI','옥수수전','옥수수전(전분 반죽)','재료표 옥수수전분가루'],
+ ['paik-uB37XeU5SwM','옥수수전','옥수수전(튀김가루 반죽)','재료표 튀김가루'],
+ ['caden-SNimRYX9YaQ','무생채','양파 쪽파 무생채','재료표 양파·쪽파'],
+ ['moony-Gja3ptBJY5E','순두부 찌개','토마토 순두부찌개','재료표 토마토·토마토 페이스트'],
+ ['moony-FBcTIeEJw7Q','순두부 찌개','표고버섯 달걀 순두부찌개','재료표 표고버섯·달걀'],
+ ['moony-vspl-Oy5bsk','라따뚜이','브로콜리 줄기 라따뚜이','재료표 브로콜리 줄기'],
+ ['moony-kOS_EGIExvU','마요네즈','두부 마요네즈','재료표 두부, 제목 달걀 없이'],
+ ['moony-D0IchYBpyGM','마요네즈','달걀 마요네즈','재료표 계란'],
+ ['moony-SWP0xcychyk','치즈케이크','아몬드·코코넛 치즈케이크','재료표 아몬드가루·코코넛가루'],
+ ['mincook-blog-457','굴무침','부추 굴무침과 보쌈','원본 제목 굴보쌈 및 재료표 부추·앞다리살'],
+ ['mincook-blog-774','앞다리살 스테이크','치즈 곁들인 앞다리살 스테이크','재료표 파르미지아노 레지아노'],
+ ['mincook-blog-644','앞다리살 스테이크','쌈장크림 앞다리살 스테이크','원본 제목 쌈장크림소스'],
+ ['mincook-blog-309','앞다리살 스테이크','마늘 앞다리살 스테이크','재료표 마늘 20g'],
+ ['mincook-blog-750','콩나물 불고기','마라 콩나물 불고기','재료표 마라소스·원본 제목 마라콩불'],
+ ['mincook-blog-733','오징어볶음','삼겹살 오징어볶음','원본 제목 오삼불고기·재료표 삼겹살'],
+ ['mincook-blog-730','오므라이스','오므라이스(회오리·정통 편)','원본 제목 회오리부터 정통 방식까지, 특정 버전만 등록했다고 단정하지 않음'],
+ ['mincook-blog-88','오므라이스','소시지 오므라이스','재료표 소시지'],
+ ['mincook-blog-727','닭볶음탕','국물 없는 닭볶음탕','원본 제목 국물 없는 닭볶음탕'],
+ ['mincook-blog-719','돼지고기김치볶음','앞다리살 김치볶음','재료표 불고기용 앞다리살'],
+ ['mincook-blog-713','두부조림','다진 돼지고기 두부조림','재료표 다진 돼지고기'],
+ ['mincook-blog-649','소갈비찜','순살 매운 소갈비찜','원본 제목 순살 매운 소갈비찜'],
+ ['mincook-blog-707','매운소갈비찜','떡 메추리알 매운 소갈비찜','재료표 떡·메추리알'],
+ ['mincook-blog-31','제육볶음','삼겹살 제육볶음','재료표 삼겹살'],
+ ['mincook-blog-62','동파육','동파육(간편 야매 버전)','원본 제목 누구나 쉽게·야매 레시피'],
+ ['mincook-blog-17','부대찌개','부대찌개(의정부 맛집 편)','원본 제목 의정부 60년 전통 맛집'],
+ ['mincook-blog-691','고추장찌개','앞다리살 애호박 고추장찌개','재료표 돼지 앞다리살·애호박'],
+ ['mincook-blog-403','고추장찌개','소고기 고추장찌개','원본 제목·재료표 소고기'],
+ ['mincook-blog-3','고추장찌개','돼지고기 고추장찌개(백종원 응용)','원본 제목 백종원 선생님 레시피 응용'],
+ ['mincook-blog-640','간장비빔국수','엔젤헤어 간장비빔국수','재료표 엔젤헤어 파스타'],
+ ['mincook-blog-556','간장비빔국수','김치 간장비빔국수','재료표 김치'],
+ ['mincook-blog-596','장어덮밥','에어프라이어 장어덮밥','원본 제목 에어프라이어'],
+ ['mincook-blog-342','장어덮밥','부추 달걀 장어덮밥','재료표 부추·계란'],
+ ['mincook-blog-573','함박스테이크','함박스테이크(식빵 반죽)','재료표 식빵'],
+ ['mincook-blog-287','함박스테이크','함박스테이크(빵가루 반죽)','재료표 빵가루'],
+ ['mincook-blog-366','묵은지 닭도리탕','냉면육수 묵은지 닭도리탕','재료표 냉면 육수'],
+ ['mincook-blog-360','장칼국수','만두 장칼국수','원본 제목·재료표 만두'],
+ ['mincook-blog-359','고추장 삼겹살','떡 고추장 삼겹살','재료표 떡'],
+ ['mincook-blog-221','갈비탕','부채살 갈비탕','원본 제목·재료표 부채살'],
+ ['mincook-blog-142','갈비탕','소갈비 양지 갈비탕','재료표 갈비탕용 소갈비·양지'],
+ ['mincook-blog-118','돼지갈비','돼지갈비 묵은지 감자탕','원본 제목 묵은지 감자탕·재료표 돼지갈비'],
+ ['mincook-blog-60','돼지갈비','목전지 돼지갈비','재료표 돼지 목전지'],
+ ['mincook-blog-49','간장치킨','대파 청양고추 간장치킨','재료표 대파·청양고추']
+];
+const names=new Map(RECIPE_DISPLAY_NAMES.map(([id,originalName,name])=>[id,{originalName,name}]));
+export function applyRecipeDisplayNames(recipes) {
+ return recipes.map(recipe=>{
+  const entry=names.get(recipe.id);
+  return entry&&recipe.name===entry.originalName?{...recipe,name:entry.name}:recipe;
+ });
+}

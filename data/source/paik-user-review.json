@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 1,
+  "note": "사용자 전달 재료 사실 검수. 원문 영상 독립 재접근을 완료했다는 의미가 아님. 기존 레시피·원문 수량 불변.",
+  "entries": [
+    {
+      "videoId": "bFX5lJgCPBQ",
+      "recipeId": "paik-bFX5lJgCPBQ",
+      "name": "당면만둣국",
+      "sourceUrl": "https://www.youtube.com/watch?v=bFX5lJgCPBQ",
+      "sourceTitle": "쌀쌀한 가을에 당면만둣국 한 그릇",
+      "checkedOn": "2026-11-23",
+      "verificationMethod": "user-provided-source-transcription",
+      "independentSourceFetchVerified": false,
+      "baseServings": 2,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "원문 인분 미기재. 만두 175g·불린 당면 120g·물 500ml·달걀 1개의 전체 양을 밥과 곁들이는 2인분으로 편집 추정. 원작자 명시 인분 아님.",
+      "ingredientHash": "c950992e8e8ee84e2a101d5ffa225348d9c63b81f6c64520d94ee8fa10b87601",
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 500,
+          "unit": "ml",
+          "sourceText": "정수물 500ml",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "frozen-dumplings",
+          "amount": 175,
+          "unit": "g",
+          "sourceText": "냉동 만두 5개 (175g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "mfds-ingredient-2b111dbcf8cc",
+          "amount": 120,
+          "unit": "g",
+          "sourceText": "불린 당면 2컵 (120g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 35,
+          "unit": "g",
+          "sourceText": "대파 1/3대 (35g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "onion",
+          "amount": 60,
+          "unit": "g",
+          "sourceText": "양파 1/4개 (60g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "hot-pepper",
+          "amount": 10,
+          "unit": "g",
+          "sourceText": "청양고추 1개 (10g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "egg",
+          "amount": 1,
+          "unit": "개",
+          "sourceText": "달걀 1개",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "seasoned-gim",
+          "amount": 2,
+          "unit": "g",
+          "sourceText": "조미김가루 적당량 (2g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "minced-garlic",
+          "amount": 20,
+          "unit": "g",
+          "sourceText": "간마늘 1큰술 (20g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "gochujang",
+          "amount": 20,
+          "unit": "g",
+          "sourceText": "고추장 1큰술 (20g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "mfds-ingredient-065674f43417",
+          "amount": 6,
+          "unit": "g",
+          "sourceText": "고운고춧가루 1큰술 (6g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "mfds-ingredient-dab18d11ef50",
+          "amount": 20,
+          "unit": "g",
+          "sourceText": "액젓 2큰술 (20g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "beef-dashida",
+          "amount": 4,
+          "unit": "g",
+          "sourceText": "소고기다시다 1/3큰술 (4g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "pepper",
+          "amount": null,
+          "unit": null,
+          "sourceText": "후춧가루 약간",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "oil",
+          "amount": 14,
+          "unit": "g",
+          "sourceText": "식용유 2큰술 (14g)",
+          "group": "재료"
+        }
+      ]
+    },
+    {
+      "videoId": "4RnCNlE1b6U",
+      "recipeId": "paik-4RnCNlE1b6U",
+      "name": "냄비 무밥",
+      "sourceUrl": "https://www.youtube.com/watch?v=4RnCNlE1b6U",
+      "sourceTitle": "초간단 \"무\"밥 이렇게 드세요",
+      "checkedOn": "2026-11-23",
+      "verificationMethod": "user-provided-source-transcription",
+      "independentSourceFetchVerified": false,
+      "baseServings": 3,
+      "servingsStatus": "explicit",
+      "servingsEvidence": "사용자가 전달한 원문 [냄비 무밥] 3인분 기준 명시. 양념장 전량 포함.",
+      "ingredientHash": "f6c3087497f29484dc618c37da9e68d0ebd38681a4093edf4b7b0997bc53acd8",
+      "ingredients": [
+        {
+          "ingredientId": "mfds-ingredient-a367ab3717bf",
+          "amount": 330,
+          "unit": "g",
+          "sourceText": "무 약 1/4개 (330g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "rice",
+          "amount": 320,
+          "unit": "g",
+          "sourceText": "쌀 2컵 (320g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 360,
+          "unit": "g",
+          "sourceText": "정수물 2컵 (360g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "beef-mince",
+          "amount": 100,
+          "unit": "g",
+          "sourceText": "간소고기 1컵 (100g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "shiitake",
+          "amount": 40,
+          "unit": "g",
+          "sourceText": "표고버섯 2개 (40g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "sesame-oil",
+          "amount": 14,
+          "unit": "g",
+          "sourceText": "참기름 2큰술 (14g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 50,
+          "unit": "g",
+          "sourceText": "대파 ½대 (50g)",
+          "group": "양념장"
+        },
+        {
+          "ingredientId": "hot-pepper",
+          "amount": 10,
+          "unit": "g",
+          "sourceText": "청양고추 1개 (10g)",
+          "group": "양념장"
+        },
+        {
+          "ingredientId": "minced-garlic",
+          "amount": 10,
+          "unit": "g",
+          "sourceText": "간마늘 ½큰술 (10g)",
+          "group": "양념장"
+        },
+        {
+          "ingredientId": "mfds-ingredient-860fd4a93c7c",
+          "amount": 50,
+          "unit": "g",
+          "sourceText": "진간장 5큰술 (50g)",
+          "group": "양념장"
+        },
+        {
+          "ingredientId": "mfds-ingredient-0fd99b873117",
+          "amount": 8,
+          "unit": "g",
+          "sourceText": "굵은고춧가루 1큰술 (8g)",
+          "group": "양념장"
+        },
+        {
+          "ingredientId": "sesame-oil",
+          "amount": 7,
+          "unit": "g",
+          "sourceText": "참기름 1큰술 (7g)",
+          "group": "양념장"
+        },
+        {
+          "ingredientId": "sesame-seeds",
+          "amount": 5,
+          "unit": "g",
+          "sourceText": "통깨 1큰술 (5g)",
+          "group": "양념장"
+        }
+      ]
+    },
+    {
+      "videoId": "TFcNckg-1bQ",
+      "recipeId": "paik-TFcNckg-1bQ",
+      "name": "고추장찌개",
+      "sourceUrl": "https://www.youtube.com/watch?v=TFcNckg-1bQ",
+      "sourceTitle": "느낌 좋아~ 느좋 고추장찌개",
+      "checkedOn": "2026-11-23",
+      "verificationMethod": "user-provided-source-transcription",
+      "independentSourceFetchVerified": false,
+      "baseServings": 2,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "원문 인분 미기재. 돼지고기 목살 210g·두부 150g·애호박 160g·물 500ml의 전체 양을 밥과 먹는 2인분으로 편집 추정. 원작자 명시 인분 아님.",
+      "ingredientHash": "2931326c65023211b00e10e1621d01a36f74290cbc35f52f1b4ba36750adddbd",
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 500,
+          "unit": "ml",
+          "sourceText": "정수물 500ml",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "mfds-ingredient-48f0320f90f9",
+          "amount": 210,
+          "unit": "g",
+          "sourceText": "돼지고기목살 1+½컵 (210g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "tofu",
+          "amount": 150,
+          "unit": "g",
+          "sourceText": "두부 ½모 (150g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "zucchini",
+          "amount": 160,
+          "unit": "g",
+          "sourceText": "애호박 ½개 (160g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "onion",
+          "amount": 120,
+          "unit": "g",
+          "sourceText": "양파 ½개 (120g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 50,
+          "unit": "g",
+          "sourceText": "대파 ½대 (50g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "hot-pepper",
+          "amount": 10,
+          "unit": "g",
+          "sourceText": "청양고추 2개 (10g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "oil",
+          "amount": 14,
+          "unit": "g",
+          "sourceText": "식용유 2큰술 (14g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "gochujang",
+          "amount": 30,
+          "unit": "g",
+          "sourceText": "고추장 1+1/2큰술 (30g)",
+          "group": "양념재료"
+        },
+        {
+          "ingredientId": "mfds-ingredient-2d8307addb5e",
+          "amount": 30,
+          "unit": "g",
+          "sourceText": "새우젓 1+1/2큰술 (30g)",
+          "group": "양념재료"
+        },
+        {
+          "ingredientId": "mfds-ingredient-065674f43417",
+          "amount": 6,
+          "unit": "g",
+          "sourceText": "고운 고춧가루 1큰술 (6g)",
+          "group": "양념재료"
+        },
+        {
+          "ingredientId": "mfds-ingredient-0fd99b873117",
+          "amount": 4,
+          "unit": "g",
+          "sourceText": "굵은 고춧가루 ½큰술 (4g)",
+          "group": "양념재료"
+        },
+        {
+          "ingredientId": "mfds-ingredient-87abf0d56e01",
+          "amount": 10,
+          "unit": "g",
+          "sourceText": "국간장 1큰술(10g)",
+          "group": "양념재료"
+        },
+        {
+          "ingredientId": "minced-garlic",
+          "amount": 20,
+          "unit": "g",
+          "sourceText": "간마늘 1큰술 (20g)",
+          "group": "양념재료"
+        },
+        {
+          "ingredientId": "pepper",
+          "amount": null,
+          "unit": null,
+          "sourceText": "후춧가루 약간",
+          "group": "양념재료"
+        }
+      ]
+    }
+  ]
+}

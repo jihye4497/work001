@@ -6,9 +6,9 @@
   "completePublicTraversal": true,
   "scope": "공개 영상 목록의 대조 완료를 의미하며, 모든 영상의 레시피 등록 완료를 뜻하지 않음. 쇼츠는 제외하고 한 영상의 여러 대체 조리법은 검수한 대표 버전으로 등록.",
   "counts": {
-    "existing": 160,
+    "existing": 163,
     "added": 135,
-    "pending": 81,
+    "pending": 78,
     "excluded-short": 4
   },
   "entries": [
@@ -24,17 +24,15 @@
       "videoId": "bFX5lJgCPBQ",
       "sourceTitle": "쌀쌀한 가을에 당면만둣국 한 그릇",
       "sourceUrl": "https://www.youtube.com/watch?v=bFX5lJgCPBQ",
-      "status": "pending",
-      "reason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "status": "existing",
+      "recipeId": "paik-bFX5lJgCPBQ"
     },
     {
       "videoId": "4RnCNlE1b6U",
       "sourceTitle": "초간단 \"무\"밥 이렇게 드세요",
       "sourceUrl": "https://www.youtube.com/watch?v=4RnCNlE1b6U",
-      "status": "pending",
-      "reason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "status": "existing",
+      "recipeId": "paik-4RnCNlE1b6U"
     },
     {
       "videoId": "vr1CkOr9Huw",
@@ -64,9 +62,8 @@
       "videoId": "TFcNckg-1bQ",
       "sourceTitle": "느낌 좋아~ 느좋 고추장찌개",
       "sourceUrl": "https://www.youtube.com/watch?v=TFcNckg-1bQ",
-      "status": "pending",
-      "reason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "status": "existing",
+      "recipeId": "paik-TFcNckg-1bQ"
     },
     {
       "videoId": "pQb5r01FXeY",

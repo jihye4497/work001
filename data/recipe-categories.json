@@ -18386,6 +18386,30 @@
         "한식 국·찌개"
       ],
       "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-bFX5lJgCPBQ",
+      "name": "당면만둣국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-4RnCNlE1b6U",
+      "name": "냄비 무밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-TFcNckg-1bQ",
+      "name": "고추장찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
     }
   ]
 }

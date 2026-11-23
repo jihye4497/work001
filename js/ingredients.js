@@ -3,6 +3,7 @@ import { isCookingWater } from './ingredient-aliases.js';
 import { applyRecipeImages } from './recipe-images.js';
 import { applyRecipeCategories } from './recipe-filters.js';
 import { primaryIngredientIds } from './ingredient-matching.js';
+import { applyRecipeDisplayNames } from './recipe-display-names.js';
 export const CATEGORIES = ['채소·버섯', '육류·해산물', '두부·계란·기타', '양념·조미료'];
 
 export function validateData(ingredients, recipes) {
@@ -50,7 +51,7 @@ export async function loadData() {
   }));
   const byId=new Map(data[0].map(i=>[i.id,i]));
   const recipes=applyRecipeImages(applyRecipeCategories(data[1],data[2]),data[3],data[4]).map(r=>({...r,primaryIngredientIds:primaryIngredientIds(r,byId)}));
-  return validateData(data[0],recipes);
+  return validateData(data[0],applyRecipeDisplayNames(recipes));
 }
 
 // Display-only curation; imported ingredient definitions remain unchanged.
