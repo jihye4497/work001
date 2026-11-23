@@ -2,6 +2,8 @@ import { CATEGORIES } from './ingredients.js';
 import { isCookingWater } from './ingredient-aliases.js';
 import { servingLabel } from './servings.js';
 import { ingredientKey, representativeIngredient } from './ingredient-matching.js';
+import { canonicalIngredientName } from './ingredient-aliases.js';
+import { preparationFamilyName } from './ingredient-preparations.js';
 
 export function selectedServings(selection, household) {
   return selection.servings ?? household * selection.times;
@@ -15,11 +17,21 @@ export function aggregate(ingredients, recipes, selectedRecipes, servings) {
     const recipe = byRecipe.get(selection.recipeId);
     if (!recipe) throw new Error('선택 메뉴의 데이터를 찾을 수 없어요.');
     for (const item of recipe.ingredients) {
-      const ingredient = representativeIngredient(byId.get(selection.ingredientReplacements?.[item.ingredientId] || item.ingredientId),byId);
+      const source = byId.get(selection.ingredientReplacements?.[item.ingredientId] || item.ingredientId);
+      const ingredient = representativeIngredient(source,byId);
       if (!ingredient) throw new Error('재료 데이터를 찾을 수 없어요.');
       const row = rows.get(ingredient.id) || { ingredient, totals: new Map(), unknown: false, uses: [] };
       const amount = item.amount === null ? null : item.amount * selectedServings(selection, servings) / recipe.baseServings;
-      if (amount === null || item.unit === null) row.unknown = true;
+      // A yolk, a boiled egg and a whole egg cannot share a gram total.
+      if(preparationFamilyName(ingredient)) {
+        row.preparations ??= new Map();
+        const form=canonicalIngredientName(source)||source.name;
+        const part=row.preparations.get(form)||{totals:new Map(),unknown:false};
+        if(amount===null||item.unit===null)part.unknown=true;
+        else part.totals.set(item.unit,(part.totals.get(item.unit)||0)+amount);
+        row.preparations.set(form,part);
+        if(form===ingredient.name){row.totals=part.totals;row.unknown=part.unknown;}
+      } else if (amount === null || item.unit === null) row.unknown = true;
       else row.totals.set(item.unit, (row.totals.get(item.unit) || 0) + amount);
       if (recipe.servingsStatus === 'estimated') row.estimated = true;
       row.uses.push({ originalIngredientName:byId.get(item.ingredientId)?.name, name: recipe.name, amount, unit: item.unit, note: item.note, servingLabel: servingLabel(recipe), servings: selectedServings(selection, servings), times: 1 });
@@ -35,6 +47,7 @@ export function quantity(amount, unit) {
   return `${new Intl.NumberFormat('ko-KR', { maximumFractionDigits: 4 }).format(amount)}${unit}`;
 }
 export function totalText(row) {
+  if(row.preparations)return [...row.preparations].map(([form,part])=>`${row.preparations.size===1&&form===row.ingredient.name?'':`${form} `}${totalText(part)}`).join(' + ');
   return [...row.totals].map(([unit, amount]) => quantity(amount, unit)).concat(row.unknown ? ['수량 미기재'] : []).join(' + ');
 }
 const isDrinkingWater = isCookingWater;

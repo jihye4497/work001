@@ -100,7 +100,7 @@ test('soft-tofu egg marinade preserves boiled eggs, spoon units and its original
  assert.ok(chili);assert.equal(chili.amount,4);assert.equal(chili.unit,'숟가락');
  const doubled=aggregate(ingredients,recipes,[{recipeId:recipe.id,servings:recipe.baseServings*2}],1);
  assert.equal(doubled.find(row=>row.ingredient.id===tofu.ingredientId)?.totals.get('g'),1400);
- assert.equal(doubled.find(row=>row.ingredient.id===eggs.ingredientId)?.totals.get('개'),10);
+ assert.equal(doubled.find(row=>row.ingredient.name==='계란')?.preparations.get('삶은 계란')?.totals.get('개'),10);
 });
 
 test('clam noodles count the same 1kg clams once across cleaning and cooking sections',()=>{

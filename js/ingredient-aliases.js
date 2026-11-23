@@ -1,5 +1,15 @@
 // User-reviewed equivalences only. Fresh/dried/powder/liquid and distinct products stay separate.
 export const INGREDIENT_ALIAS_GROUPS=[
+ {name:'소힘줄',aliases:['스지']},
+ {name:'돼지 목전지',aliases:['목전지']},
+ {name:'진짬뽕 라면',aliases:['진짬뽕']},
+ {name:'칼국수면',aliases:['칼국수 사리']},
+ {name:'냉동 돈까스',aliases:['냉동 돈가스']},
+ {name:'삶은 계란',aliases:['삶은 달걀']},
+ {name:'어묵볼',aliases:['동그란 어묵']},
+ {name:'돼지 앞다리살',aliases:['돼지 앞다리']},
+ {name:'몬트리올 스테이크 시즈닝',aliases:['몬트리올 시즈닝']},
+ {name:'김치',aliases:['익은 김치']},
  {name:'양파',aliases:['다진 양파','깐양파','양파다진것','양파채썬것','양파작게자른것','간 양파','채 썬 양파'],note:'원문 손질 상태 유지'},
  {name:'생강',aliases:['통생강','깐생강','얇게 썬 생강','다진 생강','생강다진것'],note:'원문 손질 상태 유지'},
  {name:'파프리카',aliases:['다진 파프리카','2가지색 파프리카','두 가지 색 파프리카','삼색파프리카'],note:'원문 색상·손질 요구 유지'},

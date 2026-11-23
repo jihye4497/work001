@@ -1,0 +1,754 @@
+{
+  "checkedOn": "2026-11-23",
+  "scope": "조리 전후 재료 중복 점검. 원본·별칭 연결 변경 없음.",
+  "note": "껍질 포함 여부·수분 변화·조리 손실이 불명확한 g/kg 수량은 생재료와 자동 통합하지 않음.",
+  "entries": [
+    {
+      "ingredientId": "mfds-ingredient-432965f9b47f",
+      "name": "삶은 달걀",
+      "units": {
+        "개": 10,
+        "g": 5,
+        "unspecified": 4
+      },
+      "uses": [
+        {
+          "recipeId": "mfds-cookrcp01-3296",
+          "amount": 3,
+          "unit": "개"
+        },
+        {
+          "recipeId": "mfds-cookrcp01-3363",
+          "amount": 0.5,
+          "unit": "개"
+        },
+        {
+          "recipeId": "mfds-cookrcp01-225",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "recipeId": "mfds-cookrcp01-449",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "recipeId": "mfds-cookrcp01-1030",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "recipeId": "mfds-cookrcp01-3227",
+          "amount": 1,
+          "unit": "개"
+        },
+        {
+          "recipeId": "paik-FbApByZGCXg",
+          "amount": 0.5,
+          "unit": "개"
+        },
+        {
+          "recipeId": "paik-3p4xH_IZhH4",
+          "amount": 20,
+          "unit": "개"
+        },
+        {
+          "recipeId": "paik-t4Es8mwdYlE",
+          "amount": 3,
+          "unit": "개"
+        },
+        {
+          "recipeId": "paik-6jCf19GzNcY",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "recipeId": "caden-lEi-7QVx97Y",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-787",
+          "amount": 5,
+          "unit": "개"
+        },
+        {
+          "recipeId": "mincook-blog-757",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-743",
+          "amount": 3,
+          "unit": "개"
+        },
+        {
+          "recipeId": "mincook-blog-650",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "recipeId": "mincook-blog-461",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-417",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-130",
+          "amount": 5,
+          "unit": "개"
+        },
+        {
+          "recipeId": "mincook-blog-129",
+          "amount": 3,
+          "unit": "개"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mfds-ingredient-957e5120fd7a",
+      "name": "삶은 검은콩",
+      "units": {
+        "컵": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mfds-cookrcp01-3273",
+          "amount": 0.5,
+          "unit": "컵"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mfds-ingredient-f959e2971150",
+      "name": "삶은 완두콩",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mfds-cookrcp01-249",
+          "amount": 30,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mfds-ingredient-61c1b6fd6dc9",
+      "name": "삶은 닭가슴살",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mfds-cookrcp01-312",
+          "amount": 50,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mfds-ingredient-15d43c270dc4",
+      "name": "삶은 스파게티",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mfds-cookrcp01-3216",
+          "amount": 80,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mfds-ingredient-8554e631ea1c",
+      "name": "삶은 달걀 노른자",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mfds-cookrcp01-1006",
+          "amount": 5,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mfds-ingredient-f08b8f43c637",
+      "name": "볶은 호두",
+      "units": {
+        "g": 3
+      },
+      "uses": [
+        {
+          "recipeId": "mfds-cookrcp01-3236",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "recipeId": "mincook-blog-661",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "recipeId": "mincook-blog-656",
+          "amount": 30,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mfds-ingredient-37acf7fb66d3",
+      "name": "볶은 아몬드 슬라이스",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mfds-cookrcp01-3236",
+          "amount": 5,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mfds-ingredient-9100138a1135",
+      "name": "볶은 흑임자",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mfds-cookrcp01-113",
+          "amount": 6,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mfds-ingredient-beece57626a0",
+      "name": "데친 꼬막살",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mfds-cookrcp01-224",
+          "amount": 14,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mfds-ingredient-f93c3b9b67a3",
+      "name": "삶은 메추리알",
+      "units": {
+        "g": 3,
+        "kg": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mfds-cookrcp01-245",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "recipeId": "paik-ysCrvaErHKE",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "recipeId": "paik-RmZyxKOUbfs",
+          "amount": 1,
+          "unit": "kg"
+        },
+        {
+          "recipeId": "mincook-blog-763",
+          "amount": 500,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mfds-ingredient-f3ff75d4f471",
+      "name": "데친 미나리",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mfds-cookrcp01-270",
+          "amount": 2,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mfds-ingredient-c7704eb69c43",
+      "name": "구운 호두",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mfds-cookrcp01-3768",
+          "amount": 15,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mfds-ingredient-a2838ba16372",
+      "name": "삶은 감자",
+      "units": {
+        "g": 1,
+        "unspecified": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mfds-cookrcp01-3210",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "recipeId": "mincook-blog-517",
+          "amount": null,
+          "unit": null
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mfds-ingredient-b5adeb3c5405",
+      "name": "달걀 삶은것",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mfds-cookrcp01-925",
+          "amount": 20,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mfds-ingredient-87c85d601e01",
+      "name": "삶은 쌀소면",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mfds-cookrcp01-3228",
+          "amount": 80,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mfds-ingredient-66f76f3266a9",
+      "name": "구운 김",
+      "units": {
+        "장": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mfds-cookrcp01-3233",
+          "amount": 1,
+          "unit": "장"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "boiled-bean-sprouts",
+      "name": "삶은 콩나물",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "paik-FbApByZGCXg",
+          "amount": 80,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "boiled-corn",
+      "name": "삶은 옥수수",
+      "units": {
+        "개": 1
+      },
+      "uses": [
+        {
+          "recipeId": "paik-9YlFFVisCBY",
+          "amount": 2,
+          "unit": "개"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mincook-ingredient-08edb5fb841a",
+      "name": "데친 우거지",
+      "units": {
+        "unspecified": 1,
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mincook-blog-789",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-434",
+          "amount": 600,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mincook-ingredient-27ab8e8bbc73",
+      "name": "계란프라이",
+      "units": {
+        "unspecified": 14,
+        "개": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mincook-blog-774",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-766",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-742",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-742",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-733",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-732",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-728",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-576",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-537",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-521",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-518",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-493",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-431",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-309",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-26",
+          "amount": 3,
+          "unit": "개"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mincook-ingredient-53814308dd79",
+      "name": "삶은 메밀면",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mincook-blog-718",
+          "amount": 300,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mincook-ingredient-21d3d80de169",
+      "name": "데친 토란대",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mincook-blog-667",
+          "amount": 400,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mincook-ingredient-c5321587a7b1",
+      "name": "삶은 시래기",
+      "units": {
+        "g": 2
+      },
+      "uses": [
+        {
+          "recipeId": "mincook-blog-617",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "recipeId": "mincook-blog-383",
+          "amount": 300,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mincook-ingredient-6ec8fa4ace72",
+      "name": "삶은 토란대",
+      "units": {
+        "g": 2
+      },
+      "uses": [
+        {
+          "recipeId": "mincook-blog-616",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "recipeId": "mincook-blog-185",
+          "amount": 200,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mincook-ingredient-0f7c4e0c9521",
+      "name": "삶은 계란",
+      "units": {
+        "unspecified": 3,
+        "개": 2
+      },
+      "uses": [
+        {
+          "recipeId": "mincook-blog-378",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-352",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-237",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-87",
+          "amount": 0.5,
+          "unit": "개"
+        },
+        {
+          "recipeId": "mincook-blog-72",
+          "amount": 2,
+          "unit": "개"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mincook-ingredient-f96bdc5100d3",
+      "name": "계란 지단",
+      "units": {
+        "unspecified": 2
+      },
+      "uses": [
+        {
+          "recipeId": "mincook-blog-221",
+          "amount": null,
+          "unit": null
+        },
+        {
+          "recipeId": "mincook-blog-142",
+          "amount": null,
+          "unit": null
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mincook-ingredient-57c0b306939e",
+      "name": "삶은 무뼈닭발",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mincook-blog-177",
+          "amount": 500,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mincook-ingredient-b216fd932822",
+      "name": "구운 곱창",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mincook-blog-177",
+          "amount": 500,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mincook-ingredient-582a8f167b48",
+      "name": "구운 대창",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mincook-blog-177",
+          "amount": 200,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mincook-ingredient-39a090c21571",
+      "name": "삶은 막창",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mincook-blog-153",
+          "amount": 300,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mincook-ingredient-7f7803693ea0",
+      "name": "삶은 돼지곱창",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mincook-blog-38",
+          "amount": 300,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mincook-ingredient-7c4dbf4270c4",
+      "name": "데친 시래기",
+      "units": {
+        "g": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mincook-blog-22",
+          "amount": 700,
+          "unit": "g"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    },
+    {
+      "ingredientId": "mincook-ingredient-8398abe037c5",
+      "name": "데친 토란줄기",
+      "units": {
+        "줌": 1
+      },
+      "uses": [
+        {
+          "recipeId": "mincook-blog-18",
+          "amount": 2,
+          "unit": "줌"
+        }
+      ],
+      "decision": "원문 조리 상태와 수량 보존. 개수 연결과 중량 환산을 구분해 후속 검토."
+    }
+  ]
+}
