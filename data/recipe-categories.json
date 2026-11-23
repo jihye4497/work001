@@ -11946,6 +11946,542 @@
         "한식 반찬"
       ],
       "mealRole": "반찬"
+    },
+    {
+      "recipeId": "eonam-HyHZML6OyDo",
+      "name": "기사식당 왕돈가스",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-BMRUgSrWlVQ",
+      "name": "경양식 만능소스",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-MSf9iVH1oro",
+      "name": "오징어회무침",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-x9zcO0tldyA",
+      "name": "천원 깻잎전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "eonam-E7tCGvcsN2Y",
+      "name": "양념돼지갈비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-jHaWY84BhoQ",
+      "name": "가지전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "eonam-Td5XtUNGtEk",
+      "name": "전간장",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "eonam-tjaY3RjR38M",
+      "name": "동태전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "eonam-JbN-06OodeI",
+      "name": "참간초파스타",
+      "categories": [
+        "퓨전"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-vmqwAJVehgw",
+      "name": "참간초소스 2024",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "eonam-08gB4NmhkQ0",
+      "name": "평생갈비찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-FcdH-oWBATQ",
+      "name": "만원족발",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-AD_my4EIUfo",
+      "name": "쟁반막국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-1iP__c1t0qM",
+      "name": "무침만두",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-HyaQaxPqUNc",
+      "name": "어묵제육",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "eonam-91KSUbId_fE",
+      "name": "만원찜닭",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-As8bN8Yr8oQ",
+      "name": "두부조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "eonam-NlaIu6iSRtw",
+      "name": "러브 황태해장국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "eonam-Zo-fyaKH1GI",
+      "name": "고추장버터등갈비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-L-9Fz67_bAo",
+      "name": "게장양념 비빔냉면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-wTak9YFltc8",
+      "name": "어묵볶이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-oVpC_Fi6FgY",
+      "name": "궁중떡볶이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-1doS_Q1gM08",
+      "name": "평생육개장",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "eonam-xDCX-xm5ftc",
+      "name": "대패삼겹꼬치구이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-yDAzLQfssz4",
+      "name": "두부김치",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-0p9znJRopAI",
+      "name": "볶음김치덮밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-DO5V72HepS8",
+      "name": "만원 닭볶음탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "eonam-ECF90_seLS0",
+      "name": "평생 생선조림장",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "eonam-0gArpPNraOc",
+      "name": "호떡볶이",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-au6EZ2Mz1Bk",
+      "name": "15분 사골떡국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "eonam-lK68IL48o28",
+      "name": "만원갈비찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-z0El5XIQSxI",
+      "name": "차돌볶음파스타",
+      "categories": [
+        "퓨전"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-y0Nm-jXZYzQ",
+      "name": "짜장떡볶이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-qRa49obXGQE",
+      "name": "평생 김치찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "eonam-q7jPrVsTvSo",
+      "name": "평생 된장찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "eonam-RLy4fO4fqBA",
+      "name": "표고밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-wDZS0lf9ciw",
+      "name": "물로 하는 계란프라이",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "eonam-a8C_J9JXvN8",
+      "name": "토마토홍합파스탕",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-reFpxBbaN6c",
+      "name": "크레이지 고구마",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-moCmXDf5vSI",
+      "name": "원팬 등갈비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-kn9woORbeK8",
+      "name": "땅콩마요잼",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-9iwaoHo9jV0",
+      "name": "감자탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "eonam-gesnBr3acQ4",
+      "name": "순대볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-q7flYfIP9L4",
+      "name": "순대튀김",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-MMQ3fsbJ-CY",
+      "name": "촉촉한 순대",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-cX9PZP3d6_g",
+      "name": "어구리라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-k1h60IZmINs",
+      "name": "꽈리멸치치킨",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-GSJJXoPQulE",
+      "name": "연어육회",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-6dofaIP-sho",
+      "name": "육포고추장",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "eonam-Vikj7_ZA2Nk",
+      "name": "꽃게라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-g5UQH_n4I5I",
+      "name": "한단미나리전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "eonam-qAEMsX98tNE",
+      "name": "골뱅이소면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-wN0XpiWukjQ",
+      "name": "기본초장",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "eonam-3Cb1Le-NzRc",
+      "name": "마늘수육",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-XnEANwySB6w",
+      "name": "불양념치킨",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-K1JKk7VtPgw",
+      "name": "라볶이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-KD-LsfX3fSI",
+      "name": "계란샌드위치",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-QSoOO8oxKFM",
+      "name": "매콤게살볶음밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-M0DiTBRAGV0",
+      "name": "스햄순두부찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "eonam-X_DXKtfTB9s",
+      "name": "컵라면 김치전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "eonam-NWuYo7sYHlo",
+      "name": "꿀새우피자",
+      "categories": [
+        "퓨전"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-sT5KsSpq8w4",
+      "name": "오징어볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-kdhAx2GrZcQ",
+      "name": "갈비치킨",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-FBIPDn0C3uw",
+      "name": "휴게소 버터감자",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "eonam-5GdYq4SEkjI",
+      "name": "대패육전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "eonam-2zlotzZ7Ep0",
+      "name": "냄비 바비큐",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "eonam-BpmI7lnWztk",
+      "name": "수란 김치죽",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
     }
   ]
 }

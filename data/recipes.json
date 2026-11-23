@@ -114841,5 +114841,5191 @@
         "note": "원문: 간장(50cc)"
       }
     ]
+  },
+  {
+    "id": "eonam-HyHZML6OyDo",
+    "name": "기사식당 왕돈가스",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "튀김",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=HyHZML6OyDo",
+    "sourceTitle": "[어남선생 레시피] 집에서 쉽게! 저렴하게! 왕 크게! 먹을 수 있는 [기사식당 왕돈가스] 레시피 [신상출시 편스토랑/Fun-Staurant] | KBS 241206 방송",
+    "sourceNote": "KBS Entertain / 영상 HyHZML6OyDo; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "pork-tenderloin",
+        "amount": 400,
+        "unit": "g",
+        "note": "원문: 돼지 안심 400g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-6bea3fc467c4",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 빵가루"
+      },
+      {
+        "ingredientId": "mfds-ingredient-db2374a87cd0",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 밀가루"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 달걀 2개"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 2,
+        "unit": "꼬집",
+        "note": "원문: 소금 2꼬집"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2b7e75051be2",
+        "amount": 100,
+        "unit": "ml",
+        "note": "원문: 우유 100ml"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 0.3333333333333333,
+        "unit": "T",
+        "note": "원문: 소금 1/3T"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": 20,
+        "unit": "바퀴",
+        "note": "원문: 후추 20바퀴"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fcf2d4ba8a5a",
+        "amount": 0.5,
+        "unit": "t",
+        "note": "원문: 다진생강 0.5t"
+      }
+    ]
+  },
+  {
+    "id": "eonam-BMRUgSrWlVQ",
+    "name": "경양식 만능소스",
+    "baseServings": 6,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 6인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "소스",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=BMRUgSrWlVQ",
+    "sourceTitle": "[어남선생 레시피] 진짜 맛있는★ 돈가스 소스 레시피! 다양하게 쓸 수 있는 [경양식 만능소스]  [신상출시 편스토랑/Fun-Staurant] | KBS 241206 방송",
+    "sourceNote": "KBS Entertain / 영상 BMRUgSrWlVQ; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-ec9463562106",
+        "amount": 10,
+        "unit": "T",
+        "note": "원문: 시판 돈가스소스 10T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b1789e6cdede",
+        "amount": 5,
+        "unit": "T",
+        "note": "원문: 케첩 5T"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 양파 1/2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-46b97d1a17c3",
+        "amount": 60,
+        "unit": "g",
+        "note": "원문: 버터 60g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-db2374a87cd0",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 밀가루 4T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 설탕 1T"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 3,
+        "unit": "꼬집",
+        "note": "원문: 소금 3꼬집"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 300,
+        "unit": "ml",
+        "note": "원문: 물 300ml"
+      }
+    ]
+  },
+  {
+    "id": "eonam-MSf9iVH1oro",
+    "name": "오징어회무침",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "무침",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=MSf9iVH1oro",
+    "sourceTitle": "［어남선생 레시피］저렴한 냉동오징어로 만드는 매콤새콤 ［오징어회무침］! 덮밥으로 먹어도 최고 [신상출시 편스토랑/Fun-Staurant] | KBS 241025 방송",
+    "sourceNote": "KBS Entertain / 영상 MSf9iVH1oro; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "squid",
+        "amount": 2,
+        "unit": "마리",
+        "note": "원문: 손질냉동오징어 2마리"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a367ab3717bf",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 무 1/2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e49ac78e9ae8",
+        "amount": 1,
+        "unit": "단",
+        "note": "원문: 미나리 1단"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 5,
+        "unit": "T",
+        "note": "원문: 식초 5T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 설탕 2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-31e6dfb7fb45",
+        "amount": 3,
+        "unit": "꼬집",
+        "note": "원문: 맛소금 3꼬집"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 깨 2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-4ef9b7d8ecdb",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 소면 100g"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 고춧가루 4T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 설탕 4T"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 참기름 4T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 양조간장 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 식초 3T"
+      },
+      {
+        "ingredientId": "gochujang",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 고추장 2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b1789e6cdede",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 케첩 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-27c6fd1abbf1",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 까나리액젓 1T"
+      }
+    ]
+  },
+  {
+    "id": "eonam-x9zcO0tldyA",
+    "name": "천원 깻잎전",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 2인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "전",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=x9zcO0tldyA",
+    "sourceTitle": "［어남선생 레시피］천원 레시피 2탄! 깻잎만 있으면 되는 겉바속촉 ［천원 깻잎전］가심비 최고! [신상출시 편스토랑/Fun-Staurant] | KBS 241025 방송",
+    "sourceNote": "KBS Entertain / 영상 x9zcO0tldyA; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-e957e8de9164",
+        "amount": 10,
+        "unit": "장",
+        "note": "원문: 깻잎 10장"
+      },
+      {
+        "ingredientId": "mfds-ingredient-08a73ebcbd22",
+        "amount": 1,
+        "unit": "컵",
+        "note": "원문: 부침가루 1컵"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 1,
+        "unit": "컵",
+        "note": "원문: 찬물 1컵+2T"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 찬물 1컵+2T"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 3,
+        "unit": "꼬집",
+        "note": "원문: 소금 3꼬집 식용유"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금 3꼬집 식용유"
+      }
+    ]
+  },
+  {
+    "id": "eonam-E7tCGvcsN2Y",
+    "name": "양념돼지갈비",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "구이",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=E7tCGvcsN2Y",
+    "sourceTitle": "[어남선생 레시피] 외식 메뉴 1위 [양념돼지갈비]★ 복잡한 건 다 빼고 만든 양념에 불맛 팁까지 [신상출시 편스토랑/Fun-Staurant] | KBS 241004 방송",
+    "sourceNote": "KBS Entertain / 영상 E7tCGvcsN2Y; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-c85d48c8feb8",
+        "amount": 600,
+        "unit": "g",
+        "note": "원문: 목살 600g"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "대",
+        "note": "원문: 대파 1대"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 5,
+        "unit": "T",
+        "note": "원문: 진간장 5T"
+      },
+      {
+        "ingredientId": "tuna-extract",
+        "amount": 5,
+        "unit": "T",
+        "note": "원문: 참치액 5T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 5,
+        "unit": "T",
+        "note": "원문: 설탕 5T"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 참기름 3T"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 다진마늘 듬뿍 2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 식초 1T"
+      },
+      {
+        "ingredientId": "pear-soft-drink",
+        "amount": 238,
+        "unit": "ml",
+        "note": "원문: 갈아만든 배 1캔(238ml)"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": 20,
+        "unit": "바퀴",
+        "note": "원문: 후추 20바퀴"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 깨 1T"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": 3,
+        "unit": "바퀴",
+        "note": "원문: 식용유 3바퀴"
+      }
+    ]
+  },
+  {
+    "id": "eonam-jHaWY84BhoQ",
+    "name": "가지전",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 2인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "전",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=jHaWY84BhoQ",
+    "sourceTitle": "[어남선생 레시피] 번거로운 전은 NO! 계란물도 필요 없는★초간단 [가지전] 겉바속촉 끝판왕 [신상출시 편스토랑/Fun-Staurant] | KBS 240830 방송",
+    "sourceNote": "KBS Entertain / 영상 jHaWY84BhoQ; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-b16bec1ce2b9",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 가지 2개"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 150,
+        "unit": "ml",
+        "note": "원문: 찬물 150ml"
+      },
+      {
+        "ingredientId": "mfds-ingredient-08a73ebcbd22",
+        "amount": 7,
+        "unit": "T",
+        "note": "원문: 부침가루 7T"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 2,
+        "unit": "꼬집",
+        "note": "원문: 소금 2꼬집"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      }
+    ]
+  },
+  {
+    "id": "eonam-Td5XtUNGtEk",
+    "name": "전간장",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "양념장",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=Td5XtUNGtEk",
+    "sourceTitle": "[어남선생 레시피] 전집에서도 이건 안 알려줘! ○○을 넣으면 확! 맛있어져요 [어남선생 전간장] [신상출시 편스토랑/Fun-Staurant] | KBS 240830 방송",
+    "sourceNote": "KBS Entertain / 영상 Td5XtUNGtEk; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 양조간장 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 식초 1T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 설탕 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fcf2d4ba8a5a",
+        "amount": 0.3333333333333333,
+        "unit": "t",
+        "note": "원문: 다진생강 1/3t"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 대파"
+      },
+      {
+        "ingredientId": "hot-pepper",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 청양고추 1/2개"
+      }
+    ]
+  },
+  {
+    "id": "eonam-tjaY3RjR38M",
+    "name": "동태전",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "전",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=tjaY3RjR38M",
+    "sourceTitle": "[어남선생 레시피] 추석 준비는 끝! 어남선생의 전 부치기 꿀팁 대방출★ 전 중의 기본 [동태전] [신상출시 편스토랑/Fun-Staurant] | KBS 240830 방송",
+    "sourceNote": "KBS Entertain / 영상 tjaY3RjR38M; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-e9cf0ef75a71",
+        "amount": 600,
+        "unit": "g",
+        "note": "원문: 냉동동태포 600g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-08a73ebcbd22",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 부침가루"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 4,
+        "unit": "개",
+        "note": "원문: 달걀 4개"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 2,
+        "unit": "꼬집",
+        "note": "원문: 소금 2꼬집"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 1,
+        "unit": "L",
+        "note": "원문: 물 1L"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e2f9b8467114",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 굵은소금 2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 식초 1T"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      }
+    ]
+  },
+  {
+    "id": "eonam-JbN-06OodeI",
+    "name": "참간초파스타",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "재료의 면 인분 표기는 참고로만 사용하고 요리 전체 양을 메뉴별로 편집 추정(2026-11-23 사용자 승인). 원작자의 요리 전체 인분 명시는 아님.",
+    "cookMinutes": null,
+    "cookingType": "파스타",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=JbN-06OodeI",
+    "sourceTitle": "[어남선생 레시피] 업그레이드 참간초소스에 비벼비벼★ 매콤새콤 [참간초파스타] 계속 당기는 중독성 [신상출시 편스토랑/Fun-Staurant] | KBS 240830 방송",
+    "sourceNote": "KBS Entertain / 영상 JbN-06OodeI; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-87b6c85d8c40",
+        "amount": 2,
+        "unit": "인분",
+        "note": "원문: 파스타면 2인분"
+      },
+      {
+        "ingredientId": "kimchi",
+        "amount": 0.25,
+        "unit": "포기",
+        "note": "원문: 신김치 1/4포기"
+      },
+      {
+        "ingredientId": "mfds-ingredient-3ba1c580e487",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 오이 1/2개"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 양파 1/2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-8c532eb83399",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 빨간 파프리카 1/2개"
+      },
+      {
+        "ingredientId": "seasoned-gim",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 조미김"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 6,
+        "unit": "T",
+        "note": "원문: 참기름 6T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 6,
+        "unit": "T",
+        "note": "원문: 양조간장 6T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 식초 2T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 설탕 4T"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 고춧가루 2T"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 통깨 2T"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 물 2T"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 2,
+        "unit": "L",
+        "note": "원문: 물 2L"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e2f9b8467114",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 굵은소금 듬뿍 1T"
+      }
+    ]
+  },
+  {
+    "id": "eonam-vmqwAJVehgw",
+    "name": "참간초소스 2024",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "소스",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=vmqwAJVehgw",
+    "sourceTitle": "[어남선생 레시피] 어남선생 시그니처 소스 참간초에 매콤함을 더했다! [참간초소스 2024ver.] [신상출시 편스토랑/Fun-Staurant] | KBS 240830 방송",
+    "sourceNote": "KBS Entertain / 영상 vmqwAJVehgw; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 6,
+        "unit": "T",
+        "note": "원문: 참기름 6T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 6,
+        "unit": "T",
+        "note": "원문: 양조간장 6T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 식초 2T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 설탕 4T"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 고춧가루 2T"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 통깨 2T"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 물 2T"
+      }
+    ]
+  },
+  {
+    "id": "eonam-08gB4NmhkQ0",
+    "name": "평생갈비찜",
+    "baseServings": 6,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 6인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "찜",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=08gB4NmhkQ0",
+    "sourceTitle": "[어남선생 레시피] 소갈비찜은 평생 이 레시피로 끝 [평생갈비찜]★ 제이쓴도 놀란 신박 레시피  [신상출시 편스토랑/Fun-Staurant] | KBS 240816 방송",
+    "sourceNote": "KBS Entertain / 영상 08gB4NmhkQ0; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "beef-short-ribs",
+        "amount": 2,
+        "unit": "kg",
+        "note": "원문: 소갈비 2kg"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 양파 1개"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 2,
+        "unit": "대",
+        "note": "원문: 대파 2대"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a367ab3717bf",
+        "amount": 500,
+        "unit": "g",
+        "note": "원문: 무 500g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fb37e6e6db2c",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 홍고추 1개"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 다진마늘 4T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fcf2d4ba8a5a",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 다진생강 1/2T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 100,
+        "unit": "ml",
+        "note": "원문: 설탕 1/2컵(100ml)"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 200,
+        "unit": "ml",
+        "note": "원문: 진간장 1컵(200ml)"
+      },
+      {
+        "ingredientId": "tuna-extract",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 참치액 3T"
+      },
+      {
+        "ingredientId": "wine",
+        "amount": 200,
+        "unit": "ml",
+        "note": "원문: 미림 1컵(200ml)"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 5,
+        "unit": "T",
+        "note": "원문: 식초 5T"
+      },
+      {
+        "ingredientId": "pear-soft-drink",
+        "amount": 238,
+        "unit": "ml",
+        "note": "원문: 배 음료 1캔(238ml)"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 800,
+        "unit": "ml",
+        "note": "원문: 물 800ml"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": 2,
+        "unit": "바퀴",
+        "note": "원문: 식용유 2바퀴"
+      },
+      {
+        "ingredientId": "green-pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 풋고추 (매운맛을 원하면 청양고추) · 원문 대체 재료 중 풋고추 선택. 청양고추를 함께 추가하지 않음"
+      }
+    ]
+  },
+  {
+    "id": "eonam-FcdH-oWBATQ",
+    "name": "만원족발",
+    "baseServings": 8,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 8인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "삶기",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=FcdH-oWBATQ",
+    "sourceTitle": "[어남선생 레시피] 이렇게 푸짐하다고?? 맛집 족발 맛으로 완성한 [만원족발] 수육처럼 삶으면 끝! [신상출시 편스토랑/Fun-Staurant] | KBS 240712 방송",
+    "sourceNote": "KBS Entertain / 영상 FcdH-oWBATQ; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "eonam-pig-hind-trotter",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 장족 2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 1,
+        "unit": "컵",
+        "note": "원문: 진간장 1컵"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 1,
+        "unit": "컵",
+        "note": "원문: 설탕 1컵"
+      },
+      {
+        "ingredientId": "tuna-extract",
+        "amount": 0.5,
+        "unit": "컵",
+        "note": "원문: 참치액 1/2컵"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e2f9b8467114",
+        "amount": 0.5,
+        "unit": "컵",
+        "note": "원문: 굵은소금 1/2컵"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 0.5,
+        "unit": "컵",
+        "note": "원문: 식초 1/2컵"
+      },
+      {
+        "ingredientId": "eonam-sujeonggwa-drink",
+        "amount": 2,
+        "unit": "캔",
+        "note": "원문: 시판 수정과 음료 2캔(238ml*2) · 원문238ml용량2캔을 보존하고 한 캔의 중량으로 오인하지 않음"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": 1,
+        "unit": "줌",
+        "note": "원문: 통마늘 한줌"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e0b1eb622107",
+        "amount": 1,
+        "unit": "줌",
+        "note": "원문: 깐생강 한줌"
+      },
+      {
+        "ingredientId": "mfds-ingredient-ac1b9f7968ce",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 통후추 1T"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 양파 1개"
+      },
+      {
+        "ingredientId": "eonam-samgyetang-herb-pack",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 삼계탕 재료팩 1개"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 6,
+        "unit": "L",
+        "note": "원문: 물 6L"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2d8307addb5e",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 새우젓 1T"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 고춧가루 1/2T"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 참기름 1/2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식초"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 통깨"
+      }
+    ]
+  },
+  {
+    "id": "eonam-AD_my4EIUfo",
+    "name": "쟁반막국수",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "비빔면",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=AD_my4EIUfo",
+    "sourceTitle": "[어남선생 레시피] 막국수 양념장은 이제 이걸로 끝! 간단하게 만들어 푸짐하게 즐기는 [쟁반막국수] [신상출시 편스토랑/Fun-Staurant] | KBS 240712 방송",
+    "sourceNote": "KBS Entertain / 영상 AD_my4EIUfo; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-db39a8630179",
+        "amount": 300,
+        "unit": "g",
+        "note": "원문: 메밀면 300g"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 양파 1/2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-03f1be355a8b",
+        "amount": 5,
+        "unit": "장",
+        "note": "원문: 상추 5장"
+      },
+      {
+        "ingredientId": "mfds-ingredient-3ba1c580e487",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 오이 1/2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e8715cd21524",
+        "amount": 0.25,
+        "unit": "개",
+        "note": "원문: 양배추 1/4개"
+      },
+      {
+        "ingredientId": "seasoned-gim",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 조미김"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 고춧가루 3T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 설탕 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 식초 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 5,
+        "unit": "T",
+        "note": "원문: 양조간장 5T"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 5,
+        "unit": "T",
+        "note": "원문: 물 5T"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 다진마늘 1/2T"
+      },
+      {
+        "ingredientId": "gochujang",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 고추장 듬뿍 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-24bd88b39369",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 연겨자 도토리 크기만큼"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 통깨 듬뿍 1T"
+      }
+    ]
+  },
+  {
+    "id": "eonam-1iP__c1t0qM",
+    "name": "무침만두",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "무침",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=1iP__c1t0qM",
+    "sourceTitle": "[어남선생 레시피] 지금 당장 만들 수 있는 당장 레시피 [무침만두]! 유명 분식집 그 맛 나는 비법 [신상출시 편스토랑/Fun-Staurant] | KBS 240705 방송",
+    "sourceNote": "KBS Entertain / 영상 1iP__c1t0qM; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "frozen-dumplings",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 냉동만두 1~2봉 · 원문 수량 범위를 임의 단일값으로 만들지 않고 보존"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 고춧가루 4T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 설탕 4T"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 물 4T"
+      },
+      {
+        "ingredientId": "gochujang",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 고추장 듬뿍 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a370ec41eee9",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 굴소스 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b1789e6cdede",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 케첩 2T"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 깨 1T"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      }
+    ]
+  },
+  {
+    "id": "eonam-HyaQaxPqUNc",
+    "name": "어묵제육",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 2인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "볶음",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=HyaQaxPqUNc",
+    "sourceTitle": "[어남선생 레시피] 이제는 천원 레시피다! 천원 어묵으로 만드는 가성비 폭탄 [어묵제육] 탄생 [신상출시 편스토랑/Fun-Staurant] | KBS 240621 방송",
+    "sourceNote": "KBS Entertain / 영상 HyaQaxPqUNc; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-798e141239c6",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 사각어묵 4장(200g)"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "대",
+        "note": "원문: 대파 1대"
+      },
+      {
+        "ingredientId": "hot-pepper",
+        "amount": 4,
+        "unit": "개",
+        "note": "원문: 청양고추 4개"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 다진마늘 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 1.5,
+        "unit": "T",
+        "note": "원문: 진간장 1.5T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 1.5,
+        "unit": "T",
+        "note": "원문: 설탕 1.5T"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 1.5,
+        "unit": "T",
+        "note": "원문: 고춧가루 1.5T"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 참기름 1T"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": 10,
+        "unit": "바퀴",
+        "note": "원문: 후추 10바퀴"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 통깨"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": 3,
+        "unit": "바퀴",
+        "note": "원문: 식용유 3바퀴"
+      }
+    ]
+  },
+  {
+    "id": "eonam-91KSUbId_fE",
+    "name": "만원찜닭",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "찜",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=91KSUbId_fE",
+    "sourceTitle": "[어남선생 레시피] 만원 레시피 끝판왕이 떴다 [만원찜닭]★ 맛집 찜닭 이상의 맛을 집에서! [신상출시 편스토랑/Fun-Staurant] | KBS 240621 방송",
+    "sourceNote": "KBS Entertain / 영상 91KSUbId_fE; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-82e5449c6322",
+        "amount": 1,
+        "unit": "kg",
+        "note": "원문: 닭볶음탕용 닭 1kg"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "대",
+        "note": "원문: 대파 1대"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 양파 1개"
+      },
+      {
+        "ingredientId": "potato",
+        "amount": 3,
+        "unit": "개",
+        "note": "원문: 감자 3개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-1906f31df043",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 당면 100g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-f272044a65c1",
+        "amount": 1,
+        "unit": "줌",
+        "note": "원문: 베트남 건고추 한 줌"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 60,
+        "unit": "ml",
+        "note": "원문: 진간장 60ml(8T)"
+      },
+      {
+        "ingredientId": "eonam-jjajang-powder",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 짜장가루 2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a370ec41eee9",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 굴소스 2T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 설탕 3T"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 다진마늘 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fcf2d4ba8a5a",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 다진생강 1/2T"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 고춧가루 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 식초 1T"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": 20,
+        "unit": "바퀴",
+        "note": "원문: 후추 20바퀴"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 3,
+        "unit": "꼬집",
+        "note": "원문: 소금 3꼬집"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 800,
+        "unit": "ml",
+        "note": "원문: 물 800ml+100ml"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 100,
+        "unit": "ml",
+        "note": "원문: 물 800ml+100ml"
+      }
+    ]
+  },
+  {
+    "id": "eonam-As8bN8Yr8oQ",
+    "name": "두부조림",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "조림",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=As8bN8Yr8oQ",
+    "sourceTitle": "[어남선생 레시피] 이런 두부조림은 처음! 일품 요리 그 자체★ [어남선생 두부조림] [신상출시 편스토랑/Fun-Staurant] | KBS 240531 방송",
+    "sourceNote": "KBS Entertain / 영상 As8bN8Yr8oQ; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "tofu",
+        "amount": 350,
+        "unit": "g",
+        "note": "원문: 두부 1모(350g)"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 양파 1개"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "대",
+        "note": "원문: 대파 1대"
+      },
+      {
+        "ingredientId": "hot-pepper",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 청양고추 1개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fb37e6e6db2c",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 홍고추 1개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 진간장 2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a370ec41eee9",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 굴소스 2T"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 고춧가루 1T"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 다진마늘 1/2T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 설탕 1/2T"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": 20,
+        "unit": "바퀴",
+        "note": "원문: 후추 20바퀴"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 200,
+        "unit": "ml",
+        "note": "원문: 물 200ml"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      }
+    ]
+  },
+  {
+    "id": "eonam-NlaIu6iSRtw",
+    "name": "러브 황태해장국",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "국",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=NlaIu6iSRtw",
+    "sourceTitle": "[어남선생 레시피] 해장국은 평생 이 레시피로! [러브 황태해장국] 몽글몽글 계란 푸는 팁까지 [신상출시 편스토랑/Fun-Staurant] | KBS 240524 방송",
+    "sourceNote": "KBS Entertain / 영상 NlaIu6iSRtw; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-d7d67157bd25",
+        "amount": 50,
+        "unit": "g",
+        "note": "원문: 황태채 50g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a367ab3717bf",
+        "amount": 500,
+        "unit": "g",
+        "note": "원문: 무 500g"
+      },
+      {
+        "ingredientId": "tofu",
+        "amount": 0.5,
+        "unit": "모",
+        "note": "원문: 두부 1/2모"
+      },
+      {
+        "ingredientId": "mfds-ingredient-5f9bbbae4e81",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 콩나물 200g"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "대",
+        "note": "원문: 대파 1대"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 달걀 2개"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 다진마늘 1/2T"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 참기름 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 식초 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-87abf0d56e01",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 국간장 3T"
+      },
+      {
+        "ingredientId": "tuna-extract",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 참치액 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e2f9b8467114",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 굵은소금 1/2T"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 2,
+        "unit": "L",
+        "note": "원문: 물 2L"
+      }
+    ]
+  },
+  {
+    "id": "eonam-Zo-fyaKH1GI",
+    "name": "고추장버터등갈비",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "조림",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=Zo-fyaKH1GI",
+    "sourceTitle": "[어남선생 레시피] 집에서 원팬으로 쉽게 [고추장버터등갈비]★ 맛 보장+푸짐함+미친 비주얼까지 [신상출시 편스토랑/Fun-Staurant] | KBS 240517 방송",
+    "sourceNote": "KBS Entertain / 영상 Zo-fyaKH1GI; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-ebceab7fa2ae",
+        "amount": 1,
+        "unit": "kg",
+        "note": "원문: 등갈비 1kg"
+      },
+      {
+        "ingredientId": "mfds-ingredient-46b97d1a17c3",
+        "amount": 20,
+        "unit": "g",
+        "note": "원문: 버터 20g"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "대",
+        "note": "원문: 대파 1대"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 양파 1개"
+      },
+      {
+        "ingredientId": "hot-pepper",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 청양고추 2개"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": 20,
+        "unit": "바퀴",
+        "note": "원문: 후추 20바퀴"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 600,
+        "unit": "ml",
+        "note": "원문: 물 600ml"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 진간장 4T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 설탕 4T"
+      },
+      {
+        "ingredientId": "gochujang",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 고추장 4T"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 다진마늘 1T"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 고춧가루 2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b1789e6cdede",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 케첩 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 식초 1T"
+      }
+    ]
+  },
+  {
+    "id": "eonam-L-9Fz67_bAo",
+    "name": "게장양념 비빔냉면",
+    "baseServings": 2,
+    "servingsStatus": "explicit",
+    "servingsEvidence": "원본 설명란 2인분 명시.",
+    "cookMinutes": null,
+    "cookingType": "비빔면",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=L-9Fz67_bAo",
+    "sourceTitle": "[어남선생 레시피] 어남선생 게장양념 하나로 [게장양념 비빔냉면]까지 1타 2피! feat.냄비수육 [신상출시 편스토랑/Fun-Staurant] | KBS 240510 방송",
+    "sourceNote": "KBS Entertain / 영상 L-9Fz67_bAo; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "eonam-naengmyeon-noodles",
+        "amount": 2,
+        "unit": "인분",
+        "note": "원문: 냉면사리 2인분"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 90,
+        "unit": "ml",
+        "note": "원문: 양조간장 90ml(14T)"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 8,
+        "unit": "T",
+        "note": "원문: 고춧가루 8T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 6,
+        "unit": "T",
+        "note": "원문: 설탕 6T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 식초 2T"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 다진마늘 2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fcf2d4ba8a5a",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 다진생강 1T"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 깨"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 0.5,
+        "unit": "대",
+        "note": "원문: 대파 1/2대"
+      },
+      {
+        "ingredientId": "mfds-ingredient-0bca21b1b662",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 쌈무"
+      }
+    ]
+  },
+  {
+    "id": "eonam-wTak9YFltc8",
+    "name": "어묵볶이",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "조림",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=wTak9YFltc8",
+    "sourceTitle": "[어남선생 레시피] 집에 있는 재료로 가능! 당장레시피★박하선도 반한 [어묵볶이] feat.성시경 [신상출시 편스토랑/Fun-Staurant] | KBS 240426 방송",
+    "sourceNote": "KBS Entertain / 영상 wTak9YFltc8; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-798e141239c6",
+        "amount": 6,
+        "unit": "장",
+        "note": "원문: 사각어묵 6장"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 2,
+        "unit": "대",
+        "note": "원문: 대파 2대"
+      },
+      {
+        "ingredientId": "hot-pepper",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 청양고추 2개"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": 20,
+        "unit": "바퀴",
+        "note": "원문: 후추 20바퀴"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 500,
+        "unit": "ml",
+        "note": "원문: 물 500ml"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 고춧가루 4T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 설탕 3T"
+      },
+      {
+        "ingredientId": "gochujang",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 고추장 2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 진간장 2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a370ec41eee9",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 굴소스 2T"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 100,
+        "unit": "ml",
+        "note": "원문: 물 100ml"
+      }
+    ]
+  },
+  {
+    "id": "eonam-oVpC_Fi6FgY",
+    "name": "궁중떡볶이",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "볶음",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=oVpC_Fi6FgY",
+    "sourceTitle": "[어남선생 레시피] 단짠 불고기소스가 스며든 쫄깃한 떡★[궁중떡볶이]! 세대불문 사랑받는 떡볶이! [신상출시 편스토랑/Fun-Staurant] | KBS 240426 방송",
+    "sourceNote": "KBS Entertain / 영상 oVpC_Fi6FgY; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "beef-bulgogi-slices",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 소고기 불고기용 200g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-9e193a948337",
+        "amount": 500,
+        "unit": "g",
+        "note": "원문: 쌀 떡볶이떡 500g"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 2,
+        "unit": "대",
+        "note": "원문: 대파 2대"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 2,
+        "unit": "꼬집",
+        "note": "원문: 소금 2꼬집"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 참기름 1T"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": 1,
+        "unit": "바퀴",
+        "note": "원문: 식용유 1바퀴"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 통깨"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 6,
+        "unit": "T",
+        "note": "원문: 진간장 6T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a370ec41eee9",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 굴소스 2T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 설탕 2T"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 다진마늘 1T"
+      },
+      {
+        "ingredientId": "pear-soft-drink",
+        "amount": 238,
+        "unit": "ml",
+        "note": "원문: 배 음료 1캔 (238ml)"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 100,
+        "unit": "ml",
+        "note": "원문: 물 100ml"
+      }
+    ]
+  },
+  {
+    "id": "eonam-1doS_Q1gM08",
+    "name": "평생육개장",
+    "baseServings": 5,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 5인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "국",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=1doS_Q1gM08",
+    "sourceTitle": "[어남선생 레시피] 국 요리 중 1등★[평생육개장] 육개장을 집에서 만드는 간단 레시피! 그 비밀은? [신상출시 편스토랑/Fun-Staurant] | KBS 240419 방송",
+    "sourceNote": "KBS Entertain / 영상 1doS_Q1gM08; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-42942d1a4ea5",
+        "amount": 400,
+        "unit": "g",
+        "note": "원문: 소고기 양지 400g"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 2,
+        "unit": "대",
+        "note": "원문: 파 2대"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a367ab3717bf",
+        "amount": 500,
+        "unit": "g",
+        "note": "원문: 무 500g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-f5c09ec93f6a",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 느타리버섯 200g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-5f9bbbae4e81",
+        "amount": 300,
+        "unit": "g",
+        "note": "원문: 콩나물 300g"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 5,
+        "unit": "T",
+        "note": "원문: 고춧가루 5T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e2f9b8467114",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 굵은소금 1/2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-87abf0d56e01",
+        "amount": 5,
+        "unit": "T",
+        "note": "원문: 국간장 5T"
+      },
+      {
+        "ingredientId": "tuna-extract",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 참치액 4T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-d2be22e5ac29",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 쌈장 2T"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 다진마늘 1T"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 2,
+        "unit": "L",
+        "note": "원문: 물 2L"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": 2,
+        "unit": "바퀴",
+        "note": "원문: 식용유 두 바퀴"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 참기름 2T"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 4,
+        "unit": "꼬집",
+        "note": "원문: 소금 4꼬집"
+      },
+      {
+        "ingredientId": "mfds-ingredient-db2374a87cd0",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 밀가루 1T"
+      }
+    ]
+  },
+  {
+    "id": "eonam-xDCX-xm5ftc",
+    "name": "대패삼겹꼬치구이",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "구이",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=xDCX-xm5ftc",
+    "sourceTitle": "[어남선생 레시피] 저렴한 대패삼겹을 즐기는 최고의 방법 [대패삼겹꼬치구이]! 특제 소스까지 공개 [신상출시 편스토랑/Fun-Staurant] | KBS 240412 방송",
+    "sourceNote": "KBS Entertain / 영상 xDCX-xm5ftc; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-7286427766b1",
+        "amount": 600,
+        "unit": "g",
+        "note": "원문: 대패삼겹살 600g"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 대파"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후추"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 100,
+        "unit": "ml",
+        "note": "원문: 진간장 100ml"
+      },
+      {
+        "ingredientId": "eonam-cola-drink",
+        "amount": 100,
+        "unit": "ml",
+        "note": "원문: 콜라 100ml"
+      },
+      {
+        "ingredientId": "mfds-ingredient-f320904358d2",
+        "amount": 100,
+        "unit": "ml",
+        "note": "원문: 소주 100ml"
+      },
+      {
+        "ingredientId": "eonam-ssanghwatang-drink",
+        "amount": 100,
+        "unit": "ml",
+        "note": "원문: 쌍화탕 100ml"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 5,
+        "unit": "T",
+        "note": "원문: 설탕 5T"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": 20,
+        "unit": "바퀴",
+        "note": "원문: 후추 20바퀴"
+      },
+      {
+        "ingredientId": "eonam-lamb-skewer-seasoning",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 양꼬치 시즈닝(취향에 따라)"
+      }
+    ]
+  },
+  {
+    "id": "eonam-yDAzLQfssz4",
+    "name": "두부김치",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "볶음",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=yDAzLQfssz4",
+    "sourceTitle": "[어남선생 레시피] 집에 있는 재료로 지금 당장 만들 수 있는 ★당장 레시피★ [두부김치] 끝판왕!  [신상출시 편스토랑/Fun-Staurant] | KBS 240412 방송",
+    "sourceNote": "KBS Entertain / 영상 yDAzLQfssz4; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "tofu",
+        "amount": 500,
+        "unit": "g",
+        "note": "원문: 부침용 두부 1모(500g)"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e2f9b8467114",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 굵은소금 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-9497608ce1a5",
+        "amount": 0.25,
+        "unit": "포기",
+        "note": "원문: 배추김치 1/4포기"
+      },
+      {
+        "ingredientId": "mfds-ingredient-37722c90dc13",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 들기름 4T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 설탕 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 진간장 1T"
+      },
+      {
+        "ingredientId": "tuna-extract",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 참치액 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 식초 2T"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 통깨"
+      }
+    ]
+  },
+  {
+    "id": "eonam-0p9znJRopAI",
+    "name": "볶음김치덮밥",
+    "baseServings": 1,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 1인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "덮밥",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=0p9znJRopAI",
+    "sourceTitle": "[어남선생 레시피] 두부김치 응용편! 묵은지가 아니어도 맛있는 볶음김치로 [볶음김치덮밥]까지 가능 [신상출시 편스토랑/Fun-Staurant] | KBS 240412 방송",
+    "sourceNote": "KBS Entertain / 영상 0p9znJRopAI; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-9497608ce1a5",
+        "amount": 0.25,
+        "unit": "포기",
+        "note": "원문: 배추김치 1/4포기"
+      },
+      {
+        "ingredientId": "mfds-ingredient-37722c90dc13",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 들기름 4T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 설탕 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 진간장 1T"
+      },
+      {
+        "ingredientId": "tuna-extract",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 참치액 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 식초 2T"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 달걀 1개"
+      },
+      {
+        "ingredientId": "instant-rice",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 즉석밥 1개"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 통깨"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      }
+    ]
+  },
+  {
+    "id": "eonam-DO5V72HepS8",
+    "name": "만원 닭볶음탕",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "탕",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=DO5V72HepS8",
+    "sourceTitle": "[어남선생 레시피] 기적의 만원 레시피★시판보다 맛있게 [만원 닭볶음탕] 양념에 ○○을 넣는다고? [신상출시 편스토랑/Fun-Staurant] | KBS 240308 방송",
+    "sourceNote": "KBS Entertain / 영상 DO5V72HepS8; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-82e5449c6322",
+        "amount": 1,
+        "unit": "마리",
+        "note": "원문: 닭볶음탕용 닭 1마리"
+      },
+      {
+        "ingredientId": "potato",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 감자 2개"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "대",
+        "note": "원문: 파 1대"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 양파 1개"
+      },
+      {
+        "ingredientId": "hot-pepper",
+        "amount": 4,
+        "unit": "개",
+        "note": "원문: 청양고추 4개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 8,
+        "unit": "T",
+        "note": "원문: 진간장 8T"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 고춧가루 4T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 설탕 3T"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 다진마늘 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-d2be22e5ac29",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 쌈장 듬뿍 1T"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 3,
+        "unit": "꼬집",
+        "note": "원문: 소금 3꼬집"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 1,
+        "unit": "L",
+        "note": "원문: 물 1L"
+      }
+    ]
+  },
+  {
+    "id": "eonam-ECF90_seLS0",
+    "name": "평생 생선조림장",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "양념장",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=ECF90_seLS0",
+    "sourceTitle": "[어남선생 레시피] 다양한 생선조림에 활용 가능 [평생 생선조림장] 황금 비율 54321 잊지 마세요 [신상출시 편스토랑/Fun-Staurant] | KBS 240223 방송",
+    "sourceNote": "KBS Entertain / 영상 ECF90_seLS0; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 5,
+        "unit": "T",
+        "note": "원문: 간장 5T"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 고춧가루 4T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 설탕 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a370ec41eee9",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 굴소스 2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 식초 1T"
+      },
+      {
+        "ingredientId": "doenjang",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 된장 듬뿍 1T"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 다진마늘 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fcf2d4ba8a5a",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 다진생강 1/2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e2f9b8467114",
+        "amount": 0.3333333333333333,
+        "unit": "T",
+        "note": "원문: 굵은소금 1/3T"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": 10,
+        "unit": "바퀴",
+        "note": "원문: 후추 10바퀴"
+      }
+    ]
+  },
+  {
+    "id": "eonam-0gArpPNraOc",
+    "name": "호떡볶이",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 2인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "조림",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=0gArpPNraOc",
+    "sourceTitle": "[어남선생 레시피] 명절 때 남은 떡국떡으로 [호떡볶이] 해드세요! 호떡 맛 그대로!😋 [신상출시 편스토랑/Fun-Staurant] | KBS 240126 방송",
+    "sourceNote": "KBS Entertain / 영상 0gArpPNraOc; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-35c8d03660ed",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 떡국떡 250~300g · 원문 수량 범위를 임의 단일값으로 만들지 않고 보존"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 200,
+        "unit": "ml",
+        "note": "원문: 물 200ml"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 설탕 4T"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 3,
+        "unit": "꼬집",
+        "note": "원문: 소금 3꼬집"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 참기름 2T"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 통깨 2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-ff3cae2652a1",
+        "amount": 2,
+        "unit": "꼬집",
+        "note": "원문: 시나몬 가루 2꼬집"
+      },
+      {
+        "ingredientId": "mfds-ingredient-ade8b7b5790a",
+        "amount": 1,
+        "unit": "줌",
+        "note": "원문: 견과류 한 줌"
+      }
+    ]
+  },
+  {
+    "id": "eonam-au6EZ2Mz1Bk",
+    "name": "15분 사골떡국",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "국",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=au6EZ2Mz1Bk",
+    "sourceTitle": "[어남선생 레시피] 사골 없이 가능한 깊은 맛 [15분 사골떡국] 비싼 사골 오래 끓이지 않아도 돼요 [신상출시 편스토랑/Fun-Staurant] | KBS 240126 방송",
+    "sourceNote": "KBS Entertain / 영상 au6EZ2Mz1Bk; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-35c8d03660ed",
+        "amount": 500,
+        "unit": "g",
+        "note": "원문: 떡국떡 500g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-42942d1a4ea5",
+        "amount": 300,
+        "unit": "g",
+        "note": "원문: 소고기 양지 300g"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1.5,
+        "unit": "대",
+        "note": "원문: 대파 1.5대"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2b7e75051be2",
+        "amount": 150,
+        "unit": "ml",
+        "note": "원문: 우유 150ml"
+      },
+      {
+        "ingredientId": "mfds-ingredient-db2374a87cd0",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 밀가루 듬뿍 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e2f9b8467114",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 굵은소금 0.5T"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 다진마늘 0.5T"
+      },
+      {
+        "ingredientId": "tuna-extract",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 참치액 3T"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 참기름 2T"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 2,
+        "unit": "L",
+        "note": "원문: 물 2L"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": 20,
+        "unit": "바퀴",
+        "note": "원문: 후추 20바퀴"
+      },
+      {
+        "ingredientId": "seasoned-gim",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 조미김"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": 1,
+        "unit": "바퀴",
+        "note": "원문: 식용유 1바퀴"
+      }
+    ]
+  },
+  {
+    "id": "eonam-lK68IL48o28",
+    "name": "만원갈비찜",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "찜",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=lK68IL48o28",
+    "sourceTitle": "[어남선생 레시피] 고물가 시대, 다가오는 설 명절엔 [만원갈비찜]! 돼지갈비로 근사하게, 푸짐하게! [신상출시 편스토랑/Fun-Staurant] | KBS 240119 방송",
+    "sourceNote": "KBS Entertain / 영상 lK68IL48o28; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-e7186a0a1b98",
+        "amount": 1,
+        "unit": "kg",
+        "note": "원문: 돼지갈비 1kg"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 2,
+        "unit": "대",
+        "note": "원문: 대파 2대"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 양파 1개"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 2,
+        "unit": "꼬집",
+        "note": "원문: 소금 2꼬집"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 식초 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 5,
+        "unit": "T",
+        "note": "원문: 진간장 5T"
+      },
+      {
+        "ingredientId": "tuna-extract",
+        "amount": 5,
+        "unit": "T",
+        "note": "원문: 참치액 5T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 5,
+        "unit": "T",
+        "note": "원문: 설탕 5T"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 고춧가루 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b1789e6cdede",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 케첩 2T"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 다진 마늘 듬뿍 3T"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": 20,
+        "unit": "바퀴",
+        "note": "원문: 후추 20바퀴"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 500,
+        "unit": "ml",
+        "note": "원문: 물 500ml"
+      },
+      {
+        "ingredientId": "hot-pepper",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 청양고추 2개"
+      }
+    ]
+  },
+  {
+    "id": "eonam-z0El5XIQSxI",
+    "name": "차돌볶음파스타",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 2인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "파스타",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=z0El5XIQSxI",
+    "sourceTitle": "[어남선생 레시피] 10분 완성 [차돌볶음파스타] 불맛 가득 화끈하게 볶아주면 끝! 완벽한 안주&식사 [신상출시 편스토랑/Fun-Staurant] | KBS 240112 방송",
+    "sourceNote": "KBS Entertain / 영상 z0El5XIQSxI; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-87b6c85d8c40",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 파스타 면 200g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-143bbdb2fb73",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 차돌박이 100g"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 2,
+        "unit": "대",
+        "note": "원문: 대파 2대"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 진간장 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a370ec41eee9",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 굴소스 2T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 설탕 0.5T"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 다진 마늘 0.5T"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 고춧가루 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-ac1b9f7968ce",
+        "amount": 10,
+        "unit": "바퀴",
+        "note": "원문: 통후추 10바퀴"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e957e8de9164",
+        "amount": 5,
+        "unit": "장",
+        "note": "원문: 깻잎 5장"
+      },
+      {
+        "ingredientId": "hot-pepper",
+        "amount": 3,
+        "unit": "개",
+        "note": "원문: 청양고추 3개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e2f9b8467114",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 굵은소금 듬뿍 1T"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 3,
+        "unit": "L",
+        "note": "원문: 물 3L"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      }
+    ]
+  },
+  {
+    "id": "eonam-y0Nm-jXZYzQ",
+    "name": "짜장떡볶이",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 2인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "조림",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=y0Nm-jXZYzQ",
+    "sourceTitle": "[어남선생 레시피] 우리 딸 최애 메뉴에요♥ 누구나 좋아하는 [짜장떡볶이] 불맛 가득 차돌의 맛! [신상출시 편스토랑/Fun-Staurant] | KBS 240112 방송",
+    "sourceNote": "KBS Entertain / 영상 y0Nm-jXZYzQ; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "wheat-tteokbokki-rice-cake",
+        "amount": 300,
+        "unit": "g",
+        "note": "원문: 밀떡볶이 떡 300g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-143bbdb2fb73",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 차돌박이 100g"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 2,
+        "unit": "대",
+        "note": "원문: 대파 2대"
+      },
+      {
+        "ingredientId": "eonam-jjajang-powder",
+        "amount": 2.5,
+        "unit": "T",
+        "note": "원문: 짜장가루 2.5T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a370ec41eee9",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 굴소스 1T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 설탕 1T"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 1,
+        "unit": "꼬집",
+        "note": "원문: 소금 1꼬집"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": 10,
+        "unit": "바퀴",
+        "note": "원문: 후추 10바퀴"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 400,
+        "unit": "ml",
+        "note": "원문: 물 400ml"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 통깨"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      }
+    ]
+  },
+  {
+    "id": "eonam-qRa49obXGQE",
+    "name": "평생 김치찌개",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "찌개",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=qRa49obXGQE",
+    "sourceTitle": "[어남선생 레시피] 한번 배워두면 평생 가는 레시피! [평생 김치찌개] 류수영의 각종 꿀팁 총출동 [신상출시 편스토랑/Fun-Staurant] | KBS 240105 방송",
+    "sourceNote": "KBS Entertain / 영상 qRa49obXGQE; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "kimchi",
+        "amount": 600,
+        "unit": "g",
+        "note": "원문: 김치 1/4포기(약 600g)"
+      },
+      {
+        "ingredientId": "pork",
+        "amount": 300,
+        "unit": "g",
+        "note": "원문: 돼지고기 앞다리살 찌개용 300g"
+      },
+      {
+        "ingredientId": "kimchi-juice",
+        "amount": 100,
+        "unit": "ml",
+        "note": "원문: 김치 국물 반컵(100ml)"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 양파 1개"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "대",
+        "note": "원문: 대파 1대"
+      },
+      {
+        "ingredientId": "tofu",
+        "amount": 0.5,
+        "unit": "모",
+        "note": "원문: 두부 1/2모"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 다진 마늘 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2d8307addb5e",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 새우젓 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 진간장 2T"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 고춧가루 2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e2f9b8467114",
+        "amount": 1,
+        "unit": "t",
+        "note": "원문: 굵은소금 1t"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 식초 1T"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      },
+      {
+        "ingredientId": "water",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 물"
+      }
+    ]
+  },
+  {
+    "id": "eonam-q7jPrVsTvSo",
+    "name": "평생 된장찌개",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "찌개",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=q7jPrVsTvSo",
+    "sourceTitle": "[어남선생 레시피] 이제 된장찌개는 평생 이 레시피로 끝★[평생 된장찌개] ○○ 넣어 진하고 깊은 맛 [신상출시 편스토랑/Fun-Staurant] | KBS 231229 방송",
+    "sourceNote": "KBS Entertain / 영상 q7jPrVsTvSo; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "doenjang",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 된장 듬뿍 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-d2be22e5ac29",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 쌈장 듬뿍 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-143bbdb2fb73",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 차돌박이 200g"
+      },
+      {
+        "ingredientId": "potato",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 감자 1개"
+      },
+      {
+        "ingredientId": "zucchini",
+        "amount": 0.3333333333333333,
+        "unit": "개",
+        "note": "원문: 애호박 1/3개"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 양파 1개"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "대",
+        "note": "원문: 대파 1대"
+      },
+      {
+        "ingredientId": "tofu",
+        "amount": 0.5,
+        "unit": "모",
+        "note": "원문: 두부 1/2모"
+      },
+      {
+        "ingredientId": "hot-pepper",
+        "amount": 3,
+        "unit": "개",
+        "note": "원문: 청양고추 3개"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 다진 마늘 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e2f9b8467114",
+        "amount": 0.2,
+        "unit": "T",
+        "note": "원문: 굵은소금 1/5T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 식초 1/2T"
+      },
+      {
+        "ingredientId": "water",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 물"
+      }
+    ]
+  },
+  {
+    "id": "eonam-RLy4fO4fqBA",
+    "name": "표고밥",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "밥",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=RLy4fO4fqBA",
+    "sourceTitle": "[어남선생 레시피] 밥 짓는 게 어려운 분들 [표고밥] 해드세요! 밥물 잡는 것부터 친절히 알려드려요 [신상출시 편스토랑/Fun-Staurant] | KBS 231229 방송",
+    "sourceNote": "KBS Entertain / 영상 RLy4fO4fqBA; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-8173a19037ca",
+        "amount": 1,
+        "unit": "줌",
+        "note": "원문: 건표고버섯 한 줌"
+      },
+      {
+        "ingredientId": "kelp",
+        "amount": 1,
+        "unit": "장",
+        "note": "원문: 다시마 1장(손바닥 정도 크기)"
+      },
+      {
+        "ingredientId": "rice",
+        "amount": 2,
+        "unit": "컵",
+        "note": "원문: 쌀 2컵"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 2,
+        "unit": "컵",
+        "note": "원문: 물 2컵"
+      }
+    ]
+  },
+  {
+    "id": "eonam-wDZS0lf9ciw",
+    "name": "물로 하는 계란프라이",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 2인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "달걀프라이",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=wDZS0lf9ciw",
+    "sourceTitle": "[어남선생 레시피]완전 초보도 성공! 기름 없이! [물로 하는 계란프라이]★ 담백하고 부드러운 프라이 [신상출시 편스토랑/Fun-Staurant] | KBS 231229 방송",
+    "sourceNote": "KBS Entertain / 영상 wDZS0lf9ciw; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "egg",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 달걀 2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 식초 1/2T"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 2,
+        "unit": "꼬집",
+        "note": "원문: 소금 2꼬집"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 100,
+        "unit": "ml",
+        "note": "원문: 물 반컵(100ml)"
+      }
+    ]
+  },
+  {
+    "id": "eonam-a8C_J9JXvN8",
+    "name": "토마토홍합파스탕",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "파스타",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=a8C_J9JXvN8",
+    "sourceTitle": "[어남선생 레시피] 만원 파티 요리! 칼칼한 국물이 예술 [토마토홍합파스탕] 홍합이 싼 지금 드세요 [신상출시 편스토랑/Fun-Staurant] | KBS 231208 방송",
+    "sourceNote": "KBS Entertain / 영상 a8C_J9JXvN8; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-37fdfe1edebb",
+        "amount": 1,
+        "unit": "kg",
+        "note": "원문: 홍합 1kg"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2dde7bbf29ff",
+        "amount": 600,
+        "unit": "g",
+        "note": "원문: 시판 토마토소스 1개(600g)"
+      },
+      {
+        "ingredientId": "mfds-ingredient-5903c57adc34",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 스파게티 면"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 양파 1개"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": 1,
+        "unit": "줌",
+        "note": "원문: 마늘 한 줌(약 11~12개) · 원문 개수 범위를 단일값으로 만들지 않고 병기된 한 줌 사용"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 고춧가루 2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-46b97d1a17c3",
+        "amount": 60,
+        "unit": "g",
+        "note": "원문: 버터 60g"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b1789e6cdede",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 케첩 2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 식초 4T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 간장 1T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 1.5,
+        "unit": "T",
+        "note": "원문: 설탕 1.5T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e2f9b8467114",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 굵은소금"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후추"
+      },
+      {
+        "ingredientId": "mfds-ingredient-db1ba495772d",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 파슬리 가루"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      },
+      {
+        "ingredientId": "water",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 물"
+      }
+    ]
+  },
+  {
+    "id": "eonam-reFpxBbaN6c",
+    "name": "크레이지 고구마",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "구이",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=reFpxBbaN6c",
+    "sourceTitle": "[어남선생 레시피] 치즈 누룽지X꿀고구마의 미친 만남★ [크레이지 고구마] 환상적인 맛의 미친 조합★ [신상출시 편스토랑/Fun-Staurant] | KBS 231208 방송",
+    "sourceNote": "KBS Entertain / 영상 reFpxBbaN6c; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "sweet-potato",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 고구마 3~4개 · 원문 수량 범위를 임의 단일값으로 만들지 않고 보존"
+      },
+      {
+        "ingredientId": "mfds-ingredient-46b97d1a17c3",
+        "amount": 40,
+        "unit": "g",
+        "note": "원문: 버터 40g"
+      },
+      {
+        "ingredientId": "eonam-shredded-pizza-cheese",
+        "amount": 2,
+        "unit": "줌",
+        "note": "원문: 슈레드 피자치즈 두 줌"
+      },
+      {
+        "ingredientId": "vanilla-ice-cream",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 바닐라 아이스크림"
+      },
+      {
+        "ingredientId": "mfds-ingredient-1bc0721ab0a6",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 꿀"
+      },
+      {
+        "ingredientId": "mfds-ingredient-ac1b9f7968ce",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 통후추"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 200,
+        "unit": "ml",
+        "note": "원문: 물 200ml"
+      }
+    ]
+  },
+  {
+    "id": "eonam-moCmXDf5vSI",
+    "name": "원팬 등갈비",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "조림",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=moCmXDf5vSI",
+    "sourceTitle": "[어남선생 레시피] 원팬 등갈비★ 연말 파티 요리에 딱! 불맛 나는 근사한 등갈비를 원팬으로 쉽게!  [신상출시 편스토랑/Fun-Staurant] | KBS 231201 방송",
+    "sourceNote": "KBS Entertain / 영상 moCmXDf5vSI; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-ebceab7fa2ae",
+        "amount": 600,
+        "unit": "g",
+        "note": "원문: 돼지등갈비 600g"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 2,
+        "unit": "대",
+        "note": "원문: 대파 2대"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 양파 1개"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": 1,
+        "unit": "줌",
+        "note": "원문: 마늘 한 줌"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 진간장 4T"
+      },
+      {
+        "ingredientId": "tuna-extract",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 참치액 3T"
+      },
+      {
+        "ingredientId": "pear-soft-drink",
+        "amount": 238,
+        "unit": "ml",
+        "note": "원문: 갈아 만든 배 238ml 1캔"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 식초 2T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 설탕 4T"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 3,
+        "unit": "꼬집",
+        "note": "원문: 소금 3꼬집"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 300,
+        "unit": "ml",
+        "note": "원문: 물 300ml"
+      }
+    ]
+  },
+  {
+    "id": "eonam-kn9woORbeK8",
+    "name": "땅콩마요잼",
+    "baseServings": 6,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 6인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "소스",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=kn9woORbeK8",
+    "sourceTitle": "[어남선생 레시피] 땅콩버터X마요네즈의 미친 만남, 땅콩마요잼! 샌드위치 만들어 먹으면 극락-★ [신상출시 편스토랑/Fun-Staurant] | KBS 231103 방송",
+    "sourceNote": "KBS Entertain / 영상 kn9woORbeK8; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-364519204bae",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 땅콩버터 듬뿍 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fdf6fc2c31d7",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 마요네즈 듬뿍 3T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 설탕 4T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-2b7e75051be2",
+        "amount": 100,
+        "unit": "ml",
+        "note": "원문: 우유 100ml"
+      }
+    ]
+  },
+  {
+    "id": "eonam-9iwaoHo9jV0",
+    "name": "감자탕",
+    "baseServings": 6,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 6인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "탕",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=9iwaoHo9jV0",
+    "sourceTitle": "[어남선생 레시피] 등뼈 1kg에 3천 원! 가성비 미친 어남선생 감자탕 완결판! 3년 노하우의 결과 [신상출시 편스토랑/Fun-Staurant] | KBS 231027 방송",
+    "sourceNote": "KBS Entertain / 영상 9iwaoHo9jV0; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "eonam-pork-backbone",
+        "amount": 2,
+        "unit": "kg",
+        "note": "원문: 돼지등뼈 2kg"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c163c2fad938",
+        "amount": 1,
+        "unit": "단",
+        "note": "원문: 얼갈이 1단"
+      },
+      {
+        "ingredientId": "mfds-ingredient-5f9bbbae4e81",
+        "amount": 300,
+        "unit": "g",
+        "note": "원문: 콩나물 300g"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 2,
+        "unit": "대",
+        "note": "원문: 대파 2대"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e957e8de9164",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 깻잎"
+      },
+      {
+        "ingredientId": "potato",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 감자"
+      },
+      {
+        "ingredientId": "gochujang",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 고추장 듬뿍 2T"
+      },
+      {
+        "ingredientId": "doenjang",
+        "amount": 6,
+        "unit": "T",
+        "note": "원문: 된장 듬뿍 6T"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 다진 마늘 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fcf2d4ba8a5a",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 다진 생강 1T"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 고춧가루 4T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-37722c90dc13",
+        "amount": 90,
+        "unit": "ml",
+        "note": "원문: 들기름 반 컵(90ml)"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 소금 3T"
+      },
+      {
+        "ingredientId": "water",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 물"
+      }
+    ]
+  },
+  {
+    "id": "eonam-gesnBr3acQ4",
+    "name": "순대볶음",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "볶음",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=gesnBr3acQ4",
+    "sourceTitle": "[어남선생 레시피] 3천원 마트 순대 먹는 법★집에서 신림동 철판 순대볶음이 15분 만에 가능! [신상출시 편스토랑/Fun-Staurant] | KBS 231020 방송",
+    "sourceNote": "KBS Entertain / 영상 gesnBr3acQ4; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "sundae",
+        "amount": 500,
+        "unit": "g",
+        "note": "원문: 순대 500g"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 양파 1개"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "대",
+        "note": "원문: 대파 1대"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e8715cd21524",
+        "amount": 0.25,
+        "unit": "통",
+        "note": "원문: 양배추 1/4통"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e957e8de9164",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 깻잎"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 진간장 4T"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 고춧가루 3T"
+      },
+      {
+        "ingredientId": "gochujang",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 고추장 듬뿍 1T"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 참기름 0.5T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 설탕 1T"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "mfds-ingredient-ac1b9f7968ce",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 통후추"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 100,
+        "unit": "ml",
+        "note": "원문: 물 100ml"
+      }
+    ]
+  },
+  {
+    "id": "eonam-q7flYfIP9L4",
+    "name": "순대튀김",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "튀김",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=q7flYfIP9L4",
+    "sourceTitle": "[어남선생 레시피] 3천원 마트 순대 먹는 법★순대튀김! 튀김옷도 필요 없는 겉바속쫄 튀김 예술! [신상출시 편스토랑/Fun-Staurant] | KBS 231020 방송",
+    "sourceNote": "KBS Entertain / 영상 q7flYfIP9L4; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "sundae",
+        "amount": 500,
+        "unit": "g",
+        "note": "원문: 순대 500g"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      }
+    ]
+  },
+  {
+    "id": "eonam-MMQ3fsbJ-CY",
+    "name": "촉촉한 순대",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "찜",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=MMQ3fsbJ-CY",
+    "sourceTitle": "[어남선생 레시피] 저렴이 3천원 마트 순대로 시장순대처럼 촉촉한 순대 먹는 법 feat.지역별 소스 [신상출시 편스토랑/Fun-Staurant] | KBS 231020 방송",
+    "sourceNote": "KBS Entertain / 영상 MMQ3fsbJ-CY; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "sundae",
+        "amount": 500,
+        "unit": "g",
+        "note": "원문: 순대 500g"
+      },
+      {
+        "ingredientId": "water",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 물"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 참기름"
+      }
+    ]
+  },
+  {
+    "id": "eonam-cX9PZP3d6_g",
+    "name": "어구리라면",
+    "baseServings": 1,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 1인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "라면",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=cX9PZP3d6_g",
+    "sourceTitle": "[어남선생 레시피] 매운 어묵탕 그 맛! 어구리라면★ 어묵+○구리 라면으로 쉽고, 맛있게 해드세요 [신상출시 편스토랑/Fun-Staurant] | KBS 231020 방송",
+    "sourceNote": "KBS Entertain / 영상 cX9PZP3d6_g; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "eonam-spicy-neoguri",
+        "amount": 1,
+        "unit": "봉",
+        "note": "원문: 너구리라면 매운맛 1봉"
+      },
+      {
+        "ingredientId": "mfds-ingredient-798e141239c6",
+        "amount": 3,
+        "unit": "장",
+        "note": "원문: 사각어묵 3장"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 대파"
+      },
+      {
+        "ingredientId": "gochujang",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 고추장 0.5T"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 다진 마늘 0.5T"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      },
+      {
+        "ingredientId": "water",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 물"
+      }
+    ]
+  },
+  {
+    "id": "eonam-k1h60IZmINs",
+    "name": "꽈리멸치치킨",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "구이",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=k1h60IZmINs",
+    "sourceTitle": "[어남선생 레시피] 만원으로 25분이면 끝! 치킨계의 간장게장! 밥도둑 꽈리멸치치킨 [신상출시 편스토랑/Fun-Staurant] | KBS 230915 방송",
+    "sourceNote": "KBS Entertain / 영상 k1h60IZmINs; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-82e5449c6322",
+        "amount": 1,
+        "unit": "kg",
+        "note": "원문: 닭볶음탕용 닭 1kg"
+      },
+      {
+        "ingredientId": "mfds-ingredient-23e3628ab72c",
+        "amount": 1,
+        "unit": "공기",
+        "note": "원문: 잔멸치 1공기"
+      },
+      {
+        "ingredientId": "mfds-ingredient-889f701f028e",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 꽈리고추 200g"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "대",
+        "note": "원문: 대파 1대"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": 1,
+        "unit": "줌",
+        "note": "원문: 통마늘 한 줌"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "mfds-ingredient-d5c0a936afac",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 멸치액젓 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a370ec41eee9",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 굴소스 1T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 설탕 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-860fd4a93c7c",
+        "amount": 5,
+        "unit": "T",
+        "note": "원문: 진간장 5T"
+      },
+      {
+        "ingredientId": "syrup",
+        "amount": 100,
+        "unit": "ml",
+        "note": "원문: 물엿 반 컵(100ml)"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 참기름 0.5T"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 깨"
+      }
+    ]
+  },
+  {
+    "id": "eonam-GSJJXoPQulE",
+    "name": "연어육회",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 2인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "무침",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=GSJJXoPQulE",
+    "sourceTitle": "[어남선생 레시피] 연어로 만드는 밥도둑, 연어육회★ 어남선생 기본초장으로 쉽게 [신상출시 편스토랑/Fun-Staurant] | KBS 230908 방송",
+    "sourceNote": "KBS Entertain / 영상 GSJJXoPQulE; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "eonam-salmon-fillet",
+        "amount": 300,
+        "unit": "g",
+        "note": "원문: 연어 필렛 300g"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 양파 1개"
+      },
+      {
+        "ingredientId": "gochujang",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 고추장 듬뿍 2T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 설탕 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 식초 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-27c6fd1abbf1",
+        "amount": 1,
+        "unit": "t",
+        "note": "원문: 까나리 액젓 1t"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 참기름 1T"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 깨"
+      }
+    ]
+  },
+  {
+    "id": "eonam-6dofaIP-sho",
+    "name": "육포고추장",
+    "baseServings": 6,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 6인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "양념장",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=6dofaIP-sho",
+    "sourceTitle": "[어남선생 레시피] 감칠맛 폭발 밥도둑! 초간단 육포고추장★ 덮밥 해먹으면 예술 [신상출시 편스토랑/Fun-Staurant] | KBS 230908 방송",
+    "sourceNote": "KBS Entertain / 영상 6dofaIP-sho; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "eonam-beef-jerky",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 육포 1봉(100g)"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 50,
+        "unit": "ml",
+        "note": "원문: 물 50ml(소주잔 1잔)"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 다진 마늘 0.5T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 설탕 3T"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 참기름 3T"
+      },
+      {
+        "ingredientId": "gochujang",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 고추장 듬뿍 3T"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 깨 1T"
+      }
+    ]
+  },
+  {
+    "id": "eonam-Vikj7_ZA2Nk",
+    "name": "꽃게라면",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 2인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "라면",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=Vikj7_ZA2Nk",
+    "sourceTitle": "[어남선생 레시피] 지금 안 먹으면 손해! 저렴한 제철 꽃게로 꽃게라면★ 초간단 레시피 [신상출시 편스토랑/Fun-Staurant] | KBS 230901 방송",
+    "sourceNote": "KBS Entertain / 영상 Vikj7_ZA2Nk; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "water",
+        "amount": 1.1,
+        "unit": "L",
+        "note": "원문: 물 1.1L"
+      },
+      {
+        "ingredientId": "mfds-ingredient-0fef1bb2cdb3",
+        "amount": 2,
+        "unit": "마리",
+        "note": "원문: 꽃게 2마리"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "대",
+        "note": "원문: 대파 1대"
+      },
+      {
+        "ingredientId": "mfds-ingredient-f320904358d2",
+        "amount": 50,
+        "unit": "ml",
+        "note": "원문: 소주 1잔(50ml)"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 고춧가루 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-6454befbdb61",
+        "amount": 2,
+        "unit": "봉지",
+        "note": "원문: 라면 2봉지"
+      }
+    ]
+  },
+  {
+    "id": "eonam-g5UQH_n4I5I",
+    "name": "한단미나리전",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "전",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=g5UQH_n4I5I",
+    "sourceTitle": "[어남선생 레시피] 미나리 한단 통채로! 한단미나리전★바삭바삭 미친 식감의 비밀은?! [신상출시 편스토랑/Fun-Staurant] | KBS 230901 방송",
+    "sourceNote": "KBS Entertain / 영상 g5UQH_n4I5I; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-e49ac78e9ae8",
+        "amount": 1,
+        "unit": "단",
+        "note": "원문: 미나리 한단"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 100,
+        "unit": "ml",
+        "note": "원문: 찬물 반 컵(100ml)"
+      },
+      {
+        "ingredientId": "mfds-ingredient-08a73ebcbd22",
+        "amount": 1,
+        "unit": "컵",
+        "note": "원문: 부침가루 한 컵(듬뿍 6T) · 원문 한 컵 사용. 병기된 듬뿍6T와 중복 합산하지 않음"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      }
+    ]
+  },
+  {
+    "id": "eonam-qAEMsX98tNE",
+    "name": "골뱅이소면",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "무침",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=qAEMsX98tNE",
+    "sourceTitle": "[어남선생 레시피] 맛집 비법으로 만드는 골뱅이소면★ 집에서 만들어 푸짐하게 먹자 [신상출시 편스토랑/Fun-Staurant] | KBS 230901 방송",
+    "sourceNote": "KBS Entertain / 영상 qAEMsX98tNE; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-51aba88d535a",
+        "amount": 2,
+        "unit": "캔",
+        "note": "원문: 골뱅이 140g 2캔 · 140g 용량의 2캔을 원문 단위로 보존"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "대",
+        "note": "원문: 대파 1대"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 양파 1/2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-3ba1c580e487",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 오이 1개"
+      },
+      {
+        "ingredientId": "hot-pepper",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 청양고추 2개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-d7d67157bd25",
+        "amount": 1,
+        "unit": "줌",
+        "note": "원문: 황태채 한 줌"
+      },
+      {
+        "ingredientId": "gochujang",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 고추장 듬뿍 2T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 설탕 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식초"
+      },
+      {
+        "ingredientId": "mfds-ingredient-27c6fd1abbf1",
+        "amount": 1,
+        "unit": "t",
+        "note": "원문: 까나리 액젓 1t"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 고춧가루 1T"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 깨"
+      },
+      {
+        "ingredientId": "mfds-ingredient-4ef9b7d8ecdb",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소면 (500원 동전크기 양) · 원문 크기 비유는 수량 단위로 환산하지 않음"
+      },
+      {
+        "ingredientId": "water",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 물"
+      }
+    ]
+  },
+  {
+    "id": "eonam-wN0XpiWukjQ",
+    "name": "기본초장",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "소스",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=wN0XpiWukjQ",
+    "sourceTitle": "[어남선생 레시피] 다양한 요리에 쓰기 좋은 기본초장! ○○만 넣으면 시판보다 맛있다 [신상출시 편스토랑/Fun-Staurant] | KBS 230901 방송",
+    "sourceNote": "KBS Entertain / 영상 wN0XpiWukjQ; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "gochujang",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 고추장 듬뿍 2T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 설탕 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 식초 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-27c6fd1abbf1",
+        "amount": 1,
+        "unit": "t",
+        "note": "원문: 까나리 액젓 1t"
+      },
+      {
+        "ingredientId": "mfds-ingredient-f2a378291fce",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 부순 깨"
+      }
+    ]
+  },
+  {
+    "id": "eonam-3Cb1Le-NzRc",
+    "name": "마늘수육",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "수육",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=3Cb1Le-NzRc",
+    "sourceTitle": "[어남선생 레시피] 라면 냄비로 바비큐 느낌 완성! 마늘수육 feat.양념 황석어젓 [신상출시 편스토랑/Fun-Staurant] | KBS 230825 방송",
+    "sourceNote": "KBS Entertain / 영상 3Cb1Le-NzRc; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-7fe0a188954b",
+        "amount": 600,
+        "unit": "g",
+        "note": "원문: 껍질 붙은 통삼겹 1근(600g)"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": 1,
+        "unit": "공기",
+        "note": "원문: 마늘 한 공기"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e2f9b8467114",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 굵은 소금"
+      },
+      {
+        "ingredientId": "eonam-yellow-corvina-jeot",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 황석어젓 1T"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 다진 마늘 1T"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 고춧가루 1T"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 참기름 1T"
+      }
+    ]
+  },
+  {
+    "id": "eonam-XnEANwySB6w",
+    "name": "불양념치킨",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "구이",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=XnEANwySB6w",
+    "sourceTitle": "[어남선생 레시피] 만원으로 배달보다 빠르게 치킨먹자! 불양념치킨★ 치밥으로도 예술 [신상출시 편스토랑/Fun-Staurant] | KBS 230818 방송",
+    "sourceNote": "KBS Entertain / 영상 XnEANwySB6w; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-82e5449c6322",
+        "amount": 1,
+        "unit": "kg",
+        "note": "원문: 닭볶음탕용 닭 10호(1kg)"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "대",
+        "note": "원문: 대파 1대"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 고춧가루 4T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 설탕 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 간장 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b1789e6cdede",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 케첩 4T"
+      },
+      {
+        "ingredientId": "gochujang",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 고추장 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a370ec41eee9",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 굴소스 2T"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 다진 마늘 2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fcf2d4ba8a5a",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 다진 생강 0.5T"
+      },
+      {
+        "ingredientId": "syrup",
+        "amount": 5,
+        "unit": "T",
+        "note": "원문: 물엿 5T"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 3,
+        "unit": "꼬집",
+        "note": "원문: 소금 3꼬집"
+      },
+      {
+        "ingredientId": "mfds-ingredient-ac1b9f7968ce",
+        "amount": 20,
+        "unit": "바퀴",
+        "note": "원문: 통후추 20바퀴"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      }
+    ]
+  },
+  {
+    "id": "eonam-K1JKk7VtPgw",
+    "name": "라볶이",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 2인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "라면",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=K1JKk7VtPgw",
+    "sourceTitle": "[어남선생 레시피] 방학특집 메뉴, 초초간단 분식집 라볶이★ 이렇게 간단하다고?! [신상출시 편스토랑/Fun-Staurant] | KBS 230811 방송",
+    "sourceNote": "KBS Entertain / 영상 K1JKk7VtPgw; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "eonam-jin-ramyun",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 진라면 1개"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "대",
+        "note": "원문: 대파 1대"
+      },
+      {
+        "ingredientId": "mfds-ingredient-798e141239c6",
+        "amount": 2,
+        "unit": "장",
+        "note": "원문: 어묵 2장"
+      },
+      {
+        "ingredientId": "wheat-tteokbokki-rice-cake",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 밀떡"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 700,
+        "unit": "ml",
+        "note": "원문: 물 700ml"
+      },
+      {
+        "ingredientId": "gochujang",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 고추장 듬뿍 1T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 1.5,
+        "unit": "T",
+        "note": "원문: 설탕 1.5T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 간장 1T"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      }
+    ]
+  },
+  {
+    "id": "eonam-KD-LsfX3fSI",
+    "name": "계란샌드위치",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "샌드위치",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=KD-LsfX3fSI",
+    "sourceTitle": "[어남선생 레시피] 방학특집 메뉴, 남녀노소 저격 계란샌드위치★ ○○ 넣으면 파는 맛! [신상출시 편스토랑/Fun-Staurant] | KBS 230811 방송",
+    "sourceNote": "KBS Entertain / 영상 KD-LsfX3fSI; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "morning-bread",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 모닝빵"
+      },
+      {
+        "ingredientId": "eonam-jam",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 잼"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 4,
+        "unit": "개",
+        "note": "원문: 계란 4개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-059f3b721a46",
+        "amount": 4,
+        "unit": "개",
+        "note": "원문: 게맛살 4개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-3ba1c580e487",
+        "amount": 0.3333333333333333,
+        "unit": "개",
+        "note": "원문: 오이 1/3개"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 0.25,
+        "unit": "개",
+        "note": "원문: 양파 1/4개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 식초 3T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 설탕"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fdf6fc2c31d7",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 마요네즈 4T"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 4,
+        "unit": "꼬집",
+        "note": "원문: 소금 4꼬집"
+      },
+      {
+        "ingredientId": "mfds-ingredient-ca1a5479fbc5",
+        "amount": 1,
+        "unit": "장",
+        "note": "원문: 슬라이스 체다치즈 1장"
+      }
+    ]
+  },
+  {
+    "id": "eonam-QSoOO8oxKFM",
+    "name": "매콤게살볶음밥",
+    "baseServings": 1,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 1인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "볶음밥",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=QSoOO8oxKFM",
+    "sourceTitle": "[어남선생 레시피] 방학특집 메뉴, 매콤게살볶음밥★ 고춧가루+케첩 소스의 강렬한 맛 [신상출시 편스토랑/Fun-Staurant] | KBS 230811 방송",
+    "sourceNote": "KBS Entertain / 영상 QSoOO8oxKFM; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "instant-rice",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 즉석밥 1개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-059f3b721a46",
+        "amount": 4,
+        "unit": "개",
+        "note": "원문: 게맛살 4개"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 0.5,
+        "unit": "대",
+        "note": "원문: 대파 1/2대"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 고춧가루 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a370ec41eee9",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 굴소스 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-b1789e6cdede",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 케첩 1T"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 달걀 1개"
+      }
+    ]
+  },
+  {
+    "id": "eonam-M0DiTBRAGV0",
+    "name": "스햄순두부찌개",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 2인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "찌개",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=M0DiTBRAGV0",
+    "sourceTitle": "[어남선생 레시피] 스햄순두부찌개★초보도 무조건 성공하는 순두부찌개 [신상출시 편스토랑/Fun-Staurant] | KBS 230728 방송",
+    "sourceNote": "KBS Entertain / 영상 M0DiTBRAGV0; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-6cc0b2cfdf8f",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 스팸 1캔(200g)"
+      },
+      {
+        "ingredientId": "soft-tofu",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 순두부 1개"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "대",
+        "note": "원문: 대파 1대"
+      },
+      {
+        "ingredientId": "hot-pepper",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 청양고추 2개"
+      },
+      {
+        "ingredientId": "zucchini",
+        "amount": 0.3333333333333333,
+        "unit": "개",
+        "note": "원문: 애호박 1/3개"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 0.5,
+        "unit": "개",
+        "note": "원문: 양파 1/2개"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 달걀 2개"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 다진 마늘 1T"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 고춧가루 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 간장 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a370ec41eee9",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 굴소스 2T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 0.5,
+        "unit": "T",
+        "note": "원문: 설탕 0.5T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-ac1b9f7968ce",
+        "amount": 20,
+        "unit": "바퀴",
+        "note": "원문: 통후추 20바퀴(1t) · 원문 20바퀴 단위를 사용하고 병기된 1t는 원문 메모로 보존. 임의 환산하지 않음"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 300,
+        "unit": "ml",
+        "note": "원문: 물 300ml"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": 3,
+        "unit": "바퀴",
+        "note": "원문: 식용유 3바퀴"
+      }
+    ]
+  },
+  {
+    "id": "eonam-X_DXKtfTB9s",
+    "name": "컵라면 김치전",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 2인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "전",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=X_DXKtfTB9s",
+    "sourceTitle": "[어남선생 레시피] 김치찌개 컵라면으로 김치전을?! 간단하게 뚝딱★컵라면 김치전★ [신상출시 편스토랑/Fun-Staurant] | KBS 230721 방송",
+    "sourceNote": "KBS Entertain / 영상 X_DXKtfTB9s; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "eonam-omori-kimchi-stew-cup-noodles",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 오모리 김치찌개 컵라면 1개"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 0.5,
+        "unit": "대",
+        "note": "원문: 대파 1/2대"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 달걀 1개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-db2374a87cd0",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 밀가루 듬뿍 1T"
+      },
+      {
+        "ingredientId": "water",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 뜨거운 물"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      }
+    ]
+  },
+  {
+    "id": "eonam-NWuYo7sYHlo",
+    "name": "꿀새우피자",
+    "baseServings": 2,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 2인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "피자",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=NWuYo7sYHlo",
+    "sourceTitle": "[어남선생 레시피] 15분 완성 꿀새우피자! 집에서 이런 피자가 가능하다고??? [신상출시 편스토랑/Fun-Staurant] | KBS 230512 방송",
+    "sourceNote": "KBS Entertain / 영상 NWuYo7sYHlo; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-2dc56e992873",
+        "amount": 1,
+        "unit": "장",
+        "note": "원문: 또띠아 1장"
+      },
+      {
+        "ingredientId": "eonam-frozen-whole-shrimp",
+        "amount": 6,
+        "unit": "마리",
+        "note": "원문: 냉동새우 6마리"
+      },
+      {
+        "ingredientId": "mfds-ingredient-46b97d1a17c3",
+        "amount": 40,
+        "unit": "g",
+        "note": "원문: 버터 40g"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 마늘"
+      },
+      {
+        "ingredientId": "mfds-ingredient-597f5ba7bb98",
+        "amount": 5,
+        "unit": "개",
+        "note": "원문: 방울토마토 5개"
+      },
+      {
+        "ingredientId": "eonam-shredded-pizza-cheese",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 슈레드 피자치즈"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 2,
+        "unit": "꼬집",
+        "note": "원문: 고운 소금 2꼬집"
+      },
+      {
+        "ingredientId": "pepper",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 후추"
+      },
+      {
+        "ingredientId": "mfds-ingredient-1bc0721ab0a6",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 꿀"
+      }
+    ]
+  },
+  {
+    "id": "eonam-sT5KsSpq8w4",
+    "name": "오징어볶음",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "볶음",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=sT5KsSpq8w4",
+    "sourceTitle": "[어남선생 레시피]오징어 볶음은 평생 이 레시피 하나면 끝!! 1년 반을 고민했다 [신상출시 편스토랑/Fun-Staurant] | KBS 230217 방송",
+    "sourceNote": "KBS Entertain / 영상 sT5KsSpq8w4; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "squid",
+        "amount": 1.5,
+        "unit": "마리",
+        "note": "원문: 오징어 한 마리 반 · 원문이 명시한 큰 오징어 한 마리 반 사용. 작은 오징어 두 마리는 대체 선택지로만 보존"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "대",
+        "note": "원문: 대파 1대"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 양파 1개"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": 10,
+        "unit": "알",
+        "note": "원문: 마늘 10알"
+      },
+      {
+        "ingredientId": "hot-pepper",
+        "amount": 3,
+        "unit": "개",
+        "note": "원문: 청양고추 3개"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 고춧가루 3T"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 설탕 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 4,
+        "unit": "T",
+        "note": "원문: 간장 4T"
+      },
+      {
+        "ingredientId": "gochujang",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 고추장 듬뿍 1T"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": 4,
+        "unit": "바퀴",
+        "note": "원문: 식용유 4바퀴"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 참기름"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 통깨"
+      }
+    ]
+  },
+  {
+    "id": "eonam-kdhAx2GrZcQ",
+    "name": "갈비치킨",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "구이",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=kdhAx2GrZcQ",
+    "sourceTitle": "[어남선생 레시피] 고물가 시대! 만 원으로 치킨 해 먹자! 갈비치킨★25분이면 성공 [신상출시 편스토랑/Fun-Staurant] | KBS 230210 방송",
+    "sourceNote": "KBS Entertain / 영상 kdhAx2GrZcQ; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-82e5449c6322",
+        "amount": 1,
+        "unit": "kg",
+        "note": "원문: 닭볶음탕용 닭 10호(1kg)"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 2,
+        "unit": "대",
+        "note": "원문: 대파 2대"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": 1,
+        "unit": "줌",
+        "note": "원문: 마늘 한줌"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 3,
+        "unit": "꼬집",
+        "note": "원문: 소금 세 꼬집"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e0b1eb622107",
+        "amount": 1,
+        "unit": "톨",
+        "note": "원문: 생강 한톨"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 설탕 1T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a1119fcde4c7",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 간장 3T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a370ec41eee9",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 굴소스 듬뿍 1T"
+      },
+      {
+        "ingredientId": "syrup",
+        "amount": 6,
+        "unit": "T",
+        "note": "원문: 물엿 6T"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 통깨"
+      }
+    ]
+  },
+  {
+    "id": "eonam-FBIPDn0C3uw",
+    "name": "휴게소 버터감자",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "구이",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=FBIPDn0C3uw",
+    "sourceTitle": "[어남선생 레시피] 초강추 초간단 20분 컷★휴게소 버터감자, 웃음이 터지는 맛 [신상출시 편스토랑/Fun-Staurant] | KBS 230127 방송",
+    "sourceNote": "KBS Entertain / 영상 FBIPDn0C3uw; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "potato",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 감자 5~6개 · 원문 5~6개 범위를 임의 단일 수량으로 만들지 않고 원문 메모에 보존"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 200,
+        "unit": "ml",
+        "note": "원문: 물 1컵(200ml)"
+      },
+      {
+        "ingredientId": "mfds-ingredient-46b97d1a17c3",
+        "amount": 40,
+        "unit": "g",
+        "note": "원문: 버터 40g"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 1,
+        "unit": "t",
+        "note": "원문: 소금 1t"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 설탕"
+      }
+    ]
+  },
+  {
+    "id": "eonam-5GdYq4SEkjI",
+    "name": "대패육전",
+    "baseServings": 4,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 4인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "전",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=5GdYq4SEkjI",
+    "sourceTitle": "[어남선생 레시피] 5천원 대패육전★ 대패삼겹으로 푸짐하게, 근사하게 먹자 [신상출시 편스토랑/Fun-Staurant] | KBS 221111 방송",
+    "sourceNote": "KBS Entertain / 영상 5GdYq4SEkjI; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "mfds-ingredient-7286427766b1",
+        "amount": 400,
+        "unit": "g",
+        "note": "원문: 냉동 대패삼겹살 400g"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 7,
+        "unit": "개",
+        "note": "원문: 달걀 7개"
+      },
+      {
+        "ingredientId": "mfds-ingredient-08a73ebcbd22",
+        "amount": 200,
+        "unit": "g",
+        "note": "원문: 부침가루 한컵(200g)"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 1,
+        "unit": "T",
+        "note": "원문: 참기름 1T"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": 0.3333333333333333,
+        "unit": "T",
+        "note": "원문: 소금 ⅓T"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      }
+    ]
+  },
+  {
+    "id": "eonam-2zlotzZ7Ep0",
+    "name": "냄비 바비큐",
+    "baseServings": 3,
+    "servingsStatus": "estimated",
+    "servingsEvidence": "원문 인분 미기재. 원본 전체 재료 양을 3인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
+    "cookMinutes": null,
+    "cookingType": "구이",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=2zlotzZ7Ep0",
+    "sourceTitle": "[어남선생 레시피] 대박!! 냄비만 있으면 집에서 바비큐가 된다? 25분이면 끝! [신상출시 편스토랑/Fun-Staurant] | KBS 220729 방송",
+    "sourceNote": "KBS Entertain / 영상 2zlotzZ7Ep0; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "eonam-skin-on-pork-belly",
+        "amount": 600,
+        "unit": "g",
+        "note": "원문: 껍질 붙은 통삼겹 1근(600g)"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": 1,
+        "unit": "공기",
+        "note": "원문: 마늘 한 공기"
+      },
+      {
+        "ingredientId": "oil",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 식용유"
+      },
+      {
+        "ingredientId": "salt",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 소금"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 깨 2T"
+      },
+      {
+        "ingredientId": "mfds-ingredient-1bc0721ab0a6",
+        "amount": 3,
+        "unit": "T",
+        "note": "원문: 꿀 3T"
+      }
+    ]
+  },
+  {
+    "id": "eonam-BpmI7lnWztk",
+    "name": "수란 김치죽",
+    "baseServings": 2,
+    "servingsStatus": "explicit",
+    "servingsEvidence": "원문 1~2인분을 그대로 표시. 2026-11-23 사용자 승인에 따라 계산은 상한 2인분 기준.",
+    "servingsRange": {
+      "min": 1,
+      "max": 2
+    },
+    "cookMinutes": null,
+    "cookingType": "죽",
+    "imagePath": null,
+    "sourceName": "KBS Entertain",
+    "sourceUrl": "https://www.youtube.com/watch?v=BpmI7lnWztk",
+    "sourceTitle": "해장까지 완벽! 4가지 재료 초간단 레시피★ 어남선생 수란 김치죽 [신상출시 편스토랑/Fun-Staurant] | KBS 220408 방송",
+    "sourceNote": "KBS Entertain / 영상 BpmI7lnWztk; 원본 설명란 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "ingredients": [
+      {
+        "ingredientId": "kimchi",
+        "amount": 100,
+        "unit": "g",
+        "note": "원문: 시판용 맛김치 100g"
+      },
+      {
+        "ingredientId": "kimchi-juice",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 김칫국물 약간"
+      },
+      {
+        "ingredientId": "instant-rice",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 즉석밥 1개"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 참기름 2T"
+      },
+      {
+        "ingredientId": "tuna-extract",
+        "amount": 2,
+        "unit": "T",
+        "note": "원문: 참치액젓 2T"
+      },
+      {
+        "ingredientId": "water",
+        "amount": 800,
+        "unit": "mL",
+        "note": "원문: 물 800mL"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 1,
+        "unit": "t",
+        "note": "원문: 설탕 1t"
+      },
+      {
+        "ingredientId": "egg",
+        "amount": 3,
+        "unit": "알",
+        "note": "원문: 달걀 3알"
+      },
+      {
+        "ingredientId": "mfds-ingredient-80ff4d9b6ea9",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 김가루"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 통깨"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "amount": 1,
+        "unit": "바퀴",
+        "note": "원문: 참기름 1바퀴"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 고춧가루 약간"
+      }
+    ]
   }
 ]

@@ -11929,5 +11929,157 @@
     "category": "채소·버섯",
     "isSeasoning": false,
     "isQuickPick": false
+  },
+  {
+    "id": "eonam-pig-hind-trotter",
+    "name": "돼지 장족",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "eonam-sujeonggwa-drink",
+    "name": "수정과 음료",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "eonam-ssanghwatang-drink",
+    "name": "쌍화탕",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "eonam-lamb-skewer-seasoning",
+    "name": "양꼬치 시즈닝",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "eonam-shredded-pizza-cheese",
+    "name": "슈레드 피자치즈",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "eonam-spicy-neoguri",
+    "name": "너구리 매운맛 라면",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "eonam-salmon-fillet",
+    "name": "연어 필렛",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "eonam-beef-jerky",
+    "name": "육포",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "eonam-yellow-corvina-jeot",
+    "name": "황석어젓",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "eonam-jin-ramyun",
+    "name": "진라면",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "eonam-jam",
+    "name": "잼",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "eonam-samgyetang-herb-pack",
+    "name": "삼계탕 재료팩",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "eonam-naengmyeon-noodles",
+    "name": "냉면사리",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "eonam-jjajang-powder",
+    "name": "짜장가루",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "eonam-cola-drink",
+    "name": "콜라",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "eonam-pork-backbone",
+    "name": "돼지등뼈",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "eonam-omori-kimchi-stew-cup-noodles",
+    "name": "오모리 김치찌개 컵라면",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "eonam-frozen-whole-shrimp",
+    "name": "냉동 새우",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "eonam-skin-on-pork-belly",
+    "name": "껍질 붙은 통삼겹",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
   }
 ]
