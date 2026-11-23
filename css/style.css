@@ -449,3 +449,10 @@ body[data-page=home] .landing-steps dd { margin-top: var(--s2); margin-bottom: v
 
 .settings-link { min-width: var(--touch); justify-content: center; }
 .settings-icon { width: 24px; height: 24px; flex-shrink: 0; }
+
+/* Menu search: total catalog size stays separate from the editable query. */
+.menu-search-field{position:relative;min-width:0}
+.menu-search-field input{width:100%;padding-right:5rem}
+.menu-search-total{position:absolute;right:1rem;top:50%;transform:translateY(-50%);font-size:.875rem;color:var(--muted);pointer-events:none}
+.results-heading{margin-top:.5rem;font-size:.875rem;justify-content:flex-end}
+@media(max-width:430px){.menu-search-field input{font-size:1rem;padding-left:.75rem;padding-right:4.25rem}.menu-search-total{right:.75rem}}

@@ -10621,7 +10621,7 @@
     },
     {
       "recipeId": "paik-JKZqaFpJHn0",
-      "name": "김치 오트밀",
+      "name": "김치참치죽(오트밀)",
       "categories": [
         "한식 주메뉴"
       ],
@@ -12970,6 +12970,5422 @@
         "그 밖"
       ],
       "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-793",
+      "name": "한입 파김치",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-792",
+      "name": "막김치",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-791",
+      "name": "나주식 순살갈비탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-790",
+      "name": "백합솥밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-789",
+      "name": "순살 갈비탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-788",
+      "name": "보일링 씨푸드",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-787",
+      "name": "순두부계란장",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-786",
+      "name": "우삼겹 두부 두루치기",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-785",
+      "name": "배추 한 포기 겉절이",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-784",
+      "name": "마늘 소꼬리찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-783",
+      "name": "굴무침",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-782",
+      "name": "가오리찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-781",
+      "name": "차돌관자솥밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-780",
+      "name": "10분 컷 육개장",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-779",
+      "name": "칠게 볶음",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-778",
+      "name": "돼지고기 감자조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-777",
+      "name": "깍두기",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-776",
+      "name": "갈비 솥밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-773",
+      "name": "크림 김치찜",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-774",
+      "name": "앞다리살 스테이크",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-771",
+      "name": "매운 뼈찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-769",
+      "name": "명란두부찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-767",
+      "name": "삼겹살 김치볶음밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-766",
+      "name": "목살 스테이크",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-765",
+      "name": "한 포기 김장김치",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-764",
+      "name": "고추장 새우 삼겹살",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-763",
+      "name": "돼지고기 장조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-762",
+      "name": "부추장",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-761",
+      "name": "두부멘치까스",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-760",
+      "name": "양념새우장",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-758",
+      "name": "능이백숙",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-757",
+      "name": "크림 콩국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-754",
+      "name": "파김치",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-753",
+      "name": "닭백숙",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-752",
+      "name": "새우장",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-750",
+      "name": "콩나물 불고기",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-749",
+      "name": "두부갈비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-748",
+      "name": "홍콩식 에그누들 볶음면",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-747",
+      "name": "제로슈가 장아찌",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-746",
+      "name": "두부볶음",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-744",
+      "name": "베이컨 젬",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-743",
+      "name": "항정살 동파육",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-742",
+      "name": "청양 떡갈비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-741",
+      "name": "마늘 듬뿍 국물 닭도리탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-740",
+      "name": "고추장 감자 짜글이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-739",
+      "name": "오이소박이",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-736",
+      "name": "미나리 항정살 스테이크",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-737",
+      "name": "오징어보쌈",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-738",
+      "name": "깐풍 삼겹살",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-735",
+      "name": "나스덴카쿠",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-734",
+      "name": "삼겹살 순두부찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-733",
+      "name": "오징어볶음",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-732",
+      "name": "낙삼새",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-730",
+      "name": "오므라이스",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-729",
+      "name": "떙초 스팸마리",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-727",
+      "name": "닭볶음탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-728",
+      "name": "열무물김치",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-726",
+      "name": "부타니라타마",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-723",
+      "name": "탕수육",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-722",
+      "name": "청양고추채 장아찌",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-724",
+      "name": "고기국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-721",
+      "name": "더티라이스",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-720",
+      "name": "애호박찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-719",
+      "name": "돼지고기김치볶음",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-718",
+      "name": "들기름 막국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-717",
+      "name": "된장찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-716",
+      "name": "닭불고기",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-715",
+      "name": "사골국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-714",
+      "name": "차돌 수육",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-712",
+      "name": "계란 육개장",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-713",
+      "name": "두부조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-711",
+      "name": "오징어 짬뽕 수제비",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-709",
+      "name": "소갈비찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-708",
+      "name": "매운 크림감바스",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-706",
+      "name": "곱창 순두부찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-707",
+      "name": "매운소갈비찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-705",
+      "name": "바지락 칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-703",
+      "name": "통삼겹김치찜",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-702",
+      "name": "바지락 알 아히요",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-700",
+      "name": "돼지사골육수",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-699",
+      "name": "다시마 보쌈",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-698",
+      "name": "제육볶음",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-696",
+      "name": "동파육",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-697",
+      "name": "로티세리 치킨베이크",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-695",
+      "name": "부대찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-694",
+      "name": "스팸 무조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-691",
+      "name": "고추장찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-690",
+      "name": "짜장계란조림",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-689",
+      "name": "누룽지 닭강정",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-687",
+      "name": "간장뼈찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-684",
+      "name": "얼큰 오뎅 칼제비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-683",
+      "name": "길거리 토스트",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-682",
+      "name": "묵은지 우삼겹 새우말이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-681",
+      "name": "무생채",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-680",
+      "name": "명주조개 술찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-678",
+      "name": "매운삼겹살찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-675",
+      "name": "닭한마리 칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-673",
+      "name": "완성된 무생채와 청국장",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-672",
+      "name": "알리오올리오 소스",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-671",
+      "name": "알곤이 칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-670",
+      "name": "마파계란조림",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-669",
+      "name": "소금 LA갈비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-667",
+      "name": "소고기 장터국밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-668",
+      "name": "소갈비살 수육",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-666",
+      "name": "알곤이 두부조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-665",
+      "name": "소고기 계란 장조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-664",
+      "name": "콩나물 국밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-663",
+      "name": "똥집반 오징어반",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-662",
+      "name": "등촌샤브칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-661",
+      "name": "김 페스토 막국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-659",
+      "name": "매운마늘갈비찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-660",
+      "name": "황태해장국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-658",
+      "name": "간장마늘갈빗살",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-657",
+      "name": "홍가리비 명란 솥밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-656",
+      "name": "트러플 페이스트",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-655",
+      "name": "떡갈비 솥밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-654",
+      "name": "고추장 계란 장조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-653",
+      "name": "왕갈비미역국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-650",
+      "name": "다이어트 슈비버거",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-649",
+      "name": "소갈비찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-648",
+      "name": "닭다리 삼계탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-647",
+      "name": "실비김치",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-646",
+      "name": "갈치속젓 크림파스타",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-645",
+      "name": "앞다리살 돼지갈비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-644",
+      "name": "앞다리살 스테이크",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-642",
+      "name": "스팸두부두루치기",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-641",
+      "name": "닭도리탕 파인다이닝 버전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-640",
+      "name": "간장비빔국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-638",
+      "name": "겉절이 양념장",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-637",
+      "name": "전자레인지 나폴리탄 파스타",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-635",
+      "name": "대구뽈찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-633",
+      "name": "버터갈릭치킨",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-631",
+      "name": "매운 어묵국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-629",
+      "name": "고등어김치찜",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-628",
+      "name": "소고기묵은 솥밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-627",
+      "name": "동파족발",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-624",
+      "name": "얼큰고기국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-625",
+      "name": "김치버터",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-623",
+      "name": "만능 간장양념장",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-621",
+      "name": "우거지갈비탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-620",
+      "name": "유니짜장",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-619",
+      "name": "오리더덕주물럭",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-618",
+      "name": "김치수제비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-617",
+      "name": "장어탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-616",
+      "name": "전문점 육개장",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-615",
+      "name": "다이어트 짜장면",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-614",
+      "name": "만능 겉절이양념",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-612",
+      "name": "감바스",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-611",
+      "name": "LA갈비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-610",
+      "name": "불닭오꼬노미야끼",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-609",
+      "name": "순두부찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-607",
+      "name": "왕갈비탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-606",
+      "name": "묵은지들기름파스타",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-605",
+      "name": "소고기감자전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-603",
+      "name": "스지카레",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-602",
+      "name": "빨계떡",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-600",
+      "name": "수박장아찌",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-601",
+      "name": "수박청",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-598",
+      "name": "썬드라이토마토",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-597",
+      "name": "스지오뎅나베",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-596",
+      "name": "장어덮밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-595",
+      "name": "부대국밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-592",
+      "name": "수박생채",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-591",
+      "name": "수박화채",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-593",
+      "name": "수박주스",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-594",
+      "name": "대패우동볶음",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-590",
+      "name": "콩비지 부대찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-589",
+      "name": "김밥핫바",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-588",
+      "name": "대파수육",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-587",
+      "name": "식혜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-586",
+      "name": "초코케이크",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-585",
+      "name": "미트토마토소스",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-584",
+      "name": "콘스프",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-583",
+      "name": "애플파이",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-582",
+      "name": "뎅보샤",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-581",
+      "name": "깻잎페스토",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-580",
+      "name": "김치만두전골",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-579",
+      "name": "계란장조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-578",
+      "name": "feat. 페퍼콘소스",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-577",
+      "name": "나나이모바",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-576",
+      "name": "고추장라구파스타",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-574",
+      "name": "도리토스 타코",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-573",
+      "name": "함박스테이크",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-571",
+      "name": "탄탄파스타",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-570",
+      "name": "꼬막솥밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-568",
+      "name": "양념게장",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-567",
+      "name": "버섯크림리조또",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-566",
+      "name": "묵은지고등어솥밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-565",
+      "name": "멜조림 쌈밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-564",
+      "name": "잡채파스타",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-563",
+      "name": "충무김밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-562",
+      "name": "청양고추다대기",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-561",
+      "name": "고깃집 콩나물무침",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-560",
+      "name": "차돌비지짜글이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-559",
+      "name": "규니쿠가라아게",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-558",
+      "name": "동대문 크레페",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-556",
+      "name": "간장비빔국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-555",
+      "name": "마라콩불",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-554",
+      "name": "멕시칸샐러드",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-552",
+      "name": "스챔김치칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-553",
+      "name": "혈관파괴버거",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-551",
+      "name": "크림치킨스테이크",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-550",
+      "name": "고추장계란밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-549",
+      "name": "김치 라제비",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-548",
+      "name": "갈치속젓파스타",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-546",
+      "name": "명란비지짜글이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-545",
+      "name": "김밥샌드",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-544",
+      "name": "묵은지 육회말이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-543",
+      "name": "당근케이크",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-542",
+      "name": "유린기",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-541",
+      "name": "차돌박이 낙지볶음",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-540",
+      "name": "콩비지닭도리탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-539",
+      "name": "돌솥비빔밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-538",
+      "name": "중국식 닭조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-537",
+      "name": "또띠아",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-536",
+      "name": "꼬막짬뽕",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-535",
+      "name": "계란밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-534",
+      "name": "삼계탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-533",
+      "name": "애호박칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-531",
+      "name": "된장칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-530",
+      "name": "새우완탕면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-529",
+      "name": "닭발칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-528",
+      "name": "블랙알리오치킨",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-527",
+      "name": "치즈돌솥비빔밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-526",
+      "name": "하이난 치킨라이스",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-525",
+      "name": "샥슈카",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-524",
+      "name": "미트파이",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-523",
+      "name": "단호박크림 스테이크",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-522",
+      "name": "치킨크림카레",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-521",
+      "name": "필라프",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-520",
+      "name": "비프마살라",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-519",
+      "name": "누드참치김밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-518",
+      "name": "삼겹살김치칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-517",
+      "name": "컨트리 프라이드 스테이크",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-516",
+      "name": "오징어초무침",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-515",
+      "name": "차돌박이 육사시미 무침",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-514",
+      "name": "크림스피니치",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-513",
+      "name": "가이바시카츠동",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-511",
+      "name": "풍기미트볼",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-510",
+      "name": "순두부쫄면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-509",
+      "name": "몽골리안비프 누들",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-508",
+      "name": "미나리삼겹살김밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-506",
+      "name": "묵은지짜글이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-504",
+      "name": "순대국밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-502",
+      "name": "일본식 가지덮밥 나스동",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-503",
+      "name": "원팬 스테이크 크림파스타",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-501",
+      "name": "차돌된장 누룽지탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-500",
+      "name": "닭기름칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-499",
+      "name": "코다리찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-498",
+      "name": "스테이크 볶음밥",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-496",
+      "name": "소고기 수육무침",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-497",
+      "name": "치킨 프리카세",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-495",
+      "name": "닭매운탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-494",
+      "name": "시래기찜닭",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-493",
+      "name": "오징어비빔칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-492",
+      "name": "불닭야끼소바빵",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-490",
+      "name": "소꼬리찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-489",
+      "name": "LA 양념 갈비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-488",
+      "name": "대파고기튀김",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-487",
+      "name": "마라낙곱새",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-480",
+      "name": "닭고기 함박스테이크",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-486",
+      "name": "야끼우동",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-485",
+      "name": "볶음짬뽕",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-484",
+      "name": "니쿠자가",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-483",
+      "name": "김치술밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-482",
+      "name": "수구레국밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-481",
+      "name": "돼지곰탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-479",
+      "name": "마라국물닭발",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-478",
+      "name": "햄소세지찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-477",
+      "name": "마늘버터",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-476",
+      "name": "땡초간장치킨",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-475",
+      "name": "우럭매운탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-474",
+      "name": "족발국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-473",
+      "name": "양파잼",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-472",
+      "name": "낙지칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-471",
+      "name": "팟카파오무쌉",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-470",
+      "name": "얼그레이 시럽",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-469",
+      "name": "로스트 비프동",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-468",
+      "name": "명란알탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-467",
+      "name": "토마토 미트볼",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-466",
+      "name": "소고기 고추다짐장",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-465",
+      "name": "아부라소바",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-464",
+      "name": "봄동 겉절이",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-463",
+      "name": "콩잎김치",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-462",
+      "name": "마파두부",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-461",
+      "name": "홍합라볶이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-460",
+      "name": "족발수육",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-459",
+      "name": "굴칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-457",
+      "name": "굴무침",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-456",
+      "name": "청국장삼겹살",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-455",
+      "name": "빼쉐파스타",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-454",
+      "name": "굴짬뽕",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-452",
+      "name": "홍합탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-450",
+      "name": "콩국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-449",
+      "name": "풍기파스타",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-448",
+      "name": "명란순두부찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-447",
+      "name": "차돌제육볶음",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-446",
+      "name": "육전 잔치국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-445",
+      "name": "불낙전골",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-443",
+      "name": "사과 크림소스 목살 스테이크",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-442",
+      "name": "양지수육",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-441",
+      "name": "차돌박이 순두부찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-440",
+      "name": "업소용 쌀 닭강정",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-439",
+      "name": "굴오일절임",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-438",
+      "name": "바싹불고기",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-437",
+      "name": "참나물 들기름 막국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-435",
+      "name": "다시마버터",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-434",
+      "name": "우거지해장국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-433",
+      "name": "몽골리안비프",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-432",
+      "name": "무수분 카레",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-431",
+      "name": "가지밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-430",
+      "name": "콩나물 솥밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-429",
+      "name": "컵누들 마라투움바",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-428",
+      "name": "굴솥밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-426",
+      "name": "순살 아구찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-425",
+      "name": "유부포케",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-424",
+      "name": "콩비지 뼈해장국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-423",
+      "name": "마라닭날개조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-422",
+      "name": "돼지고기 삼합",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-419",
+      "name": "불고기 버섯말이 전골",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-417",
+      "name": "초간단 부타동",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-416",
+      "name": "삼겹살짬뽕",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-415",
+      "name": "미니 시카고피자",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-413",
+      "name": "가리비 순두부찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-412",
+      "name": "감자탕 볶음밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-411",
+      "name": "오징어버거",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-410",
+      "name": "꽃게솥밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-409",
+      "name": "간장게장",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-408",
+      "name": "다이어트 오꼬노미야끼",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-407",
+      "name": "순살 오리탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-401",
+      "name": "돼지곱창전골",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-405",
+      "name": "로코모코",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-406",
+      "name": "미트로프",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-403",
+      "name": "고추장찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-400",
+      "name": "대파전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-399",
+      "name": "고사리 해장국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-397",
+      "name": "잠발라야",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-396",
+      "name": "치즈오븐스파게티",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-395",
+      "name": "연어알덮밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-394",
+      "name": "된장 닭구이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-393",
+      "name": "매운크림 소갈비찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-392",
+      "name": "동파제육",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-391",
+      "name": "새송이 떡갈비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-390",
+      "name": "매콤한 빨간 짜장면",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-389",
+      "name": "마라떡볶이",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-388",
+      "name": "애호박국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-386",
+      "name": "간장숯불구이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-384",
+      "name": "매운 삼계탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-383",
+      "name": "꽁치통조림 추어탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-382",
+      "name": "뚱카롱 멘보샤",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-381",
+      "name": "치킨스톡",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-380",
+      "name": "어향가지 멘보샤",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-379",
+      "name": "병어찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-378",
+      "name": "사리곰탕라멘",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-377",
+      "name": "삼겹살된장전골",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-376",
+      "name": "삼도리탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-373",
+      "name": "인절미 토스트",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-374",
+      "name": "닭수육",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-372",
+      "name": "김장 김치",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-371",
+      "name": "닭갈비 볶음밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-370",
+      "name": "간장삼겹살",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-368",
+      "name": "스팸김치찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-367",
+      "name": "중국 냉면",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-366",
+      "name": "묵은지 닭도리탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-365",
+      "name": "육전냉면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-364",
+      "name": "부타니쿠 쇼가야끼",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-363",
+      "name": "잡채",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-361",
+      "name": "약과크림쿠키",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-362",
+      "name": "일본식 계란덮밥 텐신항",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-360",
+      "name": "장칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-359",
+      "name": "고추장 삼겹살",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-358",
+      "name": "만능 파기름",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-357",
+      "name": "삼겹살 스테이크",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-355",
+      "name": "크림감자옹심이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-356",
+      "name": "허니브래드",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-354",
+      "name": "누룽지백숙",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-353",
+      "name": "오징어두부두루치기",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-352",
+      "name": "김밥천국 라볶이",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-351",
+      "name": "광주식 애호박 국밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-349",
+      "name": "묵은지 강된장",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-350",
+      "name": "돼지국밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-348",
+      "name": "수육, 보쌈김치",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-346",
+      "name": "쌀핫도그",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-345",
+      "name": "경상도식 돼지찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-344",
+      "name": "크림카레우동",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-343",
+      "name": "전복죽",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-342",
+      "name": "장어덮밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-341",
+      "name": "쌀국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-339",
+      "name": "초간단 오므라이스",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-337",
+      "name": "미타라시 당고",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-336",
+      "name": "분짜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-335",
+      "name": "잔치국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-333",
+      "name": "연어솥밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-331",
+      "name": "짜장두부조림",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-330",
+      "name": "매운 돼지꼬리찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-329",
+      "name": "볶음김치",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-328",
+      "name": "목살양념구이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-326",
+      "name": "닭발편육",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-325",
+      "name": "지삼선",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-323",
+      "name": "명란솥밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-320",
+      "name": "멍게비빔밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-321",
+      "name": "전복 파스타",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-318",
+      "name": "매운 스지찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-319",
+      "name": "스지찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-317",
+      "name": "드라이카레",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-316",
+      "name": "양송이스프",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-315",
+      "name": "츠쿠네",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-313",
+      "name": "마라잡채",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-312",
+      "name": "순두부 짬뽕",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-311",
+      "name": "소고기 볶음 고추장",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-310",
+      "name": "간짜장",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-309",
+      "name": "앞다리살 스테이크",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-308",
+      "name": "된장오이고추무침",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-307",
+      "name": "피자떡볶이",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-305",
+      "name": "오리탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-304",
+      "name": "개성주악",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-255",
+      "name": "매운 등갈비찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-303",
+      "name": "초코케이크 쉐이크",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-242",
+      "name": "파김치삼겹솥밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-300",
+      "name": "버터계란카레",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-299",
+      "name": "아보카도 새우버거",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-298",
+      "name": "백순대볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-296",
+      "name": "홍소육",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-297",
+      "name": "일본식 푸딩 계란찜",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-292",
+      "name": "상추겉절이",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-291",
+      "name": "쭈꾸미삼겹살",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-288",
+      "name": "막걸리",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-287",
+      "name": "함박스테이크",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-237",
+      "name": "즉석떡볶이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-286",
+      "name": "돈까스를 이용한 김치나베",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-285",
+      "name": "콘치즈누룽지통닭",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-282",
+      "name": "투움바 파스타",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-283",
+      "name": "약과",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-280",
+      "name": "참치두부조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-279",
+      "name": "스팸마요덮밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-281",
+      "name": "티라미수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-277",
+      "name": "수육 전골",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-276",
+      "name": "떡볶이 치즈밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-275",
+      "name": "불고기 파스타",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-274",
+      "name": "로제 제육볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-257",
+      "name": "부대볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-271",
+      "name": "하이라이스",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-273",
+      "name": "차돌박이 솥밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-270",
+      "name": "오레오 케이크",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-252",
+      "name": "땡초김밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-268",
+      "name": "카츠샌드",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-245",
+      "name": "곱도리탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-248",
+      "name": "등뼈구이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-262",
+      "name": "고추장 불고기",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-267",
+      "name": "생생우동으로 만드는 밀푀유나베",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-249",
+      "name": "자메이카 치킨",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-253",
+      "name": "명란 비지찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-266",
+      "name": "육회비빔밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-265",
+      "name": "수제 어묵",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-264",
+      "name": "초간단 대파 육개장",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-254",
+      "name": "레드콤보",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-263",
+      "name": "코스트코 또띠아로 만드는 햄치즈또띠아롤",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-256",
+      "name": "풀드포크",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-250",
+      "name": "바스크 치즈케이크",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-244",
+      "name": "육적",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-241",
+      "name": "총각김치찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-238",
+      "name": "딸기 카이막",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-236",
+      "name": "로제 등갈비찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-235",
+      "name": "노오븐 딸기크림치즈케이크",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-234",
+      "name": "슈프림 양념치킨 홈메이드",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-232",
+      "name": "김치만두",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-230",
+      "name": "식혜 닭볶음탕",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-229",
+      "name": "일본식 삼겹살 계란말이",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-228",
+      "name": "김치말이 삼겹살",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-227",
+      "name": "노브랜드 김치로 만드는 김치찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-226",
+      "name": "베트남식 장조림 (팃 코 따우)",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-225",
+      "name": "볶음짬뽕 소스",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-223",
+      "name": "허니콤보 홈메이드",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-222",
+      "name": "부채살 스테이크 솥밥",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-221",
+      "name": "갈비탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-217",
+      "name": "급식계란찜",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-216",
+      "name": "소고기 가지덮밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-215",
+      "name": "시리얼 프렌치 토스트",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-214",
+      "name": "삼겹살 김치 솥밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-213",
+      "name": "깻순떡",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-212",
+      "name": "깐풍 닭똥집 튀김",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-211",
+      "name": "블루베리 크림치즈",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-210",
+      "name": "얼큰 닭한마리",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-209",
+      "name": "고추장 마늘보쌈",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-208",
+      "name": "전자레인지 카레",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-207",
+      "name": "카이막",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-206",
+      "name": "제티 초코케이크",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-205",
+      "name": "고추장찜닭",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-204",
+      "name": "매운감자조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-202",
+      "name": "통삼겹마라찜",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-201",
+      "name": "토마토달걀볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-200",
+      "name": "다시마 수육과 굴보쌈",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-199",
+      "name": "빨간 양념 LA갈비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-198",
+      "name": "양배추 된장찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-197",
+      "name": "애플망고빙수",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-196",
+      "name": "오향장육",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-195",
+      "name": "뚝배기 김치어묵우동",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-194",
+      "name": "라이스버거",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-193",
+      "name": "갱시기죽",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-192",
+      "name": "무뼈닭발튀김",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-191",
+      "name": "칼만둣국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-190",
+      "name": "불고기 부리또",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-189",
+      "name": "고추장술밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-188",
+      "name": "애호박전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-186",
+      "name": "알칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-185",
+      "name": "차돌육개장 칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-184",
+      "name": "양념두부강정",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-183",
+      "name": "마라열라면",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-182",
+      "name": "기사식당 오리불백",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-181",
+      "name": "버터치킨카레",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-180",
+      "name": "마제소바",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-179",
+      "name": "깍뚜기죽",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-178",
+      "name": "햄어묵두부조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-177",
+      "name": "닭발곱새",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-176",
+      "name": "기사식당 어묵볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-175",
+      "name": "돼지찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-174",
+      "name": "김치알밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-173",
+      "name": "메론빙수",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-172",
+      "name": "마라크림파스타",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-170",
+      "name": "김치라면국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-169",
+      "name": "새우굴림만두",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-168",
+      "name": "나물 만능 양념장",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-167",
+      "name": "콩나물무침",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-166",
+      "name": "묵은지 곱도리탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-165",
+      "name": "햄 베이글 샌드위치",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-164",
+      "name": "새우 필라프",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-163",
+      "name": "항정살꽈리고추조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-162",
+      "name": "장조림버터볶음밥",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-161",
+      "name": "순두부 열라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-160",
+      "name": "팟타이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-159",
+      "name": "노오븐 초코치즈케이크",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-158",
+      "name": "흑당 토스트",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-157",
+      "name": "씨앗호떡볶이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-156",
+      "name": "크림넓적당면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-154",
+      "name": "깐풍두부강정",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-153",
+      "name": "양념막창",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-152",
+      "name": "마파순두부",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-151",
+      "name": "딸기타르트",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-150",
+      "name": "간장닭조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-149",
+      "name": "뚝배기 불고기",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-148",
+      "name": "비빔당면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-146",
+      "name": "스팸짜글이찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-145",
+      "name": "타코야끼",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-144",
+      "name": "오징어 짬뽕국",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-143",
+      "name": "통새우전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-142",
+      "name": "갈비탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-141",
+      "name": "바게트 샌드위치",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-140",
+      "name": "간장 닭날개 조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-139",
+      "name": "로제쏘야",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-138",
+      "name": "오레오아이스박스",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-137",
+      "name": "참치찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-136",
+      "name": "원팬토스트",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-134",
+      "name": "초코롤빵",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-132",
+      "name": "탄탄면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-131",
+      "name": "해물찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-130",
+      "name": "통삼겹 간장조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-129",
+      "name": "차돌떡볶이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-128",
+      "name": "청양고추 양념장",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-127",
+      "name": "돼코바 레시피 영상",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-126",
+      "name": "일반 감자전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-125",
+      "name": "짜파라볶이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-124",
+      "name": "선지해장국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-123",
+      "name": "간장 두부조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-122",
+      "name": "유부초김밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-121",
+      "name": "순두부짜글이찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-120",
+      "name": "메추리알꼬치, 순대꼬치, 양념소스",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-119",
+      "name": "부추굴전 & 양념간장",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-118",
+      "name": "돼지갈비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-117",
+      "name": "유부쌈장",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-116",
+      "name": "간장삼겹살조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-115",
+      "name": "매운 등뼈찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-113",
+      "name": "대파김치",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-112",
+      "name": "와인수육과 파절이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-111",
+      "name": "명란마요김밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-110",
+      "name": "된장홍합죽",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-109",
+      "name": "고추 참치볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-108",
+      "name": "쭈꾸미대창볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-107",
+      "name": "오징어젓갈볶음밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-106",
+      "name": "빨간 소고기 뭇국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-105",
+      "name": "동태찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-104",
+      "name": "된장 소갈비찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-103",
+      "name": "김치전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-102",
+      "name": "차돌된장국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-101",
+      "name": "경상도식 빨간 콩나물 잡채",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-100",
+      "name": "간장치킨",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-99",
+      "name": "꽁치김치찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-98",
+      "name": "된장 삼겹살",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-97",
+      "name": "스팸 고추장 볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-96",
+      "name": "얼큰 떡국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-95",
+      "name": "떡국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-94",
+      "name": "코다차야 김치볶음밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-93",
+      "name": "묵은지 참치 김밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-92",
+      "name": "국물 제육볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-91",
+      "name": "수육 & 무김치",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-88",
+      "name": "오므라이스",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-87",
+      "name": "김치말이국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-86",
+      "name": "오돌뼈",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-85",
+      "name": "쫄면 순두부",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-84",
+      "name": "뼈없는 소갈비찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-83",
+      "name": "마늘보쌈",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-82",
+      "name": "골뱅이 무침",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-80",
+      "name": "군대식 오리불고기",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-79",
+      "name": "짜장면",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-78",
+      "name": "엽떡",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-77",
+      "name": "묵은지 닭도리탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-76",
+      "name": "떡갈비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-75",
+      "name": "낙지볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-74",
+      "name": "일본식 돈까스",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-72",
+      "name": "분식집 떡볶이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-71",
+      "name": "국밥집 깍두기",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-70",
+      "name": "돼지볶음고기",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-69",
+      "name": "김치낙지죽",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-68",
+      "name": "냉이 된장찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-67",
+      "name": "유자 간장 등갈비찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-66",
+      "name": "낙곱새",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-65",
+      "name": "매운 소갈비찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-64",
+      "name": "시장표 비빔국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-63",
+      "name": "된장 짜글이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-62",
+      "name": "동파육",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-61",
+      "name": "일본식 카레",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-60",
+      "name": "돼지갈비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-59",
+      "name": "굴림만두 갈비맛",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-58",
+      "name": "족발",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-57",
+      "name": "된장술밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-56",
+      "name": "계란볶이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-55",
+      "name": "갈비찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-54",
+      "name": "배추 겉절이",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-53",
+      "name": "계란 폭탄 토스트",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-52",
+      "name": "돼지고기 김치볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-51",
+      "name": "간장새우장",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-50",
+      "name": "제주 오는정 김밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-49",
+      "name": "간장치킨",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-48",
+      "name": "제주도 고기국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-47",
+      "name": "한방 수육",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-46",
+      "name": "닭꼬치",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-45",
+      "name": "곱창전골",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-44",
+      "name": "오삼불고기",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-43",
+      "name": "김치 나베",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-42",
+      "name": "돼지불백",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-41",
+      "name": "매운 양념 껍데기 ver",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-40",
+      "name": "무뼈닭발",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-39",
+      "name": "마약찜닭",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-38",
+      "name": "야채곱창볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-37",
+      "name": "등갈비 김치찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-36",
+      "name": "간장돼지갈비찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-35",
+      "name": "소고기 미역국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-34",
+      "name": "고등어 무조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-33",
+      "name": "국물없는 김치찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-32",
+      "name": "원팬으로 만드는 잡채",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-31",
+      "name": "제육볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-30",
+      "name": "고추장 삼겹살",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-29",
+      "name": "닭갈비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-28",
+      "name": "두부 두루치기",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-27",
+      "name": "닭칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-26",
+      "name": "오징어 볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-25",
+      "name": "굽네 고추바사삭",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-23",
+      "name": "매운 갈비찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-22",
+      "name": "감자탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-21",
+      "name": "크림진짬뽕",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-20",
+      "name": "닭떡볶이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-19",
+      "name": "짜글이찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-18",
+      "name": "육개장",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-17",
+      "name": "부대찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-16",
+      "name": "닭볶음탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-14",
+      "name": "장칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-13",
+      "name": "지코바 치킨",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-12",
+      "name": "김치찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-11",
+      "name": "중화비빔밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-10",
+      "name": "삼겹살 김치찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-9",
+      "name": "로제 찜닭",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-8",
+      "name": "콩나물 불고기",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-7",
+      "name": "두부조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "mincook-blog-6",
+      "name": "국물닭발",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-5",
+      "name": "7분 김치찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-4",
+      "name": "이삭토스트",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-3",
+      "name": "고추장찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "mincook-blog-2",
+      "name": "고깃집 된장찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
     }
   ]
 }

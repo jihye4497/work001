@@ -303,10 +303,10 @@ function drawRecipes() {
       resetVisible();save();drawRecipes();focus(`food-${index}`);
     }, checked?'secondary selected':'secondary', {id:`food-${index}`, 'aria-pressed':String(checked)});
   }));
-  const input = el('input', {id:'menu-search', type:'search', value:store.draft.menuQuery, maxLength:200, placeholder:'먹고 싶은 메뉴가 있다면 검색해 보세요', autocomplete:'off', 'aria-controls':'menu-search-list'});
+  const input = el('input', {id:'menu-search', type:'search', value:store.draft.menuQuery, maxLength:200, placeholder:'먹고 싶은 메뉴가 있으신가요?', autocomplete:'off', 'aria-controls':'menu-search-list'});
   const searchList=el('section',{id:'menu-search-list',class:'menu-search-list',hidden:true,'aria-label':'전체 메뉴 검색 결과'});
   const content = el('div', {id:'menu-results'});
-  const resultTitle=el('h2',{id:'results-title',tabIndex:-1},'추천 메뉴');
+  const resultTitle=el('h2',{id:'results-title',class:'flow-heading',tabIndex:-1},'추천 메뉴');
   const resultCount=el('span',{class:'muted'});
   const resultHeading=el('div',{class:'section-heading results-heading'},[resultTitle,resultCount]);
   function renderResults() {
@@ -385,8 +385,9 @@ function drawRecipes() {
         el('div',{class:'food-kinds'},[el('span',{class:'flow-heading'},'음식 종류'),filters]),
         modeIndex===1?el('div',{class:'interest-section'},[el('div',{class:'section-heading'},[interestHeading,el('div',{class:'interest-actions'},[toggleAllInterests,link('재료 수정',url('ingredients.html?tab=planned'))])]),interests.length?interestChips:link('장바구니 재료 고르기',url('ingredients.html?tab=planned'))]):null
       ]),el('div',{id:'recipe-feedback',role:'status','aria-live':'polite'}),
-      resultHeading,
-      el('label',{htmlFor:input.id,class:'flow-heading'},'메뉴 검색'),input,searchList,content
+      el('label',{htmlFor:input.id,class:'flow-heading'},'메뉴 검색'),
+      el('div',{class:'menu-search-field'},[input,el('span',{class:'menu-search-total','aria-label':'전체 메뉴 수'},`${data.recipes.length}개`)]),
+      resultHeading,searchList,content
     ]),
     el('div',{class:'recipe-bottom'},[selectedPanel(true),link('장보기 목록 →',url('shopping-list.html'),'button primary')])
   );
