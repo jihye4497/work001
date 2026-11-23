@@ -11226,6 +11226,726 @@
         "한식 주메뉴"
       ],
       "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-iExAnB9aQXE",
+      "name": "유니 짜파게티",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-VOLdYvZKGYk",
+      "name": "최강록 규동",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-fSO1BUWp0lY",
+      "name": "초간단 스키야키",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-rdoc9zmVtoc",
+      "name": "닭다리살 데리야끼 덮밥",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-l5ctHOjWzg0",
+      "name": "마제소바",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-plab1xyfpEM",
+      "name": "고등어 된장조림",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-Nf64M49MMYk",
+      "name": "우삼겹 카레우동",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-I3YuOVazd_s",
+      "name": "시금치 베이컨볶음",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-y795m5QpTFA",
+      "name": "감바스 짜파게티",
+      "categories": [
+        "퓨전"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-ktUEcwWfPzU",
+      "name": "김풍 초장 파스타",
+      "categories": [
+        "퓨전"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-VrPIBsIcR9s",
+      "name": "감자 그라탕",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-IPswH1Tsnao",
+      "name": "북엇국 떡볶이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-iEHYa_ou9PU",
+      "name": "샘킴 굴튀김",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-WAqxAXaxBCE",
+      "name": "전복 미역 수프",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-plHNkSHmC18",
+      "name": "베이컨 감자 사라다",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-D_jIsgBZCuU",
+      "name": "자몽 브륄레",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-zoqdukpn6IE",
+      "name": "아보카도 샐러드",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-2BvBrecFJS0",
+      "name": "코울슬로",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-F2T4KiR4lx0",
+      "name": "태국식 차돌 파스타",
+      "categories": [
+        "퓨전"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-saSDyohI1-0",
+      "name": "무피클",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-PyCFeiM3ikk",
+      "name": "양파 스테이크",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-zMItNsN6Us8",
+      "name": "카라멜 호두",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-akpdWkIZyjs",
+      "name": "만능 디핑소스",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-rnj5L0xTYEU",
+      "name": "돼지고기 안심스테이크",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-Ww-OGnxjd90",
+      "name": "클램 차우더 수프",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-JrVU7kEIQdQ",
+      "name": "원팬 콘 참치 파스타",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-e6Hsqu8066Y",
+      "name": "크림라구파스타",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-0-ildAcj2VY",
+      "name": "매콤 장어덮밥",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-81q67YRfOlM",
+      "name": "초간단 돼지국밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-q_KRs717Fq4",
+      "name": "흑돼지 김치찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "caden-6Ljb9ZqAmF8",
+      "name": "무생채",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-4K3h-Eky_00",
+      "name": "콩나물 어묵볶음",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-kcqgfT3NSAY",
+      "name": "LA갈비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-mw7pftQHqlQ",
+      "name": "두부조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-WV91-NxNNDI",
+      "name": "애호박 국밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-GpIMVmW20u0",
+      "name": "꽈리고추 멸치볶음",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-GmXFPKsjSe0",
+      "name": "대패삼겹 파무침",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-Z_rxxc3UhNo",
+      "name": "소문의 닭다리",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-H-En9xJUR7k",
+      "name": "깻잎김치",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-zcwL1zWIwpU",
+      "name": "갈치조림",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-hpYjmlYzX84",
+      "name": "초간단 카레라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-WvTZwyZX2Wo",
+      "name": "진미채 오징어짬뽕",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-V3TA8wtp-YQ",
+      "name": "명란 오이무침",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-4wk9YJDn8SE",
+      "name": "우삼겹 갈비탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "caden-shP5i5OJcj4",
+      "name": "고추장 멸치볶음",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-bYd79jFE2OA",
+      "name": "토마토 김치",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-FNhCQKrey6Y",
+      "name": "대패 삼겹살 감자탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "caden-LEaLSNQLCP0",
+      "name": "멍게무침",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-qsQXbox1rI4",
+      "name": "김치찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-S8HxxFjotJI",
+      "name": "봄동 비빔국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-f0sjYHhQsPA",
+      "name": "만두 순댓국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "caden-hu0DWXWBJcE",
+      "name": "국물 닭발",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-HXYsJYuuW2g",
+      "name": "꽃게탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "caden-XDn85vDO3lY",
+      "name": "매콤간장비빔국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-klFhbUssB60",
+      "name": "차돌 된장찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "caden-SNimRYX9YaQ",
+      "name": "무생채",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-B0EkWL-67Jg",
+      "name": "새콤달콤 물회",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-u3v0zLwySd4",
+      "name": "감자조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-DX6ydTY05O4",
+      "name": "고기 된장조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-XyKLtcJt-Uw",
+      "name": "부대찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "caden-wq4cXAW4aLI",
+      "name": "계란볶음밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-MbACBziW55s",
+      "name": "황태 콩나물 해장국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "caden-n6e08ay5tUw",
+      "name": "고추장찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "caden-SqgGwXPxfAM",
+      "name": "토마토 갈비찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-qR5Iq9wDqOE",
+      "name": "명란 냉파스타",
+      "categories": [
+        "퓨전"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-TLtwLZ6M01A",
+      "name": "고등어조림",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-PW04hLy9o0w",
+      "name": "찜닭",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-9j7Us3rTG7o",
+      "name": "동태 알탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "caden-F3d9odPcgek",
+      "name": "냉제육",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-q85dpwLkDgQ",
+      "name": "소불고기",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-pNtwZuhYQeg",
+      "name": "닭볶음탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "caden-N31qMmNsKsI",
+      "name": "돼지고기 마늘 부추볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-1sptmEHbDI0",
+      "name": "수박화채",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-NKhQzu9L4r8",
+      "name": "옛날 토스트",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-3SlGinJp_Kc",
+      "name": "옛날 떡볶이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-xHs-S7qZXyE",
+      "name": "황태 콩나물 해장라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-lEi-7QVx97Y",
+      "name": "돼지고기 안심 장조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-5nYg0y4dfSI",
+      "name": "아삭한 가지볶음",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-Z0NMTwkZVYM",
+      "name": "굴무침",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-UVsdxo8UjAI",
+      "name": "석박지",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-X3If0w8Lh4A",
+      "name": "황태채무침",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-MTfwI8zOkOQ",
+      "name": "잡채",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-tOhQ1bskyNY",
+      "name": "참치 무조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-HqX21YVCd08",
+      "name": "당근 라페 타파스",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "caden-j2lb8mStzW0",
+      "name": "로제 치즈 계란찜",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-zs-OdDdvREM",
+      "name": "봄동 겉절이",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-0GeQF6nLnt8",
+      "name": "오이볶음",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-pD-C8vPzgIE",
+      "name": "소고기 메추리알 장조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-Spue6VL44Xg",
+      "name": "양배추 김치",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "caden-QUQo8Js-ttQ",
+      "name": "연근조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
     }
   ]
 }

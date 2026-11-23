@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "channelId": "UCWyjY6ykM58LO5ipzRgIzGA",
+  "sourceName": "정호영의 오늘도 요리 Kitchen Caden",
+  "sourceUrl": "https://www.youtube.com/@kitchencaden2335/playlists",
+  "checkedOn": "2026-11-23",
+  "entries": [
+    {
+      "playlistId": "PLLw7z5jPcRNqSMwAJGn5jTq9m2VGi4mBH",
+      "title": "중식",
+      "publicVideoCount": 1,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLLw7z5jPcRNp1o1ntXGTm8wR7KceNu_jW",
+      "title": "일식",
+      "publicVideoCount": 14,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz",
+      "title": "양식",
+      "publicVideoCount": 34,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk",
+      "title": "한식",
+      "publicVideoCount": 64,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLLw7z5jPcRNqSpIp0KuKYn63DxlYhX6_r",
+      "title": "분식",
+      "publicVideoCount": 4,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI",
+      "title": "반찬류",
+      "publicVideoCount": 28,
+      "excludedPlaylist": false
+    },
+    {
+      "playlistId": "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs",
+      "title": "shorts",
+      "publicVideoCount": 188,
+      "excludedPlaylist": true
+    }
+  ],
+  "completePublicTraversal": true
+}

@@ -1,0 +1,4668 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-23",
+  "channelId": "UCWyjY6ykM58LO5ipzRgIzGA",
+  "sourceName": "정호영의 오늘도 요리 Kitchen Caden",
+  "sourceUrl": "https://www.youtube.com/@kitchencaden2335/playlists",
+  "completePublicTraversal": true,
+  "publicVideoCount": 321,
+  "counts": {
+    "registered": 90,
+    "pending": 41,
+    "excluded-short": 189,
+    "excluded-other-channel": 1
+  },
+  "scope": "채널 공개 재생목록들의 중복 제거 목록 기준. Shorts는 제외. 모든 영상의 레시피 등록 완료를 뜻하지 않으며, 영상 내 여러 요리는 검수한 대표 요리로 등록.",
+  "entries": [
+    {
+      "videoId": "iExAnB9aQXE",
+      "sourceTitle": "10분만 투자하면 놀라운 짜파게티의 맛을 느낄 수 있습니다",
+      "sourceUrl": "https://www.youtube.com/watch?v=iExAnB9aQXE",
+      "playlistIds": [
+        "PLLw7z5jPcRNqSMwAJGn5jTq9m2VGi4mBH"
+      ],
+      "playlistTitles": [
+        "중식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-iExAnB9aQXE",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "Qh0cCRehZ_Y",
+      "sourceTitle": "[H 컬처클럽] 입주민을 위한 품격 있는 주거 경험, 정호영 셰프의 특별한 한 끼 프로젝트",
+      "sourceUrl": "https://www.youtube.com/watch?v=Qh0cCRehZ_Y",
+      "playlistIds": [
+        "PLLw7z5jPcRNp1o1ntXGTm8wR7KceNu_jW"
+      ],
+      "playlistTitles": [
+        "일식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "excluded-other-channel",
+      "reason": "다른 채널의 영상. 해당 채널의 레시피로 등록하지 않음.",
+      "channelId": "UCAZyJvPaxriHqItjwa9eK7Q"
+    },
+    {
+      "videoId": "bL3VV0jrrRg",
+      "sourceTitle": "진짜 고민하다 풉니다..정호영 7년 최애술🍸카덴Best 파스타 레시피 공개 & 와인 위스키 하이볼 소주 맥주 만능 안주",
+      "sourceUrl": "https://www.youtube.com/watch?v=bL3VV0jrrRg",
+      "playlistIds": [
+        "PLLw7z5jPcRNp1o1ntXGTm8wR7KceNu_jW",
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "일식",
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "Sn91tKGmbXQ",
+      "sourceTitle": "대패삼겹살로 만드는 초간단 일본식 제육덮밥!",
+      "sourceUrl": "https://www.youtube.com/watch?v=Sn91tKGmbXQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNp1o1ntXGTm8wR7KceNu_jW"
+      ],
+      "playlistTitles": [
+        "일식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "Mjybaip6bIw",
+      "sourceTitle": "찾았다! 연어 최강 조합! 정호영 셰프의 초간단 연어 요리!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=Mjybaip6bIw",
+      "playlistIds": [
+        "PLLw7z5jPcRNp1o1ntXGTm8wR7KceNu_jW"
+      ],
+      "playlistTitles": [
+        "일식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "7SQIQCjJm0g",
+      "sourceTitle": "다카마쓰 우동! 절대 이렇게 먹지 마세요~!",
+      "sourceUrl": "https://www.youtube.com/watch?v=7SQIQCjJm0g",
+      "playlistIds": [
+        "PLLw7z5jPcRNp1o1ntXGTm8wR7KceNu_jW"
+      ],
+      "playlistTitles": [
+        "일식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "VOLdYvZKGYk",
+      "sourceTitle": "흑백요리사2 우승자 최강록의 규동 레시피(?)",
+      "sourceUrl": "https://www.youtube.com/watch?v=VOLdYvZKGYk",
+      "playlistIds": [
+        "PLLw7z5jPcRNp1o1ntXGTm8wR7KceNu_jW"
+      ],
+      "playlistTitles": [
+        "일식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-VOLdYvZKGYk",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "jtdxQXfSYDo",
+      "sourceTitle": "아이들이 환장할 치킨 가라아게! 맛이 그냥... 미쳤어요!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=jtdxQXfSYDo",
+      "playlistIds": [
+        "PLLw7z5jPcRNp1o1ntXGTm8wR7KceNu_jW"
+      ],
+      "playlistTitles": [
+        "일식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "치킨 가라아게: 재료표에 닭 주재료가 누락되어 원본 확인 대기",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "fSO1BUWp0lY",
+      "sourceTitle": "[정호영X김형석] 일식 셰프가 알려주는 스키야키~! 이렇게 쉬운 방법이???!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=fSO1BUWp0lY",
+      "playlistIds": [
+        "PLLw7z5jPcRNp1o1ntXGTm8wR7KceNu_jW"
+      ],
+      "playlistTitles": [
+        "일식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-fSO1BUWp0lY",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "rdoc9zmVtoc",
+      "sourceTitle": "아이들이 환장하는 닭다리살 데리야끼 덮밥! 만능소스까지 공개!",
+      "sourceUrl": "https://www.youtube.com/watch?v=rdoc9zmVtoc",
+      "playlistIds": [
+        "PLLw7z5jPcRNp1o1ntXGTm8wR7KceNu_jW"
+      ],
+      "playlistTitles": [
+        "일식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-rdoc9zmVtoc",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "l5ctHOjWzg0",
+      "sourceTitle": "한번 맛보면 멈출 수 없는 맛! 마제 소바! 이거 진짜 미쳤다!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=l5ctHOjWzg0",
+      "playlistIds": [
+        "PLLw7z5jPcRNp1o1ntXGTm8wR7KceNu_jW"
+      ],
+      "playlistTitles": [
+        "일식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-l5ctHOjWzg0",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "plab1xyfpEM",
+      "sourceTitle": "PD가 이 레시피로 아들에게 해줬더니 계속 이것만 찾아요!",
+      "sourceUrl": "https://www.youtube.com/watch?v=plab1xyfpEM",
+      "playlistIds": [
+        "PLLw7z5jPcRNp1o1ntXGTm8wR7KceNu_jW"
+      ],
+      "playlistTitles": [
+        "일식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-plab1xyfpEM",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "GDTXvM0cMfE",
+      "sourceTitle": "일식 전문가가 알려주는 냉동참치 먹는 법! 해동부터 회뜨기, 요리까지 풀코스!",
+      "sourceUrl": "https://www.youtube.com/watch?v=GDTXvM0cMfE",
+      "playlistIds": [
+        "PLLw7z5jPcRNp1o1ntXGTm8wR7KceNu_jW"
+      ],
+      "playlistTitles": [
+        "일식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "Nf64M49MMYk",
+      "sourceTitle": "샘킴 vs 정호영의 카레 전쟁! '누'가 더 카레를 더 잘 만들까?",
+      "sourceUrl": "https://www.youtube.com/watch?v=Nf64M49MMYk",
+      "playlistIds": [
+        "PLLw7z5jPcRNp1o1ntXGTm8wR7KceNu_jW",
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "일식",
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-Nf64M49MMYk",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "I3YuOVazd_s",
+      "sourceTitle": "일본까지 갈 필요 없습니다! 집에서 만드는 초간단 일본 가정식 한 상",
+      "sourceUrl": "https://www.youtube.com/watch?v=I3YuOVazd_s",
+      "playlistIds": [
+        "PLLw7z5jPcRNp1o1ntXGTm8wR7KceNu_jW"
+      ],
+      "playlistTitles": [
+        "일식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-I3YuOVazd_s",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "y795m5QpTFA",
+      "sourceTitle": "이게 라면 대회 1등했다고? 셰프가 직접 만들어봤더니...!",
+      "sourceUrl": "https://www.youtube.com/watch?v=y795m5QpTFA",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-y795m5QpTFA",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "ktUEcwWfPzU",
+      "sourceTitle": "초장 파스타 찐 레시피 공개합니다! 김풍은 천재가 맞습니다...",
+      "sourceUrl": "https://www.youtube.com/watch?v=ktUEcwWfPzU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz",
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "양식",
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-ktUEcwWfPzU",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "VrPIBsIcR9s",
+      "sourceTitle": "감자그라탕 맛 보고 정호영 셰프가 욕을 했습니다...",
+      "sourceUrl": "https://www.youtube.com/watch?v=VrPIBsIcR9s",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-VrPIBsIcR9s",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "IPswH1Tsnao",
+      "sourceTitle": "떡볶이에 이걸 넣었더니… 셰프도 놀랐습니다 #정호영 #흑백요리사 #떡볶이",
+      "sourceUrl": "https://www.youtube.com/watch?v=IPswH1Tsnao",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz",
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "양식",
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-IPswH1Tsnao",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "RxdzUqwmHAg",
+      "sourceTitle": "흑백요리사2의 송훈 셰프가 재현하는 흑백대전 리벤지! #정호영 #흑백요리사 #송훈",
+      "sourceUrl": "https://www.youtube.com/watch?v=RxdzUqwmHAg",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "lZPcQCj08tQ",
+      "sourceTitle": "여러분의 떡국에 깊은 맛이 없는 이유",
+      "sourceUrl": "https://www.youtube.com/watch?v=lZPcQCj08tQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz",
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "양식",
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "떡국: 브라운버터 제조 250g과 실제 사용량의 관계 확인 대기",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "iEHYa_ou9PU",
+      "sourceTitle": "흑백요리사2의 샘킴이 굴튀김 좀 해줬으면 좋겠네...",
+      "sourceUrl": "https://www.youtube.com/watch?v=iEHYa_ou9PU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-iEHYa_ou9PU",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "HeuJKQOG1UE",
+      "sourceTitle": "잠봉 샌드위치에 '이 소스'만 있으면 맛이 100배 맛있어집니다",
+      "sourceUrl": "https://www.youtube.com/watch?v=HeuJKQOG1UE",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "WAqxAXaxBCE",
+      "sourceTitle": "오늘부터 최고의 보양식은 이겁니다! 전복미역스프!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=WAqxAXaxBCE",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-WAqxAXaxBCE",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "plHNkSHmC18",
+      "sourceTitle": "자꾸만 손이가는 감자사라다 초간단 레시피 공개!",
+      "sourceUrl": "https://www.youtube.com/watch?v=plHNkSHmC18",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-plHNkSHmC18",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "D_jIsgBZCuU",
+      "sourceTitle": "자몽으로 만드는 초간단하면서 고급스러운 디저트!",
+      "sourceUrl": "https://www.youtube.com/watch?v=D_jIsgBZCuU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-D_jIsgBZCuU",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "zoqdukpn6IE",
+      "sourceTitle": "다이어트할 때 무조건 이거 드세요! 뱃살 쏙 빠지는 아보카도 샐러드!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=zoqdukpn6IE",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-zoqdukpn6IE",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "2BvBrecFJS0",
+      "sourceTitle": "이젠 사먹지 마세요~ 초간단 코울슬로 레시피 공개합니다!",
+      "sourceUrl": "https://www.youtube.com/watch?v=2BvBrecFJS0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-2BvBrecFJS0",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "F2T4KiR4lx0",
+      "sourceTitle": "실제 레스토랑에서 팔던 '특별한' 차돌 파스타 공개합니다!",
+      "sourceUrl": "https://www.youtube.com/watch?v=F2T4KiR4lx0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-F2T4KiR4lx0",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "saSDyohI1-0",
+      "sourceTitle": "[가을 무 특집1] 1급 비밀! 레스토랑 무피클 레시피! 이거 맛보면 죽습니다",
+      "sourceUrl": "https://www.youtube.com/watch?v=saSDyohI1-0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-saSDyohI1-0",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "PyCFeiM3ikk",
+      "sourceTitle": "양파를 스테이크로 구우면 생기는 일!",
+      "sourceUrl": "https://www.youtube.com/watch?v=PyCFeiM3ikk",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-PyCFeiM3ikk",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "yC6Uo9ANXxU",
+      "sourceTitle": "대파의 반란! 대파는 꼭 이렇게 드세요!!! 미친 소스까지!",
+      "sourceUrl": "https://www.youtube.com/watch?v=yC6Uo9ANXxU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "zMItNsN6Us8",
+      "sourceTitle": "초간단 간식! 그냥 먹어도 좋고 샐러드랑 먹어도 좋고! 그냥 무조건 맛있음!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=zMItNsN6Us8",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-zMItNsN6Us8",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "fvPA1g-nWkM",
+      "sourceTitle": "연어 스테이크! 이렇게 구우면 레스토랑 안 가도 됩니다",
+      "sourceUrl": "https://www.youtube.com/watch?v=fvPA1g-nWkM",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "연어 스테이크: 재료표에 연어 주재료가 누락되어 원본 확인 대기",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "akpdWkIZyjs",
+      "sourceTitle": "[만능 소스] 어디에도 어울리는 만능 찍먹 소스! 완전 초간단!",
+      "sourceUrl": "https://www.youtube.com/watch?v=akpdWkIZyjs",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-akpdWkIZyjs",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "rnj5L0xTYEU",
+      "sourceTitle": "[스테이크] 먹자마자 소름 돋은 안심스테이크! 근데 오렌지주스를 곁들인...",
+      "sourceUrl": "https://www.youtube.com/watch?v=rnj5L0xTYEU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-rnj5L0xTYEU",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "Ww-OGnxjd90",
+      "sourceTitle": "[정호영] 말로 표현할 수 없는 미친 맛! 클램 차우더! 무조건 강추합니다!!!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ww-OGnxjd90",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-Ww-OGnxjd90",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "sE2kY0Wf5ms",
+      "sourceTitle": "[정호영X김형석] 굴찜! 돈 주고 사 먹지 마세요! 식당보다 맛있는 초럭셔리 굴찜 요리!",
+      "sourceUrl": "https://www.youtube.com/watch?v=sE2kY0Wf5ms",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "jDnGc3pfmhQ",
+      "sourceTitle": "[정호영X김형석] PD의 아이들이 맛보고 환장한 프렌치 토스트!",
+      "sourceUrl": "https://www.youtube.com/watch?v=jDnGc3pfmhQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "JrVU7kEIQdQ",
+      "sourceTitle": "[정호영] 원팬파스타로 이런 고급 요리를???",
+      "sourceUrl": "https://www.youtube.com/watch?v=JrVU7kEIQdQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-JrVU7kEIQdQ",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "c8AtMYzZAAU",
+      "sourceTitle": "[정호영] 수제 함박 스테이크! 한번 맛보면 멈출 수 없는 이 맛~ 퀄리티 미쳤어요!",
+      "sourceUrl": "https://www.youtube.com/watch?v=c8AtMYzZAAU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "e6Hsqu8066Y",
+      "sourceTitle": "파스타 만들 때 '이것'만 기억하세요!",
+      "sourceUrl": "https://www.youtube.com/watch?v=e6Hsqu8066Y",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-e6Hsqu8066Y",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "q_QLRth9JvE",
+      "sourceTitle": "만능 데리야끼 소스를 곁들인 목살 스테이크! 이렇게 부드럽다고???",
+      "sourceUrl": "https://www.youtube.com/watch?v=q_QLRth9JvE",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "목살 스테이크: 목살 축종과 대량 데리야끼 소스의 실제 사용 분량 확인 대기",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "-351Hc-GpwQ",
+      "sourceTitle": "스테이크 만드는 신박한 방법! 이런 방법이 있었어???",
+      "sourceUrl": "https://www.youtube.com/watch?v=-351Hc-GpwQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "5ReIMQ4kJg8",
+      "sourceTitle": "감바스 알 아히요 만들 때 꼭 넣어야 하는 이것!",
+      "sourceUrl": "https://www.youtube.com/watch?v=5ReIMQ4kJg8",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "VJvR7ZcW36M",
+      "sourceTitle": "👍200만💕 스테이크! 이렇게 구우면 레스토랑 안 가도 됩니다!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=VJvR7ZcW36M",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "CHuBeVM4YsY",
+      "sourceTitle": "우리가 몰랐던 수입산 소고기의 비밀! (미국산 초이스 VS 호주청정우)",
+      "sourceUrl": "https://www.youtube.com/watch?v=CHuBeVM4YsY",
+      "playlistIds": [
+        "PLLw7z5jPcRNqhQOzkP5tsWRthwFLsEQvz"
+      ],
+      "playlistTitles": [
+        "양식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "0-ildAcj2VY",
+      "sourceTitle": "장어는 굽지 말고 조리세요! 맛이 확 달라집니다!",
+      "sourceUrl": "https://www.youtube.com/watch?v=0-ildAcj2VY",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-0-ildAcj2VY",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "xgYAgpqQNSg",
+      "sourceTitle": "이제부터 제육볶음 레시피는 무조건 이걸로 만드세요! 2억 팔린 이유가 있음!",
+      "sourceUrl": "https://www.youtube.com/watch?v=xgYAgpqQNSg",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "제육볶음: 대량 양념장 제조분과 실제 고기600g에 쓰는 양 확인 대기",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "81q67YRfOlM",
+      "sourceTitle": "10분 완성! 돼지국밥이 이렇게 쉽다고?",
+      "sourceUrl": "https://www.youtube.com/watch?v=81q67YRfOlM",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-81q67YRfOlM",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "q_KRs717Fq4",
+      "sourceTitle": "김치찌개 집 사장님 죄송합니다.. 제가 한 김치찌개가 너무 맛있어요",
+      "sourceUrl": "https://www.youtube.com/watch?v=q_KRs717Fq4",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-q_KRs717Fq4",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "6Ljb9ZqAmF8",
+      "sourceTitle": "숨겨놨던 어머니의 무생채 레시피 공개합니다!",
+      "sourceUrl": "https://www.youtube.com/watch?v=6Ljb9ZqAmF8",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk",
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "한식",
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-6Ljb9ZqAmF8",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "4K3h-Eky_00",
+      "sourceTitle": "아직도 어묵을 그냥 볶으세요? 콩나물 넣었더니 완전 달라집니다",
+      "sourceUrl": "https://www.youtube.com/watch?v=4K3h-Eky_00",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk",
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "한식",
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-4K3h-Eky_00",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "kcqgfT3NSAY",
+      "sourceTitle": "당장 팔아도 되는 LA갈비 레시피! 꿀팁 3가지만 기억하세요",
+      "sourceUrl": "https://www.youtube.com/watch?v=kcqgfT3NSAY",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-kcqgfT3NSAY",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "qcWefHMMwpI",
+      "sourceTitle": "추석 불고기 고민 끝! ‘스트리트 레스토랑 파이터’에서 직접 만든 레시피 공개🔥",
+      "sourceUrl": "https://www.youtube.com/watch?v=qcWefHMMwpI",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "불고기: 원문 불고기1kg의 축종/형태 확인 대기",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "mw7pftQHqlQ",
+      "sourceTitle": "급식대가의 두부조림! 10분 만에 이 맛이 난다고?",
+      "sourceUrl": "https://www.youtube.com/watch?v=mw7pftQHqlQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk",
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "한식",
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-mw7pftQHqlQ",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "WV91-NxNNDI",
+      "sourceTitle": "해장국 따로 필요 없습니다!🔥 얼큰한 애호박 국밥🍲",
+      "sourceUrl": "https://www.youtube.com/watch?v=WV91-NxNNDI",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-WV91-NxNNDI",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "GpIMVmW20u0",
+      "sourceTitle": "입맛 없을 때 무조건 이거! 꽈리고추 멸치볶음 황금레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=GpIMVmW20u0",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk",
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "한식",
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-GpIMVmW20u0",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "GmXFPKsjSe0",
+      "sourceTitle": "성시경 레시피, 정호영 셰프가 직접 따라 해보니...???",
+      "sourceUrl": "https://www.youtube.com/watch?v=GmXFPKsjSe0",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-GmXFPKsjSe0",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "Z_rxxc3UhNo",
+      "sourceTitle": "'이것'만 있으면 치킨 안 시켜도 됩니다! 이북식 찜닭보다 맛있는 [소문의 닭다리]",
+      "sourceUrl": "https://www.youtube.com/watch?v=Z_rxxc3UhNo",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-Z_rxxc3UhNo",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "H-En9xJUR7k",
+      "sourceTitle": "반찬가게 갈 필요 없습니다! 초간단 깻잎김치 황금 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=H-En9xJUR7k",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk",
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "한식",
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-H-En9xJUR7k",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "zcwL1zWIwpU",
+      "sourceTitle": "이 만능 조림 양념장만 있으면 당신도 조림 마스터가 될 수 있습니다!",
+      "sourceUrl": "https://www.youtube.com/watch?v=zcwL1zWIwpU",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-zcwL1zWIwpU",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "lRyt_KQckiE",
+      "sourceTitle": "장담합니다! 수박보다 시원합니다!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=lRyt_KQckiE",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "묵사발: 냉면육수2팩이 주재료/양념에 반복되어 중복인지 확인 대기",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "hpYjmlYzX84",
+      "sourceTitle": "카레 맛이 2배 깊어지는 비법! ‘이것’만 기억하세요!",
+      "sourceUrl": "https://www.youtube.com/watch?v=hpYjmlYzX84",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-hpYjmlYzX84",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "WvTZwyZX2Wo",
+      "sourceTitle": "윤남노! 너도 천재다!!! 슬픈 사연이 있는 [진미채 오징어짬뽕]",
+      "sourceUrl": "https://www.youtube.com/watch?v=WvTZwyZX2Wo",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-WvTZwyZX2Wo",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "V3TA8wtp-YQ",
+      "sourceTitle": "한번 맛 보면 멈출 수 없는 맛! 반찬 또는 비빔국수로 Good!",
+      "sourceUrl": "https://www.youtube.com/watch?v=V3TA8wtp-YQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-V3TA8wtp-YQ",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "4wk9YJDn8SE",
+      "sourceTitle": "이 세상에 천재는 많다! 우삼겹으로 갈비탕을? 7분 컷!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=4wk9YJDn8SE",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-4wk9YJDn8SE",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "shP5i5OJcj4",
+      "sourceTitle": "멸치를 데쳐야 하는 이유~ 세상 부드러운 멸치볶음!",
+      "sourceUrl": "https://www.youtube.com/watch?v=shP5i5OJcj4",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk",
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "한식",
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-shP5i5OJcj4",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "bYd79jFE2OA",
+      "sourceTitle": "토마토! 이제 김치로 드세요!!! 세상에 없던 맛 보장",
+      "sourceUrl": "https://www.youtube.com/watch?v=bYd79jFE2OA",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-bYd79jFE2OA",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "FNhCQKrey6Y",
+      "sourceTitle": "이 레시피 만든 사람은 천재가 확실합니다!",
+      "sourceUrl": "https://www.youtube.com/watch?v=FNhCQKrey6Y",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-FNhCQKrey6Y",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "LEaLSNQLCP0",
+      "sourceTitle": "봄에 이거 안 먹으면 당신만 손해! 봄동비빔밥 보다 맛있는 [멍게비빔밥]",
+      "sourceUrl": "https://www.youtube.com/watch?v=LEaLSNQLCP0",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-LEaLSNQLCP0",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "qsQXbox1rI4",
+      "sourceTitle": "당신의 김치찜이 맛이 없는 이유! 이거 한 스푼 넣으면 끝장납니다!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=qsQXbox1rI4",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-qsQXbox1rI4",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "S8HxxFjotJI",
+      "sourceTitle": "조회수 300만 회 넘은 양념장으로 만든 '봄동 비빔국수'의 맛은? 이거 진짜 미쳤습니다!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=S8HxxFjotJI",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-S8HxxFjotJI",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "f0sjYHhQsPA",
+      "sourceTitle": "냉부에서 난리난 순댓국! 손종원도 반한 레시피 공개!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=f0sjYHhQsPA",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-f0sjYHhQsPA",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "OLg47_SdNVw",
+      "sourceTitle": "흑백요리사 4위 셰프의 라면 리뷰! 우지라면 vs 신라면골드",
+      "sourceUrl": "https://www.youtube.com/watch?v=OLg47_SdNVw",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "pjsnJXj6eo4",
+      "sourceTitle": "[잔치국수] 국물 진심 미쳤습니다!",
+      "sourceUrl": "https://www.youtube.com/watch?v=pjsnJXj6eo4",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "hu0DWXWBJcE",
+      "sourceTitle": "닭발 못 먹는 PD가 이거 먹고 닭발 킬러가 됐습니다",
+      "sourceUrl": "https://www.youtube.com/watch?v=hu0DWXWBJcE",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-hu0DWXWBJcE",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "HXYsJYuuW2g",
+      "sourceTitle": "식당보다 맛있는 꽃게탕! 아주 쉽게~~ 끓이는 법!",
+      "sourceUrl": "https://www.youtube.com/watch?v=HXYsJYuuW2g",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-HXYsJYuuW2g",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "XDn85vDO3lY",
+      "sourceTitle": "초간단 매콤간장비빔국수~ 맛 무조건 보장합니다!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=XDn85vDO3lY",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-XDn85vDO3lY",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "klFhbUssB60",
+      "sourceTitle": "아껴놨던 초간단 된장술밥 레시피 풉니다~!",
+      "sourceUrl": "https://www.youtube.com/watch?v=klFhbUssB60",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-klFhbUssB60",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "SNimRYX9YaQ",
+      "sourceTitle": "[가을 무 특집2] 정셰프의 어머니표 무생채! '이것' 하나로 맛이 이렇게 달라진다고???",
+      "sourceUrl": "https://www.youtube.com/watch?v=SNimRYX9YaQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk",
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "한식",
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-SNimRYX9YaQ",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "B0EkWL-67Jg",
+      "sourceTitle": "간단한데 맛은 미쳤습니다",
+      "sourceUrl": "https://www.youtube.com/watch?v=B0EkWL-67Jg",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-B0EkWL-67Jg",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "8UGAJ4Ts9VA",
+      "sourceTitle": "이거 해줬더니 직원들이 환장했어요! 10분 컷 스탭밀!",
+      "sourceUrl": "https://www.youtube.com/watch?v=8UGAJ4Ts9VA",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "1Gl4aexCj-Q",
+      "sourceTitle": "이거 안 먹으면 무조건 손해!!! 초간단! But 맛은 미쳤어요!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=1Gl4aexCj-Q",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "u3v0zLwySd4",
+      "sourceTitle": "여름에 빠질 수 없는 국민 반찬! 매콤한 감자조림의 정석!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=u3v0zLwySd4",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-u3v0zLwySd4",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "Sxu4iZVNO2g",
+      "sourceTitle": "꽈리고추를 찜으로? 이거 미쳤는데요???",
+      "sourceUrl": "https://www.youtube.com/watch?v=Sxu4iZVNO2g",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "DX6ydTY05O4",
+      "sourceTitle": "업그레이드 된 류수영의 '꼬기 된장'! 이 레시피로 밥 한 그릇 뚝딱!",
+      "sourceUrl": "https://www.youtube.com/watch?v=DX6ydTY05O4",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-DX6ydTY05O4",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "S7mPJ65btSg",
+      "sourceTitle": "[김치] 초간단 파김치 레시피 공개합니다!",
+      "sourceUrl": "https://www.youtube.com/watch?v=S7mPJ65btSg",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "7l4TOBC_d-w",
+      "sourceTitle": "[정호영X김형석] 미친 바삭함의 감자전! 새로운 감자전의 탄생!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=7l4TOBC_d-w",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "XyKLtcJt-Uw",
+      "sourceTitle": "[부대찌개] 식당보다 맛있는 부대찌개 끓이는 방법 공개!",
+      "sourceUrl": "https://www.youtube.com/watch?v=XyKLtcJt-Uw",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-XyKLtcJt-Uw",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "wq4cXAW4aLI",
+      "sourceTitle": "[초간단] 짜파게티 끓이는 동안 완성하는 초간단 계란볶음밥!",
+      "sourceUrl": "https://www.youtube.com/watch?v=wq4cXAW4aLI",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-wq4cXAW4aLI",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "MbACBziW55s",
+      "sourceTitle": "[해장] 속 푸는데 최고인 황태 콩나물 해장국! 한방에 간 리셋!",
+      "sourceUrl": "https://www.youtube.com/watch?v=MbACBziW55s",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-MbACBziW55s",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "UIbWCD9F7IU",
+      "sourceTitle": "[설음식] 제대로 된 떡만둣국을 먹고 싶다면?",
+      "sourceUrl": "https://www.youtube.com/watch?v=UIbWCD9F7IU",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "n6e08ay5tUw",
+      "sourceTitle": "[정호영X김형석] 15분만에 뚝딱 완성되는 고추장찌개! 맛 미쳤는데?",
+      "sourceUrl": "https://www.youtube.com/watch?v=n6e08ay5tUw",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-n6e08ay5tUw",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "lmIUDquyZe8",
+      "sourceTitle": "[정호영X김형석] 요즘 날씨에 무조건 먹어야 하는 '멸치 김치 칼국수'",
+      "sourceUrl": "https://www.youtube.com/watch?v=lmIUDquyZe8",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "SqgGwXPxfAM",
+      "sourceTitle": "[소갈비찜] 정셰프가 책임집니다! 무조건 맛있습니다!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=SqgGwXPxfAM",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-SqgGwXPxfAM",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "4vBL3yGOsnU",
+      "sourceTitle": "[정호영] 김치볶음밥 폼 미쳤따아~~~",
+      "sourceUrl": "https://www.youtube.com/watch?v=4vBL3yGOsnU",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "불린 쌀3인분 버터냄비밥 제조와 김치볶음밥 세팅 분량이 혼재. 실제 사용할 밥의 비율 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "SceJk6GI0gU",
+      "sourceTitle": "[정호영] 만능양념장으로 김치찌개를 끓이면? 삼겹살은 무조건 먼저 구우세요!",
+      "sourceUrl": "https://www.youtube.com/watch?v=SceJk6GI0gU",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "qR5Iq9wDqOE",
+      "sourceTitle": "파스타를 식혀서 먹어야 하는 이유!!!(feat. 새로운 멤버)",
+      "sourceUrl": "https://www.youtube.com/watch?v=qR5Iq9wDqOE",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-qR5Iq9wDqOE",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "TLtwLZ6M01A",
+      "sourceTitle": "고등어조림이 이렇게 간단한데 이렇게 맛있다고? 만능 조림장의 위력!",
+      "sourceUrl": "https://www.youtube.com/watch?v=TLtwLZ6M01A",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-TLtwLZ6M01A",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "PW04hLy9o0w",
+      "sourceTitle": "닭볶음탕 보다 맛있는 찜닭! 이젠 만들어 드세요!",
+      "sourceUrl": "https://www.youtube.com/watch?v=PW04hLy9o0w",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-PW04hLy9o0w",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "9j7Us3rTG7o",
+      "sourceTitle": "15분만 투자하면 미친 맛의 동태알탕을 드실 수 있습니다",
+      "sourceUrl": "https://www.youtube.com/watch?v=9j7Us3rTG7o",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-9j7Us3rTG7o",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "F3d9odPcgek",
+      "sourceTitle": "👍200만💕 '정호영'의 이름을 걸고 자신있는 메뉴! 냉제육!",
+      "sourceUrl": "https://www.youtube.com/watch?v=F3d9odPcgek",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-F3d9odPcgek",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "DmQa-O3Q9Qc",
+      "sourceTitle": "👍300만💕 국수, 쫄면, 우동, 라면! 어디에도 어울리는 만능 양념장 레시피 공개!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=DmQa-O3Q9Qc",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "2jB0Dgr3AIU",
+      "sourceTitle": "아껴놨던 초간단 양념게장 레시피 공개합니다",
+      "sourceUrl": "https://www.youtube.com/watch?v=2jB0Dgr3AIU",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "q85dpwLkDgQ",
+      "sourceTitle": "소불고기! 황금 양념장 레시피 공개!",
+      "sourceUrl": "https://www.youtube.com/watch?v=q85dpwLkDgQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-q85dpwLkDgQ",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "pNtwZuhYQeg",
+      "sourceTitle": "👍200만💕 15분 만에 만드는 닭볶음탕 황금 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=pNtwZuhYQeg",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-pNtwZuhYQeg",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "N31qMmNsKsI",
+      "sourceTitle": "[돼지고기 마늘 부추 볶음] 소주, 맥주, 고량주 어디에든 어울리는 최고의 술안주!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=N31qMmNsKsI",
+      "playlistIds": [
+        "PLLw7z5jPcRNq9ZDMQT_91CCZO8awkgiHk"
+      ],
+      "playlistTitles": [
+        "한식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-N31qMmNsKsI",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "1sptmEHbDI0",
+      "sourceTitle": "이제부터 수박 화채 만들 때 우유 대신 '이것'을 넣으세요!",
+      "sourceUrl": "https://www.youtube.com/watch?v=1sptmEHbDI0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqSpIp0KuKYn63DxlYhX6_r"
+      ],
+      "playlistTitles": [
+        "분식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-1sptmEHbDI0",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "NKhQzu9L4r8",
+      "sourceTitle": "지하철역 앞에서 팔던 추억의 옛날 토스트! 크으~ 이건 진짜 미쳤다!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=NKhQzu9L4r8",
+      "playlistIds": [
+        "PLLw7z5jPcRNqSpIp0KuKYn63DxlYhX6_r"
+      ],
+      "playlistTitles": [
+        "분식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-NKhQzu9L4r8",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "3SlGinJp_Kc",
+      "sourceTitle": "[옛날 떡볶이] 15분만 투자하면 미친 맛의 옛날 떡볶이를 맛 볼 수 있습니다",
+      "sourceUrl": "https://www.youtube.com/watch?v=3SlGinJp_Kc",
+      "playlistIds": [
+        "PLLw7z5jPcRNqSpIp0KuKYn63DxlYhX6_r"
+      ],
+      "playlistTitles": [
+        "분식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-3SlGinJp_Kc",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "xHs-S7qZXyE",
+      "sourceTitle": "[라면 레시피] 셰프들의 숨겨놨던 라면 레시피 대공개!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=xHs-S7qZXyE",
+      "playlistIds": [
+        "PLLw7z5jPcRNqSpIp0KuKYn63DxlYhX6_r"
+      ],
+      "playlistTitles": [
+        "분식"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-xHs-S7qZXyE",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "Ow9Amfqvh4U",
+      "sourceTitle": "클라쓰가 다른 셰프의 비법 ‘오이부추무침’ (feat.만능 양념장)",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ow9Amfqvh4U",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "t05YwRJl2PU",
+      "sourceTitle": "진미채를 볶지 말고 무쳐야 하는 이유! 이렇게 부드럽다고???",
+      "sourceUrl": "https://www.youtube.com/watch?v=t05YwRJl2PU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "lEi-7QVx97Y",
+      "sourceTitle": "소고기 말고 돼지고기로 장조림을 만들어야 하는 이유!",
+      "sourceUrl": "https://www.youtube.com/watch?v=lEi-7QVx97Y",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-lEi-7QVx97Y",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "ug1z0NmO8oM",
+      "sourceTitle": "[정호영] 오이반찬! 이렇게 간단하다고? 여름철 별미 오이탕탕이!",
+      "sourceUrl": "https://www.youtube.com/watch?v=ug1z0NmO8oM",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "5nYg0y4dfSI",
+      "sourceTitle": "[정호영X김형석] 가지볶음이 이렇게 아삭아삭하다고? 비법은 '이것'",
+      "sourceUrl": "https://www.youtube.com/watch?v=5nYg0y4dfSI",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-5nYg0y4dfSI",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "ul-zKoC5xkw",
+      "sourceTitle": "[정호영X김형석] 회오리 계란말이에 셰프의 스킬 한 스푼을 더하면?",
+      "sourceUrl": "https://www.youtube.com/watch?v=ul-zKoC5xkw",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "Z0NMTwkZVYM",
+      "sourceTitle": "[정호영X김형석] 굴무침! 후회 없습니다! 꼭! 무조건 해드세요! 겨울철 최고의 반찬입니다!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=Z0NMTwkZVYM",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-Z0NMTwkZVYM",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "UVsdxo8UjAI",
+      "sourceTitle": "[정호영X김형석] 우리의 밥상을 업그레이드 시켜줄 초간단 김치! 석박지!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=UVsdxo8UjAI",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-UVsdxo8UjAI",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "X3If0w8Lh4A",
+      "sourceTitle": "[정호영X김형석] 10분 완성! 겉바속촉 초간단 반찬🍴 '황태채무침' 황금레시피 대공개!",
+      "sourceUrl": "https://www.youtube.com/watch?v=X3If0w8Lh4A",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-X3If0w8Lh4A",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "MTfwI8zOkOQ",
+      "sourceTitle": "[설음식] 잡채를 원팬으로 만들면 안 되는 이유!",
+      "sourceUrl": "https://www.youtube.com/watch?v=MTfwI8zOkOQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-MTfwI8zOkOQ",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "_bU1eiHYMe0",
+      "sourceTitle": "[초간단 반찬] 마요네즈 없이 이렇게 부드러운 간장 진미채볶음을 만들 수 있다고???",
+      "sourceUrl": "https://www.youtube.com/watch?v=_bU1eiHYMe0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "tOhQ1bskyNY",
+      "sourceTitle": "[정호영X김형석] 초간단 반찬! 무조림! 정셰프가 만든 음식 중 1등???",
+      "sourceUrl": "https://www.youtube.com/watch?v=tOhQ1bskyNY",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-tOhQ1bskyNY",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "HqX21YVCd08",
+      "sourceTitle": "[당근 라페] 다이어트 음식인데 이렇게 맛있다고???",
+      "sourceUrl": "https://www.youtube.com/watch?v=HqX21YVCd08",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-HqX21YVCd08",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "j2lb8mStzW0",
+      "sourceTitle": "[정호영X김형석] 로제소스로 만드는 황금 계란찜의 비밀 대공개!",
+      "sourceUrl": "https://www.youtube.com/watch?v=j2lb8mStzW0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-j2lb8mStzW0",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "zs-OdDdvREM",
+      "sourceTitle": "[봄동 겉절이] 딱 3분만 투자하면 미친 맛의 겉절이를 먹을 수 있습니다",
+      "sourceUrl": "https://www.youtube.com/watch?v=zs-OdDdvREM",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-zs-OdDdvREM",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "f6Ggkdp5JsA",
+      "sourceTitle": "정호영 셰프의 비법이 들어간 초간단 멸치볶음 레시피!",
+      "sourceUrl": "https://www.youtube.com/watch?v=f6Ggkdp5JsA",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "0kozFOAut5E",
+      "sourceTitle": "입맛 없는 당신을 위한 최고의 반찬! 꽈리고추찜!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=0kozFOAut5E",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "pending",
+      "reason": "수집된 재료표에는 무침 양념만 있고 주재료 꽈리고추와 가루가 확인되지 않아 원문 추가 확인 필요",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "0GeQF6nLnt8",
+      "sourceTitle": "[오이볶음] 오이를 볶아서 먹어야 하는 이유!",
+      "sourceUrl": "https://www.youtube.com/watch?v=0GeQF6nLnt8",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-0GeQF6nLnt8",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "pD-C8vPzgIE",
+      "sourceTitle": "소고기 장조림! 이젠 쉽게 만드세요! 10분이면 끝!",
+      "sourceUrl": "https://www.youtube.com/watch?v=pD-C8vPzgIE",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-pD-C8vPzgIE",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "Spue6VL44Xg",
+      "sourceTitle": "아삭하고 시원한 초간단 양배추 김치!",
+      "sourceUrl": "https://www.youtube.com/watch?v=Spue6VL44Xg",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-Spue6VL44Xg",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "QUQo8Js-ttQ",
+      "sourceTitle": "평생 써먹는 일식 스타일의 연근조림!(feat. 만능 조림장)",
+      "sourceUrl": "https://www.youtube.com/watch?v=QUQo8Js-ttQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNqebRSMJ0E2fy4VGvMWtyZI"
+      ],
+      "playlistTitles": [
+        "반찬류"
+      ],
+      "videoFormat": "not-listed-as-short",
+      "status": "registered",
+      "recipeId": "caden-QUQo8Js-ttQ",
+      "channelId": "UCWyjY6ykM58LO5ipzRgIzGA"
+    },
+    {
+      "videoId": "KkNleK_5hTE",
+      "sourceTitle": "초간단 스팸군만두 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=KkNleK_5hTE",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "PrCEnLXE6FU",
+      "sourceTitle": "와플팬 요리 클라쓰(오징어, 전복, 성게알) #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=PrCEnLXE6FU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "sL8n7mnErk8",
+      "sourceTitle": "임진년(?) 새해 인사(feat.김과장) #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=sL8n7mnErk8",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "JCRMxBH8z1g",
+      "sourceTitle": "대통령이 먹던 짜장면 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=JCRMxBH8z1g",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "f8bVemV87qA",
+      "sourceTitle": "장인 라면 패러디",
+      "sourceUrl": "https://www.youtube.com/watch?v=f8bVemV87qA",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "5itOQrm8ynw",
+      "sourceTitle": "촬영중 괴한의 습격을 받은 정호영 셰프 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=5itOQrm8ynw",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "JQG59Y0AXy8",
+      "sourceTitle": "앞으로 육전은 이렇게 드세요 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=JQG59Y0AXy8",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "5BUvOOGRjg0",
+      "sourceTitle": "요리사는 진짜로 뜨거운 걸 잘 참을까? #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=5BUvOOGRjg0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "Ji-B2lh0iLA",
+      "sourceTitle": "단돈 3천원으로 만드는 존맛탱 두부 짜글이",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ji-B2lh0iLA",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "NzLdL8SPLSo",
+      "sourceTitle": "팔도비빔면 맛 나는 열무국수 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=NzLdL8SPLSo",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "i7kBg0rbF6M",
+      "sourceTitle": "맥콜로 떡볶이를 만들면? 충격!!! #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=i7kBg0rbF6M",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "aQ9zZcfdGOg",
+      "sourceTitle": "초밥을 더욱 맛있게 먹는 방법 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=aQ9zZcfdGOg",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "EIUU2bi5bXo",
+      "sourceTitle": "현주엽 잡는 정호영 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=EIUU2bi5bXo",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "t2abgiCTa4E",
+      "sourceTitle": "오늘 족발에 소주 한 잔? #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=t2abgiCTa4E",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "_IQz0ltEehI",
+      "sourceTitle": "초간단 차돌박이 마늘쫑 파스타 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=_IQz0ltEehI",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "_etLeMTrEuc",
+      "sourceTitle": "1+1=10??? #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=_etLeMTrEuc",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "lnSQ0zgY0l8",
+      "sourceTitle": "우동에서 가장 중요한 이것!!! #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=lnSQ0zgY0l8",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "9iluPUF-b38",
+      "sourceTitle": "(미방분) 미국 CIA 출신 셰프는 마트에서 어떤 소고기를 살까? #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=9iluPUF-b38",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "Ueh1-j83TCo",
+      "sourceTitle": "👍200만💕 안심 스테이크는 이렇게 구우세요~! #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ueh1-j83TCo",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "UYqqBD9cDF0",
+      "sourceTitle": "아웃백이 호주꺼라고??? #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=UYqqBD9cDF0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "aG_VWjxhLKU",
+      "sourceTitle": "아웃백 파스타 vs 빕스 파스타 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=aG_VWjxhLKU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "mOK3nShs3ks",
+      "sourceTitle": "확실히 셰프들은 다르네~ #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=mOK3nShs3ks",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "e-wx0RwmCAU",
+      "sourceTitle": "김풍 피셜! 요리 잘하는 방법!!! #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=e-wx0RwmCAU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "CMG0MdNGcOc",
+      "sourceTitle": "김풍의 충격 고백! 여러분~ 000하세요~ #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=CMG0MdNGcOc",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "AnBOQjMqBLs",
+      "sourceTitle": "👍400만💕 수입산 소고기 맛있는 먹는 방법 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=AnBOQjMqBLs",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "exFVCabuxFE",
+      "sourceTitle": "실패없는 초간단 JMT 연어조림 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=exFVCabuxFE",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "1QkamPWZWoc",
+      "sourceTitle": "통삼겹은 이제 이렇게 드세요~ 입에서 녹아내림!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=1QkamPWZWoc",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "nqaAcSh6e6M",
+      "sourceTitle": "이 녀석은 밥도둑이 확실합니다 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=nqaAcSh6e6M",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "sBiZykMrxjE",
+      "sourceTitle": "👍100만💕 편의점 햄버거 앞에두고 햄버거 역사를 논하는... #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=sBiZykMrxjE",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "Nb1D23bd9-w",
+      "sourceTitle": "아이유가 반한 굴만두!!! 어떤 맛이길래? #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=Nb1D23bd9-w",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "GjMs4FQ9p8s",
+      "sourceTitle": "국민 반찬 제육볶음 레시피 공개! #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=GjMs4FQ9p8s",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "hap--9p31eM",
+      "sourceTitle": "대방어를 김에 싸먹는 이유 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=hap--9p31eM",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "fEm8fEdLK7c",
+      "sourceTitle": "👍600만💕 회 위에 레몬 올리면 안되는 이유 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=fEm8fEdLK7c",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "lypfqGDVNwA",
+      "sourceTitle": "스팸 활용법 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=lypfqGDVNwA",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "iEV9GRJylMw",
+      "sourceTitle": "평생 써먹는 짜장면 레시피 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=iEV9GRJylMw",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "joOvEVVHOYU",
+      "sourceTitle": "대기업 부대찌개를 다 섞으면?",
+      "sourceUrl": "https://www.youtube.com/watch?v=joOvEVVHOYU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "gWr7kPu_UA8",
+      "sourceTitle": "사리곰탕은 이렇게 드세요~!",
+      "sourceUrl": "https://www.youtube.com/watch?v=gWr7kPu_UA8",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "VD7eIiV0x20",
+      "sourceTitle": "👍100만💕 핫도그 집 오픈했는데 스테프 핫도그를 사간다면?",
+      "sourceUrl": "https://www.youtube.com/watch?v=VD7eIiV0x20",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "QHZQpl7yyTw",
+      "sourceTitle": "(속보) 몸무게가 계속 늘어나고 있습니다 #정호영 #현주엽 #박광재",
+      "sourceUrl": "https://www.youtube.com/watch?v=QHZQpl7yyTw",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "jd1KlPEemRo",
+      "sourceTitle": "120kg 대형 참치 해체 영상 공개! #정호영 #참치",
+      "sourceUrl": "https://www.youtube.com/watch?v=jd1KlPEemRo",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "g7Qk-frySWQ",
+      "sourceTitle": "바이킹 재밌게 촬영하는 법",
+      "sourceUrl": "https://www.youtube.com/watch?v=g7Qk-frySWQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "BiuKVNIv_Zs",
+      "sourceTitle": "정호영 셰프의 장사 철학 대공개!",
+      "sourceUrl": "https://www.youtube.com/watch?v=BiuKVNIv_Zs",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "0CPjtIzrVQQ",
+      "sourceTitle": "정호영 셰프의 장사 철학 Part.2",
+      "sourceUrl": "https://www.youtube.com/watch?v=0CPjtIzrVQQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "VbNRWQXAfus",
+      "sourceTitle": "송훈 셰프님 죄송합니다",
+      "sourceUrl": "https://www.youtube.com/watch?v=VbNRWQXAfus",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "LaOXV9qPMus",
+      "sourceTitle": "요리사가 요리 실력보다 중요한 이것!",
+      "sourceUrl": "https://www.youtube.com/watch?v=LaOXV9qPMus",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "rfylYP4CuRw",
+      "sourceTitle": "이렇게 간단한데 이렇게 맛있다고???",
+      "sourceUrl": "https://www.youtube.com/watch?v=rfylYP4CuRw",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "S9iA6kCtb38",
+      "sourceTitle": "150년 된 노포집의 소바 맛은?",
+      "sourceUrl": "https://www.youtube.com/watch?v=S9iA6kCtb38",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "asvWKA86TPE",
+      "sourceTitle": "다이어트에 좋은(?) 스테이크",
+      "sourceUrl": "https://www.youtube.com/watch?v=asvWKA86TPE",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "HoUu6SURZAM",
+      "sourceTitle": "다이어트 하시는 분들 주목!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=HoUu6SURZAM",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "DQyhwDa-Kgw",
+      "sourceTitle": "👍600만💕 미슐랭 일식당 셰프들의 점심 메뉴는?",
+      "sourceUrl": "https://www.youtube.com/watch?v=DQyhwDa-Kgw",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "G6K4Ks9YKZk",
+      "sourceTitle": "일식 셰프가 편의점 주현영 비빔밥 맛을 보면?",
+      "sourceUrl": "https://www.youtube.com/watch?v=G6K4Ks9YKZk",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "FUwRZ90izaQ",
+      "sourceTitle": "메밀국수가 비싼 이유 #정호영 #메밀국수",
+      "sourceUrl": "https://www.youtube.com/watch?v=FUwRZ90izaQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "ikVw6jHSIXM",
+      "sourceTitle": "졸라 맛있는 쫄면 양념장 레시피 공개!(feat.돈까스)",
+      "sourceUrl": "https://www.youtube.com/watch?v=ikVw6jHSIXM",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "4-8-V-XUODI",
+      "sourceTitle": "일식 셰프가 알려주는 냉동참치 손질법",
+      "sourceUrl": "https://www.youtube.com/watch?v=4-8-V-XUODI",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "H4n5JSAR7Fs",
+      "sourceTitle": "비빔면 살 때 이것만 기억하세요!",
+      "sourceUrl": "https://www.youtube.com/watch?v=H4n5JSAR7Fs",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "woHD2x72E4Y",
+      "sourceTitle": "편의점 도시락을 선택하는 기준",
+      "sourceUrl": "https://www.youtube.com/watch?v=woHD2x72E4Y",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "Cb3FQsVxbj0",
+      "sourceTitle": "세븐일레븐 관계자들 주목!",
+      "sourceUrl": "https://www.youtube.com/watch?v=Cb3FQsVxbj0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "jeT3CvohkvM",
+      "sourceTitle": "👍800만💕 정셰프의 김밥 싸는 법 공개!",
+      "sourceUrl": "https://www.youtube.com/watch?v=jeT3CvohkvM",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "QpCfhJYY7hc",
+      "sourceTitle": "짜장라면을 눈치 안보고 맘껏 먹는법",
+      "sourceUrl": "https://www.youtube.com/watch?v=QpCfhJYY7hc",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "C8RZIZerw38",
+      "sourceTitle": "정셰프의 초간단 하이볼 술안주",
+      "sourceUrl": "https://www.youtube.com/watch?v=C8RZIZerw38",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "ivc2VbOb4L4",
+      "sourceTitle": "과일로 화장품을 만든다고??? (선물 찬스!)",
+      "sourceUrl": "https://www.youtube.com/watch?v=ivc2VbOb4L4",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "qhtSZNLHUEo",
+      "sourceTitle": "평생 써먹는 닭볶음탕 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=qhtSZNLHUEo",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "Yh6jUOBmuQM",
+      "sourceTitle": "흔한 미슐랭 식당 일식 직원들의 점심식사!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=Yh6jUOBmuQM",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "Uu5pasTOJeU",
+      "sourceTitle": "👍100만💕 짜파게티 100배 맛있게 먹는 법",
+      "sourceUrl": "https://www.youtube.com/watch?v=Uu5pasTOJeU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "7CZ1QNhxoFw",
+      "sourceTitle": "트름 개그 1티어 강재준! 이어폰 필수!",
+      "sourceUrl": "https://www.youtube.com/watch?v=7CZ1QNhxoFw",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "wIv0RDVVpOw",
+      "sourceTitle": "미친 세븐일레븐의 도시락 퀄리티",
+      "sourceUrl": "https://www.youtube.com/watch?v=wIv0RDVVpOw",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "SSVHYg6JMhU",
+      "sourceTitle": "식당보다 맛있는 양념게장 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=SSVHYg6JMhU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "1r4dB-XEJBY",
+      "sourceTitle": "이것은 레어일까? 미디엄 레어일까? #정호영 #스테이크 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=1r4dB-XEJBY",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "8eC8qr96Jfk",
+      "sourceTitle": "셰프들의 찐한 우정 #정호영 #김형석 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=8eC8qr96Jfk",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "V_LzGrAKV5Y",
+      "sourceTitle": "정호영 셰프가 초장대신 먹는 양념은? #정호영 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=V_LzGrAKV5Y",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "NOZ5AZoHpO0",
+      "sourceTitle": "(아마도) 세상에서 제일 비싼 오삼불고기 #정호영 #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=NOZ5AZoHpO0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "Yv4dS-5qnUc",
+      "sourceTitle": "👍300만💕 조회수 500만회 나온 만능 양념장 레시피 공개",
+      "sourceUrl": "https://www.youtube.com/watch?v=Yv4dS-5qnUc",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "Mxe0Y10OOq4",
+      "sourceTitle": "👍700만💕 스테이크! 이렇게만 하면 100% 성공!",
+      "sourceUrl": "https://www.youtube.com/watch?v=Mxe0Y10OOq4",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "PD9IHL1SWds",
+      "sourceTitle": "조금 모질란(?) 정호영 셰프",
+      "sourceUrl": "https://www.youtube.com/watch?v=PD9IHL1SWds",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "kKOgb7zvkeU",
+      "sourceTitle": "직원 특식으로 나온 갈비탕 클라쓰! 사이즈 실화냐???",
+      "sourceUrl": "https://www.youtube.com/watch?v=kKOgb7zvkeU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "AG1uKIZH_k0",
+      "sourceTitle": "직원 특식으로 만든 짜장면 30인분",
+      "sourceUrl": "https://www.youtube.com/watch?v=AG1uKIZH_k0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "Jw6NcyVnne0",
+      "sourceTitle": "촬영중 찐으로 빵 터진 정셰프",
+      "sourceUrl": "https://www.youtube.com/watch?v=Jw6NcyVnne0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "t_zYGMUXbxQ",
+      "sourceTitle": "재밌게 노는 76년생 두 셰프들",
+      "sourceUrl": "https://www.youtube.com/watch?v=t_zYGMUXbxQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "NBorBZOIdCQ",
+      "sourceTitle": "추운 겨울에 먹는 방어가 맛있는 이유",
+      "sourceUrl": "https://www.youtube.com/watch?v=NBorBZOIdCQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "hP6ZnHBXTfM",
+      "sourceTitle": "새우 껍질 까는 법 2가지!",
+      "sourceUrl": "https://www.youtube.com/watch?v=hP6ZnHBXTfM",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "gctwUpNhPrY",
+      "sourceTitle": "👍800만💕 기름이 펄펄 끓을 때 물을 넣어주세요",
+      "sourceUrl": "https://www.youtube.com/watch?v=gctwUpNhPrY",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "l86gKOf_ZLY",
+      "sourceTitle": "셰프들의 소름돋는 티키타카",
+      "sourceUrl": "https://www.youtube.com/watch?v=l86gKOf_ZLY",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "80kcTrhMDiM",
+      "sourceTitle": "아끼던 만능 양념장 레시피 풉니다!",
+      "sourceUrl": "https://www.youtube.com/watch?v=80kcTrhMDiM",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "Iknq7EiftBU",
+      "sourceTitle": "술을 부르는 초간단 동태알탕 레시피 공개!",
+      "sourceUrl": "https://www.youtube.com/watch?v=Iknq7EiftBU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "fkp5vbCwHvE",
+      "sourceTitle": "아이들이 환장하는 찜닭 레시피!",
+      "sourceUrl": "https://www.youtube.com/watch?v=fkp5vbCwHvE",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "WyqbMzFTwvM",
+      "sourceTitle": "괴식의 천국 롯데리아가 신메뉴 출시와 단종을 반복하는 이유",
+      "sourceUrl": "https://www.youtube.com/watch?v=WyqbMzFTwvM",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "PVL2KneuaIY",
+      "sourceTitle": "요리할 때 청주를 넣어야 하는 이유는?",
+      "sourceUrl": "https://www.youtube.com/watch?v=PVL2KneuaIY",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "PPPGS624kxs",
+      "sourceTitle": "1kg에 30만 원이었던 광어, 국민 횟감 된 이유",
+      "sourceUrl": "https://www.youtube.com/watch?v=PPPGS624kxs",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "2v4zBlosnLk",
+      "sourceTitle": "육개장 사발면으로 감자탕 만들기",
+      "sourceUrl": "https://www.youtube.com/watch?v=2v4zBlosnLk",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "pLrGYvzk7So",
+      "sourceTitle": "멸치 300마리 육수로 만든 잔치국수 30인분!",
+      "sourceUrl": "https://www.youtube.com/watch?v=pLrGYvzk7So",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "otrrUClfJls",
+      "sourceTitle": "초간단 일본식 고등어 된장 조림 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=otrrUClfJls",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "4_f1A1a1hAI",
+      "sourceTitle": "마제소바! 이젠 집에서 만들어 드세요!",
+      "sourceUrl": "https://www.youtube.com/watch?v=4_f1A1a1hAI",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "ryITHKOobAc",
+      "sourceTitle": "고등어 비린내 잡는 법 공개!",
+      "sourceUrl": "https://www.youtube.com/watch?v=ryITHKOobAc",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "jPs0HO08Kq0",
+      "sourceTitle": "👍400만💕 짜파게티로 고급 요리 만드는 정호영 셰프 클라쓰~",
+      "sourceUrl": "https://www.youtube.com/watch?v=jPs0HO08Kq0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "Vi5JxfJ8n8Q",
+      "sourceTitle": "세상에서 가장 비싼 비빔면!",
+      "sourceUrl": "https://www.youtube.com/watch?v=Vi5JxfJ8n8Q",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "WuG2IIN5cSU",
+      "sourceTitle": "술이 이렇게 싸다고???",
+      "sourceUrl": "https://www.youtube.com/watch?v=WuG2IIN5cSU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "6iiY7eja_ZA",
+      "sourceTitle": "반숙란! 완벽하게 삶는 법 공개",
+      "sourceUrl": "https://www.youtube.com/watch?v=6iiY7eja_ZA",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "PU1GXi_xK7k",
+      "sourceTitle": "만능 조림장으로 만든 고등어조림!",
+      "sourceUrl": "https://www.youtube.com/watch?v=PU1GXi_xK7k",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "g_McaX6SYwY",
+      "sourceTitle": "식당보다 푸짐하고 맛있는 직원식 물&비빔 냉면",
+      "sourceUrl": "https://www.youtube.com/watch?v=g_McaX6SYwY",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "jdG2mXKwK8o",
+      "sourceTitle": "15분 안에 만드는 버터 냄비밥! 이거 미쳤습니다",
+      "sourceUrl": "https://www.youtube.com/watch?v=jdG2mXKwK8o",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "Cdc0wKuEoHA",
+      "sourceTitle": "역대급 탕후루 챌린지",
+      "sourceUrl": "https://www.youtube.com/watch?v=Cdc0wKuEoHA",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "XqLFG4J2Zow",
+      "sourceTitle": "초간단 오이 반찬!",
+      "sourceUrl": "https://www.youtube.com/watch?v=XqLFG4J2Zow",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "67agHsNN4FI",
+      "sourceTitle": "미쳐버린 맛의 초간단 진미채 무침!",
+      "sourceUrl": "https://www.youtube.com/watch?v=67agHsNN4FI",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "HAV9wqQhLaM",
+      "sourceTitle": "입에서 녹아버리는 돼지고기 장조림",
+      "sourceUrl": "https://www.youtube.com/watch?v=HAV9wqQhLaM",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "kmRuS4hYQdk",
+      "sourceTitle": "미쳐버린 맛의 순두부찌개! 미리 맛보기",
+      "sourceUrl": "https://www.youtube.com/watch?v=kmRuS4hYQdk",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "rSBZZW3XNsc",
+      "sourceTitle": "서가앤쿡의 목살 스테이크 레시피 공개!",
+      "sourceUrl": "https://www.youtube.com/watch?v=rSBZZW3XNsc",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "vR6JdKfujvU",
+      "sourceTitle": "갈비찜 미리 맛보기! 진짜 말로 표현이 안 되는 맛!",
+      "sourceUrl": "https://www.youtube.com/watch?v=vR6JdKfujvU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "RxEmTHBjDkw",
+      "sourceTitle": "천하의 '히밥'이 경악한 라면의 정체는?",
+      "sourceUrl": "https://www.youtube.com/watch?v=RxEmTHBjDkw",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "FIYkuGtjK_o",
+      "sourceTitle": "김치찌개를 굳이 이렇게 만드는 이유!",
+      "sourceUrl": "https://www.youtube.com/watch?v=FIYkuGtjK_o",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "QQm5a3Z5ip4",
+      "sourceTitle": "충격😲 촬영 끝나고 히밥이 한 행동!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=QQm5a3Z5ip4",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "ZUjeaaRQuqY",
+      "sourceTitle": "👍100만💕 라면으로 만드는 '해물 고기 짬뽕' 히밥도 인정!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=ZUjeaaRQuqY",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "9by89b4PJS0",
+      "sourceTitle": "만능 양념장으로 만든 순두부찌개 #shorts #순두부찌개",
+      "sourceUrl": "https://www.youtube.com/watch?v=9by89b4PJS0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "FWkVmIpkaxk",
+      "sourceTitle": "이 레시피만 알면 당신도 볶음밥 고수! #shorts #볶음밥",
+      "sourceUrl": "https://www.youtube.com/watch?v=FWkVmIpkaxk",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "iyRlhoeRzt0",
+      "sourceTitle": "아무나 못 만드는 짜파게티 #shorts #짜파게티",
+      "sourceUrl": "https://www.youtube.com/watch?v=iyRlhoeRzt0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "RG91M7YEdJw",
+      "sourceTitle": "[굴무침] 안 먹으면 손해인 굴무침! 맛이 미쳤어요!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=RG91M7YEdJw",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "Rl1J9EGdAfU",
+      "sourceTitle": "👍300만💕 15분만에 완성하는 고추장찌개 황금 레시피!",
+      "sourceUrl": "https://www.youtube.com/watch?v=Rl1J9EGdAfU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "uUmGZaSIkIg",
+      "sourceTitle": "히밥 먹방을 바로 앞에서 직관한다면?",
+      "sourceUrl": "https://www.youtube.com/watch?v=uUmGZaSIkIg",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "0bkZTaFWqm0",
+      "sourceTitle": "👍100만💕 만능 양념장으로 만든 초간단 김치 '석박지' #shorts #김치 #석박지",
+      "sourceUrl": "https://www.youtube.com/watch?v=0bkZTaFWqm0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "PlBSyv-xdz4",
+      "sourceTitle": "마요네즈 필요없는 초간단 간장 진미채 레시피 공개!",
+      "sourceUrl": "https://www.youtube.com/watch?v=PlBSyv-xdz4",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "hdLC5uvdHAI",
+      "sourceTitle": "가위만 사용! 초간단 황태채무침! 간단한데 맛은 간단하지 않다~!",
+      "sourceUrl": "https://www.youtube.com/watch?v=hdLC5uvdHAI",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "n3CdPJ6Btb0",
+      "sourceTitle": "회오리 계란말이로 요리 만드는 셰프들",
+      "sourceUrl": "https://www.youtube.com/watch?v=n3CdPJ6Btb0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "E9DAjNw7iAA",
+      "sourceTitle": "조회수 폭발한 옛날 떡볶이 황금 레시피!",
+      "sourceUrl": "https://www.youtube.com/watch?v=E9DAjNw7iAA",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "NKyybIm1i7c",
+      "sourceTitle": "만능 조림장으로 만든 [참치무조림]",
+      "sourceUrl": "https://www.youtube.com/watch?v=NKyybIm1i7c",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "zmH7rb-An_k",
+      "sourceTitle": "👍100만💕 3분이면 완성하는 초간단 '봄동 겉절이' 레시피 공개!",
+      "sourceUrl": "https://www.youtube.com/watch?v=zmH7rb-An_k",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "WyLesFWDm_o",
+      "sourceTitle": "3분 완성 계란볶음밥!  #shorts",
+      "sourceUrl": "https://www.youtube.com/watch?v=WyLesFWDm_o",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "6FxOha2E73A",
+      "sourceTitle": "부대찌개 끓이는 새로운 방법!",
+      "sourceUrl": "https://www.youtube.com/watch?v=6FxOha2E73A",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "aqC6UDlcDug",
+      "sourceTitle": "초간단 만능 디핑 소스 레시피!",
+      "sourceUrl": "https://www.youtube.com/watch?v=aqC6UDlcDug",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "NE9XfNUJGTQ",
+      "sourceTitle": "감자전 만드는 신박한 방법!",
+      "sourceUrl": "https://www.youtube.com/watch?v=NE9XfNUJGTQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "13_OMF5JiVM",
+      "sourceTitle": "무조건 맛있는 치킨 가라아게(with. 초간단 소스)",
+      "sourceUrl": "https://www.youtube.com/watch?v=13_OMF5JiVM",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "8kh7ten2zgw",
+      "sourceTitle": "연어 스테이크 굽는 법!",
+      "sourceUrl": "https://www.youtube.com/watch?v=8kh7ten2zgw",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "rYhGipzmd20",
+      "sourceTitle": "한번 맛 보면 멈출 수 없는 카라멜 호두",
+      "sourceUrl": "https://www.youtube.com/watch?v=rYhGipzmd20",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "4in0_zSV8BU",
+      "sourceTitle": "👍100만💕 초간단 파김치 레시피 공개!",
+      "sourceUrl": "https://www.youtube.com/watch?v=4in0_zSV8BU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "oQ627uAHoZE",
+      "sourceTitle": "초간단 골뱅이 갈릭 파스타 레시피!",
+      "sourceUrl": "https://www.youtube.com/watch?v=oQ627uAHoZE",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "M4WdJfb5VNk",
+      "sourceTitle": "이거 진짜 맛있어요! 장담합니다!",
+      "sourceUrl": "https://www.youtube.com/watch?v=M4WdJfb5VNk",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "c7RMnjNJtV0",
+      "sourceTitle": "을지로st. 골뱅이 무침 레시피 공개!",
+      "sourceUrl": "https://www.youtube.com/watch?v=c7RMnjNJtV0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "dNwIaSLAZYQ",
+      "sourceTitle": "조회수 폭발한 초간단 멸치볶음 레시피!",
+      "sourceUrl": "https://www.youtube.com/watch?v=dNwIaSLAZYQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "pvYShwENQc8",
+      "sourceTitle": "류수영의 '꼬기된장' 업그레이드 ver.",
+      "sourceUrl": "https://www.youtube.com/watch?v=pvYShwENQc8",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "8zd2fiXqtsM",
+      "sourceTitle": "이 요리 따라하면 인정!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=8zd2fiXqtsM",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "SYg7ybB6azM",
+      "sourceTitle": "추억  돋는 길거리 옛날 토스트 레시피 공개!",
+      "sourceUrl": "https://www.youtube.com/watch?v=SYg7ybB6azM",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "1QwzkR6dcGA",
+      "sourceTitle": "수박화채 만드는 새로운 방법!",
+      "sourceUrl": "https://www.youtube.com/watch?v=1QwzkR6dcGA",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "kZGqSSUp5_0",
+      "sourceTitle": "초초초! 초간단 감자조림! 이거 밥도둑이네~!",
+      "sourceUrl": "https://www.youtube.com/watch?v=kZGqSSUp5_0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "IJ3MGnotHz8",
+      "sourceTitle": "오이는 무조건 볶아서 드세요!",
+      "sourceUrl": "https://www.youtube.com/watch?v=IJ3MGnotHz8",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "UF7mg-OJ-9g",
+      "sourceTitle": "장조림 무조건 맛있게 먹는 법!",
+      "sourceUrl": "https://www.youtube.com/watch?v=UF7mg-OJ-9g",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "GmAZMHR1cAA",
+      "sourceTitle": "이번 추석 선물은 이거닷!",
+      "sourceUrl": "https://www.youtube.com/watch?v=GmAZMHR1cAA",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "Jif1VC0i5fQ",
+      "sourceTitle": "카덴 직원들도 반한 추석 선물 세트",
+      "sourceUrl": "https://www.youtube.com/watch?v=Jif1VC0i5fQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "lhHl-qKHB-0",
+      "sourceTitle": "이건 진짜다! 초간단 양배추 김치!",
+      "sourceUrl": "https://www.youtube.com/watch?v=lhHl-qKHB-0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "82LLUZ4bKeU",
+      "sourceTitle": "'냉.부'에서 송중기가 감탄했던 대왕 메밀 김밥!",
+      "sourceUrl": "https://www.youtube.com/watch?v=82LLUZ4bKeU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "kXsBx2N0ghg",
+      "sourceTitle": "비빔면 럭셔리 ver.",
+      "sourceUrl": "https://www.youtube.com/watch?v=kXsBx2N0ghg",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "w01mUsF1Cko",
+      "sourceTitle": "물회! 이젠 집에서 만드세요~!(feat. 만능소스)",
+      "sourceUrl": "https://www.youtube.com/watch?v=w01mUsF1Cko",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "nNn-_tfkCsA",
+      "sourceTitle": "무로 피클을 만들면? 이거 맛 장난아님!",
+      "sourceUrl": "https://www.youtube.com/watch?v=nNn-_tfkCsA",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "XMGEcHTYnMI",
+      "sourceTitle": "양파로 스테이크를 만들면???",
+      "sourceUrl": "https://www.youtube.com/watch?v=XMGEcHTYnMI",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "xcOSQILTI24",
+      "sourceTitle": "별미 중의 별미인 태국식 파스타!",
+      "sourceUrl": "https://www.youtube.com/watch?v=xcOSQILTI24",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "sEpQ5MvkjIs",
+      "sourceTitle": "초간단 무생채 레시피 공개합니다!",
+      "sourceUrl": "https://www.youtube.com/watch?v=sEpQ5MvkjIs",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "LMqqdtr3gSg",
+      "sourceTitle": "식당보다 맛있는 초간단 된장술밥 레시피!",
+      "sourceUrl": "https://www.youtube.com/watch?v=LMqqdtr3gSg",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "DRdqTaX5EFg",
+      "sourceTitle": "신박한 연근조림 레시피!",
+      "sourceUrl": "https://www.youtube.com/watch?v=DRdqTaX5EFg",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "JvwcGrJs_Qc",
+      "sourceTitle": "누구나 따라 할 수 있는 아보카도 샐러드",
+      "sourceUrl": "https://www.youtube.com/watch?v=JvwcGrJs_Qc",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "It3vdSGPuQg",
+      "sourceTitle": "조회수 폭발한 KFC 보다 맛있는 코울슬로 레시피!",
+      "sourceUrl": "https://www.youtube.com/watch?v=It3vdSGPuQg",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "pHftKsw9D3Q",
+      "sourceTitle": "SNS에서 유행하는 간장비빔국수 매콤ver.",
+      "sourceUrl": "https://www.youtube.com/watch?v=pHftKsw9D3Q",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "Ir1DjCLzdLs",
+      "sourceTitle": "순두부엔 무조건 쫄면을 넣어서 드세요~~",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ir1DjCLzdLs",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "vh_DHHDjYMI",
+      "sourceTitle": "감자 사라다에 베이컨을 넣었더니???",
+      "sourceUrl": "https://www.youtube.com/watch?v=vh_DHHDjYMI",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "VeusPX-hBFk",
+      "sourceTitle": "추운 겨울에 딱~ 꽃게탕 황금 레시피 공개!",
+      "sourceUrl": "https://www.youtube.com/watch?v=VeusPX-hBFk",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "CmnuhCG2sPA",
+      "sourceTitle": "소주 삭제시키는 초간단 닭발 레시피!",
+      "sourceUrl": "https://www.youtube.com/watch?v=CmnuhCG2sPA",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "NDGfr_nq-8k",
+      "sourceTitle": "잔치국수는 꼭 이렇게 만들어 드세요!",
+      "sourceUrl": "https://www.youtube.com/watch?v=NDGfr_nq-8k",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "C0aA1whthI0",
+      "sourceTitle": "개복잡하지만 개맛있는 고급스러운 샌드위치!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=C0aA1whthI0",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "1gUGMPuIgFg",
+      "sourceTitle": "요리도 템빨! 흑백요리사 Top4 정호영 셰프의 추천 템은?",
+      "sourceUrl": "https://www.youtube.com/watch?v=1gUGMPuIgFg",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "UnZB9cbc8dU",
+      "sourceTitle": "대놓고 주작 방송하는 정호영 셰프",
+      "sourceUrl": "https://www.youtube.com/watch?v=UnZB9cbc8dU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "q4hZ1ydA2rY",
+      "sourceTitle": "👍200만💕 봄동 비빔밥 대신 봄동 비빔국수 어때요?",
+      "sourceUrl": "https://www.youtube.com/watch?v=q4hZ1ydA2rY",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "hGmtY376F74",
+      "sourceTitle": "이제 규동은 집에서 만들어드세요~",
+      "sourceUrl": "https://www.youtube.com/watch?v=hGmtY376F74",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "fIMGARXkJyk",
+      "sourceTitle": "브라운 버터 쉽게 만드는 법",
+      "sourceUrl": "https://www.youtube.com/watch?v=fIMGARXkJyk",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "qc1_7vmHEg4",
+      "sourceTitle": "김치찜에 '이걸' 넣었더니 맛이 미쳤어요!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=qc1_7vmHEg4",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "BhzOuuPqLwk",
+      "sourceTitle": "욕 나올 정도로 맛있는 감자그라탕!",
+      "sourceUrl": "https://www.youtube.com/watch?v=BhzOuuPqLwk",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "xVplqwS8clc",
+      "sourceTitle": "떡국에 브라운 버터 한 숟갈을 넣는다면?",
+      "sourceUrl": "https://www.youtube.com/watch?v=xVplqwS8clc",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "fmpkvmh6Po8",
+      "sourceTitle": "연어로 육회를 만든다고?",
+      "sourceUrl": "https://www.youtube.com/watch?v=fmpkvmh6Po8",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "6zJvfpqNQTQ",
+      "sourceTitle": "김풍이 직접 알려준 초장파스타 레시피 공개!",
+      "sourceUrl": "https://www.youtube.com/watch?v=6zJvfpqNQTQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "QhEC3DKvias",
+      "sourceTitle": "이 레시피 만든 사람은 천재!",
+      "sourceUrl": "https://www.youtube.com/watch?v=QhEC3DKvias",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "Px5MfgXCx54",
+      "sourceTitle": "정말 맛있는 카레 라면 초간단 레시피!",
+      "sourceUrl": "https://www.youtube.com/watch?v=Px5MfgXCx54",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "H4psxKeUpeo",
+      "sourceTitle": "연어는 꼭 김밥으로 만들어 드세요!",
+      "sourceUrl": "https://www.youtube.com/watch?v=H4psxKeUpeo",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "sSeoH_1oEOQ",
+      "sourceTitle": "정호영 셰프도 놀란 천재적인 레시피!",
+      "sourceUrl": "https://www.youtube.com/watch?v=sSeoH_1oEOQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "aS4SxJjagMg",
+      "sourceTitle": "토마토로 김치를 만들면?",
+      "sourceUrl": "https://www.youtube.com/watch?v=aS4SxJjagMg",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "r8IYp6t0x6U",
+      "sourceTitle": "실패 없는 카레 우동 5분 만에 만드는 법 #자취요리 #카레",
+      "sourceUrl": "https://www.youtube.com/watch?v=r8IYp6t0x6U",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "hlcDElnatak",
+      "sourceTitle": "이거 하나면 밥 한 공기 그냥 끝납니다🔥 고추장 멸치볶음",
+      "sourceUrl": "https://www.youtube.com/watch?v=hlcDElnatak",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "DmeWaAow_QQ",
+      "sourceTitle": "멸치를 볶기 전에 한번 데쳐야 하는 이유는?",
+      "sourceUrl": "https://www.youtube.com/watch?v=DmeWaAow_QQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "MhWHyhv5h2I",
+      "sourceTitle": "초초초초초간단 무생채 레시피!",
+      "sourceUrl": "https://www.youtube.com/watch?v=MhWHyhv5h2I",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "OA1IMfenGcQ",
+      "sourceTitle": "라면 대회에서 1등 했다는 짜파게티 레시피!",
+      "sourceUrl": "https://www.youtube.com/watch?v=OA1IMfenGcQ",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "7lvYAmMkxtU",
+      "sourceTitle": "조회수 난리난 흑돼지 김치찌개",
+      "sourceUrl": "https://www.youtube.com/watch?v=7lvYAmMkxtU",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "zcDeq6chbz4",
+      "sourceTitle": "조회수 200만회 나온 애호박 국밥 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=zcDeq6chbz4",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "qyc-qZ6Nxbo",
+      "sourceTitle": "만능 조림장으로 만든 갈치조림",
+      "sourceUrl": "https://www.youtube.com/watch?v=qyc-qZ6Nxbo",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    },
+    {
+      "videoId": "LV0fIKrRP_k",
+      "sourceTitle": "버터구이보다 맛있는 전복 데리야끼!",
+      "sourceUrl": "https://www.youtube.com/watch?v=LV0fIKrRP_k",
+      "playlistIds": [
+        "PLLw7z5jPcRNqHFBHx0V5uJu2SCWz-wXRs"
+      ],
+      "playlistTitles": [
+        "shorts"
+      ],
+      "videoFormat": "short",
+      "status": "excluded-short",
+      "reason": "사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외."
+    }
+  ]
+}

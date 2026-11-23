@@ -11633,5 +11633,301 @@
     "category": "육류·해산물",
     "isSeasoning": false,
     "isQuickPick": false
+  },
+  {
+    "id": "minced-pork-belly",
+    "name": "다진 삼겹살",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "caden-shabu-beef",
+    "name": "샤부샤부용 소고기",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "caden-shichimi",
+    "name": "시치미",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "caden-fried-batter-bits",
+    "name": "튀김 부스러기",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "caden-angel-hair-pasta",
+    "name": "엔젤헤어 파스타",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "thin-sliced-pork-neck",
+    "name": "대패 목살",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "caden-instant-pollock-soup",
+    "name": "간편 북엇국",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "caden-retort-seaweed-soup",
+    "name": "레토르트 미역국",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "caden-gorgonzola-cheese",
+    "name": "고르곤졸라 치즈",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "pork-tenderloin",
+    "name": "돼지고기 안심",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "caden-cream-soup-powder",
+    "name": "크림스프 분말",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "caden-tuna-retort-gomtang",
+    "name": "한우 사골곰탕",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "caden-black-pork",
+    "name": "흑돼지",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "caden-mint-tea-bag",
+    "name": "민트 티백",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "caden-spaghettini",
+    "name": "스파게티니",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "caden-noodle-stock",
+    "name": "쌀국수 장국",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "caden-odongtong-ramen",
+    "name": "오동통 라면",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "dashida-seasoning",
+    "name": "다시다",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "caden-chuka-noodles",
+    "name": "중화면",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "caden-truffle-oil",
+    "name": "트러플 오일",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "caden-young-radish",
+    "name": "알타리무",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "caden-tsuyu",
+    "name": "쯔유",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "caden-freshwater-eel",
+    "name": "민물장어",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "tuna-extract",
+    "name": "참치액",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "generic-anchovies",
+    "name": "멸치",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "boneless-chicken-feet",
+    "name": "무뼈 닭발",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "raw-sliced-seafood",
+    "name": "회",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "budae-assorted-ham",
+    "name": "부대찌개용 모둠 햄",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "bokbunja-wine",
+    "name": "복분자주",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "capellini-pasta",
+    "name": "카펠리니",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "low-sodium-pollock-roe",
+    "name": "저염 명란",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mackerel-fillet",
+    "name": "고등어 필렛",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "wide-glass-noodles",
+    "name": "넓적 당면",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "tamari-soy-sauce",
+    "name": "타마리간장",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "apple-watermelon",
+    "name": "애플수박",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "shin-ramyun",
+    "name": "신라면",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "generic-mushrooms",
+    "name": "버섯",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
   }
 ]
