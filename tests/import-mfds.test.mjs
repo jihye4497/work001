@@ -21,7 +21,7 @@ const reviews = structuredClone(expandedReviews.filter(r=>!r.reviewBatch)).map(r
 const fullSnapshot = await load('../data/source/mfds-response.json');
 const supplement = await load('../data/source/mfds-supplement.json');
 const allIngredients = await load('../data/ingredients.json');
-const expandedRecipes = await load('../data/recipes.json');
+const expandedRecipes = (await load('../data/recipes.json')).filter(r=>!r.id.startsWith('paik-'));
 // Keep the original 33-menu fixtures to verify earlier behavior independently.
 const allRecipes = auditAndMerge([fullSnapshot,supplement],allIngredients,expandedRecipes.filter(r=>!r.id.startsWith('mfds-cookrcp01-')),reviews,'2026-11-10').recipes;
 const oldIngredients = allIngredients.filter(i => !reviews[0].ingredientDefinitions.some(d => d.id === i.id));

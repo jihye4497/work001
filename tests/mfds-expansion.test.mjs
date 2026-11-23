@@ -6,7 +6,7 @@ import {applyRecipeCategories} from '../js/recipe-filters.js';
 import {aggregate,totalText,copyText} from '../js/shopping-list.js';
 import {servingLabel} from '../js/servings.js';
 const read=async p=>JSON.parse(await readFile(new URL('../'+p,import.meta.url),'utf8'));
-const ingredients=await read('data/ingredients.json'),recipes=await read('data/recipes.json');
+const ingredients=await read('data/ingredients.json'),recipes=(await read('data/recipes.json')).filter(r=>!r.id.startsWith('paik-'));
 const source=await read('data/source/mfds-response.json'),supplement=await read('data/source/mfds-supplement.json');
 const reviews=await read('data/source/mfds-reviews.json'),report=await read('data/source/mfds-expansion-report-2026-11-11.json');
 

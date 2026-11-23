@@ -10935,5 +10935,239 @@
     "category": "양념·조미료",
     "isSeasoning": true,
     "isQuickPick": false
+  },
+  {
+    "id": "baked-beans",
+    "name": "베이크드빈스",
+    "aliases": [
+      "베이크드 빈스"
+    ],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "whole-frozen-pollock",
+    "name": "동태",
+    "aliases": [
+      "냉동 명태"
+    ],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "pollock-milt",
+    "name": "동태 이리",
+    "aliases": [
+      "동태이리"
+    ],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "pollock-liver",
+    "name": "동태 간",
+    "aliases": [
+      "동태간"
+    ],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "pollock-roe",
+    "name": "동태알",
+    "aliases": [
+      "동태 알"
+    ],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "jjajang-instant-noodles",
+    "name": "짜장라면",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "wheat-tteokbokki-rice-cake",
+    "name": "밀떡볶이떡",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mild-instant-noodles",
+    "name": "순한맛 라면",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "seasoned-chicken-breast",
+    "name": "조미닭가슴살",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "beef-bulgogi-slices",
+    "name": "소고기 불고기용",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "caramel-seasoning",
+    "name": "카라멜",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "beef-dashida",
+    "name": "소고기다시다",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "cooked-lotus-root",
+    "name": "자숙 연근",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "yellow-pickled-radish",
+    "name": "단무지",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "water-spinach",
+    "name": "공심채",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "vietnamese-chili",
+    "name": "베트남 고추",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "snow-shredded-cheese",
+    "name": "슈레드 눈꽃치즈",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "mala-sauce",
+    "name": "마라소스",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "pork-hind-leg",
+    "name": "돼지 뒷다리살",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "sundae",
+    "name": "순대",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "tomato-juice",
+    "name": "토마토 주스",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "boiled-bean-sprouts",
+    "name": "삶은 콩나물",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "msg-seasoning",
+    "name": "MSG",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "pickled-chicken-radish",
+    "name": "치킨무",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "beef-short-ribs",
+    "name": "소갈비",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "pear-soft-drink",
+    "name": "갈아만든 배",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "frozen-dumplings",
+    "name": "냉동만두",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "pork-fat",
+    "name": "돼지 지방",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
   }
 ]

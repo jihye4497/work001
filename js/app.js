@@ -375,7 +375,7 @@ function drawRecipes() {
   input.addEventListener('keydown',event=>{
     if(event.isComposing)return;
     if(event.key==='Escape'){searchList.hidden=true;}
-    if(['ArrowDown','Enter'].includes(event.key)&&!searchList.hidden){const first=[...searchList.children].find(node=>node.className?.includes('search-menu-option')&&!node.disabled);if(first){event.preventDefault();first.focus();}}
+    if(['ArrowDown','Enter'].includes(event.key)&&!searchList.hidden){const first=[...searchList.children].flatMap(node=>[node,...node.children]).find(node=>node.className?.includes('search-menu-option')&&!node.disabled);if(first){event.preventDefault();first.focus();}}
   });
   input.addEventListener('input',()=>{store.draft.menuQuery=input.value.slice(0,200);resetVisible();save();renderResults();});
   host.replaceChildren(
