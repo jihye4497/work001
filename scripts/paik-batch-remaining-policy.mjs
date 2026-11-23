@@ -1,0 +1,13 @@
+import * as a from './paik-remaining-a-policy.mjs';
+import * as b from './paik-remaining-b-policy.mjs';
+import * as c from './paik-remaining-c-policy.mjs';
+const policies=[a,b,c];
+export const batch50=policies.flatMap(p=>p.batch50);
+const owner=id=>policies.find(p=>p.batch50.some(r=>r[0]===id));
+export const groupPolicy=(id,group)=>owner(id)?.groupPolicy?.(id,group)??{scale:1};
+export const intermediateRows=new Map(policies.flatMap(p=>[...(p.intermediateRows??new Map())]));
+export const canonicalOverrides=Object.assign({},...policies.map(p=>p.canonicalOverrides));
+export const definitions=[...new Map(policies.flatMap(p=>p.definitions??[]).map(row=>[row[1].normalize('NFKC').replace(/\s/g,''),row])).values()];
+export const lineOverrides=Object.assign({},...policies.map(p=>p.lineOverrides));
+export const prepareText=e=>owner(e.videoId)?.prepareText?.(e)??e.ingredientText;
+export const skips=[...new Map(policies.flatMap(p=>[...(p.skips??[]),...(p.questions??[]).map(q=>({videoId:q.videoId,reason:q.reason??q.question}))]).map(r=>[r.videoId,r])).values()];

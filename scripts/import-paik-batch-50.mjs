@@ -2,13 +2,14 @@ import {readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 import {validateData} from '../js/ingredients.js';
-const secondBatch=process.argv.includes('--batch=02');
-const {batch50,groupPolicy,intermediateRows,canonicalOverrides={},definitions:extraDefinitions=[],lineOverrides={},prepareText=e=>e.ingredientText}=await import(secondBatch?'./paik-batch-02-policy.mjs':'./paik-batch-50-policy.mjs');
+const batch=process.argv.includes('--batch=remaining')?'remaining':process.argv.includes('--batch=03')?'03':process.argv.includes('--batch=02')?'02':'50';
+const {batch50,groupPolicy,intermediateRows,canonicalOverrides={},definitions:extraDefinitions=[],lineOverrides={},prepareText=e=>e.ingredientText}=await import(`./paik-batch-${batch}-policy.mjs`);
 const read=async p=>JSON.parse(await readFile(new URL('../'+p,import.meta.url),'utf8'));
 const write=(p,d)=>writeFile(new URL('../'+p,import.meta.url),JSON.stringify(d,null,2)+'\n');
-const reviewPath=secondBatch?'data/source/paik-batch-02-review.json':'data/source/paik-batch-50-review.json';
+const reviewPath=`data/source/paik-batch-${batch}-review.json`;
 const review=await read(reviewPath);
 const ingredients=await read('data/ingredients.json'),recipes=await read('data/recipes.json'),catalog=await read('data/recipe-categories.json');
+const priorIngredientIds=new Set(ingredients.map(i=>i.id));
 const key=s=>s.normalize('NFKC').replace(/\s/g,'');
 const canonical={
  '달걀':'계란','깐메추리알':'삶은 메추리알','간마늘':'다진 마늘','다진마늘':'다진 마늘','통마늘':'마늘',
@@ -64,14 +65,16 @@ function parseLine(line){
  const rawKey=key(rawName);const name=canonical[rawKey]||rawName;
  if(mass)return {name,sourceAmount:Number(mass[1].replace(/,/g,'')),unit:mass[2]};
  const tail=first<0?'':line.slice(first);
- const amount=tail.match(/^([\d.½¼¾/]+(?:\s*(?:과|와|\+)\s*[\d½¼¾/]+)?)\s*(kg|g|ml|mL|L|큰술|작은술|마리|인분|봉지|봉|개|장|컵|모|팩|줄|공기|꼬집|덩어리)/);
+ const amount=tail.match(/^([\d.½¼¾/]+(?:\s*(?:과|와|\+)\s*[\d½¼¾/]+)?)\s*(kg|g|ml|mL|L|큰술|작은술|마리|인분|봉지|봉|개|장|컵|모|팩|줄기|줄|공기|꼬집|덩어리|대|알|송이|통|숟가락|캔|단|병|뿌리|줌|톨|조각)/);
  const value=amount?fraction(amount[1]):null;
  if(value!==null)return {name,sourceAmount:value,unit:amount[2]};
  assert.ok(/약간|적당/.test(line),`미해석 수량: ${line}`);
  return {name,sourceAmount:null,unit:null};
 }
 const missing=new Set(),built=[];
-assert.equal(batch50.length,50);assert.equal(new Set(batch50.map(r=>r[0])).size,50);
+if(batch==='remaining')assert.ok(batch50.length>0,'남은 메뉴 선정 목록이 비어 있어요.');
+else assert.equal(batch50.length,50);
+assert.equal(new Set(batch50.map(r=>r[0])).size,batch50.length);
 for(const [videoId,name,baseServings,cookingType,category,range] of batch50){
  const entry=review.entries.find(e=>e.videoId===videoId);assert.ok(entry?.ingredientText,videoId);
  assert.equal(entry.channelId,'UCyn-K7rZLXjGl7VXGweIlcA');
@@ -96,7 +99,7 @@ for(const [videoId,name,baseServings,cookingType,category,range] of batch50){
  entry.servingsRange=range?{min:range[0],max:range[1]}:null;
  const explicit=!!range||entry.servingsStatements.some(t=>new RegExp(`(?<![0-9])${baseServings}\\s*인분`).test(t));
  entry.servingsStatus=explicit?'explicit':'estimated';
- entry.servingsEvidence=range?`원문 ${range[0]}~${range[1]}인분을 그대로 표시. 2026-11-23 사용자 승인에 따라 계산은 상한 ${baseServings}인분 기준.`:explicit?`원본 설명란 ${baseServings}인분 명시.`:`원문 인분 미기재. 원본 전체 재료 양을 ${baseServings}인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.`;
+ entry.servingsEvidence=range?`원문 ${range[0]}~${range[1]}인분을 그대로 표시. 2026-11-23 사용자 승인에 따라 계산은 상한 ${baseServings}인분 기준.`:explicit?(entry.servingsStatements.some(t=>t.startsWith('원본 영상 제목:'))?`원본 영상 제목 ${baseServings}인분 명시.`:`원본 설명란 ${baseServings}인분 명시.`):`원문 인분 미기재. 원본 전체 재료 양을 ${baseServings}인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.`;
  entry.ingredients=rows;
  built.push({entry,cookingType,category});
 }
@@ -108,11 +111,15 @@ else{
   const c={recipeId:r.id,name:r.name,categories:[category],mealRole:category==='한식 반찬'?'반찬':category==='한식 국·찌개'?'국·찌개':'주메뉴'};
   const old=catalog.entries.find(x=>x.recipeId===r.id);if(old)assert.deepEqual(old,c);else catalog.entries.push(c);
  }
+ if(batch==='remaining'){
+  const used=new Set(recipes.flatMap(r=>r.ingredients.map(i=>i.ingredientId)));
+  for(let n=ingredients.length-1;n>=0;n--)if(!priorIngredientIds.has(ingredients[n].id)&&!used.has(ingredients[n].id))ingredients.splice(n,1);
+ }
  validateData(ingredients,recipes);
  if(process.argv.includes('--write')){
-  review.held=review.held||review.entries.filter(e=>!built.some(b=>b.entry.videoId===e.videoId)).map(e=>({videoId:e.videoId,sourceTitle:e.sourceTitle||null,reason:e.heldReason||'이번 50개에서 미선정. 다음 차수 검토 대상이며 사이트에는 미등록.'}));
+  review.held=review.held||review.entries.filter(e=>!built.some(b=>b.entry.videoId===e.videoId)).map(e=>({videoId:e.videoId,sourceTitle:e.sourceTitle||null,reason:e.heldReason||(batch==='remaining'?'검토 후 미선정. 사이트에는 미등록.':'이번 50개에서 미선정. 다음 차수 검토 대상이며 사이트에는 미등록.')}));
   review.entries=built.map(b=>b.entry);
   await write('data/ingredients.json',ingredients);await write('data/recipes.json',recipes);await write('data/recipe-categories.json',catalog);await write(reviewPath,review);
  }
- console.log(`백종원 메뉴 50개 대조 완료. 전체 ${recipes.length}개. ${process.argv.includes('--write')?'저장 완료':'검증만 실행'}`);
+ console.log(`백종원 메뉴 ${batch50.length}개 대조 완료. 전체 ${recipes.length}개. ${process.argv.includes('--write')?'저장 완료':'검증만 실행'}`);
 }

@@ -431,7 +431,9 @@ test('추천 카드 공식 사진은 지연 로딩하고 실패 시 숨기며 �
 
 
 test('추천의 생성 사진에는 AI 표시가 있고 검색 결과는 사진 없이 유지',async()=>{
- const {body}=await load('recipes');
+ // Verify the generated-photo card independently of the growing menu ranking.
+ const raw=JSON.parse(await readFile(new URL('../data/recipes.json',import.meta.url),'utf8'));
+ const {body}=await load('recipes',raw.filter(r=>r.id!=='kimchi-stew').map(r=>r.id));
  const label=all(body).find(x=>x.className==='ai-image-label');assert.ok(label);assert.equal(label.textContent,'AI 생성 이미지');
  const image=label.parent.children.find(x=>x.tagName==='img');assert.ok(image.attrs.src.includes('/assets/images/generated/'));
  const input=document.getElementById('menu-search');input.value='김치찌개';await input.fire('input');

@@ -9746,6 +9746,1486 @@
         "한식 주메뉴"
       ],
       "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-6e-IbuuD6ZU",
+      "name": "1분 라볶이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-4SEy2py0W_w",
+      "name": "골뱅이 파채무침",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-M8RXmDJ3W-s",
+      "name": "돼지고기뭇국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-R0xWJ4c8wR4",
+      "name": "닭칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-kzYgtXDcGQ4",
+      "name": "닭곰탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-zfMHTfJ3Ih0",
+      "name": "우유 카레",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-bZWlQXGywRc",
+      "name": "고추장 파프리카무침",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-xexAbSUQzSw",
+      "name": "미역냉국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-47OIcvpqxlo",
+      "name": "김치전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-eZzBMCZYEfc",
+      "name": "돼지고기 모둠찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-eeiqjyYgPew",
+      "name": "닭볶음탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-Eino3yP-Wk0",
+      "name": "두부조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-iWWQBoS3SL4",
+      "name": "고추장 비빔국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-nFCahVPrnD0",
+      "name": "강된장",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-zS_o6psOt9g",
+      "name": "콘치즈",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-du9q1BldDHU",
+      "name": "닭고기 덮밥",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-FN02e4DYvpA",
+      "name": "열무된장볶음덮밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-1smKGJS_9p0",
+      "name": "만두 달걀말이",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-T7YJviWhquo",
+      "name": "달걀말이",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-jBdQ65yHB_U",
+      "name": "감바스 알 아히요",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-kj2ZupQ7fts",
+      "name": "햄마요 김치덮밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-AlK2Gl6kHZI",
+      "name": "크리미 오므라이스",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-aXJgN_JjYDg",
+      "name": "고구마맛탕",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-6AmBDFIJRE8",
+      "name": "백순대볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-XKohdaL45K8",
+      "name": "깍두기볶음밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-4WEhZLQ37Fk",
+      "name": "새둥지전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-lH360TWUjSU",
+      "name": "파개장",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-j7s9VRsrm9o",
+      "name": "대파 제육볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-iNh_bXmYfgw",
+      "name": "소시지케첩볶음",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-b0VqL4-dSPM",
+      "name": "멕시칸샐러드",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-pTvMsM2v1tg",
+      "name": "토마토 달걀볶음",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-JV5pUbCiy1s",
+      "name": "시금치 베이컨볶음",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-8l9H8FlhiOo",
+      "name": "홍합와인탕",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-wfm951HEpGU",
+      "name": "부추전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-XU5Jv4e7DKw",
+      "name": "태국식 시금치 고기덮밥",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-eIo2BaE6LxI",
+      "name": "김치볶음밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-xsTFsunt6-8",
+      "name": "소고기미역국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-RVfSeUZ8XkY",
+      "name": "김치찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-4TnaTTg1R_Q",
+      "name": "바지락볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-IasQ3XURCTI",
+      "name": "닭근위볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-xecKUiZBCtM",
+      "name": "진미채볶음",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-zRg4nxIv3j8",
+      "name": "볶음우동",
+      "categories": [
+        "일식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-G2kylWhMw5s",
+      "name": "김치수제비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-kfGi3rTct8c",
+      "name": "찜닭",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-JmiW-dD1RqM",
+      "name": "고사리나물",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-At-u3lwsFtk",
+      "name": "떡만둣국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-2vrJR3ZpRf0",
+      "name": "도라지나물",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-37-BCf85bHk",
+      "name": "LA갈비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-tD8ApzPsDx8",
+      "name": "시금치나물",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-fEYJSPSGaLI",
+      "name": "중화제육면",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-BH07T3aJFrw",
+      "name": "콩국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-K6JzM14Eb0s",
+      "name": "나초타코",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-60anIrLje-E",
+      "name": "돼지비계 김치찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-SqsX495Zie4",
+      "name": "돼지 목살튀김",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-RuEyl_cMMns",
+      "name": "간장비빔라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-qSqX_D_HfYY",
+      "name": "장조림 버터비빔밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik--A0iP6Uzy3A",
+      "name": "떡어묵꼬치",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-hX3httwbzAQ",
+      "name": "짬뽕햄라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-jN6rB-bUQXM",
+      "name": "배추전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-WGqcdDem0Vg",
+      "name": "소고기 짜파구리",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-78AQ-ten9lE",
+      "name": "달걀 볶음라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-LojVJnvLb30",
+      "name": "버팔로윙",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-w9ML-v8OG1Y",
+      "name": "기본 파무침",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik--MvfUUPB5-Y",
+      "name": "부대찌개 (빽소시지)",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-6lcrq5D_63o",
+      "name": "냉이된장라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-u1m21zlfVLo",
+      "name": "수제 막걸리",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-ZE3X6f6E3Ss",
+      "name": "곱창라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-amKnBhgVcfg",
+      "name": "돼지등갈비튀김",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-dQnjf9ouGgk",
+      "name": "뱅쇼",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-9Wvd9VL0OpM",
+      "name": "카레라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-u8s0XK5WXuw",
+      "name": "우리집 카레",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-MpWWEiU9rKg",
+      "name": "고구마스틱",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-Js2p5JPj3XQ",
+      "name": "볼카츠",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-9ljJ2Ybkaho",
+      "name": "한돈라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-UEfoOmupTG8",
+      "name": "전복내장 크림파스타",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-b2AXKI76rKI",
+      "name": "마라 감자볶음",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-tRf3oA4J1ok",
+      "name": "게살 캘리포니아롤",
+      "categories": [
+        "퓨전"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-NtsoIQQXGsA",
+      "name": "볶음고추장",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-LwHQ_LE4b9I",
+      "name": "비빔면 팟타이",
+      "categories": [
+        "퓨전"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-037o6vxm0es",
+      "name": "경양식 돈가스",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-SYaYH8bh4QY",
+      "name": "김치라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-5UVURwno_jA",
+      "name": "크림새우",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-ulXcb04zLiI",
+      "name": "수제 마요네즈",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-UlsvKb-Bafs",
+      "name": "만능 겉절이양념",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-Gq9S0dJ3wHg",
+      "name": "채수 잔치국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-VTnPfw9h-3k",
+      "name": "탕수육 김치조림",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-rTAWqq4I3JA",
+      "name": "콩나물 황태해장라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-wyCV_de0CDY",
+      "name": "떡갈비",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-rGAt5QS2ueU",
+      "name": "뒷다리살 수육",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-dUANwQmPhU4",
+      "name": "깻잎모히토",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-IO6AeSPfJ0Y",
+      "name": "전복죽",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik--dBPLgpC-tk",
+      "name": "프렌치토스트",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-G25SAhShmQw",
+      "name": "고구마라떼",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-CVtdTM6gJTY",
+      "name": "마요네즈 라면땅",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik--_q9oyOToxs",
+      "name": "우유라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-CQZyh-OszCo",
+      "name": "기름떡볶이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-vcb0uw4HIJA",
+      "name": "분홍 소시지전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-UArNVpF7PIY",
+      "name": "허니버터브레드",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-9YlFFVisCBY",
+      "name": "통옥수수구이",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-3p4xH_IZhH4",
+      "name": "달걀장조림",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-VNw-hUTboNs",
+      "name": "찰옥수수 삶기",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-ak5PBQQfPVI",
+      "name": "참기름 달걀라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-qI1LRerUWXQ",
+      "name": "수박 오이냉국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-wAktJuv7REY",
+      "name": "수박화채",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-PjQfWuNHZlo",
+      "name": "수박에이드",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-guc9-PYM7ak",
+      "name": "라면 비빔면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-yI67M3IS4GI",
+      "name": "옥수수전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-iij0bMkadEw",
+      "name": "다시마칼국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-YXMxnHx7yZQ",
+      "name": "달걀샌드위치",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-JKZqaFpJHn0",
+      "name": "김치 오트밀",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-QFTBQF5l0Ro",
+      "name": "고구마피자",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-7S9VN54ldnU",
+      "name": "만능 짜장소스",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik--bewV9LQ_JU",
+      "name": "고구마생채 비빔밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-rgKIUQgzhbs",
+      "name": "카레 달걀샌드위치",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-NvoCWyO0Vfg",
+      "name": "김라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-xNUvkgONOOM",
+      "name": "만능 장아찌소스",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-sRQxVQ5-NNA",
+      "name": "깍두기",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-sw2YbfPbHk0",
+      "name": "치즈 닭갈비 도시락볶음밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-Xhv99PA2OEI",
+      "name": "알새우칩 카나페",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-lqCzPHUu-3E",
+      "name": "초고추장 라면땅",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-FQPtD59Imqo",
+      "name": "청양고추 마요네즈 딥소스",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-wDVYtePSF_Q",
+      "name": "홍합라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-bLprteo75gY",
+      "name": "바지락라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-81gLJ5kRu4Y",
+      "name": "시금치무침",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-_l_cJyxNkhc",
+      "name": "닭다리살 대파무침",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-FnihBW52Ux8",
+      "name": "달래간장 밤밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-3OwIXlvjjyk",
+      "name": "꿔바로우",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-nAfB4wPN0f4",
+      "name": "삶은 달걀",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-hEBT2uGjy6o",
+      "name": "밤죽",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-7ThPQ-Wiw0Q",
+      "name": "당근죽",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-HSPOnMZNoY4",
+      "name": "만두피튀김",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-t4Es8mwdYlE",
+      "name": "시장 떡볶이",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-WneiVYnZgHo",
+      "name": "탕수육",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-2sUjx8PE_vg",
+      "name": "고기짬뽕라면",
+      "categories": [
+        "중식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-HIma0ha9F-I",
+      "name": "편육냉채",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-j9NXZh0gX3w",
+      "name": "고등어 통조림 김치찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-HChukhwE1do",
+      "name": "고추마늘치킨",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-t63aSsdvZKs",
+      "name": "홍합탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-GsnwEVsotdU",
+      "name": "함박스테이크",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-wpUsg7f-F4o",
+      "name": "감자짜글이",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-vG07DHeNH9c",
+      "name": "소고기뭇국",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-j0-_vTbLALM",
+      "name": "감자수프",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-bMLfohWNsvQ",
+      "name": "만능 볶음요리 소스",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-FI6iypOkNUg",
+      "name": "멸치국수 육수",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-2HZO-YNHFPk",
+      "name": "양념치킨",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-K55CPyYTUJI",
+      "name": "배추김치",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-5eQ1rf642QI",
+      "name": "두부김치",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-Lz0tPtrMQmQ",
+      "name": "골뱅이무침",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-jeBMJGNgZ34",
+      "name": "베이컨땡초김밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-KoBx7EEBohM",
+      "name": "무절임",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-z-XcuZL80Lc",
+      "name": "설탕토스트",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-NGjk_1KQGmI",
+      "name": "채소 달걀볶음밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-kR77WlHRZrs",
+      "name": "달걀볶음밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-dXN1dlsYdJI",
+      "name": "무생채",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-fdW2duLTBLU",
+      "name": "애호박전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-1vfJqpklDSI",
+      "name": "사과조림",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-fD4wD3GTJq4",
+      "name": "치즈토스트",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-6jCf19GzNcY",
+      "name": "고등어케밥",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-HI8DlDs1gko",
+      "name": "만능양념장",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-OgMi1KTPzJY",
+      "name": "치킨 스테이크",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-rrNfCVRFsvs",
+      "name": "초간단 잡채",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-DNj3YiaP42s",
+      "name": "잡채",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-PjMWHZ3ubsQ",
+      "name": "소갈비찜",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-tHkbJgBUaiI",
+      "name": "모둠 버섯전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-uB37XeU5SwM",
+      "name": "옥수수전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-fk0-PSrOMo4",
+      "name": "두부 콩국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-p3IQTouKyH0",
+      "name": "소불고기",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-QnyzZ_8Kog8",
+      "name": "순딩이라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-rCRzFUscqD0",
+      "name": "오징어 초무침",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-AdHOym7nqo0",
+      "name": "오징어 숙회",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-lD53g8VjQnU",
+      "name": "냉라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-ny9XkQbN6sI",
+      "name": "초간단 냉라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik--EwR5eshbPE",
+      "name": "닭볶음탕",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-MqdncXPR0lY",
+      "name": "꽈리고추 삼겹살볶음",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-5wMxMwv1-Xs",
+      "name": "니가 비비바락 국수 양념장",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-cNfbDK9vIFI",
+      "name": "니가 비비바락 국수 양념장 대용량",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-YISYMu2Txp4",
+      "name": "불맛 짬뽕라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-RTj2_VKVSBI",
+      "name": "콩나물국 대용량",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-0FEOvSKPVwU",
+      "name": "인도풍 커리양파볶음",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-R6IT_f0XPT8",
+      "name": "김치밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-7Ez066LV76U",
+      "name": "닭백숙",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-uAShnbgCLSU",
+      "name": "만능양파볶음",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "paik-0q0btGvIrWY",
+      "name": "콩나물무침 대용량",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-QPjfwubAvso",
+      "name": "감자샐러드 대용량",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "paik-wDXCxlcr3hY",
+      "name": "목살스테이크카레",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
     }
   ]
 }
