@@ -304,10 +304,19 @@ function drawRecipes() {
     }, checked?'secondary selected':'secondary', {id:`food-${index}`, 'aria-pressed':String(checked)});
   }));
   const input = el('input', {id:'menu-search', type:'search', value:store.draft.menuQuery, maxLength:200, placeholder:'먹고 싶은 메뉴가 있으신가요?', autocomplete:'off', 'aria-controls':'menu-search-list'});
+  function clearMenuSearch(){
+    store.draft.menuQuery='';input.value='';resetVisible();save();renderResults();input.focus();
+  }
+  const clearSearch=button(el('span',{'aria-hidden':'true'},'×'),clearMenuSearch,'menu-search-clear',{id:'clear-menu-search','aria-label':'검색어 지우기',title:'검색어 지우기',hidden:!input.value.length});
+  const searchTotal=el('span',{class:'menu-search-total',role:'status','aria-label':'전체 메뉴 수'},`${data.recipes.length}개`);
   const searchList=el('section',{id:'menu-search-list',class:'menu-search-list',hidden:true,'aria-label':'전체 메뉴 검색 결과'});
+  const browseControls=el('div',{id:'recommendation-filters'},[
+    el('div',{class:'food-kinds'},[el('span',{class:'flow-heading'},'음식 종류'),filters]),
+    modeIndex===1?el('div',{class:'interest-section'},[el('div',{class:'section-heading'},[interestHeading,el('div',{class:'interest-actions'},[toggleAllInterests,link('재료 수정',url('ingredients.html?tab=planned'))])]),interests.length?interestChips:link('장바구니 재료 고르기',url('ingredients.html?tab=planned'))]):null
+  ]);
   const content = el('div', {id:'menu-results'});
   const resultTitle=el('h2',{id:'results-title',class:'flow-heading',tabIndex:-1},'추천 메뉴');
-  const resultCount=el('span',{class:'muted'});
+  const resultCount=el('span',{class:'muted',role:'status'});
   const resultHeading=el('div',{class:'section-heading results-heading'},[resultTitle,resultCount]);
   function renderResults() {
     const query = store.draft.menuQuery.trim();
@@ -322,7 +331,13 @@ function drawRecipes() {
     const slice = pageResults(results,visible);
     resultTitle.textContent=query?'메뉴 검색 결과':'추천 메뉴';
     resultCount.textContent=`${results.length}개`;
+    resultHeading.hidden=Boolean(query);
+    searchTotal.textContent=query?`검색 결과 ${results.length}개`:`${data.recipes.length}개`;
+    searchTotal.setAttribute('aria-label',query?'검색 결과 수':'전체 메뉴 수');
+    clearSearch.hidden=!input.value.length;
     searchList.hidden=!query;
+    input.setAttribute('aria-expanded',String(Boolean(query)));
+    browseControls.hidden=Boolean(query);
     content.hidden=Boolean(query);
     if(query) {
       const choices=slice.items.map(({recipe,replacements})=>{
@@ -332,17 +347,25 @@ function drawRecipes() {
         },'search-menu-option',{disabled:added,'aria-label':`${recipe.name} ${added?'담김':'담기'}`});
       });
       choices.forEach((choice,index)=>choice.addEventListener('keydown',event=>{
-        if(event.key==='Escape'){event.preventDefault();input.focus();searchList.hidden=true;}
+        if(event.key==='Escape'){event.preventDefault();clearMenuSearch();return;}
         if(!['ArrowDown','ArrowUp'].includes(event.key))return;
         event.preventDefault();const enabled=choices.filter(b=>!b.disabled),current=enabled.indexOf(choice);
         const next=enabled[current+(event.key==='ArrowDown'?1:-1)];if(next)next.focus();else input.focus();
       }));
       searchList.replaceChildren(...[
-        el('div',{class:'search-list-heading'},[el('span',{role:'status'},`전체 메뉴 검색 · ${results.length}개`),button('검색 지우기',()=>{store.draft.menuQuery='';input.value='';resetVisible();save();renderResults();input.focus();},'secondary')]),
         ...choices.map((choice,index)=>el('div',{class:'search-menu-entry'},[choice,sourceLabel(slice.items[index].recipe)])),
         !choices.length?el('p',{class:'muted'},'검색 결과가 없어요. 다른 메뉴 이름을 입력해 주세요.'):null,
         slice.hasMore?button('검색 결과 더 보기',()=>{visible+=8;renderResults();},'secondary list-more'):null
       ].filter(Boolean));
+      // Size for six actual rows, including wrapped names and source labels.
+      const fitSearchRows=()=>{
+        if(searchList.hidden)return;
+        const rows=[...searchList.children].filter(node=>node.className==='search-menu-entry').slice(0,6);
+        const height=rows.reduce((sum,row)=>sum+(row.getBoundingClientRect?.().height||0),0);
+        if(rows.length&&height>0)searchList.style.maxHeight=`${Math.ceil(height+2)}px`;
+      };
+      if(typeof requestAnimationFrame==='function')requestAnimationFrame(fitSearchRows);
+      if(document.fonts?.ready)document.fonts.ready.then(fitSearchRows);
       return;
     }
     searchList.replaceChildren();
@@ -361,7 +384,6 @@ function drawRecipes() {
       ]);
     });
     content.replaceChildren(...[
-      query ? el('div',{class:'search-scope'},[el('span',{class:'muted'},'전체 메뉴 검색 중 · 추천 조건 미적용'),button('검색 지우기',()=>{store.draft.menuQuery='';input.value='';resetVisible();save();renderResults();input.focus();},'secondary')]) : null,
       cards.length ? el('div',{class:'card-grid'},cards) : query
         ? empty('검색 결과가 없어요.','메뉴 이름을 짧게 바꿔 검색해 주세요.')
         : modeIndex===1
@@ -374,7 +396,7 @@ function drawRecipes() {
   }
   input.addEventListener('keydown',event=>{
     if(event.isComposing)return;
-    if(event.key==='Escape'){searchList.hidden=true;}
+    if(event.key==='Escape'){event.preventDefault();clearMenuSearch();return;}
     if(['ArrowDown','Enter'].includes(event.key)&&!searchList.hidden){const first=[...searchList.children].flatMap(node=>[node,...node.children]).find(node=>node.className?.includes('search-menu-option')&&!node.disabled);if(first){event.preventDefault();first.focus();}}
   });
   input.addEventListener('input',()=>{store.draft.menuQuery=input.value.slice(0,200);resetVisible();save();renderResults();});
@@ -383,11 +405,11 @@ function drawRecipes() {
       el('section',{class:'recommendation-controls'},[
         tabs,
         el('label',{htmlFor:input.id,class:'flow-heading'},'전체 메뉴 검색'),
-        el('div',{class:'menu-search-field'},[input,el('span',{class:'menu-search-total','aria-label':'전체 메뉴 수'},`${data.recipes.length}개`)]),
-        el('div',{class:'food-kinds'},[el('span',{class:'flow-heading'},'음식 종류'),filters]),
-        modeIndex===1?el('div',{class:'interest-section'},[el('div',{class:'section-heading'},[interestHeading,el('div',{class:'interest-actions'},[toggleAllInterests,link('재료 수정',url('ingredients.html?tab=planned'))])]),interests.length?interestChips:link('장바구니 재료 고르기',url('ingredients.html?tab=planned'))]):null
+        el('div',{class:'menu-search-group'},[
+          el('div',{class:'menu-search-field'},[input,el('div',{class:'menu-search-tools'},[searchTotal,clearSearch])]),searchList
+        ]),browseControls
       ]),el('div',{id:'recipe-feedback',role:'status','aria-live':'polite'}),
-      resultHeading,searchList,content
+      resultHeading,content
     ]),
     el('div',{class:'recipe-bottom'},[selectedPanel(true),link('장보기 목록 →',url('shopping-list.html'),'button primary')])
   );

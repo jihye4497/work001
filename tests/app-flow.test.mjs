@@ -204,14 +204,34 @@ test('한 글자 검색 목록·더 보기·추천 제외 무시·직접 담기�
  assert.ok(order.indexOf(input)<order.indexOf(document.getElementById('food-0')));
  assert.equal(all(body).find(x=>x.className==='menu-search-total').textContent,`${raw.length}개`);
  assert.equal(document.getElementById('menu-search-list').hidden,true);
+ assert.equal(document.getElementById('clear-menu-search').hidden,true);
  input.value='김';await input.fire('input');
  const options=()=>all(body).filter(x=>x.className.includes('search-menu-option'));
  assert.equal(document.getElementById('menu-search-list').hidden,false);assert.equal(options().length,8);
- const count=()=>all(body).find(x=>x.className.includes('results-heading')).textContent;
+ const count=()=>all(body).find(x=>x.className==='menu-search-total').textContent;
+ const heading=all(body).find(x=>x.className.includes('results-heading'));
+ assert.equal(heading.hidden,true);assert.equal(document.getElementById('recommendation-filters').hidden,true);
+ assert.equal(document.getElementById('menu-search-list').parent, input.parent.parent);
+ assert.equal(input.parent.parent.children[1],document.getElementById('menu-search-list'));
  assert.match(count(),/\d+개$/);assert.ok(!count().includes('개 중'));
  const firstCount=count();
+ assert.match(firstCount,/검색 결과 \d+개$/);
+ assert.equal(document.getElementById('clear-menu-search').hidden,false);
+ assert.ok(!all(body).some(x=>x.className==='search-list-heading'));
  await button(body,'검색 결과 더 보기').click();assert.equal(options().length,16);
  assert.equal(count(),firstCount);
+ await document.getElementById('clear-menu-search').click();
+ assert.equal(input.value,'');assert.equal(document.activeElement,input);
+ assert.equal(JSON.parse(saved.get('jmd_draft_v1')).menuQuery,'');
+ assert.equal(document.getElementById('clear-menu-search').hidden,true);
+ assert.equal(document.getElementById('menu-search-list').hidden,true);
+ assert.equal(document.getElementById('menu-results').hidden,false);
+ assert.ok(!count().includes('검색 결과'));
+ assert.equal(count(),`${raw.length}개`);assert.equal(heading.hidden,false);
+ assert.equal(document.getElementById('recommendation-filters').hidden,false);
+ assert.deepEqual(JSON.parse(saved.get('jmd_draft_v1')).selectedFoodCategories,['양식']);
+ input.value='고추장';await input.fire('input');await input.fire('keydown',{key:'Escape'});
+ assert.equal(input.value,'');assert.equal(document.getElementById('recommendation-filters').hidden,false);
  input.value=recipe.name;await input.fire('input');
  const choice=options().find(x=>x.attrs['aria-label']===`${recipe.name} 담기`);assert.ok(choice);
  await input.fire('keydown',{key:'ArrowDown'});assert.ok(document.activeElement.className.includes('search-menu-option'));
@@ -224,6 +244,23 @@ test('한 글자 검색 목록·더 보기·추천 제외 무시·직접 담기�
  assert.equal(document.getElementById('check-water'),undefined);
  for(const id of new Set(recipe.ingredients.map(i=>i.ingredientId).filter(id=>id!=='water')))assert.ok(document.getElementById(`ingredient-detail-${id}`),`장보기 누락: ${id}`);
  assert.match(shopping.body.textContent,/양념/);
+});
+
+test('검색 목록은 줄바꿈으로 높이가 다른 실제 행 여섯 개를 수용',async()=>{
+ const {body}=await load('recipes');
+ const previous=globalThis.requestAnimationFrame,frames=[];
+ globalThis.requestAnimationFrame=callback=>{frames.push(callback);return frames.length;};
+ try{
+  const input=document.getElementById('menu-search');input.value='고추장';await input.fire('input');
+  const list=document.getElementById('menu-search-list');list.style={};
+  const rows=all(body).filter(node=>node.className==='search-menu-entry');assert.equal(rows.length,8);
+  const heights=[88,112,88,136,112,88,150,150];
+  rows.forEach((row,n)=>{row.getBoundingClientRect=()=>({height:heights[n]});});
+  assert.ok(frames.length);for(const frame of frames)frame();
+  assert.equal(list.style.maxHeight,'626px');
+ }finally{
+  if(previous)globalThis.requestAnimationFrame=previous;else delete globalThis.requestAnimationFrame;
+ }
 });
 
 test('검색 메뉴를 담으면 재료가 자동 추가되고 삭제 시 직접 선택 재료만 보존',async()=>{

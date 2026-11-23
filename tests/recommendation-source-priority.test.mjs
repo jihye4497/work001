@@ -21,6 +21,9 @@ test('식약처만 조건을 만족하면 그대로 추천하며 선택·제외�
  const categorized=recipes.map(r=>({...r,foodCategories:r.id.startsWith('public')?['한식 반찬']:['양식']}));
  assert.deepEqual(recommend(ingredients,categorized,{...base,selectedFoodCategories:['한식 반찬']}).map(r=>r.recipe.id),['public-best','public-more']);
 });
-test('전체 메뉴 이름 검색은 출처 우선순위를 적용하지 않고 이름순 유지',()=>{
- assert.deepEqual(searchMenus(recipes,'감자').map(r=>r.id),['creator-less','public-best']);
+test('전체 메뉴 검색도 식약처를 뒤에 두고 출처별 이름순·전체 검색 범위 유지',()=>{
+ const items=[recipe('public-first','가 고추장찌개',['0'],publicSource),recipe('creator-last','하 고추장찌개',['0'],creatorSource),recipe('creator-first','나 고추장찌개',['0'],creatorSource),recipe('public-last','호 고추장찌개',['0'],publicSource)];
+ assert.deepEqual(searchMenus(items,' 고추장 ').map(r=>r.id),['creator-first','creator-last','public-first','public-last']);
+ assert.deepEqual(searchMenus(items,'가 고추장').map(r=>r.id),['public-first']);
+ assert.deepEqual(searchMenus(items,''),[]);
 });

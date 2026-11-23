@@ -15,6 +15,7 @@
   --hero-space: 64px; --hero-title-size: 28px; --hero-title-line: 40px;
   --hero-number-size: 22px; --narrow-width: 640px;
   --search-max-height: 320px; --sidebar-width: 320px;
+  --menu-search-max-height: 640px;
   --dialog-width: 400px; --letter-spacing: 0px;
   --compact-title: 18px; --header-layer: 10; --manager-width: 720px;
   --compact-header: 48px; --manager-desktop-height: 85dvh;
@@ -170,14 +171,15 @@ details[open] > summary::before { content: '−'; }
 
 /* Search results */
 .search-results,.menu-search-list { max-height: var(--search-max-height); overflow-y: auto; border: var(--line) solid var(--divider); background: var(--surface); border-radius: var(--radius-control); margin-top: var(--s2); overscroll-behavior: contain; }
-.search-option,.menu-search-list > .search-menu-option { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: var(--s1) var(--s3); align-items: center; width: 100%; min-height: var(--touch); padding: var(--s3); text-align: left; border: 0; background: var(--surface); color: var(--text); border-radius: 0; cursor: pointer; }
+.search-option,.menu-search-list .search-menu-option { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: var(--s1) var(--s3); align-items: center; width: 100%; min-height: var(--touch); padding: var(--s3); text-align: left; border: 0; background: var(--surface); color: var(--text); border-radius: 0; cursor: pointer; }
+.search-menu-entry { display: flow-root; }
+.search-menu-entry + .search-menu-entry { border-top: var(--line) solid var(--divider); }
 .search-option + .search-option,.search-menu-option + .search-menu-option { border-top: var(--line) solid var(--divider); }
 .search-option:hover,.search-option[aria-selected=true],.search-menu-option:hover,.search-menu-option:focus-visible { background: var(--secondary); }
 .search-result-name { color: var(--text); font-size: var(--body-size); font-weight: var(--weight-button); }
 .search-result-status,.search-result-meta { color: var(--muted); font-size: var(--selected-basis-size); line-height: var(--selected-basis-line); font-weight: var(--weight-normal); }
 .search-result-status { white-space: nowrap; text-align: right; }
 .search-result-meta { grid-column: 1 / -1; }
-.search-list-heading { display: flex; align-items: center; justify-content: space-between; gap: var(--s2); padding: var(--s2) var(--s3); font-size: var(--selected-basis-size); border-bottom: var(--line) solid var(--divider); }
 .menu-search-list > p { padding: var(--s3); }
 
 /* Recommendations: secondary filters precede the menu cards. */
@@ -452,6 +454,13 @@ body[data-page=home] .landing-steps dd { margin-top: var(--s2); margin-bottom: v
 
 /* Menu search: total catalog size stays separate from the editable query. */
 .menu-search-field{position:relative;min-width:0}
-.recommendation-controls .menu-search-field{margin-bottom:var(--s4)}
+.menu-search-group{margin-bottom:var(--s4)}
+.menu-search-group .menu-search-list{max-height:var(--menu-search-max-height);margin-top:var(--s1);box-shadow:var(--shadow-soft)}
+.menu-search-list .search-menu-option{padding-block:var(--s2)}
 .menu-search-field input{width:100%;padding-right:calc(var(--s8) + var(--s4))}
-.menu-search-total{position:absolute;right:var(--s4);top:50%;transform:translateY(-50%);font-size:var(--selected-basis-size);color:var(--muted);pointer-events:none}
+.menu-search-tools{position:absolute;right:var(--s2);top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:var(--s1)}
+.menu-search-total{font-size:var(--selected-basis-size);color:var(--muted);pointer-events:none;margin-inline:var(--s2);white-space:nowrap}
+.menu-search-field:has(.menu-search-clear:not([hidden])) input{padding-right:calc(var(--s8) * 3)}
+.menu-search-clear{width:var(--picker-tab-height);min-height:var(--picker-tab-height);padding:0;border:0;background:transparent;color:var(--muted);font-size:var(--compact-title)}
+.menu-search-clear:hover{background:var(--secondary);color:var(--primary)}
+.menu-search-field input::-webkit-search-cancel-button{-webkit-appearance:none;appearance:none}

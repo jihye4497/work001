@@ -56,7 +56,7 @@ export function recommend(ingredients,recipes,draft,excludedRecipeIds=[],pantryI
 }
 export function searchMenus(recipes,query) {
   const q=query.trim().normalize('NFKC').toLocaleLowerCase('ko').replace(/\s/g,'');
-  return q?recipes.filter(r=>r.name.normalize('NFKC').toLocaleLowerCase('ko').replace(/\s/g,'').includes(q)).sort((a,b)=>a.name.localeCompare(b.name,'ko')):[];
+  return q?recipes.filter(r=>r.name.normalize('NFKC').toLocaleLowerCase('ko').replace(/\s/g,'').includes(q)).sort((a,b)=>sourcePriority(a)-sourcePriority(b)||a.name.localeCompare(b.name,'ko')||a.id.localeCompare(b.id)):[];
 }
 export function recipeAvailability(recipe,ingredients,pantryIds) {
   const byId=new Map(ingredients.map(i=>[i.id,i])),owned=[],buy=[];
