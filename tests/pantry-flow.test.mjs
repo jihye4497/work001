@@ -32,7 +32,7 @@ test('김치찌개 부위 대체는 실제 선택 부위로 합산하고 동일 
  assert.equal(totalText(rows.find(r=>r.ingredient.id==='neck')),'60g');
  assert.ok(!rows.some(r=>r.ingredient.id==='front'));
  assert.deepEqual(partitionShoppingRows(rows,['onion'],foods).map(g=>g.rows.map(r=>r.ingredient.id)),[['neck','salt'],['onion']]);
- assert.match(copyText(rows,[],['onion'],foods),/구매할 재료\n\[ \] 돼지고기 목살: 60g/);
+ assert.match(copyText(rows,[],['onion'],foods),/구매할 재료\n\[ \] 돼지고기\(목살\): 60g/);
  assert.deepEqual(recommend(foods,[stew],draft(['beef'])),[]);
  assert.deepEqual(recommend(foods,[stew],draft(['mince'])),[]);
  assert.deepEqual(recommend(foods,[dish('roast','수육',['front'])],draft(['neck'])),[]);

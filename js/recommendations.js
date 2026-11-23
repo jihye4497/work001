@@ -1,3 +1,5 @@
+import { ingredientDisplayName } from './ingredient-display-names.js';
+import { preparedPurchase } from './prepared-ingredients.js';
 import { matchIngredient, primaryIngredientIds, representativeIngredient } from './ingredient-matching.js';
 import { isCookingWater } from './ingredient-aliases.js';
 import { recipeSource } from './recipe-sources.js';
@@ -43,12 +45,12 @@ export function recommend(ingredients,recipes,draft,excludedRecipeIds=[],pantryI
       if(byId.get(id)?.isSeasoning && !isCookingWater(byId.get(id)) && ![...draft.selectedIngredientIds,...pantryIds].some(target=>matchIngredient(id,target,recipe,byId)>0)) extra.push(id);
     }
     const mains=assignments.filter(a=>primary.has(a.source)).map(a=>a.target),uniqueOwned=[...new Set(owned)];
-    const names=values=>values.map(id=>byId.get(id).name).join('·');
+    const names=values=>values.map(id=>ingredientDisplayName(preparedPurchase(recipe.ingredients.find(i=>i.ingredientId===id)||{ingredientId:id},recipe,byId)?.ingredient||byId.get(id))).join('·');
     result.push({recipe,matches:assignments.map(a=>a.target),mainMatches:mains,owned:uniqueOwned,shared:uniqueOwned,extra,replacements,
       substitutionCount:assignments.filter(a=>a.score===1).length,
       reasons:[mains.length?names(mains)+' 주재료 활용':names(assignments.map(a=>a.target))+' 재료 활용',
         '우리 집 재료 '+uniqueOwned.length+'종 활용 · '+(extra.length?'추가 구매 '+extra.length+'종':'추가 구매 없음'),
-        ...Object.entries(replacements).map(([from,to])=>byId.get(from).name+' → '+byId.get(to).name+' 활용')]});
+        ...Object.entries(replacements).map(([from,to])=>ingredientDisplayName(byId.get(from))+' → '+ingredientDisplayName(byId.get(to))+' 활용')]});
   }
   // Keep every eligible recipe; prefer other sources, then retain each mode's ordering.
   result.sort((a,b)=>sourcePriority(a.recipe)-sourcePriority(b.recipe)||(mode===MODES[0]?a.extra.length-b.extra.length||b.owned.length-a.owned.length||b.mainMatches.length-a.mainMatches.length:b.mainMatches.length-a.mainMatches.length||b.owned.length-a.owned.length||a.extra.length-b.extra.length)||a.substitutionCount-b.substitutionCount||a.recipe.name.localeCompare(b.recipe.name,'ko')||a.recipe.id.localeCompare(b.recipe.id));
@@ -61,8 +63,8 @@ export function searchMenus(recipes,query) {
 export function recipeAvailability(recipe,ingredients,pantryIds) {
   const byId=new Map(ingredients.map(i=>[i.id,i])),owned=[],buy=[];
   for(const id of new Set(recipe.ingredients.map(i=>i.ingredientId))) {
-    const ingredient=byId.get(id);if(!ingredient||ingredient.isSeasoning)continue;
-    (pantryIds.some(target=>matchIngredient(id,target,recipe,byId)>0)?owned:buy).push(ingredient.name);
+    const original=byId.get(id),ingredient=preparedPurchase(recipe.ingredients.find(i=>i.ingredientId===id),recipe,byId)?.ingredient||original;if(!ingredient||ingredient.isSeasoning)continue;
+    (pantryIds.some(target=>matchIngredient(id,target,recipe,byId)>0)?owned:buy).push(ingredientDisplayName(ingredient));
   }
   return {owned,buy};
 }

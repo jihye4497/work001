@@ -1,4 +1,5 @@
 import { ingredientKey, representativeIngredient } from './ingredient-matching.js';
+import { preparedPurchase } from './prepared-ingredients.js';
 
 // Keep deliberate choices separate from ingredients derived from chosen menus.
 export function syncMenuIngredients(draft, ingredients, recipes, pantryIds = []) {
@@ -15,7 +16,8 @@ export function syncMenuIngredients(draft, ingredients, recipes, pantryIds = [])
   for (const selection of draft.selectedRecipes) {
     for (const item of byRecipe.get(selection.recipeId)?.ingredients || []) {
       const id = selection.ingredientReplacements?.[item.ingredientId] || item.ingredientId;
-      const ingredient = representativeIngredient(byId.get(id),byId);
+      const prepared=preparedPurchase(item,byRecipe.get(selection.recipeId),byId,selection.ingredientReplacements?.[item.ingredientId]);
+      const ingredient = representativeIngredient(prepared?.ingredient||byId.get(id),byId);
       if (ingredient && !ingredient.isSeasoning && !owned.has(ingredientKey(ingredient)) && !draft.suppressedAutoIngredientIds.includes(ingredient.id)) auto.add(ingredient.id);
     }
   }

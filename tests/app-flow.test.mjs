@@ -47,6 +47,27 @@ const load=async (page,excludedIds=[],overrides={})=>{
   return {body,saved};
 };
 
+test('고기 선택 태그와 자동완성은 통일한 표시명을 사용하며 저장 ID 유지',async()=>{
+ const ingredients=JSON.parse(await readFile(new URL('../data/ingredients.json',import.meta.url),'utf8'));
+ const breast=ingredients.find(i=>i.name==='닭 가슴살'),duck=ingredients.find(i=>i.name==='오리로스');
+ const {body,saved}=await load('ingredients',[],{search:'?tab=pantry',pantry:[breast.id,duck.id]});
+ assert.ok(button(body,'닭고기(가슴살) ×'));assert.ok(button(body,'오리고기 ×'));
+ assert.ok(JSON.parse(saved.get('jmd_recipe_preferences_v1')).pantryIngredientIds.includes(breast.id));
+ const input=document.getElementById('pantry-search');input.value='닭고기(가슴살)';await input.fire('input');
+ assert.match(document.getElementById('pantry-results').textContent,/닭고기\(가슴살\)/);
+});
+
+test('장보기는 물전분을 전분으로 표시하고 멸치육수 대체 준비 안내를 노출',async()=>{
+ const recipes=JSON.parse(await readFile(new URL('../data/recipes.json',import.meta.url),'utf8'));
+ const r=recipes.find(r=>r.id==='mfds-cookrcp01-1015');
+ const {body}=await load('shopping-list',[],{draft:{schemaVersion:1,selectedIngredientIds:[],activeInterestIds:[],selectedRecipes:[{recipeId:r.id,times:1,servings:1}],activeRecommendationMode:'추가 구매 최소',checkedIngredientIds:[]}});
+ assert.match(body.textContent,/국멸치 또는 멸치 육수 코인/);
+ assert.match(body.textContent,/제품의 물 용량 기준/);
+ assert.match(body.textContent,/전분을 물에 풀어 사용/);
+ const names=all(body).filter(n=>n.className==='ingredient-name').map(n=>n.textContent);
+ assert.ok(names.some(n=>n==='전분'));assert.ok(!names.some(n=>/^(멸치 육수|물전분)$/.test(n)));
+});
+
 test('추천 화면의 다중 선택·담기·횟수 편집·제외와 실행 취소가 연결됨',async()=>{
   const {body,saved}=await load('recipes');
   assert.ok(find(body,x=>x.className.includes('recipe-card')));

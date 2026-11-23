@@ -1,4 +1,5 @@
 import { isIngredientAlias, isCookingWater } from './ingredient-aliases.js';
+import { preparedIngredientKind } from './prepared-ingredients.js';
 import { isPlainSaltVariant } from './ingredient-matching.js';
 import { isPreparationVariant } from './ingredient-preparations.js';
 export const BROWSE_CATEGORIES=['농산물','육·수산','기타','양념'];
@@ -15,7 +16,7 @@ const DAIRY=/우유|치즈|생크림|요거트|요구르트|연유|사워크림|
 const FRUIT=/사과|배$|귤|포도|딸기|바나나|복숭아|자두|참외|수박|멜론|메론|망고|키위|파인애플|블루베리|라즈베리|체리|오렌지|레몬|라임|석류|무화과|한라봉|유자|홍시|곶감|단감|아보카도/;
 const GRAINS=/쌀|현미|잡곡|찹쌀|멥쌀|보리|귀리|흑미|수수|기장|율무|퀴노아|검은콩|팥|녹두|병아리콩|강낭콩|완두콩|대두|렌틸콩|백태|서리태|견과|아몬드|땅콩|호두|잣|밤$/;
 const MEAT=/소고기|쇠고기|돼지|삼겹|닭|오리|양고기|한돈|돈육|돈민찌|우민찌|소등심|우목심|갈비|차돌|부챗살|족발|쇠간|곱창|사태/;
-const SEAFOOD=/새우|대하|새뱅이|꽃게|게살|오징어|낙지|주꾸미|쭈꾸미|문어|조개|관자|바지락|홍합|굴$|전복|꼬막|소라|가리비|멍게|해삼|이리|홍게|대게|랍스터|갑오징어|쭈꾸미/;
+const SEAFOOD=/새우|대하|새뱅이|꽃게|게살|오징어|낙지|주꾸미|쭈꾸미|문어|골뱅이|조개|관자|바지락|홍합|굴$|전복|꼬막|소라|가리비|멍게|해삼|이리|홍게|대게|랍스터|갑오징어|쭈꾸미/;
 const PRIORITY={
  '농산물':['양파','대파','감자','당근','마늘','애호박','청양고추','팽이버섯','양배추','오이','무','콩나물','시금치','표고버섯','쌀','사과','배','바나나'],
  '육·수산':['계란','돼지 앞다리살','소고기','닭 가슴살','새우','오징어','삼겹살','고등어','연어','꽃게','국멸치','바지락','김','미역','다시마','메추리알'],
@@ -48,7 +49,7 @@ export function ingredientBrowseGroup(ingredient) {
 export function browseCategory(ingredient) {return ingredientBrowseGroup(ingredient).category;}
 export function browseIngredients(ingredients,category,subcategory='전체') {
  const order=new Map((PRIORITY[category]||[]).map((name,index)=>[name,index]));
- return ingredients.filter(i=>!isCookingWater(i)&&!isIngredientAlias(i)&&!isPreparationVariant(i)&&!isPlainSaltVariant(i)&&i.name!=='소금물').filter(i=>{const g=ingredientBrowseGroup(i);return g.category===category&&(subcategory==='전체'||g.subcategory===subcategory);})
+ return ingredients.filter(i=>!isCookingWater(i)&&!preparedIngredientKind(i)&&!isIngredientAlias(i)&&!isPreparationVariant(i)&&!isPlainSaltVariant(i)&&i.name!=='소금물').filter(i=>{const g=ingredientBrowseGroup(i);return g.category===category&&(subcategory==='전체'||g.subcategory===subcategory);})
  .sort((a,b)=>(order.get(a.name)??999)-(order.get(b.name)??999)||a.name.localeCompare(b.name,'ko')||a.id.localeCompare(b.id));
 }
 export function koreaMonth(date=new Date()) {

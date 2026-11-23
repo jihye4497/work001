@@ -1,10 +1,11 @@
+import { ingredientDisplayName } from './ingredient-display-names.js';
 import { ingredientIcon } from './ingredient-icons.js';
 import { recipeSource } from './recipe-sources.js';
 import { BROWSE_CATEGORIES, BROWSE_SUBCATEGORIES, browseIngredients, seasonalIngredients } from './ingredient-browse.js';
 import { syncMenuIngredients } from './menu-ingredients.js';
 import { loadData, CATEGORIES, searchIngredients } from './ingredients.js';
 import { MODES, MODE_LABELS, MODE_DESCRIPTIONS, recommend, pageResults, searchMenus, recipeAvailability, replacementsFor } from './recommendations.js';
-import { aggregate, selectedServings, totalText, quantity, selectedCopyText, partitionShoppingRows } from './shopping-list.js';
+import { aggregate, selectedServings, totalText, quantity, selectedCopyText, partitionShoppingRows, preparationText } from './shopping-list.js';
 import { createStore } from './storage.js';
 import { el, button, link, empty } from './ui.js';
 import { servingLabel } from './servings.js';
@@ -60,7 +61,7 @@ function selectedPanel(compact = false) {
         el('div', {class:'selected-menu-label'}, [
           el('strong', {class:'selected-name'}, recipe.name),
           sourceLabel(recipe),
-          ...Object.entries(s.ingredientReplacements||{}).map(([from,to])=>el('span',{class:'muted selected-basis'},`${data.ingredients.find(i=>i.id===from)?.name} → ${data.ingredients.find(i=>i.id===to)?.name} 활용`))
+          ...Object.entries(s.ingredientReplacements||{}).map(([from,to])=>el('span',{class:'muted selected-basis'},`${ingredientDisplayName(data.ingredients.find(i=>i.id===from))} → ${ingredientDisplayName(data.ingredients.find(i=>i.id===to))} 활용`))
         ]),
         el('div', {class:'counter', role:'group', 'aria-label':`${recipe.name} 준비할 인분`}, [
           button('−',()=>changeTimes(s,-1,compact),'secondary square',{id:`minus-${s.recipeId}`,'aria-label':`${recipe.name} 인분 줄이기`}),
@@ -176,14 +177,14 @@ function ingredientPicker(pantry = false) {
     },sub===activeSubcategory?'secondary selected':'secondary',{id:`${prefix}-subcategory-${index}`,'aria-pressed':String(sub===activeSubcategory)})));
     selected.replaceChildren(...selectedIds().map(id => {
       const item = data.ingredients.find(i => i.id === id);
-      return button(`${item.name} ×`, () => { toggle(id); input.focus(); }, 'secondary selected', { 'aria-label': `${item.name} 선택 해제` });
+      return button(`${ingredientDisplayName(item)} ×`, () => { toggle(id); input.focus(); }, 'secondary selected', { 'aria-label': `${ingredientDisplayName(item)} 선택 해제` });
     }));
     if(selected.childNodes.length)selected.append(moreSelected);
     if (!selected.childNodes.length) selected.append(el('p', { class: 'muted' }, '선택한 재료가 없어요.'));
     const group=(activeCategory==='제철'?seasonal.items:browseIngredients(data.ingredients,activeCategory,activeSubcategory)).filter(i=>!selectedIds().includes(i.id));
     quick.replaceChildren(
       ...(activeCategory==='제철'?[el('p',{class:'seasonal-heading'},`${seasonal.month}월 제철 재료`)] : []),
-      el('div',{class:'chips'},group.slice(0,ingredientLimit).map(i=>button(`+ ${i.name}`,()=>{toggle(i.id);focus(`${prefix}-category-${browseTabs.indexOf(activeCategory)-1}`);},'secondary',{id:`${prefix}-quick-${i.id}`,'aria-pressed':'false'}))),
+      el('div',{class:'chips'},group.slice(0,ingredientLimit).map(i=>button(`+ ${ingredientDisplayName(i)}`,()=>{toggle(i.id);focus(`${prefix}-category-${browseTabs.indexOf(activeCategory)-1}`);},'secondary',{id:`${prefix}-quick-${i.id}`,'aria-pressed':'false'}))),
       ...(group.length>ingredientLimit?[button(`재료 더보기 (${group.length-ingredientLimit}개)`,()=>{ingredientLimit+=24;update();focus(`${prefix}-ingredient-more`);},'secondary list-more',{id:`${prefix}-ingredient-more`})]:[]),
       ...(!group.length?[el('p',{class:'muted picker-help'},activeCategory==='제철'&&!seasonal.items.length?'이달의 제철 자료를 준비하고 있어요. 전체 검색에서 재료를 골라 주세요.':'이 목록의 재료를 모두 선택했어요. 전체 검색에서 더 찾아보세요.')]:[]),
       ...(activeCategory==='제철'?seasonal.sources.map(source=>el('p',{class:'seasonal-source'},link(source.name,source.url))):[])
@@ -197,7 +198,7 @@ function ingredientPicker(pantry = false) {
     matches = searchIngredients(data.ingredients, input.value).slice(0, 30); active = -1;
     results.hidden = !input.value.trim();
     input.setAttribute('aria-expanded', String(!results.hidden)); input.removeAttribute('aria-activedescendant');
-    results.replaceChildren(...matches.map((item, index) => el('div', { id: `${prefix}-option-${index}`, role: 'option', 'aria-selected': 'false', class: 'search-option', onmousedown: event => event.preventDefault(), onclick: () => choose(item) }, [el('span', {class:'search-result-name'}, item.name), selectedIds().includes(item.id) ? el('span', {class:'search-result-status'}, '✓ 선택됨') : null])));
+    results.replaceChildren(...matches.map((item, index) => el('div', { id: `${prefix}-option-${index}`, role: 'option', 'aria-selected': 'false', class: 'search-option', onmousedown: event => event.preventDefault(), onclick: () => choose(item) }, [el('span', {class:'search-result-name'}, ingredientDisplayName(item)), selectedIds().includes(item.id) ? el('span', {class:'search-result-status'}, '✓ 선택됨') : null])));
     hint.textContent = input.value.trim() ? (matches.length ? `${matches.length}개까지 표시해요. 위아래 방향키로 고르고 Enter를 눌러 주세요.` : '등록된 재료가 없어요. 다른 이름으로 검색해 주세요.') : '';
   }
   input.addEventListener('input', search);
@@ -254,8 +255,8 @@ function addMenu(recipe, replacements = {}, fromSearch = false) {
   const dialog=el('dialog',{id:'add-menu-dialog',class:'add-menu-dialog','aria-labelledby':'add-menu-title','aria-describedby':'add-menu-materials'},[
     el('h2',{id:'add-menu-title'},`${recipe.name} 메뉴를 담으시겠습니까?`),
     el('div',{id:'add-menu-materials',class:'add-menu-materials'},[
-      newRows.length?el('p',{},[el('strong',{},'새로운 재료: '),newRows.map(row=>row.ingredient.name).join(', ')]):null,
-      interestRows.length?el('p',{},[el('strong',{},'장바구니 재료: '),interestRows.map(row=>row.ingredient.name).join(', ')]):null,
+      newRows.length?el('p',{},[el('strong',{},'새로운 재료: '),newRows.map(row=>ingredientDisplayName(row.ingredient)).join(', ')]):null,
+      interestRows.length?el('p',{},[el('strong',{},'장바구니 재료: '),interestRows.map(row=>ingredientDisplayName(row.ingredient)).join(', ')]):null,
       !purchasing.length?el('p',{},'우리 집 재료로 만들 수 있어요.'):null
     ]),
     el('div',{class:'actions'},[
@@ -291,7 +292,7 @@ function drawRecipes() {
   },'secondary interest-select-all',{id:'toggle-all-interests',disabled:!store.draft.activeInterestIds.length});
   const interestChips = el('div', {class: 'chips interest-chips', role: 'group', 'aria-label': '활용할 장바구니 재료'}, interests.map(i => {
     const checked = store.draft.activeInterestIds.includes(i.id);
-    return button(`${checked ? '✓ ' : ''}${i.name}`, () => {
+    return button(`${checked ? '✓ ' : ''}${ingredientDisplayName(i)}`, () => {
       store.draft.activeInterestIds = checked ? store.draft.activeInterestIds.filter(id=>id!==i.id) : [...store.draft.activeInterestIds,i.id];
       resetVisible();save();drawRecipes();focus(`interest-${i.id}`);
     }, checked ? 'secondary selected' : 'secondary', {id: `interest-${i.id}`, 'aria-pressed': String(checked)});
@@ -488,12 +489,12 @@ function drawShopping() {
   const excludedSection=excludedRows.length?el('details',{class:'shopping-category excluded-shopping',open:excludedShoppingOpen},[
     el('summary',{id:'excluded-shopping-summary'},`구매에서 제외한 재료 ${excludedRows.length}개`),
     ...excludedRows.map(row=>el('div',{class:'excluded-shopping-row'},[
-      el('span',{},row.ingredient.name),el('span',{class:'quantity'},totalText(row)),
+      el('span',{},ingredientDisplayName(row.ingredient)),el('span',{class:'quantity'},totalText(row)),
       button('복원',()=>{
         store.draft.excludedShoppingIngredientIds=excludedIds.filter(id=>id!==row.ingredient.id);
         store.draft.checkedIngredientIds=store.draft.checkedIngredientIds.filter(id=>id!==row.ingredient.id);
-        save();drawShopping();focus(`check-${row.ingredient.id}`);announce(`${row.ingredient.name} 재료를 복원했어요.`);
-      },'secondary',{'aria-label':`${row.ingredient.name} 구매 목록에 복원`})
+        save();drawShopping();focus(`check-${row.ingredient.id}`);announce(`${ingredientDisplayName(row.ingredient)} 재료를 복원했어요.`);
+      },'secondary',{'aria-label':`${ingredientDisplayName(row.ingredient)} 구매 목록에 복원`})
     ]))
   ]):null;
   excludedSection?.addEventListener('toggle',()=>{excludedShoppingOpen=excludedSection.open;});
@@ -501,20 +502,21 @@ function drawShopping() {
     if(!group.length&&title!=='구매할 재료')return null;
     const list=group.map(row=>{
       const id=row.ingredient.id, checked=store.draft.checkedIngredientIds.includes(id);
-      const check=el('input',{type:'checkbox',id:`check-${id}`,checked,'aria-label':`${row.ingredient.name} 선택`,onchange:event=>{
+      const check=el('input',{type:'checkbox',id:`check-${id}`,checked,'aria-label':`${ingredientDisplayName(row.ingredient)} 선택`,onchange:event=>{
         store.draft.checkedIngredientIds=event.target.checked?[...new Set([...store.draft.checkedIngredientIds,id])]:store.draft.checkedIngredientIds.filter(x=>x!==id);
         save();drawShopping();focus(`check-${id}`);
       }});
       const open=expandedIngredients.has(id);
       return el('div',{class:`shopping-row${checked?' is-checked':''}`},[
         el('div',{class:`shopping-main${title==='우리 집 재료'?' owned-main':''}`},[title==='우리 집 재료'?null:el('label',{class:'check-label',htmlFor:check.id},check),
-          button([el('span',{class:'ingredient-name'},[row.ingredient.name,row.ingredient.isSeasoning?el('span',{class:'seasoning-tag'},'양념'):null]),el('span',{class:'quantity'},totalText(row)),el('span',{'aria-hidden':'true'},open?'⌃':'⌄')],()=>{
+          button([el('span',{class:'ingredient-name'},[ingredientDisplayName(row.ingredient),row.ingredient.isSeasoning?el('span',{class:'seasoning-tag'},'양념'):null]),el('span',{class:'quantity'},totalText(row)),el('span',{'aria-hidden':'true'},open?'⌃':'⌄')],()=>{
             if(open)expandedIngredients.delete(id);else expandedIngredients.add(id);
             drawShopping();focus(`ingredient-detail-${id}`);
           },'ingredient-detail',{id:`ingredient-detail-${id}`,'aria-expanded':String(open),'aria-controls':`uses-${id}`})
         ]),
+        preparationText(row)?el('p',{class:'muted'},preparationText(row)):null,
         el('ul',{class:'uses',id:`uses-${id}`,hidden:!open},row.uses.map(use=>el('li',{},[
-          el('span',{class:'use-name'},use.name),use.originalIngredientName&&use.originalIngredientName!==row.ingredient.name?el('span',{class:'use-detail'},`· 원문: ${use.originalIngredientName}`):null,' ',el('span',{class:'use-detail'},`· ${use.servings*use.times}인분`),' ',el('span',{class:'use-detail'},`· ${quantity(use.amount,use.unit)}`)
+          el('span',{class:'use-name'},use.name),use.originalIngredientName&&use.originalIngredientName!==ingredientDisplayName(row.ingredient)?el('span',{class:'use-detail'},`· 원문: ${use.originalIngredientName}`):null,' ',el('span',{class:'use-detail'},`· ${use.servings*use.times}인분`),' ',el('span',{class:'use-detail'},`· ${quantity(use.amount,use.unit)}`)
         ])))
       ]);
     });

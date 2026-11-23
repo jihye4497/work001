@@ -37,11 +37,43 @@ test('자동 관심·보유·추천·합산은 대표 재료로 연결하며 단
 test('추가 승인 재료 분류·조리용 물 제외와 불린 상태 분리는 원문 수량을 보존',()=>{
  assert.deepEqual(ingredientBrowseGroup(get('보리새우')),{category:'육·수산',subcategory:'해산물'});
  assert.deepEqual(ingredientBrowseGroup(get('땅콩버터')),{category:'기타',subcategory:'가공식품'});
- for(const [a,b] of [['호두','볶은 호두'],['들깨가루','거피들깨가루'],['된장','미소된장'],['레몬','레몬껍질'],['레몬즙','레몬껍질']])assert.equal(matchIngredient(get(a).id,get(b).id,recipe(get(a)),byId),0);
+ for(const [a,b] of [['들깨가루','거피들깨가루'],['된장','미소된장'],['레몬','레몬껍질'],['레몬즙','레몬껍질']])assert.equal(matchIngredient(get(a).id,get(b).id,recipe(get(a)),byId),0);
  const water=get('건표고버섯 불릴 물');const r=recipe(water);
  const rows=aggregate(ingredients,[r],[{recipeId:r.id,times:1}],1);
  assert.equal(totalText(rows[0]),'10g');assert.equal(rows[0].uses[0].originalIngredientName,water.name);
  assert.equal(partitionShoppingRows(rows,[],ingredients)[0].rows.length,0);
  assert.equal(searchIngredients(ingredients,water.name).length,0);
  assert.equal(browseIngredients(ingredients,'양념').some(i=>i.id===water.id),false);
+});
+
+test('고기 표기를 합쳐도 축종·부위·뼈·양념·고춧가루 입자와 매운맛은 구분',()=>{
+ for(const [a,b] of [['닭다릿살','닭다리'],['닭다릿살','통닭다리'],['닭 가슴살','닭다릿살'],['닭 가슴살','조미닭가슴살'],['닭고기살','닭'],['닭고기살','닭 가슴살'],['다진 돼지고기','소고기 다짐육'],['다진 돼지고기','돼지목살다진것'],['다진 돼지고기','돼지 앞다리살'],['소고기 다짐육','다진 쇠고기 등심'],['고춧가루','고운 고춧가루'],['고춧가루','굵은 고춧가루'],['고춧가루','청양고춧가루'],['고춧가루','매운고춧가루']])assert.equal(matchIngredient(get(a).id,get(b).id,recipe(get(a)),byId),0,`${a}/${b}`);
+ const names=['다진 돼지고기','돈민찌','돈육(분쇄육)','돼지고기다진것'];
+ const r={id:'minced',name:'다짐육 요리',baseServings:1,ingredients:names.map((name,index)=>({ingredientId:get(name).id,amount:10*(index+1),unit:'g',note:`원문: ${name}`}))};
+ const before=JSON.stringify(r),rows=aggregate(ingredients,[r],[{recipeId:r.id,servings:1}],1);
+ assert.equal(rows.length,1);assert.equal(rows[0].ingredient.id,get('다진 돼지고기').id);assert.equal(totalText(rows[0]),'100g');assert.deepEqual(rows[0].uses.map(u=>u.originalIngredientName),names);assert.equal(JSON.stringify(r),before);
+ const map=new Map([[KEYS.preferences,JSON.stringify({schemaVersion:1,pantryIngredientIds:names.map(name=>get(name).id),excludedRecipeIds:[]})]]);
+ const store=createStore({getItem:k=>map.get(k)??null,setItem:(k,v)=>map.set(k,v)});store.reconcile(ingredients,[r]);assert.deepEqual(store.pantryIngredientIds,[get('다진 돼지고기').id]);
+ const draft={...defaultDraft(),selectedIngredientIds:[get('돈민찌').id],manualIngredientIds:[get('돈민찌').id],activeInterestIds:[get('돈민찌').id],selectedRecipes:[{recipeId:r.id,servings:1}]};syncMenuIngredients(draft,ingredients,[r]);assert.deepEqual(draft.selectedIngredientIds,[get('다진 돼지고기').id]);assert.equal(recommend(ingredients,[r],{...draft,selectedRecipes:[]}).length,1);
+});
+
+test('괄호·공백·쇠/소 검색은 같은 부위로 모으고 원문에 명시된 손질 고기 부위를 유지',()=>{
+ for(const [query,target] of [['쇠등심','소고기 등심'],['소등심','소고기 등심'],['소고기(등심)','소고기 등심'],['소고기양지','소고기 양지'],['소고기 ( 양지 )','소고기 양지'],['돼지고기삼겹살','삼겹살'],['훈제오리가슴살','훈제 오리'],['얇게 썬 쇠고기','부채살'],['채썬쇠고기','소고기 우둔살']])assert.ok(searchIngredients(ingredients,query).some(i=>i.id===get(target).id),query);
+ for(const [a,b] of [['부채살','소고기 우둔살'],['소고기 등심','돼지고기 등심'],['소고기 양지','소고기 사태'],['소고기','대패삼겹살'],['훈제 오리','오리고기'],['돼지고기 등심','등심얇게썬것']])assert.equal(matchIngredient(get(a).id,get(b).id,{name:'일반 요리'},byId),0,`${a}/${b}`);
+});
+
+test('띄어쓰기만 다른 별칭이 대표 재료까지 숨기지 않고 외래어·손질 표기를 통합',()=>{
+ for(const group of INGREDIENT_ALIAS_GROUPS){
+  const target=representativeIngredient(get(group.name),byId),category=ingredientBrowseGroup(target).category;
+  assert.ok(browseIngredients(ingredients,category).some(i=>i.id===target.id),group.name);
+ }
+ for(const [query,target] of [['건표고버섯','건 표고버섯'],['마른표고버섯','건 표고버섯'],['다진파','대파'],['카엔페퍼','카옌 페퍼'],['카엔패퍼','카옌 페퍼'],['케이엔페퍼','카옌 페퍼'],['키엔페퍼','카옌 페퍼'],['일본식고체형카레','고형 카레'],['고체카레','고형 카레']])assert.ok(searchIngredients(ingredients,query).some(i=>i.id===get(target).id),query);
+ for(const [a,b] of [['대파','쪽파'],['대파','실파'],['표고버섯','건 표고버섯'],['표고버섯가루','건 표고버섯'],['카레 가루','고형 카레'],['오레가노','오레가노마른것'],['사과','사과즙']])assert.equal(matchIngredient(get(a).id,get(b).id,{name:'테스트'},byId),0,`${a}/${b}`);
+});
+
+test('양념 오타·동의어는 모으고 입자·껍질·생건조·미기재 카레 형태는 추정하지 않음',()=>{
+ for(const [query,target] of [['와사미','고추냉이'],['와사비','고추냉이'],['통깨','참깨'],['커리 가루','카레 가루'],['코리엔더파우더','코리앤더가루'],['할라피뇨다진것','할라피뇨'],['통후추부순것','통후추'],['건월계수잎','월계수잎마른것'],['건오레가노','오레가노마른것']])assert.ok(searchIngredients(ingredients,query).some(i=>i.id===get(target).id),query);
+ for(const [a,b] of [['코리앤더 씨드','코리앤더가루'],['고수','코리앤더가루'],['통후추','후추가루'],['통후추','흰 후추'],['들깨가루','거피들깨가루'],['카레','카레 가루'],['카레 가루','고형 카레'],['월계수잎','월계수잎마른것'],['오레가노','오레가노마른것'],['할라피뇨','할라피뇨 피클']])assert.equal(matchIngredient(get(a).id,get(b).id,{name:'테스트'},byId),0,`${a}/${b}`);
+ const source=get('와사미'),r=recipe(source),before=JSON.stringify(r),rows=aggregate(ingredients,[r],[{recipeId:r.id,servings:1}],1);
+ assert.equal(rows[0].ingredient.id,get('고추냉이').id);assert.equal(rows[0].uses[0].originalIngredientName,'와사미');assert.equal(totalText(rows[0]),'10g');assert.equal(JSON.stringify(r),before);
 });

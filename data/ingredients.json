@@ -14777,5 +14777,61 @@
     "category": "채소·버섯",
     "isSeasoning": false,
     "isQuickPick": false
+  },
+  {
+    "id": "black-sesame-jelly",
+    "name": "검정깨묵",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "beef-sirloin",
+    "name": "소고기 등심",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "beef-tenderloin",
+    "name": "소고기 안심",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "beef-shank",
+    "name": "소고기 사태",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "beef-round",
+    "name": "소고기 우둔살",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "pork-shank",
+    "name": "돼지고기 사태",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "canned-whelk",
+    "name": "골뱅이 통조림",
+    "aliases": [],
+    "category": "육류·해산물",
+    "isSeasoning": false,
+    "isQuickPick": false
   }
 ]

@@ -1,8 +1,28 @@
 // Availability families only: preparation quantities are never converted to raw weight.
 const groups = [
+  {name:'참깨', forms:['볶은통깨']},
+  {name:'건 표고버섯', forms:['불린 표고버섯']},
+  {name:'사과즙', forms:['사과주스']},
+  {name:'오미자청', forms:['오미자액','오미자 액기스']},
+  {name:'매실청', forms:['매실액','매실엑기스','매실농축액','매실원액']},
+  {name:'산초', forms:['산초가루']},
+  {name:'감자', forms:['삶은 감자']},
+  {name:'검은콩', forms:['삶은 검은콩']},
+  {name:'완두콩', forms:['삶은 완두콩']},
+  {name:'콩나물', forms:['삶은 콩나물']},
+  {name:'옥수수', forms:['삶은 옥수수']},
+  {name:'스파게티', forms:['삶은 스파게티']},
+  {name:'메밀면', forms:['삶은 메밀면']},
+  {name:'시래기', forms:['삶은 시래기','데친 시래기','시래기불린것']},
+  {name:'돼지곱창', forms:['삶은 돼지곱창']},
+  {name:'무뼈 닭발', forms:['삶은 무뼈닭발']},
+  {name:'닭 가슴살', forms:['삶은 닭가슴살']},
   {name:'계란', forms:['삶은 달걀','달걀노른자','달걀지단','달걀흰자','달걀물','삶은 달걀 노른자','계란노른자','달걀 삶은것','계란프라이','삶은 계란','계란 지단','반숙 계란']},
   {name:'메추리알', forms:['삶은 메추리알']},
-  {name:'건미역', forms:['불린 미역']}
+  {name:'건미역', forms:['불린 미역']},
+  {name:'호두', forms:['볶은 호두','구운 호두']},
+  {name:'아몬드', forms:['아몬드 슬라이스','볶은 아몬드 슬라이스']},
+  {name:'곤약미', forms:['불린 곤약쌀']}
 ];
 const compact = name => name?.normalize('NFKC').replace(/\s/g,'');
 const families = new Map(groups.flatMap(group => [group.name,...group.forms].map(name => [compact(name),group.name])));

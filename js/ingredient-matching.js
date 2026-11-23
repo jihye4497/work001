@@ -1,5 +1,6 @@
 import { canonicalIngredientName } from './ingredient-aliases.js';
 import { preparationFamilyName } from './ingredient-preparations.js';
+import { preparedSubstitution, preparedIngredientKind } from './prepared-ingredients.js';
 // Preparation notes do not define a different salt product. Salt water is intentionally separate.
 export function isPlainSaltVariant(ingredient) {
   return /^소금\((?:데치는용|쓴맛제거용)\)$/.test(ingredient?.name?.replace(/\s/g,'')||'');
@@ -8,7 +9,7 @@ const nameIndexes=new WeakMap();
 export function representativeIngredient(ingredient,byId) {
   if(isPlainSaltVariant(ingredient))return byId.get('salt')||ingredient;
   const canonical=canonicalIngredientName(ingredient);
-  const name=preparationFamilyName(ingredient)||preparationFamilyName({name:canonical})||canonical;
+  const name=preparationFamilyName(ingredient)||preparationFamilyName({name:canonical})||canonical||(preparedIngredientKind(ingredient)==='starch'?'전분':null);
   if(!name)return ingredient;
   if(!nameIndexes.has(byId))nameIndexes.set(byId,new Map([...byId.values()].map(item=>[item.name,item])));
   return nameIndexes.get(byId).get(name)||ingredient;
@@ -28,6 +29,7 @@ export function ingredientKey(ingredient) {
 }
 export function matchIngredient(sourceId,targetId,recipe,byId) {
   if(sourceId===targetId)return 2;
+  if(preparedSubstitution(byId.get(sourceId),byId.get(targetId)))return 1;
   const a=ingredientKey(byId.get(sourceId)),b=ingredientKey(byId.get(targetId));
   if(a&&a===b)return 2;
   const cuts=new Set(['돼지:앞다리','돼지:목살','돼지:삼겹살']);
