@@ -4,20 +4,21 @@
   "playlistUrl": "https://www.youtube.com/playlist?list=PLoABXt5mipg6mIdGKBuJlv5tmQFAQ3OYr",
   "publicVideoCount": 380,
   "completePublicTraversal": true,
-  "scope": "공개 영상 목록의 대조 완료를 의미하며, 모든 영상의 레시피 등록 완료를 뜻하지 않음. 한 영상의 여러 대체 조리법은 검수한 대표 버전으로 등록.",
+  "scope": "공개 영상 목록의 대조 완료를 의미하며, 모든 영상의 레시피 등록 완료를 뜻하지 않음. 쇼츠는 제외하고 한 영상의 여러 대체 조리법은 검수한 대표 버전으로 등록.",
   "counts": {
     "existing": 160,
     "added": 135,
-    "pending": 85
+    "pending": 81,
+    "excluded-short": 4
   },
   "entries": [
     {
       "videoId": "UPv4_6jEOfw",
       "sourceTitle": "쌀쌀한 가을에 당면만둣국 한 그릇",
       "sourceUrl": "https://www.youtube.com/watch?v=UPv4_6jEOfw",
-      "status": "pending",
-      "reason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "status": "excluded-short",
+      "videoFormat": "short",
+      "reason": "채널 Shorts 목록에서 확인. 사용자 요청에 따라 수집·레시피 등록 대상에서 제외."
     },
     {
       "videoId": "bFX5lJgCPBQ",
@@ -39,9 +40,9 @@
       "videoId": "vr1CkOr9Huw",
       "sourceTitle": "초간단 \"무\"밥 이렇게 드세요",
       "sourceUrl": "https://www.youtube.com/watch?v=vr1CkOr9Huw",
-      "status": "pending",
-      "reason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "status": "excluded-short",
+      "videoFormat": "short",
+      "reason": "채널 Shorts 목록에서 확인. 사용자 요청에 따라 수집·레시피 등록 대상에서 제외."
     },
     {
       "videoId": "Da-yWFw5T3U",
@@ -55,9 +56,9 @@
       "videoId": "eKw9vkBKDB0",
       "sourceTitle": "버터 한 조각으로 끝내는 버터간장국수",
       "sourceUrl": "https://www.youtube.com/watch?v=eKw9vkBKDB0",
-      "status": "pending",
-      "reason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "status": "excluded-short",
+      "videoFormat": "short",
+      "reason": "채널 Shorts 목록에서 확인. 사용자 요청에 따라 수집·레시피 등록 대상에서 제외."
     },
     {
       "videoId": "TFcNckg-1bQ",
@@ -71,9 +72,9 @@
       "videoId": "pQb5r01FXeY",
       "sourceTitle": "비와도 먹고 더워도 먹습니다.",
       "sourceUrl": "https://www.youtube.com/watch?v=pQb5r01FXeY",
-      "status": "pending",
-      "reason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "status": "excluded-short",
+      "videoFormat": "short",
+      "reason": "채널 Shorts 목록에서 확인. 사용자 요청에 따라 수집·레시피 등록 대상에서 제외."
     },
     {
       "videoId": "llZ1ii59BVs",

@@ -2,6 +2,7 @@ import {readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 import {validateData} from '../js/ingredients.js';
+import {assertNotShortVideo} from './paik-source-policy.mjs';
 const batch=process.argv.includes('--batch=remaining')?'remaining':process.argv.includes('--batch=03')?'03':process.argv.includes('--batch=02')?'02':'50';
 const {batch50,groupPolicy,intermediateRows,canonicalOverrides={},definitions:extraDefinitions=[],lineOverrides={},prepareText=e=>e.ingredientText}=await import(`./paik-batch-${batch}-policy.mjs`);
 const read=async p=>JSON.parse(await readFile(new URL('../'+p,import.meta.url),'utf8'));
@@ -77,6 +78,7 @@ else assert.equal(batch50.length,50);
 assert.equal(new Set(batch50.map(r=>r[0])).size,batch50.length);
 for(const [videoId,name,baseServings,cookingType,category,range] of batch50){
  const entry=review.entries.find(e=>e.videoId===videoId);assert.ok(entry?.ingredientText,videoId);
+ assertNotShortVideo(videoId,entry.sourceUrl);
  assert.equal(entry.channelId,'UCyn-K7rZLXjGl7VXGweIlcA');
  const hash=createHash('sha256').update(entry.ingredientText).digest('hex');if(entry.ingredientHash)assert.equal(entry.ingredientHash,hash);
  entry.ingredientHash=hash;

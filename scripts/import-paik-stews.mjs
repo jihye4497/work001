@@ -2,6 +2,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import { validateData } from '../js/ingredients.js';
+import {assertNotShortVideo} from './paik-source-policy.mjs';
 const read = async path => JSON.parse(await readFile(new URL(`../${path}`,import.meta.url),'utf8'));
 const write = (path,value) => writeFile(new URL(`../${path}`,import.meta.url),JSON.stringify(value,null,2)+'\n');
 const review=await read('data/source/paik-stews-review.json');
@@ -32,6 +33,7 @@ for(const [id,name,category,aliases] of additions){
  ingredients.push({id,name,aliases,category,isSeasoning:false,isQuickPick:false});
 }
 for(const entry of review.entries){
+ assertNotShortVideo(entry.videoId,entry.sourceUrl);
  const [name,baseServings,servingsEvidence,names]=policy[entry.videoId];
  assert.equal(entry.channelId,'UCyn-K7rZLXjGl7VXGweIlcA');
  const lines=entry.ingredientText.split(/\r?\n/).map(x=>x.trim()).filter(x=>x&&!x.startsWith('*')&&!x.startsWith('['));

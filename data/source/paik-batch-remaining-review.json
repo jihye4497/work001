@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "playlistUrl": "https://www.youtube.com/playlist?list=PLoABXt5mipg6mIdGKBuJlv5tmQFAQ3OYr",
-  "note": "남은 공개 재생목록 전체 대조. 검수 가능한 레시피를 일괄 등록하고 원재료 분해 불명확·원문 확인 실패 항목은 보류. 사진·조리 문장 미사용.",
+  "note": "남은 공개 재생목록 전체 대조. 쇼츠는 등록 대상에서 제외하고, 원재료 분해 불명확·원문 확인 실패 항목만 보류. 사진·조리 문장 미사용.",
   "entries": [
     {
       "videoId": "BH07T3aJFrw",
@@ -17520,13 +17520,6 @@
   ],
   "held": [
     {
-      "videoId": "UPv4_6jEOfw",
-      "sourceTitle": "쌀쌀한 가을에 당면만둣국 한 그릇",
-      "sourceUrl": "https://www.youtube.com/watch?v=UPv4_6jEOfw",
-      "reason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
-    },
-    {
       "videoId": "bFX5lJgCPBQ",
       "sourceTitle": "쌀쌀한 가을에 당면만둣국 한 그릇",
       "sourceUrl": "https://www.youtube.com/watch?v=bFX5lJgCPBQ",
@@ -17541,13 +17534,6 @@
       "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
     },
     {
-      "videoId": "vr1CkOr9Huw",
-      "sourceTitle": "초간단 \"무\"밥 이렇게 드세요",
-      "sourceUrl": "https://www.youtube.com/watch?v=vr1CkOr9Huw",
-      "reason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
-    },
-    {
       "videoId": "Da-yWFw5T3U",
       "sourceTitle": "이게 왜 맛있지?",
       "sourceUrl": "https://www.youtube.com/watch?v=Da-yWFw5T3U",
@@ -17555,23 +17541,9 @@
       "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
     },
     {
-      "videoId": "eKw9vkBKDB0",
-      "sourceTitle": "버터 한 조각으로 끝내는 버터간장국수",
-      "sourceUrl": "https://www.youtube.com/watch?v=eKw9vkBKDB0",
-      "reason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
-    },
-    {
       "videoId": "TFcNckg-1bQ",
       "sourceTitle": "느낌 좋아~ 느좋 고추장찌개",
       "sourceUrl": "https://www.youtube.com/watch?v=TFcNckg-1bQ",
-      "reason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
-    },
-    {
-      "videoId": "pQb5r01FXeY",
-      "sourceTitle": "비와도 먹고 더워도 먹습니다.",
-      "sourceUrl": "https://www.youtube.com/watch?v=pQb5r01FXeY",
       "reason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
       "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
     },
@@ -18080,6 +18052,36 @@
       "sourceTitle": "이것이 업소 스케일! 백종원의 대용량 레시피 첫 번째, 제육볶음 100인분 만들기 l 백종원의 대용량 레시피",
       "sourceUrl": "https://www.youtube.com/watch?v=thXIVUt9PBU",
       "reason": "100인분 제육볶음의 별도 조리용 기름·참깨 분량이 한 팬 기준인지 확인 대기"
+    }
+  ],
+  "excludedShorts": [
+    {
+      "videoId": "UPv4_6jEOfw",
+      "sourceTitle": "쌀쌀한 가을에 당면만둣국 한 그릇",
+      "sourceUrl": "https://www.youtube.com/watch?v=UPv4_6jEOfw",
+      "videoFormat": "short",
+      "reason": "채널 Shorts 목록에서 확인. 사용자 요청에 따라 수집·레시피 등록 대상에서 제외."
+    },
+    {
+      "videoId": "vr1CkOr9Huw",
+      "sourceTitle": "초간단 \"무\"밥 이렇게 드세요",
+      "sourceUrl": "https://www.youtube.com/watch?v=vr1CkOr9Huw",
+      "videoFormat": "short",
+      "reason": "채널 Shorts 목록에서 확인. 사용자 요청에 따라 수집·레시피 등록 대상에서 제외."
+    },
+    {
+      "videoId": "eKw9vkBKDB0",
+      "sourceTitle": "버터 한 조각으로 끝내는 버터간장국수",
+      "sourceUrl": "https://www.youtube.com/watch?v=eKw9vkBKDB0",
+      "videoFormat": "short",
+      "reason": "채널 Shorts 목록에서 확인. 사용자 요청에 따라 수집·레시피 등록 대상에서 제외."
+    },
+    {
+      "videoId": "pQb5r01FXeY",
+      "sourceTitle": "비와도 먹고 더워도 먹습니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=pQb5r01FXeY",
+      "videoFormat": "short",
+      "reason": "채널 Shorts 목록에서 확인. 사용자 요청에 따라 수집·레시피 등록 대상에서 제외."
     }
   ]
 }

@@ -1,0 +1,1911 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-23",
+  "sourceUrl": "https://www.youtube.com/@paik_jongwon/shorts",
+  "channelId": "UCyn-K7rZLXjGl7VXGweIlcA",
+  "completeShortsTraversal": true,
+  "publicShortsCount": 153,
+  "policy": "확인된 쇼츠는 수집·등록 대상에서 제외. Shorts 목록 미발견은 영상 길이에 따른 롱폼 확정을 의미하지 않음.",
+  "entries": [
+    {
+      "videoId": "UPv4_6jEOfw",
+      "videoFormat": "short",
+      "evidence": "채널 Shorts 탭의 shortsLockupViewModel/reelWatchEndpoint에 표시됨"
+    },
+    {
+      "videoId": "bFX5lJgCPBQ",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "4RnCNlE1b6U",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "vr1CkOr9Huw",
+      "videoFormat": "short",
+      "evidence": "채널 Shorts 탭의 shortsLockupViewModel/reelWatchEndpoint에 표시됨"
+    },
+    {
+      "videoId": "Da-yWFw5T3U",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "eKw9vkBKDB0",
+      "videoFormat": "short",
+      "evidence": "채널 Shorts 탭의 shortsLockupViewModel/reelWatchEndpoint에 표시됨"
+    },
+    {
+      "videoId": "TFcNckg-1bQ",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "pQb5r01FXeY",
+      "videoFormat": "short",
+      "evidence": "채널 Shorts 탭의 shortsLockupViewModel/reelWatchEndpoint에 표시됨"
+    },
+    {
+      "videoId": "llZ1ii59BVs",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "wk8FkdJ8hm0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "5e5fp21dqWA",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "BH07T3aJFrw",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "-8qL_l94cJ8",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "K6JzM14Eb0s",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "NEvFwzLsn6M",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "-yCwkUS0ECE",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "60anIrLje-E",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "l3-pOzj3c6g",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "vjWddRRR58M",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "5-a5CPASYBc",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "SqsX495Zie4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "RuEyl_cMMns",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "KbWtIU129hw",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "7NAnzqvOhaY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "nPRKSxlh0rQ",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "cUQzxhmYdGs",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "tymvzikfesI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "MaiWn55K1aE",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "JZlMEBj7P2M",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "-KTb3zivHXk",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "_-4nakEwN0s",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "utIbM9Iua-k",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "hg31ssLQWUk",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "Jq2SwKMw8vI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "qioLJwafP8I",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "qSqX_D_HfYY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "EhTxL1sWnMI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "nQaR6cwSmQk",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "wTtHP5qFOio",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "WT9tCViPddU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "-A0iP6Uzy3A",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "hX3httwbzAQ",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "ysCrvaErHKE",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "ceSuK8MVEb4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "7VNH9Fvvus0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "p6r5xcrG6u0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "_MhD25Ip3bc",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "jN6rB-bUQXM",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "WGqcdDem0Vg",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "ieD0Rqfyjx4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "qO5p0_6K-bo",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "J4qwXDjduQw",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "1F4soB3rlMI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "78AQ-ten9lE",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "py6778lywEg",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "01snsHZK6Ns",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "87zznFb0-us",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "LojVJnvLb30",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "JvuV9aAh7VY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "w9ML-v8OG1Y",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "SILoOGBiAyA",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "-MvfUUPB5-Y",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "Zkxiydlmplw",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "YLd78Yqoy9I",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "JrTVWvj8uhs",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "fpqJOFMfhmk",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "RmZyxKOUbfs",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "-Imo0xgUQG0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "e--h7ax_6pQ",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "uu8BqXy6lf4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "Mfnwc1dc0MY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "SeUG8iRDE_g",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "rLDquEv-ZJg",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "p7HGmwiuuvE",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "6lcrq5D_63o",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "u1m21zlfVLo",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "ZE3X6f6E3Ss",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "2PZtNTWjotU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "amKnBhgVcfg",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "o3aLEbn2n5Y",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "QxWyQ7hsy00",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "dQnjf9ouGgk",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "9Wvd9VL0OpM",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "u8s0XK5WXuw",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "sGVLNhPf8RM",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "0wqp-Ii5wQM",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "MpWWEiU9rKg",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "YEG1UYY_1E4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "oFiRqNH2BaI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "lDr6lNjUZ8w",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "mZ2C8gEw8Vk",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "Js2p5JPj3XQ",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "MTF3kcG6mmI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "tCe6B6U8wHw",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "Z5-6wbdbgA4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "B2s5seuBCn0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "9ljJ2Ybkaho",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "N0imcLgooRI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "gVw9OXujilo",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "UEfoOmupTG8",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "b2AXKI76rKI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "8-Aad1W4Mq0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "1T4R8zNe1yA",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "JxWbJX-UNwY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "fVKaR66n9B4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "3gQwydGHIG8",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "FdL13qXf4MA",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "JzyYs3lV2Gs",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "oUvPWwmvoPM",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "C_PYoYG1fWY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "1hZU9_OLcDU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "1Lc70M38LTk",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "RH73tQvg33g",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "tRf3oA4J1ok",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "MCYhvB4q4r4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "qVtqpAfJNb4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "NtsoIQQXGsA",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "CS2s_N37qjM",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "LwHQ_LE4b9I",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "kMksKRBOpiA",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "EUdt9GjWj5c",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "hJKvBg66Gf0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "XtFqi5J2KqI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "FbApByZGCXg",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "037o6vxm0es",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "IgTaHfnAbic",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "M_G9MGGQdbs",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "SYaYH8bh4QY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "4LoyQQq2pgA",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "M_69x0-_GkE",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "6hLnQ5c03L8",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "4QwUVgVoMSE",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "5UVURwno_jA",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "qWI4b7BL2eA",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "LTVxirHWvh8",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "ulXcb04zLiI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "UlsvKb-Bafs",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "mjLPNh11_xs",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "Gq9S0dJ3wHg",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "hEJzz_y63Gw",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "fwlztjjWfUo",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "8uwmFQH614M",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "gJDxWPoMHgo",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "X8VEvBHHOjQ",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "_m_HiEJukX4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "mo8ogr40m4o",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "rqbhm9hpvp8",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "Bt0PPGfItZw",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "SBKRrJRCFu8",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "aGpsvAb8GyY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "JBgLd7TqB7U",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "2T7BfP1sx9g",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "wM9hbmwCpdc",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "wezbeu4-C2s",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "12e93a8T2nU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "VTnPfw9h-3k",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "kD9Qg139l9g",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "ohihzV6Z85k",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "F5gdgqc5bgU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "rTAWqq4I3JA",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "7cCAlN06WPc",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "wPxuQdfYErk",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "iO0xX0AyS8M",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "wyCV_de0CDY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "rGAt5QS2ueU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "ojDFWk3lqCg",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "_TGhAtAqrLk",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "dUANwQmPhU4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "Om6W3JBfmFU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "IO6AeSPfJ0Y",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "-dBPLgpC-tk",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "XV-78G9WngQ",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "0CL9U_Se8Gs",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "VaL3QgKLRxc",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "N82hJpl5cMM",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "G25SAhShmQw",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "nVzwOOJLt24",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "LRsdD2Gz6lQ",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "CVtdTM6gJTY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "_PqfXhZGuBI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "-_q9oyOToxs",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "OSYQHa-vbVU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "eAbOOz5KMG0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "v32NjYn5pSc",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "_qnLV46GSr4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "f0hg6R84f78",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "jN_inaLf9Zo",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "0bnFoRQebq0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "iGhOobaQHso",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "dxuntkET42M",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "CQZyh-OszCo",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "vcb0uw4HIJA",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "UArNVpF7PIY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "9YlFFVisCBY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "3p4xH_IZhH4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "VNw-hUTboNs",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "2y4Jvvmj7LY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "HwtpISNf3wU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "qWbHSOplcvY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "ak5PBQQfPVI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "3-xgRrEX-sQ",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "6e-IbuuD6ZU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "qI1LRerUWXQ",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "wAktJuv7REY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "kpeQCq4mIXs",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "4SEy2py0W_w",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "M8RXmDJ3W-s",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "R0xWJ4c8wR4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "PjQfWuNHZlo",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "guc9-PYM7ak",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "WFa47RUcZYM",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "kzYgtXDcGQ4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "zfMHTfJ3Ih0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "bZWlQXGywRc",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "xexAbSUQzSw",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "yI67M3IS4GI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "47OIcvpqxlo",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "eZzBMCZYEfc",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "eeiqjyYgPew",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "rpMGKoF4vnU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "Eino3yP-Wk0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "iWWQBoS3SL4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "nFCahVPrnD0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "iij0bMkadEw",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "YXMxnHx7yZQ",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "nj-DjQFEZb0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "zS_o6psOt9g",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "JKZqaFpJHn0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "QFTBQF5l0Ro",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "du9q1BldDHU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "FN02e4DYvpA",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "1smKGJS_9p0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "T7YJviWhquo",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "jBdQ65yHB_U",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "9OYciHKmgus",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "kj2ZupQ7fts",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "AlK2Gl6kHZI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "aXJgN_JjYDg",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "_O4tvQtZDiU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "-bewV9LQ_JU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "7S9VN54ldnU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "rgKIUQgzhbs",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "NvoCWyO0Vfg",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "6AmBDFIJRE8",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "__EQyG0qFuE",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "xNUvkgONOOM",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "XKohdaL45K8",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "4WEhZLQ37Fk",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "lH360TWUjSU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "j7s9VRsrm9o",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "sRQxVQ5-NNA",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "iNh_bXmYfgw",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "IGikNAE92Ls",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "b0VqL4-dSPM",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "sw2YbfPbHk0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "Xhv99PA2OEI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "lqCzPHUu-3E",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "FQPtD59Imqo",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "TKFpBXl2w-A",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "wDVYtePSF_Q",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "pTvMsM2v1tg",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "JV5pUbCiy1s",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "8l9H8FlhiOo",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "wfm951HEpGU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "bLprteo75gY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "XU5Jv4e7DKw",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "eIo2BaE6LxI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "81gLJ5kRu4Y",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "xsTFsunt6-8",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "RVfSeUZ8XkY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "4TnaTTg1R_Q",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "IasQ3XURCTI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "xecKUiZBCtM",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "_l_cJyxNkhc",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "zRg4nxIv3j8",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "FnihBW52Ux8",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "ffuakdFmuh4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "3OwIXlvjjyk",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "NNZ5jI_RQjI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "nAfB4wPN0f4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "hEBT2uGjy6o",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "G2kylWhMw5s",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "5iRPP3nqCJE",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "HIz6eyE80V4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "zikhPxKgyJI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "7ThPQ-Wiw0Q",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "h7NFHq9QeeU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "HSPOnMZNoY4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "t4Es8mwdYlE",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "udirCMIxs_c",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "F3C8-uEMixU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "WneiVYnZgHo",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "kfGi3rTct8c",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "2sUjx8PE_vg",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "JmiW-dD1RqM",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "At-u3lwsFtk",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "2vrJR3ZpRf0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "37-BCf85bHk",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "tD8ApzPsDx8",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "fEYJSPSGaLI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "GpEiUb20IFo",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "HIma0ha9F-I",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "j9NXZh0gX3w",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "dKD_C-1XklE",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "HChukhwE1do",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "SZp5fTHZnmc",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "t63aSsdvZKs",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "GsnwEVsotdU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "wpUsg7f-F4o",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "vG07DHeNH9c",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "3XYDL0oV9HQ",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "j0-_vTbLALM",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "bMLfohWNsvQ",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "FI6iypOkNUg",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "gUYeEasWU58",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "2HZO-YNHFPk",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "3Sokx1SQHR0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "cnWyo34CPUY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "K55CPyYTUJI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "5eQ1rf642QI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "BqxpjY7TJ8g",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "Lz0tPtrMQmQ",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "jeBMJGNgZ34",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "KoBx7EEBohM",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "bvH5jROsmG4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "S9MQlzjgf7k",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "10fl2mebYHs",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "z-XcuZL80Lc",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "iIL1QMXCoDM",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "NGjk_1KQGmI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "kR77WlHRZrs",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "dXN1dlsYdJI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "jVH2k4yNi4o",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "fdW2duLTBLU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "1vfJqpklDSI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "C3W_z8TTCDw",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "fD4wD3GTJq4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "6jCf19GzNcY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "HI8DlDs1gko",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "OgMi1KTPzJY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "rrNfCVRFsvs",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "DNj3YiaP42s",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "PjMWHZ3ubsQ",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "7anwbJ0ZEyA",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "tHkbJgBUaiI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "uB37XeU5SwM",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "fk0-PSrOMo4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "p3IQTouKyH0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "9J_tqZrDSng",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "QnyzZ_8Kog8",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "rCRzFUscqD0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "AdHOym7nqo0",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "GP8_7D5eM6A",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "lD53g8VjQnU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "ny9XkQbN6sI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "-EwR5eshbPE",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "no3K4M0PqRY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "MqdncXPR0lY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "5wMxMwv1-Xs",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "cNfbDK9vIFI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "YISYMu2Txp4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "RTj2_VKVSBI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "0FEOvSKPVwU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "cTayVZxM0nw",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "R6IT_f0XPT8",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "7Ez066LV76U",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "4zU_09N3QrI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "sen4L0zVlpA",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "5uWt6U1Re5Q",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "C2GGN4yEphk",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "-3y_AR7zYXM",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "GlQZFTUeRoI",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "uAShnbgCLSU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "0hYm1QOJZeo",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "0q0btGvIrWY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "_H64Kz7Mgz4",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "QPjfwubAvso",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "DnQ09ZZCjCs",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "thXIVUt9PBU",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    },
+    {
+      "videoId": "wDXCxlcr3hY",
+      "videoFormat": "not-listed-as-short",
+      "evidence": "완전히 대조한 공개 Shorts 목록에서 미발견. 길이만으로 쇼츠/롱폼을 판정하지 않음"
+    }
+  ]
+}

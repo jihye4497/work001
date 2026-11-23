@@ -64,10 +64,10 @@ test('public playlist coverage accounts for every source video without publishin
  assert.equal(entries.length,candidates.entries.length);
  assert.equal(new Set(entries.map(e=>e.videoId)).size,entries.length);
  assert.deepEqual(new Set(entries.map(e=>e.videoId)),new Set(candidates.entries.map(e=>e.videoId)));
- const statuses=['existing','added','pending'];
+ const statuses=['existing','added','pending','excluded-short'];
  assert.equal(statuses.reduce((sum,s)=>sum+entries.filter(e=>e.status===s).length,0),entries.length);
  for(const e of entries){
-  if(e.status==='pending')assert.equal(get(e.videoId),undefined,e.videoId);
+  if(['pending','excluded-short'].includes(e.status))assert.equal(get(e.videoId),undefined,e.videoId);
   else assert.ok(get(e.videoId),e.videoId);
  }
  assert.deepEqual(new Set(entries.filter(e=>e.status==='added').map(e=>e.videoId)),new Set(batch50.map(r=>r[0])));
