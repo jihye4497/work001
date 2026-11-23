@@ -54,7 +54,7 @@ test('registration guards reject confirmed Shorts even through watch URLs and re
 test('coverage distinguishes excluded Shorts from pending recipes without losing any public playlist entry',async()=>{
  const coverage=await read('data/source/paik-playlist-coverage.json');
  const review=await read('data/source/paik-batch-remaining-review.json');
- const statuses=['existing','added','pending','excluded-short'];
+ const statuses=['existing','added','pending','excluded-short','excluded-user','excluded-policy'];
  assert.equal(coverage.entries.length,candidates.entries.length);
  assert.deepEqual(new Set(coverage.entries.map(e=>e.videoId)),new Set(candidates.entries.map(e=>e.videoId)));
  assert.equal(statuses.reduce((sum,status)=>sum+coverage.counts[status],0),coverage.entries.length);
@@ -64,6 +64,9 @@ test('coverage distinguishes excluded Shorts from pending recipes without losing
  assert.deepEqual(new Set(review.excludedShorts.map(e=>e.videoId)),new Set(shortIds));
  assert.ok(review.held.every(e=>!shortIds.includes(e.videoId)));
  assert.ok(review.entries.every(e=>!shortIds.includes(e.videoId)));
+ const userExcluded=coverage.entries.filter(e=>e.status==='excluded-user');
+ assert.deepEqual(new Set(review.excludedByUser.map(e=>e.videoId)),new Set(userExcluded.map(e=>e.videoId)));
+ for(const e of userExcluded){assert.ok(e.reason);assert.equal(e.recipeId,undefined);assert.ok(!review.held.some(x=>x.videoId===e.videoId));}
  for(const e of excluded){
   assert.ok(e.reason,e.videoId);
   assert.equal(e.recipeId,undefined,e.videoId);

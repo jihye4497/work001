@@ -1,6 +1,7 @@
 import {readFile,writeFile} from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import {batch50,skips} from './mincook-policy.mjs';
+import {applyPendingReviewPolicy} from './pending-review-policy.mjs';
 
 const read=async path=>JSON.parse(await readFile(new URL('../'+path,import.meta.url),'utf8'));
 const write=(path,value)=>writeFile(new URL('../'+path,import.meta.url),JSON.stringify(value,null,2)+'\n');
@@ -22,19 +23,19 @@ assert.equal(selected.size,batch50.length,'선정 출처 ID가 중복되어 있�
 assert.equal(new Set(index.entries.map(entry=>entry.sourceId)).size,index.entries.length,'공개 목록의 출처 ID가 중복되어 있어요.');
 for(const sourceId of selected.keys())assert.ok(index.entries.some(entry=>entry.sourceId===sourceId),`선정 게시글이 공개 목록에 없어요: ${sourceId}`);
 const decisions=new Map(skips.map(entry=>[entry.sourceId,entry]));
-const sourceRows=new Map([...review.entries,...(review.held??[]),...(review.excluded??[]),...(review.existing??[])].map(entry=>[entry.sourceId,entry]));
-const entries=index.entries.map(indexed=>{
+const sourceRows=new Map([...(review.held??[]),...(review.excluded??[]),...(review.existing??[]),...review.entries].map(entry=>[entry.sourceId,entry]));
+const entries=applyPendingReviewPolicy(index.entries.map(indexed=>{
  const articleId=String(indexed.articleId),sourceId=indexed.sourceId;
  assert.equal(sourceId,`blog-${articleId}`);
  assert.equal(blogArticleId(indexed.url),articleId,'공식 블로그 게시글 번호와 원본 주소가 달라요.');
  const source=sourceRows.get(sourceId),decision=decisions.get(sourceId),previous=previousArticles.get(articleId);
  const status=previous?'existing':decision?.status?.startsWith('excluded-')?decision.status:selected.has(sourceId)?'registered':'pending';
- const reason=decision?.reason??source?.reason??source?.heldReason??'공식 블로그의 원본 재료·사용 분량 추가 확인 필요';
+ const reason=decision?.reason??source?.originalReason??source?.reason??source?.heldReason??'공식 블로그의 원본 재료·사용 분량 추가 확인 필요';
  return {sourceId,articleId,sourceKind:'official-blog',sourceTitle:source?.sourceTitle??indexed.sourceTitle??indexed.title??null,sourceUrl:indexed.url,sourceName:source?.sourceName??index.sourceName??'1분요리 뚝딱이형',status,
   ...(status==='registered'?{recipeId:`mincook-${sourceId}`,name:source?.name??selected.get(sourceId)[1],nameSource:source?.nameSource??null}:status==='existing'?{recipeId:previous.id,reason:'같은 공식 블로그 원본으로 이미 등록한 메뉴를 유지하며 중복 생성하지 않음.'}:{reason}),
   ...(decision?.duplicateOf?{duplicateOf:decision.duplicateOf}:{})};
-});
-const statuses=['registered','existing','pending','excluded-duplicate','excluded-nonrecipe'];
+}));
+const statuses=['registered','existing','pending','excluded-duplicate','excluded-nonrecipe','excluded-policy'];
 assert.ok(entries.every(entry=>statuses.includes(entry.status)),'출처 상태를 확인해 주세요.');
 const counts=Object.fromEntries(statuses.map(status=>[status,entries.filter(entry=>entry.status===status).length]));
 assert.equal(counts.registered,selected.size);

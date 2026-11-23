@@ -84,8 +84,12 @@ for(const [videoId,name,baseServings,cookingType,category,range] of batch50){
  const hash=createHash('sha256').update(entry.ingredientText).digest('hex');if(entry.ingredientHash)assert.equal(entry.ingredientHash,hash);
  entry.ingredientHash=hash;
  const preparedText=prepareText(entry);
- assert.equal(entry.descriptionMenuName,name,`메뉴명은 정보란에서 확인한 이름을 사용해 주세요: ${videoId}`);
- assert.ok(typeof entry.nameSourceText==='string'&&key(entry.nameSourceText).includes(key(entry.descriptionMenuName)),`정보란 메뉴명 근거를 확인해 주세요: ${videoId}`);
+ if(entry.nameSource==='editorial-ingredients'){
+  assert.equal(entry.editorialName,name);assert.equal(entry.descriptionMenuName,null);assert.ok(entry.nameSourceEvidence&&entry.nameSourceText===entry.ingredientText);
+ }else{
+  assert.equal(entry.descriptionMenuName,name,`메뉴명은 정보란에서 확인한 이름을 사용해 주세요: ${videoId}`);
+  assert.ok(typeof entry.nameSourceText==='string'&&key(entry.nameSourceText).includes(key(entry.descriptionMenuName)),`정보란 메뉴명 근거를 확인해 주세요: ${videoId}`);
+ }
  let group='재료';const rows=[];
  for(const raw of preparedText.split(/\r?\n/)){
   const sourceText=raw.trim();if(!sourceText)continue;
@@ -114,7 +118,7 @@ for(const [videoId,name,baseServings,cookingType,category,range] of batch50){
 if(missing.size){console.log('검토할 재료 이름:',JSON.stringify([...missing],null,2));process.exitCode=1;}
 else{
  for(const {entry:e,cookingType,category} of built){
-  const r={id:e.recipeId,name:e.name,baseServings:e.baseServings,servingsStatus:e.servingsStatus,servingsEvidence:e.servingsEvidence,...(e.servingsRange?{servingsRange:e.servingsRange}:{}),cookMinutes:null,cookingType,imagePath:null,sourceName:e.sourceName,sourceUrl:e.sourceUrl,sourceTitle:e.sourceTitle,sourceNote:`${e.sourceName} / 영상 ${e.videoId}; 원본 설명란 재료·수량 대조 ${e.checkedOn}. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.`,ingredients:e.ingredients.filter(i=>!i.omitted).map(i=>({ingredientId:i.ingredientId,amount:i.amount,unit:i.unit,note:`원문: ${i.sourceText}${i.reason?' · '+i.reason:''}`}))};
+  const r={id:e.recipeId,name:e.name,baseServings:e.baseServings,servingsStatus:e.servingsStatus,servingsEvidence:e.servingsEvidence,...(e.servingsRange?{servingsRange:e.servingsRange}:{}),...(e.nameSource==='editorial-ingredients'?{nameSource:e.nameSource,nameSourceEvidence:e.nameSourceEvidence}:{}),cookMinutes:null,cookingType,imagePath:null,sourceName:e.sourceName,sourceUrl:e.sourceUrl,sourceTitle:e.sourceTitle,sourceNote:`${e.sourceName} / 영상 ${e.videoId}; 원본 설명란 재료·수량 대조 ${e.checkedOn}. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.${e.nameSource==='editorial-ingredients'?' 사용자 승인 재료 기반 편집명. 기존 수집 재료표로 검수했으며 이번 원문 재접근은 실패.':''}`,ingredients:e.ingredients.filter(i=>!i.omitted).map(i=>({ingredientId:i.ingredientId,amount:i.amount,unit:i.unit,note:`원문: ${i.sourceText}${i.reason?' · '+i.reason:''}`}))};
   const prior=recipes.find(x=>x.id===r.id);if(prior)assert.deepEqual(prior,r);else recipes.push(r);
   const c={recipeId:r.id,name:r.name,categories:[category],mealRole:category==='한식 반찬'?'반찬':category==='한식 국·찌개'?'국·찌개':'주메뉴'};
   const old=catalog.entries.find(x=>x.recipeId===r.id);if(old)assert.deepEqual(old,c);else catalog.entries.push(c);

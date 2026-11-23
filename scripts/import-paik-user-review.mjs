@@ -31,12 +31,21 @@ const entries=[
    ['양파',120,'g','양파 ½개 (120g)'],['대파',50,'g','대파 ½대 (50g)'],['청양고추',10,'g','청양고추 2개 (10g)'],['식용유',14,'g','식용유 2큰술 (14g)'],
    ['고추장',30,'g','고추장 1+1/2큰술 (30g)','양념재료'],['새우젓',30,'g','새우젓 1+1/2큰술 (30g)','양념재료'],['고운 고춧가루',6,'g','고운 고춧가루 1큰술 (6g)','양념재료'],
    ['굵은 고춧가루',4,'g','굵은 고춧가루 ½큰술 (4g)','양념재료'],['국간장',10,'g','국간장 1큰술(10g)','양념재료'],['다진 마늘',20,'g','간마늘 1큰술 (20g)','양념재료'],['후추가루',null,null,'후춧가루 약간','양념재료']
+  ]},
+ {videoId:'Da-yWFw5T3U',name:'초간단 버터간장국수',baseServings:1,servingsStatus:'estimated',cookingType:'국수',category:'한식 주메뉴',
+  servingsEvidence:'전체 인분 별도 명시 없음. 소면 1인분(100g)·달걀 1개를 사용한 전체 요리를 1인분으로 편집 추정. 소면의 인분 표기를 전체 요리 명시 인분으로 오인하지 않음.',
+  rows:[
+   ['소면',100,'g','소면 1인분 (100g)'],['대파',40,'g','대파 약 1/2대 (40g)'],['버터',12,'g','버터 1큰술 (12g)'],
+   ['진간장',20,'g','진간장 2큰술 (20g)'],['설탕',6,'g','설탕 1/2큰술 (6g)'],['계란',1,'개','달걀 1개'],
+   ['조미김',2,'g','조미김가루 약간 (2g)'],['식용유',null,null,'식용유 적당량']
   ]}
 ];
 const ingredients=await read('data/ingredients.json'),recipes=await read('data/recipes.json'),catalog=await read('data/recipe-categories.json');
 const coverage=await read('data/source/paik-playlist-coverage.json');
+const excluded=new Set((await read('data/source/paik-user-exclusions.json')).entries.map(e=>e.videoId));
 const reviewed=[];
 for(const entry of entries){
+ assert.ok(!excluded.has(entry.videoId),'사용자 지정 제외 영상은 등록하지 않음');
  assertNotShortVideo(entry.videoId);
  const source=coverage.entries.find(e=>e.videoId===entry.videoId);assert.ok(source);
  const items=entry.rows.map(([name,amount,unit,sourceText,group='재료'])=>{

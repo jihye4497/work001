@@ -1,0 +1,20 @@
+{
+ "schemaVersion":1,"checkedOn":"2026-11-23",
+ "note":"남은 일반 검토14개. 공식 블로그 재접근 및 기존 원문을 대조. 축종·단위를 추측해 원문 명시로 기록하지 않음.",
+ "entries":[
+  {"sourceId":"blog-512","sourceUrl":"https://chef-choice.tistory.com/512","action":"exclude","exclusionCode":"insufficient-core-quantities","reason":"마파가지덮밥의 다짐육350g·가지240g은 확인되나 핵심 밥의 양이 없음. 다짐육의 축종도 미명시. 원문 전체 구매량을 확정하기 어려워 제외."},
+  {"sourceId":"blog-453","sourceUrl":"https://chef-choice.tistory.com/453","action":"exclude","exclusionCode":"multiple-dishes","reason":"중화잡채·잡채밥·가지튀김의 별도 완성 요리가 함께 있음. 복수 메뉴 제외 기준 적용."},
+  {"sourceId":"blog-402","sourceUrl":"https://chef-choice.tistory.com/402","action":"exclude","exclusionCode":"multiple-dishes","reason":"뒥셀 제조와 식빵/소고기 조합·리조또·계란말이의 여러 후속 요리가 함께 있고 뒥셀 사용 비율도 불명확해 제외."},
+  {"sourceId":"blog-340","sourceUrl":"https://chef-choice.tistory.com/340","action":"exclude","exclusionCode":"multiple-dishes","reason":"맑은 곰탕과 곰탕국수 두 완성 메뉴가 함께 있으며 고기·육수 배분도 미기재. 복수 메뉴 제외 기준 적용."},
+  {"sourceId":"blog-324","sourceUrl":"https://chef-choice.tistory.com/324","action":"exclude","exclusionCode":"insufficient-core-quantities","reason":"비빔만두 핵심인 군만두 수량이 미기재. 물엿/참기름 충돌을 추가 판단하지 않고 핵심 재료량 부족으로 제외."},
+  {"sourceId":"blog-322","sourceUrl":"https://chef-choice.tistory.com/322","action":"exclude","exclusionCode":"insufficient-core-quantities","reason":"고추마요치킨의 닭·치킨튀김가루 양이 미기재. 양 가루는 본문 양파가루로 확인되나 핵심 닭의 양이 없으므로 제외."},
+  {"sourceId":"blog-295","sourceUrl":"https://chef-choice.tistory.com/295","action":"awaiting-user","reason":"국거리용 고기300g을 소고기로 연결할지 사용자 확인 대기."},
+  {"sourceId":"blog-294","sourceUrl":"https://chef-choice.tistory.com/294","action":"awaiting-user","reason":"구이용 고기100g의 축종 사용자 확인 대기."},
+  {"sourceId":"blog-293","sourceUrl":"https://chef-choice.tistory.com/293","action":"exclude","exclusionCode":"insufficient-core-quantities","reason":"갈릭바질버터 스테이크의 고기 수량·중량이 미기재. 버터량만으로 고기 구매량을 추정하지 않고 제외."},
+  {"sourceId":"blog-246","sourceUrl":"https://chef-choice.tistory.com/246","action":"exclude","exclusionCode":"insufficient-core-quantities","reason":"대창덮밥의 소대창·밥 수량이 미기재. 맛술/물엿 충돌 외에도 핵심 재료량이 없어 제외."},
+  {"sourceId":"blog-261","sourceUrl":"https://chef-choice.tistory.com/261","action":"awaiting-user","reason":"불고기용 고기600g을 소고기로 연결할지 사용자 확인 대기."},
+  {"sourceId":"blog-243","sourceUrl":"https://chef-choice.tistory.com/243","action":"awaiting-user","reason":"경양식 돈까스 등심500g을 돼지고기로 연결할지 사용자 확인 대기."},
+  {"sourceId":"blog-114","sourceUrl":"https://chef-choice.tistory.com/114","action":"registered","recipeId":"mincook-blog-114","reason":"본문 양파1/4개로 원표 파1/4개를 편집 보완하며 충돌 기록 보존. 봉지라면1봉의 스프·건더기스프는 구성품으로 중복 구매 제외. 전체1인분 추정."},
+  {"sourceId":"blog-90","sourceUrl":"https://chef-choice.tistory.com/90","action":"exclude","exclusionCode":"unclear-prepared-portion","reason":"남은 탕수육20조각 이상·남은 탕수육소스6숟가락을 사용하나 원재료로 분해할 근거가 없음. 준비 요리 실제 사용량 계산이 어려운 자료 제외 기준 적용."}
+ ]
+}

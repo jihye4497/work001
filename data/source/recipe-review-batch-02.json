@@ -1,0 +1,27 @@
+{
+ "schemaVersion":1,
+ "checkedOn":"2026-11-23",
+ "note":"검토큐 두 번째20개. YouTube 재접근으로 설명란을 확보하지 못함. 기존 무니키친 수집 재료 사실8개를 복구해 사용자 승인 설명용 이름으로 등록. 접근 실패를 재료표 부재로 오인하지 않음.",
+ "entries":[
+  {"sourceId":"_H64Kz7Mgz4","sourceUrl":"https://www.youtube.com/watch?v=_H64Kz7Mgz4","action":"access-unverified","reason":"YouTube 재접근 실패. 잘린 뚝배기 계란찜 재료표는 미확인 유지."},
+  {"sourceId":"DnQ09ZZCjCs","sourceUrl":"https://www.youtube.com/watch?v=DnQ09ZZCjCs","action":"access-unverified","reason":"YouTube 재접근 실패. 잘린 초간단 김치찌개 재료표는 미확인 유지."},
+  {"sourceId":"thXIVUt9PBU","sourceUrl":"https://www.youtube.com/watch?v=thXIVUt9PBU","action":"access-unverified","reason":"YouTube 재접근 실패. 100인분 제육볶음의 조리용 기름·참깨 기준은 미확인 유지. 보조 양념의 불명확함만으로 제외하지 않음."},
+  {"sourceId":"qcWefHMMwpI","sourceUrl":"https://www.youtube.com/watch?v=qcWefHMMwpI","action":"access-unverified","reason":"YouTube 재접근 실패. 불고기1kg의 축종은 추측하지 않고 미확인 유지."},
+  {"sourceId":"lRyt_KQckiE","sourceUrl":"https://www.youtube.com/watch?v=lRyt_KQckiE","action":"access-unverified","reason":"YouTube 재접근 실패. 묵사발 냉면육수2팩의 반복이 중복인지 확인하지 못해 미확인 유지."},
+  {"sourceId":"0kozFOAut5E","sourceUrl":"https://www.youtube.com/watch?v=0kozFOAut5E","action":"exclude","exclusionCode":"insufficient-core-quantities","reason":"기존 확보 재료표에는 무침 양념만 있고 꽈리고추·가루 자체가 확인되지 않음. 핵심 재료가 빠진 자료를 제외하는 승인 기준 적용. 이번 재접근은 실패했으며 영상 전체에 재료가 없다고 단정하지 않음."},
+  {"sourceId":"3syEGqao6RU","sourceUrl":"https://www.youtube.com/watch?v=3syEGqao6RU","action":"exclude","exclusionCode":"duplicate-source","duplicateOf":"eonam-y0Nm-jXZYzQ","reason":"기존 검수에서 연결한 짜장떡볶이 전용 영상 y0Nm-jXZYzQ가 이미 등록돼 있어 중복 항목을 이번 검토에서 제외. 기존 등록 레시피는 유지."},
+  {"sourceId":"JZp1M3Q8WoE","sourceUrl":"https://www.youtube.com/watch?v=JZp1M3Q8WoE","action":"access-unverified","reason":"YouTube 재접근 실패. 바싹불고기 불고깃감600g의 축종·부위는 미확인 유지."},
+  {"sourceId":"7G4bVVSVyDc","sourceUrl":"https://www.youtube.com/watch?v=7G4bVVSVyDc","action":"exclude","exclusionCode":"conflicting-core-ingredients","reason":"기존 확보 설명란이 스햄순두부찌개 재료표와 같고 떡볶이의 떡이 누락됨. 잘못 연결됐을 가능성이 있는 자료는 등록하지 않고 이번 검토에서 제외. 이번 원문 재접근 실패."},
+  {"sourceId":"swPArDu7zak","sourceUrl":"https://www.youtube.com/watch?v=swPArDu7zak","action":"registered","recipeId":"moony-swPArDu7zak","reason":"기존 수집 해초국수300g·콩국물500ml 등의 원문 사실 확인. 사용자 승인 재료 기반 편집명 해초 콩국수,2인분 추정으로 등록. 이번 원문 재접근 실패."},
+  {"sourceId":"k-yRW47mTBA","sourceUrl":"https://www.youtube.com/watch?v=k-yRW47mTBA","action":"registered","recipeId":"moony-k-yRW47mTBA","reason":"기존 수집 또띠아2장·치즈80g·달걀3개 등의 사실 확인. 편집명 치즈 달걀 또띠아,2인분 추정. 토마토소스2~3큰술은 임의 단일값 계산 없이 원문 범위 보존."},
+  {"sourceId":"2uo450zVAIY","sourceUrl":"https://www.youtube.com/watch?v=2uo450zVAIY","action":"registered","recipeId":"moony-2uo450zVAIY","reason":"기존 수집 순두부1개·달걀2개·간장 등 사실 확인. 편집명 간장 순두부 달걀 요리,2인분 추정으로 등록. 개 단위를 중량으로 환산하지 않음."},
+  {"sourceId":"9V5Mo_OaSBg","sourceUrl":"https://www.youtube.com/watch?v=9V5Mo_OaSBg","action":"registered","recipeId":"moony-9V5Mo_OaSBg","reason":"기존 수집 순두부1개·달걀1개·참치액1/2큰술 사실 확인. 편집명 참치액 순두부 달걀 요리,2인분 추정으로 등록."},
+  {"sourceId":"fVTnNxSBjxY","sourceUrl":"https://www.youtube.com/watch?v=fVTnNxSBjxY","action":"registered","recipeId":"moony-fVTnNxSBjxY","reason":"기존 수집 토마토1개·달걀1개·대파10cm 사실 확인. 편집명 토마토 달걀 요리,1인분 추정으로 등록. 대파 길이 단위 유지."},
+  {"sourceId":"v1pH58lRtAw","sourceUrl":"https://www.youtube.com/watch?v=v1pH58lRtAw","action":"exclude","exclusionCode":"unclear-prepared-portion","reason":"기존 수집표의 양배추500g·달걀1개는 확인되지만 곤약밥/밥의 양이 없고 다른 양배추밥 메뉴에도 연결됨. 완성 메뉴 전체의 밥·제조분 사용량을 확정하지 못해 제외."},
+  {"sourceId":"IRnO1_5dXug","sourceUrl":"https://www.youtube.com/watch?v=IRnO1_5dXug","action":"registered","recipeId":"moony-IRnO1_5dXug","reason":"기존 수집 순두부350g·달걀2개·육수 또는 물200ml 사실 확인. 편집명 순두부 달걀 국물 요리,2인분 추정. 대체 선택지 중 물만 반영."},
+  {"sourceId":"IRhpRwIHRbw","sourceUrl":"https://www.youtube.com/watch?v=IRhpRwIHRbw","action":"registered","recipeId":"moony-IRhpRwIHRbw","reason":"기존 수집 달걀3개·부추30g·굴소스1큰술 사실 확인. 편집명 부추 달걀 요리,2인분 추정. 대체 소금은 중복 합산하지 않음."},
+  {"sourceId":"xHjzFg-tQI0","sourceUrl":"https://www.youtube.com/watch?v=xHjzFg-tQI0","action":"exclude","exclusionCode":"insufficient-core-quantities","reason":"복구한 기존 재료표는 밥·양배추·미나리·달걀 등 재료명과 다른 영상 링크만 있고 각 수량이 없음. 핵심 재료량 부족으로 제외."},
+  {"sourceId":"ooYPlMfby4o","sourceUrl":"https://www.youtube.com/watch?v=ooYPlMfby4o","action":"exclude","exclusionCode":"insufficient-core-quantities","reason":"복구한 기존 재료표에 양배추·양파·당근·참치 등의 수량이 없음. 별도 두부 마요네즈 링크를 현재 메뉴의 사용량으로 추정하지 않고 제외."},
+  {"sourceId":"E__F3vWxExQ","sourceUrl":"https://www.youtube.com/watch?v=E__F3vWxExQ","action":"registered","recipeId":"moony-E__F3vWxExQ","reason":"기존 수집 큰토마토2개·올리브오일80ml 등 사실 확인. 편집명 올리브 토마토 절임,곁들임4인분 추정. 블랙올리브10~13개는 원문 범위 보존."}
+ ]
+}

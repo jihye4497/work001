@@ -6659,38 +6659,6 @@
           "reason": null
         }
       ]
-    }
-  ],
-  "held": [
-    {
-      "videoId": "_LBpJvb-p5o",
-      "sourceTitle": "여름 내내 먹어도 절대 살찌지 않는 비빔국수, 너무 맛있어요😋  25kg 감량 노하우",
-      "sourceUrl": "https://www.youtube.com/watch?v=_LBpJvb-p5o",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5_LQqtHXAaCsaR8mCl8Ksh"
-      ],
-      "playlistTitles": [
-        "국수 Noodles"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
-    },
-    {
-      "videoId": "X9jv3gLsBsI",
-      "sourceTitle": "불 없이 섞기만 하세요. 모밀국수는 이 방법이 최고입니다.",
-      "sourceUrl": "https://www.youtube.com/watch?v=X9jv3gLsBsI",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5_LQqtHXAaCsaR8mCl8Ksh"
-      ],
-      "playlistTitles": [
-        "국수 Noodles"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
     },
     {
       "videoId": "swPArDu7zak",
@@ -6698,52 +6666,66 @@
       "sourceUrl": "https://www.youtube.com/watch?v=swPArDu7zak",
       "sourceName": "무니키친MoonyKitchen",
       "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5_LQqtHXAaCsaR8mCl8Ksh",
-        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "국수 Noodles",
-        "건강 Health",
-        "채소 vegetable"
-      ],
+      "checkedOn": "2026-11-23",
       "videoFormat": "long-form",
-      "reason": "정보란은 다이어트 국수로만 지칭하여 구체 메뉴명 확인 대기. 해초국수·콩국물 원문 양은 확인됨."
-    },
-    {
-      "videoId": "nJ662cyW4Po",
-      "sourceTitle": "와... 이 레시피 알아두셨다가 여름 내내 비벼드세요. 비빔장 황금 비율",
-      "sourceUrl": "https://www.youtube.com/watch?v=nJ662cyW4Po",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5_LQqtHXAaCsaR8mCl8Ksh"
-      ],
-      "playlistTitles": [
-        "국수 Noodles"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "si03Y6z5ke4",
-      "sourceTitle": "와~ 양배추로 만들었는데 진짜 너무 맛있어서 깜짝 놀랐어요🤩 양배추 토스트 핫도그⁉️",
-      "sourceUrl": "https://www.youtube.com/watch?v=si03Y6z5ke4",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
-        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
-      ],
-      "playlistTitles": [
-        "아침식사 Breakfast",
-        "달걀 Egg",
-        "양배추 Cabbage"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+      "formatEvidence": "원본 playerMicroformatRenderer.isShortsEligible=False",
+      "servingsStatements": [],
+      "measureStatements": [],
+      "ingredientText": "해초국수 300g\n콩국물 500ml\n오이 약간\n방울 토마토 1개",
+      "ingredientHash": "a96638a3a63f7a29b230d6a63f5102c7fa4fec1d2769872fbeeb615ed0d9f072",
+      "nameSource": "editorial-ingredients",
+      "editorialName": "해초 콩국수",
+      "descriptionMenuName": null,
+      "nameSourceText": "해초국수 300g\n콩국물 500ml\n오이 약간\n방울 토마토 1개",
+      "nameSourceEvidence": "2026-11-23 사용자 승인으로 확인된 재료를 바탕으로 붙인 설명용 이름. 확인하지 않은 볶음·찜 조리법은 추가하지 않음.",
+      "recipeId": "moony-swPArDu7zak",
+      "name": "해초 콩국수",
+      "baseServings": 2,
+      "servingsRange": null,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "원문 전체 인분 미기재. 해초국수300g·콩국물500ml을 2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+      "ingredients": [
+        {
+          "sourceText": "해초국수 300g",
+          "group": "재료",
+          "ingredientId": "moony-seaweed-noodles",
+          "sourceAmount": 300,
+          "unit": "g",
+          "factor": 1,
+          "amount": 300,
+          "reason": null
+        },
+        {
+          "sourceText": "콩국물 500ml",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-aba150dc7b09",
+          "sourceAmount": 500,
+          "unit": "ml",
+          "factor": 1,
+          "amount": 500,
+          "reason": null
+        },
+        {
+          "sourceText": "오이 약간",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-3ba1c580e487",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": null
+        },
+        {
+          "sourceText": "방울 토마토 1개",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-597f5ba7bb98",
+          "sourceAmount": 1,
+          "unit": "개",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        }
+      ]
     },
     {
       "videoId": "k-yRW47mTBA",
@@ -6751,16 +6733,66 @@
       "sourceUrl": "https://www.youtube.com/watch?v=k-yRW47mTBA",
       "sourceName": "무니키친MoonyKitchen",
       "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
-      ],
-      "playlistTitles": [
-        "아침식사 Breakfast",
-        "달걀 Egg"
-      ],
+      "checkedOn": "2026-11-23",
       "videoFormat": "long-form",
-      "reason": "정보란에 또띠아·달걀 재료만 소개되어 구체 메뉴명 확인 대기."
+      "formatEvidence": "원본 playerMicroformatRenderer.isShortsEligible=False",
+      "servingsStatements": [],
+      "measureStatements": [],
+      "ingredientText": "또띠아 2장\n치즈 80g\n토마토 소스 2-3 큰술\n달걀 3개",
+      "ingredientHash": "ec79451695c2c107b1fc5c46d4588bde6e1e83f31c30a527d229a60aa94f59ea",
+      "nameSource": "editorial-ingredients",
+      "editorialName": "치즈 달걀 또띠아",
+      "descriptionMenuName": null,
+      "nameSourceText": "또띠아 2장\n치즈 80g\n토마토 소스 2-3 큰술\n달걀 3개",
+      "nameSourceEvidence": "2026-11-23 사용자 승인으로 확인된 재료를 바탕으로 붙인 설명용 이름. 확인하지 않은 볶음·찜 조리법은 추가하지 않음.",
+      "recipeId": "moony-k-yRW47mTBA",
+      "name": "치즈 달걀 또띠아",
+      "baseServings": 2,
+      "servingsRange": null,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "원문 전체 인분 미기재. 또띠아2장·달걀3개·치즈80g을 2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+      "ingredients": [
+        {
+          "sourceText": "또띠아 2장",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-2dc56e992873",
+          "sourceAmount": 2,
+          "unit": "장",
+          "factor": 1,
+          "amount": 2,
+          "reason": null
+        },
+        {
+          "sourceText": "치즈 80g",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-a82ee6c25c83",
+          "sourceAmount": 80,
+          "unit": "g",
+          "factor": 1,
+          "amount": 80,
+          "reason": null
+        },
+        {
+          "sourceText": "토마토 소스 2-3 큰술",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-2dde7bbf29ff",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": "원문 재료 수량 범위2~3큰술 유지. 임의 단일량으로 계산하지 않음"
+        },
+        {
+          "sourceText": "달걀 3개",
+          "group": "재료",
+          "ingredientId": "egg",
+          "sourceAmount": 3,
+          "unit": "개",
+          "factor": 1,
+          "amount": 3,
+          "reason": null
+        }
+      ]
     },
     {
       "videoId": "2uo450zVAIY",
@@ -6768,35 +6800,106 @@
       "sourceUrl": "https://www.youtube.com/watch?v=2uo450zVAIY",
       "sourceName": "무니키친MoonyKitchen",
       "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
-        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
-      ],
-      "playlistTitles": [
-        "아침식사 Breakfast",
-        "달걀 Egg",
-        "두부 Tofu"
-      ],
+      "checkedOn": "2026-11-23",
       "videoFormat": "long-form",
-      "reason": "정보란에 순두부 요리로만 소개되어 구체 메뉴명 확인 대기."
-    },
-    {
-      "videoId": "-6IitgDtf0A",
-      "sourceTitle": "아침을 이렇게 드시면 더 건강해지고 날씬해집니다❣️",
-      "sourceUrl": "https://www.youtube.com/watch?v=-6IitgDtf0A",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
-      ],
-      "playlistTitles": [
-        "아침식사 Breakfast",
-        "달걀 Egg"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+      "formatEvidence": "원본 playerMicroformatRenderer.isShortsEligible=False",
+      "servingsStatements": [],
+      "measureStatements": [],
+      "ingredientText": "순두부 1개\n달걀 2개\n양파 1/4개\n대파 1줄기\n간장 1큰술\n알룰로스 1큰술\n청주 1큰술\n참치액 1큰술",
+      "ingredientHash": "882c57d5888cf3a00608341b0f1c2e2932a8ea8531fe4e66fe820c647692f71d",
+      "nameSource": "editorial-ingredients",
+      "editorialName": "간장 순두부 달걀 요리",
+      "descriptionMenuName": null,
+      "nameSourceText": "순두부 1개\n달걀 2개\n양파 1/4개\n대파 1줄기\n간장 1큰술\n알룰로스 1큰술\n청주 1큰술\n참치액 1큰술",
+      "nameSourceEvidence": "2026-11-23 사용자 승인으로 확인된 재료를 바탕으로 붙인 설명용 이름. 확인하지 않은 볶음·찜 조리법은 추가하지 않음.",
+      "recipeId": "moony-2uo450zVAIY",
+      "name": "간장 순두부 달걀 요리",
+      "baseServings": 2,
+      "servingsRange": null,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "원문 전체 인분 미기재. 순두부1개·달걀2개을 2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+      "ingredients": [
+        {
+          "sourceText": "순두부 1개",
+          "group": "재료",
+          "ingredientId": "soft-tofu",
+          "sourceAmount": 1,
+          "unit": "개",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        },
+        {
+          "sourceText": "달걀 2개",
+          "group": "재료",
+          "ingredientId": "egg",
+          "sourceAmount": 2,
+          "unit": "개",
+          "factor": 1,
+          "amount": 2,
+          "reason": null
+        },
+        {
+          "sourceText": "양파 1/4개",
+          "group": "재료",
+          "ingredientId": "onion",
+          "sourceAmount": 0.25,
+          "unit": "개",
+          "factor": 1,
+          "amount": 0.25,
+          "reason": null
+        },
+        {
+          "sourceText": "대파 1줄기",
+          "group": "재료",
+          "ingredientId": "green-onion",
+          "sourceAmount": 1,
+          "unit": "줄기",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        },
+        {
+          "sourceText": "간장 1큰술",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-a1119fcde4c7",
+          "sourceAmount": 1,
+          "unit": "큰술",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        },
+        {
+          "sourceText": "알룰로스 1큰술",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-44dae654a56c",
+          "sourceAmount": 1,
+          "unit": "큰술",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        },
+        {
+          "sourceText": "청주 1큰술",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-b394c0b684c3",
+          "sourceAmount": 1,
+          "unit": "큰술",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        },
+        {
+          "sourceText": "참치액 1큰술",
+          "group": "재료",
+          "ingredientId": "tuna-extract",
+          "sourceAmount": 1,
+          "unit": "큰술",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        }
+      ]
     },
     {
       "videoId": "9V5Mo_OaSBg",
@@ -6804,18 +6907,66 @@
       "sourceUrl": "https://www.youtube.com/watch?v=9V5Mo_OaSBg",
       "sourceName": "무니키친MoonyKitchen",
       "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
-        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
-      ],
-      "playlistTitles": [
-        "아침식사 Breakfast",
-        "달걀 Egg",
-        "두부 Tofu"
-      ],
+      "checkedOn": "2026-11-23",
       "videoFormat": "long-form",
-      "reason": "정보란에 순두부·계란 요리로만 소개되어 구체 메뉴명 확인 대기."
+      "formatEvidence": "원본 playerMicroformatRenderer.isShortsEligible=False",
+      "servingsStatements": [],
+      "measureStatements": [],
+      "ingredientText": "순두부 1개\n달걀 1개\n참치액 1/2큰술\n파 약간",
+      "ingredientHash": "af443122fe774f56b296e93115e57de5bf41c72ef27bdc7602c3d2800305162c",
+      "nameSource": "editorial-ingredients",
+      "editorialName": "참치액 순두부 달걀 요리",
+      "descriptionMenuName": null,
+      "nameSourceText": "순두부 1개\n달걀 1개\n참치액 1/2큰술\n파 약간",
+      "nameSourceEvidence": "2026-11-23 사용자 승인으로 확인된 재료를 바탕으로 붙인 설명용 이름. 확인하지 않은 볶음·찜 조리법은 추가하지 않음.",
+      "recipeId": "moony-9V5Mo_OaSBg",
+      "name": "참치액 순두부 달걀 요리",
+      "baseServings": 2,
+      "servingsRange": null,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "원문 전체 인분 미기재. 순두부1개·달걀1개을 2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+      "ingredients": [
+        {
+          "sourceText": "순두부 1개",
+          "group": "재료",
+          "ingredientId": "soft-tofu",
+          "sourceAmount": 1,
+          "unit": "개",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        },
+        {
+          "sourceText": "달걀 1개",
+          "group": "재료",
+          "ingredientId": "egg",
+          "sourceAmount": 1,
+          "unit": "개",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        },
+        {
+          "sourceText": "참치액 1/2큰술",
+          "group": "재료",
+          "ingredientId": "tuna-extract",
+          "sourceAmount": 0.5,
+          "unit": "큰술",
+          "factor": 1,
+          "amount": 0.5,
+          "reason": null
+        },
+        {
+          "sourceText": "파 약간",
+          "group": "재료",
+          "ingredientId": "green-onion",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": null
+        }
+      ]
     },
     {
       "videoId": "fVTnNxSBjxY",
@@ -6823,39 +6974,96 @@
       "sourceUrl": "https://www.youtube.com/watch?v=fVTnNxSBjxY",
       "sourceName": "무니키친MoonyKitchen",
       "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
-        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
-        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
-      ],
-      "playlistTitles": [
-        "아침식사 Breakfast",
-        "토마토 Tomato",
-        "국 찌개 Soup Stew",
-        "달걀 Egg"
-      ],
+      "checkedOn": "2026-11-23",
       "videoFormat": "long-form",
-      "reason": "정보란에 토마토·달걀 아침식사로만 소개되어 구체 메뉴명 확인 대기."
-    },
-    {
-      "videoId": "v1pH58lRtAw",
-      "sourceTitle": "양배추 왜 이렇게 안 드세요? 간단하고 맛있는 양배추 요리 😍",
-      "sourceUrl": "https://www.youtube.com/watch?v=v1pH58lRtAw",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
-        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
-      ],
-      "playlistTitles": [
-        "아침식사 Breakfast",
-        "달걀 Egg",
-        "양배추 Cabbage"
-      ],
-      "videoFormat": "long-form",
-      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+      "formatEvidence": "원본 playerMicroformatRenderer.isShortsEligible=False",
+      "servingsStatements": [],
+      "measureStatements": [],
+      "ingredientText": "토마토 1개\n달걀 1개\n대파 10cm\n마늘\n오일\n소금 \n후추",
+      "ingredientHash": "94deb8fffaf487c22a0fe8c7e6a5a1cdc3a97f10445261de016dc1954d10675b",
+      "nameSource": "editorial-ingredients",
+      "editorialName": "토마토 달걀 요리",
+      "descriptionMenuName": null,
+      "nameSourceText": "토마토 1개\n달걀 1개\n대파 10cm\n마늘\n오일\n소금 \n후추",
+      "nameSourceEvidence": "2026-11-23 사용자 승인으로 확인된 재료를 바탕으로 붙인 설명용 이름. 확인하지 않은 볶음·찜 조리법은 추가하지 않음.",
+      "recipeId": "moony-fVTnNxSBjxY",
+      "name": "토마토 달걀 요리",
+      "baseServings": 1,
+      "servingsRange": null,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "원문 전체 인분 미기재. 토마토1개·달걀1개을 1인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+      "ingredients": [
+        {
+          "sourceText": "토마토 1개",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-b72d4a479483",
+          "sourceAmount": 1,
+          "unit": "개",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        },
+        {
+          "sourceText": "달걀 1개",
+          "group": "재료",
+          "ingredientId": "egg",
+          "sourceAmount": 1,
+          "unit": "개",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        },
+        {
+          "sourceText": "대파 10cm",
+          "group": "재료",
+          "ingredientId": "green-onion",
+          "sourceAmount": 10,
+          "unit": "cm",
+          "factor": 1,
+          "amount": 10,
+          "reason": null
+        },
+        {
+          "sourceText": "마늘",
+          "group": "재료",
+          "ingredientId": "garlic",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": null
+        },
+        {
+          "sourceText": "오일",
+          "group": "재료",
+          "ingredientId": "oil",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": null
+        },
+        {
+          "sourceText": "소금",
+          "group": "재료",
+          "ingredientId": "salt",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": null
+        },
+        {
+          "sourceText": "후추",
+          "group": "재료",
+          "ingredientId": "pepper",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": null
+        }
+      ]
     },
     {
       "videoId": "IRnO1_5dXug",
@@ -6863,94 +7071,86 @@
       "sourceUrl": "https://www.youtube.com/watch?v=IRnO1_5dXug",
       "sourceName": "무니키친MoonyKitchen",
       "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
-        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
-        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
-      ],
-      "playlistTitles": [
-        "아침식사 Breakfast",
-        "국 찌개 Soup Stew",
-        "달걀 Egg",
-        "두부 Tofu"
-      ],
+      "checkedOn": "2026-11-23",
       "videoFormat": "long-form",
-      "reason": "정보란에 순두부·계란 아침식사로만 소개되어 구체 메뉴명 확인 대기."
-    },
-    {
-      "videoId": "2BugCeqIQ6g",
-      "sourceTitle": "두부 한 모와 계란으로 간단하고 맛있는 한 끼 식사 만들어 보세요 😋",
-      "sourceUrl": "https://www.youtube.com/watch?v=2BugCeqIQ6g",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
-        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
-      ],
-      "playlistTitles": [
-        "아침식사 Breakfast",
-        "달걀 Egg",
-        "두부 Tofu"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "xExfLHDs4YA",
-      "sourceTitle": "양배추로 간단하고 맛있는😋 아침식사 만들어 보세요‼️",
-      "sourceUrl": "https://www.youtube.com/watch?v=xExfLHDs4YA",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
-      ],
-      "playlistTitles": [
-        "아침식사 Breakfast",
-        "달걀 Egg"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "GE_18gLbqT4",
-      "sourceTitle": "달걀과 자투리 채소로 충분해요~ 건강하고 간단한 아침식사",
-      "sourceUrl": "https://www.youtube.com/watch?v=GE_18gLbqT4",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
-        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
-        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
-      ],
-      "playlistTitles": [
-        "아침식사 Breakfast",
-        "토마토 Tomato",
-        "전 Jeon (Pancake, Omelet)",
-        "달걀 Egg"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "ws5yKjhQZHo",
-      "sourceTitle": "25kg 감량하고 10년 유지 다이어터의 살 안찌게 빵 먹는 방법",
-      "sourceUrl": "https://www.youtube.com/watch?v=ws5yKjhQZHo",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
-        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1"
-      ],
-      "playlistTitles": [
-        "아침식사 Breakfast",
-        "해물 Seafood"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+      "formatEvidence": "원본 playerMicroformatRenderer.isShortsEligible=False",
+      "servingsStatements": [],
+      "measureStatements": [],
+      "ingredientText": "순두부 350g\n댤걀 2개\n대파 1줄기\n육수 또는 물 200ml\n참기름\n참치액",
+      "ingredientHash": "d1ca354b5b8731bfbabeb02aad465195414df2400c6067a150b8616a13513365",
+      "nameSource": "editorial-ingredients",
+      "editorialName": "순두부 달걀 국물 요리",
+      "descriptionMenuName": null,
+      "nameSourceText": "순두부 350g\n댤걀 2개\n대파 1줄기\n육수 또는 물 200ml\n참기름\n참치액",
+      "nameSourceEvidence": "2026-11-23 사용자 승인으로 확인된 재료를 바탕으로 붙인 설명용 이름. 확인하지 않은 볶음·찜 조리법은 추가하지 않음.",
+      "recipeId": "moony-IRnO1_5dXug",
+      "name": "순두부 달걀 국물 요리",
+      "baseServings": 2,
+      "servingsRange": null,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "원문 전체 인분 미기재. 순두부350g·달걀2개을 2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+      "ingredients": [
+        {
+          "sourceText": "순두부 350g",
+          "group": "재료",
+          "ingredientId": "soft-tofu",
+          "sourceAmount": 350,
+          "unit": "g",
+          "factor": 1,
+          "amount": 350,
+          "reason": null
+        },
+        {
+          "sourceText": "댤걀 2개",
+          "group": "재료",
+          "ingredientId": "egg",
+          "sourceAmount": 2,
+          "unit": "개",
+          "factor": 1,
+          "amount": 2,
+          "reason": "원문 댤걀 표기는 달걀로 해석, 원문 구절 보존"
+        },
+        {
+          "sourceText": "대파 1줄기",
+          "group": "재료",
+          "ingredientId": "green-onion",
+          "sourceAmount": 1,
+          "unit": "줄기",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        },
+        {
+          "sourceText": "육수 또는 물 200ml",
+          "group": "재료",
+          "ingredientId": "water",
+          "sourceAmount": 200,
+          "unit": "ml",
+          "factor": 1,
+          "amount": 200,
+          "reason": "원문 대체 선택지 중 물만 반영하여 육수와 중복 구매하지 않음"
+        },
+        {
+          "sourceText": "참기름",
+          "group": "재료",
+          "ingredientId": "sesame-oil",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": null
+        },
+        {
+          "sourceText": "참치액",
+          "group": "재료",
+          "ingredientId": "tuna-extract",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": null
+        }
+      ]
     },
     {
       "videoId": "IRhpRwIHRbw",
@@ -6958,270 +7158,56 @@
       "sourceUrl": "https://www.youtube.com/watch?v=IRhpRwIHRbw",
       "sourceName": "무니키친MoonyKitchen",
       "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
-      ],
-      "playlistTitles": [
-        "아침식사 Breakfast",
-        "달걀 Egg"
-      ],
+      "checkedOn": "2026-11-23",
       "videoFormat": "long-form",
-      "reason": "정보란에 달걀로 만드는 아침으로만 소개되어 구체 메뉴명 확인 대기."
-    },
-    {
-      "videoId": "PF6N8vwopX8",
-      "sourceTitle": "[원팬, 초간단] 무조건 살빠지는 메뉴, 여름 토마토에 달걀이 빠지면?",
-      "sourceUrl": "https://www.youtube.com/watch?v=PF6N8vwopX8",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
-        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
-      ],
-      "playlistTitles": [
-        "아침식사 Breakfast",
-        "토마토 Tomato",
-        "달걀 Egg"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "IyHNPBfo6-o",
-      "sourceTitle": "[지방파괴 식단] 에그인헬, 꿀팁과 원리까지 다 알려줌!!!, 계란 다이어트, 샥슈카",
-      "sourceUrl": "https://www.youtube.com/watch?v=IyHNPBfo6-o",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
-        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
-      ],
-      "playlistTitles": [
-        "아침식사 Breakfast",
-        "토마토 Tomato",
-        "달걀 Egg"
-      ],
-      "videoFormat": "long-form",
-      "reason": "직접 만든 만능 토마토소스100g 사용. 제조 전체의 완성수율·사용 비율이 없어 원재료로 분해할 근거 확인 대기."
-    },
-    {
-      "videoId": "zBHDKF139vA",
-      "sourceTitle": "두부와 달걀로 단백질 폭탄💣 아침식사 드셔보세요‼️ 담백하고 영양 가득한 두부 계란찜💯 뱃살이 쭉쭉 빠져요🤩",
-      "sourceUrl": "https://www.youtube.com/watch?v=zBHDKF139vA",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
-        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
-      ],
-      "playlistTitles": [
-        "아침식사 Breakfast",
-        "달걀 Egg",
-        "두부 Tofu"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
-    },
-    {
-      "videoId": "-7osBTjnrGw",
-      "sourceTitle": "두부를 이렇게 먹으면 살이 안 쪄요. 25kg 감량 할 때 먹었던 두부밥",
-      "sourceUrl": "https://www.youtube.com/watch?v=-7osBTjnrGw",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5_POP0FxZE3u3uMX8rGY95",
-        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "밥 Rice",
-        "두부 Tofu",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "xHjzFg-tQI0",
-      "sourceTitle": "25kg 감량하고 10년 넘게 유지한 내가 요새 즐겨먹는 새로운 밥",
-      "sourceUrl": "https://www.youtube.com/watch?v=xHjzFg-tQI0",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5_POP0FxZE3u3uMX8rGY95",
-        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "밥 Rice",
-        "양배추 Cabbage",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
-    },
-    {
-      "videoId": "X81i4SgKBMQ",
-      "sourceTitle": "볶음밥은 이렇게 드세요. 제발🙏🏻  너무 맛있는데 살도 빠져요. 단백질 폭탄💣",
-      "sourceUrl": "https://www.youtube.com/watch?v=X81i4SgKBMQ",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5_POP0FxZE3u3uMX8rGY95",
-        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
-      ],
-      "playlistTitles": [
-        "밥 Rice",
-        "두부 Tofu"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
-    },
-    {
-      "videoId": "3L6Zr1EV260",
-      "sourceTitle": "절대 살안찌는 부추 비빔밥, 25kg 감량하고 10년 유지한 다이어트식단",
-      "sourceUrl": "https://www.youtube.com/watch?v=3L6Zr1EV260",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5_POP0FxZE3u3uMX8rGY95"
-      ],
-      "playlistTitles": [
-        "밥 Rice"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
-    },
-    {
-      "videoId": "7mgwZw7xf4U",
-      "sourceTitle": "25kg 감량할 때 먹었던 밥",
-      "sourceUrl": "https://www.youtube.com/watch?v=7mgwZw7xf4U",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5_POP0FxZE3u3uMX8rGY95",
-        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
-      ],
-      "playlistTitles": [
-        "밥 Rice",
-        "고기 Meat"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
-    },
-    {
-      "videoId": "YR3YtxROuak",
-      "sourceTitle": "이 방법을 알고나서 양상추는 더이상 생으로 안 먹어요 ❤️ 왜냐면...",
-      "sourceUrl": "https://www.youtube.com/watch?v=YR3YtxROuak",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5z40QG7BzRhg9aH4tahAQ6",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "샐러드 Salad",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
-    },
-    {
-      "videoId": "Kjd8OZU18u4",
-      "sourceTitle": "양배추를 이렇게 했더니 너무 맛있어서 매일 먹어요‼️ 양배추 한 통 순삭 👍🏻",
-      "sourceUrl": "https://www.youtube.com/watch?v=Kjd8OZU18u4",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5z40QG7BzRhg9aH4tahAQ6",
-        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "샐러드 Salad",
-        "양배추 Cabbage",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
-    },
-    {
-      "videoId": "ooYPlMfby4o",
-      "sourceTitle": "양배추와 참치는 이렇게 드세요‼️ 세상 간단하고 맛있습니다🤩",
-      "sourceUrl": "https://www.youtube.com/watch?v=ooYPlMfby4o",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5z40QG7BzRhg9aH4tahAQ6",
-        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "샐러드 Salad",
-        "양배추 Cabbage",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
-    },
-    {
-      "videoId": "964hwrnoeig",
-      "sourceTitle": "#2 평생 써먹는 건강해지고 살빠지는 레시피입니다. 항암, 항염증, 디톡스",
-      "sourceUrl": "https://www.youtube.com/watch?v=964hwrnoeig",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
-        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2"
-      ],
-      "playlistTitles": [
-        "토마토 Tomato",
-        "건강 Health"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "gUVs3NiRDJs",
-      "sourceTitle": "#1 평생 써먹는 건강해지고 살빠지는 레시피입니다. 꼭 해보세요❣️ 항암과 클렌징",
-      "sourceUrl": "https://www.youtube.com/watch?v=gUVs3NiRDJs",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
-        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
-        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "토마토 Tomato",
-        "국 찌개 Soup Stew",
-        "건강 Health",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
-    },
-    {
-      "videoId": "UyzSWpIIBbA",
-      "sourceTitle": "가지와 토마토는 간단하게 이렇게 해보세요‼️ 피자보다 더 맛있고 살도 안쪄요👍🏻",
-      "sourceUrl": "https://www.youtube.com/watch?v=UyzSWpIIBbA",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
-        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l"
-      ],
-      "playlistTitles": [
-        "토마토 Tomato",
-        "전 Jeon (Pancake, Omelet)"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+      "formatEvidence": "원본 playerMicroformatRenderer.isShortsEligible=False",
+      "servingsStatements": [],
+      "measureStatements": [],
+      "ingredientText": "달걀 3개\n부추 30g\n굴소스 1큰술 (소금 대체가능)",
+      "ingredientHash": "3f2c08eec468cba7098905ac3851d692cc33ba86e5fd276ce3f9632c9fd96345",
+      "nameSource": "editorial-ingredients",
+      "editorialName": "부추 달걀 요리",
+      "descriptionMenuName": null,
+      "nameSourceText": "달걀 3개\n부추 30g\n굴소스 1큰술 (소금 대체가능)",
+      "nameSourceEvidence": "2026-11-23 사용자 승인으로 확인된 재료를 바탕으로 붙인 설명용 이름. 확인하지 않은 볶음·찜 조리법은 추가하지 않음.",
+      "recipeId": "moony-IRhpRwIHRbw",
+      "name": "부추 달걀 요리",
+      "baseServings": 2,
+      "servingsRange": null,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "원문 전체 인분 미기재. 달걀3개·부추30g을 2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+      "ingredients": [
+        {
+          "sourceText": "달걀 3개",
+          "group": "재료",
+          "ingredientId": "egg",
+          "sourceAmount": 3,
+          "unit": "개",
+          "factor": 1,
+          "amount": 3,
+          "reason": null
+        },
+        {
+          "sourceText": "부추 30g",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-1ad0b371b22f",
+          "sourceAmount": 30,
+          "unit": "g",
+          "factor": 1,
+          "amount": 30,
+          "reason": null
+        },
+        {
+          "sourceText": "굴소스 1큰술 (소금 대체가능)",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-a370ec41eee9",
+          "sourceAmount": 1,
+          "unit": "큰술",
+          "factor": 1,
+          "amount": 1,
+          "reason": "원문 기본 굴소스만 포함하고 소금 대체는 중복 합산하지 않음"
+        }
+      ]
     },
     {
       "videoId": "E__F3vWxExQ",
@@ -7229,50 +7215,96 @@
       "sourceUrl": "https://www.youtube.com/watch?v=E__F3vWxExQ",
       "sourceName": "무니키친MoonyKitchen",
       "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "토마토 Tomato",
-        "채소 vegetable"
-      ],
+      "checkedOn": "2026-11-23",
       "videoFormat": "long-form",
-      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
-    },
-    {
-      "videoId": "Poffr1W9ewE",
-      "sourceTitle": "토마토에 달걀을 부어보세요🙏🏻  간단하고 맛있어서 아침식사로 최고입니다.",
-      "sourceUrl": "https://www.youtube.com/watch?v=Poffr1W9ewE",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
-        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
-      ],
-      "playlistTitles": [
-        "토마토 Tomato",
-        "전 Jeon (Pancake, Omelet)",
-        "달걀 Egg"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
-    },
-    {
-      "videoId": "bAuEhpgRHpM",
-      "sourceTitle": "월 매출 3000만원 인기 카페 사장님이 알려주신 최고 맛있는 샌드위치‼️",
-      "sourceUrl": "https://www.youtube.com/watch?v=bAuEhpgRHpM",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF"
-      ],
-      "playlistTitles": [
-        "토마토 Tomato"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+      "formatEvidence": "원본 playerMicroformatRenderer.isShortsEligible=False",
+      "servingsStatements": [],
+      "measureStatements": [],
+      "ingredientText": "큰 토마토 2개\n양파 중간크기 1/4개\n블랙올리브 10-13개\n올리브오일 80ml\n식초 30ml\n알룰로스 (또는 올리고당) 20ml\n소금 약간",
+      "ingredientHash": "a68f7bc4d276736b925c086c6e97fca8604bf326615d3342a5aa328f9f9bd47f",
+      "nameSource": "editorial-ingredients",
+      "editorialName": "올리브 토마토 절임",
+      "descriptionMenuName": null,
+      "nameSourceText": "큰 토마토 2개\n양파 중간크기 1/4개\n블랙올리브 10-13개\n올리브오일 80ml\n식초 30ml\n알룰로스 (또는 올리고당) 20ml\n소금 약간",
+      "nameSourceEvidence": "2026-11-23 사용자 승인으로 확인된 재료를 바탕으로 붙인 설명용 이름. 확인하지 않은 볶음·찜 조리법은 추가하지 않음.",
+      "recipeId": "moony-E__F3vWxExQ",
+      "name": "올리브 토마토 절임",
+      "baseServings": 4,
+      "servingsRange": null,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "원문 전체 인분 미기재. 큰 토마토2개·올리브오일80ml의 곁들임 절임 전량을 4인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+      "ingredients": [
+        {
+          "sourceText": "큰 토마토 2개",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-b72d4a479483",
+          "sourceAmount": 2,
+          "unit": "개",
+          "factor": 1,
+          "amount": 2,
+          "reason": null
+        },
+        {
+          "sourceText": "양파 중간크기 1/4개",
+          "group": "재료",
+          "ingredientId": "onion",
+          "sourceAmount": 0.25,
+          "unit": "개",
+          "factor": 1,
+          "amount": 0.25,
+          "reason": null
+        },
+        {
+          "sourceText": "블랙올리브 10-13개",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-928f436c94d3",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": "원문 재료 수량 범위10~13개 유지. 임의 단일량으로 계산하지 않음"
+        },
+        {
+          "sourceText": "올리브오일 80ml",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-893e840d1e9b",
+          "sourceAmount": 80,
+          "unit": "ml",
+          "factor": 1,
+          "amount": 80,
+          "reason": null
+        },
+        {
+          "sourceText": "식초 30ml",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+          "sourceAmount": 30,
+          "unit": "ml",
+          "factor": 1,
+          "amount": 30,
+          "reason": null
+        },
+        {
+          "sourceText": "알룰로스 (또는 올리고당) 20ml",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-44dae654a56c",
+          "sourceAmount": 20,
+          "unit": "ml",
+          "factor": 1,
+          "amount": 20,
+          "reason": "원문 기본 알룰로스만 반영하고 올리고당 대체는 중복 합산하지 않음"
+        },
+        {
+          "sourceText": "소금 약간",
+          "group": "재료",
+          "ingredientId": "salt",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": null
+        }
+      ]
     },
     {
       "videoId": "r-BA0P8uOkc",
@@ -7280,109 +7312,106 @@
       "sourceUrl": "https://www.youtube.com/watch?v=r-BA0P8uOkc",
       "sourceName": "무니키친MoonyKitchen",
       "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "토마토 Tomato",
-        "채소 vegetable"
-      ],
+      "checkedOn": "2026-11-23",
       "videoFormat": "long-form",
-      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
-    },
-    {
-      "videoId": "eBZ4_KTUg7A",
-      "sourceTitle": "간단한데 진짜 맛있는 살안찌는 파스타",
-      "sourceUrl": "https://www.youtube.com/watch?v=eBZ4_KTUg7A",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
-        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "토마토 Tomato",
-        "두부 Tofu",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "LPxOcAJUgvM",
-      "sourceTitle": "[역대급 초간단!!!] 영양소 손실없이 무조건 살빠지는 채소찜, 다이어트 최고의 식단",
-      "sourceUrl": "https://www.youtube.com/watch?v=LPxOcAJUgvM",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
-        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
-        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "토마토 Tomato",
-        "기본 Basic",
-        "건강 Health",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "집에 있는 야채400g만 표기되어 정확한 식재료 종류 확인 대기."
-    },
-    {
-      "videoId": "odZRf_X5orA",
-      "sourceTitle": "토마토는 이렇게 해보세요‼️ 강력한 항산화 효과로 2주만 꾸준히 먹어도 몸속 독소가 제거되고 혈관이 살아나요‼️",
-      "sourceUrl": "https://www.youtube.com/watch?v=odZRf_X5orA",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
-        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "토마토 Tomato",
-        "국 찌개 Soup Stew",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "ex-nrxXw71o",
-      "sourceTitle": "정말 살빠져요. 이탈리아 가정식, 가지요리, 야채 맛있게 먹는법, 저탄수화물, 저탄고지 키토식단",
-      "sourceUrl": "https://www.youtube.com/watch?v=ex-nrxXw71o",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "토마토 Tomato",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "t-veXBf_Ra4",
-      "sourceTitle": "봄에는 꼭 이 채소전을 해보세요‼️ 간단하고 너무 맛있어요 👉🏻👈🏻",
-      "sourceUrl": "https://www.youtube.com/watch?v=t-veXBf_Ra4",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "전 Jeon (Pancake, Omelet)",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+      "formatEvidence": "원본 playerMicroformatRenderer.isShortsEligible=False",
+      "servingsStatements": [],
+      "measureStatements": [],
+      "ingredientText": "토마토 300g\n양파 100g\n마늘 10g\n올리브오일 4Ts\n식초 1Ts\n소금 \n후추\n허브 한 줄기",
+      "ingredientHash": "f90d6c6bfff575aa7760f50b12e1176a5386121b7fc7d312bd3a879b13aafc96",
+      "nameSource": "editorial-ingredients",
+      "editorialName": "양파 토마토 요리",
+      "descriptionMenuName": null,
+      "nameSourceText": "토마토 300g\n양파 100g\n마늘 10g\n올리브오일 4Ts\n식초 1Ts\n소금 \n후추\n허브 한 줄기",
+      "nameSourceEvidence": "2026-11-23 사용자 승인 재료 기반 편집명. 가지전은 원본 제목에 전이 명시되며 다른 메뉴에는 미확인 조리법을 추가하지 않음.",
+      "recipeId": "moony-r-BA0P8uOkc",
+      "name": "양파 토마토 요리",
+      "baseServings": 4,
+      "servingsRange": null,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "원문 전체 인분 미기재. 토마토300g·양파100g·올리브오일4Ts의 곁들임 전량을 4인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+      "ingredients": [
+        {
+          "sourceText": "토마토 300g",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-b72d4a479483",
+          "sourceAmount": 300,
+          "unit": "g",
+          "factor": 1,
+          "amount": 300,
+          "reason": null
+        },
+        {
+          "sourceText": "양파 100g",
+          "group": "재료",
+          "ingredientId": "onion",
+          "sourceAmount": 100,
+          "unit": "g",
+          "factor": 1,
+          "amount": 100,
+          "reason": null
+        },
+        {
+          "sourceText": "마늘 10g",
+          "group": "재료",
+          "ingredientId": "garlic",
+          "sourceAmount": 10,
+          "unit": "g",
+          "factor": 1,
+          "amount": 10,
+          "reason": null
+        },
+        {
+          "sourceText": "올리브오일 4Ts",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-893e840d1e9b",
+          "sourceAmount": 4,
+          "unit": "Ts",
+          "factor": 1,
+          "amount": 4,
+          "reason": null
+        },
+        {
+          "sourceText": "식초 1Ts",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+          "sourceAmount": 1,
+          "unit": "Ts",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        },
+        {
+          "sourceText": "소금",
+          "group": "재료",
+          "ingredientId": "salt",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": null
+        },
+        {
+          "sourceText": "후추",
+          "group": "재료",
+          "ingredientId": "pepper",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": null
+        },
+        {
+          "sourceText": "허브 한 줄기",
+          "group": "재료",
+          "ingredientId": "moony-unspecified-herb",
+          "sourceAmount": 1,
+          "unit": "줄기",
+          "factor": 1,
+          "amount": 1,
+          "reason": "원문 허브 종류 미기재. 바질·로즈마리 등으로 임의 확정하지 않음"
+        }
+      ]
     },
     {
       "videoId": "-IobWfRmPq0",
@@ -7390,16 +7419,66 @@
       "sourceUrl": "https://www.youtube.com/watch?v=-IobWfRmPq0",
       "sourceName": "무니키친MoonyKitchen",
       "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
-      ],
-      "playlistTitles": [
-        "전 Jeon (Pancake, Omelet)",
-        "달걀 Egg"
-      ],
+      "checkedOn": "2026-11-23",
       "videoFormat": "long-form",
-      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+      "formatEvidence": "원본 playerMicroformatRenderer.isShortsEligible=False",
+      "servingsStatements": [],
+      "measureStatements": [],
+      "ingredientText": "팽이버섯 1봉 (150g)\n달걀 2개\n소금\n대파",
+      "ingredientHash": "025ea9a0d05ff4baf12563560ccc2cea3457fb1394223d23adc05061abbbdf6a",
+      "nameSource": "editorial-ingredients",
+      "editorialName": "팽이버섯 달걀 요리",
+      "descriptionMenuName": null,
+      "nameSourceText": "팽이버섯 1봉 (150g)\n달걀 2개\n소금\n대파",
+      "nameSourceEvidence": "2026-11-23 사용자 승인 재료 기반 편집명. 가지전은 원본 제목에 전이 명시되며 다른 메뉴에는 미확인 조리법을 추가하지 않음.",
+      "recipeId": "moony--IobWfRmPq0",
+      "name": "팽이버섯 달걀 요리",
+      "baseServings": 2,
+      "servingsRange": null,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "원문 전체 인분 미기재. 팽이버섯150g·달걀2개을 2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+      "ingredients": [
+        {
+          "sourceText": "팽이버섯 1봉 (150g)",
+          "group": "재료",
+          "ingredientId": "enoki",
+          "sourceAmount": 150,
+          "unit": "g",
+          "factor": 1,
+          "amount": 150,
+          "reason": null
+        },
+        {
+          "sourceText": "달걀 2개",
+          "group": "재료",
+          "ingredientId": "egg",
+          "sourceAmount": 2,
+          "unit": "개",
+          "factor": 1,
+          "amount": 2,
+          "reason": null
+        },
+        {
+          "sourceText": "소금",
+          "group": "재료",
+          "ingredientId": "salt",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": null
+        },
+        {
+          "sourceText": "대파",
+          "group": "재료",
+          "ingredientId": "green-onion",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": null
+        }
+      ]
     },
     {
       "videoId": "nvojrMwWzwg",
@@ -7407,69 +7486,76 @@
       "sourceUrl": "https://www.youtube.com/watch?v=nvojrMwWzwg",
       "sourceName": "무니키친MoonyKitchen",
       "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
-        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
-      ],
-      "playlistTitles": [
-        "전 Jeon (Pancake, Omelet)",
-        "두부 Tofu"
-      ],
+      "checkedOn": "2026-11-23",
       "videoFormat": "long-form",
-      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
-    },
-    {
-      "videoId": "hXx_pqMM1tA",
-      "sourceTitle": "달걀과 밀가루 없이 양배추는 이렇게 하세요‼️ 최고로 맛있습니다.",
-      "sourceUrl": "https://www.youtube.com/watch?v=hXx_pqMM1tA",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
-        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "전 Jeon (Pancake, Omelet)",
-        "양배추 Cabbage",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "mMO4RlNG96s",
-      "sourceTitle": "배추 안 먹는 딸아이도 몇 접시 순삭했네요‼️ 밀가루 없이 더 건강하고 맛있는 배추전 😍",
-      "sourceUrl": "https://www.youtube.com/watch?v=mMO4RlNG96s",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "전 Jeon (Pancake, Omelet)",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "sBMIS_CyPvE",
-      "sourceTitle": "전을 이렇게 부치면 살도 안찌고 훨씬 맛있어요‼️ 밀가루 없이 쉽고 더 맛있는 채소 부침개😋",
-      "sourceUrl": "https://www.youtube.com/watch?v=sBMIS_CyPvE",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
-      ],
-      "playlistTitles": [
-        "전 Jeon (Pancake, Omelet)",
-        "달걀 Egg"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+      "formatEvidence": "원본 playerMicroformatRenderer.isShortsEligible=False",
+      "servingsStatements": [],
+      "measureStatements": [],
+      "ingredientText": "두부 300g\n김치 100g\n숙주나물 50g\n오트밀가루 2Tbsp\n달걀 2개",
+      "ingredientHash": "bd5b7917544d7ea530f6de06baf223c0a0caf2dc22969597e243552cb828f512",
+      "nameSource": "editorial-ingredients",
+      "editorialName": "김치 숙주 두부 요리",
+      "descriptionMenuName": null,
+      "nameSourceText": "두부 300g\n김치 100g\n숙주나물 50g\n오트밀가루 2Tbsp\n달걀 2개",
+      "nameSourceEvidence": "2026-11-23 사용자 승인 재료 기반 편집명. 가지전은 원본 제목에 전이 명시되며 다른 메뉴에는 미확인 조리법을 추가하지 않음.",
+      "recipeId": "moony-nvojrMwWzwg",
+      "name": "김치 숙주 두부 요리",
+      "baseServings": 2,
+      "servingsRange": null,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "원문 전체 인분 미기재. 두부300g·김치100g·숙주50g·달걀2개을 2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+      "ingredients": [
+        {
+          "sourceText": "두부 300g",
+          "group": "재료",
+          "ingredientId": "tofu",
+          "sourceAmount": 300,
+          "unit": "g",
+          "factor": 1,
+          "amount": 300,
+          "reason": null
+        },
+        {
+          "sourceText": "김치 100g",
+          "group": "재료",
+          "ingredientId": "kimchi",
+          "sourceAmount": 100,
+          "unit": "g",
+          "factor": 1,
+          "amount": 100,
+          "reason": null
+        },
+        {
+          "sourceText": "숙주나물 50g",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-f3c65966adf6",
+          "sourceAmount": 50,
+          "unit": "g",
+          "factor": 1,
+          "amount": 50,
+          "reason": null
+        },
+        {
+          "sourceText": "오트밀가루 2Tbsp",
+          "group": "재료",
+          "ingredientId": "moony-oat-flour",
+          "sourceAmount": 2,
+          "unit": "Tbsp",
+          "factor": 1,
+          "amount": 2,
+          "reason": null
+        },
+        {
+          "sourceText": "달걀 2개",
+          "group": "재료",
+          "ingredientId": "egg",
+          "sourceAmount": 2,
+          "unit": "개",
+          "factor": 1,
+          "amount": 2,
+          "reason": null
+        }
+      ]
     },
     {
       "videoId": "yULmVNGhZb4",
@@ -7477,148 +7563,56 @@
       "sourceUrl": "https://www.youtube.com/watch?v=yULmVNGhZb4",
       "sourceName": "무니키친MoonyKitchen",
       "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
-      ],
-      "playlistTitles": [
-        "전 Jeon (Pancake, Omelet)",
-        "달걀 Egg"
-      ],
+      "checkedOn": "2026-11-23",
       "videoFormat": "long-form",
-      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
-    },
-    {
-      "videoId": "TXx96IqQgWc",
-      "sourceTitle": "김밥을 이렇게 하면 살 안쪄요 ‼️ 밥 없는 김밥보다 더 맛있고 만들기 쉬운 양배추 김밥 ❤️",
-      "sourceUrl": "https://www.youtube.com/watch?v=TXx96IqQgWc",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ",
-        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
-      ],
-      "playlistTitles": [
-        "김밥 Gimbap",
-        "양배추 Cabbage"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
-    },
-    {
-      "videoId": "0wywf4Hjq-M",
-      "sourceTitle": "양배추 김밥 말고 양배추 주먹밥 🍙  더 간단하고 맛이 좋아요 😋",
-      "sourceUrl": "https://www.youtube.com/watch?v=0wywf4Hjq-M",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ",
-        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
-      ],
-      "playlistTitles": [
-        "김밥 Gimbap",
-        "양배추 Cabbage"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
-    },
-    {
-      "videoId": "HdBvbJjMpR0",
-      "sourceTitle": "양배추 김밥, 이렇게 하면 밥 없는 김밥 보다 맛있고 쉬워요.",
-      "sourceUrl": "https://www.youtube.com/watch?v=HdBvbJjMpR0",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ",
-        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
-      ],
-      "playlistTitles": [
-        "김밥 Gimbap",
-        "양배추 Cabbage"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "V8KMMzzFUis",
-      "sourceTitle": "양배추 폭탄💣 김밥😍 이렇게 먹으면 5kg 감량은 기본‼️",
-      "sourceUrl": "https://www.youtube.com/watch?v=V8KMMzzFUis",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ",
-        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "김밥 Gimbap",
-        "양배추 Cabbage",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "Pp2TqnIhSBE",
-      "sourceTitle": "이 김밥은 꼭 만들어 보셔야 하는데...쉽고 맛있거든요~",
-      "sourceUrl": "https://www.youtube.com/watch?v=Pp2TqnIhSBE",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ"
-      ],
-      "playlistTitles": [
-        "김밥 Gimbap"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "Tml7gORfC38",
-      "sourceTitle": "[꿀팁! 다드림] OOOO로 쉽게 만드는 다이어트 주먹밥, 밥버거, 오니기라즈",
-      "sourceUrl": "https://www.youtube.com/watch?v=Tml7gORfC38",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ",
-        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
-      ],
-      "playlistTitles": [
-        "김밥 Gimbap",
-        "양배추 Cabbage"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "GyDYQPVKxck",
-      "sourceTitle": "[꿀팁! 밥 3스푼] 김밥 만들 때 이것으로 시간 절약, 맛있는 집 김밥 비법 알려드림",
-      "sourceUrl": "https://www.youtube.com/watch?v=GyDYQPVKxck",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ"
-      ],
-      "playlistTitles": [
-        "김밥 Gimbap"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "HAmHijbuyvU",
-      "sourceTitle": "밥없는 김밥, 다이어트 김밥, 키토김밥, 김밥 예쁘게 마는 법, Kimbap Recipe | KETO, LCHF, Low Carb Recipe, 저탄수, 저탄고지, 키토제닉 레시피",
-      "sourceUrl": "https://www.youtube.com/watch?v=HAmHijbuyvU",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ"
-      ],
-      "playlistTitles": [
-        "김밥 Gimbap"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+      "formatEvidence": "원본 playerMicroformatRenderer.isShortsEligible=False",
+      "servingsStatements": [],
+      "measureStatements": [],
+      "ingredientText": "달걀 3개 (보통크기)\n가지 1개\n쪽파 1줄",
+      "ingredientHash": "9138062e2752edf3b11f2aadc89ae42288f885a6103ce3156247cc30e1b3bac4",
+      "nameSource": "editorial-ingredients",
+      "editorialName": "가지 달걀전",
+      "descriptionMenuName": null,
+      "nameSourceText": "달걀 3개 (보통크기)\n가지 1개\n쪽파 1줄",
+      "nameSourceEvidence": "2026-11-23 사용자 승인 재료 기반 편집명. 가지전은 원본 제목에 전이 명시되며 다른 메뉴에는 미확인 조리법을 추가하지 않음.",
+      "recipeId": "moony-yULmVNGhZb4",
+      "name": "가지 달걀전",
+      "baseServings": 2,
+      "servingsRange": null,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "원문 전체 인분 미기재. 가지1개·달걀3개을 2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+      "ingredients": [
+        {
+          "sourceText": "달걀 3개 (보통크기)",
+          "group": "재료",
+          "ingredientId": "egg",
+          "sourceAmount": 3,
+          "unit": "개",
+          "factor": 1,
+          "amount": 3,
+          "reason": null
+        },
+        {
+          "sourceText": "가지 1개",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-b16bec1ce2b9",
+          "sourceAmount": 1,
+          "unit": "개",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        },
+        {
+          "sourceText": "쪽파 1줄",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-2c2d3d29972f",
+          "sourceAmount": 1,
+          "unit": "줄",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        }
+      ]
     },
     {
       "videoId": "VV0XnOmCRpM",
@@ -7626,18 +7620,96 @@
       "sourceUrl": "https://www.youtube.com/watch?v=VV0XnOmCRpM",
       "sourceName": "무니키친MoonyKitchen",
       "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1",
-        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "해물 Seafood",
-        "건강 Health",
-        "채소 vegetable"
-      ],
+      "checkedOn": "2026-11-23",
       "videoFormat": "long-form",
-      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+      "formatEvidence": "원본 playerMicroformatRenderer.isShortsEligible=False",
+      "servingsStatements": [],
+      "measureStatements": [],
+      "ingredientText": "미니 파프리카 3개 \n양배추 손바닥 사이즈 2장  \n아스파라거스 3개\n냉동새우  7-8마리\n레몬 1/2개\n소금\n올리브오일",
+      "ingredientHash": "b4cd5c2c8ef79192937fae75c5d064d8c247a2883054b7dfdef480b3d3cf4e2d",
+      "nameSource": "editorial-ingredients",
+      "editorialName": "새우 채소 요리",
+      "descriptionMenuName": null,
+      "nameSourceText": "미니 파프리카 3개 \n양배추 손바닥 사이즈 2장  \n아스파라거스 3개\n냉동새우  7-8마리\n레몬 1/2개\n소금\n올리브오일",
+      "nameSourceEvidence": "2026-11-23 사용자 승인 재료 기반 편집명. 가지전은 원본 제목에 전이 명시되며 다른 메뉴에는 미확인 조리법을 추가하지 않음.",
+      "recipeId": "moony-VV0XnOmCRpM",
+      "name": "새우 채소 요리",
+      "baseServings": 2,
+      "servingsRange": null,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "원문 전체 인분 미기재. 미니파프리카3개·양배추2장·아스파라거스3개·냉동새우7~8마리을 2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+      "ingredients": [
+        {
+          "sourceText": "미니 파프리카 3개",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-826e8e7e7e13",
+          "sourceAmount": 3,
+          "unit": "개",
+          "factor": 1,
+          "amount": 3,
+          "reason": null
+        },
+        {
+          "sourceText": "양배추 손바닥 사이즈 2장",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-e8715cd21524",
+          "sourceAmount": 2,
+          "unit": "장",
+          "factor": 1,
+          "amount": 2,
+          "reason": null
+        },
+        {
+          "sourceText": "아스파라거스 3개",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-60a5407a0163",
+          "sourceAmount": 3,
+          "unit": "개",
+          "factor": 1,
+          "amount": 3,
+          "reason": null
+        },
+        {
+          "sourceText": "냉동새우  7-8마리",
+          "group": "재료",
+          "ingredientId": "eonam-frozen-whole-shrimp",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": "원문7~8마리 범위를 단일값으로 만들지 않음"
+        },
+        {
+          "sourceText": "레몬 1/2개",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-3de26124efde",
+          "sourceAmount": 0.5,
+          "unit": "개",
+          "factor": 1,
+          "amount": 0.5,
+          "reason": null
+        },
+        {
+          "sourceText": "소금",
+          "group": "재료",
+          "ingredientId": "salt",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": null
+        },
+        {
+          "sourceText": "올리브오일",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-893e840d1e9b",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": null
+        }
+      ]
     },
     {
       "videoId": "hm4yLs-sxoU",
@@ -7645,146 +7717,106 @@
       "sourceUrl": "https://www.youtube.com/watch?v=hm4yLs-sxoU",
       "sourceName": "무니키친MoonyKitchen",
       "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1",
-        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0"
-      ],
-      "playlistTitles": [
-        "해물 Seafood",
-        "국 찌개 Soup Stew"
-      ],
+      "checkedOn": "2026-11-23",
       "videoFormat": "long-form",
-      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
-    },
-    {
-      "videoId": "EUhEeE5Vh60",
-      "sourceTitle": "25kg 감량하고 10년 유지한 다이어터의 밥 먹는 방법",
-      "sourceUrl": "https://www.youtube.com/watch?v=EUhEeE5Vh60",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1"
-      ],
-      "playlistTitles": [
-        "해물 Seafood"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "D4ejxlQwRdA",
-      "sourceTitle": "생선을 이렇게 구우면 집안에 생선 냄새가 1도 안 나고 훨씬 맛있어집니다.",
-      "sourceUrl": "https://www.youtube.com/watch?v=D4ejxlQwRdA",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1",
-        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
-      ],
-      "playlistTitles": [
-        "해물 Seafood",
-        "기본 Basic"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "Yih142DON_k",
-      "sourceTitle": "[약혐]오징어는 물에 데치면 손해!!!, 매우 쉬운 오징어 손질법",
-      "sourceUrl": "https://www.youtube.com/watch?v=Yih142DON_k",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1",
-        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
-      ],
-      "playlistTitles": [
-        "해물 Seafood",
-        "고기 Meat"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
-    },
-    {
-      "videoId": "iQDfoHtlZ1Q",
-      "sourceTitle": "저탄수, 키토제닉 봉골레 파스타 만들기, LowCarb, Ketogenic Vongole pasta",
-      "sourceUrl": "https://www.youtube.com/watch?v=iQDfoHtlZ1Q",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1"
-      ],
-      "playlistTitles": [
-        "해물 Seafood"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "3sSkkx9MaxY",
-      "sourceTitle": "김치찌개는 제발 새로운 방법으로 끓이세요 🙏🏻 너무 맛있어서 기절합니다.",
-      "sourceUrl": "https://www.youtube.com/watch?v=3sSkkx9MaxY",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0"
-      ],
-      "playlistTitles": [
-        "국 찌개 Soup Stew"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
-    },
-    {
-      "videoId": "abTCWmjRjFM",
-      "sourceTitle": "김치찌개는 제발 이렇게 끓이세요🙏🏻 진짜 너무 맛있어요!!! 우리집 인기메뉴",
-      "sourceUrl": "https://www.youtube.com/watch?v=abTCWmjRjFM",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0"
-      ],
-      "playlistTitles": [
-        "국 찌개 Soup Stew"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
-    },
-    {
-      "videoId": "YXUHH-9v0a4",
-      "sourceTitle": "두부를 이렇게 요리하세요‼️ 식구들이 너무 맛있다고 매일 해달라고 졸라요🤩",
-      "sourceUrl": "https://www.youtube.com/watch?v=YXUHH-9v0a4",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
-        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
-      ],
-      "playlistTitles": [
-        "국 찌개 Soup Stew",
-        "두부 Tofu"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
-    },
-    {
-      "videoId": "n-zNjCJhw_k",
-      "sourceTitle": "겨울에 두부는 이렇게 요리하세요~ 😋 매일 먹어도 질리지 않아요‼️",
-      "sourceUrl": "https://www.youtube.com/watch?v=n-zNjCJhw_k",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
-        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "국 찌개 Soup Stew",
-        "두부 Tofu",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+      "formatEvidence": "원본 playerMicroformatRenderer.isShortsEligible=False",
+      "servingsStatements": [],
+      "measureStatements": [],
+      "ingredientText": "무 150g\n대파 2줄기\n버섯 100g\n육수 400ml\n굴 200g\n쑥갓 80g \n어간장 1Tbsp\n고춧가루 1Tbsp",
+      "ingredientHash": "7fb8fc60f67fdea57fa1f65ef952e78ccbb074dcd17f6154a72f4d6ca71d9da0",
+      "nameSource": "editorial-ingredients",
+      "editorialName": "굴 쑥갓 국물 요리",
+      "descriptionMenuName": null,
+      "nameSourceText": "무 150g\n대파 2줄기\n버섯 100g\n육수 400ml\n굴 200g\n쑥갓 80g \n어간장 1Tbsp\n고춧가루 1Tbsp",
+      "nameSourceEvidence": "2026-11-23 사용자 승인 재료 기반 편집명. 가지전은 원본 제목에 전이 명시되며 다른 메뉴에는 미확인 조리법을 추가하지 않음.",
+      "recipeId": "moony-hm4yLs-sxoU",
+      "name": "굴 쑥갓 국물 요리",
+      "baseServings": 2,
+      "servingsRange": null,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "원문 전체 인분 미기재. 굴200g·무150g·육수400ml을 2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+      "ingredients": [
+        {
+          "sourceText": "무 150g",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-a367ab3717bf",
+          "sourceAmount": 150,
+          "unit": "g",
+          "factor": 1,
+          "amount": 150,
+          "reason": null
+        },
+        {
+          "sourceText": "대파 2줄기",
+          "group": "재료",
+          "ingredientId": "green-onion",
+          "sourceAmount": 2,
+          "unit": "줄기",
+          "factor": 1,
+          "amount": 2,
+          "reason": null
+        },
+        {
+          "sourceText": "버섯 100g",
+          "group": "재료",
+          "ingredientId": "generic-mushrooms",
+          "sourceAmount": 100,
+          "unit": "g",
+          "factor": 1,
+          "amount": 100,
+          "reason": "원문 버섯 종류 미기재. 특정 품종으로 치환하지 않음"
+        },
+        {
+          "sourceText": "육수 400ml",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-c13a897bbdb9",
+          "sourceAmount": 400,
+          "unit": "ml",
+          "factor": 1,
+          "amount": 400,
+          "reason": null
+        },
+        {
+          "sourceText": "굴 200g",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-1c5d8750968f",
+          "sourceAmount": 200,
+          "unit": "g",
+          "factor": 1,
+          "amount": 200,
+          "reason": null
+        },
+        {
+          "sourceText": "쑥갓 80g",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-6969874bbbc2",
+          "sourceAmount": 80,
+          "unit": "g",
+          "factor": 1,
+          "amount": 80,
+          "reason": null
+        },
+        {
+          "sourceText": "어간장 1Tbsp",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-93193bf761a6",
+          "sourceAmount": 1,
+          "unit": "Tbsp",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        },
+        {
+          "sourceText": "고춧가루 1Tbsp",
+          "group": "재료",
+          "ingredientId": "chili",
+          "sourceAmount": 1,
+          "unit": "Tbsp",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        }
+      ]
     },
     {
       "videoId": "IMvO7aBct7w",
@@ -7792,18 +7824,116 @@
       "sourceUrl": "https://www.youtube.com/watch?v=IMvO7aBct7w",
       "sourceName": "무니키친MoonyKitchen",
       "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
-        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "국 찌개 Soup Stew",
-        "두부 Tofu",
-        "채소 vegetable"
-      ],
+      "checkedOn": "2026-11-23",
       "videoFormat": "long-form",
-      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+      "formatEvidence": "원본 playerMicroformatRenderer.isShortsEligible=False",
+      "servingsStatements": [],
+      "measureStatements": [],
+      "ingredientText": "두부 1모\n집된장 1큰술\n시판된장 1큰술 \n고춧가루 1큰술\n양파 1/2개\n표고버섯 2개\n대파 1줄기\n청,홍고추 각 1개",
+      "ingredientHash": "890e777d1e6520ae81e3d705e260e42a523a706dda17cc4a82b57409b29b5b25",
+      "nameSource": "editorial-ingredients",
+      "editorialName": "두부 된장 요리",
+      "descriptionMenuName": null,
+      "nameSourceText": "두부 1모\n집된장 1큰술\n시판된장 1큰술 \n고춧가루 1큰술\n양파 1/2개\n표고버섯 2개\n대파 1줄기\n청,홍고추 각 1개",
+      "nameSourceEvidence": "2026-11-23 사용자 승인 재료 기반 편집명. 가지전은 원본 제목에 전이 명시되며 다른 메뉴에는 미확인 조리법을 추가하지 않음.",
+      "recipeId": "moony-IMvO7aBct7w",
+      "name": "두부 된장 요리",
+      "baseServings": 2,
+      "servingsRange": null,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "원문 전체 인분 미기재. 두부1모·양파1/2개·표고버섯2개을 2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+      "ingredients": [
+        {
+          "sourceText": "두부 1모",
+          "group": "재료",
+          "ingredientId": "tofu",
+          "sourceAmount": 1,
+          "unit": "모",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        },
+        {
+          "sourceText": "집된장 1큰술",
+          "group": "재료",
+          "ingredientId": "mincook-ingredient-35956a40a55c",
+          "sourceAmount": 1,
+          "unit": "큰술",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        },
+        {
+          "sourceText": "시판된장 1큰술",
+          "group": "재료",
+          "ingredientId": "doenjang",
+          "sourceAmount": 1,
+          "unit": "큰술",
+          "factor": 1,
+          "amount": 1,
+          "reason": "원문 시판된장. 집된장과 사용 내역을 구분"
+        },
+        {
+          "sourceText": "고춧가루 1큰술",
+          "group": "재료",
+          "ingredientId": "chili",
+          "sourceAmount": 1,
+          "unit": "큰술",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        },
+        {
+          "sourceText": "양파 1/2개",
+          "group": "재료",
+          "ingredientId": "onion",
+          "sourceAmount": 0.5,
+          "unit": "개",
+          "factor": 1,
+          "amount": 0.5,
+          "reason": null
+        },
+        {
+          "sourceText": "표고버섯 2개",
+          "group": "재료",
+          "ingredientId": "shiitake",
+          "sourceAmount": 2,
+          "unit": "개",
+          "factor": 1,
+          "amount": 2,
+          "reason": null
+        },
+        {
+          "sourceText": "대파 1줄기",
+          "group": "재료",
+          "ingredientId": "green-onion",
+          "sourceAmount": 1,
+          "unit": "줄기",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        },
+        {
+          "sourceText": "청,홍고추 각 1개",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-6d924947c657",
+          "sourceAmount": 1,
+          "unit": "개",
+          "factor": 1,
+          "amount": 1,
+          "reason": "원문 청·홍고추 각1개"
+        },
+        {
+          "sourceText": "청,홍고추 각 1개",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-fb37e6e6db2c",
+          "sourceAmount": 1,
+          "unit": "개",
+          "factor": 1,
+          "amount": 1,
+          "reason": "원문 청·홍고추 각1개"
+        }
+      ]
     },
     {
       "videoId": "k6hII4CZ4gA",
@@ -7811,18 +7941,146 @@
       "sourceUrl": "https://www.youtube.com/watch?v=k6hII4CZ4gA",
       "sourceName": "무니키친MoonyKitchen",
       "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
-        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
-        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
-      ],
-      "playlistTitles": [
-        "국 찌개 Soup Stew",
-        "건강 Health",
-        "고기 Meat"
-      ],
+      "checkedOn": "2026-11-23",
       "videoFormat": "long-form",
-      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+      "formatEvidence": "원본 playerMicroformatRenderer.isShortsEligible=False",
+      "servingsStatements": [],
+      "measureStatements": [],
+      "ingredientText": "소고기 150g\n배추 5-7장\n숙주나물 2줌\n대파 2줄기\n버섯 80g\n청경채 2줄기\n참치액\n간장 2T\n알룰로스 또는 올리고당 1.5T\n식초 1.5T\n크러쉬드 레드페퍼\n연겨자",
+      "ingredientHash": "bbde8d8b1bd9fd88c6ee283889e73cfa47c053a1c80c8937928b10a6654105a5",
+      "nameSource": "editorial-ingredients",
+      "editorialName": "소고기 배추 채소 요리",
+      "descriptionMenuName": null,
+      "nameSourceText": "소고기 150g\n배추 5-7장\n숙주나물 2줌\n대파 2줄기\n버섯 80g\n청경채 2줄기\n참치액\n간장 2T\n알룰로스 또는 올리고당 1.5T\n식초 1.5T\n크러쉬드 레드페퍼\n연겨자",
+      "nameSourceEvidence": "2026-11-23 사용자 승인 재료 기반 편집명. 가지전은 원본 제목에 전이 명시되며 다른 메뉴에는 미확인 조리법을 추가하지 않음.",
+      "recipeId": "moony-k6hII4CZ4gA",
+      "name": "소고기 배추 채소 요리",
+      "baseServings": 2,
+      "servingsRange": null,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "원문 전체 인분 미기재. 소고기150g·숙주2줌·버섯80g·배추5~7장을 2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+      "ingredients": [
+        {
+          "sourceText": "소고기 150g",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-4d21b5532cae",
+          "sourceAmount": 150,
+          "unit": "g",
+          "factor": 1,
+          "amount": 150,
+          "reason": null
+        },
+        {
+          "sourceText": "배추 5-7장",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-a18cd4c77384",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": "원문5~7장 범위를 단일값으로 만들지 않음"
+        },
+        {
+          "sourceText": "숙주나물 2줌",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-f3c65966adf6",
+          "sourceAmount": 2,
+          "unit": "줌",
+          "factor": 1,
+          "amount": 2,
+          "reason": null
+        },
+        {
+          "sourceText": "대파 2줄기",
+          "group": "재료",
+          "ingredientId": "green-onion",
+          "sourceAmount": 2,
+          "unit": "줄기",
+          "factor": 1,
+          "amount": 2,
+          "reason": null
+        },
+        {
+          "sourceText": "버섯 80g",
+          "group": "재료",
+          "ingredientId": "generic-mushrooms",
+          "sourceAmount": 80,
+          "unit": "g",
+          "factor": 1,
+          "amount": 80,
+          "reason": null
+        },
+        {
+          "sourceText": "청경채 2줄기",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-bc7eef98b737",
+          "sourceAmount": 2,
+          "unit": "줄기",
+          "factor": 1,
+          "amount": 2,
+          "reason": null
+        },
+        {
+          "sourceText": "참치액",
+          "group": "재료",
+          "ingredientId": "tuna-extract",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": null
+        },
+        {
+          "sourceText": "간장 2T",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-a1119fcde4c7",
+          "sourceAmount": 2,
+          "unit": "T",
+          "factor": 1,
+          "amount": 2,
+          "reason": null
+        },
+        {
+          "sourceText": "알룰로스 또는 올리고당 1.5T",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-44dae654a56c",
+          "sourceAmount": 1.5,
+          "unit": "T",
+          "factor": 1,
+          "amount": 1.5,
+          "reason": "원문 대체재 중 알룰로스 한 가지만 포함"
+        },
+        {
+          "sourceText": "식초 1.5T",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-c74ebaef4a5f",
+          "sourceAmount": 1.5,
+          "unit": "T",
+          "factor": 1,
+          "amount": 1.5,
+          "reason": null
+        },
+        {
+          "sourceText": "크러쉬드 레드페퍼",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-4d90112dae06",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": null
+        },
+        {
+          "sourceText": "연겨자",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-24bd88b39369",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": null
+        }
+      ]
     },
     {
       "videoId": "XFEJgyvUQQ4",
@@ -7830,887 +8088,89 @@
       "sourceUrl": "https://www.youtube.com/watch?v=XFEJgyvUQQ4",
       "sourceName": "무니키친MoonyKitchen",
       "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
-        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "국 찌개 Soup Stew",
-        "두부 Tofu",
-        "채소 vegetable"
-      ],
+      "checkedOn": "2026-11-23",
       "videoFormat": "long-form",
-      "reason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
-    },
-    {
-      "videoId": "la8s80dcEkk",
-      "sourceTitle": "양배추와 가을 채소로 만들었어요😍 건강하고 맛있고 속이 편해요‼️",
-      "sourceUrl": "https://www.youtube.com/watch?v=la8s80dcEkk",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
-        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "국 찌개 Soup Stew",
-        "양배추 Cabbage",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "gPYIp5nrR0k",
-      "sourceTitle": "대파와 소고기를 이렇게 했더니 식구들이 너무 맛있다고 난리에요! 살빠지는 대파 소고기 찌개",
-      "sourceUrl": "https://www.youtube.com/watch?v=gPYIp5nrR0k",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
-        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
-      ],
-      "playlistTitles": [
-        "국 찌개 Soup Stew",
-        "고기 Meat"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "BxvkW4FD0C4",
-      "sourceTitle": "[초간단] 계란을 휘저어 넣기만 하면 끝나는 속편한 간편식, 다이어트 식단, 해장국 추천",
-      "sourceUrl": "https://www.youtube.com/watch?v=BxvkW4FD0C4",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
-      ],
-      "playlistTitles": [
-        "국 찌개 Soup Stew",
-        "달걀 Egg"
-      ],
-      "videoFormat": "long-form",
-      "reason": "멸치15개·다시마·물1000ml로 직접 만드는 육수의 완성수율과 실제1000ml 사용의 관계 확인 대기."
-    },
-    {
-      "videoId": "4v-qOeMo9Ek",
-      "sourceTitle": "[한식vs양식]등갈비로 쉽고 고급진 손님초대요리 2가지, 김치찜, 바베큐 폭립",
-      "sourceUrl": "https://www.youtube.com/watch?v=4v-qOeMo9Ek",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
-        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
-      ],
-      "playlistTitles": [
-        "국 찌개 Soup Stew",
-        "고기 Meat"
-      ],
-      "videoFormat": "long-form",
-      "reason": "김치찜·폭립 공통 재료의 요리별 배분과 전체 사용 분량 확인 대기."
-    },
-    {
-      "videoId": "ib5oC_pYhUs",
-      "sourceTitle": "4가지 재료로 잡내 없는 깔끔한 갈비탕 만들기",
-      "sourceUrl": "https://www.youtube.com/watch?v=ib5oC_pYhUs",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
-        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
-      ],
-      "playlistTitles": [
-        "국 찌개 Soup Stew",
-        "고기 Meat"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "gvJm-2jBRr8",
-      "sourceTitle": "(  )로 5분안에 가능, 순두부찌개",
-      "sourceUrl": "https://www.youtube.com/watch?v=gvJm-2jBRr8",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0"
-      ],
-      "playlistTitles": [
-        "국 찌개 Soup Stew"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "oABH69vAtQM",
-      "sourceTitle": "제대로 알려드려요~ 사골 끓이는 방법, 인생 설렁탕 만들기, 저탄수화물, 키토제닉 다이어트",
-      "sourceUrl": "https://www.youtube.com/watch?v=oABH69vAtQM",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
-        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
-      ],
-      "playlistTitles": [
-        "국 찌개 Soup Stew",
-        "고기 Meat"
-      ],
-      "videoFormat": "long-form",
-      "reason": "사골 제조 원재료 일부 수량은 있으나 물·고기·최종 제조분량이 없어 계산 기준 확인 대기."
-    },
-    {
-      "videoId": "vTb8KgIBpFM",
-      "sourceTitle": "자주 써서 더 유용한 살림템들 (이케아, 다이소, 자주)",
-      "sourceUrl": "https://www.youtube.com/watch?v=vTb8KgIBpFM",
-      "sourceName": "무니데이MoonyDay",
-      "channelId": "UCcVEa_f0q_t4WeHEmzVf_MQ",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "-QA9iryyEEM",
-      "sourceTitle": "추운 날씨, 따뜻한 집밥 레시피 3가지 (feat. 플렉스쿡)",
-      "sourceUrl": "https://www.youtube.com/watch?v=-QA9iryyEEM",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "Ipd93pLXT_o",
-      "sourceTitle": "가을 겨울에 우리집 인기 만점인 두부 반찬‼️ 채식 도시락, 다이어트 도시락🍱",
-      "sourceUrl": "https://www.youtube.com/watch?v=Ipd93pLXT_o",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R",
-        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen",
-        "두부 Tofu",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "Se7EqwnSevM",
-      "sourceTitle": "써보니 정말 좋았던 조리도구",
-      "sourceUrl": "https://www.youtube.com/watch?v=Se7EqwnSevM",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "DMItpG4a0Ag",
-      "sourceTitle": "재구매만 수십번한 마켓컬리 추천템들~ 완전 강추",
-      "sourceUrl": "https://www.youtube.com/watch?v=DMItpG4a0Ag",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "yBkPgzfC6nM",
-      "sourceTitle": "와플팬으로 스테이크를 구우면 일어나는 일 😱😓😭",
-      "sourceUrl": "https://www.youtube.com/watch?v=yBkPgzfC6nM",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R",
-        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen",
-        "고기 Meat"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "-3sGcVA-Vm8",
-      "sourceTitle": "안보면 손해, 레몬 남김없이 사용하는 꿀팁!!!",
-      "sourceUrl": "https://www.youtube.com/watch?v=-3sGcVA-Vm8",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R",
-        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen",
-        "기본 Basic",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "uZbnL3tkH48",
-      "sourceTitle": "[1분] 매우 쉬운 스텐팬 세척법",
-      "sourceUrl": "https://www.youtube.com/watch?v=uZbnL3tkH48",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "Dubqswfz158",
-      "sourceTitle": "이제 잘못 버리지 마세요. 잘못 알고 버려지는 것들 25가지",
-      "sourceUrl": "https://www.youtube.com/watch?v=Dubqswfz158",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "gsAxEHCHUnE",
-      "sourceTitle": "[25kg감량 10년유지] 다이어터의 간단한 식사와 간식, 당질제한, 키토제닉, 아이허브",
-      "sourceUrl": "https://www.youtube.com/watch?v=gsAxEHCHUnE",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "97xZUmP6OF0",
-      "sourceTitle": "특별한 3가지 반찬 + 이벤트",
-      "sourceUrl": "https://www.youtube.com/watch?v=97xZUmP6OF0",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "wsmF18jtEaI",
-      "sourceTitle": "아이허브 10년 유저의 찐템 30가지",
-      "sourceUrl": "https://www.youtube.com/watch?v=wsmF18jtEaI",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "iyLGCAY0UY0",
-      "sourceTitle": "이 책은 과연 뭐하는 책인가? (feat. 출간안내)",
-      "sourceUrl": "https://www.youtube.com/watch?v=iyLGCAY0UY0",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "uxEZ0eu1V3Y",
-      "sourceTitle": "꼭 필요한 5개의 냄비와 팬, 팬 리뷰와 냄비 추천",
-      "sourceUrl": "https://www.youtube.com/watch?v=uxEZ0eu1V3Y",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "fPAqE6TSfcY",
-      "sourceTitle": "내가 10년 넘게 사용했던 냄비 리뷰와 추천",
-      "sourceUrl": "https://www.youtube.com/watch?v=fPAqE6TSfcY",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "80vrs44Tu_o",
-      "sourceTitle": "[활용꿀팁!] 오븐형 에어프라이어 요리 모음 (with 마키나랩), 역대 최대 용량의 에어프라이어",
-      "sourceUrl": "https://www.youtube.com/watch?v=80vrs44Tu_o",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R",
-        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen",
-        "고기 Meat"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "_haCIP1NQP4",
-      "sourceTitle": "[이벤트있음] QnA#2, 당뇨식단, 키토베이킹, 레시피, 촬영도구, 조리도구, 추천요리, 알레르기 등 잡다구리 모음집",
-      "sourceUrl": "https://www.youtube.com/watch?v=_haCIP1NQP4",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "ScUU17eeNp4",
-      "sourceTitle": "과학적이고 현실적인 야채 보관법",
-      "sourceUrl": "https://www.youtube.com/watch?v=ScUU17eeNp4",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R",
-        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen",
-        "기본 Basic",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "GMjSo8x8q_w",
-      "sourceTitle": "2만에 올리는 1만기념 QnA (직업? 부작용? 털갈이? 모닝루틴?)",
-      "sourceUrl": "https://www.youtube.com/watch?v=GMjSo8x8q_w",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "iSGuWBfhXFM",
-      "sourceTitle": "과연 코팅팬은 ㅆㄹㄱ 일까?, 무쇠팬vs스텐팬vs코팅팬 비교하기, 후라이팬 구매시 꼭 봐야할 영상,Which Pan Is the best?",
-      "sourceUrl": "https://www.youtube.com/watch?v=iSGuWBfhXFM",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "86L09f2FA9g",
-      "sourceTitle": "아이허브 10년 유저가 꼭 구매하는 아이템👍🏻 400% 만족‼️",
-      "sourceUrl": "https://www.youtube.com/watch?v=86L09f2FA9g",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
-      ],
-      "playlistTitles": [
-        "주방 Kitchen"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "pni8wBJgHP0",
-      "sourceTitle": "나만 알고 싶었던 채소 보관법, 다이어트 샐러드, 밀프렙😍",
-      "sourceUrl": "https://www.youtube.com/watch?v=pni8wBJgHP0",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
-        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "기본 Basic",
-        "건강 Health",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
-    },
-    {
-      "videoId": "U9YJ3icAQKs",
-      "sourceTitle": "단 2가지 재료‼️ 견과류 버터 중 제일 고소하고 맛이 좋아요.😍 호두버터",
-      "sourceUrl": "https://www.youtube.com/watch?v=U9YJ3icAQKs",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "기본 Basic",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "2u8Y8-AKw8A",
-      "sourceTitle": "고혈압, 당뇨에 현미는 제발 그냥 드시지 마세요‼️ 뱃살 쏙 빠지고 더 부드럽고 맛있어요💯",
-      "sourceUrl": "https://www.youtube.com/watch?v=2u8Y8-AKw8A",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "기본 Basic",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "oan3e9GMqGU",
-      "sourceTitle": "설탕없이 레몬청 만들고 인기 카페 음료도 만들어보세요.",
-      "sourceUrl": "https://www.youtube.com/watch?v=oan3e9GMqGU",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
-        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "기본 Basic",
-        "디저트 Dessert",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "b2OYNuGzZ4M",
-      "sourceTitle": "양배추는 이렇게 쪄보세요.",
-      "sourceUrl": "https://www.youtube.com/watch?v=b2OYNuGzZ4M",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
-      ],
-      "playlistTitles": [
-        "기본 Basic"
-      ],
-      "videoFormat": "long-form",
-      "reason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
-    },
-    {
-      "videoId": "lJCKb5vU2vQ",
-      "sourceTitle": "[벌레주의] 브로콜리는 절대 물에 데치지 마세요!!! 브로콜리 영양소 400% 섭취하는 2가지 방법",
-      "sourceUrl": "https://www.youtube.com/watch?v=lJCKb5vU2vQ",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "기본 Basic",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "6EURp5k_fBE",
-      "sourceTitle": "생강은 이렇게 드세요. 설탕없이 건강한 생강 활용법 3가지",
-      "sourceUrl": "https://www.youtube.com/watch?v=6EURp5k_fBE",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "기본 Basic",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "aRnAfg_Zbq4",
-      "sourceTitle": "요거트 만들기는 이 영상으로 끝! 실패없이 완벽한 요거트 만드는 법",
-      "sourceUrl": "https://www.youtube.com/watch?v=aRnAfg_Zbq4",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
-        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
-      ],
-      "playlistTitles": [
-        "기본 Basic",
-        "디저트 Dessert"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "joGFLqwLW64",
-      "sourceTitle": "내가 다이어트 밥에 꼭 넣는 이것! 곤약 말고, 간헐적 단식, 탄수화물 제한",
-      "sourceUrl": "https://www.youtube.com/watch?v=joGFLqwLW64",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "기본 Basic",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "77onIuMZiq4",
-      "sourceTitle": "[요리의 기본] 만능양념장 만들기, 만능고추장, 만능소스, 저탄수 다이어트 | Multi Purpose Gochujang Sauce, Korean Red Pepper Sauce",
-      "sourceUrl": "https://www.youtube.com/watch?v=77onIuMZiq4",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "기본 Basic",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "UcJUerpDGho",
-      "sourceTitle": "[반전주의!] 꾸덕꾸덕 집에서 만드는 사워크림, Super Thick and Rich Homemade Sour Cream",
-      "sourceUrl": "https://www.youtube.com/watch?v=UcJUerpDGho",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
-      ],
-      "playlistTitles": [
-        "기본 Basic"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "888TF2wzfGs",
-      "sourceTitle": "[1분 꿀팁!] 집에서 만드는 초간단 찜질방 계란, 계란요리 | Korean Sauna Eggs",
-      "sourceUrl": "https://www.youtube.com/watch?v=888TF2wzfGs",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
-        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
-      ],
-      "playlistTitles": [
-        "기본 Basic",
-        "달걀 Egg"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "U3Oy8aoOyvA",
-      "sourceTitle": "[ENG SUB] 콜리플라워 라이스 만드는 법, 콜리플라워 요리 6가지, How to make  Cauliflower Rice, 6 Cauliflower Recipes",
-      "sourceUrl": "https://www.youtube.com/watch?v=U3Oy8aoOyvA",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
-      ],
-      "playlistTitles": [
-        "기본 Basic"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "bQe69C5quO8",
-      "sourceTitle": "이 음료 정말 너무너무 맛있는데... 카페에는 안 팔아요😭 봄 카페 음료 🌸",
-      "sourceUrl": "https://www.youtube.com/watch?v=bQe69C5quO8",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
-      ],
-      "playlistTitles": [
-        "디저트 Dessert"
-      ],
-      "videoFormat": "long-form",
-      "reason": "재료표는 있지만 정보란의 현재 음료 고유 메뉴명과 찻잎 종류가 확인되지 않아 보류. 추천 링크의 다른 메뉴명은 사용하지 않음."
-    },
-    {
-      "videoId": "ojg8StDFjz0",
-      "sourceTitle": "너무 맛있어서 매일 만들어 먹지만 카페에는 없어요 😂",
-      "sourceUrl": "https://www.youtube.com/watch?v=ojg8StDFjz0",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
-      ],
-      "playlistTitles": [
-        "디저트 Dessert"
-      ],
-      "videoFormat": "long-form",
-      "reason": "재료표는 있지만 정보란의 현재 음료 고유 메뉴명과 티 종류가 확인되지 않아 보류. 제목으로 메뉴명을 만들지 않음."
-    },
-    {
-      "videoId": "IxtzkewIiWA",
-      "sourceTitle": "우유로 만들었어요‼️ 부드럽고 달콤한 살 안찌는 간식 😍",
-      "sourceUrl": "https://www.youtube.com/watch?v=IxtzkewIiWA",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
-      ],
-      "playlistTitles": [
-        "디저트 Dessert"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "xxCUC3vtCqo",
-      "sourceTitle": "25kg 감량할 때 먹은 아이스크림입니다‼️ 매우 쉬움 ⚠️",
-      "sourceUrl": "https://www.youtube.com/watch?v=xxCUC3vtCqo",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
-      ],
-      "playlistTitles": [
-        "디저트 Dessert"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "zsFzLC7cQVs",
-      "sourceTitle": "여름에 시원하게 힘 안들이고 빙수 드셔보세요📢 기계 강판 없이 설빙 뺨치는 빙수 만드는 방법❣️",
-      "sourceUrl": "https://www.youtube.com/watch?v=zsFzLC7cQVs",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
-      ],
-      "playlistTitles": [
-        "디저트 Dessert"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "qccaa8eWaK4",
-      "sourceTitle": "[ 초간단, 기계❌] 역대급!!! 설탕 없이 진하고 부드러운 아이스크림 꼭 만들어보세요. 투ㄱㄷ맛",
-      "sourceUrl": "https://www.youtube.com/watch?v=qccaa8eWaK4",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
-      ],
-      "playlistTitles": [
-        "디저트 Dessert"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "64LOADZHZAY",
-      "sourceTitle": "노오븐! 노밀가루! 단 4가지 재료! 역대급 맛있는 케이크를 만들어 보세요. 정말 맛있음❣️",
-      "sourceUrl": "https://www.youtube.com/watch?v=64LOADZHZAY",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
-      ],
-      "playlistTitles": [
-        "디저트 Dessert"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "jceEj6Jpt24",
-      "sourceTitle": "티라미수는 이렇게 만들어보세요. 세상 간단하고 맛있어요.",
-      "sourceUrl": "https://www.youtube.com/watch?v=jceEj6Jpt24",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
-      ],
-      "playlistTitles": [
-        "디저트 Dessert"
-      ],
-      "videoFormat": "long-form",
-      "reason": "티라미수의 레이디핑거는 별도 영상 레시피만 연결되고 현재 케이크에 쓰는 실제 사용량이 없어 원재료 분해/구매량 확인 대기."
-    },
-    {
-      "videoId": "S6sTJ6uCatc",
-      "sourceTitle": "[초간단] 노밀가루, 절대 살안찌는 식빵",
-      "sourceUrl": "https://www.youtube.com/watch?v=S6sTJ6uCatc",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
-      ],
-      "playlistTitles": [
-        "디저트 Dessert"
-      ],
-      "videoFormat": "long-form",
-      "reason": "식빵 8회분이 명시됐지만 아몬드가루150·차전자피가루30·골드플렉시드밀50의 원문 단위가 빠져 주재료 구매량 확인 대기."
-    },
-    {
-      "videoId": "4Y5R62GmO6M",
-      "sourceTitle": "분노의 다이어트 달고나커피, 오조오억번 저은 듯",
-      "sourceUrl": "https://www.youtube.com/watch?v=4Y5R62GmO6M",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
-      ],
-      "playlistTitles": [
-        "디저트 Dessert"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "XTVAiQ3n_bg",
-      "sourceTitle": "[장건강] 신기한 요거트 먹는법, 홈카페",
-      "sourceUrl": "https://www.youtube.com/watch?v=XTVAiQ3n_bg",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
-      ],
-      "playlistTitles": [
-        "디저트 Dessert"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "mMk2be55ecM",
-      "sourceTitle": "[자세한 설명] 마시면 무조건 살빠지는 물, 디톡스에도 좋음",
-      "sourceUrl": "https://www.youtube.com/watch?v=mMk2be55ecM",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "디저트 Dessert",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
-    {
-      "videoId": "xQaxjDwu6f8",
-      "sourceTitle": "[NoMusic]기적의 다이어트 음료 3가지(살빠지는 음료), 3 Low Carb Drinks",
-      "sourceUrl": "https://www.youtube.com/watch?v=xQaxjDwu6f8",
-      "sourceName": "무니키친MoonyKitchen",
-      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
-      "playlistIds": [
-        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz",
-        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
-      ],
-      "playlistTitles": [
-        "디저트 Dessert",
-        "채소 vegetable"
-      ],
-      "videoFormat": "long-form",
-      "reason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
-    },
+      "formatEvidence": "원본 playerMicroformatRenderer.isShortsEligible=False",
+      "servingsStatements": [],
+      "measureStatements": [],
+      "ingredientText": "두부 300g\n김치 150g\n들기름 1큰술\n마늘 1/2큰술\n고춧가루 1/2큰술\n어간장 또는 액젓 1큰술",
+      "ingredientHash": "44930ed89191ae3b54d9593b541f6212ae44c54c5952883ac04cb9c43a84603a",
+      "nameSource": "editorial-ingredients",
+      "editorialName": "두부 김치 요리",
+      "descriptionMenuName": null,
+      "nameSourceText": "두부 300g\n김치 150g\n들기름 1큰술\n마늘 1/2큰술\n고춧가루 1/2큰술\n어간장 또는 액젓 1큰술",
+      "nameSourceEvidence": "2026-11-23 사용자 승인 재료 기반 편집명. 가지전은 원본 제목에 전이 명시되며 다른 메뉴에는 미확인 조리법을 추가하지 않음.",
+      "recipeId": "moony-XFEJgyvUQQ4",
+      "name": "두부 김치 요리",
+      "baseServings": 2,
+      "servingsRange": null,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "원문 전체 인분 미기재. 두부300g·김치150g을 2인분으로 편집 추정(2026-11-23 사용자 승인). 원작자 명시 인분 아님.",
+      "ingredients": [
+        {
+          "sourceText": "두부 300g",
+          "group": "재료",
+          "ingredientId": "tofu",
+          "sourceAmount": 300,
+          "unit": "g",
+          "factor": 1,
+          "amount": 300,
+          "reason": null
+        },
+        {
+          "sourceText": "김치 150g",
+          "group": "재료",
+          "ingredientId": "kimchi",
+          "sourceAmount": 150,
+          "unit": "g",
+          "factor": 1,
+          "amount": 150,
+          "reason": null
+        },
+        {
+          "sourceText": "들기름 1큰술",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-37722c90dc13",
+          "sourceAmount": 1,
+          "unit": "큰술",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        },
+        {
+          "sourceText": "마늘 1/2큰술",
+          "group": "재료",
+          "ingredientId": "garlic",
+          "sourceAmount": 0.5,
+          "unit": "큰술",
+          "factor": 1,
+          "amount": 0.5,
+          "reason": null
+        },
+        {
+          "sourceText": "고춧가루 1/2큰술",
+          "group": "재료",
+          "ingredientId": "chili",
+          "sourceAmount": 0.5,
+          "unit": "큰술",
+          "factor": 1,
+          "amount": 0.5,
+          "reason": null
+        },
+        {
+          "sourceText": "어간장 또는 액젓 1큰술",
+          "group": "재료",
+          "ingredientId": "mfds-ingredient-93193bf761a6",
+          "sourceAmount": 1,
+          "unit": "큰술",
+          "factor": 1,
+          "amount": 1,
+          "reason": "원문 대체재 중 어간장 한 가지만 포함"
+        }
+      ]
+    }
+  ],
+  "held": [
     {
       "videoId": "EQkcDUwQrJY",
       "sourceTitle": "다이어트 딸기 크림소다, 방탄커피가 지겹다면, Low Carb Strawberry Cream Soda | KETO, LCHF, Ketogenic, 저탄고지, 키토제닉, 저탄수",
@@ -10241,6 +9701,1890 @@
   ],
   "excluded": [
     {
+      "videoId": "_LBpJvb-p5o",
+      "sourceTitle": "여름 내내 먹어도 절대 살찌지 않는 비빔국수, 너무 맛있어요😋  25kg 감량 노하우",
+      "sourceUrl": "https://www.youtube.com/watch?v=_LBpJvb-p5o",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5_LQqtHXAaCsaR8mCl8Ksh"
+      ],
+      "playlistTitles": [
+        "국수 Noodles"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "X9jv3gLsBsI",
+      "sourceTitle": "불 없이 섞기만 하세요. 모밀국수는 이 방법이 최고입니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=X9jv3gLsBsI",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5_LQqtHXAaCsaR8mCl8Ksh"
+      ],
+      "playlistTitles": [
+        "국수 Noodles"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "nJ662cyW4Po",
+      "sourceTitle": "와... 이 레시피 알아두셨다가 여름 내내 비벼드세요. 비빔장 황금 비율",
+      "sourceUrl": "https://www.youtube.com/watch?v=nJ662cyW4Po",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5_LQqtHXAaCsaR8mCl8Ksh"
+      ],
+      "playlistTitles": [
+        "국수 Noodles"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "si03Y6z5ke4",
+      "sourceTitle": "와~ 양배추로 만들었는데 진짜 너무 맛있어서 깜짝 놀랐어요🤩 양배추 토스트 핫도그⁉️",
+      "sourceUrl": "https://www.youtube.com/watch?v=si03Y6z5ke4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg",
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "-6IitgDtf0A",
+      "sourceTitle": "아침을 이렇게 드시면 더 건강해지고 날씬해집니다❣️",
+      "sourceUrl": "https://www.youtube.com/watch?v=-6IitgDtf0A",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "v1pH58lRtAw",
+      "sourceTitle": "양배추 왜 이렇게 안 드세요? 간단하고 맛있는 양배추 요리 😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=v1pH58lRtAw",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg",
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "기존 수집표의 양배추500g·달걀1개는 확인되지만 곤약밥/밥의 양이 없고 다른 양배추밥 메뉴에도 연결됨. 완성 메뉴 전체의 밥·제조분 사용량을 확정하지 못해 제외.",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "2BugCeqIQ6g",
+      "sourceTitle": "두부 한 모와 계란으로 간단하고 맛있는 한 끼 식사 만들어 보세요 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=2BugCeqIQ6g",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg",
+        "두부 Tofu"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "xExfLHDs4YA",
+      "sourceTitle": "양배추로 간단하고 맛있는😋 아침식사 만들어 보세요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=xExfLHDs4YA",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "GE_18gLbqT4",
+      "sourceTitle": "달걀과 자투리 채소로 충분해요~ 건강하고 간단한 아침식사",
+      "sourceUrl": "https://www.youtube.com/watch?v=GE_18gLbqT4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "토마토 Tomato",
+        "전 Jeon (Pancake, Omelet)",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "ws5yKjhQZHo",
+      "sourceTitle": "25kg 감량하고 10년 유지 다이어터의 살 안찌게 빵 먹는 방법",
+      "sourceUrl": "https://www.youtube.com/watch?v=ws5yKjhQZHo",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "해물 Seafood"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "PF6N8vwopX8",
+      "sourceTitle": "[원팬, 초간단] 무조건 살빠지는 메뉴, 여름 토마토에 달걀이 빠지면?",
+      "sourceUrl": "https://www.youtube.com/watch?v=PF6N8vwopX8",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "토마토 Tomato",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "IyHNPBfo6-o",
+      "sourceTitle": "[지방파괴 식단] 에그인헬, 꿀팁과 원리까지 다 알려줌!!!, 계란 다이어트, 샥슈카",
+      "sourceUrl": "https://www.youtube.com/watch?v=IyHNPBfo6-o",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "토마토 Tomato",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "직접 만든 만능 토마토소스100g 사용. 제조 전체의 완성수율·사용 비율이 없어 원재료로 분해할 근거 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "zBHDKF139vA",
+      "sourceTitle": "두부와 달걀로 단백질 폭탄💣 아침식사 드셔보세요‼️ 담백하고 영양 가득한 두부 계란찜💯 뱃살이 쭉쭉 빠져요🤩",
+      "sourceUrl": "https://www.youtube.com/watch?v=zBHDKF139vA",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Iqr9R_n1410TJcI0aCbkS",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "아침식사 Breakfast",
+        "달걀 Egg",
+        "두부 Tofu"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "-7osBTjnrGw",
+      "sourceTitle": "두부를 이렇게 먹으면 살이 안 쪄요. 25kg 감량 할 때 먹었던 두부밥",
+      "sourceUrl": "https://www.youtube.com/watch?v=-7osBTjnrGw",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5_POP0FxZE3u3uMX8rGY95",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "밥 Rice",
+        "두부 Tofu",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "xHjzFg-tQI0",
+      "sourceTitle": "25kg 감량하고 10년 넘게 유지한 내가 요새 즐겨먹는 새로운 밥",
+      "sourceUrl": "https://www.youtube.com/watch?v=xHjzFg-tQI0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5_POP0FxZE3u3uMX8rGY95",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "밥 Rice",
+        "양배추 Cabbage",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "복구한 기존 재료표는 밥·양배추·미나리·달걀 등 재료명과 다른 영상 링크만 있고 각 수량이 없음. 핵심 재료량 부족으로 제외.",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "X81i4SgKBMQ",
+      "sourceTitle": "볶음밥은 이렇게 드세요. 제발🙏🏻  너무 맛있는데 살도 빠져요. 단백질 폭탄💣",
+      "sourceUrl": "https://www.youtube.com/watch?v=X81i4SgKBMQ",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5_POP0FxZE3u3uMX8rGY95",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "밥 Rice",
+        "두부 Tofu"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "3L6Zr1EV260",
+      "sourceTitle": "절대 살안찌는 부추 비빔밥, 25kg 감량하고 10년 유지한 다이어트식단",
+      "sourceUrl": "https://www.youtube.com/watch?v=3L6Zr1EV260",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5_POP0FxZE3u3uMX8rGY95"
+      ],
+      "playlistTitles": [
+        "밥 Rice"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "7mgwZw7xf4U",
+      "sourceTitle": "25kg 감량할 때 먹었던 밥",
+      "sourceUrl": "https://www.youtube.com/watch?v=7mgwZw7xf4U",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5_POP0FxZE3u3uMX8rGY95",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "밥 Rice",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "YR3YtxROuak",
+      "sourceTitle": "이 방법을 알고나서 양상추는 더이상 생으로 안 먹어요 ❤️ 왜냐면...",
+      "sourceUrl": "https://www.youtube.com/watch?v=YR3YtxROuak",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5z40QG7BzRhg9aH4tahAQ6",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "샐러드 Salad",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "Kjd8OZU18u4",
+      "sourceTitle": "양배추를 이렇게 했더니 너무 맛있어서 매일 먹어요‼️ 양배추 한 통 순삭 👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=Kjd8OZU18u4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5z40QG7BzRhg9aH4tahAQ6",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "샐러드 Salad",
+        "양배추 Cabbage",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "ooYPlMfby4o",
+      "sourceTitle": "양배추와 참치는 이렇게 드세요‼️ 세상 간단하고 맛있습니다🤩",
+      "sourceUrl": "https://www.youtube.com/watch?v=ooYPlMfby4o",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5z40QG7BzRhg9aH4tahAQ6",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "샐러드 Salad",
+        "양배추 Cabbage",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "복구한 기존 재료표에 양배추·양파·당근·참치 등의 수량이 없음. 별도 두부 마요네즈 링크를 현재 메뉴의 사용량으로 추정하지 않고 제외.",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "964hwrnoeig",
+      "sourceTitle": "#2 평생 써먹는 건강해지고 살빠지는 레시피입니다. 항암, 항염증, 디톡스",
+      "sourceUrl": "https://www.youtube.com/watch?v=964hwrnoeig",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "건강 Health"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "gUVs3NiRDJs",
+      "sourceTitle": "#1 평생 써먹는 건강해지고 살빠지는 레시피입니다. 꼭 해보세요❣️ 항암과 클렌징",
+      "sourceUrl": "https://www.youtube.com/watch?v=gUVs3NiRDJs",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "국 찌개 Soup Stew",
+        "건강 Health",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "UyzSWpIIBbA",
+      "sourceTitle": "가지와 토마토는 간단하게 이렇게 해보세요‼️ 피자보다 더 맛있고 살도 안쪄요👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=UyzSWpIIBbA",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "전 Jeon (Pancake, Omelet)"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "Poffr1W9ewE",
+      "sourceTitle": "토마토에 달걀을 부어보세요🙏🏻  간단하고 맛있어서 아침식사로 최고입니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=Poffr1W9ewE",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "전 Jeon (Pancake, Omelet)",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "bAuEhpgRHpM",
+      "sourceTitle": "월 매출 3000만원 인기 카페 사장님이 알려주신 최고 맛있는 샌드위치‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=bAuEhpgRHpM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "eBZ4_KTUg7A",
+      "sourceTitle": "간단한데 진짜 맛있는 살안찌는 파스타",
+      "sourceUrl": "https://www.youtube.com/watch?v=eBZ4_KTUg7A",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "두부 Tofu",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "LPxOcAJUgvM",
+      "sourceTitle": "[역대급 초간단!!!] 영양소 손실없이 무조건 살빠지는 채소찜, 다이어트 최고의 식단",
+      "sourceUrl": "https://www.youtube.com/watch?v=LPxOcAJUgvM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "기본 Basic",
+        "건강 Health",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "기존 재료표가 집에 있는 야채400g만 제시하며 구체 채소 종류가 없음. 특정 채소로 추측하지 않고 이번 검토에서 제외.",
+      "exclusionCode": "insufficient-core-identification",
+      "originalReason": "집에 있는 야채400g만 표기되어 정확한 식재료 종류 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "odZRf_X5orA",
+      "sourceTitle": "토마토는 이렇게 해보세요‼️ 강력한 항산화 효과로 2주만 꾸준히 먹어도 몸속 독소가 제거되고 혈관이 살아나요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=odZRf_X5orA",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "국 찌개 Soup Stew",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "ex-nrxXw71o",
+      "sourceTitle": "정말 살빠져요. 이탈리아 가정식, 가지요리, 야채 맛있게 먹는법, 저탄수화물, 저탄고지 키토식단",
+      "sourceUrl": "https://www.youtube.com/watch?v=ex-nrxXw71o",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6Oh-C1gCT4E_6vFwTq8dQF",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "토마토 Tomato",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "t-veXBf_Ra4",
+      "sourceTitle": "봄에는 꼭 이 채소전을 해보세요‼️ 간단하고 너무 맛있어요 👉🏻👈🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=t-veXBf_Ra4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "기존 재료표의 쑥·전분 수량이 미기재. 양념장 분량만으로 쑥전 구매량을 추정하지 않고 제외.",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "hXx_pqMM1tA",
+      "sourceTitle": "달걀과 밀가루 없이 양배추는 이렇게 하세요‼️ 최고로 맛있습니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=hXx_pqMM1tA",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "양배추 Cabbage",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "mMO4RlNG96s",
+      "sourceTitle": "배추 안 먹는 딸아이도 몇 접시 순삭했네요‼️ 밀가루 없이 더 건강하고 맛있는 배추전 😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=mMO4RlNG96s",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "sBMIS_CyPvE",
+      "sourceTitle": "전을 이렇게 부치면 살도 안찌고 훨씬 맛있어요‼️ 밀가루 없이 쉽고 더 맛있는 채소 부침개😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=sBMIS_CyPvE",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6CNN8-1Axbesgtey-xQy_l",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "전 Jeon (Pancake, Omelet)",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "TXx96IqQgWc",
+      "sourceTitle": "김밥을 이렇게 하면 살 안쪄요 ‼️ 밥 없는 김밥보다 더 맛있고 만들기 쉬운 양배추 김밥 ❤️",
+      "sourceUrl": "https://www.youtube.com/watch?v=TXx96IqQgWc",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "김밥 Gimbap",
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "0wywf4Hjq-M",
+      "sourceTitle": "양배추 김밥 말고 양배추 주먹밥 🍙  더 간단하고 맛이 좋아요 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=0wywf4Hjq-M",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "김밥 Gimbap",
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "HdBvbJjMpR0",
+      "sourceTitle": "양배추 김밥, 이렇게 하면 밥 없는 김밥 보다 맛있고 쉬워요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=HdBvbJjMpR0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "김밥 Gimbap",
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "V8KMMzzFUis",
+      "sourceTitle": "양배추 폭탄💣 김밥😍 이렇게 먹으면 5kg 감량은 기본‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8KMMzzFUis",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "김밥 Gimbap",
+        "양배추 Cabbage",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "Pp2TqnIhSBE",
+      "sourceTitle": "이 김밥은 꼭 만들어 보셔야 하는데...쉽고 맛있거든요~",
+      "sourceUrl": "https://www.youtube.com/watch?v=Pp2TqnIhSBE",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ"
+      ],
+      "playlistTitles": [
+        "김밥 Gimbap"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "Tml7gORfC38",
+      "sourceTitle": "[꿀팁! 다드림] OOOO로 쉽게 만드는 다이어트 주먹밥, 밥버거, 오니기라즈",
+      "sourceUrl": "https://www.youtube.com/watch?v=Tml7gORfC38",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E"
+      ],
+      "playlistTitles": [
+        "김밥 Gimbap",
+        "양배추 Cabbage"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "GyDYQPVKxck",
+      "sourceTitle": "[꿀팁! 밥 3스푼] 김밥 만들 때 이것으로 시간 절약, 맛있는 집 김밥 비법 알려드림",
+      "sourceUrl": "https://www.youtube.com/watch?v=GyDYQPVKxck",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ"
+      ],
+      "playlistTitles": [
+        "김밥 Gimbap"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "HAmHijbuyvU",
+      "sourceTitle": "밥없는 김밥, 다이어트 김밥, 키토김밥, 김밥 예쁘게 마는 법, Kimbap Recipe | KETO, LCHF, Low Carb Recipe, 저탄수, 저탄고지, 키토제닉 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=HAmHijbuyvU",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5f17GcavuniLzjZVGAC_aJ"
+      ],
+      "playlistTitles": [
+        "김밥 Gimbap"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "EUhEeE5Vh60",
+      "sourceTitle": "25kg 감량하고 10년 유지한 다이어터의 밥 먹는 방법",
+      "sourceUrl": "https://www.youtube.com/watch?v=EUhEeE5Vh60",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1"
+      ],
+      "playlistTitles": [
+        "해물 Seafood"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "D4ejxlQwRdA",
+      "sourceTitle": "생선을 이렇게 구우면 집안에 생선 냄새가 1도 안 나고 훨씬 맛있어집니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=D4ejxlQwRdA",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1",
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
+      ],
+      "playlistTitles": [
+        "해물 Seafood",
+        "기본 Basic"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "Yih142DON_k",
+      "sourceTitle": "[약혐]오징어는 물에 데치면 손해!!!, 매우 쉬운 오징어 손질법",
+      "sourceUrl": "https://www.youtube.com/watch?v=Yih142DON_k",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "해물 Seafood",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "iQDfoHtlZ1Q",
+      "sourceTitle": "저탄수, 키토제닉 봉골레 파스타 만들기, LowCarb, Ketogenic Vongole pasta",
+      "sourceUrl": "https://www.youtube.com/watch?v=iQDfoHtlZ1Q",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7ZrvVm5L0RTguztpYHraA1"
+      ],
+      "playlistTitles": [
+        "해물 Seafood"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "3sSkkx9MaxY",
+      "sourceTitle": "김치찌개는 제발 새로운 방법으로 끓이세요 🙏🏻 너무 맛있어서 기절합니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=3sSkkx9MaxY",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "abTCWmjRjFM",
+      "sourceTitle": "김치찌개는 제발 이렇게 끓이세요🙏🏻 진짜 너무 맛있어요!!! 우리집 인기메뉴",
+      "sourceUrl": "https://www.youtube.com/watch?v=abTCWmjRjFM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "YXUHH-9v0a4",
+      "sourceTitle": "두부를 이렇게 요리하세요‼️ 식구들이 너무 맛있다고 매일 해달라고 졸라요🤩",
+      "sourceUrl": "https://www.youtube.com/watch?v=YXUHH-9v0a4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "두부 Tofu"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "n-zNjCJhw_k",
+      "sourceTitle": "겨울에 두부는 이렇게 요리하세요~ 😋 매일 먹어도 질리지 않아요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=n-zNjCJhw_k",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "두부 Tofu",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "직접 만드는 육수 영상과 양배추밥 영상이 연결되어 있으며 현재 밥의 수량·제조분 사용량이 없음. 준비 요리의 실제 사용량이 불분명한 자료를 제외하는 기준 적용.",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "la8s80dcEkk",
+      "sourceTitle": "양배추와 가을 채소로 만들었어요😍 건강하고 맛있고 속이 편해요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=la8s80dcEkk",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA54lCoV7zmiCCw46xLKHL9E",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "양배추 Cabbage",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "gPYIp5nrR0k",
+      "sourceTitle": "대파와 소고기를 이렇게 했더니 식구들이 너무 맛있다고 난리에요! 살빠지는 대파 소고기 찌개",
+      "sourceUrl": "https://www.youtube.com/watch?v=gPYIp5nrR0k",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "BxvkW4FD0C4",
+      "sourceTitle": "[초간단] 계란을 휘저어 넣기만 하면 끝나는 속편한 간편식, 다이어트 식단, 해장국 추천",
+      "sourceUrl": "https://www.youtube.com/watch?v=BxvkW4FD0C4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "멸치15개·다시마·물1000ml로 직접 만드는 육수의 완성수율과 실제1000ml 사용의 관계 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "4v-qOeMo9Ek",
+      "sourceTitle": "[한식vs양식]등갈비로 쉽고 고급진 손님초대요리 2가지, 김치찜, 바베큐 폭립",
+      "sourceUrl": "https://www.youtube.com/watch?v=4v-qOeMo9Ek",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "여러 완성 요리가 섞인 자료는 이번 간소화 검토에서 제외",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "김치찜·폭립 공통 재료의 요리별 배분과 전체 사용 분량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "ib5oC_pYhUs",
+      "sourceTitle": "4가지 재료로 잡내 없는 깔끔한 갈비탕 만들기",
+      "sourceUrl": "https://www.youtube.com/watch?v=ib5oC_pYhUs",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "gvJm-2jBRr8",
+      "sourceTitle": "(  )로 5분안에 가능, 순두부찌개",
+      "sourceUrl": "https://www.youtube.com/watch?v=gvJm-2jBRr8",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "oABH69vAtQM",
+      "sourceTitle": "제대로 알려드려요~ 사골 끓이는 방법, 인생 설렁탕 만들기, 저탄수화물, 키토제닉 다이어트",
+      "sourceUrl": "https://www.youtube.com/watch?v=oABH69vAtQM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA7aG5Hqmy4_u2RKDMY_EOT0",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "국 찌개 Soup Stew",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "사골 제조 원재료 일부 수량은 있으나 물·고기·최종 제조분량이 없어 계산 기준 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "vTb8KgIBpFM",
+      "sourceTitle": "자주 써서 더 유용한 살림템들 (이케아, 다이소, 자주)",
+      "sourceUrl": "https://www.youtube.com/watch?v=vTb8KgIBpFM",
+      "sourceName": "무니데이MoonyDay",
+      "channelId": "UCcVEa_f0q_t4WeHEmzVf_MQ",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "-QA9iryyEEM",
+      "sourceTitle": "추운 날씨, 따뜻한 집밥 레시피 3가지 (feat. 플렉스쿡)",
+      "sourceUrl": "https://www.youtube.com/watch?v=-QA9iryyEEM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "Ipd93pLXT_o",
+      "sourceTitle": "가을 겨울에 우리집 인기 만점인 두부 반찬‼️ 채식 도시락, 다이어트 도시락🍱",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ipd93pLXT_o",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R",
+        "PLCled-p0JtA7XPB8fghNIFIClQYYo7gpy",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen",
+        "두부 Tofu",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "Se7EqwnSevM",
+      "sourceTitle": "써보니 정말 좋았던 조리도구",
+      "sourceUrl": "https://www.youtube.com/watch?v=Se7EqwnSevM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "DMItpG4a0Ag",
+      "sourceTitle": "재구매만 수십번한 마켓컬리 추천템들~ 완전 강추",
+      "sourceUrl": "https://www.youtube.com/watch?v=DMItpG4a0Ag",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "yBkPgzfC6nM",
+      "sourceTitle": "와플팬으로 스테이크를 구우면 일어나는 일 😱😓😭",
+      "sourceUrl": "https://www.youtube.com/watch?v=yBkPgzfC6nM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "-3sGcVA-Vm8",
+      "sourceTitle": "안보면 손해, 레몬 남김없이 사용하는 꿀팁!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=-3sGcVA-Vm8",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R",
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen",
+        "기본 Basic",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "uZbnL3tkH48",
+      "sourceTitle": "[1분] 매우 쉬운 스텐팬 세척법",
+      "sourceUrl": "https://www.youtube.com/watch?v=uZbnL3tkH48",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "Dubqswfz158",
+      "sourceTitle": "이제 잘못 버리지 마세요. 잘못 알고 버려지는 것들 25가지",
+      "sourceUrl": "https://www.youtube.com/watch?v=Dubqswfz158",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "gsAxEHCHUnE",
+      "sourceTitle": "[25kg감량 10년유지] 다이어터의 간단한 식사와 간식, 당질제한, 키토제닉, 아이허브",
+      "sourceUrl": "https://www.youtube.com/watch?v=gsAxEHCHUnE",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "97xZUmP6OF0",
+      "sourceTitle": "특별한 3가지 반찬 + 이벤트",
+      "sourceUrl": "https://www.youtube.com/watch?v=97xZUmP6OF0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "wsmF18jtEaI",
+      "sourceTitle": "아이허브 10년 유저의 찐템 30가지",
+      "sourceUrl": "https://www.youtube.com/watch?v=wsmF18jtEaI",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "iyLGCAY0UY0",
+      "sourceTitle": "이 책은 과연 뭐하는 책인가? (feat. 출간안내)",
+      "sourceUrl": "https://www.youtube.com/watch?v=iyLGCAY0UY0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "uxEZ0eu1V3Y",
+      "sourceTitle": "꼭 필요한 5개의 냄비와 팬, 팬 리뷰와 냄비 추천",
+      "sourceUrl": "https://www.youtube.com/watch?v=uxEZ0eu1V3Y",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "fPAqE6TSfcY",
+      "sourceTitle": "내가 10년 넘게 사용했던 냄비 리뷰와 추천",
+      "sourceUrl": "https://www.youtube.com/watch?v=fPAqE6TSfcY",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "80vrs44Tu_o",
+      "sourceTitle": "[활용꿀팁!] 오븐형 에어프라이어 요리 모음 (with 마키나랩), 역대 최대 용량의 에어프라이어",
+      "sourceUrl": "https://www.youtube.com/watch?v=80vrs44Tu_o",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R",
+        "PLCled-p0JtA5Abu4QU6L2WKnI_Di4s6BU"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen",
+        "고기 Meat"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "_haCIP1NQP4",
+      "sourceTitle": "[이벤트있음] QnA#2, 당뇨식단, 키토베이킹, 레시피, 촬영도구, 조리도구, 추천요리, 알레르기 등 잡다구리 모음집",
+      "sourceUrl": "https://www.youtube.com/watch?v=_haCIP1NQP4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "ScUU17eeNp4",
+      "sourceTitle": "과학적이고 현실적인 야채 보관법",
+      "sourceUrl": "https://www.youtube.com/watch?v=ScUU17eeNp4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R",
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen",
+        "기본 Basic",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "GMjSo8x8q_w",
+      "sourceTitle": "2만에 올리는 1만기념 QnA (직업? 부작용? 털갈이? 모닝루틴?)",
+      "sourceUrl": "https://www.youtube.com/watch?v=GMjSo8x8q_w",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "iSGuWBfhXFM",
+      "sourceTitle": "과연 코팅팬은 ㅆㄹㄱ 일까?, 무쇠팬vs스텐팬vs코팅팬 비교하기, 후라이팬 구매시 꼭 봐야할 영상,Which Pan Is the best?",
+      "sourceUrl": "https://www.youtube.com/watch?v=iSGuWBfhXFM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "86L09f2FA9g",
+      "sourceTitle": "아이허브 10년 유저가 꼭 구매하는 아이템👍🏻 400% 만족‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=86L09f2FA9g",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA6bXLaFE5FPT7c7EF-JP78R"
+      ],
+      "playlistTitles": [
+        "주방 Kitchen"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "pni8wBJgHP0",
+      "sourceTitle": "나만 알고 싶었던 채소 보관법, 다이어트 샐러드, 밀프렙😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=pni8wBJgHP0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA7YITeI1_Fx0CGbzg3_NYw2",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "건강 Health",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "U9YJ3icAQKs",
+      "sourceTitle": "단 2가지 재료‼️ 견과류 버터 중 제일 고소하고 맛이 좋아요.😍 호두버터",
+      "sourceUrl": "https://www.youtube.com/watch?v=U9YJ3icAQKs",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "2u8Y8-AKw8A",
+      "sourceTitle": "고혈압, 당뇨에 현미는 제발 그냥 드시지 마세요‼️ 뱃살 쏙 빠지고 더 부드럽고 맛있어요💯",
+      "sourceUrl": "https://www.youtube.com/watch?v=2u8Y8-AKw8A",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "oan3e9GMqGU",
+      "sourceTitle": "설탕없이 레몬청 만들고 인기 카페 음료도 만들어보세요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=oan3e9GMqGU",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "디저트 Dessert",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "b2OYNuGzZ4M",
+      "sourceTitle": "양배추는 이렇게 쪄보세요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=b2OYNuGzZ4M",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
+      ],
+      "playlistTitles": [
+        "기본 Basic"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "lJCKb5vU2vQ",
+      "sourceTitle": "[벌레주의] 브로콜리는 절대 물에 데치지 마세요!!! 브로콜리 영양소 400% 섭취하는 2가지 방법",
+      "sourceUrl": "https://www.youtube.com/watch?v=lJCKb5vU2vQ",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "6EURp5k_fBE",
+      "sourceTitle": "생강은 이렇게 드세요. 설탕없이 건강한 생강 활용법 3가지",
+      "sourceUrl": "https://www.youtube.com/watch?v=6EURp5k_fBE",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "aRnAfg_Zbq4",
+      "sourceTitle": "요거트 만들기는 이 영상으로 끝! 실패없이 완벽한 요거트 만드는 법",
+      "sourceUrl": "https://www.youtube.com/watch?v=aRnAfg_Zbq4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "joGFLqwLW64",
+      "sourceTitle": "내가 다이어트 밥에 꼭 넣는 이것! 곤약 말고, 간헐적 단식, 탄수화물 제한",
+      "sourceUrl": "https://www.youtube.com/watch?v=joGFLqwLW64",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "77onIuMZiq4",
+      "sourceTitle": "[요리의 기본] 만능양념장 만들기, 만능고추장, 만능소스, 저탄수 다이어트 | Multi Purpose Gochujang Sauce, Korean Red Pepper Sauce",
+      "sourceUrl": "https://www.youtube.com/watch?v=77onIuMZiq4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "UcJUerpDGho",
+      "sourceTitle": "[반전주의!] 꾸덕꾸덕 집에서 만드는 사워크림, Super Thick and Rich Homemade Sour Cream",
+      "sourceUrl": "https://www.youtube.com/watch?v=UcJUerpDGho",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
+      ],
+      "playlistTitles": [
+        "기본 Basic"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "888TF2wzfGs",
+      "sourceTitle": "[1분 꿀팁!] 집에서 만드는 초간단 찜질방 계란, 계란요리 | Korean Sauna Eggs",
+      "sourceUrl": "https://www.youtube.com/watch?v=888TF2wzfGs",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx",
+        "PLCled-p0JtA5Uge2Uz03LKcJU0f2LLWfz"
+      ],
+      "playlistTitles": [
+        "기본 Basic",
+        "달걀 Egg"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
       "videoId": "fsfGBQk36Z8",
       "sourceTitle": "건강에 좋은 오일은? 불포화 지방산, 다이어트 오일, 오메가 3, 요리용 오일, 아보카도 오일 추천",
       "sourceUrl": "https://www.youtube.com/watch?v=fsfGBQk36Z8",
@@ -10287,6 +11631,25 @@
       "videoFormat": "long-form",
       "status": "excluded-nonrecipe",
       "reason": "정보란을 확인한 조리도구·영양 정보·식재료 손질/보관 또는 커피 추출 방법 안내 영상. 분량 있는 완성 메뉴 재료표가 아니므로 제외."
+    },
+    {
+      "videoId": "U3Oy8aoOyvA",
+      "sourceTitle": "[ENG SUB] 콜리플라워 라이스 만드는 법, 콜리플라워 요리 6가지, How to make  Cauliflower Rice, 6 Cauliflower Recipes",
+      "sourceUrl": "https://www.youtube.com/watch?v=U3Oy8aoOyvA",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA4MEOWHz90-8GmEE4vEabYx"
+      ],
+      "playlistTitles": [
+        "기본 Basic"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "8yAAznAotfU",
@@ -10339,6 +11702,196 @@
       "reason": "정보란을 확인한 조리도구·영양 정보·식재료 손질/보관 또는 커피 추출 방법 안내 영상. 분량 있는 완성 메뉴 재료표가 아니므로 제외."
     },
     {
+      "videoId": "bQe69C5quO8",
+      "sourceTitle": "이 음료 정말 너무너무 맛있는데... 카페에는 안 팔아요😭 봄 카페 음료 🌸",
+      "sourceUrl": "https://www.youtube.com/watch?v=bQe69C5quO8",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "기존 재료표는 찻잎5g·물400ml·오렌지1개만 명시하고 핵심 찻잎 종류를 특정하지 않음. 다른 추천 영상의 차 종류를 가져오지 않고 이번 검토에서 제외.",
+      "exclusionCode": "insufficient-core-identification",
+      "originalReason": "재료표는 있지만 정보란의 현재 음료 고유 메뉴명과 찻잎 종류가 확인되지 않아 보류. 추천 링크의 다른 메뉴명은 사용하지 않음.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "ojg8StDFjz0",
+      "sourceTitle": "너무 맛있어서 매일 만들어 먹지만 카페에는 없어요 😂",
+      "sourceUrl": "https://www.youtube.com/watch?v=ojg8StDFjz0",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "기존 재료표는 티10g·물400ml·생크림100ml 등으로만 적혀 있고 차 종류가 불명확. 핵심 재료 종류를 추측하지 않고 제외.",
+      "exclusionCode": "insufficient-core-identification",
+      "originalReason": "재료표는 있지만 정보란의 현재 음료 고유 메뉴명과 티 종류가 확인되지 않아 보류. 제목으로 메뉴명을 만들지 않음.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "IxtzkewIiWA",
+      "sourceTitle": "우유로 만들었어요‼️ 부드럽고 달콤한 살 안찌는 간식 😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=IxtzkewIiWA",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "xxCUC3vtCqo",
+      "sourceTitle": "25kg 감량할 때 먹은 아이스크림입니다‼️ 매우 쉬움 ⚠️",
+      "sourceUrl": "https://www.youtube.com/watch?v=xxCUC3vtCqo",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "zsFzLC7cQVs",
+      "sourceTitle": "여름에 시원하게 힘 안들이고 빙수 드셔보세요📢 기계 강판 없이 설빙 뺨치는 빙수 만드는 방법❣️",
+      "sourceUrl": "https://www.youtube.com/watch?v=zsFzLC7cQVs",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "qccaa8eWaK4",
+      "sourceTitle": "[ 초간단, 기계❌] 역대급!!! 설탕 없이 진하고 부드러운 아이스크림 꼭 만들어보세요. 투ㄱㄷ맛",
+      "sourceUrl": "https://www.youtube.com/watch?v=qccaa8eWaK4",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "64LOADZHZAY",
+      "sourceTitle": "노오븐! 노밀가루! 단 4가지 재료! 역대급 맛있는 케이크를 만들어 보세요. 정말 맛있음❣️",
+      "sourceUrl": "https://www.youtube.com/watch?v=64LOADZHZAY",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "jceEj6Jpt24",
+      "sourceTitle": "티라미수는 이렇게 만들어보세요. 세상 간단하고 맛있어요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=jceEj6Jpt24",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "티라미수의 레이디핑거는 별도 영상 레시피만 연결되고 현재 케이크에 쓰는 실제 사용량이 없어 원재료 분해/구매량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "S6sTJ6uCatc",
+      "sourceTitle": "[초간단] 노밀가루, 절대 살안찌는 식빵",
+      "sourceUrl": "https://www.youtube.com/watch?v=S6sTJ6uCatc",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "식빵 8회분이 명시됐지만 아몬드가루150·차전자피가루30·골드플렉시드밀50의 원문 단위가 빠져 주재료 구매량 확인 대기.",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "4Y5R62GmO6M",
+      "sourceTitle": "분노의 다이어트 달고나커피, 오조오억번 저은 듯",
+      "sourceUrl": "https://www.youtube.com/watch?v=4Y5R62GmO6M",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
       "videoId": "nmj4IZSLsoI",
       "sourceTitle": "집에서 쉽고 맛있게 커피 내리는 3가지 방법",
       "sourceUrl": "https://www.youtube.com/watch?v=nmj4IZSLsoI",
@@ -10355,6 +11908,25 @@
       "reason": "정보란을 확인한 조리도구·영양 정보·식재료 손질/보관 또는 커피 추출 방법 안내 영상. 분량 있는 완성 메뉴 재료표가 아니므로 제외."
     },
     {
+      "videoId": "XTVAiQ3n_bg",
+      "sourceTitle": "[장건강] 신기한 요거트 먹는법, 홈카페",
+      "sourceUrl": "https://www.youtube.com/watch?v=XTVAiQ3n_bg",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
       "videoId": "9YJdTdHTB18",
       "sourceTitle": "집에서 콜드브루를 만드는 정말 쉬운 3가지 방법, 더치커피",
       "sourceUrl": "https://www.youtube.com/watch?v=9YJdTdHTB18",
@@ -10369,6 +11941,48 @@
       "videoFormat": "long-form",
       "status": "excluded-nonrecipe",
       "reason": "정보란을 확인한 조리도구·영양 정보·식재료 손질/보관 또는 커피 추출 방법 안내 영상. 분량 있는 완성 메뉴 재료표가 아니므로 제외."
+    },
+    {
+      "videoId": "mMk2be55ecM",
+      "sourceTitle": "[자세한 설명] 마시면 무조건 살빠지는 물, 디톡스에도 좋음",
+      "sourceUrl": "https://www.youtube.com/watch?v=mMk2be55ecM",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "videoId": "xQaxjDwu6f8",
+      "sourceTitle": "[NoMusic]기적의 다이어트 음료 3가지(살빠지는 음료), 3 Low Carb Drinks",
+      "sourceUrl": "https://www.youtube.com/watch?v=xQaxjDwu6f8",
+      "sourceName": "무니키친MoonyKitchen",
+      "channelId": "UCQg7opkHC1IIHYsIRuivMbw",
+      "playlistIds": [
+        "PLCled-p0JtA5wRfHbcIT5O31x8kD8VSQz",
+        "PLCled-p0JtA4TDEOaRvJWTx-LJ4fu1OtU"
+      ],
+      "playlistTitles": [
+        "디저트 Dessert",
+        "채소 vegetable"
+      ],
+      "videoFormat": "long-form",
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "mjzpjM9IZqA",

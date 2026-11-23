@@ -67,7 +67,7 @@ test('Eonam coverage accounts for the entire playlist and duplicate videos point
  assert.equal(coverage.entries.length,index.entries.length);
  assert.equal(new Set(coverage.entries.map(e=>e.videoId)).size,coverage.entries.length);
  assert.deepEqual(new Set(coverage.entries.map(e=>e.videoId)),new Set(index.entries.map(e=>e.videoId)));
- const statuses=['registered','pending','excluded-short','excluded-duplicate','excluded-nonrecipe'];
+ const statuses=['registered','pending','excluded-short','excluded-duplicate','excluded-nonrecipe','excluded-policy'];
  assert.equal(statuses.reduce((n,s)=>n+coverage.entries.filter(e=>e.status===s).length,0),coverage.entries.length);
  for(const status of statuses)assert.equal(coverage.counts[status],coverage.entries.filter(e=>e.status===status).length,status);
  const registered=new Set(coverage.entries.filter(e=>e.status==='registered').map(e=>e.videoId));

@@ -75,7 +75,7 @@ test('Caden playlist coverage accounts for all videos while excluding Shorts and
  assert.equal(coverage.entries.length,videoIndex.entries.length);
  assert.equal(new Set(coverage.entries.map(e=>e.videoId)).size,coverage.entries.length);
  assert.deepEqual(new Set(coverage.entries.map(e=>e.videoId)),new Set(videoIndex.entries.map(e=>e.videoId)));
- const statuses=['registered','pending','excluded-short','excluded-other-channel'];
+ const statuses=['registered','pending','excluded-short','excluded-other-channel','excluded-policy'];
  assert.equal(statuses.reduce((sum,status)=>sum+coverage.entries.filter(e=>e.status===status).length,0),coverage.entries.length);
  for(const status of statuses)assert.equal(coverage.counts[status],coverage.entries.filter(e=>e.status===status).length,status);
  const shortIds=new Set(videoIndex.entries.filter(e=>e.videoFormat==='short').map(e=>e.videoId));

@@ -1,6 +1,7 @@
 import {readFile,writeFile} from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import {batch50,skips} from './eonam-policy.mjs';
+import {applyPendingReviewPolicy} from './pending-review-policy.mjs';
 const read=async p=>JSON.parse(await readFile(new URL('../'+p,import.meta.url),'utf8'));
 const write=(p,v)=>writeFile(new URL('../'+p,import.meta.url),JSON.stringify(v,null,2)+'\n');
 const index=await read('data/source/eonam-video-index.json');
@@ -10,14 +11,14 @@ assert.equal(index.completePublicTraversal,true);
 const selected=new Set(batch50.map(r=>r[0]));
 const decisions=new Map(skips.map(e=>[e.videoId,e]));
 const sourceRows=new Map([...review.entries,...(review.held??[]),...(review.excluded??[])].map(e=>[e.videoId,e]));
-const entries=index.entries.map(e=>{
+const entries=applyPendingReviewPolicy(index.entries.map(e=>{
  const source=sourceRows.get(e.videoId);const decision=decisions.get(e.videoId);
  const status=e.videoFormat==='short'?'excluded-short':decision?.status?.startsWith('excluded-')?decision.status:selected.has(e.videoId)?'registered':'pending';
- const reason=status==='excluded-short'?'원본 영상 메타에서 쇼츠로 확인되어 등록 대상에서 제외.':decision?.reason??source?.reason??source?.heldReason??'원본 재료·사용 분량 추가 확인 필요';
+ const reason=status==='excluded-short'?'원본 영상 메타에서 쇼츠로 확인되어 등록 대상에서 제외.':decision?.reason??source?.originalReason??source?.reason??source?.heldReason??'원본 재료·사용 분량 추가 확인 필요';
  return {videoId:e.videoId,sourceTitle:e.title,sourceUrl:'https://www.youtube.com/watch?v='+e.videoId,sourceName:e.sourceName??source?.sourceName??null,channelId:e.channelId??source?.channelId??null,videoFormat:e.videoFormat,status,...(status==='registered'?{recipeId:'eonam-'+e.videoId}:{reason}),...(decision?.duplicateOf?{duplicateOf:decision.duplicateOf}:{}),...(source?.recipeLinks?{recipeLinks:source.recipeLinks}:{})};
-});
+}));
 assert.equal(new Set(entries.map(e=>e.videoId)).size,entries.length);
-const statuses=['registered','pending','excluded-short','excluded-duplicate','excluded-nonrecipe'];
+const statuses=['registered','pending','excluded-short','excluded-duplicate','excluded-nonrecipe','excluded-policy'];
 assert.ok(entries.every(e=>statuses.includes(e.status)));
 const counts=Object.fromEntries(statuses.map(s=>[s,entries.filter(e=>e.status===s).length]));
 assert.equal(counts.registered,selected.size);assert.equal(Object.values(counts).reduce((n,v)=>n+v,0),entries.length);

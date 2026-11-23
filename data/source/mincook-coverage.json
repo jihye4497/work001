@@ -8,11 +8,12 @@
   "completePublicTraversal": true,
   "publicArticleCount": 782,
   "counts": {
-    "registered": 677,
+    "registered": 682,
     "existing": 0,
-    "pending": 105,
+    "pending": 4,
     "excluded-duplicate": 0,
-    "excluded-nonrecipe": 0
+    "excluded-nonrecipe": 0,
+    "excluded-policy": 96
   },
   "scope": "사용자가 별도 출처로 승인한 채널 공식 블로그 공개 게시글 기준. 원문 메뉴명·재료 사실만 대조하며 사진·조리 문장은 복제하지 않음. YouTube 재생목록 영상 전부를 레시피로 등록했다는 뜻이 아니며 영상 링크를 임의로 만들지 않음.",
   "entries": [
@@ -239,8 +240,11 @@
       "sourceTitle": "돼지 등뼈가 통째로 들어간 뼈짬뽕 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/775",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "뼈 육수 제조 전체와 완성 육수2L 사용의 관계 추가 확인 필요."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "뼈 육수 제조 전체와 완성 육수2L 사용의 관계 추가 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-773",
@@ -273,8 +277,11 @@
       "sourceTitle": "샤브샤브죽 레시피, 밀키트로 간단하게 만드는 방법!",
       "sourceUrl": "https://chef-choice.tistory.com/772",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "제조한 샤브샤브죽 밀키트 전체 중110g 사용의 원재료 배분 비율 확인 필요."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "제조한 샤브샤브죽 밀키트 전체 중110g 사용의 원재료 배분 비율 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-771",
@@ -307,8 +314,11 @@
       "sourceTitle": "아롱사태는 꼭 이렇게 드세요. 몸보신으로 좋은 소고기 수육 전골 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/770",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "수육 전골과 냉면에 나누는 아롱사태·육수 사용 분량 확인 필요."
+      "status": "excluded-policy",
+      "reason": "여러 완성 요리가 섞인 자료는 이번 간소화 검토에서 제외",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "수육 전골과 냉면에 나누는 아롱사태·육수 사용 분량 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-768",
@@ -317,8 +327,11 @@
       "sourceTitle": "명란젓에 절인 명란 새우장 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/768",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "명란 소스 재료표에 다진마늘1숟가락이 두 번 반복되어 원문 중복 여부 확인 필요."
+      "status": "excluded-policy",
+      "reason": "공식 원문에 명란새우장과 명란새우장 초밥의 별도 완성 메뉴 구획이 함께 있음. 마늘 중복 표기까지 추가 판단하지 않고 복수 메뉴 제외 기준 적용.",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "명란 소스 재료표에 다진마늘1숟가락이 두 번 반복되어 원문 중복 여부 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-767",
@@ -423,8 +436,11 @@
       "sourceTitle": "시원한 육수랑 같이 먹는 물 비빔국수 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/759",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 요리 기준 인분 근거 추가 확인 필요"
+      "status": "excluded-policy",
+      "reason": "물비빔국수의 삶은 국수 양이 재료표·본문에 명시되지 않음. 냉면육수300ml만으로 면 구매량을 추정하지 않음.",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-758",
@@ -457,8 +473,11 @@
       "sourceTitle": "삼겹살에 명란젓을 넣어보세요. 명란 삼겹살 솥밥 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/756",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "명란 삼겹살의 주요 재료량이 없고 완성 솥밥 사용량도 없어 분량 확인 필요."
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "명란 삼겹살의 주요 재료량이 없고 완성 솥밥 사용량도 없어 분량 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-755",
@@ -467,8 +486,11 @@
       "sourceTitle": "오징어내장 통째로 먹는 오징어통찜 레시피 (feat. 오징어 파스타)",
       "sourceUrl": "https://chef-choice.tistory.com/755",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-754",
@@ -513,8 +535,11 @@
       "sourceTitle": "니뽕내뽕 스타일의 크뽕 만드는 방법. (크림짬뽕 레시피)",
       "sourceUrl": "https://chef-choice.tistory.com/751",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "홍합 제조량과 일부 육수 사용·우유150nl 원문 표기의 분량 추가 확인 필요."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "홍합 제조량과 일부 육수 사용·우유150nl 원문 표기의 분량 추가 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-750",
@@ -583,8 +608,11 @@
       "sourceTitle": "극강의 고소함 참깨 닭 비빔국수 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/745",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "고추파기름·소스 제조량과 국수 사용량·배분 관계 추가 확인 필요."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "고추파기름·소스 제조량과 국수 사용량·배분 관계 추가 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-744",
@@ -749,8 +777,11 @@
       "sourceTitle": "대표 보양식 설렁탕을 집에서 끓이는 방법 (feat. 차돌탕 레시피)",
       "sourceUrl": "https://chef-choice.tistory.com/731",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "대량 차돌탕 육수 제조와 한 그릇에 쓰는 부분 분량 확인 필요."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "대량 차돌탕 육수 제조와 한 그릇에 쓰는 부분 분량 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-730",
@@ -819,8 +850,11 @@
       "sourceTitle": "어복쟁반 집에서 쉽게 만드는 방법. (feat.평양냉면 레시피)",
       "sourceUrl": "https://chef-choice.tistory.com/725",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "어복쟁반·평양냉면의 고기 및 육수 배분 비율 확인 필요."
+      "status": "excluded-policy",
+      "reason": "여러 완성 요리가 섞인 자료는 이번 간소화 검토에서 제외",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "어복쟁반·평양냉면의 고기 및 육수 배분 비율 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-723",
@@ -997,8 +1031,11 @@
       "sourceTitle": "집에서 냉모밀 만드는 방법. (메밀소바 레시피)",
       "sourceUrl": "https://chef-choice.tistory.com/710",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-709",
@@ -1067,8 +1104,11 @@
       "sourceTitle": "깔끔하게 매운돼지갈비찜 만드는 방법!!! (돼지갈비찜 레시피)",
       "sourceUrl": "https://chef-choice.tistory.com/704",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "돼지갈비와 앞다리살 합계2kg의 각 재료 배분량 확인 필요."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "돼지갈비와 앞다리살 합계2kg의 각 재료 배분량 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-703",
@@ -1101,8 +1141,10 @@
       "sourceTitle": "반찬이 필요없는 솥밥 만드는 방법!!! (스테이크 솥밥 레시피)",
       "sourceUrl": "https://chef-choice.tistory.com/701",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "스테이크용 고기500g의 축종이 재료표·본문 모두 명시되지 않아 원재료 추가 확인 필요."
+      "status": "registered",
+      "recipeId": "mincook-blog-701",
+      "name": "스테이크 솥밥",
+      "nameSource": "official-blog"
     },
     {
       "sourceId": "blog-700",
@@ -1195,8 +1237,11 @@
       "sourceTitle": "수만 명에게 검증된 뚝딱이형 닭도리탕 레시피 (닭볶음탕 최신 개정판)",
       "sourceUrl": "https://chef-choice.tistory.com/692",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "염지한 닭의 원문 중량·개수가 재료표에 없어 전체 요리 분량 확인 필요."
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "염지한 닭의 원문 중량·개수가 재료표에 없어 전체 요리 분량 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-693",
@@ -1205,8 +1250,11 @@
       "sourceTitle": "이 방법으로 하면 스테이크 절대 실패할 수 없습니다. (feat. 스테이크 소스 레시피)",
       "sourceUrl": "https://chef-choice.tistory.com/693",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 요리 기준 인분 근거 추가 확인 필요"
+      "status": "excluded-policy",
+      "reason": "스테이크용 고기의 수량·축종이 명시되지 않음. 복분자 소스량을 고기량으로 환산하지 않음.",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-691",
@@ -1251,8 +1299,11 @@
       "sourceTitle": "몸에 좋은 기버터 만드는 방법 (기버터 스테이크 레시피)",
       "sourceUrl": "https://chef-choice.tistory.com/688",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-686",
@@ -1261,8 +1312,11 @@
       "sourceTitle": "일본 후쿠오카에서 줄 서서 먹는다는 갈비 붓카케 우동 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/686",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "우동다시 전체 제조와 추가 물·설탕 및 완성 우동의 사용 분량 확인 필요."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "우동다시 전체 제조와 추가 물·설탕 및 완성 우동의 사용 분량 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-687",
@@ -1283,8 +1337,11 @@
       "sourceTitle": "봄동 겉절이부터 다른 겉절이까지 모두 가능한 겉절이 양념 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/685",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "준비한 봄동겉절이·무생채·부추나물과 비빔밥 사용 분량 확인 필요."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "준비한 봄동겉절이·무생채·부추나물과 비빔밥 사용 분량 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-684",
@@ -1365,8 +1422,11 @@
       "sourceTitle": "삼겹살 김밥보다 맛있는 삼겹살 김밥샌드 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/679",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "김밥샌드의 주재료 밥·삼겹살·콩나물 분량이 모두 없어 전체 양 확인 필요."
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "김밥샌드의 주재료 밥·삼겹살·콩나물 분량이 모두 없어 전체 양 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-677",
@@ -1375,8 +1435,11 @@
       "sourceTitle": "밥솥으로 만드는 수비드 수육 레시피. 이거 진짜 촉촉합니다!!!",
       "sourceUrl": "https://chef-choice.tistory.com/677",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 요리 기준 인분 근거 추가 확인 필요"
+      "status": "excluded-policy",
+      "reason": "수육삼합의 삼겹살·손두부 수량이 미기재. 볶음김치300g만으로 전체 구매량을 추정하지 않음.",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-675",
@@ -1397,8 +1460,11 @@
       "sourceTitle": "맵고 얼큰하고 진한 육개장 레시피 찾으신다면 잘 찾아 오셨습니다.",
       "sourceUrl": "https://chef-choice.tistory.com/674",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "두태기름 제조500g 중250ml 사용의 비율이 명시되지 않아 원재료 배분 확인 필요."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "두태기름 제조500g 중250ml 사용의 비율이 명시되지 않아 원재료 배분 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-673",
@@ -1803,8 +1869,10 @@
       "sourceTitle": "전자레인지로 만드는 초간단 크림파스타 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/636",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "재료표 물100g과 본문 물150ml가 달라 임의 단위·수량 변경 없이 원문 추가 확인 필요."
+      "status": "registered",
+      "recipeId": "mincook-blog-636",
+      "name": "전자레인지 크림 파스타",
+      "nameSource": "official-blog"
     },
     {
       "sourceId": "blog-635",
@@ -1825,8 +1893,11 @@
       "sourceTitle": "묵은지 처리하기 너무 좋은 묵은지 참치말이 레시피 (Feat. 불 맛)",
       "sourceUrl": "https://chef-choice.tistory.com/634",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "묵은지참치말이 재료표에서 쌈용 묵은지·데리야키소스가 빠져 주재료 총량 확인 필요."
+      "status": "excluded-policy",
+      "reason": "공식 원문에서 밥700g·속용 다진묵은지120g 등은 확인되나 겉에 싸는 묵은지 양이 없고 데리야끼소스도 재료표에 누락. 속의 김치를 쌈용 전체 양으로 오인하지 않고 제외.",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "묵은지참치말이 재료표에서 쌈용 묵은지·데리야키소스가 빠져 주재료 총량 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-633",
@@ -1847,8 +1918,11 @@
       "sourceTitle": "동파육을 닭으로 만들었습니다. 동파닭 레시피 (feat.메쉬드포테이토)",
       "sourceUrl": "https://chef-choice.tistory.com/632",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "동파닭 재료표에 주재료 닭이 누락되고 직접 제조 소스의 사용 비율 확인 필요."
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "동파닭 재료표에 주재료 닭이 누락되고 직접 제조 소스의 사용 비율 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-631",
@@ -1869,8 +1943,11 @@
       "sourceTitle": "밥과 파스타 모두 잘 어울리는 버터갈릭새우 레시피 (하와이 지오반니 쉬림프박스)",
       "sourceUrl": "https://chef-choice.tistory.com/630",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "쉬림프박스·갈릭새우파스타 두 완성 요리의 새우·소스 분량 배분 확인 필요."
+      "status": "excluded-policy",
+      "reason": "여러 완성 요리가 섞인 자료는 이번 간소화 검토에서 제외",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "쉬림프박스·갈릭새우파스타 두 완성 요리의 새우·소스 분량 배분 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-629",
@@ -1915,8 +1992,11 @@
       "sourceTitle": "사 먹으면 진짜 비싼 꼬리곰탕 집에서 끓이는 방법 (feat.오징어젓갈 레시피)",
       "sourceUrl": "https://chef-choice.tistory.com/626",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "소꼬리와 잡뼈 합계 중량의 각 재료 배분량 확인 필요."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "소꼬리와 잡뼈 합계 중량의 각 재료 배분량 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-624",
@@ -1961,8 +2041,11 @@
       "sourceTitle": "육수 하나로 돼지국밥부터 뼈해장국까지 만드는 방법",
       "sourceUrl": "https://chef-choice.tistory.com/622",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "대량 돼지국밥·뼈해장국의 원재료와 육수 분량 배분 확인 필요."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "대량 돼지국밥·뼈해장국의 원재료와 육수 분량 배분 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-621",
@@ -2067,8 +2150,11 @@
       "sourceTitle": "중국집 레시피로 집에서 간짜장 만드는 방법",
       "sourceUrl": "https://chef-choice.tistory.com/613",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "재료표 미림0.5숟가락과 본문 미원0.5숟가락이 서로 다른 재료로 충돌하여 원문 추가 확인 필요."
+      "status": "excluded-policy",
+      "reason": "공식 원문에서 돼지비계 제조량 없이 만든 라드6큰술을 사용하고 중화면 양도 미기재. 소스/면의 실제 원재료 사용량을 확정하기 어려워 제외. 미림/미원 충돌도 미해결로 기록.",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "재료표 미림0.5숟가락과 본문 미원0.5숟가락이 서로 다른 재료로 충돌하여 원문 추가 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-612",
@@ -2125,8 +2211,11 @@
       "sourceTitle": "토마토는 무조건 말려 먹으세요. 썬드라이 토마토 페이스트 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/608",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "썬드라이토마토 페이스트 제조와 여러 후속 요리의 사용 비율 확인 필요."
+      "status": "excluded-policy",
+      "reason": "여러 완성 요리가 섞인 자료는 이번 간소화 검토에서 제외",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "썬드라이토마토 페이스트 제조와 여러 후속 요리의 사용 비율 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-607",
@@ -2171,8 +2260,11 @@
       "sourceTitle": "두바이 초콜릿 보다 훨씬 더 맛있는 두바이 초콜렛 아이스크림 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/604",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "두바이초콜릿 아이스크림과 직접 제조 면 재료 구획의 사용 비율 확인 필요."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "두바이초콜릿 아이스크림과 직접 제조 면 재료 구획의 사용 비율 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-603",
@@ -2205,8 +2297,11 @@
       "sourceTitle": "수박은 제발 구워드세요. 수박 브루스케타 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/599",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-600",
@@ -2515,8 +2610,11 @@
       "sourceTitle": "캐나다 국민 음식 푸틴 만드는 방법. 그레이비 소스 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/575",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "푸틴 주재료 러셋감자의 수량이 없어 소스량만으로 인분 확정하지 않음."
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "푸틴 주재료 러셋감자의 수량이 없어 소스량만으로 인분 확정하지 않음.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-574",
@@ -2537,8 +2635,10 @@
       "sourceTitle": "집에서 레스토랑 부럽지 않은 스테이크 만드는 방법 (feat.참나물 지미추리)",
       "sourceUrl": "https://chef-choice.tistory.com/572",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "스테이크용 고기1kg의 축종이 재료표·본문 모두 명시되지 않아 원재료 추가 확인 필요."
+      "status": "registered",
+      "recipeId": "mincook-blog-572",
+      "name": "레스토랑 스테이크",
+      "nameSource": "official-blog"
     },
     {
       "sourceId": "blog-573",
@@ -2583,8 +2683,11 @@
       "sourceTitle": "순두부, 연두부, 두부부침 어디에도 잘어울리는 간장양념장 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/569",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 요리 기준 인분 근거 추가 확인 필요"
+      "status": "excluded-policy",
+      "reason": "간장 연두부의 연두부 수량이 미기재. 양념장을 별도 메뉴로 재해석하지 않고 원본 완성 요리 기준으로 제외.",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-568",
@@ -2725,8 +2828,11 @@
       "sourceTitle": "입맛 없을 때 먹으면 딱 좋은 김치비빔국수 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/557",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 요리 기준 인분 근거 추가 확인 필요"
+      "status": "excluded-policy",
+      "reason": "김치비빔국수의 소면 수량이 재료표·본문에 미기재.",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-556",
@@ -2843,8 +2949,11 @@
       "sourceTitle": "대전 사람들만 먹는다는 향토 음식 콩튀김을 아시나요?",
       "sourceUrl": "https://chef-choice.tistory.com/547",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 요리 기준 인분 근거 추가 확인 필요"
+      "status": "excluded-policy",
+      "reason": "콩튀김의 콩·찹쌀가루 수량이 재료표·본문에 미기재.",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-546",
@@ -3021,8 +3130,11 @@
       "sourceTitle": "한국에서는 생소한 햄까스(하무카츠) 레시피 (feat.참깨드레싱)",
       "sourceUrl": "https://chef-choice.tistory.com/532",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "햄까스의 주재료 햄·빵가루·계란 등 수량이 없고 후속 곁들임 사용 분량 확인 필요."
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "햄까스의 주재료 햄·빵가루·계란 등 수량이 없고 후속 곁들임 사용 분량 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-531",
@@ -3259,8 +3371,11 @@
       "sourceTitle": "마파두부 좋아하면 이것도 좋아할 겁니다. 중국식 마파가지덮밥 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/512",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "다짐육350g의 축종이 재료표·본문 모두 명시되지 않아 원재료 추가 확인 필요."
+      "status": "excluded-policy",
+      "reason": "마파가지덮밥의 다짐육350g·가지240g은 확인되나 핵심 밥의 양이 없음. 다짐육의 축종도 미명시. 원문 전체 구매량을 확정하기 어려워 제외.",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "다짐육350g의 축종이 재료표·본문 모두 명시되지 않아 원재료 추가 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-511",
@@ -3329,8 +3444,11 @@
       "sourceTitle": "밤양갱부터 말차양갱, 팥양갱까지 양갱이 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/505",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 요리 기준 인분 근거 추가 확인 필요"
+      "status": "excluded-policy",
+      "reason": "여러 완성 요리가 섞인 자료는 이번 간소화 검토에서 제외",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-504",
@@ -3495,8 +3613,11 @@
       "sourceTitle": "줄 서서 먹는 꼬막 비빔칼국수 레시피 (feat. 비법양념장)",
       "sourceUrl": "https://chef-choice.tistory.com/491",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 요리 기준 인분 근거 추가 확인 필요"
+      "status": "excluded-policy",
+      "reason": "꼬막비빔칼국수와 애호박비빔칼국수 두 완성 메뉴가 함께 있음. 꼬막·칼국수면 수량도 미기재.",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-490",
@@ -3889,8 +4010,11 @@
       "sourceTitle": "겉바속촉의 정석 굴카츠 만드는 방법 (feat. 굴카츠동, 굴카츠샌드 레시피)",
       "sourceUrl": "https://chef-choice.tistory.com/458",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-457",
@@ -3947,8 +4071,11 @@
       "sourceTitle": "딱 5가지 양념으로 간단하게 중화잡채 만드는 방법 (feat. 잡채밥 레시피)",
       "sourceUrl": "https://chef-choice.tistory.com/453",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "등심300g의 축종이 재료표·본문 모두 명시되지 않아 원재료 추가 확인 필요."
+      "status": "excluded-policy",
+      "reason": "중화잡채·잡채밥·가지튀김의 별도 완성 요리가 함께 있음. 복수 메뉴 제외 기준 적용.",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "등심300g의 축종이 재료표·본문 모두 명시되지 않아 원재료 추가 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-452",
@@ -3969,8 +4096,11 @@
       "sourceTitle": "그냥 돈까스보다 훨씬 더 맛있는 네기카츠 튀기는 방법 (feat. 멘치까스 레시피)",
       "sourceUrl": "https://chef-choice.tistory.com/451",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-450",
@@ -4051,8 +4181,11 @@
       "sourceTitle": "외국에서 유행하는데 한국인은 모르는 K-food 고추장버터 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/444",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "고추장버터 제조량250g 중 솥밥 사용량이 없어 원재료 배분 비율 확인 필요."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "고추장버터 제조량250g 중 솥밥 사용량이 없어 원재료 배분 비율 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-443",
@@ -4145,8 +4278,11 @@
       "sourceTitle": "궁채나물(줄기상추) 맛있게 먹는 레시피 알려드립니다.",
       "sourceUrl": "https://chef-choice.tistory.com/436",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-435",
@@ -4263,8 +4399,11 @@
       "sourceTitle": "남은 식빵으로 만드는 고르곤졸라 (feat. 커스터드 식빵, 카라멜 식빵 팝콘)",
       "sourceUrl": "https://chef-choice.tistory.com/427",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 요리 기준 인분 근거 추가 확인 필요"
+      "status": "excluded-policy",
+      "reason": "여러 완성 요리가 섞인 자료는 이번 간소화 검토에서 제외",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-425",
@@ -4321,8 +4460,11 @@
       "sourceTitle": "돼지고기 다짐육으로 만드는 돼지떡갈비 등 세가지 요리",
       "sourceUrl": "https://chef-choice.tistory.com/421",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "다진 돼지고기 반죽을 여러 요리에 나누는 사용 분량 확인 필요."
+      "status": "excluded-policy",
+      "reason": "여러 완성 요리가 섞인 자료는 이번 간소화 검토에서 제외",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "다진 돼지고기 반죽을 여러 요리에 나누는 사용 분량 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-420",
@@ -4331,8 +4473,11 @@
       "sourceTitle": "샐러드보다 훨씬 더 맛있는 다이어트 포케 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/420",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 요리 기준 인분 근거 추가 확인 필요"
+      "status": "excluded-policy",
+      "reason": "포케의 현미밥·새우·우삼겹·연어 등 핵심 재료량이 미기재.",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-419",
@@ -4353,8 +4498,11 @@
       "sourceTitle": "라이스페이퍼로 만드는 초간단 탕수육 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/418",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 요리 기준 인분 근거 추가 확인 필요"
+      "status": "excluded-policy",
+      "reason": "삼겹살탕수육의 삼겹살 양과 전체 라이스페이퍼 수량이 미기재. 한 번 말 때의 2장을 전체 사용량으로 오인하지 않음.",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-417",
@@ -4399,8 +4547,11 @@
       "sourceTitle": "정말 저렴한 홍가리비로 만드는 고급요리 홍콩가리비찜 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/414",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 요리 기준 인분 근거 추가 확인 필요"
+      "status": "excluded-policy",
+      "reason": "홍콩가리비찜의 홍가리비 수량·중량이 미기재. 실당면50g을 가리비량으로 환산하지 않음.",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-413",
@@ -4529,8 +4680,11 @@
       "sourceTitle": "집에 있는 재료들로 간단하게 만드는 고든램지 스테이크 샌드위치 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/404",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 요리 기준 인분 근거 추가 확인 필요"
+      "status": "excluded-policy",
+      "reason": "스테이크 샌드위치의 소고기·식빵 수량이 재료표·본문에 미기재.",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-403",
@@ -4551,8 +4705,11 @@
       "sourceTitle": "표고버섯, 양송이버섯을 잼으로 만들어 먹는다?? (뒥셀 레시피)",
       "sourceUrl": "https://chef-choice.tistory.com/402",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "뒥셀 제조 전체와 후속 요리에 쓰는 사용량이 섞여 대표 메뉴 분량 확인 필요."
+      "status": "excluded-policy",
+      "reason": "뒥셀 제조와 식빵/소고기 조합·리조또·계란말이의 여러 후속 요리가 함께 있고 뒥셀 사용 비율도 불명확해 제외.",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "뒥셀 제조 전체와 후속 요리에 쓰는 사용량이 섞여 대표 메뉴 분량 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-400",
@@ -4585,8 +4742,11 @@
       "sourceTitle": "동그랑땡 반죽으로 동그랑땡만 만들었나요?? (만능 동그랑땡 반죽 레시피)",
       "sourceUrl": "https://chef-choice.tistory.com/398",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "동그랑땡 반죽과 여러 튀김 대안 재료가 함께 있어 대표 분량 확인 필요."
+      "status": "excluded-policy",
+      "reason": "여러 완성 요리가 섞인 자료는 이번 간소화 검토에서 제외",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "동그랑땡 반죽과 여러 튀김 대안 재료가 함께 있어 대표 분량 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-397",
@@ -4703,8 +4863,11 @@
       "sourceTitle": "역할맥st 파인애플 샤베트 만드는 방법(feat.코코넛 샤베트)",
       "sourceUrl": "https://chef-choice.tistory.com/387",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 수량 미기재로 인분·구매량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 수량 미기재로 인분·구매량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-388",
@@ -4737,8 +4900,11 @@
       "sourceTitle": "닭가슴살까지 촉촉하게 먹을 수 있는 집에서 만드는 비어캔치킨 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/385",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-384",
@@ -4855,8 +5021,11 @@
       "sourceTitle": "베이글에 발라 먹으면 맛있는 크림치즈 레시피 3가지 (토마토, 대파베이컨, 딸기)",
       "sourceUrl": "https://chef-choice.tistory.com/375",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 수량 미기재로 인분·구매량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 수량 미기재로 인분·구매량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-373",
@@ -4925,8 +5094,11 @@
       "sourceTitle": "스팸으로 만드는 초간단 마요덮밥부터 나폴리탄 파스타 레시피까지",
       "sourceUrl": "https://chef-choice.tistory.com/369",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "한 원문에 스팸 요리 세 가지가 있으며 추출된 첫 재료표만으로 대표 요리 전체 양 확인 불가."
+      "status": "excluded-policy",
+      "reason": "여러 완성 요리가 섞인 자료는 이번 간소화 검토에서 제외",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "한 원문에 스팸 요리 세 가지가 있으며 추출된 첫 재료표만으로 대표 요리 전체 양 확인 불가.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-368",
@@ -5187,8 +5359,11 @@
       "sourceTitle": "배달로 한 달에 매출 1억을 기록한 사장님께 배워온 업소용 크림파스타 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/347",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "원문 4인분 소스 제조량 중 200ml 사용하며 완성 수율·사용 비율 미기재. 베이컨/우삼겹 토핑 대안 확인 대기."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "원문 4인분 소스 제조량 중 200ml 사용하며 완성 수율·사용 비율 미기재. 베이컨/우삼겹 토핑 대안 확인 대기.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-346",
@@ -5269,8 +5444,11 @@
       "sourceTitle": "코스트코에서 구매한 차돌양지 원육으로 맑은 곰탕 끓이는 방법 (feat.곰탕국수 레시피)",
       "sourceUrl": "https://chef-choice.tistory.com/340",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "차돌양지 원육 설명과 재료표 앞다리살의 축종·부위 대응 및 곰탕/국수 분량 확인 대기."
+      "status": "excluded-policy",
+      "reason": "맑은 곰탕과 곰탕국수 두 완성 메뉴가 함께 있으며 고기·육수 배분도 미기재. 복수 메뉴 제외 기준 적용.",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "차돌양지 원육 설명과 재료표 앞다리살의 축종·부위 대응 및 곰탕/국수 분량 확인 대기.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-339",
@@ -5291,8 +5469,11 @@
       "sourceTitle": "우동소스를 이용해서 초간단 스키야키, 냉모밀, 김치어묵우동을 만들어 보자",
       "sourceUrl": "https://chef-choice.tistory.com/338",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-337",
@@ -5337,8 +5518,11 @@
       "sourceTitle": "연어 회와 구이, 두가지 다 즐길 수 있는 연어레어카츠덮밥 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/334",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-333",
@@ -5359,8 +5543,11 @@
       "sourceTitle": "집에서 연어 숙성하는 방법부터 연어 스테이크 레시피까지!",
       "sourceUrl": "https://chef-choice.tistory.com/332",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-331",
@@ -5417,8 +5604,11 @@
       "sourceTitle": "외식할 때 먹을 수 있는 목살 스테이크 집에서 간단하게 만드는 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/327",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-326",
@@ -5451,8 +5641,11 @@
       "sourceTitle": "메뉴판에 보이면 무조건 시켜먹을 수밖에 없는 비빔만두 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/324",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "재료표 물엿 1숟가락과 본문 참기름 1숟가락의 재료가 달라 원본 확인 대기."
+      "status": "excluded-policy",
+      "reason": "비빔만두 핵심인 군만두 수량이 미기재. 물엿/참기름 충돌을 추가 판단하지 않고 핵심 재료량 부족으로 제외.",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "재료표 물엿 1숟가락과 본문 참기름 1숟가락의 재료가 달라 원본 확인 대기.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-323",
@@ -5473,8 +5666,11 @@
       "sourceTitle": "푸라닭 고추마요치킨 싱크로율 90% 이상으로 만드는 방법, 고추마요치킨 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/322",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "주재료 닭의 수량과 원문 양 가루의 정확한 재료명 확인 대기."
+      "status": "excluded-policy",
+      "reason": "고추마요치킨의 닭·치킨튀김가루 양이 미기재. 양 가루는 본문 양파가루로 확인되나 핵심 닭의 양이 없으므로 제외.",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "주재료 닭의 수량과 원문 양 가루의 정확한 재료명 확인 대기.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-320",
@@ -5567,8 +5763,11 @@
       "sourceTitle": "코스트코에서 파는 소고기 중 제일 싼 아롱사태를 이용한 3가지 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/314",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 수량 미기재로 인분·구매량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 수량 미기재로 인분·구매량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-313",
@@ -5661,8 +5860,11 @@
       "sourceTitle": "가성비 넘치는 홍가리비를 이용한 6가지 요리, 가리비 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/306",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "홍가리비 전량으로 만드는 여섯 요리 중 대표 버전·양념별 사용 분량 확인 대기."
+      "status": "excluded-policy",
+      "reason": "여러 완성 요리가 섞인 자료는 이번 간소화 검토에서 제외",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "홍가리비 전량으로 만드는 여섯 요리 중 대표 버전·양념별 사용 분량 확인 대기.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-305",
@@ -5719,8 +5921,11 @@
       "sourceTitle": "트레이더스 추천 상품, 추천 템 3가지로 만드는 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/302",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-242",
@@ -5741,8 +5946,11 @@
       "sourceTitle": "라이스페이퍼를 이용한 바삭바삭한 소떡소떡 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/301",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-300",
@@ -5811,8 +6019,11 @@
       "sourceTitle": "이렇게 떡볶이를 만들어 보세요 차원이 다른 고소함을 느낄 수 있습니다. 대창떡볶이 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/251",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-292",
@@ -5846,7 +6057,10 @@
       "sourceUrl": "https://chef-choice.tistory.com/295",
       "sourceName": "1분요리 뚝딱이형",
       "status": "pending",
-      "reason": "원문 국거리용 고기의 축종이 명시되지 않아 소고기·돼지고기로 임의 확정하지 않고 확인 대기."
+      "reason": "국거리용 고기300g을 소고기로 연결할지 사용자 확인 대기.",
+      "originalReason": "원문 국거리용 고기의 축종이 명시되지 않아 소고기·돼지고기로 임의 확정하지 않고 확인 대기.",
+      "reviewState": "awaiting-user",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-294",
@@ -5856,7 +6070,10 @@
       "sourceUrl": "https://chef-choice.tistory.com/294",
       "sourceName": "1분요리 뚝딱이형",
       "status": "pending",
-      "reason": "원문 구이용 고기의 축종이 명시되지 않아 소고기·돼지고기로 임의 확정하지 않고 확인 대기."
+      "reason": "구이용 고기100g의 축종 사용자 확인 대기.",
+      "originalReason": "원문 구이용 고기의 축종이 명시되지 않아 소고기·돼지고기로 임의 확정하지 않고 확인 대기.",
+      "reviewState": "awaiting-user",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-293",
@@ -5865,8 +6082,11 @@
       "sourceTitle": "집에서 고급스럽게 즐기는 스테이크 레시피, 갈릭바질버터 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/293",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "원문 스테이크용 고기의 축종과 사용량이 명시되지 않아 추가 확인 대기."
+      "status": "excluded-policy",
+      "reason": "갈릭바질버터 스테이크의 고기 수량·중량이 미기재. 버터량만으로 고기 구매량을 추정하지 않고 제외.",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "원문 스테이크용 고기의 축종과 사용량이 명시되지 않아 추가 확인 대기.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-290",
@@ -5875,8 +6095,11 @@
       "sourceTitle": "마라 입문자도 맛있게 먹을 수 있는 마라감자탕 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/290",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-289",
@@ -5885,8 +6108,11 @@
       "sourceTitle": "어려워 보이지만 엄청 간단한 항정살 덮밥 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/289",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-288",
@@ -5955,8 +6181,11 @@
       "sourceTitle": "육개장과 비교해도 뒤처지지 않는 닭개장 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/284",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "삶은 닭·닭껍질 베이스·닭 육수 1.5L의 부분 사용 관계와 완성 수율 확인 대기. 원재료와 중간 조리물 중복 구매 방지."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "삶은 닭·닭껍질 베이스·닭 육수 1.5L의 부분 사용 관계와 완성 수율 확인 대기. 원재료와 중간 조리물 중복 구매 방지.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-282",
@@ -6025,8 +6254,11 @@
       "sourceTitle": "밥 한 그릇 뚝딱 하게 되는 삼치 덮밥 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/278",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-277",
@@ -6107,8 +6339,11 @@
       "sourceTitle": "맨날 똑같은 간장 찜닭, 닭도리탕이 지겨운 분들을 위해서 짜장찜닭 레시피 알려드립니다.",
       "sourceUrl": "https://chef-choice.tistory.com/258",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-273",
@@ -6129,8 +6364,11 @@
       "sourceTitle": "차돌박이 된장 샤브샤브 레시피, 마무리 칼국수까지",
       "sourceUrl": "https://chef-choice.tistory.com/272",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-270",
@@ -6163,8 +6401,11 @@
       "sourceTitle": "짜장가루보다 훨씬 더 맛있는 춘장으로 짜장소스 만드는 방법, 짜장밥 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/269",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-268",
@@ -6185,8 +6426,11 @@
       "sourceTitle": "불닭소스를 활용하여 파스타 만드는 방법 . 대창불닭파스타 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/247",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-246",
@@ -6195,8 +6439,11 @@
       "sourceTitle": "불닭소스로 간단하게 대창덮밥 만드는 방법, 호르몬동 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/246",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "재료표 맛술 3숟가락과 본문 물엿 3숟가락이 서로 달라 원문 재료 확인 대기."
+      "status": "excluded-policy",
+      "reason": "대창덮밥의 소대창·밥 수량이 미기재. 맛술/물엿 충돌 외에도 핵심 재료량이 없어 제외.",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "재료표 맛술 3숟가락과 본문 물엿 3숟가락이 서로 달라 원문 재료 확인 대기.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-245",
@@ -6290,7 +6537,10 @@
       "sourceUrl": "https://chef-choice.tistory.com/261",
       "sourceName": "1분요리 뚝딱이형",
       "status": "pending",
-      "reason": "불고기용 고기의 축종이 원문에 명시되지 않아 소고기·돼지고기로 임의 확정하지 않고 확인 대기."
+      "reason": "불고기용 고기600g을 소고기로 연결할지 사용자 확인 대기.",
+      "originalReason": "불고기용 고기의 축종이 원문에 명시되지 않아 소고기·돼지고기로 임의 확정하지 않고 확인 대기.",
+      "reviewState": "awaiting-user",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-265",
@@ -6335,8 +6585,11 @@
       "sourceTitle": "또띠아 이용해서 하나씩 뜯어먹는 또띠아피자 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/259",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-263",
@@ -6370,7 +6623,10 @@
       "sourceUrl": "https://chef-choice.tistory.com/243",
       "sourceName": "1분요리 뚝딱이형",
       "status": "pending",
-      "reason": "원문 등심의 축종이 재료표·본문에 명시되지 않아 소고기·돼지고기로 임의 확정하지 않고 확인 대기."
+      "reason": "경양식 돈까스 등심500g을 돼지고기로 연결할지 사용자 확인 대기.",
+      "originalReason": "원문 등심의 축종이 재료표·본문에 명시되지 않아 소고기·돼지고기로 임의 확정하지 않고 확인 대기.",
+      "reviewState": "awaiting-user",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-250",
@@ -6415,8 +6671,11 @@
       "sourceTitle": "집에서 불맛과 숯불향 제육볶음 만드는 방법, 불맛제육 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/240",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-239",
@@ -6425,8 +6684,11 @@
       "sourceTitle": "코스트코 대용량 냉동 삼겹살로 요리하기. 돈코츠라멘, 고기국수 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/239",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 수량 미기재로 인분·구매량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 수량 미기재로 인분·구매량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-238",
@@ -6483,8 +6745,11 @@
       "sourceTitle": "크루아상 생지를 활용해서 만드는 4가지 레시피, 크로와상 생지",
       "sourceUrl": "https://chef-choice.tistory.com/233",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 수량 미기재로 인분·구매량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 수량 미기재로 인분·구매량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-232",
@@ -6505,8 +6770,11 @@
       "sourceTitle": "다시 유행하는 꾸덕꾸덕한 가래떡 떡볶이 만드는 방법, 꼬마김밥 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/231",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-230",
@@ -6623,8 +6891,11 @@
       "sourceTitle": "집에서 단팥 호빵 쉽게 만드는 방법, 찐빵 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/220",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "공통 찐빵 반죽과 단팥/슈크림 두 대안의 배분·사용 분량 확인 대기."
+      "status": "excluded-policy",
+      "reason": "여러 완성 요리가 섞인 자료는 이번 간소화 검토에서 제외",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "공통 찐빵 반죽과 단팥/슈크림 두 대안의 배분·사용 분량 확인 대기.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-219",
@@ -6633,8 +6904,11 @@
       "sourceTitle": "3천 원짜리 대나무 통으로 된장 삼겹살 만드는 방법,죽통 고추장삼겹살 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/219",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-218",
@@ -6643,8 +6917,11 @@
       "sourceTitle": "라이스페이퍼로 만드는 딸기모찌, 베트남피자, 콘칩 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/218",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-217",
@@ -6821,8 +7098,11 @@
       "sourceTitle": "고든램지 헬스키친버거 직접 만드는 방법, 고든렘지버거 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/203",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-202",
@@ -7011,8 +7291,11 @@
       "sourceTitle": "기사식당의 무생채 만드는 방법, 무생채 비빔밥 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/187",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "완성된 무생채를 별도 메뉴에 사용하는 양·원재료 분해 비율 확인 대기."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "완성된 무생채를 별도 메뉴에 사용하는 양·원재료 분해 비율 확인 대기.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-186",
@@ -7201,8 +7484,11 @@
       "sourceTitle": "배불러도 먹게 되는 고깃집 볶음밥 만드는 방법, 곱창볶음밥 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/171",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+      "status": "excluded-policy",
+      "reason": "현재 확보한 자료의 주재료량·단위가 부족하여 이번 검토에서 제외",
+      "exclusionCode": "insufficient-core-quantities",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-170",
@@ -7391,8 +7677,11 @@
       "sourceTitle": "닭다리살로 만드는 데리야끼 닭꼬치 레시피, 데리야끼 소스 만드는 방법",
       "sourceUrl": "https://chef-choice.tistory.com/155",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "닭꼬치와 닭다리살 대안에 사용하는 닭·데리야끼소스 분량이 미기재되어 원재료 사용 비율 확인 대기."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "닭꼬치와 닭다리살 대안에 사용하는 닭·데리야끼소스 분량이 미기재되어 원재료 사용 비율 확인 대기.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-154",
@@ -7485,8 +7774,11 @@
       "sourceTitle": "떡복이와 파스타가 만났다 신전떡볶이로 만드는 파스타 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/147",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "테이크아웃 신전떡볶이 국물 1인분의 원재료·수량 분해 근거가 없어 재활용 재료 사용량 확인 대기."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "테이크아웃 신전떡볶이 국물 1인분의 원재료·수량 분해 근거가 없어 재활용 재료 사용량 확인 대기.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-146",
@@ -7627,8 +7919,11 @@
       "sourceTitle": "꼬막무침 양념장 맛있게 만드는 방법, 꼬막비빔밥 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/135",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "8~10인분 꼬막무침 제조량 중 비빔밥 밥 두 공기에 쓰는 실제 양 미기재. 부분 사용량 확인 대기."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "8~10인분 꼬막무침 제조량 중 비빔밥 밥 두 공기에 쓰는 실제 양 미기재. 부분 사용량 확인 대기.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-134",
@@ -7649,8 +7944,11 @@
       "sourceTitle": "저렴한 등뼈로 만드는 등뼈칼국수 레시피, 집에서 푸짐하게 만드는 방법",
       "sourceUrl": "https://chef-choice.tistory.com/133",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "2~3인분 등뼈 육수와 별도 1인분 면·토핑 구획의 사용 비율 및 사골팩 1:1 분량 확인 대기."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "2~3인분 등뼈 육수와 별도 1인분 면·토핑 구획의 사용 비율 및 사골팩 1:1 분량 확인 대기.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-132",
@@ -7875,8 +8173,10 @@
       "sourceTitle": "요리사들이 술 먹고 다음날 끓여 먹는 해장라면 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/114",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "재료표 파 1/4개와 본문 양파 1/4개의 표기가 달라 원문 재료 확인 대기."
+      "status": "registered",
+      "recipeId": "mincook-blog-114",
+      "name": "해장라면",
+      "nameSource": "official-blog"
     },
     {
       "sourceId": "blog-113",
@@ -8161,8 +8461,11 @@
       "sourceTitle": "김치피자탕수육 김피탕 레시피, 남은 탕수육으로 만드는 방법",
       "sourceUrl": "https://chef-choice.tistory.com/90",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "남은 탕수육의 제조 재료·실제 사용 분량 확인 대기."
+      "status": "excluded-policy",
+      "reason": "남은 탕수육20조각 이상·남은 탕수육소스6숟가락을 사용하나 원재료로 분해할 근거가 없음. 준비 요리 실제 사용량 계산이 어려운 자료 제외 기준 적용.",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "남은 탕수육의 제조 재료·실제 사용 분량 확인 대기.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-89",
@@ -8171,8 +8474,11 @@
       "sourceTitle": "시장표 쫄면 레시피, 양념장 밖에서 먹던 그 맛 그대로 만드는 방법",
       "sourceUrl": "https://chef-choice.tistory.com/89",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "1.5인분 면과 3~4인분 양념장의 실제 사용 비율 및 완성 수율 확인 대기."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "1.5인분 면과 3~4인분 양념장의 실제 사용 비율 및 완성 수율 확인 대기.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-88",
@@ -8925,8 +9231,11 @@
       "sourceTitle": "등촌샤브칼국수 레시피, 매운 얼큰 칼국수 만드는 방법",
       "sourceUrl": "https://chef-choice.tistory.com/24",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "칼국수와 볶음밥에 남은 국물·여러 조리물의 원재료 분해 비율 확인 대기."
+      "status": "excluded-policy",
+      "reason": "여러 완성 요리가 섞인 자료는 이번 간소화 검토에서 제외",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "칼국수와 볶음밥에 남은 국물·여러 조리물의 원재료 분해 비율 확인 대기.",
+      "checkedOn": "2026-11-23"
     },
     {
       "sourceId": "blog-23",
@@ -9031,8 +9340,10 @@
       "sourceTitle": "종로구 청국장찌개 맛집, 그대로 만드는 방법, 청국장 레시피",
       "sourceUrl": "https://chef-choice.tistory.com/15",
       "sourceName": "1분요리 뚝딱이형",
-      "status": "pending",
-      "reason": "원문 전체 인분이 1~1.5인분 범위로 명시되어 현재 범위 표시·계산 규칙 추가 확인 대기."
+      "status": "registered",
+      "recipeId": "mincook-blog-15",
+      "name": "청국장찌개",
+      "nameSource": "official-blog"
     },
     {
       "sourceId": "blog-14",

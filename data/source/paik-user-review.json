@@ -350,6 +350,78 @@
           "group": "양념재료"
         }
       ]
+    },
+    {
+      "videoId": "Da-yWFw5T3U",
+      "recipeId": "paik-Da-yWFw5T3U",
+      "name": "초간단 버터간장국수",
+      "sourceUrl": "https://www.youtube.com/watch?v=Da-yWFw5T3U",
+      "sourceTitle": "이게 왜 맛있지?",
+      "checkedOn": "2026-11-23",
+      "verificationMethod": "user-provided-source-transcription",
+      "independentSourceFetchVerified": false,
+      "baseServings": 1,
+      "servingsStatus": "estimated",
+      "servingsEvidence": "전체 인분 별도 명시 없음. 소면 1인분(100g)·달걀 1개를 사용한 전체 요리를 1인분으로 편집 추정. 소면의 인분 표기를 전체 요리 명시 인분으로 오인하지 않음.",
+      "ingredientHash": "d242a8b71216c640e029dc4be1fc05aa95c74da4ed83baf16147ff8fab4b3741",
+      "ingredients": [
+        {
+          "ingredientId": "mfds-ingredient-4ef9b7d8ecdb",
+          "amount": 100,
+          "unit": "g",
+          "sourceText": "소면 1인분 (100g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 40,
+          "unit": "g",
+          "sourceText": "대파 약 1/2대 (40g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "mfds-ingredient-46b97d1a17c3",
+          "amount": 12,
+          "unit": "g",
+          "sourceText": "버터 1큰술 (12g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "mfds-ingredient-860fd4a93c7c",
+          "amount": 20,
+          "unit": "g",
+          "sourceText": "진간장 2큰술 (20g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "sugar",
+          "amount": 6,
+          "unit": "g",
+          "sourceText": "설탕 1/2큰술 (6g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "egg",
+          "amount": 1,
+          "unit": "개",
+          "sourceText": "달걀 1개",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "seasoned-gim",
+          "amount": 2,
+          "unit": "g",
+          "sourceText": "조미김가루 약간 (2g)",
+          "group": "재료"
+        },
+        {
+          "ingredientId": "oil",
+          "amount": null,
+          "unit": null,
+          "sourceText": "식용유 적당량",
+          "group": "재료"
+        }
+      ]
     }
   ]
 }

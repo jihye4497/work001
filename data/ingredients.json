@@ -14753,5 +14753,29 @@
     "category": "양념·조미료",
     "isSeasoning": true,
     "isQuickPick": false
+  },
+  {
+    "id": "moony-seaweed-noodles",
+    "name": "해초국수",
+    "aliases": [],
+    "category": "두부·계란·기타",
+    "isSeasoning": false,
+    "isQuickPick": false
+  },
+  {
+    "id": "moony-unspecified-herb",
+    "name": "허브",
+    "aliases": [],
+    "category": "양념·조미료",
+    "isSeasoning": true,
+    "isQuickPick": false
+  },
+  {
+    "id": "mincook-garnish-vegetables",
+    "name": "곁들임 채소",
+    "aliases": [],
+    "category": "채소·버섯",
+    "isSeasoning": false,
+    "isQuickPick": false
   }
 ]

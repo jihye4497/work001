@@ -26,6 +26,7 @@ export function ingredientBrowseGroup(ingredient) {
  const n=ingredient.name.replace(/\s/g,'');
  if(n==='보리새우')return {category:'육·수산',subcategory:'해산물'};
  if(n==='땅콩버터')return {category:'기타',subcategory:'가공식품'};
+ if(n==='해초국수')return {category:'기타',subcategory:'면·떡'};
  if(EGGS.test(n)&&!(/마요네즈|소스|가루/.test(n)))return {category:'육·수산',subcategory:'알류'};
  if(/이리/.test(n)&&!(/치즈|요리/.test(n)))return {category:'육·수산',subcategory:'해산물'};
  if(SEAWEED.test(n)&&!(/김치|가루|소스|장국|기름|튀김/.test(n)))return {category:'육·수산',subcategory:'해조류'};

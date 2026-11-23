@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-23",
+  "note": "검토 큐 첫 20개 재검토. 공식 블로그 재료표·기존 원문 캐시를 대조하고 사진·조리 문장은 복제하지 않음. YouTube 주소는 재접근했으나 설명란을 확보하지 못해 접근 미확인으로 유지. 기존 등록 메뉴는 변경하지 않음.",
+  "entries": [
+    {
+      "sourceId": "blog-759",
+      "sourceUrl": "https://chef-choice.tistory.com/759",
+      "action": "exclude",
+      "exclusionCode": "insufficient-core-quantities",
+      "reason": "물비빔국수의 삶은 국수 양이 재료표·본문에 명시되지 않음. 냉면육수300ml만으로 면 구매량을 추정하지 않음.",
+      "evidence": {
+        "missingQuantities": [
+          "삶은 국수"
+        ],
+        "confirmedQuantity": "냉면 육수 300ml"
+      }
+    },
+    {
+      "sourceId": "blog-693",
+      "sourceUrl": "https://chef-choice.tistory.com/693",
+      "action": "exclude",
+      "exclusionCode": "insufficient-core-quantities",
+      "reason": "스테이크용 고기의 수량·축종이 명시되지 않음. 복분자 소스량을 고기량으로 환산하지 않음.",
+      "evidence": {
+        "missingQuantities": [
+          "스테이크용 고기"
+        ],
+        "confirmedQuantity": "복분자주 350ml"
+      }
+    },
+    {
+      "sourceId": "blog-677",
+      "sourceUrl": "https://chef-choice.tistory.com/677",
+      "action": "exclude",
+      "exclusionCode": "insufficient-core-quantities",
+      "reason": "수육삼합의 삼겹살·손두부 수량이 미기재. 볶음김치300g만으로 전체 구매량을 추정하지 않음.",
+      "evidence": {
+        "missingQuantities": [
+          "삼겹살",
+          "손두부"
+        ],
+        "confirmedQuantity": "신 김치 300g"
+      }
+    },
+    {
+      "sourceId": "blog-569",
+      "sourceUrl": "https://chef-choice.tistory.com/569",
+      "action": "exclude",
+      "exclusionCode": "insufficient-core-quantities",
+      "reason": "간장 연두부의 연두부 수량이 미기재. 양념장을 별도 메뉴로 재해석하지 않고 원본 완성 요리 기준으로 제외.",
+      "evidence": {
+        "missingQuantities": [
+          "연두부"
+        ],
+        "confirmedQuantity": "진간장 4숟가락"
+      }
+    },
+    {
+      "sourceId": "blog-557",
+      "sourceUrl": "https://chef-choice.tistory.com/557",
+      "action": "exclude",
+      "exclusionCode": "insufficient-core-quantities",
+      "reason": "김치비빔국수의 소면 수량이 재료표·본문에 미기재.",
+      "evidence": {
+        "missingQuantities": [
+          "소면"
+        ],
+        "confirmedQuantity": "김치 5숟가락"
+      }
+    },
+    {
+      "sourceId": "blog-547",
+      "sourceUrl": "https://chef-choice.tistory.com/547",
+      "action": "exclude",
+      "exclusionCode": "insufficient-core-quantities",
+      "reason": "콩튀김의 콩·찹쌀가루 수량이 재료표·본문에 미기재.",
+      "evidence": {
+        "missingQuantities": [
+          "콩",
+          "찹쌀가루"
+        ],
+        "confirmedQuantity": "진간장 3숟가락"
+      }
+    },
+    {
+      "sourceId": "blog-491",
+      "sourceUrl": "https://chef-choice.tistory.com/491",
+      "action": "exclude",
+      "exclusionCode": "multiple-dishes",
+      "reason": "꼬막비빔칼국수와 애호박비빔칼국수 두 완성 메뉴가 함께 있음. 꼬막·칼국수면 수량도 미기재.",
+      "evidence": {
+        "dishNames": [
+          "꼬막비빔칼국수",
+          "애호박비빔칼국수"
+        ],
+        "missingQuantities": [
+          "꼬막",
+          "칼국수면"
+        ]
+      }
+    },
+    {
+      "sourceId": "blog-420",
+      "sourceUrl": "https://chef-choice.tistory.com/420",
+      "action": "exclude",
+      "exclusionCode": "insufficient-core-quantities",
+      "reason": "포케의 현미밥·새우·우삼겹·연어 등 핵심 재료량이 미기재.",
+      "evidence": {
+        "missingQuantities": [
+          "현미밥",
+          "새우",
+          "우삼겹",
+          "연어"
+        ]
+      }
+    },
+    {
+      "sourceId": "blog-418",
+      "sourceUrl": "https://chef-choice.tistory.com/418",
+      "action": "exclude",
+      "exclusionCode": "insufficient-core-quantities",
+      "reason": "삼겹살탕수육의 삼겹살 양과 전체 라이스페이퍼 수량이 미기재. 한 번 말 때의 2장을 전체 사용량으로 오인하지 않음.",
+      "evidence": {
+        "missingQuantities": [
+          "삼겹살",
+          "전체 라이스페이퍼"
+        ],
+        "preparationOnlyQuantity": "한 번 감쌀 때 라이스페이퍼 2장"
+      }
+    },
+    {
+      "sourceId": "blog-414",
+      "sourceUrl": "https://chef-choice.tistory.com/414",
+      "action": "exclude",
+      "exclusionCode": "insufficient-core-quantities",
+      "reason": "홍콩가리비찜의 홍가리비 수량·중량이 미기재. 실당면50g을 가리비량으로 환산하지 않음.",
+      "evidence": {
+        "missingQuantities": [
+          "홍가리비"
+        ],
+        "confirmedQuantity": "실당면 50g"
+      }
+    },
+    {
+      "sourceId": "blog-404",
+      "sourceUrl": "https://chef-choice.tistory.com/404",
+      "action": "exclude",
+      "exclusionCode": "insufficient-core-quantities",
+      "reason": "스테이크 샌드위치의 소고기·식빵 수량이 재료표·본문에 미기재.",
+      "evidence": {
+        "missingQuantities": [
+          "소고기",
+          "식빵"
+        ],
+        "confirmedQuantity": "마요네즈 3숟가락"
+      }
+    },
+    {
+      "sourceId": "blog-15",
+      "sourceUrl": "https://chef-choice.tistory.com/15",
+      "action": "registered",
+      "reason": "사용자 확인: 원문1~1.5인분 표시 유지, 재료표 전량을 계산 기준1인분으로 등록.",
+      "evidence": {
+        "servingsRange": {
+          "min": 1,
+          "max": 1.5
+        },
+        "confirmedQuantities": [
+          "다진 소고기 100g",
+          "생 청국장 80g",
+          "두부 150g"
+        ]
+      },
+      "recipeId": "mincook-blog-15"
+    },
+    {
+      "sourceId": "JZlMEBj7P2M",
+      "sourceUrl": "https://www.youtube.com/watch?v=JZlMEBj7P2M",
+      "action": "access-unverified",
+      "reason": "YouTube 재접근 시 설명란 재료표 추출 실패. 도구가 보여 준 제목도 기존 색인과 달라 메뉴명을 확정하지 않음."
+    },
+    {
+      "sourceId": "2y4Jvvmj7LY",
+      "sourceUrl": "https://www.youtube.com/watch?v=2y4Jvvmj7LY",
+      "action": "access-unverified",
+      "reason": "YouTube 재접근 실패. 메밀국수의 전체 재료표는 미확인 유지."
+    },
+    {
+      "sourceId": "HwtpISNf3wU",
+      "sourceUrl": "https://www.youtube.com/watch?v=HwtpISNf3wU",
+      "action": "access-unverified",
+      "reason": "YouTube 재접근 실패. 무파라면의 라면 수량은 미확인 유지."
+    },
+    {
+      "sourceId": "IGikNAE92Ls",
+      "sourceUrl": "https://www.youtube.com/watch?v=IGikNAE92Ls",
+      "action": "access-unverified",
+      "reason": "YouTube 재접근 실패. 재사용 김밥의 원재료·수량은 미확인 유지."
+    },
+    {
+      "sourceId": "3XYDL0oV9HQ",
+      "sourceUrl": "https://www.youtube.com/watch?v=3XYDL0oV9HQ",
+      "action": "access-unverified",
+      "reason": "YouTube 재접근 실패. 홍게라면의 재료표는 미확인 유지."
+    },
+    {
+      "sourceId": "cnWyo34CPUY",
+      "sourceUrl": "https://www.youtube.com/watch?v=cnWyo34CPUY",
+      "action": "access-unverified",
+      "reason": "YouTube 재접근 실패. 만두 굽기 재료표는 미확인 유지."
+    },
+    {
+      "sourceId": "9J_tqZrDSng",
+      "sourceUrl": "https://www.youtube.com/watch?v=9J_tqZrDSng",
+      "action": "access-unverified",
+      "reason": "YouTube 재접근 실패. 대용량 김치찌개의 여러 버전 여부·개별 재료표는 미확인 유지."
+    },
+    {
+      "sourceId": "cTayVZxM0nw",
+      "sourceUrl": "https://www.youtube.com/watch?v=cTayVZxM0nw",
+      "action": "access-unverified",
+      "reason": "YouTube 재접근 실패. 잘린 꼬막비빔밥 재료표를 복구하지 못해 미확인 유지."
+    }
+  ]
+}

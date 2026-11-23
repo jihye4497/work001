@@ -24,9 +24,10 @@ test('Moony additions retain verified source facts, unique IDs, classifications 
  applyRecipeCategories(recipes,await read('data/recipe-categories.json'));
  for(const entry of review.entries){
   const recipe=get(entry.videoId);assert.ok(recipe,entry.videoId);
-  assert.equal(recipe.name,entry.descriptionMenuName);
+  assert.equal(recipe.name,entry.nameSource==='editorial-ingredients'?entry.editorialName:entry.descriptionMenuName);
   const key=s=>s.normalize('NFKC').replace(/\s/g,'');
-  assert.ok(typeof entry.nameSourceText==='string'&&key(entry.nameSourceText).includes(key(entry.descriptionMenuName)),entry.videoId);
+  if(entry.nameSource==='editorial-ingredients'){assert.equal(entry.nameSourceText,entry.ingredientText);assert.ok(entry.nameSourceEvidence);assert.equal(recipe.nameSource,'editorial-ingredients');}
+  else assert.ok(typeof entry.nameSourceText==='string'&&key(entry.nameSourceText).includes(key(entry.descriptionMenuName)),entry.videoId);
   assert.equal(entry.ingredientHash,createHash('sha256').update(entry.ingredientText).digest('hex'));
   assert.ok(entry.ingredients.every(row=>entry.ingredientText.includes(row.sourceText)),entry.videoId);
   const expected=entry.ingredients.filter(row=>!row.omitted);

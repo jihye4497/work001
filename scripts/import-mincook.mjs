@@ -2,6 +2,7 @@ import {readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 import {validateData} from '../js/ingredients.js';
+import {canonicalIngredientName} from '../js/ingredient-aliases.js';
 
 const {batch50,groupPolicy=()=>({scale:1}),intermediateRows=new Map(),canonicalOverrides={},definitions:extraDefinitions=[],lineOverrides={},prepareText=e=>e.ingredientText,servingsOverrides={}}=await import('./mincook-policy.mjs');
 const read=async p=>JSON.parse(await readFile(new URL('../'+p,import.meta.url),'utf8'));
@@ -105,7 +106,14 @@ for(const [sourceId,name,baseServings,cookingType,category,range] of batch50){
   if(excluded.omit||(intermediateRows.get(sourceId)||[]).some(x=>key(x)===key(sourceText))){rows.push({sourceText,group,omitted:true,reason:excluded.reason||'이미 상위 재료로 계산한 중간 조리물의 중복 합산 방지'});continue;}
   const custom=Object.entries(lineOverrides[sourceId]||{}).find(([line])=>key(line)===key(sourceText))?.[1];
   for(const parsed of custom?[custom].flat():[parseLine(sourceText)]){
-  const ingredient=ingredients.find(i=>key(i.name)===key(parsed.name));
+  let ingredient=ingredients.find(i=>key(i.name)===key(parsed.name));
+  // A later catalog alias must not rewrite an already-reviewed source ingredient ID.
+  const locked=entry.ingredients?.find(row=>row.sourceText===sourceText&&row.group===group&&row.unit===parsed.unit&&row.sourceAmount===parsed.sourceAmount);
+  if(locked&&recipes.some(recipe=>recipe.id===`mincook-${sourceId}`)){
+   const original=ingredients.find(i=>i.id===locked.ingredientId);
+   const aliasKey=i=>canonicalIngredientName(i)||i?.name;
+   if(original&&aliasKey(original)===aliasKey(ingredient))ingredient=original;
+  }
   if(!ingredient){missing.add(parsed.name);continue;}
   const additionalFactReason=entry.additionalIngredientFacts?.find(fact=>fact.sourceText===sourceText)?.reason;
   rows.push({sourceText,group,ingredientId:ingredient.id,sourceAmount:parsed.sourceAmount,unit:parsed.unit,factor:excluded.scale,amount:parsed.sourceAmount===null?null:parsed.sourceAmount*excluded.scale,reason:[excluded.reason,parsed.reason,additionalFactReason].filter(Boolean).join(' · ')||null});
@@ -113,6 +121,7 @@ for(const [sourceId,name,baseServings,cookingType,category,range] of batch50){
  }
  entry.recipeId=`mincook-${sourceId}`;entry.name=name;entry.baseServings=baseServings;
  entry.servingsRange=range?{min:range[0],max:range[1]}:null;
+ if(servingsOverrides[sourceId]?.rangeBasis)entry.servingsRangeBasis=servingsOverrides[sourceId].rangeBasis;
  const explicit=!!range||(servingsOverrides[sourceId]?.status!=='estimated'&&(entry.servingsStatements??[]).some(t=>new RegExp(`(?<![0-9])${baseServings}\\s*인분`).test(t)));
  entry.servingsStatus=explicit?'explicit':'estimated';
  entry.servingsEvidence=range?`원문 ${range[0]}~${range[1]}인분을 그대로 표시. 2026-11-23 사용자 승인에 따라 계산은 상한 ${baseServings}인분 기준.`:explicit?`공식 블로그 원문 ${baseServings}인분 명시.`:`원문 인분 미기재. 원본 전체 재료 양을 ${baseServings}인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.`;
@@ -123,7 +132,7 @@ for(const [sourceId,name,baseServings,cookingType,category,range] of batch50){
 if(missing.size){console.log('검토할 재료 이름:',JSON.stringify([...missing],null,2));process.exitCode=1;}
 else{
  for(const {entry:e,cookingType,category} of built){
-  const r={id:e.recipeId,name:e.name,baseServings:e.baseServings,servingsStatus:e.servingsStatus,servingsEvidence:e.servingsEvidence,...(e.servingsRange?{servingsRange:e.servingsRange}:{}),cookMinutes:null,cookingType,imagePath:null,sourceKind:'official-blog',sourceId:e.sourceId,articleId:String(e.articleId),sourceName:e.sourceName,sourceUrl:e.sourceUrl,...(e.sourceTitle?{sourceTitle:e.sourceTitle}:{}),sourceNote:`${e.sourceName} / 공식 블로그 게시글 ${e.articleId}; 채널이 연결한 공식 블로그 재료·수량 대조 ${e.checkedOn}. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.`,ingredients:e.ingredients.filter(i=>!i.omitted).map(i=>({ingredientId:i.ingredientId,amount:i.amount,unit:i.unit,note:`원문: ${i.sourceText}${i.reason?' · '+i.reason:''}`}))};
+  const r={id:e.recipeId,name:e.name,baseServings:e.baseServings,servingsStatus:e.servingsStatus,servingsEvidence:e.servingsEvidence,...(e.servingsRange?{servingsRange:e.servingsRange}:{}),...(e.servingsRangeBasis?{servingsRangeBasis:e.servingsRangeBasis}:{}),cookMinutes:null,cookingType,imagePath:null,sourceKind:'official-blog',sourceId:e.sourceId,articleId:String(e.articleId),sourceName:e.sourceName,sourceUrl:e.sourceUrl,...(e.sourceTitle?{sourceTitle:e.sourceTitle}:{}),sourceNote:`${e.sourceName} / 공식 블로그 게시글 ${e.articleId}; 채널이 연결한 공식 블로그 재료·수량 대조 ${e.checkedOn}. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.`,ingredients:e.ingredients.filter(i=>!i.omitted).map(i=>({ingredientId:i.ingredientId,amount:i.amount,unit:i.unit,note:`원문: ${i.sourceText}${i.reason?' · '+i.reason:''}`}))};
   const prior=recipes.find(x=>x.id===r.id);if(prior)assert.deepEqual(prior,r);else recipes.push(r);
   const c={recipeId:r.id,name:r.name,categories:[category],mealRole:category==='한식 반찬'?'반찬':category==='한식 국·찌개'?'국·찌개':'주메뉴'};
   const old=catalog.entries.find(x=>x.recipeId===r.id);if(old)assert.deepEqual(old,c);else catalog.entries.push(c);

@@ -1,7 +1,10 @@
 import * as a from './mincook-a-policy.mjs';
 import * as b from './mincook-b-policy.mjs';
+import * as followup from './mincook-followup-policy.mjs';
+import * as third from './mincook-batch-03-policy.mjs';
+import * as fourth from './mincook-batch-04-policy.mjs';
 
-const policies=[a,b];
+const policies=[a,b,followup,third,fourth];
 export const batch50=policies.flatMap(policy=>policy.batch50);
 const owner=id=>policies.find(policy=>policy.batch50.some(row=>row[0]===id));
 export const canonicalOverrides=Object.assign({},...policies.map(policy=>policy.canonicalOverrides));

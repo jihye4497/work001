@@ -1,6 +1,7 @@
 import {readFile,writeFile} from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import {batch50,skips} from './caden-policy.mjs';
+import {applyPendingReviewPolicy} from './pending-review-policy.mjs';
 const read=async p=>JSON.parse(await readFile(new URL('../'+p,import.meta.url),'utf8'));
 const write=(p,v)=>writeFile(new URL('../'+p,import.meta.url),JSON.stringify(v,null,2)+'\n');
 const index=await read('data/source/caden-video-index.json');
@@ -11,14 +12,14 @@ assert.equal(index.channelId,'UCWyjY6ykM58LO5ipzRgIzGA');
 const selected=new Set(batch50.map(r=>r[0]));
 const reasons=new Map(skips.map(e=>[e.videoId,e.reason]));
 const sourceRows=new Map([...review.entries,...(review.held??[]),...(review.excluded??[])].map(e=>[e.videoId,e]));
-const entries=index.entries.map(e=>{
+const entries=applyPendingReviewPolicy(index.entries.map(e=>{
  const source=sourceRows.get(e.videoId);
  const status=e.videoFormat==='short'?'excluded-short':source?.channelId&&source.channelId!==index.channelId?'excluded-other-channel':selected.has(e.videoId)?'registered':'pending';
- const reason=status==='excluded-short'?'사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외.':status==='excluded-other-channel'?'다른 채널의 영상. 해당 채널의 레시피로 등록하지 않음.':reasons.get(e.videoId)??source?.reason??source?.heldReason??'원본 재료·분량 추가 확인 필요';
+ const reason=status==='excluded-short'?'사용자 요청에 따라 쇼츠는 수집·등록 대상에서 제외.':status==='excluded-other-channel'?'다른 채널의 영상. 해당 채널의 레시피로 등록하지 않음.':reasons.get(e.videoId)??source?.originalReason??source?.reason??source?.heldReason??'원본 재료·분량 추가 확인 필요';
  return {videoId:e.videoId,sourceTitle:e.title,sourceUrl:'https://www.youtube.com/watch?v='+e.videoId,playlistIds:e.playlistIds,playlistTitles:e.playlistTitles,videoFormat:e.videoFormat,status,...(status==='registered'?{recipeId:'caden-'+e.videoId}:{reason}),...(source?.channelId?{channelId:source.channelId}:{})};
-});
+}));
 assert.equal(new Set(entries.map(e=>e.videoId)).size,entries.length);
-const counts=Object.fromEntries(['registered','pending','excluded-short','excluded-other-channel'].map(s=>[s,entries.filter(e=>e.status===s).length]));
+const counts=Object.fromEntries(['registered','pending','excluded-short','excluded-other-channel','excluded-policy'].map(s=>[s,entries.filter(e=>e.status===s).length]));
 assert.equal(counts.registered,selected.size);assert.equal(Object.values(counts).reduce((n,v)=>n+v,0),entries.length);
 for(const r of recipes.filter(r=>r.id.startsWith('caden-')))assert.ok(entries.some(e=>e.recipeId===r.id));
 if(process.argv.includes('--write')){

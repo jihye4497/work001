@@ -6,10 +6,12 @@
   "completePublicTraversal": true,
   "scope": "공개 영상 목록의 대조 완료를 의미하며, 모든 영상의 레시피 등록 완료를 뜻하지 않음. 쇼츠는 제외하고 한 영상의 여러 대체 조리법은 검수한 대표 버전으로 등록.",
   "counts": {
-    "existing": 163,
+    "existing": 164,
     "added": 135,
-    "pending": 78,
-    "excluded-short": 4
+    "pending": 40,
+    "excluded-short": 4,
+    "excluded-user": 2,
+    "excluded-policy": 35
   },
   "entries": [
     {
@@ -46,9 +48,8 @@
       "videoId": "Da-yWFw5T3U",
       "sourceTitle": "이게 왜 맛있지?",
       "sourceUrl": "https://www.youtube.com/watch?v=Da-yWFw5T3U",
-      "status": "pending",
-      "reason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "status": "existing",
+      "recipeId": "paik-Da-yWFw5T3U"
     },
     {
       "videoId": "eKw9vkBKDB0",
@@ -222,7 +223,10 @@
       "sourceTitle": "\"두부 지옥 미션, 제가 했다면 ‘이것’입니다\" 나폴리 맛피아가 숨겨놨던 두부 레시피",
       "sourceUrl": "https://www.youtube.com/watch?v=JZlMEBj7P2M",
       "status": "pending",
-      "reason": "게스트 조리자의 정확한 요리명과 재료 배합 추가 확인 필요. 임의 메뉴명으로 등록하지 않음."
+      "reason": "YouTube 재접근 시 설명란 재료표 추출 실패. 도구가 보여 준 제목도 기존 색인과 달라 메뉴명을 확정하지 않음.",
+      "originalReason": "게스트 조리자의 정확한 요리명과 재료 배합 추가 확인 필요. 임의 메뉴명으로 등록하지 않음.",
+      "reviewState": "access-unverified",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "-KTb3zivHXk",
@@ -379,9 +383,9 @@
       "videoId": "qO5p0_6K-bo",
       "sourceTitle": "라면에 요거 하나면 요리가 됩니다!",
       "sourceUrl": "https://www.youtube.com/watch?v=qO5p0_6K-bo",
-      "status": "pending",
-      "reason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "status": "excluded-user",
+      "reason": "사용자가 검토 목록 2번을 등록 대상에서 제외하도록 지정. 재료표 오류나 비레시피 영상으로 판단한 것은 아님.",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "J4qwXDjduQw",
@@ -415,9 +419,9 @@
       "videoId": "01snsHZK6Ns",
       "sourceTitle": "홍콩의 맛 그대로 챙겨왔습니다! 초간단 햄 계란밥!",
       "sourceUrl": "https://www.youtube.com/watch?v=01snsHZK6Ns",
-      "status": "pending",
-      "reason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "status": "excluded-user",
+      "reason": "사용자가 검토 목록 3번을 등록 대상에서 제외하도록 지정. 재료표 오류나 비레시피 영상으로 판단한 것은 아님.",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "87zznFb0-us",
@@ -437,9 +441,12 @@
       "videoId": "JvuV9aAh7VY",
       "sourceTitle": "8분 만에 끝내는 밑반찬 4종! 만들어 두면 일주일은 든든해요!",
       "sourceUrl": "https://www.youtube.com/watch?v=JvuV9aAh7VY",
-      "status": "pending",
-      "reason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "status": "excluded-policy",
+      "reason": "여러 완성 요리가 섞인 자료는 이번 간소화 검토에서 제외",
+      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "w9ML-v8OG1Y",
@@ -693,8 +700,11 @@
       "videoId": "Z5-6wbdbgA4",
       "sourceTitle": "김밥의 수많은 속재료가 부담된다면? '이것'만 준비하세요, 간단하게 김밥 맛집 흉내내기 가능!",
       "sourceUrl": "https://www.youtube.com/watch?v=Z5-6wbdbgA4",
-      "status": "pending",
-      "reason": "유부조림 제조 전체 중 완성 120g 사용. 완성 총량이 없어 실제 원재료 사용비율 추가 확인 필요."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "유부조림 제조 전체 중 완성 120g 사용. 완성 총량이 없어 실제 원재료 사용비율 추가 확인 필요.",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "B2s5seuBCn0",
@@ -742,17 +752,23 @@
       "videoId": "8-Aad1W4Mq0",
       "sourceTitle": "마트에서 산 '돼지불고기'로  네가지 활용법 대방출",
       "sourceUrl": "https://www.youtube.com/watch?v=8-Aad1W4Mq0",
-      "status": "pending",
-      "reason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "status": "excluded-policy",
+      "reason": "여러 완성 요리가 섞인 자료는 이번 간소화 검토에서 제외",
+      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "1T4R8zNe1yA",
       "sourceTitle": "마트에서 산 '소불고기'로 다섯가지 활용법 대방출",
       "sourceUrl": "https://www.youtube.com/watch?v=1T4R8zNe1yA",
-      "status": "pending",
-      "reason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "status": "excluded-policy",
+      "reason": "여러 완성 요리가 섞인 자료는 이번 간소화 검토에서 제외",
+      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생",
+      "exclusionCode": "multiple-dishes",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "JxWbJX-UNwY",
@@ -1374,8 +1390,11 @@
       "videoId": "dxuntkET42M",
       "sourceTitle": "'참치캔'으로 만드는 참치함박스테이크",
       "sourceUrl": "https://www.youtube.com/watch?v=dxuntkET42M",
-      "status": "pending",
-      "reason": "참치함박 전체 반죽 제조량과 한 개 사용량 160g이 다름. 소스는 전량이나 1개 분량 여부 불명확."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "참치함박 전체 반죽 제조량과 한 개 사용량 160g이 다름. 소스는 전량이나 1개 분량 여부 불명확.",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "CQZyh-OszCo",
@@ -1424,14 +1443,20 @@
       "sourceTitle": "가슴속까지 시원한 메밀국수",
       "sourceUrl": "https://www.youtube.com/watch?v=2y4Jvvmj7LY",
       "status": "pending",
-      "reason": "현재 수집 원문은 메밀국수 쯔유 재료만 있음. 면과 1인분 세팅 추가 원문 확인 필요."
+      "reason": "YouTube 재접근 실패. 메밀국수의 전체 재료표는 미확인 유지.",
+      "originalReason": "현재 수집 원문은 메밀국수 쯔유 재료만 있음. 면과 1인분 세팅 추가 원문 확인 필요.",
+      "reviewState": "access-unverified",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "HwtpISNf3wU",
       "sourceTitle": "해장 킹!!!  무파 라면!!",
       "sourceUrl": "https://www.youtube.com/watch?v=HwtpISNf3wU",
       "status": "pending",
-      "reason": "무파라면 제목과 달리 수집 재료 구획에 라면 자체가 없음. 원문 다른 구획 추가 확인 필요"
+      "reason": "YouTube 재접근 실패. 무파라면의 라면 수량은 미확인 유지.",
+      "originalReason": "무파라면 제목과 달리 수집 재료 구획에 라면 자체가 없음. 원문 다른 구획 추가 확인 필요",
+      "reviewState": "access-unverified",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "qWbHSOplcvY",
@@ -1692,8 +1717,11 @@
       "videoId": "9OYciHKmgus",
       "sourceTitle": "[Sub] 다이어트에 좋은 '오리엔탈?' 두부샐러드",
       "sourceUrl": "https://www.youtube.com/watch?v=9OYciHKmgus",
-      "status": "pending",
-      "reason": "원문에 미리 만든 장아찌소스30g 사용. 조리 후 소스 총량 미기재로 원재료 분해비율 확인 필요"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "원문에 미리 만든 장아찌소스30g 사용. 조리 후 소스 총량 미기재로 원재료 분해비율 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "kj2ZupQ7fts",
@@ -1720,8 +1748,11 @@
       "videoId": "_O4tvQtZDiU",
       "sourceTitle": "[ENG] 정말 쉽게 만드는 짜장 덮밥",
       "sourceUrl": "https://www.youtube.com/watch?v=_O4tvQtZDiU",
-      "status": "pending",
-      "reason": "원문에 미리 만든 만능짜장소스40g 사용. 조리 후 소스 총량 미기재로 원재료 분해비율 확인 필요"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "원문에 미리 만든 만능짜장소스40g 사용. 조리 후 소스 총량 미기재로 원재료 분해비율 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "-bewV9LQ_JU",
@@ -1762,8 +1793,11 @@
       "videoId": "__EQyG0qFuE",
       "sourceTitle": "[ENG] 시원하게 맛있는 장아찌소스 냉국수",
       "sourceUrl": "https://www.youtube.com/watch?v=__EQyG0qFuE",
-      "status": "pending",
-      "reason": "원문에 미리 만든 장아찌소스100g 사용. 조리 후 소스 총량 미기재로 원재료 분해비율 확인 필요"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "원문에 미리 만든 장아찌소스100g 사용. 조리 후 소스 총량 미기재로 원재료 분해비율 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "xNUvkgONOOM",
@@ -1819,8 +1853,11 @@
       "sourceTitle": "김밥으로 볶음밥! 넣고 볶으면 끝!",
       "sourceUrl": "https://www.youtube.com/watch?v=IGikNAE92Ls",
       "status": "pending",
-      "reason": "간장불고기 김밥과 기름만 명시되어 김밥 자체의 재료·수량 확인이 필요함",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "reason": "YouTube 재접근 실패. 재사용 김밥의 원재료·수량은 미확인 유지.",
+      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생",
+      "originalReason": "간장불고기 김밥과 기름만 명시되어 김밥 자체의 재료·수량 확인이 필요함",
+      "reviewState": "access-unverified",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "b0VqL4-dSPM",
@@ -2002,8 +2039,11 @@
       "videoId": "NNZ5jI_RQjI",
       "sourceTitle": "달걀을 구워서 카레에?!",
       "sourceUrl": "https://www.youtube.com/watch?v=NNZ5jI_RQjI",
-      "status": "pending",
-      "reason": "원문에 미리 만든 만능양파8g 사용. 원재료 양파·기름 분해비율 확인 필요"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "원문에 미리 만든 만능양파8g 사용. 원재료 양파·기름 분해비율 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "nAfB4wPN0f4",
@@ -2030,22 +2070,31 @@
       "videoId": "5iRPP3nqCJE",
       "sourceTitle": "소스가 핵심! 돼지고기 덮밥",
       "sourceUrl": "https://www.youtube.com/watch?v=5iRPP3nqCJE",
-      "status": "pending",
-      "reason": "돼지고기500g 대량 조리와 밥200g 세팅이 혼재. 한 그릇에 쓰는 완성 고기 비율 확인 필요"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "돼지고기500g 대량 조리와 밥200g 세팅이 혼재. 한 그릇에 쓰는 완성 고기 비율 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "HIz6eyE80V4",
       "sourceTitle": "밤으로 만든 ‘밤라면'",
       "sourceUrl": "https://www.youtube.com/watch?v=HIz6eyE80V4",
-      "status": "pending",
-      "reason": "밤소스 제조 원재료100g과 사용 완성소스80g의 조리감소/부분사용 여부 확인 필요"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "밤소스 제조 원재료100g과 사용 완성소스80g의 조리감소/부분사용 여부 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "zikhPxKgyJI",
       "sourceTitle": "불고기 버거!",
       "sourceUrl": "https://www.youtube.com/watch?v=zikhPxKgyJI",
-      "status": "pending",
-      "reason": "불고기300g 전체 조리와 버거빵1개 세팅이 혼재. 한 버거에 사용하는 불고기·마요소스 비율 확인 필요"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "불고기300g 전체 조리와 버거빵1개 세팅이 혼재. 한 버거에 사용하는 불고기·마요소스 비율 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "7ThPQ-Wiw0Q",
@@ -2058,8 +2107,11 @@
       "videoId": "h7NFHq9QeeU",
       "sourceTitle": "훈연멸치로 만드는 가락국수!",
       "sourceUrl": "https://www.youtube.com/watch?v=h7NFHq9QeeU",
-      "status": "pending",
-      "reason": "육수 제조용 물2.5L와 요리 사용 육수1.25L의 조리감소/부분사용 여부가 불명확하여 원재료 분해비율 확인 필요"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "육수 제조용 물2.5L와 요리 사용 육수1.25L의 조리감소/부분사용 여부가 불명확하여 원재료 분해비율 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "HSPOnMZNoY4",
@@ -2086,8 +2138,11 @@
       "videoId": "F3C8-uEMixU",
       "sourceTitle": "햄버거 패티가 바삭 바삭! 돼지마늘버거입니다. ㅣ 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=F3C8-uEMixU",
-      "status": "pending",
-      "reason": "돼지마늘버거: 고기튀김 제조량은 돼지100g+튀김가루110g 등, 한 개에는 완성튀김60g. 소스 제조량200g 중45g. 고기튀김 조리 후 수율 불명확."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "돼지마늘버거: 고기튀김 제조량은 돼지100g+튀김가루110g 등, 한 개에는 완성튀김60g. 소스 제조량200g 중45g. 고기튀김 조리 후 수율 불명확.",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "WneiVYnZgHo",
@@ -2156,8 +2211,11 @@
       "videoId": "GpEiUb20IFo",
       "sourceTitle": "떡갈비 버거, 일명 '붹붹버거'입니다! 햄버거는 한식이죠~~?? l 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=GpEiUb20IFo",
-      "status": "pending",
-      "reason": "떡갈비버거: 고기500g+양념으로 패티 제조, 한 개에는 완성패티150g. 전체 패티 수량/수율 불명확."
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "떡갈비버거: 고기500g+양념으로 패티 제조, 한 개에는 완성패티150g. 전체 패티 수량/수율 불명확.",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "HIma0ha9F-I",
@@ -2177,8 +2235,11 @@
       "videoId": "dKD_C-1XklE",
       "sourceTitle": "눈오는 쌀쌀한 날씨엔 어묵전골! 따듯한 국물에 ㅋ ㅑ~~ㅣ 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=dKD_C-1XklE",
-      "status": "pending",
-      "reason": "육수 제조용 물2L와 요리 사용 육수1.5L의 조리감소/부분사용 여부가 불명확하여 원재료 분해비율 확인 필요"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "육수 제조용 물2L와 요리 사용 육수1.5L의 조리감소/부분사용 여부가 불명확하여 원재료 분해비율 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "HChukhwE1do",
@@ -2191,8 +2252,11 @@
       "videoId": "SZp5fTHZnmc",
       "sourceTitle": "고기만두!! 비법이 들어 있습니다. 가족과 함께 집에서 만들어 보세요!!  ㅣ 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=SZp5fTHZnmc",
-      "status": "pending",
-      "reason": "원문에 미리 만든 만능볶음요리소스30g 사용. 원재료 분해비율 확인 필요"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "원문에 미리 만든 만능볶음요리소스30g 사용. 원재료 분해비율 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "t63aSsdvZKs",
@@ -2227,8 +2291,11 @@
       "sourceTitle": "SBS 맛남의 광장 '홍게라면' 레시피를 공개합니다! ㅣ 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=3XYDL0oV9HQ",
       "status": "pending",
-      "reason": "홍게라면: 설명란 재료표 추가 확인 필요",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "reason": "YouTube 재접근 실패. 홍게라면의 재료표는 미확인 유지.",
+      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생",
+      "originalReason": "홍게라면: 설명란 재료표 추가 확인 필요",
+      "reviewState": "access-unverified",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "j0-_vTbLALM",
@@ -2269,16 +2336,22 @@
       "videoId": "3Sokx1SQHR0",
       "sourceTitle": "오늘은 '맛남의광장' 첫방하는 날! '영표국밥' 레시피 대 공개!! ㅣ 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=3Sokx1SQHR0",
-      "status": "pending",
-      "reason": "영표국밥: 국물 전체와 밥 한 공기 세팅의 사용 비율 확인 필요"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "영표국밥: 국물 전체와 밥 한 공기 세팅의 사용 비율 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "cnWyo34CPUY",
       "sourceTitle": "냉동만두 쉽게 굽기! 사라는 거 아닙니다!ㅎㅎㅎ ㅣ 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=cnWyo34CPUY",
       "status": "pending",
-      "reason": "만두 굽기: 설명란 재료표 추가 확인 필요",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "reason": "YouTube 재접근 실패. 만두 굽기 재료표는 미확인 유지.",
+      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생",
+      "originalReason": "만두 굽기: 설명란 재료표 추가 확인 필요",
+      "reviewState": "access-unverified",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "K55CPyYTUJI",
@@ -2298,8 +2371,11 @@
       "videoId": "BqxpjY7TJ8g",
       "sourceTitle": "정말 쉽게 만드는 마파두부!! ㅣ 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=BqxpjY7TJ8g",
-      "status": "pending",
-      "reason": "미리 만든 만능양념장 실제 사용량을 원재료로 분해할 근거 확인 대기"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "미리 만든 만능양념장 실제 사용량을 원재료로 분해할 근거 확인 대기",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "Lz0tPtrMQmQ",
@@ -2326,24 +2402,33 @@
       "videoId": "bvH5jROsmG4",
       "sourceTitle": "'가족과 함께' 삼겹살, 목살, 항정살 먹방! 돼지 농가 화이팅!ㅣ 백종원의 쿠킹로그 특별방송",
       "sourceUrl": "https://www.youtube.com/watch?v=bvH5jROsmG4",
-      "status": "pending",
-      "reason": "먹방 영상; 검수 가능한 개별 재료표 없음",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "status": "excluded-policy",
+      "reason": "확보한 설명란·검수 텍스트에 재료표가 없어 이번 검토에서 제외. 영상·댓글·공식 연결 페이지 전체의 정보 부재를 뜻하지 않음",
+      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생",
+      "exclusionCode": "no-available-ingredient-table",
+      "originalReason": "먹방 영상; 검수 가능한 개별 재료표 없음",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "S9MQlzjgf7k",
       "sourceTitle": "돼지고기 사러 마트 다녀왔습니다! ㅣ 백종원의 쿠킹로그 번외편",
       "sourceUrl": "https://www.youtube.com/watch?v=S9MQlzjgf7k",
-      "status": "pending",
-      "reason": "돼지고기 구매 안내 영상; 개별 레시피 아님",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "status": "excluded-policy",
+      "reason": "개별 완성 요리 레시피가 아닌 자료는 이번 검토에서 제외",
+      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생",
+      "exclusionCode": "nonrecipe",
+      "originalReason": "돼지고기 구매 안내 영상; 개별 레시피 아님",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "10fl2mebYHs",
       "sourceTitle": "의외로 많은 분들이 틀리는 김밥 말기 핵심 포인트",
       "sourceUrl": "https://www.youtube.com/watch?v=10fl2mebYHs",
-      "status": "pending",
-      "reason": "김밥: 밥 600g 세팅과 단무지 절임 3팩 제조량의 사용 비율 확인 필요"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "김밥: 밥 600g 세팅과 단무지 절임 3팩 제조량의 사용 비율 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "z-XcuZL80Lc",
@@ -2356,8 +2441,11 @@
       "videoId": "iIL1QMXCoDM",
       "sourceTitle": "초코초코초코 브라우니 & 건더기 생생 사과 홍차! 특집사과대잔치 | 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=iIL1QMXCoDM",
-      "status": "pending",
-      "reason": "사과조림을 쓰는 브라우니: 조림 원재료의 완성 수율 확인 대기"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "사과조림을 쓰는 브라우니: 조림 원재료의 완성 수율 확인 대기",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "NGjk_1KQGmI",
@@ -2384,8 +2472,11 @@
       "videoId": "jVH2k4yNi4o",
       "sourceTitle": "에어프라이어로 쉽게 촉촉한 사과파이와 초간단 사과 고르곤졸라 피자! [특집 사과 대잔치] ㅣ 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=jVH2k4yNi4o",
-      "status": "pending",
-      "reason": "사과조림을 쓰는 사과파이: 조림 원재료의 완성 수율 확인 대기"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "사과조림을 쓰는 사과파이: 조림 원재료의 완성 수율 확인 대기",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "fdW2duLTBLU",
@@ -2405,8 +2496,11 @@
       "videoId": "C3W_z8TTCDw",
       "sourceTitle": "먹다 남긴 족발로 만드는 '족발덮밥'. 스푸파 방콕 '카오카무' 그 맛 납니다~! ㅣ 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=C3W_z8TTCDw",
-      "status": "pending",
-      "reason": "족발덮밥: 족발 전체 양과 밥 한 공기 세팅의 사용 비율 확인 필요"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "족발덮밥: 족발 전체 양과 밥 한 공기 세팅의 사용 비율 확인 필요",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "fD4wD3GTJq4",
@@ -2461,8 +2555,11 @@
       "videoId": "7anwbJ0ZEyA",
       "sourceTitle": "이거 보면 호불호 없습니다. 남은 '전'으로 끓이는 '전 찌개', 죽탕 같은 찌개가 아닙니다. ㅣ 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=7anwbJ0ZEyA",
-      "status": "pending",
-      "reason": "전찌개: 미리 부친 여러 전의 원재료 분해 근거 확인 대기"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "전찌개: 미리 부친 여러 전의 원재료 분해 근거 확인 대기",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "tHkbJgBUaiI",
@@ -2497,8 +2594,11 @@
       "sourceTitle": "팔아도 될 만큼 맛있는 김치찌개 비법전수! 돼지고기, 햄, 꽁치 등 기본 양념장으로 다 만들 수 있어요! l 백종원의 대용량 레시피",
       "sourceUrl": "https://www.youtube.com/watch?v=9J_tqZrDSng",
       "status": "pending",
-      "reason": "대용량 김치찌개: 설명란 재료표 추가 확인 필요",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "reason": "YouTube 재접근 실패. 대용량 김치찌개의 여러 버전 여부·개별 재료표는 미확인 유지.",
+      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생",
+      "originalReason": "대용량 김치찌개: 설명란 재료표 추가 확인 필요",
+      "reviewState": "access-unverified",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "QnyzZ_8Kog8",
@@ -2525,8 +2625,11 @@
       "videoId": "GP8_7D5eM6A",
       "sourceTitle": "고추기름이 포인트! '순두부찌개'로 오늘 저녁 어떠세요?! ㅣ 백종원의 백종원 레시피",
       "sourceUrl": "https://www.youtube.com/watch?v=GP8_7D5eM6A",
-      "status": "pending",
-      "reason": "순두부 양념장 제조 전체 중 160g 사용. 완성 양념장 총량/수율 확인 대기"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "순두부 양념장 제조 전체 중 160g 사용. 완성 양념장 총량/수율 확인 대기",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "lD53g8VjQnU",
@@ -2553,8 +2656,11 @@
       "videoId": "no3K4M0PqRY",
       "sourceTitle": "강식당3의 불고기 파스타, 강불파 1인분 만들기 ㅣ 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=no3K4M0PqRY",
-      "status": "pending",
-      "reason": "불고기 파스타: 파마늘오일 원재료 111g 중 완성 100g 사용. 조리 수율/부분 사용 확인 대기"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "불고기 파스타: 파마늘오일 원재료 111g 중 완성 100g 사용. 조리 수율/부분 사용 확인 대기",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "MqdncXPR0lY",
@@ -2603,8 +2709,11 @@
       "sourceTitle": "맛있는 꼬막비빔밥 만들기 ㅣ 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=cTayVZxM0nw",
       "status": "pending",
-      "reason": "번호형 재료표가 잘려 원문 추가 확인 필요",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "reason": "YouTube 재접근 실패. 잘린 꼬막비빔밥 재료표를 복구하지 못해 미확인 유지.",
+      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생",
+      "originalReason": "번호형 재료표가 잘려 원문 추가 확인 필요",
+      "reviewState": "access-unverified",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "R6IT_f0XPT8",
@@ -2624,43 +2733,61 @@
       "videoId": "4zU_09N3QrI",
       "sourceTitle": "만능양파볶음 활용 시즌1 마지막 요리: 만능양파 샌드위치 ㅣ 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=4zU_09N3QrI",
-      "status": "pending",
-      "reason": "만능양파 45g을 원재료로 분해할 완성 수율 확인 대기"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "만능양파 45g을 원재료로 분해할 완성 수율 확인 대기",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "sen4L0zVlpA",
       "sourceTitle": "만능양파볶음 활용 다섯 번째: 만능양파 김치비빔면 l 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=sen4L0zVlpA",
-      "status": "pending",
-      "reason": "만능양파 45g을 원재료로 분해할 완성 수율 확인 대기"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "만능양파 45g을 원재료로 분해할 완성 수율 확인 대기",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "5uWt6U1Re5Q",
       "sourceTitle": "만능양파볶음 활용 네 번째: 만능양파 간장비빔면 ㅣ 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=5uWt6U1Re5Q",
-      "status": "pending",
-      "reason": "만능양파 45g을 원재료로 분해할 완성 수율 확인 대기"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "만능양파 45g을 원재료로 분해할 완성 수율 확인 대기",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "C2GGN4yEphk",
       "sourceTitle": "만능양파볶음 활용 세 번째: 만능양파 스프 ㅣ 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=C2GGN4yEphk",
-      "status": "pending",
-      "reason": "만능양파 45g을 원재료로 분해할 완성 수율 확인 대기"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "만능양파 45g을 원재료로 분해할 완성 수율 확인 대기",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "-3y_AR7zYXM",
       "sourceTitle": "만능양파볶음 활용 두 번째: 만능양파 덮밥 ㅣ 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=-3y_AR7zYXM",
-      "status": "pending",
-      "reason": "만능양파 45g을 원재료로 분해할 완성 수율 확인 대기"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "만능양파 45g을 원재료로 분해할 완성 수율 확인 대기",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "GlQZFTUeRoI",
       "sourceTitle": "만능양파볶음 활용 첫 번째: 양파게티 ㅣ 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=GlQZFTUeRoI",
-      "status": "pending",
-      "reason": "만능양파 45g을 원재료로 분해할 완성 수율 확인 대기"
+      "status": "excluded-policy",
+      "reason": "중간 조리물·대량 제조분의 실제 사용 비율을 확인하기 어려워 이번 검토에서 제외",
+      "exclusionCode": "unclear-prepared-portion",
+      "originalReason": "만능양파 45g을 원재료로 분해할 완성 수율 확인 대기",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "uAShnbgCLSU",
@@ -2673,9 +2800,12 @@
       "videoId": "0hYm1QOJZeo",
       "sourceTitle": "양파 농가를 응원합니다! 만능양파볶음 대작전 1편: 양파 손질과 보관법 ㅣ 백종원의 쿠킹로그",
       "sourceUrl": "https://www.youtube.com/watch?v=0hYm1QOJZeo",
-      "status": "pending",
-      "reason": "양파 손질·보관 안내; 별도 완성 요리 아님",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "status": "excluded-policy",
+      "reason": "개별 완성 요리 레시피가 아닌 자료는 이번 검토에서 제외",
+      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생",
+      "exclusionCode": "nonrecipe",
+      "originalReason": "양파 손질·보관 안내; 별도 완성 요리 아님",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "0q0btGvIrWY",
@@ -2689,8 +2819,11 @@
       "sourceTitle": "뚝배기 계란찜 부풀어 오르는 결정적 한 끗 차이!",
       "sourceUrl": "https://www.youtube.com/watch?v=_H64Kz7Mgz4",
       "status": "pending",
-      "reason": "번호형 재료표가 잘려 원문 추가 확인 필요",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "reason": "YouTube 재접근 실패. 잘린 뚝배기 계란찜 재료표는 미확인 유지.",
+      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생",
+      "originalReason": "번호형 재료표가 잘려 원문 추가 확인 필요",
+      "reviewState": "access-unverified",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "QPjfwubAvso",
@@ -2704,15 +2837,21 @@
       "sourceTitle": "초간단 김치찌개 ㅣ 백종원의 백종원 레시피",
       "sourceUrl": "https://www.youtube.com/watch?v=DnQ09ZZCjCs",
       "status": "pending",
-      "reason": "번호형 재료표가 잘려 원문 추가 확인 필요",
-      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생"
+      "reason": "YouTube 재접근 실패. 잘린 초간단 김치찌개 재료표는 미확인 유지.",
+      "sourceAccessIssue": "추가 원문 확인 시 YouTube HTTP 429 요청 제한 발생",
+      "originalReason": "번호형 재료표가 잘려 원문 추가 확인 필요",
+      "reviewState": "access-unverified",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "thXIVUt9PBU",
       "sourceTitle": "이것이 업소 스케일! 백종원의 대용량 레시피 첫 번째, 제육볶음 100인분 만들기 l 백종원의 대용량 레시피",
       "sourceUrl": "https://www.youtube.com/watch?v=thXIVUt9PBU",
       "status": "pending",
-      "reason": "100인분 제육볶음의 별도 조리용 기름·참깨 분량이 한 팬 기준인지 확인 대기"
+      "reason": "YouTube 재접근 실패. 100인분 제육볶음의 조리용 기름·참깨 기준은 미확인 유지. 보조 양념의 불명확함만으로 제외하지 않음.",
+      "originalReason": "100인분 제육볶음의 별도 조리용 기름·참깨 분량이 한 팬 기준인지 확인 대기",
+      "reviewState": "access-unverified",
+      "checkedOn": "2026-11-23"
     },
     {
       "videoId": "wDXCxlcr3hY",

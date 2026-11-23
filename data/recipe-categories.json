@@ -18410,6 +18410,190 @@
         "한식 국·찌개"
       ],
       "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "paik-Da-yWFw5T3U",
+      "name": "초간단 버터간장국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-15",
+      "name": "청국장찌개",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "moony-swPArDu7zak",
+      "name": "해초 콩국수",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-k-yRW47mTBA",
+      "name": "치즈 달걀 또띠아",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-2uo450zVAIY",
+      "name": "간장 순두부 달걀 요리",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-9V5Mo_OaSBg",
+      "name": "참치액 순두부 달걀 요리",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-fVTnNxSBjxY",
+      "name": "토마토 달걀 요리",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-IRnO1_5dXug",
+      "name": "순두부 달걀 국물 요리",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "moony-IRhpRwIHRbw",
+      "name": "부추 달걀 요리",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "moony-E__F3vWxExQ",
+      "name": "올리브 토마토 절임",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-r-BA0P8uOkc",
+      "name": "양파 토마토 요리",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony--IobWfRmPq0",
+      "name": "팽이버섯 달걀 요리",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "moony-nvojrMwWzwg",
+      "name": "김치 숙주 두부 요리",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-yULmVNGhZb4",
+      "name": "가지 달걀전",
+      "categories": [
+        "한식 반찬"
+      ],
+      "mealRole": "반찬"
+    },
+    {
+      "recipeId": "moony-VV0XnOmCRpM",
+      "name": "새우 채소 요리",
+      "categories": [
+        "그 밖"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-hm4yLs-sxoU",
+      "name": "굴 쑥갓 국물 요리",
+      "categories": [
+        "한식 국·찌개"
+      ],
+      "mealRole": "국·찌개"
+    },
+    {
+      "recipeId": "moony-IMvO7aBct7w",
+      "name": "두부 된장 요리",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-k6hII4CZ4gA",
+      "name": "소고기 배추 채소 요리",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "moony-XFEJgyvUQQ4",
+      "name": "두부 김치 요리",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-701",
+      "name": "스테이크 솥밥",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-636",
+      "name": "전자레인지 크림 파스타",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-572",
+      "name": "레스토랑 스테이크",
+      "categories": [
+        "양식"
+      ],
+      "mealRole": "주메뉴"
+    },
+    {
+      "recipeId": "mincook-blog-114",
+      "name": "해장라면",
+      "categories": [
+        "한식 주메뉴"
+      ],
+      "mealRole": "주메뉴"
     }
   ]
 }

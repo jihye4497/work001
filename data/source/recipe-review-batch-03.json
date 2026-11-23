@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-23",
+  "note": "세 번째20개 검토. 무니키친은 YouTube 재접근 실패·기존 수집 재료표로 검수. 뚝딱이형6개는 공식 블로그 재접근과 보존 원문 대조. 확인하지 않은 축종·조리법·찻잎 종류를 임의 생성하지 않음.",
+  "entries": [
+    {
+      "sourceId": "r-BA0P8uOkc",
+      "sourceUrl": "https://www.youtube.com/watch?v=r-BA0P8uOkc",
+      "action": "registered",
+      "recipeId": "moony-r-BA0P8uOkc",
+      "reason": "토마토300g·양파100g·마늘10g·원문Ts 단위 확인. 재료 기반 편집명 양파 토마토 요리,곁들임4인분 추정. 허브는 종류 미기재로 보존."
+    },
+    {
+      "sourceId": "LPxOcAJUgvM",
+      "sourceUrl": "https://www.youtube.com/watch?v=LPxOcAJUgvM",
+      "action": "exclude",
+      "exclusionCode": "insufficient-core-identification",
+      "reason": "기존 재료표가 집에 있는 야채400g만 제시하며 구체 채소 종류가 없음. 특정 채소로 추측하지 않고 이번 검토에서 제외."
+    },
+    {
+      "sourceId": "t-veXBf_Ra4",
+      "sourceUrl": "https://www.youtube.com/watch?v=t-veXBf_Ra4",
+      "action": "exclude",
+      "exclusionCode": "insufficient-core-quantities",
+      "reason": "기존 재료표의 쑥·전분 수량이 미기재. 양념장 분량만으로 쑥전 구매량을 추정하지 않고 제외."
+    },
+    {
+      "sourceId": "-IobWfRmPq0",
+      "sourceUrl": "https://www.youtube.com/watch?v=-IobWfRmPq0",
+      "action": "registered",
+      "recipeId": "moony--IobWfRmPq0",
+      "reason": "기존 재료표 팽이버섯150g·달걀2개 확인. 재료 기반 편집명 팽이버섯 달걀 요리,2인분 추정."
+    },
+    {
+      "sourceId": "nvojrMwWzwg",
+      "sourceUrl": "https://www.youtube.com/watch?v=nvojrMwWzwg",
+      "action": "registered",
+      "recipeId": "moony-nvojrMwWzwg",
+      "reason": "두부300g·김치100g·숙주50g·오트밀가루2Tbsp·달걀2개 확인. 김치 숙주 두부 요리,2인분 추정. Tbsp 단위 유지."
+    },
+    {
+      "sourceId": "yULmVNGhZb4",
+      "sourceUrl": "https://www.youtube.com/watch?v=yULmVNGhZb4",
+      "action": "registered",
+      "recipeId": "moony-yULmVNGhZb4",
+      "reason": "달걀3개·가지1개·쪽파1줄 확인,원본 제목에 전 명시. 가지 달걀전,2인분 추정."
+    },
+    {
+      "sourceId": "VV0XnOmCRpM",
+      "sourceUrl": "https://www.youtube.com/watch?v=VV0XnOmCRpM",
+      "action": "registered",
+      "recipeId": "moony-VV0XnOmCRpM",
+      "reason": "미니파프리카3개·양배추2장·아스파라거스3개 등 확인. 새우 채소 요리,2인분 추정. 냉동새우7~8마리 범위는 임의 단일량으로 바꾸지 않음."
+    },
+    {
+      "sourceId": "hm4yLs-sxoU",
+      "sourceUrl": "https://www.youtube.com/watch?v=hm4yLs-sxoU",
+      "action": "registered",
+      "recipeId": "moony-hm4yLs-sxoU",
+      "reason": "굴200g·무150g·육수400ml·쑥갓80g 등 확인. 굴 쑥갓 국물 요리,2인분 추정. 원문 버섯 종류는 특정하지 않음."
+    },
+    {
+      "sourceId": "n-zNjCJhw_k",
+      "sourceUrl": "https://www.youtube.com/watch?v=n-zNjCJhw_k",
+      "action": "exclude",
+      "exclusionCode": "unclear-prepared-portion",
+      "reason": "직접 만드는 육수 영상과 양배추밥 영상이 연결되어 있으며 현재 밥의 수량·제조분 사용량이 없음. 준비 요리의 실제 사용량이 불분명한 자료를 제외하는 기준 적용."
+    },
+    {
+      "sourceId": "IMvO7aBct7w",
+      "sourceUrl": "https://www.youtube.com/watch?v=IMvO7aBct7w",
+      "action": "registered",
+      "recipeId": "moony-IMvO7aBct7w",
+      "reason": "두부1모·집된장/시판된장 각1큰술·채소량 확인. 두부 된장 요리,2인분 추정. 청·홍고추 각1개는 두 재료 각각1개로 계산."
+    },
+    {
+      "sourceId": "k6hII4CZ4gA",
+      "sourceUrl": "https://www.youtube.com/watch?v=k6hII4CZ4gA",
+      "action": "registered",
+      "recipeId": "moony-k6hII4CZ4gA",
+      "reason": "소고기150g·숙주2줌·버섯80g 등 확인. 소고기 배추 채소 요리,2인분 추정. 배추5~7장 범위와 T 단위 보존. 알룰로스/올리고당은 알룰로스만 포함."
+    },
+    {
+      "sourceId": "XFEJgyvUQQ4",
+      "sourceUrl": "https://www.youtube.com/watch?v=XFEJgyvUQQ4",
+      "action": "registered",
+      "recipeId": "moony-XFEJgyvUQQ4",
+      "reason": "두부300g·김치150g·양념량 확인. 두부 김치 요리,2인분 추정. 어간장/액젓 대체재는 어간장만 포함."
+    },
+    {
+      "sourceId": "bQe69C5quO8",
+      "sourceUrl": "https://www.youtube.com/watch?v=bQe69C5quO8",
+      "action": "exclude",
+      "exclusionCode": "insufficient-core-identification",
+      "reason": "기존 재료표는 찻잎5g·물400ml·오렌지1개만 명시하고 핵심 찻잎 종류를 특정하지 않음. 다른 추천 영상의 차 종류를 가져오지 않고 이번 검토에서 제외."
+    },
+    {
+      "sourceId": "ojg8StDFjz0",
+      "sourceUrl": "https://www.youtube.com/watch?v=ojg8StDFjz0",
+      "action": "exclude",
+      "exclusionCode": "insufficient-core-identification",
+      "reason": "기존 재료표는 티10g·물400ml·생크림100ml 등으로만 적혀 있고 차 종류가 불명확. 핵심 재료 종류를 추측하지 않고 제외."
+    },
+    {
+      "sourceId": "blog-768",
+      "sourceUrl": "https://chef-choice.tistory.com/768",
+      "action": "exclude",
+      "exclusionCode": "multiple-dishes",
+      "reason": "공식 원문에 명란새우장과 명란새우장 초밥의 별도 완성 메뉴 구획이 함께 있음. 마늘 중복 표기까지 추가 판단하지 않고 복수 메뉴 제외 기준 적용."
+    },
+    {
+      "sourceId": "blog-701",
+      "sourceUrl": "https://chef-choice.tistory.com/701",
+      "action": "registered",
+      "reason": "사용자가 블로그에서 부채살 확인. 원문 스테이크용 고기 표기와 확인 주체를 구분해 등록.",
+      "recipeId": "mincook-blog-701"
+    },
+    {
+      "sourceId": "blog-636",
+      "sourceUrl": "https://chef-choice.tistory.com/636",
+      "action": "registered",
+      "reason": "사용자 지시로 본문 우유/생크림 각200ml·물150ml 사용. 파스타150g 등 원문 사실을2인분 추정으로 등록. 재료표와의 충돌은 보존.",
+      "recipeId": "mincook-blog-636"
+    },
+    {
+      "sourceId": "blog-634",
+      "sourceUrl": "https://chef-choice.tistory.com/634",
+      "action": "exclude",
+      "exclusionCode": "insufficient-core-quantities",
+      "reason": "공식 원문에서 밥700g·속용 다진묵은지120g 등은 확인되나 겉에 싸는 묵은지 양이 없고 데리야끼소스도 재료표에 누락. 속의 김치를 쌈용 전체 양으로 오인하지 않고 제외."
+    },
+    {
+      "sourceId": "blog-613",
+      "sourceUrl": "https://chef-choice.tistory.com/613",
+      "action": "exclude",
+      "exclusionCode": "unclear-prepared-portion",
+      "reason": "공식 원문에서 돼지비계 제조량 없이 만든 라드6큰술을 사용하고 중화면 양도 미기재. 소스/면의 실제 원재료 사용량을 확정하기 어려워 제외. 미림/미원 충돌도 미해결로 기록."
+    },
+    {
+      "sourceId": "blog-572",
+      "sourceUrl": "https://chef-choice.tistory.com/572",
+      "action": "registered",
+      "reason": "사용자가 블로그에서 부채살 확인. 원문 스테이크용 고기 표기와 확인 주체를 구분해 등록.",
+      "recipeId": "mincook-blog-572"
+    }
+  ]
+}

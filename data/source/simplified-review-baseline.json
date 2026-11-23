@@ -1,0 +1,3822 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-23",
+  "note": "간소화 검토 전 보류 사유 스냅샷. 원문 재접속/새 재료 검증을 뜻하지 않음. 기존 검수 근거를 보존하며 자료를 삭제하지 않음.",
+  "entries": [
+    {
+      "channel": "paik-playlist",
+      "sourceId": "7NAnzqvOhaY",
+      "sourceTitle": "흑백요리사 심사위원 백종원 충격! 파브리 셰프의 ‘홍어 리벤지’ 요리",
+      "sourceUrl": "https://www.youtube.com/watch?v=7NAnzqvOhaY",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "nPRKSxlh0rQ",
+      "sourceTitle": "정지선 셰프: \"대표님, 그 짤은 사실...\" 드디어 밝혀지는 흑백요리사 빠스 비하인드",
+      "sourceUrl": "https://www.youtube.com/watch?v=nPRKSxlh0rQ",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "tymvzikfesI",
+      "sourceTitle": "화려한 기술보다 무서운 것, 15년의 세월이 담긴 흑백요리사 '급식대가'의 진심",
+      "sourceUrl": "https://www.youtube.com/watch?v=tymvzikfesI",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "MaiWn55K1aE",
+      "sourceTitle": "트리플 스타야... 해명하러 온 거 맞지?",
+      "sourceUrl": "https://www.youtube.com/watch?v=MaiWn55K1aE",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "JZlMEBj7P2M",
+      "sourceTitle": "\"두부 지옥 미션, 제가 했다면 ‘이것’입니다\" 나폴리 맛피아가 숨겨놨던 두부 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=JZlMEBj7P2M",
+      "originalReason": "게스트 조리자의 정확한 요리명과 재료 배합 추가 확인 필요. 임의 메뉴명으로 등록하지 않음."
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "-KTb3zivHXk",
+      "sourceTitle": "드디어 들어간 마늘! 흑백요리사 때 그 맛이 아닙니다",
+      "sourceUrl": "https://www.youtube.com/watch?v=-KTb3zivHXk",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "_-4nakEwN0s",
+      "sourceTitle": "흑백요리사 안대 심사의 한을 푼 백수저 여경래 셰프의 마파두부",
+      "sourceUrl": "https://www.youtube.com/watch?v=_-4nakEwN0s",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "utIbM9Iua-k",
+      "sourceTitle": "라면 하나로 겸상하게 된 흑백요리사 두 심사위원의 사연?",
+      "sourceUrl": "https://www.youtube.com/watch?v=utIbM9Iua-k",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "ieD0Rqfyjx4",
+      "sourceTitle": "이게 쌀이야 진주야…? 바로 안동농협 백진주쌀입니다!",
+      "sourceUrl": "https://www.youtube.com/watch?v=ieD0Rqfyjx4",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "JvuV9aAh7VY",
+      "sourceTitle": "8분 만에 끝내는 밑반찬 4종! 만들어 두면 일주일은 든든해요!",
+      "sourceUrl": "https://www.youtube.com/watch?v=JvuV9aAh7VY",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "2PZtNTWjotU",
+      "sourceTitle": "치폴레? (❌) 치콜레! (⭕) 정국이가 먹던 그 메뉴 저도 한번 만들어 봤습니다",
+      "sourceUrl": "https://www.youtube.com/watch?v=2PZtNTWjotU",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "QxWyQ7hsy00",
+      "sourceTitle": "냉면집에선 겨울에 뭘 팔까요? 제주금악냉면 신메뉴 먹으러 가봤습니다",
+      "sourceUrl": "https://www.youtube.com/watch?v=QxWyQ7hsy00",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "sGVLNhPf8RM",
+      "sourceTitle": "별다른 도구 없이도 김밥김을 조미김으로 만들 수 있어요!",
+      "sourceUrl": "https://www.youtube.com/watch?v=sGVLNhPf8RM",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "Z5-6wbdbgA4",
+      "sourceTitle": "김밥의 수많은 속재료가 부담된다면? '이것'만 준비하세요, 간단하게 김밥 맛집 흉내내기 가능!",
+      "sourceUrl": "https://www.youtube.com/watch?v=Z5-6wbdbgA4",
+      "originalReason": "유부조림 제조 전체 중 완성 120g 사용. 완성 총량이 없어 실제 원재료 사용비율 추가 확인 필요."
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "8-Aad1W4Mq0",
+      "sourceTitle": "마트에서 산 '돼지불고기'로  네가지 활용법 대방출",
+      "sourceUrl": "https://www.youtube.com/watch?v=8-Aad1W4Mq0",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "1T4R8zNe1yA",
+      "sourceTitle": "마트에서 산 '소불고기'로 다섯가지 활용법 대방출",
+      "sourceUrl": "https://www.youtube.com/watch?v=1T4R8zNe1yA",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "hJKvBg66Gf0",
+      "sourceTitle": "제품 리뷰는 처음이죠? '냉면' 만들어 먹으며 여러분께 드리고 싶은 말씀이 있습니다!",
+      "sourceUrl": "https://www.youtube.com/watch?v=hJKvBg66Gf0",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "M_69x0-_GkE",
+      "sourceTitle": "비빔면 뜨겁게 드셔보셨나요? 비빔면을 먹는 새로운 방법!",
+      "sourceUrl": "https://www.youtube.com/watch?v=M_69x0-_GkE",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "qWI4b7BL2eA",
+      "sourceTitle": "'부'대찌개맛 '뿌'햄라면",
+      "sourceUrl": "https://www.youtube.com/watch?v=qWI4b7BL2eA",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "hEJzz_y63Gw",
+      "sourceTitle": "찬물라면! 저도 끓여보았습니다. 그것도 10개를 한번에!",
+      "sourceUrl": "https://www.youtube.com/watch?v=hEJzz_y63Gw",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "fwlztjjWfUo",
+      "sourceTitle": "육쌈 비빔면! 제가 비빔면 먹는 방법",
+      "sourceUrl": "https://www.youtube.com/watch?v=fwlztjjWfUo",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "aGpsvAb8GyY",
+      "sourceTitle": "설 맞이 꼬치산적! 그리고 설 전 꼭 해야 할 일은?",
+      "sourceUrl": "https://www.youtube.com/watch?v=aGpsvAb8GyY",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "F5gdgqc5bgU",
+      "sourceTitle": "짬뽕은 어떻게 만들까요? 불쇼와 함께 맛보는 짬뽕!",
+      "sourceUrl": "https://www.youtube.com/watch?v=F5gdgqc5bgU",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "ojDFWk3lqCg",
+      "sourceTitle": "이게 바로 찐 중국식볶음밥 (준비물: 중화화구)",
+      "sourceUrl": "https://www.youtube.com/watch?v=ojDFWk3lqCg",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "XV-78G9WngQ",
+      "sourceTitle": "똠양꿍맛 나는 초고추장찌개",
+      "sourceUrl": "https://www.youtube.com/watch?v=XV-78G9WngQ",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "VaL3QgKLRxc",
+      "sourceTitle": "여러분 저 믿죠? 꽁치통조림볶음밥",
+      "sourceUrl": "https://www.youtube.com/watch?v=VaL3QgKLRxc",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "LRsdD2Gz6lQ",
+      "sourceTitle": "사과한테 사과하세요. 너무 맛있는 사과부침개",
+      "sourceUrl": "https://www.youtube.com/watch?v=LRsdD2Gz6lQ",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "_PqfXhZGuBI",
+      "sourceTitle": "따라 하셔도 됩니다. *김치 피자*",
+      "sourceUrl": "https://www.youtube.com/watch?v=_PqfXhZGuBI",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "OSYQHa-vbVU",
+      "sourceTitle": "우리집이 휴게소 '소떡어떡'",
+      "sourceUrl": "https://www.youtube.com/watch?v=OSYQHa-vbVU",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "eAbOOz5KMG0",
+      "sourceTitle": "*따라하지 마세요*",
+      "sourceUrl": "https://www.youtube.com/watch?v=eAbOOz5KMG0",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "dxuntkET42M",
+      "sourceTitle": "'참치캔'으로 만드는 참치함박스테이크",
+      "sourceUrl": "https://www.youtube.com/watch?v=dxuntkET42M",
+      "originalReason": "참치함박 전체 반죽 제조량과 한 개 사용량 160g이 다름. 소스는 전량이나 1개 분량 여부 불명확."
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "2y4Jvvmj7LY",
+      "sourceTitle": "가슴속까지 시원한 메밀국수",
+      "sourceUrl": "https://www.youtube.com/watch?v=2y4Jvvmj7LY",
+      "originalReason": "현재 수집 원문은 메밀국수 쯔유 재료만 있음. 면과 1인분 세팅 추가 원문 확인 필요."
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "HwtpISNf3wU",
+      "sourceTitle": "해장 킹!!!  무파 라면!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=HwtpISNf3wU",
+      "originalReason": "무파라면 제목과 달리 수집 재료 구획에 라면 자체가 없음. 원문 다른 구획 추가 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "kpeQCq4mIXs",
+      "sourceTitle": "진짜 가지가지 합니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=kpeQCq4mIXs",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "WFa47RUcZYM",
+      "sourceTitle": "초간단 '고추기름' 만들기!",
+      "sourceUrl": "https://www.youtube.com/watch?v=WFa47RUcZYM",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "rpMGKoF4vnU",
+      "sourceTitle": "장 보러 '서울중앙시장'에 다녀왔습니다! I Went to Seoul Central Market for Grocery Shopping!",
+      "sourceUrl": "https://www.youtube.com/watch?v=rpMGKoF4vnU",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "9OYciHKmgus",
+      "sourceTitle": "[Sub] 다이어트에 좋은 '오리엔탈?' 두부샐러드",
+      "sourceUrl": "https://www.youtube.com/watch?v=9OYciHKmgus",
+      "originalReason": "원문에 미리 만든 장아찌소스30g 사용. 조리 후 소스 총량 미기재로 원재료 분해비율 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "_O4tvQtZDiU",
+      "sourceTitle": "[ENG] 정말 쉽게 만드는 짜장 덮밥",
+      "sourceUrl": "https://www.youtube.com/watch?v=_O4tvQtZDiU",
+      "originalReason": "원문에 미리 만든 만능짜장소스40g 사용. 조리 후 소스 총량 미기재로 원재료 분해비율 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "__EQyG0qFuE",
+      "sourceTitle": "[ENG] 시원하게 맛있는 장아찌소스 냉국수",
+      "sourceUrl": "https://www.youtube.com/watch?v=__EQyG0qFuE",
+      "originalReason": "원문에 미리 만든 장아찌소스100g 사용. 조리 후 소스 총량 미기재로 원재료 분해비율 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "IGikNAE92Ls",
+      "sourceTitle": "김밥으로 볶음밥! 넣고 볶으면 끝!",
+      "sourceUrl": "https://www.youtube.com/watch?v=IGikNAE92Ls",
+      "originalReason": "간장불고기 김밥과 기름만 명시되어 김밥 자체의 재료·수량 확인이 필요함"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "TKFpBXl2w-A",
+      "sourceTitle": "뭣 좀 사러 근처 편의점 다녀왔씨유~",
+      "sourceUrl": "https://www.youtube.com/watch?v=TKFpBXl2w-A",
+      "originalReason": "원본 추가 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "NNZ5jI_RQjI",
+      "sourceTitle": "달걀을 구워서 카레에?!",
+      "sourceUrl": "https://www.youtube.com/watch?v=NNZ5jI_RQjI",
+      "originalReason": "원문에 미리 만든 만능양파8g 사용. 원재료 양파·기름 분해비율 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "5iRPP3nqCJE",
+      "sourceTitle": "소스가 핵심! 돼지고기 덮밥",
+      "sourceUrl": "https://www.youtube.com/watch?v=5iRPP3nqCJE",
+      "originalReason": "돼지고기500g 대량 조리와 밥200g 세팅이 혼재. 한 그릇에 쓰는 완성 고기 비율 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "HIz6eyE80V4",
+      "sourceTitle": "밤으로 만든 ‘밤라면'",
+      "sourceUrl": "https://www.youtube.com/watch?v=HIz6eyE80V4",
+      "originalReason": "밤소스 제조 원재료100g과 사용 완성소스80g의 조리감소/부분사용 여부 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "zikhPxKgyJI",
+      "sourceTitle": "불고기 버거!",
+      "sourceUrl": "https://www.youtube.com/watch?v=zikhPxKgyJI",
+      "originalReason": "불고기300g 전체 조리와 버거빵1개 세팅이 혼재. 한 버거에 사용하는 불고기·마요소스 비율 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "h7NFHq9QeeU",
+      "sourceTitle": "훈연멸치로 만드는 가락국수!",
+      "sourceUrl": "https://www.youtube.com/watch?v=h7NFHq9QeeU",
+      "originalReason": "육수 제조용 물2.5L와 요리 사용 육수1.25L의 조리감소/부분사용 여부가 불명확하여 원재료 분해비율 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "F3C8-uEMixU",
+      "sourceTitle": "햄버거 패티가 바삭 바삭! 돼지마늘버거입니다. ㅣ 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=F3C8-uEMixU",
+      "originalReason": "돼지마늘버거: 고기튀김 제조량은 돼지100g+튀김가루110g 등, 한 개에는 완성튀김60g. 소스 제조량200g 중45g. 고기튀김 조리 후 수율 불명확."
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "GpEiUb20IFo",
+      "sourceTitle": "떡갈비 버거, 일명 '붹붹버거'입니다! 햄버거는 한식이죠~~?? l 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=GpEiUb20IFo",
+      "originalReason": "떡갈비버거: 고기500g+양념으로 패티 제조, 한 개에는 완성패티150g. 전체 패티 수량/수율 불명확."
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "dKD_C-1XklE",
+      "sourceTitle": "눈오는 쌀쌀한 날씨엔 어묵전골! 따듯한 국물에 ㅋ ㅑ~~ㅣ 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=dKD_C-1XklE",
+      "originalReason": "육수 제조용 물2L와 요리 사용 육수1.5L의 조리감소/부분사용 여부가 불명확하여 원재료 분해비율 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "SZp5fTHZnmc",
+      "sourceTitle": "고기만두!! 비법이 들어 있습니다. 가족과 함께 집에서 만들어 보세요!!  ㅣ 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=SZp5fTHZnmc",
+      "originalReason": "원문에 미리 만든 만능볶음요리소스30g 사용. 원재료 분해비율 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "3XYDL0oV9HQ",
+      "sourceTitle": "SBS 맛남의 광장 '홍게라면' 레시피를 공개합니다! ㅣ 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=3XYDL0oV9HQ",
+      "originalReason": "홍게라면: 설명란 재료표 추가 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "3Sokx1SQHR0",
+      "sourceTitle": "오늘은 '맛남의광장' 첫방하는 날! '영표국밥' 레시피 대 공개!! ㅣ 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=3Sokx1SQHR0",
+      "originalReason": "영표국밥: 국물 전체와 밥 한 공기 세팅의 사용 비율 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "cnWyo34CPUY",
+      "sourceTitle": "냉동만두 쉽게 굽기! 사라는 거 아닙니다!ㅎㅎㅎ ㅣ 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=cnWyo34CPUY",
+      "originalReason": "만두 굽기: 설명란 재료표 추가 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "BqxpjY7TJ8g",
+      "sourceTitle": "정말 쉽게 만드는 마파두부!! ㅣ 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=BqxpjY7TJ8g",
+      "originalReason": "미리 만든 만능양념장 실제 사용량을 원재료로 분해할 근거 확인 대기"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "bvH5jROsmG4",
+      "sourceTitle": "'가족과 함께' 삼겹살, 목살, 항정살 먹방! 돼지 농가 화이팅!ㅣ 백종원의 쿠킹로그 특별방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=bvH5jROsmG4",
+      "originalReason": "먹방 영상; 검수 가능한 개별 재료표 없음"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "S9MQlzjgf7k",
+      "sourceTitle": "돼지고기 사러 마트 다녀왔습니다! ㅣ 백종원의 쿠킹로그 번외편",
+      "sourceUrl": "https://www.youtube.com/watch?v=S9MQlzjgf7k",
+      "originalReason": "돼지고기 구매 안내 영상; 개별 레시피 아님"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "10fl2mebYHs",
+      "sourceTitle": "의외로 많은 분들이 틀리는 김밥 말기 핵심 포인트",
+      "sourceUrl": "https://www.youtube.com/watch?v=10fl2mebYHs",
+      "originalReason": "김밥: 밥 600g 세팅과 단무지 절임 3팩 제조량의 사용 비율 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "iIL1QMXCoDM",
+      "sourceTitle": "초코초코초코 브라우니 & 건더기 생생 사과 홍차! 특집사과대잔치 | 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=iIL1QMXCoDM",
+      "originalReason": "사과조림을 쓰는 브라우니: 조림 원재료의 완성 수율 확인 대기"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "jVH2k4yNi4o",
+      "sourceTitle": "에어프라이어로 쉽게 촉촉한 사과파이와 초간단 사과 고르곤졸라 피자! [특집 사과 대잔치] ㅣ 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=jVH2k4yNi4o",
+      "originalReason": "사과조림을 쓰는 사과파이: 조림 원재료의 완성 수율 확인 대기"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "C3W_z8TTCDw",
+      "sourceTitle": "먹다 남긴 족발로 만드는 '족발덮밥'. 스푸파 방콕 '카오카무' 그 맛 납니다~! ㅣ 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=C3W_z8TTCDw",
+      "originalReason": "족발덮밥: 족발 전체 양과 밥 한 공기 세팅의 사용 비율 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "7anwbJ0ZEyA",
+      "sourceTitle": "이거 보면 호불호 없습니다. 남은 '전'으로 끓이는 '전 찌개', 죽탕 같은 찌개가 아닙니다. ㅣ 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=7anwbJ0ZEyA",
+      "originalReason": "전찌개: 미리 부친 여러 전의 원재료 분해 근거 확인 대기"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "9J_tqZrDSng",
+      "sourceTitle": "팔아도 될 만큼 맛있는 김치찌개 비법전수! 돼지고기, 햄, 꽁치 등 기본 양념장으로 다 만들 수 있어요! l 백종원의 대용량 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=9J_tqZrDSng",
+      "originalReason": "대용량 김치찌개: 설명란 재료표 추가 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "GP8_7D5eM6A",
+      "sourceTitle": "고추기름이 포인트! '순두부찌개'로 오늘 저녁 어떠세요?! ㅣ 백종원의 백종원 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=GP8_7D5eM6A",
+      "originalReason": "순두부 양념장 제조 전체 중 160g 사용. 완성 양념장 총량/수율 확인 대기"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "no3K4M0PqRY",
+      "sourceTitle": "강식당3의 불고기 파스타, 강불파 1인분 만들기 ㅣ 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=no3K4M0PqRY",
+      "originalReason": "불고기 파스타: 파마늘오일 원재료 111g 중 완성 100g 사용. 조리 수율/부분 사용 확인 대기"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "cTayVZxM0nw",
+      "sourceTitle": "맛있는 꼬막비빔밥 만들기 ㅣ 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=cTayVZxM0nw",
+      "originalReason": "번호형 재료표가 잘려 원문 추가 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "4zU_09N3QrI",
+      "sourceTitle": "만능양파볶음 활용 시즌1 마지막 요리: 만능양파 샌드위치 ㅣ 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=4zU_09N3QrI",
+      "originalReason": "만능양파 45g을 원재료로 분해할 완성 수율 확인 대기"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "sen4L0zVlpA",
+      "sourceTitle": "만능양파볶음 활용 다섯 번째: 만능양파 김치비빔면 l 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=sen4L0zVlpA",
+      "originalReason": "만능양파 45g을 원재료로 분해할 완성 수율 확인 대기"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "5uWt6U1Re5Q",
+      "sourceTitle": "만능양파볶음 활용 네 번째: 만능양파 간장비빔면 ㅣ 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=5uWt6U1Re5Q",
+      "originalReason": "만능양파 45g을 원재료로 분해할 완성 수율 확인 대기"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "C2GGN4yEphk",
+      "sourceTitle": "만능양파볶음 활용 세 번째: 만능양파 스프 ㅣ 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=C2GGN4yEphk",
+      "originalReason": "만능양파 45g을 원재료로 분해할 완성 수율 확인 대기"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "-3y_AR7zYXM",
+      "sourceTitle": "만능양파볶음 활용 두 번째: 만능양파 덮밥 ㅣ 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=-3y_AR7zYXM",
+      "originalReason": "만능양파 45g을 원재료로 분해할 완성 수율 확인 대기"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "GlQZFTUeRoI",
+      "sourceTitle": "만능양파볶음 활용 첫 번째: 양파게티 ㅣ 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=GlQZFTUeRoI",
+      "originalReason": "만능양파 45g을 원재료로 분해할 완성 수율 확인 대기"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "0hYm1QOJZeo",
+      "sourceTitle": "양파 농가를 응원합니다! 만능양파볶음 대작전 1편: 양파 손질과 보관법 ㅣ 백종원의 쿠킹로그",
+      "sourceUrl": "https://www.youtube.com/watch?v=0hYm1QOJZeo",
+      "originalReason": "양파 손질·보관 안내; 별도 완성 요리 아님"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "_H64Kz7Mgz4",
+      "sourceTitle": "뚝배기 계란찜 부풀어 오르는 결정적 한 끗 차이!",
+      "sourceUrl": "https://www.youtube.com/watch?v=_H64Kz7Mgz4",
+      "originalReason": "번호형 재료표가 잘려 원문 추가 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "DnQ09ZZCjCs",
+      "sourceTitle": "초간단 김치찌개 ㅣ 백종원의 백종원 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=DnQ09ZZCjCs",
+      "originalReason": "번호형 재료표가 잘려 원문 추가 확인 필요"
+    },
+    {
+      "channel": "paik-playlist",
+      "sourceId": "thXIVUt9PBU",
+      "sourceTitle": "이것이 업소 스케일! 백종원의 대용량 레시피 첫 번째, 제육볶음 100인분 만들기 l 백종원의 대용량 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=thXIVUt9PBU",
+      "originalReason": "100인분 제육볶음의 별도 조리용 기름·참깨 분량이 한 팬 기준인지 확인 대기"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "bL3VV0jrrRg",
+      "sourceTitle": "진짜 고민하다 풉니다..정호영 7년 최애술🍸카덴Best 파스타 레시피 공개 & 와인 위스키 하이볼 소주 맥주 만능 안주",
+      "sourceUrl": "https://www.youtube.com/watch?v=bL3VV0jrrRg",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "Sn91tKGmbXQ",
+      "sourceTitle": "대패삼겹살로 만드는 초간단 일본식 제육덮밥!",
+      "sourceUrl": "https://www.youtube.com/watch?v=Sn91tKGmbXQ",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "Mjybaip6bIw",
+      "sourceTitle": "찾았다! 연어 최강 조합! 정호영 셰프의 초간단 연어 요리!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=Mjybaip6bIw",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "7SQIQCjJm0g",
+      "sourceTitle": "다카마쓰 우동! 절대 이렇게 먹지 마세요~!",
+      "sourceUrl": "https://www.youtube.com/watch?v=7SQIQCjJm0g",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "jtdxQXfSYDo",
+      "sourceTitle": "아이들이 환장할 치킨 가라아게! 맛이 그냥... 미쳤어요!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=jtdxQXfSYDo",
+      "originalReason": "치킨 가라아게: 재료표에 닭 주재료가 누락되어 원본 확인 대기"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "GDTXvM0cMfE",
+      "sourceTitle": "일식 전문가가 알려주는 냉동참치 먹는 법! 해동부터 회뜨기, 요리까지 풀코스!",
+      "sourceUrl": "https://www.youtube.com/watch?v=GDTXvM0cMfE",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "RxdzUqwmHAg",
+      "sourceTitle": "흑백요리사2의 송훈 셰프가 재현하는 흑백대전 리벤지! #정호영 #흑백요리사 #송훈",
+      "sourceUrl": "https://www.youtube.com/watch?v=RxdzUqwmHAg",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "lZPcQCj08tQ",
+      "sourceTitle": "여러분의 떡국에 깊은 맛이 없는 이유",
+      "sourceUrl": "https://www.youtube.com/watch?v=lZPcQCj08tQ",
+      "originalReason": "떡국: 브라운버터 제조 250g과 실제 사용량의 관계 확인 대기"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "HeuJKQOG1UE",
+      "sourceTitle": "잠봉 샌드위치에 '이 소스'만 있으면 맛이 100배 맛있어집니다",
+      "sourceUrl": "https://www.youtube.com/watch?v=HeuJKQOG1UE",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "yC6Uo9ANXxU",
+      "sourceTitle": "대파의 반란! 대파는 꼭 이렇게 드세요!!! 미친 소스까지!",
+      "sourceUrl": "https://www.youtube.com/watch?v=yC6Uo9ANXxU",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "fvPA1g-nWkM",
+      "sourceTitle": "연어 스테이크! 이렇게 구우면 레스토랑 안 가도 됩니다",
+      "sourceUrl": "https://www.youtube.com/watch?v=fvPA1g-nWkM",
+      "originalReason": "연어 스테이크: 재료표에 연어 주재료가 누락되어 원본 확인 대기"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "sE2kY0Wf5ms",
+      "sourceTitle": "[정호영X김형석] 굴찜! 돈 주고 사 먹지 마세요! 식당보다 맛있는 초럭셔리 굴찜 요리!",
+      "sourceUrl": "https://www.youtube.com/watch?v=sE2kY0Wf5ms",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "jDnGc3pfmhQ",
+      "sourceTitle": "[정호영X김형석] PD의 아이들이 맛보고 환장한 프렌치 토스트!",
+      "sourceUrl": "https://www.youtube.com/watch?v=jDnGc3pfmhQ",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "c8AtMYzZAAU",
+      "sourceTitle": "[정호영] 수제 함박 스테이크! 한번 맛보면 멈출 수 없는 이 맛~ 퀄리티 미쳤어요!",
+      "sourceUrl": "https://www.youtube.com/watch?v=c8AtMYzZAAU",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "q_QLRth9JvE",
+      "sourceTitle": "만능 데리야끼 소스를 곁들인 목살 스테이크! 이렇게 부드럽다고???",
+      "sourceUrl": "https://www.youtube.com/watch?v=q_QLRth9JvE",
+      "originalReason": "목살 스테이크: 목살 축종과 대량 데리야끼 소스의 실제 사용 분량 확인 대기"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "-351Hc-GpwQ",
+      "sourceTitle": "스테이크 만드는 신박한 방법! 이런 방법이 있었어???",
+      "sourceUrl": "https://www.youtube.com/watch?v=-351Hc-GpwQ",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "5ReIMQ4kJg8",
+      "sourceTitle": "감바스 알 아히요 만들 때 꼭 넣어야 하는 이것!",
+      "sourceUrl": "https://www.youtube.com/watch?v=5ReIMQ4kJg8",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "VJvR7ZcW36M",
+      "sourceTitle": "👍200만💕 스테이크! 이렇게 구우면 레스토랑 안 가도 됩니다!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=VJvR7ZcW36M",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "CHuBeVM4YsY",
+      "sourceTitle": "우리가 몰랐던 수입산 소고기의 비밀! (미국산 초이스 VS 호주청정우)",
+      "sourceUrl": "https://www.youtube.com/watch?v=CHuBeVM4YsY",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "xgYAgpqQNSg",
+      "sourceTitle": "이제부터 제육볶음 레시피는 무조건 이걸로 만드세요! 2억 팔린 이유가 있음!",
+      "sourceUrl": "https://www.youtube.com/watch?v=xgYAgpqQNSg",
+      "originalReason": "제육볶음: 대량 양념장 제조분과 실제 고기600g에 쓰는 양 확인 대기"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "qcWefHMMwpI",
+      "sourceTitle": "추석 불고기 고민 끝! ‘스트리트 레스토랑 파이터’에서 직접 만든 레시피 공개🔥",
+      "sourceUrl": "https://www.youtube.com/watch?v=qcWefHMMwpI",
+      "originalReason": "불고기: 원문 불고기1kg의 축종/형태 확인 대기"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "lRyt_KQckiE",
+      "sourceTitle": "장담합니다! 수박보다 시원합니다!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=lRyt_KQckiE",
+      "originalReason": "묵사발: 냉면육수2팩이 주재료/양념에 반복되어 중복인지 확인 대기"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "OLg47_SdNVw",
+      "sourceTitle": "흑백요리사 4위 셰프의 라면 리뷰! 우지라면 vs 신라면골드",
+      "sourceUrl": "https://www.youtube.com/watch?v=OLg47_SdNVw",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "pjsnJXj6eo4",
+      "sourceTitle": "[잔치국수] 국물 진심 미쳤습니다!",
+      "sourceUrl": "https://www.youtube.com/watch?v=pjsnJXj6eo4",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "8UGAJ4Ts9VA",
+      "sourceTitle": "이거 해줬더니 직원들이 환장했어요! 10분 컷 스탭밀!",
+      "sourceUrl": "https://www.youtube.com/watch?v=8UGAJ4Ts9VA",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "1Gl4aexCj-Q",
+      "sourceTitle": "이거 안 먹으면 무조건 손해!!! 초간단! But 맛은 미쳤어요!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=1Gl4aexCj-Q",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "S7mPJ65btSg",
+      "sourceTitle": "[김치] 초간단 파김치 레시피 공개합니다!",
+      "sourceUrl": "https://www.youtube.com/watch?v=S7mPJ65btSg",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "7l4TOBC_d-w",
+      "sourceTitle": "[정호영X김형석] 미친 바삭함의 감자전! 새로운 감자전의 탄생!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=7l4TOBC_d-w",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "UIbWCD9F7IU",
+      "sourceTitle": "[설음식] 제대로 된 떡만둣국을 먹고 싶다면?",
+      "sourceUrl": "https://www.youtube.com/watch?v=UIbWCD9F7IU",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "lmIUDquyZe8",
+      "sourceTitle": "[정호영X김형석] 요즘 날씨에 무조건 먹어야 하는 '멸치 김치 칼국수'",
+      "sourceUrl": "https://www.youtube.com/watch?v=lmIUDquyZe8",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "4vBL3yGOsnU",
+      "sourceTitle": "[정호영] 김치볶음밥 폼 미쳤따아~~~",
+      "sourceUrl": "https://www.youtube.com/watch?v=4vBL3yGOsnU",
+      "originalReason": "불린 쌀3인분 버터냄비밥 제조와 김치볶음밥 세팅 분량이 혼재. 실제 사용할 밥의 비율 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "SceJk6GI0gU",
+      "sourceTitle": "[정호영] 만능양념장으로 김치찌개를 끓이면? 삼겹살은 무조건 먼저 구우세요!",
+      "sourceUrl": "https://www.youtube.com/watch?v=SceJk6GI0gU",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "DmQa-O3Q9Qc",
+      "sourceTitle": "👍300만💕 국수, 쫄면, 우동, 라면! 어디에도 어울리는 만능 양념장 레시피 공개!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=DmQa-O3Q9Qc",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "2jB0Dgr3AIU",
+      "sourceTitle": "아껴놨던 초간단 양념게장 레시피 공개합니다",
+      "sourceUrl": "https://www.youtube.com/watch?v=2jB0Dgr3AIU",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "Ow9Amfqvh4U",
+      "sourceTitle": "클라쓰가 다른 셰프의 비법 ‘오이부추무침’ (feat.만능 양념장)",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ow9Amfqvh4U",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "t05YwRJl2PU",
+      "sourceTitle": "진미채를 볶지 말고 무쳐야 하는 이유! 이렇게 부드럽다고???",
+      "sourceUrl": "https://www.youtube.com/watch?v=t05YwRJl2PU",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "ug1z0NmO8oM",
+      "sourceTitle": "[정호영] 오이반찬! 이렇게 간단하다고? 여름철 별미 오이탕탕이!",
+      "sourceUrl": "https://www.youtube.com/watch?v=ug1z0NmO8oM",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "ul-zKoC5xkw",
+      "sourceTitle": "[정호영X김형석] 회오리 계란말이에 셰프의 스킬 한 스푼을 더하면?",
+      "sourceUrl": "https://www.youtube.com/watch?v=ul-zKoC5xkw",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "_bU1eiHYMe0",
+      "sourceTitle": "[초간단 반찬] 마요네즈 없이 이렇게 부드러운 간장 진미채볶음을 만들 수 있다고???",
+      "sourceUrl": "https://www.youtube.com/watch?v=_bU1eiHYMe0",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "f6Ggkdp5JsA",
+      "sourceTitle": "정호영 셰프의 비법이 들어간 초간단 멸치볶음 레시피!",
+      "sourceUrl": "https://www.youtube.com/watch?v=f6Ggkdp5JsA",
+      "originalReason": "설명란에 구분된 재료표 없음. 댓글/영상 속 재료는 추가 확인 필요"
+    },
+    {
+      "channel": "caden",
+      "sourceId": "0kozFOAut5E",
+      "sourceTitle": "입맛 없는 당신을 위한 최고의 반찬! 꽈리고추찜!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=0kozFOAut5E",
+      "originalReason": "수집된 재료표에는 무침 양념만 있고 주재료 꽈리고추와 가루가 확인되지 않아 원문 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "r7TU1wixX5g",
+      "sourceTitle": "[#피크타임] OOO 하나면 맛집 간장게장 뚝딱?! 집에서 만드는 어남선생 간장게장 레시피  | #신상출시편스토랑 | KBS 241227 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=r7TU1wixX5g",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "V9eWLOwurMI",
+      "sourceTitle": "[어남선생 레시피] 유느님이 반한 최강 매콤새콤 [설마고추장비빔면]★ 비법 양념 정리해드립니다 [신상출시 편스토랑/Fun-Staurant] | KBS 241004 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=V9eWLOwurMI",
+      "originalReason": "오이양파절임 제조 전체 중 절임액4T 사용. 전체 채소/절임액을 메뉴에 모두 사용하는지와 완성수율 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "ITwHSNV7i2I",
+      "sourceTitle": "[#편셰프의점메추] 너 같은 밥도둑 또 없다...⭐ 김치찜 너 내 맘속에 찜💖ㅣ KBS방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=ITwHSNV7i2I",
+      "originalReason": "김치찜 모음의 서로 다른 요리 구획이 섞여 대표 원본·사용 분량 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "qEj7ntPEwuc",
+      "sourceTitle": "[#피크타임] 고물가 타파 ⭐어남선생 천원레시피⭐ 고기 맛이 나는 어묵제육 | #신상출시편스토랑 | KBS 240621 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=qEj7ntPEwuc",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "E0-mOKiR1Vk",
+      "sourceTitle": "[#피크타임] 기름떡볶이와 양념치킨이 만나면? 어남선생 1등 고추장소스로 만든 치킨떡볶이 | #신상출시편스토랑 | KBS 240607 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=E0-mOKiR1Vk",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "gn55qIoUrV0",
+      "sourceTitle": "[#피크타임] 기름 없이 원팬으로, 굽지 않고 간단하게! 어남선생 짬뽕 두부조림 레시피 | #신상출시편스토랑 | KBS 240531 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=gn55qIoUrV0",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "s85UqcULJeU",
+      "sourceTitle": "[#피크타임] 황태채로 손쉽게! 어남선생 평생 황태해장국 레시피 | #신상출시편스토랑 | KBS 240524 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=s85UqcULJeU",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "A8wiEWwkyMo",
+      "sourceTitle": "[#피크타임] 등갈비 좋아하세요? 실패 없는 어남선생 고추장버터등갈비 레시피 | #신상출시편스토랑 | KBS 240517 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=A8wiEWwkyMo",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "UH9xe_sZGQM",
+      "sourceTitle": "[어남선생 레시피] 한국인의 필수 코스★고추장버터등갈비 소스로 [고추장버터리소토]까지 꼭 드세요 [신상출시 편스토랑/Fun-Staurant] | KBS 240517 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=UH9xe_sZGQM",
+      "originalReason": "이미 조리한 고추장버터등갈비 양념의 사용량/남은 양이 없어 원재료 분해 근거 확인 대기"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "jiKxy_MhV64",
+      "sourceTitle": "[#피크타임] 양념게장 이렇게 담그세요! 세상에서 제일 쉬운 게장 레시피, 어남선생이 알려드려요 | #신상출시편스토랑 | KBS 240510 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=jiKxy_MhV64",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "vYKv-1pzVJk",
+      "sourceTitle": "[#피크타임] 닭튀김만 10년! 어남선생 비장의 레시피🍗 집에서 만드는 바삭바삭 프라이드치킨 | #신상출시편스토랑 | KBS 240503 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=vYKv-1pzVJk",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "r1VfNDDtuQo",
+      "sourceTitle": "[어남선생 레시피] 군만두 맛있게 굽는 팁 정리해드립니다! 어남선생 [어묵볶이]와 같이 드시면 꿀맛♥ [신상출시 편스토랑/Fun-Staurant] | KBS 240426 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=r1VfNDDtuQo",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "HCIRxxheVOs",
+      "sourceTitle": "[#피크타임] 제철 참고등어로 맛있게! 어남선생 평생 고등어조림 레시피 | #신상출시편스토랑 | KBS 240223 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=HCIRxxheVOs",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "mNFfjyeLTdY",
+      "sourceTitle": "[어남선생 레시피] 가격도 착한 국민생선 고등어♥ 쉽고 맛있게 성공하는 평생 레시피 [평생고등어조림] [신상출시 편스토랑/Fun-Staurant] | KBS 240223 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=mNFfjyeLTdY",
+      "originalReason": "고등어조림 재료표에 핵심 조림장 사용 분량이 없어 별도 조림장 제조와 연결할 비율 확인 대기"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "isfBN6Lfns0",
+      "sourceTitle": "[선공개] 다가올 설명절을 위한 떡국 충격(?) 레시피!✨사골 없이 끓이는 어남선생👩‍🍳✨ [신상출시 편스토랑/Fun-Staurant] | KBS 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=isfBN6Lfns0",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "3syEGqao6RU",
+      "sourceTitle": "[#피크타임] 맛이 없을 수 없다! 어남선생 초간단 짜장떡볶이 레시피 | #신상출시편스토랑 | KBS 240112 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=3syEGqao6RU",
+      "originalReason": "재료표 대신 레시피 링크 안내 문장이 추출됨. 짜장떡볶이 전용 영상 y0Nm-jXZYzQ로 등록"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "Wh8YL-Iz_kI",
+      "sourceTitle": "[#피크타임] ⭐당신의 김치찌개가 맛없는 이유⭐ 어남선생 평생 김치찌개 레시피 | #신상출시편스토랑 | KBS 240105 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=Wh8YL-Iz_kI",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "0lvg0kH0oDQ",
+      "sourceTitle": "어남선생의 레시피북 드디어 출간!? 장가가는 남자들의 필독서를 위해 끝없이 노력하는 류수영♥ [신상출시 편스토랑/Fun-Staurant] | KBS 240105 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=0lvg0kH0oDQ",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "QYzcR0jOZsM",
+      "sourceTitle": "[#피크타임] 한입 만에 행복해지는 그 맛🥰 어남선생 땅콩마요잼 레시피| #신상출시편스토랑 | KBS 231103 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=QYzcR0jOZsM",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "GEmrZ0FYCLU",
+      "sourceTitle": "[#피크타임] 매운 어묵탕의 그 맛! 감칠맛 폭발하는 어구리라면🦝 | #신상출시편스토랑 | KBS 231020 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=GEmrZ0FYCLU",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "Ab7lc6gI4ds",
+      "sourceTitle": "[어남선생 레시피] 밥도둑 연어육회 하나면 연어육회덮밥 & 연어육회국수가 뚝딱! [신상출시 편스토랑/Fun-Staurant] | KBS 230908 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ab7lc6gI4ds",
+      "originalReason": "미리 만든 연어육회의 사용량이 없어 덮밥/국수의 원재료 분해 근거 확인 대기"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "aC9G2bslFCk",
+      "sourceTitle": "[#피크타임] 을지로에서 먹던 그 맛! 푸짐하게 먹는 어남선생 골뱅이소면 레시피 | #신상출시편스토랑 | KBS 230901 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=aC9G2bslFCk",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "wESDlrfn3Q4",
+      "sourceTitle": "[#피크타임] 10,000원이면 집에서 만들어 먹을 수 있어요🍗어남선생 불양념치킨 레시피! | #신상출시편스토랑 | KBS 230818 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=wESDlrfn3Q4",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "JZp1M3Q8WoE",
+      "sourceTitle": "[어남선생 레시피] 석쇠에 구운 맛, 바싹불고기★집에서 가능한 초간단 비법?! [신상출시 편스토랑/Fun-Staurant] | KBS 230825 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=JZp1M3Q8WoE",
+      "originalReason": "원문 불고깃감 600g의 축종/부위가 명시되지 않아 확인 대기"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "qEsdzT1tQMA",
+      "sourceTitle": "[어남선생 레시피] 오므라이스보다 쉬운 계란구름 만들기! 볶음밥에 올리면 예술 [신상출시 편스토랑/Fun-Staurant] | KBS 230811 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=qEsdzT1tQMA",
+      "originalReason": "미리 만든 매콤게살볶음밥 사용량이 없어 원재료 분해 근거 확인 대기"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "iCojlAynPMQ",
+      "sourceTitle": "[#피크타임] 어남선생 요리 교실🍴 평생 쓰는 스팸순두부찌개 레시피 | #신상출시편스토랑 | KBS 230728 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=iCojlAynPMQ",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "ylPj5BQw5cs",
+      "sourceTitle": "[#피크타임] 조미료 없이도 완벽 구현😋 추억의 그 맛! 어남선생 평생떡볶이 레시피 | #신상출시편스토랑 | KBS 230721 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=ylPj5BQw5cs",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "znsJrojoTj4",
+      "sourceTitle": "[어남선생 레시피] 집에서 이런 비주얼이 된다고? ★눈꽃만두★ 쉽게 만드는 법 [신상출시 편스토랑/Fun-Staurant] | KBS 230721 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=znsJrojoTj4",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "xtW8mjglyfY",
+      "sourceTitle": "[어남선생 레시피] 떡볶이는 이제 평생 이 간단 레시피면 끝! ★평생 떡볶이★ [신상출시 편스토랑/Fun-Staurant] | KBS 230721 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=xtW8mjglyfY",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "DNRKgyy1iJM",
+      "sourceTitle": "[어남선생 레시피] 맥○날○ 알바생 출신 류수영이 알려주는 감자튀김 팁! [신상출시 편스토랑/Fun-Staurant] | KBS 230714 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=DNRKgyy1iJM",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "0A06YNDQTqI",
+      "sourceTitle": "[어남선생 레시피] 만 원으로 치킨 만들어 먹자! 날개치킨★매콤한 핫윙을 집에서! [신상출시 편스토랑/Fun-Staurant] | KBS 230714 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=0A06YNDQTqI",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "BkZZUiJifTg",
+      "sourceTitle": "[어남선생 레시피] 치킨의 친구, 콘샐러드★ 쉽게 만들어 실컷 퍼먹자!! [신상출시 편스토랑/Fun-Staurant] | KBS 230714 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=BkZZUiJifTg",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "rx2SgZSVIaE",
+      "sourceTitle": "[어남선생 레시피] 배달 떡볶이 치즈폭포 만드는 법! 스햄떡볶이에 얹어먹으면 예술 [신상출시 편스토랑/Fun-Staurant] | KBS 230630 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=rx2SgZSVIaE",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "7G4bVVSVyDc",
+      "sourceTitle": "[어남선생 레시피] 복잡한 재료 NO! 스햄 하나면 실패 없는 맛 보장! 스햄떡볶이 [신상출시 편스토랑/Fun-Staurant] | KBS 230630 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=7G4bVVSVyDc",
+      "originalReason": "스햄떡볶이 영상인데 설명란 재료표가 스햄순두부찌개와 동일하고 떡이 누락됨. 설명란 오기/잘못된 연결 원본 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "XZugU0vvm4g",
+      "sourceTitle": "[어남선생 레시피] 초간편 특급 별미, 하얀냉라면★곰탕라면으로 평양냉면 육수 맛이?! [신상출시 편스토랑/Fun-Staurant] | KBS 230623 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=XZugU0vvm4g",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "EinbupTdRp8",
+      "sourceTitle": "[어남선생 레시피] 파는 클럽샌드위치 그 맛, 집에서 내는 법★ ○○은 넣지 마세요!! [신상출시 편스토랑/Fun-Staurant] | KBS 230623 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=EinbupTdRp8",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "6sF2EbYcz7E",
+      "sourceTitle": "[어남선생 레시피] 퍽퍽한 닭가슴살 촉촉하게 굽는 매직!! 클럽샌드위치에 넣으면 예술 [신상출시 편스토랑/Fun-Staurant] | KBS 230623 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=6sF2EbYcz7E",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "960c0HySGFE",
+      "sourceTitle": "[#피크타임] 기사식당 돼지불백, 재료 4개면 집에서도 만들 수 있다!? 어남선생 돼지불백 레시피! | #신상출시편스토랑 | KBS 230616 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=960c0HySGFE",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "Kx_4ecv9ZWU",
+      "sourceTitle": "[어남선생 레시피] 기사식당 돼지불백★양념은 3가지로 끝! 불맛 내는 팁까지 공개 [신상출시 편스토랑/Fun-Staurant] | KBS 230616 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=Kx_4ecv9ZWU",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "Yc40HG3XDq0",
+      "sourceTitle": "[어남선생 레시피] 기사식당 돼지불백★초초초간단 반찬, 쌈무생채&양파부추무침 [신상출시 편스토랑/Fun-Staurant] | KBS 230616 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=Yc40HG3XDq0",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "xiA9z519ePU",
+      "sourceTitle": "[어남선생 레시피]‘15분 완성 닭갈비’ 황금 레시피★ 콘치즈까지 더하면 환상 [신상출시 편스토랑/Fun-Staurant] | KBS 230519 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=xiA9z519ePU",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "myYOcLR8Ni4",
+      "sourceTitle": "[어남선생 레시피] 생크림? 토마토소스? 없어도 돼요~ 쉽게 만드는 로제파스타! [신상출시 편스토랑/Fun-Staurant] | KBS 230512 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=myYOcLR8Ni4",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "fbpHYjh3_90",
+      "sourceTitle": "[어남선생 레시피] 초간단 10분 리소토★ 집에 있는 재료로 외식하듯 근사하게! [신상출시 편스토랑/Fun-Staurant] | KBS 230512 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=fbpHYjh3_90",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "EM9qSYs_f6s",
+      "sourceTitle": "[#피크타임] 콘치즈 좋아하세요?🌽 자취생 맞춤! 집에서도 식당처럼 만드는 어남선생 콘치즈 레시피 | #신상출시편스토랑 | KBS 230428 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=EM9qSYs_f6s",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "-3nW_2FiaDk",
+      "sourceTitle": "[어남선생 레시피] 사 먹기도 쉽지 않은 콘치즈! 이제 집에서 만들어 드세요 [신상출시 편스토랑/Fun-Staurant] | KBS 230428 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=-3nW_2FiaDk",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "rwPmtanPTxQ",
+      "sourceTitle": "[어남선생 레시피] 스햄 하나로 2가지 요리★역대급 초간단 미친맛 ②스햄볶음밥 [신상출시 편스토랑/Fun-Staurant] | KBS 230317 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=rwPmtanPTxQ",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "TSO_HST5I1M",
+      "sourceTitle": "[어남선생 레시피] 스햄 하나로 2가지 요리★역대급 초간단 ①스햄케첩파스타 [신상출시 편스토랑/Fun-Staurant] | KBS 230317 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=TSO_HST5I1M",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "7ROHN9dFJXA",
+      "sourceTitle": "[어남선생 레시피] 고추장찌개 레시피는 이걸로 종결! 삼겹살, 감자, 애호박 듬뿍! [신상출시 편스토랑/Fun-Staurant] | KBS 230303 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=7ROHN9dFJXA",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "3DI2FNxWlxc",
+      "sourceTitle": "[어남선생 레시피] 즉석에서 냉털로 뚝딱, 초간단 굴국밥★ 깔끔하게 깊은 맛 [신상출시 편스토랑/Fun-Staurant] | KBS 230224 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=3DI2FNxWlxc",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "8pt9EhqGcHo",
+      "sourceTitle": "[어남선생 레시피] 바삭한 과자 같은 프라이드 멸치볶음★ 백반집 사장님도 반했다 [신상출시 편스토랑/Fun-Staurant] | KBS 230224 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=8pt9EhqGcHo",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "2D7KgPqJV-c",
+      "sourceTitle": "[어남선생 레시피] 석화구이 비주얼의 한판 굴전! 이렇게 쉬운 굴전이라니★ [신상출시 편스토랑/Fun-Staurant] | KBS 230217 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=2D7KgPqJV-c",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "LjpAxHhu8aE",
+      "sourceTitle": "[어남선생 레시피] 겨울에 딱♥ 홍합탕 실패하지 않는 법! 이대로만 끓여보세요 [신상출시 편스토랑/Fun-Staurant] | KBS 230217 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=LjpAxHhu8aE",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "y4NT6xn7IEc",
+      "sourceTitle": "[어남선생 레시피] 밥도둑 오징어볶음의 안주 버전, 오징어볶음칼국수! 오칼♥ [신상출시 편스토랑/Fun-Staurant] | KBS 230217 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=y4NT6xn7IEc",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "XANfXhiUz6U",
+      "sourceTitle": "[어남선생 레시피] 집에서 갈비치킨 만드는 극강의 소스 레시피! 4가지면 끝! [신상출시 편스토랑/Fun-Staurant] | KBS 230210 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=XANfXhiUz6U",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "Wv5DlgNWbBg",
+      "sourceTitle": "[어남선생 레시피] 진한 맛의 보쌈집st 무생채! 54321 양념만 기억하세요! [신상출시 편스토랑/Fun-Staurant] | KBS 230203 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=Wv5DlgNWbBg",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "PpKX6WaBXOM",
+      "sourceTitle": "[어남선생 레시피] 무생채로 초간단 무생채 비빔면★ 대패삼겹까지 있으면 천국 [신상출시 편스토랑/Fun-Staurant] | KBS 230203 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=PpKX6WaBXOM",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "pperamF7bu8",
+      "sourceTitle": "[어남선생 레시피] 곰탕라면으로 끓이는 초간단 하얀라볶이★ 믿고 따라오세요 [신상출시 편스토랑/Fun-Staurant] | KBS 230127 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=pperamF7bu8",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "eKPJuZwX014",
+      "sourceTitle": "[어남선생 레시피] 초간단 20분 컷 한판떡고치! 떡꼬치 양념 4332만 기억하세요 [신상출시 편스토랑/Fun-Staurant] | KBS 230127 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=eKPJuZwX014",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "7KLzc-5d_zg",
+      "sourceTitle": "[어남선생 레시피] 강추 쪽파크림치즈 X 훈제연어의 만남! 크림치즈 연어샌드위치 [신상출시 편스토랑/Fun-Staurant] | KBS 230113 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=7KLzc-5d_zg",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "y61QX3CWM7E",
+      "sourceTitle": "[어남선생 레시피] 초간단 디저트, 크림치즈 곶감머스캣! 곶감 X 샤인머스캣 = 미쳤다 [신상출시 편스토랑/Fun-Staurant] | KBS 230113 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=y61QX3CWM7E",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "tLSwDTX69Zw",
+      "sourceTitle": "[어남선생 레시피] 양념게장맛 겉절이! 어남선생이 찾아낸 양념 맛의 비밀 공개 [신상출시 편스토랑/Fun-Staurant] | KBS 221230 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=tLSwDTX69Zw",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "l1rmqBmxvQI",
+      "sourceTitle": "[어남선생 레시피] 어라면★1g의 계량까지 잡았다! 한국식 매운맛 라면의 신세계 [신상출시 편스토랑/Fun-Staurant] | KBS 221118 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=l1rmqBmxvQI",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "Rc4HWbmA90c",
+      "sourceTitle": "[어남선생 레시피] 생선 잘 굽는 팁! 1,500원 짜리 생선도 고급생선으로 변신 [신상출시 편스토랑/Fun-Staurant] | KBS 221111 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=Rc4HWbmA90c",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "gxThqPZ1X5w",
+      "sourceTitle": "[어남선생 레시피] 후추치즈파스타★15분이면 끝! 치즈 6장! 원팬 파스타! [신상출시 편스토랑/Fun-Staurant] | KBS 221104 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=gxThqPZ1X5w",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "jUUhubxewUA",
+      "sourceTitle": "요리에 진심★어남선생 2주년! 레시피 영상 조회수 7700만 뷰! 과연 1위는? [신상출시 편스토랑/Fun-Staurant] | KBS 221104 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=jUUhubxewUA",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "Lm8XIFijQGs",
+      "sourceTitle": "[어남선생 레시피] 프라이팬 닭에 한국식 어향소스 덮어주면~ 중독적인 어향치킨♥ [신상출시 편스토랑/Fun-Staurant] | KBS 221021 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=Lm8XIFijQGs",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "o1DytbDSkD0",
+      "sourceTitle": "[어남선생 레시피] 치킨 3만원시대! 만원으로 집에서 초간단 프라이팬 닭♥ [신상출시 편스토랑/Fun-Staurant] | KBS 221021 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=o1DytbDSkD0",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "GJ8xQQAD5SQ",
+      "sourceTitle": "[어남선생 레시피] 누구나 성공보장★닭볶음탕! 4331 양념 레시피 공개 [신상출시 편스토랑/Fun-Staurant] | KBS 221007 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=GJ8xQQAD5SQ",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "wDCx6Ov2f9k",
+      "sourceTitle": "[어남선생 레시피] 강남이 배고파? 10분만 기다려★10분 달걀덮밥 [신상출시 편스토랑/Fun-Staurant] | KBS 221007 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=wDCx6Ov2f9k",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "rpGTDIENXgo",
+      "sourceTitle": "[어남선생 레시피] 2,000원의 기적 어향가지! 집에 있는 재료로 쉽게 만들자 [신상출시 편스토랑/Fun-Staurant] | KBS 220930 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=rpGTDIENXgo",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "p_iNwjrjPtA",
+      "sourceTitle": "[어남선생 레시피] 고물가 시대! 저렴한 가지 가장 맛있게 먹는 법! 가지튀김 [신상출시 편스토랑/Fun-Staurant] | KBS 220930 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=p_iNwjrjPtA",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "NoMpcGvjQko",
+      "sourceTitle": "[어남선생 레시피] 역대급 원팬 파스타, 명란버터파스타★10분 컷! 재료는 3개! [신상출시 편스토랑/Fun-Staurant] | KBS 220930 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=NoMpcGvjQko",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "grKWXI6gphY",
+      "sourceTitle": "[어남선생 레시피] 초간단 명란버터파스타에 ○○만 넣으면 안주용 파스타로 변신 [신상출시 편스토랑/Fun-Staurant] | KBS 220930 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=grKWXI6gphY",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "MvjM8nomJc0",
+      "sourceTitle": "[어남선생 레시피] 부대찌개 즐기고 2단 변신! 어남선생 로제부대찌개 [신상출시 편스토랑/Fun-Staurant] | KBS 220812 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=MvjM8nomJc0",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "gyNzUeQHuIA",
+      "sourceTitle": "[어남선생 레시피] 집에서 맛집 부대찌개 만드는 법➁ 사X곰탕 라면 등장? [신상출시 편스토랑/Fun-Staurant] | KBS 220812 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=gyNzUeQHuIA",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "nsXGA6eka1o",
+      "sourceTitle": "[어남선생 레시피] 집에서 맛집 부대찌개 만드는 법➀ 3가지만 기억해요♥ [신상출시 편스토랑/Fun-Staurant] | KBS 220812 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=nsXGA6eka1o",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "SbP7Oo91Xf8",
+      "sourceTitle": "[어남선생 레시피] 감튀 말고 당튀★이게 당근이라고? 놀랄 맛! 강추해요 [신상출시 편스토랑/Fun-Staurant] | KBS 220805 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=SbP7Oo91Xf8",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "V6eWTe74d5k",
+      "sourceTitle": "[어남선생 레시피] 마늘카레X당근튀김 꿀안주 조합★카맥도 당맥도 완벽 [신상출시 편스토랑/Fun-Staurant] | KBS 220805 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=V6eWTe74d5k",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "_3rI7rKfk_U",
+      "sourceTitle": "[어남선생 레시피] 20분이면 끝! 원팬 마늘카레★ 이젠 카맥하자 [신상출시 편스토랑/Fun-Staurant] | KBS 220805 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=_3rI7rKfk_U",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "UjkJZTpT79w",
+      "sourceTitle": "[어남선생 레시피] 전자레인지로 만드는 청양치즈소스♥ 나초와 꼭 드세요 [신상출시 편스토랑/Fun-Staurant] | KBS 220729 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=UjkJZTpT79w",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "NpMF8_dMXZ8",
+      "sourceTitle": "[어남선생 레시피] 5분 컷 초간단 버터새우! 빵에도 파스타로도 최고♥ [신상출시 편스토랑/Fun-Staurant] | KBS 220729 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=NpMF8_dMXZ8",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "2IjAAzXr7Ro",
+      "sourceTitle": "[어남선생 레시피] 마늘+꿀+깨로 만든 놀라운 마늘소스, 허니마늘페스토 [신상출시 편스토랑/Fun-Staurant] | KBS 220729 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=2IjAAzXr7Ro",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "TlEULOXm6DU",
+      "sourceTitle": "[어남선생 레시피] 파는 콘샐러드와 똑같아요! 쉽게 만들어서 맘껏 퍼먹자 [신상출시 편스토랑/Fun-Staurant] | KBS 220729 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=TlEULOXm6DU",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "Szz_DUO5NX8",
+      "sourceTitle": "[#피크타임] 음식점에서 먹던 된장찌개를 집에서?! 어남선생의 된장 고르는 팁부터 마성의 돼된찌 레시피까지😋 | #신상출시편스토랑 | KBS 220513 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=Szz_DUO5NX8",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "0nwnQ_K2O4w",
+      "sourceTitle": "[#피크타임] IdH 음료 하나면 OK😉 어남선생 소불고기 평생 레시피! 갈배불고기 | #신상출시편스토랑 | KBS 220415 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=0nwnQ_K2O4w",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "S_1Sswkk-0U",
+      "sourceTitle": "어남선생 평생 레시피, 갈배불고기★ 불고기 양념 레시피는 평생 이거면 끝! [신상출시 편스토랑/Fun-Staurant] | KBS 220415 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=S_1Sswkk-0U",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "CD8eU_27g9U",
+      "sourceTitle": "[#피크타임] 김치찌개보다 쉽다! 어남선생 김치찜 & 수란김치죽 레시피😋 | #신상출시편스토랑 | KBS 220408 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=CD8eU_27g9U",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "yCbFb_Uyjwg",
+      "sourceTitle": "전설의 먹방! 강호동의 봄동 비빔밥★ 어남선생 레시피로 집에서 먹자 [신상출시 편스토랑/Fun-Staurant] | KBS 220401 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=yCbFb_Uyjwg",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "LiEuT11ux78",
+      "sourceTitle": "[#피크타임] 매콤달콤~ 학교 앞 즉석 떡볶이를 집에서 만들어보세요🥘 어남선생 즉석떡볶이 레시피 | #신상출시편스토랑 | KBS 220218 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=LiEuT11ux78",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "Datv9nCG0Yg",
+      "sourceTitle": "[#피크타임] 수프부터 식사, 술안주까지🍣🍻 손님상에 안성맞춤 어남선생 레시피 모음 | #신상출시편스토랑",
+      "sourceUrl": "https://www.youtube.com/watch?v=Datv9nCG0Yg",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "1CnZNosEClk",
+      "sourceTitle": "[#피크타임] 집에서 팬 하나로🍳 화제의 어남선생 파스타 레시피 모음집🍝 | #신상출시편스토랑",
+      "sourceUrl": "https://www.youtube.com/watch?v=1CnZNosEClk",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "h9br7Itmy-M",
+      "sourceTitle": "[#피크타임] 어남선생의 원팬 알리오올리오 + 카르보나라 레시피 🍝 | #신상출시편스토랑 | KBS 220204 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=h9br7Itmy-M",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "vs-_FOyd-AE",
+      "sourceTitle": "초간단 레시피로 정통 카르보나라 맛이 원팬으로 가능?! 어남선생 매직♥ [신상출시 편스토랑/Fun-Staurant] | KBS 220204 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=vs-_FOyd-AE",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "2XlSWbPLLJs",
+      "sourceTitle": "[제육 끝판왕] 어남선생 갈배제육★ 평생 이거면 끝!!! 평생 제육 레시피 [신상출시 편스토랑/Fun-Staurant] | KBS 220114 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=2XlSWbPLLJs",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "nXhkejnJdaU",
+      "sourceTitle": "어남선생 시크릿 레시피북 공개! 가족 위해 연구하는 감동의 흔적♥  [신상출시 편스토랑/Fun-Staurant] | KBS 220114 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=nXhkejnJdaU",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "DzHNDiIDP24",
+      "sourceTitle": "＂따뜻한 맛이야♥＂ 딸 칭찬 받은 어남선생 호감수프! 대박 수프 레시피 [신상출시 편스토랑/Fun-Staurant] | KBS 211210 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=DzHNDiIDP24",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "fkhQM23ODQc",
+      "sourceTitle": "이렇게만 하면 감바스 절대 성공★ 어남선생 버터감바스 족집게 레시피 [신상출시 편스토랑/Fun-Staurant] | KBS 211105 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=fkhQM23ODQc",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "jKUQ3XFZCT4",
+      "sourceTitle": "어남선생 라면 레시피 공개! 시판 불라면이 감동의 국물로 변신 [신상출시 편스토랑/Fun-Staurant] | KBS 211008 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=jKUQ3XFZCT4",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "pP1Nne_5-WU",
+      "sourceTitle": "어남선생 기름떡볶이의 기본! 매콤달달 떡꼬치 소스♥초간단 레시피 [신상출시 편스토랑/Fun-Staurant] | KBS 210910 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=pP1Nne_5-WU",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "s1Va2snpt_Q",
+      "sourceTitle": "[#피크타임]  육즙이 촤르르~ 비주얼 난리 난 어남선생의 에어프라이어 홈 바비큐 레시피🍖 & 향신료 특강 | #신상출시편스토랑 | KBS 210820 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=s1Va2snpt_Q",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "cf-J-w_svDs",
+      "sourceTitle": "[#피크타임] ✨최고 분당 시청률✨기록한 어남선생 비장의 레시피 쌈계탕🥘 | #신상출시편스토랑 | KBS 210709 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=cf-J-w_svDs",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "LD7loHMsbLU",
+      "sourceTitle": "[#피크타임] 복날엔 집에서 만들어 드세요! 어남선생 녹두백숙 & 미나리겉절이, 고추된장무침 레시피 | 닭 손질 방법 | #신상출시편스토랑| KBS 210709 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=LD7loHMsbLU",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "iJZlWrzfZZk",
+      "sourceTitle": "어남선생 끝장초장 레시피 공개★회덮밥, 비빔국수 어디든 OK [신상출시 편스토랑/Fun-Staurant] | KBS 210521 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=iJZlWrzfZZk",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "eonam",
+      "sourceId": "oFteMqBMsGc",
+      "sourceTitle": "보민 눈이 번쩍! 어남선생 ‘강낭콩 콩자반’ 레시피 공개! [신상출시 편스토랑/Fun-Staurant] | KBS 210402 방송",
+      "sourceUrl": "https://www.youtube.com/watch?v=oFteMqBMsGc",
+      "originalReason": "설명란에 재료표 없음. 원본이 연결한 공식 레시피 페이지/영상 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "_LBpJvb-p5o",
+      "sourceTitle": "여름 내내 먹어도 절대 살찌지 않는 비빔국수, 너무 맛있어요😋  25kg 감량 노하우",
+      "sourceUrl": "https://www.youtube.com/watch?v=_LBpJvb-p5o",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "X9jv3gLsBsI",
+      "sourceTitle": "불 없이 섞기만 하세요. 모밀국수는 이 방법이 최고입니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=X9jv3gLsBsI",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "swPArDu7zak",
+      "sourceTitle": "1분컷 가능! 초초초오오오 간단한~ 다이어트 국수, 절대 살 안찌는 저칼로리 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=swPArDu7zak",
+      "originalReason": "정보란은 다이어트 국수로만 지칭하여 구체 메뉴명 확인 대기. 해초국수·콩국물 원문 양은 확인됨."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "nJ662cyW4Po",
+      "sourceTitle": "와... 이 레시피 알아두셨다가 여름 내내 비벼드세요. 비빔장 황금 비율",
+      "sourceUrl": "https://www.youtube.com/watch?v=nJ662cyW4Po",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "si03Y6z5ke4",
+      "sourceTitle": "와~ 양배추로 만들었는데 진짜 너무 맛있어서 깜짝 놀랐어요🤩 양배추 토스트 핫도그⁉️",
+      "sourceUrl": "https://www.youtube.com/watch?v=si03Y6z5ke4",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "k-yRW47mTBA",
+      "sourceTitle": "간편하고 쉬워서 아침식사로 딱 이에요 👍🏻 또띠아와 달걀...❤️",
+      "sourceUrl": "https://www.youtube.com/watch?v=k-yRW47mTBA",
+      "originalReason": "정보란에 또띠아·달걀 재료만 소개되어 구체 메뉴명 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "2uo450zVAIY",
+      "sourceTitle": "순두부와 달걀로 만들었어요😋 식구들이 맛있다고 매일 해달래요👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=2uo450zVAIY",
+      "originalReason": "정보란에 순두부 요리로만 소개되어 구체 메뉴명 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "-6IitgDtf0A",
+      "sourceTitle": "아침을 이렇게 드시면 더 건강해지고 날씬해집니다❣️",
+      "sourceUrl": "https://www.youtube.com/watch?v=-6IitgDtf0A",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "9V5Mo_OaSBg",
+      "sourceTitle": "간편하고 맛있어서 매일 아침 이렇게 먹고있어요‼️ 두부와 계란요리",
+      "sourceUrl": "https://www.youtube.com/watch?v=9V5Mo_OaSBg",
+      "originalReason": "정보란에 순두부·계란 요리로만 소개되어 구체 메뉴명 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "fVTnNxSBjxY",
+      "sourceTitle": "춥고 귀찮아서 아침은 이렇게 먹고 있어요 😋 간편 아침식사, 토마토 요리, 달걀 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=fVTnNxSBjxY",
+      "originalReason": "정보란에 토마토·달걀 아침식사로만 소개되어 구체 메뉴명 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "v1pH58lRtAw",
+      "sourceTitle": "양배추 왜 이렇게 안 드세요? 간단하고 맛있는 양배추 요리 😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=v1pH58lRtAw",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "IRnO1_5dXug",
+      "sourceTitle": "맛있고 속 편해서 거의 매일 아침식사로 만들어요‼️ 달걀과 두부요리",
+      "sourceUrl": "https://www.youtube.com/watch?v=IRnO1_5dXug",
+      "originalReason": "정보란에 순두부·계란 아침식사로만 소개되어 구체 메뉴명 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "2BugCeqIQ6g",
+      "sourceTitle": "두부 한 모와 계란으로 간단하고 맛있는 한 끼 식사 만들어 보세요 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=2BugCeqIQ6g",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "xExfLHDs4YA",
+      "sourceTitle": "양배추로 간단하고 맛있는😋 아침식사 만들어 보세요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=xExfLHDs4YA",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "GE_18gLbqT4",
+      "sourceTitle": "달걀과 자투리 채소로 충분해요~ 건강하고 간단한 아침식사",
+      "sourceUrl": "https://www.youtube.com/watch?v=GE_18gLbqT4",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "ws5yKjhQZHo",
+      "sourceTitle": "25kg 감량하고 10년 유지 다이어터의 살 안찌게 빵 먹는 방법",
+      "sourceUrl": "https://www.youtube.com/watch?v=ws5yKjhQZHo",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "IRhpRwIHRbw",
+      "sourceTitle": "단 두가지 재료로 2분안에 아침식사를 만들어보세요. 맛있어요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=IRhpRwIHRbw",
+      "originalReason": "정보란에 달걀로 만드는 아침으로만 소개되어 구체 메뉴명 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "PF6N8vwopX8",
+      "sourceTitle": "[원팬, 초간단] 무조건 살빠지는 메뉴, 여름 토마토에 달걀이 빠지면?",
+      "sourceUrl": "https://www.youtube.com/watch?v=PF6N8vwopX8",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "IyHNPBfo6-o",
+      "sourceTitle": "[지방파괴 식단] 에그인헬, 꿀팁과 원리까지 다 알려줌!!!, 계란 다이어트, 샥슈카",
+      "sourceUrl": "https://www.youtube.com/watch?v=IyHNPBfo6-o",
+      "originalReason": "직접 만든 만능 토마토소스100g 사용. 제조 전체의 완성수율·사용 비율이 없어 원재료로 분해할 근거 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "zBHDKF139vA",
+      "sourceTitle": "두부와 달걀로 단백질 폭탄💣 아침식사 드셔보세요‼️ 담백하고 영양 가득한 두부 계란찜💯 뱃살이 쭉쭉 빠져요🤩",
+      "sourceUrl": "https://www.youtube.com/watch?v=zBHDKF139vA",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "-7osBTjnrGw",
+      "sourceTitle": "두부를 이렇게 먹으면 살이 안 쪄요. 25kg 감량 할 때 먹었던 두부밥",
+      "sourceUrl": "https://www.youtube.com/watch?v=-7osBTjnrGw",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "xHjzFg-tQI0",
+      "sourceTitle": "25kg 감량하고 10년 넘게 유지한 내가 요새 즐겨먹는 새로운 밥",
+      "sourceUrl": "https://www.youtube.com/watch?v=xHjzFg-tQI0",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "X81i4SgKBMQ",
+      "sourceTitle": "볶음밥은 이렇게 드세요. 제발🙏🏻  너무 맛있는데 살도 빠져요. 단백질 폭탄💣",
+      "sourceUrl": "https://www.youtube.com/watch?v=X81i4SgKBMQ",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "3L6Zr1EV260",
+      "sourceTitle": "절대 살안찌는 부추 비빔밥, 25kg 감량하고 10년 유지한 다이어트식단",
+      "sourceUrl": "https://www.youtube.com/watch?v=3L6Zr1EV260",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "7mgwZw7xf4U",
+      "sourceTitle": "25kg 감량할 때 먹었던 밥",
+      "sourceUrl": "https://www.youtube.com/watch?v=7mgwZw7xf4U",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "YR3YtxROuak",
+      "sourceTitle": "이 방법을 알고나서 양상추는 더이상 생으로 안 먹어요 ❤️ 왜냐면...",
+      "sourceUrl": "https://www.youtube.com/watch?v=YR3YtxROuak",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "Kjd8OZU18u4",
+      "sourceTitle": "양배추를 이렇게 했더니 너무 맛있어서 매일 먹어요‼️ 양배추 한 통 순삭 👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=Kjd8OZU18u4",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "ooYPlMfby4o",
+      "sourceTitle": "양배추와 참치는 이렇게 드세요‼️ 세상 간단하고 맛있습니다🤩",
+      "sourceUrl": "https://www.youtube.com/watch?v=ooYPlMfby4o",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "964hwrnoeig",
+      "sourceTitle": "#2 평생 써먹는 건강해지고 살빠지는 레시피입니다. 항암, 항염증, 디톡스",
+      "sourceUrl": "https://www.youtube.com/watch?v=964hwrnoeig",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "gUVs3NiRDJs",
+      "sourceTitle": "#1 평생 써먹는 건강해지고 살빠지는 레시피입니다. 꼭 해보세요❣️ 항암과 클렌징",
+      "sourceUrl": "https://www.youtube.com/watch?v=gUVs3NiRDJs",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "UyzSWpIIBbA",
+      "sourceTitle": "가지와 토마토는 간단하게 이렇게 해보세요‼️ 피자보다 더 맛있고 살도 안쪄요👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=UyzSWpIIBbA",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "E__F3vWxExQ",
+      "sourceTitle": "강력한 해독효과, 항암, 당뇨, 고혈압에도 좋은 토마토 절임😋 죽은 혈관이 살아나요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=E__F3vWxExQ",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "Poffr1W9ewE",
+      "sourceTitle": "토마토에 달걀을 부어보세요🙏🏻  간단하고 맛있어서 아침식사로 최고입니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=Poffr1W9ewE",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "bAuEhpgRHpM",
+      "sourceTitle": "월 매출 3000만원 인기 카페 사장님이 알려주신 최고 맛있는 샌드위치‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=bAuEhpgRHpM",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "r-BA0P8uOkc",
+      "sourceTitle": "토마토 왜 이렇게 안 드세요? 이렇게 하면 혈관이 살아나고 항암, 당뇨, 고혈압에도 좋아요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=r-BA0P8uOkc",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "eBZ4_KTUg7A",
+      "sourceTitle": "간단한데 진짜 맛있는 살안찌는 파스타",
+      "sourceUrl": "https://www.youtube.com/watch?v=eBZ4_KTUg7A",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "LPxOcAJUgvM",
+      "sourceTitle": "[역대급 초간단!!!] 영양소 손실없이 무조건 살빠지는 채소찜, 다이어트 최고의 식단",
+      "sourceUrl": "https://www.youtube.com/watch?v=LPxOcAJUgvM",
+      "originalReason": "집에 있는 야채400g만 표기되어 정확한 식재료 종류 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "odZRf_X5orA",
+      "sourceTitle": "토마토는 이렇게 해보세요‼️ 강력한 항산화 효과로 2주만 꾸준히 먹어도 몸속 독소가 제거되고 혈관이 살아나요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=odZRf_X5orA",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "ex-nrxXw71o",
+      "sourceTitle": "정말 살빠져요. 이탈리아 가정식, 가지요리, 야채 맛있게 먹는법, 저탄수화물, 저탄고지 키토식단",
+      "sourceUrl": "https://www.youtube.com/watch?v=ex-nrxXw71o",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "t-veXBf_Ra4",
+      "sourceTitle": "봄에는 꼭 이 채소전을 해보세요‼️ 간단하고 너무 맛있어요 👉🏻👈🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=t-veXBf_Ra4",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "-IobWfRmPq0",
+      "sourceTitle": "400원 팽이버섯은 이렇게 해보세요‼️ 간단하고 맛이 좋아요 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=-IobWfRmPq0",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "nvojrMwWzwg",
+      "sourceTitle": "두부는 이렇게 해보세요‼️ 고기보다 훨씬 맛있고 가족들이 너무 좋아합니다💕❤️",
+      "sourceUrl": "https://www.youtube.com/watch?v=nvojrMwWzwg",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "hXx_pqMM1tA",
+      "sourceTitle": "달걀과 밀가루 없이 양배추는 이렇게 하세요‼️ 최고로 맛있습니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=hXx_pqMM1tA",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "mMO4RlNG96s",
+      "sourceTitle": "배추 안 먹는 딸아이도 몇 접시 순삭했네요‼️ 밀가루 없이 더 건강하고 맛있는 배추전 😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=mMO4RlNG96s",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "sBMIS_CyPvE",
+      "sourceTitle": "전을 이렇게 부치면 살도 안찌고 훨씬 맛있어요‼️ 밀가루 없이 쉽고 더 맛있는 채소 부침개😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=sBMIS_CyPvE",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "yULmVNGhZb4",
+      "sourceTitle": "완전 강추‼️ 가지로 왜 전 안부치세요? 정말 입에서 살살 녹아요 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=yULmVNGhZb4",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "TXx96IqQgWc",
+      "sourceTitle": "김밥을 이렇게 하면 살 안쪄요 ‼️ 밥 없는 김밥보다 더 맛있고 만들기 쉬운 양배추 김밥 ❤️",
+      "sourceUrl": "https://www.youtube.com/watch?v=TXx96IqQgWc",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "0wywf4Hjq-M",
+      "sourceTitle": "양배추 김밥 말고 양배추 주먹밥 🍙  더 간단하고 맛이 좋아요 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=0wywf4Hjq-M",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "HdBvbJjMpR0",
+      "sourceTitle": "양배추 김밥, 이렇게 하면 밥 없는 김밥 보다 맛있고 쉬워요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=HdBvbJjMpR0",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "V8KMMzzFUis",
+      "sourceTitle": "양배추 폭탄💣 김밥😍 이렇게 먹으면 5kg 감량은 기본‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8KMMzzFUis",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "Pp2TqnIhSBE",
+      "sourceTitle": "이 김밥은 꼭 만들어 보셔야 하는데...쉽고 맛있거든요~",
+      "sourceUrl": "https://www.youtube.com/watch?v=Pp2TqnIhSBE",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "Tml7gORfC38",
+      "sourceTitle": "[꿀팁! 다드림] OOOO로 쉽게 만드는 다이어트 주먹밥, 밥버거, 오니기라즈",
+      "sourceUrl": "https://www.youtube.com/watch?v=Tml7gORfC38",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "GyDYQPVKxck",
+      "sourceTitle": "[꿀팁! 밥 3스푼] 김밥 만들 때 이것으로 시간 절약, 맛있는 집 김밥 비법 알려드림",
+      "sourceUrl": "https://www.youtube.com/watch?v=GyDYQPVKxck",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "HAmHijbuyvU",
+      "sourceTitle": "밥없는 김밥, 다이어트 김밥, 키토김밥, 김밥 예쁘게 마는 법, Kimbap Recipe | KETO, LCHF, Low Carb Recipe, 저탄수, 저탄고지, 키토제닉 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=HAmHijbuyvU",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "VV0XnOmCRpM",
+      "sourceTitle": "종이호일로 왜 요리 안하세요? 이렇게 간단하고 맛있는데...😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=VV0XnOmCRpM",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "hm4yLs-sxoU",
+      "sourceTitle": "간단하고 맛있는 국, 찌개 요리😋 가족들이 너무 좋아해요‼️ 코로나에 최적화된 집밥 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=hm4yLs-sxoU",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "EUhEeE5Vh60",
+      "sourceTitle": "25kg 감량하고 10년 유지한 다이어터의 밥 먹는 방법",
+      "sourceUrl": "https://www.youtube.com/watch?v=EUhEeE5Vh60",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "D4ejxlQwRdA",
+      "sourceTitle": "생선을 이렇게 구우면 집안에 생선 냄새가 1도 안 나고 훨씬 맛있어집니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=D4ejxlQwRdA",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "Yih142DON_k",
+      "sourceTitle": "[약혐]오징어는 물에 데치면 손해!!!, 매우 쉬운 오징어 손질법",
+      "sourceUrl": "https://www.youtube.com/watch?v=Yih142DON_k",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "iQDfoHtlZ1Q",
+      "sourceTitle": "저탄수, 키토제닉 봉골레 파스타 만들기, LowCarb, Ketogenic Vongole pasta",
+      "sourceUrl": "https://www.youtube.com/watch?v=iQDfoHtlZ1Q",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "3sSkkx9MaxY",
+      "sourceTitle": "김치찌개는 제발 새로운 방법으로 끓이세요 🙏🏻 너무 맛있어서 기절합니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=3sSkkx9MaxY",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "abTCWmjRjFM",
+      "sourceTitle": "김치찌개는 제발 이렇게 끓이세요🙏🏻 진짜 너무 맛있어요!!! 우리집 인기메뉴",
+      "sourceUrl": "https://www.youtube.com/watch?v=abTCWmjRjFM",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "YXUHH-9v0a4",
+      "sourceTitle": "두부를 이렇게 요리하세요‼️ 식구들이 너무 맛있다고 매일 해달라고 졸라요🤩",
+      "sourceUrl": "https://www.youtube.com/watch?v=YXUHH-9v0a4",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "n-zNjCJhw_k",
+      "sourceTitle": "겨울에 두부는 이렇게 요리하세요~ 😋 매일 먹어도 질리지 않아요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=n-zNjCJhw_k",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "IMvO7aBct7w",
+      "sourceTitle": "두부로 이렇게 하세요‼️ 진짜 기절할 정도로 맛있네요👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=IMvO7aBct7w",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "k6hII4CZ4gA",
+      "sourceTitle": "#5 평생 써먹는 살빠지고 건강하게 오래살기 위하여 고기 먹는 법 입니다. 꼭 해보세요❣️",
+      "sourceUrl": "https://www.youtube.com/watch?v=k6hII4CZ4gA",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "XFEJgyvUQQ4",
+      "sourceTitle": "두부를 이렇게 요리해 보세요‼️ 우리집 최고 메뉴입니다 😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=XFEJgyvUQQ4",
+      "originalReason": "정보란의 구체 메뉴명 또는 전체 사용 분량·재료 종류 추가 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "la8s80dcEkk",
+      "sourceTitle": "양배추와 가을 채소로 만들었어요😍 건강하고 맛있고 속이 편해요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=la8s80dcEkk",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "gPYIp5nrR0k",
+      "sourceTitle": "대파와 소고기를 이렇게 했더니 식구들이 너무 맛있다고 난리에요! 살빠지는 대파 소고기 찌개",
+      "sourceUrl": "https://www.youtube.com/watch?v=gPYIp5nrR0k",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "BxvkW4FD0C4",
+      "sourceTitle": "[초간단] 계란을 휘저어 넣기만 하면 끝나는 속편한 간편식, 다이어트 식단, 해장국 추천",
+      "sourceUrl": "https://www.youtube.com/watch?v=BxvkW4FD0C4",
+      "originalReason": "멸치15개·다시마·물1000ml로 직접 만드는 육수의 완성수율과 실제1000ml 사용의 관계 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "4v-qOeMo9Ek",
+      "sourceTitle": "[한식vs양식]등갈비로 쉽고 고급진 손님초대요리 2가지, 김치찜, 바베큐 폭립",
+      "sourceUrl": "https://www.youtube.com/watch?v=4v-qOeMo9Ek",
+      "originalReason": "김치찜·폭립 공통 재료의 요리별 배분과 전체 사용 분량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "ib5oC_pYhUs",
+      "sourceTitle": "4가지 재료로 잡내 없는 깔끔한 갈비탕 만들기",
+      "sourceUrl": "https://www.youtube.com/watch?v=ib5oC_pYhUs",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "gvJm-2jBRr8",
+      "sourceTitle": "(  )로 5분안에 가능, 순두부찌개",
+      "sourceUrl": "https://www.youtube.com/watch?v=gvJm-2jBRr8",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "oABH69vAtQM",
+      "sourceTitle": "제대로 알려드려요~ 사골 끓이는 방법, 인생 설렁탕 만들기, 저탄수화물, 키토제닉 다이어트",
+      "sourceUrl": "https://www.youtube.com/watch?v=oABH69vAtQM",
+      "originalReason": "사골 제조 원재료 일부 수량은 있으나 물·고기·최종 제조분량이 없어 계산 기준 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "vTb8KgIBpFM",
+      "sourceTitle": "자주 써서 더 유용한 살림템들 (이케아, 다이소, 자주)",
+      "sourceUrl": "https://www.youtube.com/watch?v=vTb8KgIBpFM",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "-QA9iryyEEM",
+      "sourceTitle": "추운 날씨, 따뜻한 집밥 레시피 3가지 (feat. 플렉스쿡)",
+      "sourceUrl": "https://www.youtube.com/watch?v=-QA9iryyEEM",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "Ipd93pLXT_o",
+      "sourceTitle": "가을 겨울에 우리집 인기 만점인 두부 반찬‼️ 채식 도시락, 다이어트 도시락🍱",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ipd93pLXT_o",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "Se7EqwnSevM",
+      "sourceTitle": "써보니 정말 좋았던 조리도구",
+      "sourceUrl": "https://www.youtube.com/watch?v=Se7EqwnSevM",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "DMItpG4a0Ag",
+      "sourceTitle": "재구매만 수십번한 마켓컬리 추천템들~ 완전 강추",
+      "sourceUrl": "https://www.youtube.com/watch?v=DMItpG4a0Ag",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "yBkPgzfC6nM",
+      "sourceTitle": "와플팬으로 스테이크를 구우면 일어나는 일 😱😓😭",
+      "sourceUrl": "https://www.youtube.com/watch?v=yBkPgzfC6nM",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "-3sGcVA-Vm8",
+      "sourceTitle": "안보면 손해, 레몬 남김없이 사용하는 꿀팁!!!",
+      "sourceUrl": "https://www.youtube.com/watch?v=-3sGcVA-Vm8",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "uZbnL3tkH48",
+      "sourceTitle": "[1분] 매우 쉬운 스텐팬 세척법",
+      "sourceUrl": "https://www.youtube.com/watch?v=uZbnL3tkH48",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "Dubqswfz158",
+      "sourceTitle": "이제 잘못 버리지 마세요. 잘못 알고 버려지는 것들 25가지",
+      "sourceUrl": "https://www.youtube.com/watch?v=Dubqswfz158",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "gsAxEHCHUnE",
+      "sourceTitle": "[25kg감량 10년유지] 다이어터의 간단한 식사와 간식, 당질제한, 키토제닉, 아이허브",
+      "sourceUrl": "https://www.youtube.com/watch?v=gsAxEHCHUnE",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "97xZUmP6OF0",
+      "sourceTitle": "특별한 3가지 반찬 + 이벤트",
+      "sourceUrl": "https://www.youtube.com/watch?v=97xZUmP6OF0",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "wsmF18jtEaI",
+      "sourceTitle": "아이허브 10년 유저의 찐템 30가지",
+      "sourceUrl": "https://www.youtube.com/watch?v=wsmF18jtEaI",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "iyLGCAY0UY0",
+      "sourceTitle": "이 책은 과연 뭐하는 책인가? (feat. 출간안내)",
+      "sourceUrl": "https://www.youtube.com/watch?v=iyLGCAY0UY0",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "uxEZ0eu1V3Y",
+      "sourceTitle": "꼭 필요한 5개의 냄비와 팬, 팬 리뷰와 냄비 추천",
+      "sourceUrl": "https://www.youtube.com/watch?v=uxEZ0eu1V3Y",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "fPAqE6TSfcY",
+      "sourceTitle": "내가 10년 넘게 사용했던 냄비 리뷰와 추천",
+      "sourceUrl": "https://www.youtube.com/watch?v=fPAqE6TSfcY",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "80vrs44Tu_o",
+      "sourceTitle": "[활용꿀팁!] 오븐형 에어프라이어 요리 모음 (with 마키나랩), 역대 최대 용량의 에어프라이어",
+      "sourceUrl": "https://www.youtube.com/watch?v=80vrs44Tu_o",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "_haCIP1NQP4",
+      "sourceTitle": "[이벤트있음] QnA#2, 당뇨식단, 키토베이킹, 레시피, 촬영도구, 조리도구, 추천요리, 알레르기 등 잡다구리 모음집",
+      "sourceUrl": "https://www.youtube.com/watch?v=_haCIP1NQP4",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "ScUU17eeNp4",
+      "sourceTitle": "과학적이고 현실적인 야채 보관법",
+      "sourceUrl": "https://www.youtube.com/watch?v=ScUU17eeNp4",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "GMjSo8x8q_w",
+      "sourceTitle": "2만에 올리는 1만기념 QnA (직업? 부작용? 털갈이? 모닝루틴?)",
+      "sourceUrl": "https://www.youtube.com/watch?v=GMjSo8x8q_w",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "iSGuWBfhXFM",
+      "sourceTitle": "과연 코팅팬은 ㅆㄹㄱ 일까?, 무쇠팬vs스텐팬vs코팅팬 비교하기, 후라이팬 구매시 꼭 봐야할 영상,Which Pan Is the best?",
+      "sourceUrl": "https://www.youtube.com/watch?v=iSGuWBfhXFM",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "86L09f2FA9g",
+      "sourceTitle": "아이허브 10년 유저가 꼭 구매하는 아이템👍🏻 400% 만족‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=86L09f2FA9g",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "pni8wBJgHP0",
+      "sourceTitle": "나만 알고 싶었던 채소 보관법, 다이어트 샐러드, 밀프렙😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=pni8wBJgHP0",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "U9YJ3icAQKs",
+      "sourceTitle": "단 2가지 재료‼️ 견과류 버터 중 제일 고소하고 맛이 좋아요.😍 호두버터",
+      "sourceUrl": "https://www.youtube.com/watch?v=U9YJ3icAQKs",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "2u8Y8-AKw8A",
+      "sourceTitle": "고혈압, 당뇨에 현미는 제발 그냥 드시지 마세요‼️ 뱃살 쏙 빠지고 더 부드럽고 맛있어요💯",
+      "sourceUrl": "https://www.youtube.com/watch?v=2u8Y8-AKw8A",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "oan3e9GMqGU",
+      "sourceTitle": "설탕없이 레몬청 만들고 인기 카페 음료도 만들어보세요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=oan3e9GMqGU",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "b2OYNuGzZ4M",
+      "sourceTitle": "양배추는 이렇게 쪄보세요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=b2OYNuGzZ4M",
+      "originalReason": "원문 재료명만 있고 전체 재료 수량이 없어 기준 인분 추정·장보기 계산량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "lJCKb5vU2vQ",
+      "sourceTitle": "[벌레주의] 브로콜리는 절대 물에 데치지 마세요!!! 브로콜리 영양소 400% 섭취하는 2가지 방법",
+      "sourceUrl": "https://www.youtube.com/watch?v=lJCKb5vU2vQ",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "6EURp5k_fBE",
+      "sourceTitle": "생강은 이렇게 드세요. 설탕없이 건강한 생강 활용법 3가지",
+      "sourceUrl": "https://www.youtube.com/watch?v=6EURp5k_fBE",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "aRnAfg_Zbq4",
+      "sourceTitle": "요거트 만들기는 이 영상으로 끝! 실패없이 완벽한 요거트 만드는 법",
+      "sourceUrl": "https://www.youtube.com/watch?v=aRnAfg_Zbq4",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "joGFLqwLW64",
+      "sourceTitle": "내가 다이어트 밥에 꼭 넣는 이것! 곤약 말고, 간헐적 단식, 탄수화물 제한",
+      "sourceUrl": "https://www.youtube.com/watch?v=joGFLqwLW64",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "77onIuMZiq4",
+      "sourceTitle": "[요리의 기본] 만능양념장 만들기, 만능고추장, 만능소스, 저탄수 다이어트 | Multi Purpose Gochujang Sauce, Korean Red Pepper Sauce",
+      "sourceUrl": "https://www.youtube.com/watch?v=77onIuMZiq4",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "UcJUerpDGho",
+      "sourceTitle": "[반전주의!] 꾸덕꾸덕 집에서 만드는 사워크림, Super Thick and Rich Homemade Sour Cream",
+      "sourceUrl": "https://www.youtube.com/watch?v=UcJUerpDGho",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "888TF2wzfGs",
+      "sourceTitle": "[1분 꿀팁!] 집에서 만드는 초간단 찜질방 계란, 계란요리 | Korean Sauna Eggs",
+      "sourceUrl": "https://www.youtube.com/watch?v=888TF2wzfGs",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "U3Oy8aoOyvA",
+      "sourceTitle": "[ENG SUB] 콜리플라워 라이스 만드는 법, 콜리플라워 요리 6가지, How to make  Cauliflower Rice, 6 Cauliflower Recipes",
+      "sourceUrl": "https://www.youtube.com/watch?v=U3Oy8aoOyvA",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "bQe69C5quO8",
+      "sourceTitle": "이 음료 정말 너무너무 맛있는데... 카페에는 안 팔아요😭 봄 카페 음료 🌸",
+      "sourceUrl": "https://www.youtube.com/watch?v=bQe69C5quO8",
+      "originalReason": "재료표는 있지만 정보란의 현재 음료 고유 메뉴명과 찻잎 종류가 확인되지 않아 보류. 추천 링크의 다른 메뉴명은 사용하지 않음."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "ojg8StDFjz0",
+      "sourceTitle": "너무 맛있어서 매일 만들어 먹지만 카페에는 없어요 😂",
+      "sourceUrl": "https://www.youtube.com/watch?v=ojg8StDFjz0",
+      "originalReason": "재료표는 있지만 정보란의 현재 음료 고유 메뉴명과 티 종류가 확인되지 않아 보류. 제목으로 메뉴명을 만들지 않음."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "IxtzkewIiWA",
+      "sourceTitle": "우유로 만들었어요‼️ 부드럽고 달콤한 살 안찌는 간식 😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=IxtzkewIiWA",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "xxCUC3vtCqo",
+      "sourceTitle": "25kg 감량할 때 먹은 아이스크림입니다‼️ 매우 쉬움 ⚠️",
+      "sourceUrl": "https://www.youtube.com/watch?v=xxCUC3vtCqo",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "zsFzLC7cQVs",
+      "sourceTitle": "여름에 시원하게 힘 안들이고 빙수 드셔보세요📢 기계 강판 없이 설빙 뺨치는 빙수 만드는 방법❣️",
+      "sourceUrl": "https://www.youtube.com/watch?v=zsFzLC7cQVs",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "qccaa8eWaK4",
+      "sourceTitle": "[ 초간단, 기계❌] 역대급!!! 설탕 없이 진하고 부드러운 아이스크림 꼭 만들어보세요. 투ㄱㄷ맛",
+      "sourceUrl": "https://www.youtube.com/watch?v=qccaa8eWaK4",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "64LOADZHZAY",
+      "sourceTitle": "노오븐! 노밀가루! 단 4가지 재료! 역대급 맛있는 케이크를 만들어 보세요. 정말 맛있음❣️",
+      "sourceUrl": "https://www.youtube.com/watch?v=64LOADZHZAY",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "jceEj6Jpt24",
+      "sourceTitle": "티라미수는 이렇게 만들어보세요. 세상 간단하고 맛있어요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=jceEj6Jpt24",
+      "originalReason": "티라미수의 레이디핑거는 별도 영상 레시피만 연결되고 현재 케이크에 쓰는 실제 사용량이 없어 원재료 분해/구매량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "S6sTJ6uCatc",
+      "sourceTitle": "[초간단] 노밀가루, 절대 살안찌는 식빵",
+      "sourceUrl": "https://www.youtube.com/watch?v=S6sTJ6uCatc",
+      "originalReason": "식빵 8회분이 명시됐지만 아몬드가루150·차전자피가루30·골드플렉시드밀50의 원문 단위가 빠져 주재료 구매량 확인 대기."
+    },
+    {
+      "channel": "moony",
+      "sourceId": "4Y5R62GmO6M",
+      "sourceTitle": "분노의 다이어트 달고나커피, 오조오억번 저은 듯",
+      "sourceUrl": "https://www.youtube.com/watch?v=4Y5R62GmO6M",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "XTVAiQ3n_bg",
+      "sourceTitle": "[장건강] 신기한 요거트 먹는법, 홈카페",
+      "sourceUrl": "https://www.youtube.com/watch?v=XTVAiQ3n_bg",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "mMk2be55ecM",
+      "sourceTitle": "[자세한 설명] 마시면 무조건 살빠지는 물, 디톡스에도 좋음",
+      "sourceUrl": "https://www.youtube.com/watch?v=mMk2be55ecM",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "xQaxjDwu6f8",
+      "sourceTitle": "[NoMusic]기적의 다이어트 음료 3가지(살빠지는 음료), 3 Low Carb Drinks",
+      "sourceUrl": "https://www.youtube.com/watch?v=xQaxjDwu6f8",
+      "originalReason": "설명란에 재료표 없음. 메뉴명·재료·분량 추가 확인 필요"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "EQkcDUwQrJY",
+      "sourceTitle": "다이어트 딸기 크림소다, 방탄커피가 지겹다면, Low Carb Strawberry Cream Soda | KETO, LCHF, Ketogenic, 저탄고지, 키토제닉, 저탄수",
+      "sourceUrl": "https://www.youtube.com/watch?v=EQkcDUwQrJY",
+      "originalReason": "원본 확인 실패: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "2LyWnUNPAUg",
+      "sourceTitle": "노오븐, 살빠지는 다이어트 딸기 레어 치즈케이크, No Oven KETO Strawberry Rare Cheese Cake | LCHF, Ketogenic, 저탄수, 간헐적 단식",
+      "sourceUrl": "https://www.youtube.com/watch?v=2LyWnUNPAUg",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "5Iyj3rpHX1E",
+      "sourceTitle": "무설탕 모히토, No Sugar Mojito | LCHF, Ketogenic, KETO Recipes, 저탄고지, 키토, 키토제닉, 다이어트 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=5Iyj3rpHX1E",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "_ViWUF1W2CE",
+      "sourceTitle": "저탄수 다이어트 아인슈페너, 비엔나커피, KETO Einspanner, Vienna Coffee (LCHF, Ketogenic, 저탄고지, 키토간식, 다이어트 식단, 홈카페)",
+      "sourceUrl": "https://www.youtube.com/watch?v=_ViWUF1W2CE",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "bOn6vjC9H1Y",
+      "sourceTitle": "키토 치즈폼 그린티(녹차), KETO Cheese foam Green Tea (LCHF, Ketogenic Recipe, 저탄고지, 키토식단, 방탄커피 대신)",
+      "sourceUrl": "https://www.youtube.com/watch?v=bOn6vjC9H1Y",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "7F6-Bd76Wmg",
+      "sourceTitle": "키토 티라미수 라떼, KETO Tiramisu Latte, (방탄커피 지겨울때, LCHF, Low Carb, Ketogenic, KETO Dessert, 저탄고지, 키토간식)",
+      "sourceUrl": "https://www.youtube.com/watch?v=7F6-Bd76Wmg",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "v4vro5nTOMw",
+      "sourceTitle": "[ASMR] 키토 레어 치즈케이크, KETO Rare CheeseCake, (LCHF, Low Carb, Ketogenic Recipe, 저탄고지, 저탄수, 키토베이킹, 키토빵)",
+      "sourceUrl": "https://www.youtube.com/watch?v=v4vro5nTOMw",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "ROTxtrFFDyA",
+      "sourceTitle": "살안찌는 통밀쿠키, KETO Wheat Bran Cookies, (LCHF, Low Carb, Ketogenic Dessert, 간헐적 단식, 저탄수, 키토제닉 레시피)",
+      "sourceUrl": "https://www.youtube.com/watch?v=ROTxtrFFDyA",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "zMSR92hoac0",
+      "sourceTitle": "Vegan, KETO ICE POP Recipe, Ice Cream, 키토 아이스 바, 아이스크림 (LCHF, Low Carb, Ketogenic, 저탄고지, 저탄수, 키토제닉)",
+      "sourceUrl": "https://www.youtube.com/watch?v=zMSR92hoac0",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "I7eJw4WAPPw",
+      "sourceTitle": "[ASMR] 다이어트 바크초콜릿, 키토초콜릿 만들기, KETO Chocolate Bark (LCHF, Low Carb, Ketogenic Recipe, 저탄고지, 키토제닉 식단)",
+      "sourceUrl": "https://www.youtube.com/watch?v=I7eJw4WAPPw",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "JDyW-3-XT2E",
+      "sourceTitle": "[ASMR] 키토 초코 마들렌 KETO Chocolate Madeleine (LCHF, Gluten Free, Low Carb, 저탄고지, 당질제한, 글루텐프리)",
+      "sourceUrl": "https://www.youtube.com/watch?v=JDyW-3-XT2E",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "9GEeK08ec_8",
+      "sourceTitle": "[ASMR] 키토 티라미수, LCHF, Tiramisu ( KETO, Low Carb, No Sugar, 저탄수,  糖質制限)",
+      "sourceUrl": "https://www.youtube.com/watch?v=9GEeK08ec_8",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "zVzeHG4D1BU",
+      "sourceTitle": "[ASMR] KETO, LCHF, Ladyfingers ( Low Carb Cookies ), 키토쿠키, 저탄고지, 무설탕 레이디핑거 만들기, 糖質制限",
+      "sourceUrl": "https://www.youtube.com/watch?v=zVzeHG4D1BU",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "lI9ddp-1w4Y",
+      "sourceTitle": "[ASMR] KETO, LCHF, Plain Scone with Red Bean Paste and Butter, 키토, 저탄고지, 앙버터플레인스콘, 糖質制限, スコーン",
+      "sourceUrl": "https://www.youtube.com/watch?v=lI9ddp-1w4Y",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "rNeVC0sG9N8",
+      "sourceTitle": "저탄수 다이어트 초코 아이스크림 (젤라또), KETO, LCHF, Chocolate Ice Cream Recipe (gelato), 糖質制限, チョコアイスクリーム",
+      "sourceUrl": "https://www.youtube.com/watch?v=rNeVC0sG9N8",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "t8M3KAsDQkY",
+      "sourceTitle": "다이어트 간식, 레몬 마들렌, KETO Lemon Madeleine (No Sugar, Gluten Free, 糖質制限, 키토, 저탄고지, 저탄수, 당질제한)",
+      "sourceUrl": "https://www.youtube.com/watch?v=t8M3KAsDQkY",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "s5AqiaPW4R4",
+      "sourceTitle": "살빠지는 다이어트 방탄쿠키 (방탄커피 맛) LCHF,  KETO Bulletproof Cookie ,  糖質制限",
+      "sourceUrl": "https://www.youtube.com/watch?v=s5AqiaPW4R4",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "3x3a9o-tvfE",
+      "sourceTitle": "[ASMR] KETO, LCHF, Vanilla Ice Cream, 키토, 저탄고지, 바닐라 아이스크림, 糖質制限, バニラアイスクリーム",
+      "sourceUrl": "https://www.youtube.com/watch?v=3x3a9o-tvfE",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "7Y4LRQ8AkoE",
+      "sourceTitle": "[ASMR] KETO, LCHF, NO-BAKE, Meal Prep Bottle Strawberry Cheesecake, 키토, 저탄고지 보틀 딸기 치즈케이크, 밀프렙",
+      "sourceUrl": "https://www.youtube.com/watch?v=7Y4LRQ8AkoE",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "XXiqZo9IcPE",
+      "sourceTitle": "KETO, LCHF Green Tea Frappuccino (Bulletproof Tea, Stabucks Recipe), 키토, 저탄고지 그린티 프라푸치노, 방탄커피가 지겹다면",
+      "sourceUrl": "https://www.youtube.com/watch?v=XXiqZo9IcPE",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "IlV0G-1P1iQ",
+      "sourceTitle": "살빠지는 다이어트 간식, 3가지 맛 큐브 치즈, 3 Flavors Cube Cheese Recipe, 키토, 저탄고지 간식, KETO, LCHF Snack",
+      "sourceUrl": "https://www.youtube.com/watch?v=IlV0G-1P1iQ",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "1W3KFkMVZzg",
+      "sourceTitle": "[ASMR] 저탄고지, 키토, 방탄코코아 만들기, 방탄커피가 지겹다면, LCHF, Ketogenic, BulletProof Cocoa(Hot Cocholate) RECIPE",
+      "sourceUrl": "https://www.youtube.com/watch?v=1W3KFkMVZzg",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "Q4A_jGdK6eM",
+      "sourceTitle": "오조오억번 저어만든 다이어트 에그커피",
+      "sourceUrl": "https://www.youtube.com/watch?v=Q4A_jGdK6eM",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "S4FkaJ1WVXE",
+      "sourceTitle": "발렌타인데이 다이어트, 무설탕, 키토 화이트 파베초콜릿 만들기 (생초콜릿, 녹차초콜릿, 딸기초콜릿), No Sugar Keto White Pave Chocolate",
+      "sourceUrl": "https://www.youtube.com/watch?v=S4FkaJ1WVXE",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "4KDNGIP0KU0",
+      "sourceTitle": "발렌타인데이 저탄수, 키토 파베초콜릿 만들기 (생초콜릿), How To Make Pave Chocholate",
+      "sourceUrl": "https://www.youtube.com/watch?v=4KDNGIP0KU0",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "urXVmXuC9CM",
+      "sourceTitle": "[ENG SUB] ASMR 집에서 커피 로스팅, 핸드드립 방법, 홈카페, How To Coffee Rosting & Hand Drip At Home",
+      "sourceUrl": "https://www.youtube.com/watch?v=urXVmXuC9CM",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "DtmfFj2Hjqs",
+      "sourceTitle": "[ENG SUB]저탄수, 글루텐프리, 키토베이킹 수플레 팬케이크 만들기, LowCarb, GlutenFree Fluffy Japanese Pancake",
+      "sourceUrl": "https://www.youtube.com/watch?v=DtmfFj2Hjqs",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "bZA7KdtWDUA",
+      "sourceTitle": "간헐적 단식, FMD 식단을 도와주는 버터커피, 방탄커피 레시피,  HOW TO MAKE BULLETPROOF COFFEE",
+      "sourceUrl": "https://www.youtube.com/watch?v=bZA7KdtWDUA",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "ucjhMHwgZzE",
+      "sourceTitle": "저탄수, 글루텐프리, 키토 제누와즈 만들기, KETO, LCHF Genoise",
+      "sourceUrl": "https://www.youtube.com/watch?v=ucjhMHwgZzE",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "--AtWkrggHU",
+      "sourceTitle": "[ENG SUB]글루텐프리, 저탄수, 키토빵 클라우드브레드 만들기, Gluten free, Lowcarb, Keto CLOUD BREAD",
+      "sourceUrl": "https://www.youtube.com/watch?v=--AtWkrggHU",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "q8NbYVOhvcI",
+      "sourceTitle": "[ENG SUB]저탄수 홈메이드 그래놀라 만들기, HOW TO MAKE KETO GRANOLA",
+      "sourceUrl": "https://www.youtube.com/watch?v=q8NbYVOhvcI",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "RXqO2JtCqHw",
+      "sourceTitle": "[ENG SUB]다이어트 초콜릿, 팻밤 만들기, 키토 초콜릿, Keto Chocolate, Fat Bomb Recipe",
+      "sourceUrl": "https://www.youtube.com/watch?v=RXqO2JtCqHw",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "uQZAvMqpb0A",
+      "sourceTitle": "[ENG SUB]저탄수,키토 스콘 만들기,How to make LCHF Scone",
+      "sourceUrl": "https://www.youtube.com/watch?v=uQZAvMqpb0A",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "4PV3qxg6Cxg",
+      "sourceTitle": "[ENG SUB] 저탄수, 키토제닉 코코넛 리얼 딸기라떼 만들기, 생딸기우유 레시피, VEGAN, LCHF, Real Strawberry Coconut Latte",
+      "sourceUrl": "https://www.youtube.com/watch?v=4PV3qxg6Cxg",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "BIFkrSG1kgc",
+      "sourceTitle": "두부와 계란으로 쉽고 맛있고 부담없는 아침식사 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=BIFkrSG1kgc",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "DJTt3nwSiII",
+      "sourceTitle": "인생 반찬 찾았네요‼️ 가족들이 이것만 찾아요😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=DJTt3nwSiII",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "48M1hzOemr0",
+      "sourceTitle": "정말 쉽고 맛있는 단호박 요리 👍🏻 치즈폭포 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=48M1hzOemr0",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "NEL9LdL5fCw",
+      "sourceTitle": "25kg 감량하고 10년 유지한 다이어터의 양배추 먹는 법",
+      "sourceUrl": "https://www.youtube.com/watch?v=NEL9LdL5fCw",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "ptr45LFkNws",
+      "sourceTitle": "밥에 달걀을 깨 넣어보세요. 정말 맛있답니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=ptr45LFkNws",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "Li3eUwMFsZE",
+      "sourceTitle": "절대 살 안찌는 단호박 케이크 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=Li3eUwMFsZE",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "eIUGgWrC6gQ",
+      "sourceTitle": "누구나 따라하는 쉬운 달걀요리 13가지, 베스트 모음",
+      "sourceUrl": "https://www.youtube.com/watch?v=eIUGgWrC6gQ",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "vXRYO4NniQs",
+      "sourceTitle": "[5분] 간편하고 맛있어서 아침 식사로 추천합니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=vXRYO4NniQs",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "gCfoCvReSqI",
+      "sourceTitle": "달걀로 꼭 해보세요. 정말 맛있어요~  계란찜 레시피 종결판",
+      "sourceUrl": "https://www.youtube.com/watch?v=gCfoCvReSqI",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "XYvBXkMe0N0",
+      "sourceTitle": "[꿀팁!] 면역력에 좋은 다이어트 계란볶음밥, 원리까지 다 알려드림, 다이어트 도시락",
+      "sourceUrl": "https://www.youtube.com/watch?v=XYvBXkMe0N0",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "rU8TwA2Pbhg",
+      "sourceTitle": "SNS에서 핫~했던 빵으로 길거리토스트 만들기, 다이어트 식단, 저탄수화물, 키토제닉",
+      "sourceUrl": "https://www.youtube.com/watch?v=rU8TwA2Pbhg",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "NAk5hDEzXCM",
+      "sourceTitle": "마약계란 만들기, 달걀 껍질 잘 까는 법, 계란삶는법, 계란요리, 계란 장조림, 반숙계란, Egg Recipes",
+      "sourceUrl": "https://www.youtube.com/watch?v=NAk5hDEzXCM",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "y-s9fKrpcBs",
+      "sourceTitle": "[NO MUSIC] 스텐팬으로 푹신 두툼한 계란말이 만들기, Korean Style Egg Omelet",
+      "sourceUrl": "https://www.youtube.com/watch?v=y-s9fKrpcBs",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "b2_veabuxDk",
+      "sourceTitle": "[EN/JP] [스걸파/오락관] 송희수 코치(?)의 맞춤 응원으로 실시간 레벨업 중인 조나인 @.@ I 턴즈 vs 앤프 #유료광고포함#스트릿댄스걸스파이터",
+      "sourceUrl": "https://www.youtube.com/watch?v=b2_veabuxDk",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "KB6yZJbvxBI",
+      "sourceTitle": "달걀과 두부로 만들었는데 쉽고 맛있어요 👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=KB6yZJbvxBI",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "a4zFDfFt1oc",
+      "sourceTitle": "28평 신혼집 룸투어 l 화이트 인테리어 I 미니멀 I 신혼 필수템 I LG가전 추천 I 가격 공유",
+      "sourceUrl": "https://www.youtube.com/watch?v=a4zFDfFt1oc",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "0kalhA6zZz0",
+      "sourceTitle": "양배추와 당근은 이렇게 해보세요‼️ 만성 염증이 사라져요💯 평생 써먹는 살빠지고 건강하게 오래사는 레시피😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=0kalhA6zZz0",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "fnCQHWmNOKM",
+      "sourceTitle": "#4 평생 써먹는 건강하게 오래살기 위하여 매일 챙겨먹는 것 ❤️",
+      "sourceUrl": "https://www.youtube.com/watch?v=fnCQHWmNOKM",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "jyk-tPqvtak",
+      "sourceTitle": "#3 평생 써먹는 살빠지고 건강하게 오래사는 레시피입니다. 꼭 해보세요❣️",
+      "sourceUrl": "https://www.youtube.com/watch?v=jyk-tPqvtak",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "Fy4WZhLLDQE",
+      "sourceTitle": "속이 불편하시다면 이거 드셔보세요. 위와 장에 좋은 음식",
+      "sourceUrl": "https://www.youtube.com/watch?v=Fy4WZhLLDQE",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "yU3GC2_9px0",
+      "sourceTitle": "브로콜리 영양소 제대로 섭취하는 역대급 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=yU3GC2_9px0",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "2vb1k0qpjnw",
+      "sourceTitle": "건강과 피부를 위해서 일주일에 한 번은 꼭 먹는 이것‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=2vb1k0qpjnw",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "gVrRxqb8qlg",
+      "sourceTitle": "양배추와 달걀은 새로운 방법으로 드세요‼️ 쉽고 빠르고 맛있습니다 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=gVrRxqb8qlg",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "KQH35X1WoDw",
+      "sourceTitle": "양배추는 이렇게 드셔보세요‼️ 간단하고 맛이 좋아요😍 3가지 레시피",
+      "sourceUrl": "https://www.youtube.com/watch?v=KQH35X1WoDw",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "rU0eWdi3JXM",
+      "sourceTitle": "양배추는 데치지 말고 이렇게 해보세요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=rU0eWdi3JXM",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "1LeeHsodWsM",
+      "sourceTitle": "양배추 이렇게 꼭 한 번 해보세요. 간단한데 정말 맛있네요. 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=1LeeHsodWsM",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "cz25yGsViIY",
+      "sourceTitle": "내 딸이 제일 좋아하는 양배추 요리",
+      "sourceUrl": "https://www.youtube.com/watch?v=cz25yGsViIY",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "I9dPg7eTX58",
+      "sourceTitle": "간단한데 최고 맛있는 양배추 요리, 코우슬로",
+      "sourceUrl": "https://www.youtube.com/watch?v=I9dPg7eTX58",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "_9MsfKYqzdg",
+      "sourceTitle": "[이것만 알면 실패안함!] 유산균폭탄, 독일식 양배추김치, 사우어크라우트 만들기, 양배추절임",
+      "sourceUrl": "https://www.youtube.com/watch?v=_9MsfKYqzdg",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "sbi0dz7DN0E",
+      "sourceTitle": "[꿀팁!!! 알려드림] 다이어트 샌드위치, 언위치 만들기, 빵없는 샌드위치, 뚱뚱한 샌드위치, Low Carb Unwich, KETO Breadless Sandwich",
+      "sourceUrl": "https://www.youtube.com/watch?v=sbi0dz7DN0E",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "QQ3njcTwk2Y",
+      "sourceTitle": "두부 요리중 제일 간단하고 엄청 맛있어서 추천해요. 신박한 두부요리",
+      "sourceUrl": "https://www.youtube.com/watch?v=QQ3njcTwk2Y",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "F8dG2iWZw3o",
+      "sourceTitle": "간단 재료로 쉬운데 엄청 맛있는 두부쌈장",
+      "sourceUrl": "https://www.youtube.com/watch?v=F8dG2iWZw3o",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "VvnVTpT9TF8",
+      "sourceTitle": "이 레시피는 꼭 따라해 보세요, 정말 맛있어요, 두부조림",
+      "sourceUrl": "https://www.youtube.com/watch?v=VvnVTpT9TF8",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "tdLzvjGFe0E",
+      "sourceTitle": "콩나물과 두부로 만들었어요‼️ 이건 무조건 해보세요😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=tdLzvjGFe0E",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "KHlFT-oZsPU",
+      "sourceTitle": "간단하고 맛있는 두부요리 9가지 👍🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=KHlFT-oZsPU",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "woCk7yC6lzo",
+      "sourceTitle": "채소 싫어하는 식구도 너무 맛있어서 매일 해달래요‼️ 두부 채소카레😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=woCk7yC6lzo",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "7AxEmElJLJU",
+      "sourceTitle": "치킨보다 더 맛있는 닭요리‼️ 식구들이 매일 해달라고 하네요😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=7AxEmElJLJU",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "49HUtcAVYbg",
+      "sourceTitle": "닭 가슴살이라면 질색하는 남편도 이 요리는 매일 해달라고 합니다. 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=49HUtcAVYbg",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "0CdyiDHn1iI",
+      "sourceTitle": "먹어본 닭 가슴살 요리 중 제일 맛있습니다 😍",
+      "sourceUrl": "https://www.youtube.com/watch?v=0CdyiDHn1iI",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "QyclrLJ2aqE",
+      "sourceTitle": "평생 써먹는~ 기사식당 뺨 때리고 도망가는 제육볶음 레시피 😋 맛 보장‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=QyclrLJ2aqE",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "Th7-8OHRjD8",
+      "sourceTitle": "간단하고 맛있는 도시락 싸는 방법, 직장인 도시락, 어린이 도시락",
+      "sourceUrl": "https://www.youtube.com/watch?v=Th7-8OHRjD8",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "VWGr0dS7RrU",
+      "sourceTitle": "김치에 딱‼️ 평생 써먹는 인생 돼지고기 보쌈 (수육) 하는 법😍 이거 넣지 마세요‼️",
+      "sourceUrl": "https://www.youtube.com/watch?v=VWGr0dS7RrU",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "RwxVXzkARD8",
+      "sourceTitle": "25kg 감량할 때 먹었던 식단, 빠르고 쉬워요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=RwxVXzkARD8",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "4G8OKrU5BWY",
+      "sourceTitle": "이 집코바 치킨은 훨신 싸고 맛있습니다👍🏻 사장님 죄송해요🙏🏻",
+      "sourceUrl": "https://www.youtube.com/watch?v=4G8OKrU5BWY",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "g8gfeNTj21Y",
+      "sourceTitle": "눈오는날 초간단 미역국 끓여먹고 속아파서 먹은 간식들",
+      "sourceUrl": "https://www.youtube.com/watch?v=g8gfeNTj21Y",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "K3EbUPY3gSc",
+      "sourceTitle": "고기는 이렇게 드세요. 물없이 고기 채소찜",
+      "sourceUrl": "https://www.youtube.com/watch?v=K3EbUPY3gSc",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "q3ZjIVbUKX8",
+      "sourceTitle": "흔한 재료로 쉽게 만드는 닭요리, 간단한데 겁나 맛있음",
+      "sourceUrl": "https://www.youtube.com/watch?v=q3ZjIVbUKX8",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "vSjxobodvbI",
+      "sourceTitle": "가을 겨울 무를 이렇게 해보세요‼️ 1년 내내 행복합니다😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=vSjxobodvbI",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "_ee47nsfoJw",
+      "sourceTitle": "무를 이렇게 썰어보세요‼️ 김치보다 맛있고 인생 반찬이 탄생합니다 ❤️",
+      "sourceUrl": "https://www.youtube.com/watch?v=_ee47nsfoJw",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "gDgKIsGEnLM",
+      "sourceTitle": "배 터지게 먹어도 절대 살찌지 않아요‼️ 쉽고 맛있는 잡채 ❤️",
+      "sourceUrl": "https://www.youtube.com/watch?v=gDgKIsGEnLM",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "bB5KSj905mI",
+      "sourceTitle": "오이는 이 방법이 최고입니다. 먹어보고 감동받은 오이 레시피, 여름반찬 추천",
+      "sourceUrl": "https://www.youtube.com/watch?v=bB5KSj905mI",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "RgTxExPyeP4",
+      "sourceTitle": "왜 이거 안해보세요? 이거는 꼭 해보세요~ 가지요리 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=RgTxExPyeP4",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "cHtf1XUIguo",
+      "sourceTitle": "여름 반찬 강추!!! 오이는 꼭 이렇게 해보세요. 물도 안 생기고 끝까지 아삭합니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=cHtf1XUIguo",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "NIP52cKCnnA",
+      "sourceTitle": "물컹한 가지 식감이 싫다면 이렇게 해보세요. 훨씬 맛있어요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=NIP52cKCnnA",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "qJO2hiFPE1I",
+      "sourceTitle": "배추 한 통 순삭하는 레시피 😋",
+      "sourceUrl": "https://www.youtube.com/watch?v=qJO2hiFPE1I",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "pVFLeGElltw",
+      "sourceTitle": "구하기 어렵고 비싼 식재료 구경해보세요~ 😆",
+      "sourceUrl": "https://www.youtube.com/watch?v=pVFLeGElltw",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "jJVCLc_DMe8",
+      "sourceTitle": "양상추는 제발 이렇게 드세요 🙏🏻 배터지게 먹어도 살이 쭉쭉 빠져요 🤩",
+      "sourceUrl": "https://www.youtube.com/watch?v=jJVCLc_DMe8",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "M7zHvLOcZ4k",
+      "sourceTitle": "양상추는 더이상 생으로 말고 이렇게 해보세요. 너무 맛있어요.",
+      "sourceUrl": "https://www.youtube.com/watch?v=M7zHvLOcZ4k",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "a394RYfZbWY",
+      "sourceTitle": "정말 맛있는 오이요리",
+      "sourceUrl": "https://www.youtube.com/watch?v=a394RYfZbWY",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "-mv5cUu17jU",
+      "sourceTitle": "불없이 쉽게, 활용도 높고 정말 맛있는 파스타 소스입니다.",
+      "sourceUrl": "https://www.youtube.com/watch?v=-mv5cUu17jU",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "UrGQ5293d7E",
+      "sourceTitle": "[초간단] 끓이지 않고 채소절임, 채소장아찌 만드는 법, 살안찌는 여름반찬",
+      "sourceUrl": "https://www.youtube.com/watch?v=UrGQ5293d7E",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "rpAva42tJes",
+      "sourceTitle": "길가에 흔히 있는 이것으로 초간단 김치 담그기",
+      "sourceUrl": "https://www.youtube.com/watch?v=rpAva42tJes",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "nsLS6L_jcZ8",
+      "sourceTitle": "엄청 크고 길쭉한 이것으로 요리해보자. 살빠지는 최고의 식품",
+      "sourceUrl": "https://www.youtube.com/watch?v=nsLS6L_jcZ8",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "uGpM5udWoj4",
+      "sourceTitle": "[과학적인 설명] 건강하고 맛있는 버섯 리조또, 다이어트 식단",
+      "sourceUrl": "https://www.youtube.com/watch?v=uGpM5udWoj4",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "moony",
+      "sourceId": "cY9OrcjhMqg",
+      "sourceTitle": "초간단 살빠지는 다이어트 고추장 만들기, Low Carb Gochujang Recipe 저탄수, 키토, 당질제한 레시피, KETO,  LCHF Recipe",
+      "sourceUrl": "https://www.youtube.com/watch?v=cY9OrcjhMqg",
+      "originalReason": "YouTube 요청 제한으로 원본 확인 미실행"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-775",
+      "sourceTitle": "돼지 등뼈가 통째로 들어간 뼈짬뽕 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/775",
+      "originalReason": "뼈 육수 제조 전체와 완성 육수2L 사용의 관계 추가 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-772",
+      "sourceTitle": "샤브샤브죽 레시피, 밀키트로 간단하게 만드는 방법!",
+      "sourceUrl": "https://chef-choice.tistory.com/772",
+      "originalReason": "제조한 샤브샤브죽 밀키트 전체 중110g 사용의 원재료 배분 비율 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-770",
+      "sourceTitle": "아롱사태는 꼭 이렇게 드세요. 몸보신으로 좋은 소고기 수육 전골 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/770",
+      "originalReason": "수육 전골과 냉면에 나누는 아롱사태·육수 사용 분량 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-768",
+      "sourceTitle": "명란젓에 절인 명란 새우장 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/768",
+      "originalReason": "명란 소스 재료표에 다진마늘1숟가락이 두 번 반복되어 원문 중복 여부 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-759",
+      "sourceTitle": "시원한 육수랑 같이 먹는 물 비빔국수 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/759",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-756",
+      "sourceTitle": "삼겹살에 명란젓을 넣어보세요. 명란 삼겹살 솥밥 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/756",
+      "originalReason": "명란 삼겹살의 주요 재료량이 없고 완성 솥밥 사용량도 없어 분량 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-755",
+      "sourceTitle": "오징어내장 통째로 먹는 오징어통찜 레시피 (feat. 오징어 파스타)",
+      "sourceUrl": "https://chef-choice.tistory.com/755",
+      "originalReason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-751",
+      "sourceTitle": "니뽕내뽕 스타일의 크뽕 만드는 방법. (크림짬뽕 레시피)",
+      "sourceUrl": "https://chef-choice.tistory.com/751",
+      "originalReason": "홍합 제조량과 일부 육수 사용·우유150nl 원문 표기의 분량 추가 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-745",
+      "sourceTitle": "극강의 고소함 참깨 닭 비빔국수 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/745",
+      "originalReason": "고추파기름·소스 제조량과 국수 사용량·배분 관계 추가 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-731",
+      "sourceTitle": "대표 보양식 설렁탕을 집에서 끓이는 방법 (feat. 차돌탕 레시피)",
+      "sourceUrl": "https://chef-choice.tistory.com/731",
+      "originalReason": "대량 차돌탕 육수 제조와 한 그릇에 쓰는 부분 분량 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-725",
+      "sourceTitle": "어복쟁반 집에서 쉽게 만드는 방법. (feat.평양냉면 레시피)",
+      "sourceUrl": "https://chef-choice.tistory.com/725",
+      "originalReason": "어복쟁반·평양냉면의 고기 및 육수 배분 비율 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-710",
+      "sourceTitle": "집에서 냉모밀 만드는 방법. (메밀소바 레시피)",
+      "sourceUrl": "https://chef-choice.tistory.com/710",
+      "originalReason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-704",
+      "sourceTitle": "깔끔하게 매운돼지갈비찜 만드는 방법!!! (돼지갈비찜 레시피)",
+      "sourceUrl": "https://chef-choice.tistory.com/704",
+      "originalReason": "돼지갈비와 앞다리살 합계2kg의 각 재료 배분량 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-701",
+      "sourceTitle": "반찬이 필요없는 솥밥 만드는 방법!!! (스테이크 솥밥 레시피)",
+      "sourceUrl": "https://chef-choice.tistory.com/701",
+      "originalReason": "스테이크용 고기500g의 축종이 재료표·본문 모두 명시되지 않아 원재료 추가 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-692",
+      "sourceTitle": "수만 명에게 검증된 뚝딱이형 닭도리탕 레시피 (닭볶음탕 최신 개정판)",
+      "sourceUrl": "https://chef-choice.tistory.com/692",
+      "originalReason": "염지한 닭의 원문 중량·개수가 재료표에 없어 전체 요리 분량 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-693",
+      "sourceTitle": "이 방법으로 하면 스테이크 절대 실패할 수 없습니다. (feat. 스테이크 소스 레시피)",
+      "sourceUrl": "https://chef-choice.tistory.com/693",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-688",
+      "sourceTitle": "몸에 좋은 기버터 만드는 방법 (기버터 스테이크 레시피)",
+      "sourceUrl": "https://chef-choice.tistory.com/688",
+      "originalReason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-686",
+      "sourceTitle": "일본 후쿠오카에서 줄 서서 먹는다는 갈비 붓카케 우동 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/686",
+      "originalReason": "우동다시 전체 제조와 추가 물·설탕 및 완성 우동의 사용 분량 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-685",
+      "sourceTitle": "봄동 겉절이부터 다른 겉절이까지 모두 가능한 겉절이 양념 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/685",
+      "originalReason": "준비한 봄동겉절이·무생채·부추나물과 비빔밥 사용 분량 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-679",
+      "sourceTitle": "삼겹살 김밥보다 맛있는 삼겹살 김밥샌드 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/679",
+      "originalReason": "김밥샌드의 주재료 밥·삼겹살·콩나물 분량이 모두 없어 전체 양 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-677",
+      "sourceTitle": "밥솥으로 만드는 수비드 수육 레시피. 이거 진짜 촉촉합니다!!!",
+      "sourceUrl": "https://chef-choice.tistory.com/677",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-674",
+      "sourceTitle": "맵고 얼큰하고 진한 육개장 레시피 찾으신다면 잘 찾아 오셨습니다.",
+      "sourceUrl": "https://chef-choice.tistory.com/674",
+      "originalReason": "두태기름 제조500g 중250ml 사용의 비율이 명시되지 않아 원재료 배분 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-636",
+      "sourceTitle": "전자레인지로 만드는 초간단 크림파스타 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/636",
+      "originalReason": "재료표 물100g과 본문 물150ml가 달라 임의 단위·수량 변경 없이 원문 추가 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-634",
+      "sourceTitle": "묵은지 처리하기 너무 좋은 묵은지 참치말이 레시피 (Feat. 불 맛)",
+      "sourceUrl": "https://chef-choice.tistory.com/634",
+      "originalReason": "묵은지참치말이 재료표에서 쌈용 묵은지·데리야키소스가 빠져 주재료 총량 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-632",
+      "sourceTitle": "동파육을 닭으로 만들었습니다. 동파닭 레시피 (feat.메쉬드포테이토)",
+      "sourceUrl": "https://chef-choice.tistory.com/632",
+      "originalReason": "동파닭 재료표에 주재료 닭이 누락되고 직접 제조 소스의 사용 비율 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-630",
+      "sourceTitle": "밥과 파스타 모두 잘 어울리는 버터갈릭새우 레시피 (하와이 지오반니 쉬림프박스)",
+      "sourceUrl": "https://chef-choice.tistory.com/630",
+      "originalReason": "쉬림프박스·갈릭새우파스타 두 완성 요리의 새우·소스 분량 배분 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-626",
+      "sourceTitle": "사 먹으면 진짜 비싼 꼬리곰탕 집에서 끓이는 방법 (feat.오징어젓갈 레시피)",
+      "sourceUrl": "https://chef-choice.tistory.com/626",
+      "originalReason": "소꼬리와 잡뼈 합계 중량의 각 재료 배분량 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-622",
+      "sourceTitle": "육수 하나로 돼지국밥부터 뼈해장국까지 만드는 방법",
+      "sourceUrl": "https://chef-choice.tistory.com/622",
+      "originalReason": "대량 돼지국밥·뼈해장국의 원재료와 육수 분량 배분 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-613",
+      "sourceTitle": "중국집 레시피로 집에서 간짜장 만드는 방법",
+      "sourceUrl": "https://chef-choice.tistory.com/613",
+      "originalReason": "재료표 미림0.5숟가락과 본문 미원0.5숟가락이 서로 다른 재료로 충돌하여 원문 추가 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-608",
+      "sourceTitle": "토마토는 무조건 말려 먹으세요. 썬드라이 토마토 페이스트 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/608",
+      "originalReason": "썬드라이토마토 페이스트 제조와 여러 후속 요리의 사용 비율 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-604",
+      "sourceTitle": "두바이 초콜릿 보다 훨씬 더 맛있는 두바이 초콜렛 아이스크림 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/604",
+      "originalReason": "두바이초콜릿 아이스크림과 직접 제조 면 재료 구획의 사용 비율 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-599",
+      "sourceTitle": "수박은 제발 구워드세요. 수박 브루스케타 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/599",
+      "originalReason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-575",
+      "sourceTitle": "캐나다 국민 음식 푸틴 만드는 방법. 그레이비 소스 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/575",
+      "originalReason": "푸틴 주재료 러셋감자의 수량이 없어 소스량만으로 인분 확정하지 않음."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-572",
+      "sourceTitle": "집에서 레스토랑 부럽지 않은 스테이크 만드는 방법 (feat.참나물 지미추리)",
+      "sourceUrl": "https://chef-choice.tistory.com/572",
+      "originalReason": "스테이크용 고기1kg의 축종이 재료표·본문 모두 명시되지 않아 원재료 추가 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-569",
+      "sourceTitle": "순두부, 연두부, 두부부침 어디에도 잘어울리는 간장양념장 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/569",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-557",
+      "sourceTitle": "입맛 없을 때 먹으면 딱 좋은 김치비빔국수 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/557",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-547",
+      "sourceTitle": "대전 사람들만 먹는다는 향토 음식 콩튀김을 아시나요?",
+      "sourceUrl": "https://chef-choice.tistory.com/547",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-532",
+      "sourceTitle": "한국에서는 생소한 햄까스(하무카츠) 레시피 (feat.참깨드레싱)",
+      "sourceUrl": "https://chef-choice.tistory.com/532",
+      "originalReason": "햄까스의 주재료 햄·빵가루·계란 등 수량이 없고 후속 곁들임 사용 분량 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-512",
+      "sourceTitle": "마파두부 좋아하면 이것도 좋아할 겁니다. 중국식 마파가지덮밥 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/512",
+      "originalReason": "다짐육350g의 축종이 재료표·본문 모두 명시되지 않아 원재료 추가 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-505",
+      "sourceTitle": "밤양갱부터 말차양갱, 팥양갱까지 양갱이 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/505",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-491",
+      "sourceTitle": "줄 서서 먹는 꼬막 비빔칼국수 레시피 (feat. 비법양념장)",
+      "sourceUrl": "https://chef-choice.tistory.com/491",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-458",
+      "sourceTitle": "겉바속촉의 정석 굴카츠 만드는 방법 (feat. 굴카츠동, 굴카츠샌드 레시피)",
+      "sourceUrl": "https://chef-choice.tistory.com/458",
+      "originalReason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-453",
+      "sourceTitle": "딱 5가지 양념으로 간단하게 중화잡채 만드는 방법 (feat. 잡채밥 레시피)",
+      "sourceUrl": "https://chef-choice.tistory.com/453",
+      "originalReason": "등심300g의 축종이 재료표·본문 모두 명시되지 않아 원재료 추가 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-451",
+      "sourceTitle": "그냥 돈까스보다 훨씬 더 맛있는 네기카츠 튀기는 방법 (feat. 멘치까스 레시피)",
+      "sourceUrl": "https://chef-choice.tistory.com/451",
+      "originalReason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-444",
+      "sourceTitle": "외국에서 유행하는데 한국인은 모르는 K-food 고추장버터 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/444",
+      "originalReason": "고추장버터 제조량250g 중 솥밥 사용량이 없어 원재료 배분 비율 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-436",
+      "sourceTitle": "궁채나물(줄기상추) 맛있게 먹는 레시피 알려드립니다.",
+      "sourceUrl": "https://chef-choice.tistory.com/436",
+      "originalReason": "전체 재료 수량 미기재로 인분·장보기량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-427",
+      "sourceTitle": "남은 식빵으로 만드는 고르곤졸라 (feat. 커스터드 식빵, 카라멜 식빵 팝콘)",
+      "sourceUrl": "https://chef-choice.tistory.com/427",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-421",
+      "sourceTitle": "돼지고기 다짐육으로 만드는 돼지떡갈비 등 세가지 요리",
+      "sourceUrl": "https://chef-choice.tistory.com/421",
+      "originalReason": "다진 돼지고기 반죽을 여러 요리에 나누는 사용 분량 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-420",
+      "sourceTitle": "샐러드보다 훨씬 더 맛있는 다이어트 포케 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/420",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-418",
+      "sourceTitle": "라이스페이퍼로 만드는 초간단 탕수육 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/418",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-414",
+      "sourceTitle": "정말 저렴한 홍가리비로 만드는 고급요리 홍콩가리비찜 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/414",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-404",
+      "sourceTitle": "집에 있는 재료들로 간단하게 만드는 고든램지 스테이크 샌드위치 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/404",
+      "originalReason": "전체 요리 기준 인분 근거 추가 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-402",
+      "sourceTitle": "표고버섯, 양송이버섯을 잼으로 만들어 먹는다?? (뒥셀 레시피)",
+      "sourceUrl": "https://chef-choice.tistory.com/402",
+      "originalReason": "뒥셀 제조 전체와 후속 요리에 쓰는 사용량이 섞여 대표 메뉴 분량 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-398",
+      "sourceTitle": "동그랑땡 반죽으로 동그랑땡만 만들었나요?? (만능 동그랑땡 반죽 레시피)",
+      "sourceUrl": "https://chef-choice.tistory.com/398",
+      "originalReason": "동그랑땡 반죽과 여러 튀김 대안 재료가 함께 있어 대표 분량 확인 필요."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-387",
+      "sourceTitle": "역할맥st 파인애플 샤베트 만드는 방법(feat.코코넛 샤베트)",
+      "sourceUrl": "https://chef-choice.tistory.com/387",
+      "originalReason": "전체 수량 미기재로 인분·구매량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-385",
+      "sourceTitle": "닭가슴살까지 촉촉하게 먹을 수 있는 집에서 만드는 비어캔치킨 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/385",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-375",
+      "sourceTitle": "베이글에 발라 먹으면 맛있는 크림치즈 레시피 3가지 (토마토, 대파베이컨, 딸기)",
+      "sourceUrl": "https://chef-choice.tistory.com/375",
+      "originalReason": "전체 수량 미기재로 인분·구매량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-369",
+      "sourceTitle": "스팸으로 만드는 초간단 마요덮밥부터 나폴리탄 파스타 레시피까지",
+      "sourceUrl": "https://chef-choice.tistory.com/369",
+      "originalReason": "한 원문에 스팸 요리 세 가지가 있으며 추출된 첫 재료표만으로 대표 요리 전체 양 확인 불가."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-347",
+      "sourceTitle": "배달로 한 달에 매출 1억을 기록한 사장님께 배워온 업소용 크림파스타 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/347",
+      "originalReason": "원문 4인분 소스 제조량 중 200ml 사용하며 완성 수율·사용 비율 미기재. 베이컨/우삼겹 토핑 대안 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-340",
+      "sourceTitle": "코스트코에서 구매한 차돌양지 원육으로 맑은 곰탕 끓이는 방법 (feat.곰탕국수 레시피)",
+      "sourceUrl": "https://chef-choice.tistory.com/340",
+      "originalReason": "차돌양지 원육 설명과 재료표 앞다리살의 축종·부위 대응 및 곰탕/국수 분량 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-338",
+      "sourceTitle": "우동소스를 이용해서 초간단 스키야키, 냉모밀, 김치어묵우동을 만들어 보자",
+      "sourceUrl": "https://chef-choice.tistory.com/338",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-334",
+      "sourceTitle": "연어 회와 구이, 두가지 다 즐길 수 있는 연어레어카츠덮밥 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/334",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-332",
+      "sourceTitle": "집에서 연어 숙성하는 방법부터 연어 스테이크 레시피까지!",
+      "sourceUrl": "https://chef-choice.tistory.com/332",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-327",
+      "sourceTitle": "외식할 때 먹을 수 있는 목살 스테이크 집에서 간단하게 만드는 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/327",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-324",
+      "sourceTitle": "메뉴판에 보이면 무조건 시켜먹을 수밖에 없는 비빔만두 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/324",
+      "originalReason": "재료표 물엿 1숟가락과 본문 참기름 1숟가락의 재료가 달라 원본 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-322",
+      "sourceTitle": "푸라닭 고추마요치킨 싱크로율 90% 이상으로 만드는 방법, 고추마요치킨 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/322",
+      "originalReason": "주재료 닭의 수량과 원문 양 가루의 정확한 재료명 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-314",
+      "sourceTitle": "코스트코에서 파는 소고기 중 제일 싼 아롱사태를 이용한 3가지 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/314",
+      "originalReason": "전체 수량 미기재로 인분·구매량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-306",
+      "sourceTitle": "가성비 넘치는 홍가리비를 이용한 6가지 요리, 가리비 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/306",
+      "originalReason": "홍가리비 전량으로 만드는 여섯 요리 중 대표 버전·양념별 사용 분량 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-302",
+      "sourceTitle": "트레이더스 추천 상품, 추천 템 3가지로 만드는 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/302",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-301",
+      "sourceTitle": "라이스페이퍼를 이용한 바삭바삭한 소떡소떡 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/301",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-251",
+      "sourceTitle": "이렇게 떡볶이를 만들어 보세요 차원이 다른 고소함을 느낄 수 있습니다. 대창떡볶이 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/251",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-295",
+      "sourceTitle": "고기와 토마토가 만난 실패 없는 조합, 미트토마토파스타 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/295",
+      "originalReason": "원문 국거리용 고기의 축종이 명시되지 않아 소고기·돼지고기로 임의 확정하지 않고 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-294",
+      "sourceTitle": "고깃집에서 먹던 맛 그대로 집에서 하는 고깃집 된장술밥 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/294",
+      "originalReason": "원문 구이용 고기의 축종이 명시되지 않아 소고기·돼지고기로 임의 확정하지 않고 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-293",
+      "sourceTitle": "집에서 고급스럽게 즐기는 스테이크 레시피, 갈릭바질버터 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/293",
+      "originalReason": "원문 스테이크용 고기의 축종과 사용량이 명시되지 않아 추가 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-290",
+      "sourceTitle": "마라 입문자도 맛있게 먹을 수 있는 마라감자탕 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/290",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-289",
+      "sourceTitle": "어려워 보이지만 엄청 간단한 항정살 덮밥 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/289",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-284",
+      "sourceTitle": "육개장과 비교해도 뒤처지지 않는 닭개장 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/284",
+      "originalReason": "삶은 닭·닭껍질 베이스·닭 육수 1.5L의 부분 사용 관계와 완성 수율 확인 대기. 원재료와 중간 조리물 중복 구매 방지."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-278",
+      "sourceTitle": "밥 한 그릇 뚝딱 하게 되는 삼치 덮밥 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/278",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-258",
+      "sourceTitle": "맨날 똑같은 간장 찜닭, 닭도리탕이 지겨운 분들을 위해서 짜장찜닭 레시피 알려드립니다.",
+      "sourceUrl": "https://chef-choice.tistory.com/258",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-272",
+      "sourceTitle": "차돌박이 된장 샤브샤브 레시피, 마무리 칼국수까지",
+      "sourceUrl": "https://chef-choice.tistory.com/272",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-269",
+      "sourceTitle": "짜장가루보다 훨씬 더 맛있는 춘장으로 짜장소스 만드는 방법, 짜장밥 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/269",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-247",
+      "sourceTitle": "불닭소스를 활용하여 파스타 만드는 방법 . 대창불닭파스타 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/247",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-246",
+      "sourceTitle": "불닭소스로 간단하게 대창덮밥 만드는 방법, 호르몬동 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/246",
+      "originalReason": "재료표 맛술 3숟가락과 본문 물엿 3숟가락이 서로 달라 원문 재료 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-261",
+      "sourceTitle": "후라이팬 하나로 실패 없이 잡채 만드는 방법, 불고기잡채 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/261",
+      "originalReason": "불고기용 고기의 축종이 원문에 명시되지 않아 소고기·돼지고기로 임의 확정하지 않고 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-259",
+      "sourceTitle": "또띠아 이용해서 하나씩 뜯어먹는 또띠아피자 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/259",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-243",
+      "sourceTitle": "집에서 경양식 돈까스 만드는 방법 어렵지 않습니다, 돈까스 소스 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/243",
+      "originalReason": "원문 등심의 축종이 재료표·본문에 명시되지 않아 소고기·돼지고기로 임의 확정하지 않고 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-240",
+      "sourceTitle": "집에서 불맛과 숯불향 제육볶음 만드는 방법, 불맛제육 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/240",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-239",
+      "sourceTitle": "코스트코 대용량 냉동 삼겹살로 요리하기. 돈코츠라멘, 고기국수 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/239",
+      "originalReason": "전체 수량 미기재로 인분·구매량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-233",
+      "sourceTitle": "크루아상 생지를 활용해서 만드는 4가지 레시피, 크로와상 생지",
+      "sourceUrl": "https://chef-choice.tistory.com/233",
+      "originalReason": "전체 수량 미기재로 인분·구매량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-231",
+      "sourceTitle": "다시 유행하는 꾸덕꾸덕한 가래떡 떡볶이 만드는 방법, 꼬마김밥 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/231",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-220",
+      "sourceTitle": "집에서 단팥 호빵 쉽게 만드는 방법, 찐빵 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/220",
+      "originalReason": "공통 찐빵 반죽과 단팥/슈크림 두 대안의 배분·사용 분량 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-219",
+      "sourceTitle": "3천 원짜리 대나무 통으로 된장 삼겹살 만드는 방법,죽통 고추장삼겹살 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/219",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-218",
+      "sourceTitle": "라이스페이퍼로 만드는 딸기모찌, 베트남피자, 콘칩 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/218",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-203",
+      "sourceTitle": "고든램지 헬스키친버거 직접 만드는 방법, 고든렘지버거 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/203",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-187",
+      "sourceTitle": "기사식당의 무생채 만드는 방법, 무생채 비빔밥 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/187",
+      "originalReason": "완성된 무생채를 별도 메뉴에 사용하는 양·원재료 분해 비율 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-171",
+      "sourceTitle": "배불러도 먹게 되는 고깃집 볶음밥 만드는 방법, 곱창볶음밥 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/171",
+      "originalReason": "전체 인분 추정에 사용할 주재료 수량 확인 필요"
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-155",
+      "sourceTitle": "닭다리살로 만드는 데리야끼 닭꼬치 레시피, 데리야끼 소스 만드는 방법",
+      "sourceUrl": "https://chef-choice.tistory.com/155",
+      "originalReason": "닭꼬치와 닭다리살 대안에 사용하는 닭·데리야끼소스 분량이 미기재되어 원재료 사용 비율 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-147",
+      "sourceTitle": "떡복이와 파스타가 만났다 신전떡볶이로 만드는 파스타 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/147",
+      "originalReason": "테이크아웃 신전떡볶이 국물 1인분의 원재료·수량 분해 근거가 없어 재활용 재료 사용량 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-135",
+      "sourceTitle": "꼬막무침 양념장 맛있게 만드는 방법, 꼬막비빔밥 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/135",
+      "originalReason": "8~10인분 꼬막무침 제조량 중 비빔밥 밥 두 공기에 쓰는 실제 양 미기재. 부분 사용량 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-133",
+      "sourceTitle": "저렴한 등뼈로 만드는 등뼈칼국수 레시피, 집에서 푸짐하게 만드는 방법",
+      "sourceUrl": "https://chef-choice.tistory.com/133",
+      "originalReason": "2~3인분 등뼈 육수와 별도 1인분 면·토핑 구획의 사용 비율 및 사골팩 1:1 분량 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-114",
+      "sourceTitle": "요리사들이 술 먹고 다음날 끓여 먹는 해장라면 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/114",
+      "originalReason": "재료표 파 1/4개와 본문 양파 1/4개의 표기가 달라 원문 재료 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-90",
+      "sourceTitle": "김치피자탕수육 김피탕 레시피, 남은 탕수육으로 만드는 방법",
+      "sourceUrl": "https://chef-choice.tistory.com/90",
+      "originalReason": "남은 탕수육의 제조 재료·실제 사용 분량 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-89",
+      "sourceTitle": "시장표 쫄면 레시피, 양념장 밖에서 먹던 그 맛 그대로 만드는 방법",
+      "sourceUrl": "https://chef-choice.tistory.com/89",
+      "originalReason": "1.5인분 면과 3~4인분 양념장의 실제 사용 비율 및 완성 수율 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-24",
+      "sourceTitle": "등촌샤브칼국수 레시피, 매운 얼큰 칼국수 만드는 방법",
+      "sourceUrl": "https://chef-choice.tistory.com/24",
+      "originalReason": "칼국수와 볶음밥에 남은 국물·여러 조리물의 원재료 분해 비율 확인 대기."
+    },
+    {
+      "channel": "mincook",
+      "sourceId": "blog-15",
+      "sourceTitle": "종로구 청국장찌개 맛집, 그대로 만드는 방법, 청국장 레시피",
+      "sourceUrl": "https://chef-choice.tistory.com/15",
+      "originalReason": "원문 전체 인분이 1~1.5인분 범위로 명시되어 현재 범위 표시·계산 규칙 추가 확인 대기."
+    }
+  ]
+}

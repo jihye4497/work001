@@ -6,8 +6,8 @@ import {searchMenus} from '../js/recommendations.js';
 const read=async path=>JSON.parse(await readFile(new URL('../'+path,import.meta.url),'utf8'));
 const ingredients=await read('data/ingredients.json'),recipes=await read('data/recipes.json'),review=await read('data/source/paik-user-review.json'),coverage=await read('data/source/paik-playlist-coverage.json');
 const get=id=>recipes.find(r=>r.id==='paik-'+id);
-test('사용자 제공 3개는 출처·확인 방식·명시/추정 인분을 구분하며 보류 해제',()=>{
- assert.equal(review.entries.length,3);
+test('사용자 제공 4개는 출처·확인 방식·명시/추정 인분을 구분하며 보류 해제',()=>{
+ assert.equal(review.entries.length,4);
  for(const e of review.entries){
   const r=get(e.videoId);assert.ok(r);assert.equal(r.sourceUrl,e.sourceUrl);
   assert.equal(e.independentSourceFetchVerified,false);
@@ -18,6 +18,14 @@ test('사용자 제공 3개는 출처·확인 방식·명시/추정 인분을 �
  assert.equal(get('4RnCNlE1b6U').servingsStatus,'explicit');
  for(const id of ['bFX5lJgCPBQ','TFcNckg-1bQ']){assert.equal(get(id).servingsStatus,'estimated');assert.equal(get(id).baseServings,2);}
  assert.ok(get('udirCMIxs_c'),'기존 고추장찌개 버전 보존');
+});
+test('버터간장국수는 면 100g 기준 1인분 추정·식용유 미기재 유지, 지정 2영상 등록 제외',()=>{
+ const r=get('Da-yWFw5T3U');assert.equal(r.baseServings,1);assert.equal(r.servingsStatus,'estimated');assert.equal(r.ingredients.length,8);
+ const rows=aggregate(ingredients,recipes,[{recipeId:r.id,servings:2}],1);
+ assert.equal(totalText(rows.find(x=>x.ingredient.name==='소면')),'200g');
+ assert.equal(totalText(rows.find(x=>x.ingredient.name==='버터')),'24g');
+ assert.equal(totalText(rows.find(x=>x.ingredient.name==='식용유')),'수량 미기재');
+ for(const id of ['qO5p0_6K-bo','01snsHZK6Ns']){assert.equal(get(id),undefined);assert.equal(coverage.entries.find(e=>e.videoId===id).status,'excluded-user');}
 });
 test('무밥 양념장 전량·물 원문 g·불린 당면·미기재 후추를 그대로 계산',()=>{
  const rows=id=>{const r=get(id);return aggregate(ingredients,recipes,[{recipeId:r.id,servings:r.baseServings}],1);};

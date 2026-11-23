@@ -1,0 +1,24 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {validateData} from '../js/ingredients.js';
+import {servingLabel} from '../js/servings.js';
+import {aggregate,totalText} from '../js/shopping-list.js';
+const read=async path=>JSON.parse(await readFile(new URL('../'+path,import.meta.url),'utf8'));
+const ingredients=await read('data/ingredients.json'),recipes=await read('data/recipes.json');
+test('청국장찌개는 원문1~1.5표시 유지·사용자지정1인분 계산·원문단위 보존',()=>{
+ const recipe=recipes.find(r=>r.id==='mincook-blog-15');assert.ok(recipe);
+ assert.equal(servingLabel(recipe),'1~1.5인분 기준');assert.equal(recipe.baseServings,1);
+ assert.equal(recipe.servingsRangeBasis,'user-confirmed-min');
+ validateData(ingredients,[recipe]);
+ const rows=aggregate(ingredients,recipes,[{recipeId:recipe.id,servings:2}],1);
+ const amount=name=>totalText(rows.find(r=>r.ingredient.name===name));
+ assert.equal(amount('소고기 다짐육'),'200g');assert.equal(amount('두부'),'300g');
+ assert.equal(amount('생청국장'),'160g');assert.equal(amount('고춧가루'),'4숟가락');
+ assert.equal(recipe.ingredients.length,22);
+ assert.throws(()=>validateData(ingredients,[{...recipe,servingsRangeBasis:'arbitrary'}]));
+ assert.throws(()=>validateData(ingredients,[{...recipe,baseServings:1.5}]));
+ const {servingsRangeBasis,...unconfirmed}=recipe;assert.throws(()=>validateData(ingredients,[unconfirmed]));
+ const other=recipes.find(r=>r.servingsRange&&!r.servingsRangeBasis);assert.ok(other);
+ assert.equal(other.baseServings,other.servingsRange.max);
+});
