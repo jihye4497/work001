@@ -1,4 +1,5 @@
 import { ingredientIcon } from './ingredient-icons.js';
+import { recipeSource } from './recipe-sources.js';
 import { BROWSE_CATEGORIES, BROWSE_SUBCATEGORIES, browseIngredients, seasonalIngredients } from './ingredient-browse.js';
 import { syncMenuIngredients } from './menu-ingredients.js';
 import { loadData, CATEGORIES, searchIngredients } from './ingredients.js';
@@ -44,6 +45,13 @@ if (!store.configured && ['ingredients', 'recipes', 'shopping-list'].includes(pa
 }
 
 function resetVisible() { visible = 8; }
+function sourceLabel(recipe) {
+  const source = recipeSource(recipe);
+  if (!source) return null;
+  return source.url
+    ? el('a', {class:'recipe-source', href:source.url, target:'_blank', rel:'noopener noreferrer', 'aria-label':`${recipe.name} 출처: ${source.name} (새 창)`}, `${source.name} ↗`)
+    : el('span', {class:'recipe-source'}, source.name);
+}
 function selectedPanel(compact = false) {
   const entries = store.draft.selectedRecipes.map(s => {
     const recipe = data.recipes.find(r => r.id === s.recipeId);
@@ -51,6 +59,7 @@ function selectedPanel(compact = false) {
       el('div', {class:'selected-line'}, [
         el('div', {class:'selected-menu-label'}, [
           el('strong', {class:'selected-name'}, recipe.name),
+          sourceLabel(recipe),
           ...Object.entries(s.ingredientReplacements||{}).map(([from,to])=>el('span',{class:'muted selected-basis'},`${data.ingredients.find(i=>i.id===from)?.name} → ${data.ingredients.find(i=>i.id===to)?.name} 활용`))
         ]),
         el('div', {class:'counter', role:'group', 'aria-label':`${recipe.name} 준비할 인분`}, [
@@ -330,7 +339,7 @@ function drawRecipes() {
       }));
       searchList.replaceChildren(...[
         el('div',{class:'search-list-heading'},[el('span',{role:'status'},`전체 메뉴 검색 · ${results.length}개`),button('검색 지우기',()=>{store.draft.menuQuery='';input.value='';resetVisible();save();renderResults();input.focus();},'secondary')]),
-        ...choices,
+        ...choices.map((choice,index)=>el('div',{class:'search-menu-entry'},[choice,sourceLabel(slice.items[index].recipe)])),
         !choices.length?el('p',{class:'muted'},'검색 결과가 없어요. 다른 메뉴 이름을 입력해 주세요.'):null,
         slice.hasMore?button('검색 결과 더 보기',()=>{visible+=8;renderResults();},'secondary list-more'):null
       ].filter(Boolean));
@@ -341,7 +350,7 @@ function drawRecipes() {
       const added = store.draft.selectedRecipes.some(s=>s.recipeId===recipe.id);
       return el('article', {class:'recipe-card panel'}, [
         recipe.imagePath ? el('div',{class:'recipe-visual'},[el('img', {src:recipe.imagePath, alt:'', loading:'lazy', decoding:'async', referrerPolicy:'no-referrer', width:480, height:300, class:'recipe-image', onerror:event=>{event.target.hidden=true;const visual=event.target.closest?.('.recipe-visual');if(visual)visual.hidden=true;}}),recipe.imageKind==='generated'?el('span',{class:'ai-image-label'},'AI 생성 이미지'):null]) : null,
-        el('h3', {},recipe.name), el('p', {class:'muted recipe-meta'},servingLabel(recipe)),
+        el('h3', {},recipe.name), sourceLabel(recipe), el('p', {class:'muted recipe-meta'},servingLabel(recipe)),
         el('div', {class:'recipe-card-actions'}, [button(added?'담김':'담기 +', () => {
           addMenu(recipe,replacements);
         }, 'primary', {disabled:added, 'aria-label':`${recipe.name} 담기`}),
