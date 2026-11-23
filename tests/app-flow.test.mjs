@@ -199,11 +199,19 @@ test('한 글자 검색 목록·더 보기·추천 제외 무시·직접 담기�
  const recipe=raw.find(r=>r.id==='kimchi-stew');
  const {body,saved}=await load('recipes',[recipe.id],{draft:{schemaVersion:1,selectedIngredientIds:[],selectedRecipes:[],activeRecommendationMode:'추가 구매 최소',activeInterestIds:[],checkedIngredientIds:[],selectedFoodCategories:['양식']}});
  const input=document.getElementById('menu-search');
+ const order=all(body);
+ assert.ok(order.indexOf(document.getElementById('mode-0'))<order.indexOf(input));
+ assert.ok(order.indexOf(input)<order.indexOf(document.getElementById('food-0')));
+ assert.equal(all(body).find(x=>x.className==='menu-search-total').textContent,`${raw.length}개`);
  assert.equal(document.getElementById('menu-search-list').hidden,true);
  input.value='김';await input.fire('input');
  const options=()=>all(body).filter(x=>x.className.includes('search-menu-option'));
  assert.equal(document.getElementById('menu-search-list').hidden,false);assert.equal(options().length,8);
+ const count=()=>all(body).find(x=>x.className.includes('results-heading')).textContent;
+ assert.match(count(),/\d+개$/);assert.ok(!count().includes('개 중'));
+ const firstCount=count();
  await button(body,'검색 결과 더 보기').click();assert.equal(options().length,16);
+ assert.equal(count(),firstCount);
  input.value=recipe.name;await input.fire('input');
  const choice=options().find(x=>x.attrs['aria-label']===`${recipe.name} 담기`);assert.ok(choice);
  await input.fire('keydown',{key:'ArrowDown'});assert.ok(document.activeElement.className.includes('search-menu-option'));
@@ -420,7 +428,9 @@ test('제목 체크는 부분 선택을 나타내고 제외 이유 취소·보�
 
 
 test('추천 카드 공식 사진은 지연 로딩하고 실패 시 숨기며 메뉴 담기는 유지',async()=>{
- const {body,saved}=await load('recipes');
+ // Verify image behavior independently of the recommendation source priority.
+ const raw=JSON.parse(await readFile(new URL('../data/recipes.json',import.meta.url),'utf8'));
+ const {body,saved}=await load('recipes',raw.filter(r=>r.id!=='mfds-cookrcp01-3296').map(r=>r.id));
  const image=all(body).find(x=>x.tagName==='img'&&x.className==='recipe-image'&&x.attrs.src.startsWith('https://'));assert.ok(image);
  assert.equal(image.attrs.loading,'lazy');assert.equal(image.attrs.decoding,'async');
  assert.ok(image.attrs.src.startsWith('https://www.foodsafetykorea.go.kr/'));

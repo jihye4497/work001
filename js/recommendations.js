@@ -1,5 +1,7 @@
 import { matchIngredient, primaryIngredientIds, representativeIngredient } from './ingredient-matching.js';
 import { isCookingWater } from './ingredient-aliases.js';
+import { recipeSource } from './recipe-sources.js';
+const sourcePriority=recipe=>Number(recipeSource(recipe)?.name==='식품의약품안전처');
 export const MODES=['추가 구매 최소','관심 재료 활용'];
 export const MODE_LABELS=['추가 구매 최소','고른 재료 활용'];
 export const LEGACY_MODES=['재료 최대 활용형','추가 재료 최소형','여러 끼 식단형','세 가지 모두 비교'];
@@ -48,7 +50,8 @@ export function recommend(ingredients,recipes,draft,excludedRecipeIds=[],pantryI
         '우리 집 재료 '+uniqueOwned.length+'종 활용 · '+(extra.length?'추가 구매 '+extra.length+'종':'추가 구매 없음'),
         ...Object.entries(replacements).map(([from,to])=>byId.get(from).name+' → '+byId.get(to).name+' 활용')]});
   }
-  result.sort((a,b)=>(mode===MODES[0]?a.extra.length-b.extra.length||b.owned.length-a.owned.length||b.mainMatches.length-a.mainMatches.length:b.mainMatches.length-a.mainMatches.length||b.owned.length-a.owned.length||a.extra.length-b.extra.length)||a.substitutionCount-b.substitutionCount||a.recipe.name.localeCompare(b.recipe.name,'ko')||a.recipe.id.localeCompare(b.recipe.id));
+  // Keep every eligible recipe; prefer other sources, then retain each mode's ordering.
+  result.sort((a,b)=>sourcePriority(a.recipe)-sourcePriority(b.recipe)||(mode===MODES[0]?a.extra.length-b.extra.length||b.owned.length-a.owned.length||b.mainMatches.length-a.mainMatches.length:b.mainMatches.length-a.mainMatches.length||b.owned.length-a.owned.length||a.extra.length-b.extra.length)||a.substitutionCount-b.substitutionCount||a.recipe.name.localeCompare(b.recipe.name,'ko')||a.recipe.id.localeCompare(b.recipe.id));
   return result;
 }
 export function searchMenus(recipes,query) {

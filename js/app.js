@@ -321,7 +321,7 @@ function drawRecipes() {
     }
     const slice = pageResults(results,visible);
     resultTitle.textContent=query?'메뉴 검색 결과':'추천 메뉴';
-    resultCount.textContent=`${results.length}개 중 ${slice.items.length}개`;
+    resultCount.textContent=`${results.length}개`;
     searchList.hidden=!query;
     content.hidden=Boolean(query);
     if(query) {
@@ -382,11 +382,11 @@ function drawRecipes() {
     el('section',{id:'recommendations-panel','aria-label':'추천 메뉴와 검색'},[
       el('section',{class:'recommendation-controls'},[
         tabs,
+        el('label',{htmlFor:input.id,class:'flow-heading'},'전체 메뉴 검색'),
+        el('div',{class:'menu-search-field'},[input,el('span',{class:'menu-search-total','aria-label':'전체 메뉴 수'},`${data.recipes.length}개`)]),
         el('div',{class:'food-kinds'},[el('span',{class:'flow-heading'},'음식 종류'),filters]),
         modeIndex===1?el('div',{class:'interest-section'},[el('div',{class:'section-heading'},[interestHeading,el('div',{class:'interest-actions'},[toggleAllInterests,link('재료 수정',url('ingredients.html?tab=planned'))])]),interests.length?interestChips:link('장바구니 재료 고르기',url('ingredients.html?tab=planned'))]):null
       ]),el('div',{id:'recipe-feedback',role:'status','aria-live':'polite'}),
-      el('label',{htmlFor:input.id,class:'flow-heading'},'메뉴 검색'),
-      el('div',{class:'menu-search-field'},[input,el('span',{class:'menu-search-total','aria-label':'전체 메뉴 수'},`${data.recipes.length}개`)]),
       resultHeading,searchList,content
     ]),
     el('div',{class:'recipe-bottom'},[selectedPanel(true),link('장보기 목록 →',url('shopping-list.html'),'button primary')])
