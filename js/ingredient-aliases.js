@@ -1,5 +1,19 @@
 // User-reviewed equivalences only. Fresh/dried/powder/liquid and distinct products stay separate.
 export const INGREDIENT_ALIAS_GROUPS=[
+ {name:'표고버섯 기둥',aliases:['표고버섯 밑동']},
+ {name:'느타리버섯',aliases:['참느타리버섯']},
+ {name:'건곤드레나물',aliases:['건곤드레']},
+ {name:'아보카도',aliases:['아보카도작은것']},
+ {name:'수박껍질',aliases:['수박 속껍질']},
+ {name:'방울토마토',aliases:['체리토마토']},
+ {name:'현미',aliases:['현미쌀']},
+ {name:'보리쌀',aliases:['보리']},
+ {name:'불린 현미',aliases:['현미(불린것)']},
+ {name:'캔 옥수수',aliases:['옥수수콘']},
+ {name:'완두콩',aliases:['완두콩알']},
+ {name:'혼합견과류',aliases:['혼합견과','견과류 믹스']},
+ {name:'연어 필렛',aliases:['연어 필레']},
+ {name:'훈제연어',aliases:['훈재연어']},
  {name:'카레 가루',aliases:['커리가루'],searchTerms:['카레가루','커리 가루']},
  {name:'코리앤더가루',aliases:['코리앤더파우더'],searchTerms:['코리엔더가루','코리엔더 파우더','코리앤더 파우더']},
  {name:'코리앤더 씨드',aliases:[],searchTerms:['코리엔더씨드','고수 씨앗']},
@@ -95,8 +109,8 @@ export const INGREDIENT_ALIAS_GROUPS=[
  {name:'거피들깨가루',aliases:['거피한 들깨가루','깐들깨가루']},
  {name:'미소된장',aliases:['일본된장','일식된장','일식된장 미소']},
  {name:'고추냉이',aliases:['고추냉이 갠것','와사비','와사미'],note:'와사미는 등심 배구이 원문 문맥상 오타로 편집 판단, 원문 보존'},
- {name:'가다랑어포',aliases:['가쓰오부시','가쯔오부시','가츠오부시']},
- {name:'사과',aliases:['굵게 다진 사과']},
+ {name:'가다랑어포',aliases:['가쓰오부시','가쯔오부시','가츠오부시','혼다랑어가쓰오부시']},
+ {name:'사과',aliases:['굵게 다진 사과','사과작은것']},
  {name:'레몬껍질',aliases:['레몬(껍질)']},
  {name:'건미역',aliases:['건조미역','미역마른것','마른 미역']}
 ];

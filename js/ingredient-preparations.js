@@ -1,5 +1,16 @@
 // Availability families only: preparation quantities are never converted to raw weight.
 const groups = [
+  {name:'고등어', forms:['손질된 고등어','고등어 필렛']},
+  {name:'흰살생선', forms:['손질된 흰살생선']},
+  {name:'연어', forms:['슬라이스연어','연어 필렛']},
+  {name:'표고버섯', forms:['표고버섯 기둥']},
+  {name:'현미', forms:['불린 현미','볶은현미']},
+  {name:'수수', forms:['볶은수수']},
+  {name:'율무', forms:['볶은율무']},
+  {name:'쌀', forms:['불린쌀']},
+  {name:'찹쌀', forms:['불린 찹쌀']},
+  {name:'건곤드레나물', forms:['불린 곤드레나물']},
+  {name:'옥수수', forms:['옥수수알']},
   {name:'참깨', forms:['볶은통깨']},
   {name:'건 표고버섯', forms:['불린 표고버섯']},
   {name:'사과즙', forms:['사과주스']},
