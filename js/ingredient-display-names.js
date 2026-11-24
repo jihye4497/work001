@@ -4,7 +4,10 @@ export const MEAT_DISPLAY_NAMES = {
  '잡채용 등심':'돼지고기(등심·추정)',
  '소 늑간살':'소고기(늑간살)', '소꼬리':'소고기(꼬리)', '소대창':'소고기(대창)',
  '갈매기살':'돼지고기(갈매기살)',
- '간':'축종 미기재(간)', '허파':'축종 미기재(허파)', '구운 대창':'축종 미기재(대창)',
+ // Pork liver confirmed by the user on 2026-11-24 (recipes 504/298).
+ '간':'돼지고기(간)', '허파':'축종 미기재(허파)',
+ // Selection uses the 소대창 family; this label preserves the cooked quantity form.
+ '구운 대창':'소고기(대창·구운 것)',
  '항정살':'돼지고기(항정살)',
  '초벌소깐양':'소고기(깐양)',
  // Species confirmed by the user on 2026-11-24; source labels remain unchanged.
@@ -52,7 +55,7 @@ export function ingredientDisplayName(ingredient) {
 }
 export const SEAFOOD_DISPLAY_NAMES={
  '대하':'새우(대하)', '흰다리새우':'새우(흰다리)', '블랙타이거새우':'새우(블랙타이거)',
- '새우살':'새우(살)', '칵테일새우':'새우(칵테일)', '건새우':'새우(건조)',
+ '새우살':'새우(살)', '칵테일새우':'새우(칵테일)', '건새우':'건새우',
  '자숙새우':'새우(자숙)', '냉동 새우살':'새우살(냉동)',
  '냉동 새우':'새우(냉동)', '노바시 새우':'새우(노바시)',
  '백새우':'새우(백새우)', '보리새우':'새우(보리새우)', '게살냉동':'게살(냉동)',
@@ -64,9 +67,26 @@ export const SEAFOOD_DISPLAY_NAMES={
 };
 export function ingredientDetailNote(ingredient) {
  const name=typeof ingredient==='string'?ingredient:ingredient?.name;
+ if(name==='구운 대창')return '원문은 구운 대창이며 축종이 명시되지 않아 사용자 확인에 따라 소 대창으로 추정했어요. 수량은 구운 상태 기준이에요.';
  return ['회','생선살'].includes(name)?'어종이 원문에 명시되지 않았어요. 원본 레시피를 확인해 주세요.':name==='알'?'알의 종류가 원문에 명시되지 않았어요. 원본 레시피를 확인해 주세요.':'';
 }
 const PREPARATION_DISPLAY_NAMES={
+ // Display convention approved 2026-11-24. Keep source names/IDs intact.
+ '건 표고버섯':'건표고버섯',
+ '말린 자두':'건자두',
+ '말린 토마토':'건토마토',
+ '말린 매생이':'건매생이',
+ '건조체리':'건체리',
+ '건조미역줄기':'건미역줄기',
+ '파슬리말린것':'건파슬리',
+ '말린오미자':'건오미자',
+ '말린 크랜베리':'건크랜베리',
+ '말린 아로니아':'건아로니아',
+ '말린 능이버섯':'건능이버섯',
+ '건조 코코넛':'건코코넛',
+ '타임 마른것':'건타임',
+ '바질마른것':'건바질',
+ '로즈마리마른것':'건로즈마리',
  '곁들임 채소':'곁들임 채소(종류 미기재)',
  '통단팥':'단팥(통알)',
  '월계수잎마른것':'건월계수잎',

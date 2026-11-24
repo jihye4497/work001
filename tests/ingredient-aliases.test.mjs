@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {INGREDIENT_ALIAS_GROUPS} from '../js/ingredient-aliases.js';
+import {ingredientDisplayName} from '../js/ingredient-display-names.js';
 import {representativeIngredient,matchIngredient} from '../js/ingredient-matching.js';
 import {searchIngredients} from '../js/ingredients.js';
 import {ingredientBrowseGroup,browseIngredients} from '../js/ingredient-browse.js';
@@ -22,6 +23,40 @@ test('승인된 모든 표기는 등록된 대표 재료로 연결하고 목록�
 });
 test('생강가루·즙·청, 치즈가루·치즈, 생허브·건허브는 자동 대체하지 않음',()=>{
  for(const [a,b] of [['생강','생강가루'],['생강','생강즙'],['생강','생강청'],['바질','건바질'],['바질','바질페스토'],['로즈마리','건로즈마리'],['파르메산 치즈','파르메산 치즈가루'],['파프리카','파프리카가루'],['양파','적양파']])assert.equal(matchIngredient(get(a).id,get(b).id,recipe(get(a)),byId),0,`${a}/${b}`);
+});
+
+test('건조 재료는 건 접두어로 표시하고 동일 건조 재료만 선택 통합',()=>{
+ const labels={'건 표고버섯':'건표고버섯','마른 표고버섯':'건표고버섯','월계수잎마른것':'건월계수잎','오레가노마른것':'건오레가노','파슬리말린것':'건파슬리','말린 자두':'건자두','말린 매생이':'건매생이','건조체리':'건체리','건조미역줄기':'건미역줄기','마른미역줄기':'건미역줄기','말린오미자':'건오미자','말린 크랜베리':'건크랜베리','말린 아로니아':'건아로니아','말린 능이버섯':'건능이버섯','건조 코코넛':'건코코넛','말린 토마토':'건토마토','건조토마토':'건토마토','드라이토마토':'건토마토','마른 새우':'건새우','홍고추마른것':'건홍고추','말린 홍고추':'건홍고추','말린 청양고추':'건청양고추','마른 다시마':'건다시마'};
+ for(const [name,label] of Object.entries(labels)){
+  assert.equal(ingredientDisplayName(get(name)),label,name);
+  const target=representativeIngredient(get(name),byId);
+  assert.ok(searchIngredients(ingredients,label).some(i=>i.id===target.id),label);
+ }
+ for(const [a,b] of [['말린 토마토','토마토'],['말린 크랜베리','크랜베리'],['말린 자두','자두'],['건새우','새우'],['건고추','건홍고추'],['파슬리말린것','파슬리가루']]){
+  assert.equal(matchIngredient(get(a).id,get(b).id,recipe(get(a)),byId),0,`${a}/${b}`);
+ }
+ const names=['말린 토마토','건조토마토','드라이토마토'];
+ const r={id:'dried-tomatoes',name:'검수',baseServings:1,ingredients:names.map(name=>({ingredientId:get(name).id,amount:10,unit:'g',note:null}))};
+ const before=JSON.stringify(r),rows=aggregate(ingredients,[r],[{recipeId:r.id,servings:1}],1);
+ assert.equal(rows.length,1);assert.equal(totalText(rows[0]),'30g');
+ assert.deepEqual(rows[0].uses.map(u=>u.originalIngredientName),names);assert.equal(JSON.stringify(r),before);
+});
+
+test('멜론·크랜베리 표기 통합은 원문과 수량·저장 선택을 보존하고 다른 제품과 구분',()=>{
+ for(const [a,b] of [['크랜베리','말린 크랜베리'],['멜론','메로나'],['케첩','저당 케첩'],['토르티야','통밀또띠아'],['커민','커민파우더'],['에멘탈 치즈','모차렐라 치즈']]){
+  assert.equal(matchIngredient(get(a).id,get(b).id,recipe(get(a)),byId),0,`${a}/${b}`);
+ }
+ const names=['크랜베리','크렌베리','크린베리'];
+ const r={id:'cranberry-spelling',name:'검수',baseServings:1,ingredients:names.map(name=>({ingredientId:get(name).id,amount:10,unit:'g',note:null}))};
+ const before=JSON.stringify(r),draft={...defaultDraft(),selectedIngredientIds:names.map(n=>get(n).id),manualIngredientIds:names.map(n=>get(n).id),activeInterestIds:names.map(n=>get(n).id),selectedRecipes:[{recipeId:r.id,servings:1}]};
+ syncMenuIngredients(draft,ingredients,[r]);
+ assert.deepEqual(draft.selectedIngredientIds,[get('크랜베리').id]);
+ const rows=aggregate(ingredients,[r],draft.selectedRecipes,1);
+ assert.equal(rows.length,1);assert.equal(totalText(rows[0]),'30g');
+ assert.deepEqual(rows[0].uses.map(u=>u.originalIngredientName),names);assert.equal(JSON.stringify(r),before);
+ const saved=new Map([[KEYS.preferences,JSON.stringify({schemaVersion:1,pantryIngredientIds:[get('메론').id,...names.map(n=>get(n).id)],excludedRecipeIds:[]})]]);
+ const store=createStore({getItem:k=>saved.get(k)??null,setItem:(k,v)=>saved.set(k,v)});store.reconcile(ingredients,[r]);
+ assert.deepEqual(store.pantryIngredientIds,[get('멜론').id,get('크랜베리').id]);
 });
 test('자동 관심·보유·추천·합산은 대표 재료로 연결하며 단위·원문 손질 메모 유지',()=>{
  const source=get('다진 양파'),target=get('양파');const r=recipe(source);

@@ -10,6 +10,25 @@ import {createStore,KEYS} from '../js/storage.js';
 const ingredients=JSON.parse(await readFile(new URL('../data/ingredients.json',import.meta.url),'utf8'));
 const get=name=>ingredients.find(i=>i.name===name),byId=new Map(ingredients.map(i=>[i.id,i]));
 
+test('소 추정 구운 대창은 소대창으로 선택하고 추정·구운 원문 수량은 장보기에서 보존',()=>{
+ const raw=get('구운 대창'),base=get('소대창');
+ assert.equal(representativeIngredient(raw,byId).id,base.id);
+ assert.equal(ingredientDisplayName(representativeIngredient(raw,byId)),'소고기(대창)');
+ assert.ok(!browseIngredients(ingredients,'육·수산').some(i=>i.id===raw.id));
+ assert.deepEqual(searchIngredients(ingredients,'구운 대창').map(i=>i.id),[base.id]);
+ const recipe={id:'intestine-review',name:'검수',baseServings:1,ingredients:[{ingredientId:base.id,amount:100,unit:'g',note:null},{ingredientId:raw.id,amount:200,unit:'g',note:null}]};
+ const before=JSON.stringify(recipe),rows=aggregate(ingredients,[recipe],[{recipeId:recipe.id,servings:1}],1);
+ assert.equal(rows.length,1);assert.match(rows[0].detailNote,/소 대창으로 추정/);
+ assert.equal(rows[0].preparations.get('소대창').totals.get('g'),100);
+ assert.equal(rows[0].preparations.get('구운 대창').totals.get('g'),200);
+ assert.match(totalText(rows[0]),/구운 것.*200g/);
+ assert.equal(rows[0].uses[1].originalIngredientName,'구운 대창');
+ assert.equal(JSON.stringify(recipe),before);
+ const saved=new Map([[KEYS.preferences,JSON.stringify({schemaVersion:1,excludedRecipeIds:[],pantryIngredientIds:[raw.id]})]]);
+ const store=createStore({getItem:k=>saved.get(k)??null,setItem:(k,v)=>saved.set(k,v)});store.reconcile(ingredients,[recipe]);
+ assert.deepEqual(store.pantryIngredientIds,[base.id]);
+});
+
 test('승인된 새우 표기와 주꾸미·수란 연결은 원본 형태·종류별 수량을 보존',()=>{
  assert.equal(representativeIngredient(get('쭈꾸미'),byId).id,get('주꾸미').id);
  assert.equal(representativeIngredient(get('수란'),byId).id,get('계란').id);
@@ -72,7 +91,7 @@ test('불림·볶음·부분·손질 생선의 무게와 단위는 통재료 구
 test('추가 고기·내장은 고기, 가다랑어포·저염살라미는 가공품이며 축종(부위) 유지',()=>{
  for(const name of ['간','허파','갈매기살','구운 대창','소 늑간살','소꼬리','소대창'])assert.deepEqual(ingredientBrowseGroup(get(name)),{category:'육·수산',subcategory:'고기'},name);
  for(const name of ['가다랑어포','저염살라미'])assert.deepEqual(ingredientBrowseGroup(get(name)),{category:'기타',subcategory:'가공식품'},name);
- for(const [name,label] of [['소 늑간살','소고기(늑간살)'],['소꼬리','소고기(꼬리)'],['소대창','소고기(대창)'],['갈매기살','돼지고기(갈매기살)'],['간','축종 미기재(간)'],['허파','축종 미기재(허파)'],['구운 대창','축종 미기재(대창)']])assert.equal(ingredientDisplayName(get(name)),label);
+ for(const [name,label] of [['소 늑간살','소고기(늑간살)'],['소꼬리','소고기(꼬리)'],['소대창','소고기(대창)'],['갈매기살','돼지고기(갈매기살)'],['간','돼지고기(간)'],['허파','축종 미기재(허파)'],['구운 대창','소고기(대창·구운 것)']])assert.equal(ingredientDisplayName(get(name)),label);
  assert.equal(ingredientDisplayName(get('생선살')),'생선살');assert.equal(ingredientDisplayName(get('회')),'회');
 });
 

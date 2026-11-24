@@ -79,7 +79,7 @@ test('건표고·불린 표고, 사과즙·주스, 오미자청·액기스는 �
   const recipe={id:'forms',name:'원문 보존',baseServings:1,ingredients:[base,...forms].map(name=>({ingredientId:get(name).id,amount:10,unit:'g',note:null}))};
   const before=JSON.stringify(recipe),rows=aggregate(ingredients,[recipe],[{recipeId:recipe.id,servings:1}],1);
   assert.equal(rows.length,1);assert.equal(rows[0].ingredient.id,get(base).id);assert.equal(JSON.stringify(recipe),before);
-  if(base==='건 표고버섯')assert.equal(totalText(rows[0]),'건 표고버섯 20g + 불린 표고버섯 10g');
+  if(base==='건 표고버섯')assert.equal(totalText(rows[0]),'건표고버섯 20g + 불린 표고버섯 10g');
   if(base==='사과즙')assert.equal(totalText(rows[0]),'사과즙 10g + 사과주스 20g');
   if(base==='오미자청')assert.equal(totalText(rows[0]),'오미자청 10g + 오미자액 10g + 오미자 액기스 10g');
  }

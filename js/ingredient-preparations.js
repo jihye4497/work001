@@ -1,5 +1,25 @@
 // Availability families only: preparation quantities are never converted to raw weight.
 const groups = [
+ // User-approved bovine estimate, 2026-11-24; source 177 only says grilled intestine.
+ {name:'소대창', forms:['구운 대창']},
+ // Reviewed across the vegetable catalog, not inferred by stripping arbitrary words.
+ // Chopped and blended remain distinct source forms; cooked weights never become raw weights.
+ {name:'양파', forms:['간 양파']},
+ {name:'홍고추', forms:['간 홍고추']},
+ {name:'다진 마늘', forms:['간 마늘']},
+ {name:'토마토', forms:['토마토콩카세']},
+ {name:'미나리', forms:['데친 미나리']},
+ {name:'감자', forms:['찐 감자']},
+ {name:'고구마', forms:['찐 고구마']},
+ {name:'연근', forms:['자숙 연근']},
+ {name:'우거지', forms:['데친 우거지']},
+ {name:'토란줄기', forms:['데친 토란대','삶은 토란대','데친 토란줄기']},
+ {name:'고사리', forms:['불린 고사리']},
+ {name:'무말랭이', forms:['불린 무말랭이']},
+ {name:'건함초', forms:['불린 함초']},
+ {name:'목이버섯', forms:['불린 목이버섯']},
+ {name:'콩나물', forms:['두절콩나물']},
+ {name:'꼬막', forms:['데친 꼬막살','자숙꼬막']},
   {name:'멍게', forms:['멍게살']},
   {name:'소라', forms:['소라살']},
   {name:'전복', forms:['전복살']},
