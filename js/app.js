@@ -5,7 +5,7 @@ import { BROWSE_CATEGORIES, BROWSE_SUBCATEGORIES, browseIngredients, seasonalIng
 import { syncMenuIngredients } from './menu-ingredients.js';
 import { loadData, CATEGORIES, searchIngredients } from './ingredients.js';
 import { MODES, MODE_LABELS, MODE_DESCRIPTIONS, recommend, pageResults, searchMenus, recipeAvailability, replacementsFor } from './recommendations.js';
-import { aggregate, selectedServings, totalText, quantity, selectedCopyText, partitionShoppingRows, preparationText } from './shopping-list.js';
+import { aggregate, selectedServings, totalText, quantity, selectedCopyText, partitionShoppingRows, preparationText, recipeMaterialNames } from './shopping-list.js';
 import { createStore } from './storage.js';
 import { el, button, link, empty } from './ui.js';
 import { servingLabel } from './servings.js';
@@ -46,12 +46,73 @@ if (!store.configured && ['ingredients', 'recipes', 'shopping-list'].includes(pa
 }
 
 function resetVisible() { visible = 8; }
+let openRecipeInfo=null;
+function closeRecipeInfo(restoreFocus=false) {
+  if(!openRecipeInfo)return;
+  const {details,summary}=openRecipeInfo;
+  details.open=false;summary.setAttribute('aria-expanded','false');openRecipeInfo=null;
+  if(restoreFocus)summary.focus();
+}
+function positionRecipeInfo() {
+  if(!openRecipeInfo)return;
+  const panel=openRecipeInfo.panel;
+  if(!panel.style||!panel.getBoundingClientRect)return;
+  panel.style.transform='';
+  const rect=panel.getBoundingClientRect(),width=document.documentElement?.clientWidth||window.innerWidth;
+  if(!width)return;
+  const gutter=typeof getComputedStyle==='function'?parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--gutter'))||0:0;
+  const shift=rect.left<gutter?gutter-rect.left:rect.right>width-gutter?width-gutter-rect.right:0;
+  panel.style.transform=`translateX(${shift}px)`;
+}
+function recipeInfo(recipe,materials) {
+  const summary=el('summary',{'aria-label':`${recipe.name} 재료 정보`,'aria-expanded':'false'},'재료 정보');
+  const details=el('details',{class:'recipe-options'});
+  const panel=el('div',{class:'recipe-options-content'},[
+    el('div',{class:'recipe-info-header'},[button('×',()=>closeRecipeInfo(true),'recipe-info-close',{'aria-label':`${recipe.name} 재료 정보 닫기`})]),
+    el('dl',{class:'recipe-materials'},[
+      el('dt',{},'우리 집 재료'),el('dd',{},materials.owned.join(', ')||'없음'),
+      el('dt',{},'새로 살 재료'),el('dd',{},materials.buy.join(', ')||'없음')
+    ]),
+    button([el('span',{class:'recipe-exclude-icon','aria-hidden':'true'},'⊘'),' 앞으로 추천에서 제외'],()=>excludeRecipe(recipe),'recipe-exclude',{'aria-label':'앞으로 추천에서 제외'})
+  ]);
+  details.append(summary,panel);
+  summary.addEventListener('click',event=>{
+    event.preventDefault();
+    if(details.open){closeRecipeInfo();return;}
+    closeRecipeInfo();details.open=true;summary.setAttribute('aria-expanded','true');openRecipeInfo={details,summary,panel};
+    positionRecipeInfo();
+  });
+  return details;
+}
+if(page==='recipes') {
+  document.addEventListener('click',event=>{if(openRecipeInfo&&!openRecipeInfo.details.contains(event.target))closeRecipeInfo();});
+  document.addEventListener('keydown',event=>{if(event.key==='Escape'&&openRecipeInfo){event.preventDefault();closeRecipeInfo(true);}});
+  window.addEventListener?.('resize',positionRecipeInfo);
+}
+function confirmRecipeSource(source, origin) {
+  if(document.getElementById('recipe-source-dialog'))return;
+  const hostname=new URL(source.url).hostname;
+  const youtube=hostname==='youtu.be'||hostname==='youtube.com'||hostname.endsWith('.youtube.com');
+  const blog=hostname==='blog.naver.com'||hostname.endsWith('.tistory.com');
+  const destination=youtube?'유튜브':blog?'블로그':'출처 사이트';
+  const cancel=button('취소',()=>dialog.close(),'secondary',{id:'cancel-recipe-source'});
+  const open=el('a',{id:'open-recipe-source',class:'button primary',href:source.url,target:'_blank',rel:'noopener noreferrer',onclick:()=>setTimeout(()=>dialog.close(),0)},youtube?'유튜브 열기':blog?'블로그 열기':'원문 열기');
+  const dialog=el('dialog',{id:'recipe-source-dialog','aria-labelledby':'recipe-source-title','aria-describedby':'recipe-source-description'},[
+    el('h2',{id:'recipe-source-title'},`${destination}에서 원본 레시피를 볼까요?`),
+    el('p',{id:'recipe-source-description'},'새 창에서 열려요.'),
+    el('div',{class:'actions'},[cancel,open])
+  ]);
+  dialog.addEventListener('close',()=>{dialog.remove();origin.focus();});
+  document.body.append(dialog);dialog.showModal();cancel.focus();
+}
 function sourceLabel(recipe) {
   const source = recipeSource(recipe);
   if (!source) return null;
-  return source.url
-    ? el('a', {class:'recipe-source', href:source.url, target:'_blank', rel:'noopener noreferrer', 'aria-label':`${recipe.name} 출처: ${source.name} (새 창)`}, `${source.name} ↗`)
-    : el('span', {class:'recipe-source'}, source.name);
+  if(!source.url)return el('span', {class:'recipe-source'}, source.name);
+  const anchor=el('a', {class:'recipe-source', href:source.url, target:'_blank', rel:'noopener noreferrer', 'aria-haspopup':'dialog', 'aria-label':`${recipe.name} 출처: ${source.name} (확인 후 새 창)`,onclick:event=>{
+    event.preventDefault();confirmRecipeSource(source,anchor);
+  }}, `${source.name} ↗`);
+  return anchor;
 }
 function selectedPanel(compact = false) {
   const entries = store.draft.selectedRecipes.map(s => {
@@ -320,6 +381,7 @@ function drawRecipes() {
   const resultCount=el('span',{class:'muted',role:'status'});
   const resultHeading=el('div',{class:'section-heading results-heading'},[resultTitle,resultCount]);
   function renderResults() {
+    closeRecipeInfo();
     const query = store.draft.menuQuery.trim();
     const results = query ? searchMenus(data.recipes,query).map(recipe => {
       const availability = recipeAvailability(recipe,data.ingredients,store.pantryIngredientIds);
@@ -372,16 +434,14 @@ function drawRecipes() {
     searchList.replaceChildren();
     const cards = slice.items.map(({recipe,reasons,replacements}) => {
       const added = store.draft.selectedRecipes.some(s=>s.recipeId===recipe.id);
+      const materials=recipeMaterialNames(recipe,data.ingredients,store.pantryIngredientIds,replacements);
       return el('article', {class:'recipe-card panel'}, [
         recipe.imagePath ? el('div',{class:'recipe-visual'},[el('img', {src:recipe.imagePath, alt:'', loading:'lazy', decoding:'async', referrerPolicy:'no-referrer', width:480, height:300, class:'recipe-image', onerror:event=>{event.target.hidden=true;const visual=event.target.closest?.('.recipe-visual');if(visual)visual.hidden=true;}}),recipe.imageKind==='generated'?el('span',{class:'ai-image-label'},'AI 생성 이미지'):null]) : null,
         el('h3', {},recipe.name), sourceLabel(recipe), el('p', {class:'muted recipe-meta'},servingLabel(recipe)),
         el('div', {class:'recipe-card-actions'}, [button(added?'담김':'담기 +', () => {
           addMenu(recipe,replacements);
         }, 'primary', {disabled:added, 'aria-label':`${recipe.name} 담기`}),
-        el('details', {class:'recipe-options'}, [el('summary', {'aria-label':`${recipe.name} 더 보기`},'⋯'), el('div', {class:'recipe-options-content'}, [
-          el('ul', {class:'reasons'},reasons.map(reason=>el('li',{},reason))),
-          button('앞으로 추천받지 않기',()=>excludeRecipe(recipe),'secondary')
-        ])])])
+        recipeInfo(recipe,materials)])
       ]);
     });
     content.replaceChildren(...[
@@ -425,9 +485,13 @@ function showUndo(message, action) {
 }
 function excludeRecipe(recipe) {
   store.setExcludedRecipeIds([...store.excludedRecipeIds, recipe.id]); warnings(); resetVisible(); drawRecipes(); focus('results-title');
-  showUndo(`${recipe.name} 메뉴를 추천에서 제외했어요.`, () => {
-    store.setExcludedRecipeIds(store.excludedRecipeIds.filter(id => id !== recipe.id)); warnings(); drawRecipes(); focus('results-title'); announce(`${recipe.name} 메뉴를 다시 추천해요.`);
-  });
+  const confirm=button('확인',()=>dialog.close(),'primary',{id:'confirm-recipe-exclusion'});
+  const dialog=el('dialog',{id:'recipe-exclusion-notice','aria-label':'추천 제외 안내','aria-describedby':'recipe-exclusion-message'},[
+    el('p',{id:'recipe-exclusion-message'},'설정의 ‘제외한 메뉴 관리’에서 해제할 수 있어요.'),
+    el('div',{class:'actions'},confirm)
+  ]);
+  dialog.addEventListener('close',()=>{dialog.remove();focus(`mode-${MODES.indexOf(store.draft.activeRecommendationMode)}`);});
+  document.body.append(dialog);dialog.showModal();confirm.focus();
 }
 
 function drawShopping() {

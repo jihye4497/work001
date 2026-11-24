@@ -84,6 +84,12 @@ export function partitionShoppingRows(rows, pantryIds = [], ingredients = []) {
     return group === title && (title !== '구매할 재료' || !isDrinkingWater(row.ingredient));
   })}));
 }
+export function recipeMaterialNames(recipe,ingredients,pantryIds=[],replacements={}) {
+ const rows=aggregate(ingredients,[recipe],[{recipeId:recipe.id,servings:recipe.baseServings,ingredientReplacements:replacements}],1);
+ const [buying,owned]=partitionShoppingRows(rows,pantryIds,ingredients);
+ const names=items=>[...new Set(items.map(row=>ingredientDisplayName(row.ingredient)))];
+ return {owned:names(owned.rows.filter(row=>!row.ingredient.isSeasoning)),buy:names(buying.rows)};
+}
 export function copyText(rows, checkedIds, pantryIds, ingredients = []) {
   const lines = [];
   const groups = pantryIds === undefined ? CATEGORIES.map(title => ({title, rows: rows.filter(r => r.ingredient.category === title)})) : partitionShoppingRows(rows, pantryIds, ingredients);

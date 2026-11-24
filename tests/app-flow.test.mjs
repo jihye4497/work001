@@ -19,6 +19,7 @@ class Element {
   showModal(){this.open=true;}
   close(){this.open=false;void this.fire('close');}
   get children(){return this.childNodes;}
+  contains(node){return this===node||this.childNodes.some(child=>child.contains(node));}
   get textContent(){return this.text??this.childNodes.map(x=>x.textContent).join('');}
   set textContent(v){this.text=String(v);this.childNodes=[];}
 }
@@ -31,7 +32,7 @@ const load=async (page,excludedIds=[],overrides={})=>{
   const body=new Element('body');body.dataset.page=page;
   for(const id of ['app','warnings','live']){const node=new Element();node.id=id;body.append(node);}
   const setting=new Element('a');setting.attrs['data-settings']='';body.append(setting);
-  globalThis.document={body,createElement:tag=>new Element(tag),createTextNode:text=>{const n=new Element('#text');n.textContent=text;return n;},getElementById:id=>find(body,x=>x.id===id),querySelector:selector=>selector.startsWith('#')?find(body,x=>x.id===selector.slice(1)):find(body,x=>x.className.split(' ').includes(selector.slice(1))),querySelectorAll:()=>[setting]};
+  globalThis.document={body,addEventListener:(name,fn)=>body.addEventListener(name,fn),createElement:tag=>new Element(tag),createTextNode:text=>{const n=new Element('#text');n.textContent=text;return n;},getElementById:id=>find(body,x=>x.id===id),querySelector:selector=>selector.startsWith('#')?find(body,x=>x.id===selector.slice(1)):find(body,x=>x.className.split(' ').includes(selector.slice(1))),querySelectorAll:()=>[setting]};
   const saved=new Map([['jmd_settings_v1',JSON.stringify({'기본 식사 인원':2,'기본 추천 방식':'재료 최대 활용형'})],['jmd_draft_v1',JSON.stringify({schemaVersion:1,selectedIngredientIds:['onion'],selectedRecipes:[],activeRecommendationMode:'재료 최대 활용형',checkedIngredientIds:[]})]]);
   if(overrides.people)saved.set('jmd_settings_v1',JSON.stringify({'기본 식사 인원':overrides.people,'기본 추천 방식':'추가 구매 최소'}));
   if(overrides.unconfigured)saved.delete('jmd_settings_v1');
@@ -46,6 +47,39 @@ const load=async (page,excludedIds=[],overrides={})=>{
   for(let i=0;i<10&&!find(body,x=>x.className.includes(page==='recipes'?'recipe-card':page==='home'?'people-setup':page==='shopping-list'?'shopping-category':'settings-form'));i++)await new Promise(resolve=>setTimeout(resolve,10));
   return {body,saved};
 };
+
+test('재료 정보는 하나만 열고 내부 클릭 유지·바깥 클릭·닫기·Esc를 처리',async()=>{
+ const {body,saved}=await load('recipes');
+ const infos=all(body).filter(n=>n.className==='recipe-options');assert.ok(infos.length>=2);
+ const [first,second]=infos;const summary=first.children[0],other=second.children[0];
+ const before=[...saved];
+ await summary.click();assert.equal(first.open,true);assert.equal(summary.attrs['aria-expanded'],'true');
+ await body.fire('click',{target:find(first,n=>n.tagName==='dd')});assert.equal(first.open,true);
+ await other.click();assert.equal(first.open,false);assert.equal(second.open,true);
+ await button(second,'×').click();assert.equal(second.open,false);assert.equal(document.activeElement,other);
+ await summary.click();await body.fire('click',{target:body});assert.equal(first.open,false);
+ await summary.click();await body.fire('keydown',{key:'Escape'});assert.equal(first.open,false);assert.equal(document.activeElement,summary);
+ await summary.click();const input=document.getElementById('menu-search');input.value='김치';await input.fire('input');assert.equal(first.open,false);
+ const after=new Map(saved);const original=new Map(before);
+ assert.equal(after.get('jmd_recipe_preferences_v1'),original.get('jmd_recipe_preferences_v1'));
+ assert.deepEqual(JSON.parse(after.get('jmd_draft_v1')).selectedRecipes,JSON.parse(original.get('jmd_draft_v1')).selectedRecipes);
+});
+
+test('레시피 출처는 유튜브·블로그 확인창에서 취소/확인하고 기존 작업 유지',async()=>{
+ const {body,saved}=await load('recipes');
+ for(const [query,host,label] of [['김치찌개','youtube.com','유튜브'],['원팬으로 만드는 잡채','tistory.com','블로그']]){
+  const input=document.getElementById('menu-search');input.value=query;await input.fire('input');
+  const source=find(body,n=>n.className==='recipe-source'&&n.attrs.href?.includes(host));assert.ok(source,query);
+  const before=[...saved];let prevented=false;
+  await source.fire('click',{preventDefault(){prevented=true;}});
+  assert.ok(prevented);assert.equal(document.getElementById('recipe-source-title').textContent,`${label}에서 원본 레시피를 볼까요?`);
+  assert.equal(document.getElementById('recipe-source-description').textContent,'새 창에서 열려요.');
+  await document.getElementById('cancel-recipe-source').click();assert.ok(!document.getElementById('recipe-source-dialog'));assert.equal(document.activeElement,source);
+  await source.click();const open=document.getElementById('open-recipe-source');
+  assert.equal(open.attrs.href,source.attrs.href);assert.equal(open.attrs.target,'_blank');assert.equal(open.attrs.rel,'noopener noreferrer');assert.equal(open.textContent,`${label} 열기`);
+  await open.click();await new Promise(resolve=>setTimeout(resolve,0));assert.ok(!document.getElementById('recipe-source-dialog'));assert.deepEqual([...saved],before);
+ }
+});
 
 test('고기 선택 태그와 자동완성은 통일한 표시명을 사용하며 저장 ID 유지',async()=>{
  const ingredients=JSON.parse(await readFile(new URL('../data/ingredients.json',import.meta.url),'utf8'));
@@ -91,10 +125,16 @@ test('추천 화면의 다중 선택·담기·횟수 편집·제외와 실행 �
   assert.equal(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes[0].servings,3);
   await document.getElementById('mode-0').click();
   const next=find(body,x=>x.className.includes('recipe-card'));
-  await button(next,'앞으로 추천받지 않기').click();
+  assert.match(next.textContent,/우리 집 재료/);assert.match(next.textContent,/새로 살 재료/);
+  const selections=JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes;
+  await button(next,'⊘ 앞으로 추천에서 제외').click();
   assert.equal(JSON.parse(saved.get('jmd_recipe_preferences_v1')).excludedRecipeIds.length,1);
-  await button(body,'실행 취소').click();
-  assert.equal(JSON.parse(saved.get('jmd_recipe_preferences_v1')).excludedRecipeIds.length,0);
+  assert.equal(document.getElementById('recipe-exclusion-message').textContent,'설정의 ‘제외한 메뉴 관리’에서 해제할 수 있어요.');
+  assert.equal(document.getElementById('recipe-exclusion-notice').open,true);
+  await document.getElementById('confirm-recipe-exclusion').click();
+  assert.ok(!document.getElementById('recipe-exclusion-notice'));
+  assert.equal(JSON.parse(saved.get('jmd_recipe_preferences_v1')).excludedRecipeIds.length,1);
+  assert.deepEqual(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes,selections);
 });
 
 test('기본 설정 관리창은 검색·개별 및 전체 복원·확인 취소·닫기를 처리하며 입력을 보존',async()=>{
