@@ -10,6 +10,17 @@ import {createStore,KEYS} from '../js/storage.js';
 const ingredients=JSON.parse(await readFile(new URL('../data/ingredients.json',import.meta.url),'utf8'));
 const get=name=>ingredients.find(i=>i.name===name),byId=new Map(ingredients.map(i=>[i.id,i]));
 
+test('승인된 새우 표기와 주꾸미·수란 연결은 원본 형태·종류별 수량을 보존',()=>{
+ assert.equal(representativeIngredient(get('쭈꾸미'),byId).id,get('주꾸미').id);
+ assert.equal(representativeIngredient(get('수란'),byId).id,get('계란').id);
+ for(const [name,label] of [['대하','새우(대하)'],['노바시 새우','새우(노바시)'],['백새우','새우(백새우)'],['보리새우','새우(보리새우)'],['냉동 새우살','새우살(냉동)'],['냉동 새우','새우(냉동)'],['게살냉동','게살(냉동)']]){
+  assert.equal(ingredientDisplayName(get(name)),label);assert.ok(searchIngredients(ingredients,label).some(i=>i.id===get(name).id));
+ }
+ for(const name of ['노바시 새우','백새우','보리새우','대하'])assert.equal(matchIngredient(get(name).id,get('새우').id,{name:'테스트'},byId),0);
+ const recipe={id:'egg-form',name:'수란 요리',baseServings:1,ingredients:['계란','수란'].map(name=>({ingredientId:get(name).id,amount:10,unit:'g',note:null}))};
+ const rows=aggregate(ingredients,[recipe],[{recipeId:recipe.id,servings:1}],1);assert.equal(rows.length,1);assert.equal(totalText(rows[0]),'계란 10g + 수란 10g');
+});
+
 test('승인된 미더덕·조갯살 분류와 동의어 통합은 특정 조개·수량·저장을 보존',()=>{
  for(const name of ['미더덕','조개살','조갯살'])assert.deepEqual(ingredientBrowseGroup(get(name)),{category:'육·수산',subcategory:'해산물'});
  assert.equal(representativeIngredient(get('조개살'),byId).id,get('조갯살').id);

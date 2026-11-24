@@ -1,5 +1,6 @@
 // User-reviewed equivalences only. Fresh/dried/powder/liquid and distinct products stay separate.
 export const INGREDIENT_ALIAS_GROUPS=[
+ {name:'주꾸미',aliases:['쭈꾸미']},
  {name:'조갯살',aliases:['조개살']},
  {name:'오만둥이',aliases:[],searchTerms:['오만둘이']},
  {name:'우렁이',aliases:['우렁']},
