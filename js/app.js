@@ -293,7 +293,7 @@ function drawHome() {
     store.saveSettings({...store.settings,'기본 식사 인원':n});warnings();drawHome();focus('home-start');
   },store.settings['기본 식사 인원']===n?'secondary selected':'secondary',{id:`people-${n}`,'aria-pressed':String(store.settings['기본 식사 인원']===n)})));
   host.replaceChildren(...[
-    !store.configured?el('section',{class:'panel people-setup'},[el('h2',{},'보통 몇 명이 드시나요?'),people]):null,
+    !store.configured?el('section',{class:'panel people-setup'},[el('h2',{},'몇 명이 드실 예정인가요?'),el('p',{class:'people-help'},'선택한 인원에 맞춰 재료량을 계산해요.'),people]):null,
     el('a',{id:'home-start',href:url('ingredients.html'),class:'button primary'},'재료 선택하고 시작하기 →')
   ].filter(Boolean));
 }

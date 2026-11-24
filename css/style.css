@@ -42,7 +42,7 @@
   --line: 1px; --focus: 3px solid #315E46;
   --shadow-dialog: 0 8px 24px #0F172A26;
   --content-width: 880px; --reading-width: 720px; --settings-width: 640px;
-  --gutter: 16px; --touch: 48px; --header-height: 64px; --nav-height: 48px;
+  --gutter: 16px; --touch: 48px; --header-height: 48px; --nav-height: 48px;
   --title-size: 28px; --title-line: 40px;
   --heading-size: 22px; --heading-line: 32px;
   --body-size: 16px; --body-line: 26px; --small-line: 24px;
@@ -401,6 +401,7 @@ body[data-page=home] .button.primary { min-height: 50px; width: 100%; border-rad
 body[data-page=home] #app { margin: 0; }
 body[data-page=home] .people-setup { padding: var(--s3); margin-bottom: var(--s3); }
 body[data-page=home] .people-setup h2 { font-size: var(--body-size); margin-bottom: var(--s2); }
+body[data-page=home] .people-setup .people-help { color: var(--muted); font-size: var(--selected-basis-size); line-height: var(--selected-basis-line); margin-bottom: var(--s2); }
 body[data-page=home] .landing-preview { display: none; background: var(--secondary); border-radius: var(--radius-card); padding: var(--s5); }
 body[data-page=home] .landing-preview-label { font-weight: var(--weight-button); margin: 0 0 var(--s3); }
 body[data-page=home] .landing-tags { display: flex; flex-wrap: wrap; gap: var(--s2); }
