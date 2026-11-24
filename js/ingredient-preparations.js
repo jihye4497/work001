@@ -1,5 +1,8 @@
 // Availability families only: preparation quantities are never converted to raw weight.
 const groups = [
+  // User's species estimate (2026-11-24), not an explicit statement in the source.
+  {name:'돼지고기 등심', forms:['잡채용 등심']},
+  {name:'황태포', forms:['황태채']},
   {name:'고등어', forms:['손질된 고등어','고등어 필렛']},
   {name:'흰살생선', forms:['손질된 흰살생선']},
   {name:'연어', forms:['슬라이스연어','연어 필렛']},

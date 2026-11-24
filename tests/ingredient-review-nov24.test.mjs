@@ -45,3 +45,27 @@ test('불림·볶음·부분·손질 생선의 무게와 단위는 통재료 구
   assert.equal(JSON.stringify(recipe),before);
  }
 });
+
+test('추가 고기·내장은 고기, 가다랑어포·저염살라미는 가공품이며 축종(부위) 유지',()=>{
+ for(const name of ['간','허파','갈매기살','구운 대창','소 늑간살','소꼬리','소대창'])assert.deepEqual(ingredientBrowseGroup(get(name)),{category:'육·수산',subcategory:'고기'},name);
+ for(const name of ['가다랑어포','저염살라미'])assert.deepEqual(ingredientBrowseGroup(get(name)),{category:'기타',subcategory:'가공식품'},name);
+ for(const [name,label] of [['소 늑간살','소고기(늑간살)'],['소꼬리','소고기(꼬리)'],['소대창','소고기(대창)'],['갈매기살','돼지고기(갈매기살)'],['간','축종 미기재(간)'],['허파','축종 미기재(허파)'],['구운 대창','축종 미기재(대창)']])assert.equal(ingredientDisplayName(get(name)),label);
+ assert.equal(ingredientDisplayName(get('생선살')),'생선살(어종 미기재)');assert.equal(ingredientDisplayName(get('회')),'회(어종 미기재)');
+});
+
+test('황태채·황태포는 선택을 공유하되 각 원문 형태와 수량 유지',()=>{
+ assert.ok(searchIngredients(ingredients,'황태채').some(i=>i.id===get('황태포').id));
+ const recipe={id:'pollock',name:'황태 요리',baseServings:1,ingredients:['황태포','황태채'].map(name=>({ingredientId:get(name).id,amount:10,unit:'g',note:`원문 ${name}`}))};
+ const rows=aggregate(ingredients,[recipe],[{recipeId:recipe.id,servings:2}],1);
+ assert.equal(rows.length,1);assert.equal(totalText(rows[0]),'황태포 20g + 황태채 20g');assert.deepEqual(rows[0].uses.map(u=>u.originalIngredientName),['황태포','황태채']);
+});
+
+test('칠게·민물 패류는 해산물, 잡채용 등심은 사용자 돼지 추정과 원문 양 유지',()=>{
+ for(const name of ['칠게','논우렁','다슬기살'])assert.deepEqual(ingredientBrowseGroup(get(name)),{category:'육·수산',subcategory:'해산물'});
+ assert.equal(representativeIngredient(get('잡채용 등심'),byId).id,get('돼지고기 등심').id);
+ assert.equal(ingredientDisplayName(get('잡채용 등심')),'돼지고기(등심·추정)');
+ const recipe={id:'estimated-pork',name:'잡채',baseServings:1,ingredients:[{ingredientId:get('잡채용 등심').id,amount:200,unit:'g',note:'원문: 잡채용 등심 200g'}]};
+ const rows=aggregate(ingredients,[recipe],[{recipeId:recipe.id,servings:1}],1);
+ assert.equal(totalText(rows[0]),'돼지고기(등심·추정) 200g');assert.equal(rows[0].uses[0].originalIngredientName,'잡채용 등심');
+ assert.match(ingredientDisplayName(get('등심얇게썬것')),/축종 미기재/);
+});

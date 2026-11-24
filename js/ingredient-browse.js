@@ -25,6 +25,9 @@ const PRIORITY={
 };
 export function ingredientBrowseGroup(ingredient) {
  const n=ingredient.name.replace(/\s/g,'');
+ if(['칠게','논우렁','다슬기살'].includes(n))return {category:'육·수산',subcategory:'해산물'};
+ if(['간','허파','갈매기살','구운대창','소늑간살','소꼬리','소대창'].includes(n))return {category:'육·수산',subcategory:'고기'};
+ if(['가다랑어포','저염살라미'].includes(n))return {category:'기타',subcategory:'가공식품'};
  if(['스팸(마일드)','육포','페퍼로니','편육','통단팥'].includes(n))return {category:'기타',subcategory:'가공식품'};
  if(n==='곁들임채소')return {category:'농산물',subcategory:'채소'};
  if(n==='체리토마토')return {category:'농산물',subcategory:'채소'};

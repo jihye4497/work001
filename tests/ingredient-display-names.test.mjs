@@ -19,7 +19,7 @@ test('고기 표시명은 등록된 재료만 바꾸며 부위·축종과 원본
  assert.equal(ingredientDisplayName(get('소고기(양지)')),'소고기(양지)');
  assert.equal(ingredientDisplayName(get('닭고기(다리살)')),'닭고기(다릿살)');
  assert.equal(ingredientDisplayName(get('돼지감자가루')),'돼지감자가루');
- assert.equal(ingredientDisplayName(get('등심얇게썬것')),'등심(얇게 썬 것·축종 미기재)');
+ assert.equal(ingredientDisplayName(get('등심얇게썬것')),'축종 미기재(등심)');
  assert.equal(JSON.stringify(ingredients),before);
 });
 

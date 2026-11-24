@@ -1,12 +1,16 @@
 import { canonicalIngredientName } from './ingredient-aliases.js';
 // Presentation only: source names, IDs, importer matching and recipe quantities stay unchanged.
 export const MEAT_DISPLAY_NAMES = {
+ '잡채용 등심':'돼지고기(등심·추정)',
+ '소 늑간살':'소고기(늑간살)', '소꼬리':'소고기(꼬리)', '소대창':'소고기(대창)',
+ '갈매기살':'돼지고기(갈매기살)',
+ '간':'축종 미기재(간)', '허파':'축종 미기재(허파)', '구운 대창':'축종 미기재(대창)',
  '항정살':'돼지고기(항정살)',
  '초벌소깐양':'소고기(깐양)',
  // Species confirmed by the user on 2026-11-24; source labels remain unchanged.
  '염통':'돼지고기(염통)',
  '오돌뼈':'돼지고기(오돌뼈)',
- '등심얇게썬것':'등심(얇게 썬 것·축종 미기재)',
+ '등심얇게썬것':'축종 미기재(등심)',
  '소고기 등심':'소고기(등심)', '소고기 안심':'소고기(안심)',
  '소고기 양지':'소고기(양지)', '소고기 사태':'소고기(사태)',
  '소고기 우둔살':'소고기(우둔살)', '부채살':'소고기(부채살)',
@@ -47,6 +51,7 @@ export function ingredientDisplayName(ingredient) {
  return MEAT_DISPLAY_NAMES[canonical]||PREPARATION_DISPLAY_NAMES[canonical]||canonical||'';
 }
 const PREPARATION_DISPLAY_NAMES={
+ '생선살':'생선살(어종 미기재)', '회':'회(어종 미기재)',
  '곁들임 채소':'곁들임 채소(종류 미기재)',
  '통단팥':'단팥(통알)',
  '월계수잎마른것':'건월계수잎',
