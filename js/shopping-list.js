@@ -1,4 +1,4 @@
-import { ingredientDisplayName } from './ingredient-display-names.js';
+import { ingredientDisplayName, ingredientDetailNote } from './ingredient-display-names.js';
 import { CATEGORIES } from './ingredients.js';
 import { isCookingWater } from './ingredient-aliases.js';
 import { servingLabel } from './servings.js';
@@ -24,6 +24,8 @@ export function aggregate(ingredients, recipes, selectedRecipes, servings) {
       const ingredient = representativeIngredient(prepared?.ingredient||source,byId);
       if (!ingredient) throw new Error('재료 데이터를 찾을 수 없어요.');
       const row = rows.get(ingredient.id) || { ingredient, totals: new Map(), unknown: false, uses: [] };
+      const detailNote=ingredientDetailNote(byId.get(item.ingredientId));
+      if(detailNote)row.detailNote=detailNote;
       const factor=selectedServings(selection, servings)/recipe.baseServings;
       const originalAmount=item.amount===null?null:item.amount*factor;
       const baseAmount=prepared?prepared.amount:item.amount;

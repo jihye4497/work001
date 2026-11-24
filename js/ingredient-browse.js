@@ -25,6 +25,11 @@ const PRIORITY={
 };
 export function ingredientBrowseGroup(ingredient) {
  const n=ingredient.name.replace(/\s/g,'');
+ if(['미더덕','조갯살','조개살'].includes(n))return {category:'육·수산',subcategory:'해산물'};
+ if(['우렁','우렁이','해물','오만둥이','패주'].includes(n))return {category:'육·수산',subcategory:'해산물'};
+ if(['대구이리','동태이리','이리'].includes(n))return {category:'육·수산',subcategory:'생선'};
+ if(n==='알')return {category:'육·수산',subcategory:'알류'};
+ if(['크래미','게살(크래미)','새우튀김','홍새우튀김'].includes(n))return {category:'기타',subcategory:'가공식품'};
  if(['칠게','논우렁','다슬기살'].includes(n))return {category:'육·수산',subcategory:'해산물'};
  if(['간','허파','갈매기살','구운대창','소늑간살','소꼬리','소대창'].includes(n))return {category:'육·수산',subcategory:'고기'};
  if(['가다랑어포','저염살라미'].includes(n))return {category:'기타',subcategory:'가공식품'};

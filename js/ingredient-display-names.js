@@ -48,10 +48,23 @@ export const MEAT_DISPLAY_NAMES = {
 export function ingredientDisplayName(ingredient) {
  const name=typeof ingredient==='string'?ingredient:ingredient?.name;
  const canonical=canonicalIngredientName({name})||name;
- return MEAT_DISPLAY_NAMES[canonical]||PREPARATION_DISPLAY_NAMES[canonical]||canonical||'';
+ return MEAT_DISPLAY_NAMES[canonical]||SEAFOOD_DISPLAY_NAMES[canonical]||PREPARATION_DISPLAY_NAMES[canonical]||canonical||'';
+}
+export const SEAFOOD_DISPLAY_NAMES={
+ '대하':'새우(대하)', '흰다리새우':'새우(흰다리)', '블랙타이거새우':'새우(블랙타이거)',
+ '새우살':'새우(살)', '칵테일새우':'새우(칵테일)', '건새우':'새우(건조)',
+ '자숙새우':'새우(자숙)', '냉동 새우살':'새우(살·냉동)',
+ '대구 이리':'대구(이리)', '동태 이리':'동태(이리)', '대구살':'대구(살)',
+ '대구뽈살':'대구(뽈살)', '동태살':'동태(살)', '동태포':'동태(포)', '동태 간':'동태(간)',
+ '멍게살':'멍게(살)', '소라살':'소라(살)', '전복살':'전복(살)',
+ '슬라이스연어':'연어(슬라이스)', '연어 필렛':'연어(필렛)', '훈제연어':'연어(훈제)',
+ '오징어 몸통':'오징어(몸통)'
+};
+export function ingredientDetailNote(ingredient) {
+ const name=typeof ingredient==='string'?ingredient:ingredient?.name;
+ return ['회','생선살'].includes(name)?'어종이 원문에 명시되지 않았어요. 원본 레시피를 확인해 주세요.':name==='알'?'알의 종류가 원문에 명시되지 않았어요. 원본 레시피를 확인해 주세요.':'';
 }
 const PREPARATION_DISPLAY_NAMES={
- '생선살':'생선살(어종 미기재)', '회':'회(어종 미기재)',
  '곁들임 채소':'곁들임 채소(종류 미기재)',
  '통단팥':'단팥(통알)',
  '월계수잎마른것':'건월계수잎',

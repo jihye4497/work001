@@ -515,6 +515,7 @@ function drawShopping() {
           },'ingredient-detail',{id:`ingredient-detail-${id}`,'aria-expanded':String(open),'aria-controls':`uses-${id}`})
         ]),
         preparationText(row)?el('p',{class:'muted'},preparationText(row)):null,
+        row.detailNote?el('p',{class:'muted'},row.detailNote):null,
         el('ul',{class:'uses',id:`uses-${id}`,hidden:!open},row.uses.map(use=>el('li',{},[
           el('span',{class:'use-name'},use.name),use.originalIngredientName&&use.originalIngredientName!==ingredientDisplayName(row.ingredient)?el('span',{class:'use-detail'},`· 원문: ${use.originalIngredientName}`):null,' ',el('span',{class:'use-detail'},`· ${use.servings*use.times}인분`),' ',el('span',{class:'use-detail'},`· ${quantity(use.amount,use.unit)}`)
         ])))

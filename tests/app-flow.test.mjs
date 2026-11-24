@@ -68,6 +68,16 @@ test('장보기는 물전분을 전분으로 표시하고 멸치육수 대체 �
  assert.ok(names.some(n=>n==='전분'));assert.ok(!names.some(n=>/^(멸치 육수|물전분)$/.test(n)));
 });
 
+test('어종 미기재 안내는 재료 선택 이름에서 빼고 장보기 목록에 표시',async()=>{
+ const ingredients=JSON.parse(await readFile(new URL('../data/ingredients.json',import.meta.url),'utf8'));
+ const fish=ingredients.find(i=>i.name==='생선살');
+ const {body:picker}=await load('ingredients',[],{search:'?tab=pantry',pantry:[fish.id]});
+ assert.ok(button(picker,'생선살 ×'));assert.ok(!picker.textContent.includes('어종'));
+ const {body}=await load('shopping-list',[],{draft:{schemaVersion:1,selectedIngredientIds:[],activeInterestIds:[],selectedRecipes:[{recipeId:'mfds-cookrcp01-538',times:1,servings:1}],activeRecommendationMode:'추가 구매 최소',checkedIngredientIds:[]}});
+ assert.match(body.textContent,/어종이 원문에 명시되지 않았어요/);
+ assert.ok(all(body).some(n=>n.className==='ingredient-name'&&n.textContent==='생선살'));
+});
+
 test('추천 화면의 다중 선택·담기·횟수 편집·제외와 실행 취소가 연결됨',async()=>{
   const {body,saved}=await load('recipes');
   assert.ok(find(body,x=>x.className.includes('recipe-card')));

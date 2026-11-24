@@ -1,5 +1,14 @@
 // User-reviewed equivalences only. Fresh/dried/powder/liquid and distinct products stay separate.
 export const INGREDIENT_ALIAS_GROUPS=[
+ {name:'조갯살',aliases:['조개살']},
+ {name:'오만둥이',aliases:[],searchTerms:['오만둘이']},
+ {name:'우렁이',aliases:['우렁']},
+ {name:'관자',aliases:['패주']},
+ {name:'크래미',aliases:['게살(크래미)']},
+ {name:'대하',aliases:['새우(대하)']},
+ {name:'새우살',aliases:['새우살다진것','잔새우살다진것','새우다진것','생새우살']},
+ {name:'칵테일새우',aliases:['칵텔새우']},
+ {name:'전복',aliases:['작은 전복']},
  {name:'표고버섯 기둥',aliases:['표고버섯 밑동']},
  {name:'느타리버섯',aliases:['참느타리버섯']},
  {name:'건곤드레나물',aliases:['건곤드레']},
