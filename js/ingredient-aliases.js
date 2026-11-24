@@ -1,5 +1,13 @@
 // User-reviewed equivalences only. Fresh/dried/powder/liquid and distinct products stay separate.
 export const INGREDIENT_ALIAS_GROUPS=[
+ // Reviewed leaves / common vegetable labels, 2026-11-24.
+ {name:'마늘종',aliases:['마늘쫑']},
+ {name:'무청',aliases:['알타리 무청'],note:'원문 알타리 종류는 사용 내역 유지'},
+ {name:'민트',aliases:['민트잎']},
+ {name:'애플민트',aliases:['애플민트잎']},
+ {name:'배춧잎',aliases:['배추잎']},
+ {name:'새싹채소',aliases:['새싹','어린싹']},
+ {name:'어린잎채소',aliases:['어린잎','어린채소']},
  // Drying-word variants share a dry ingredient only; never strip prefixes generically.
  {name:'건새우',aliases:['마른 새우']},
  {name:'건고추',aliases:['마른고추']},
@@ -26,7 +34,7 @@ export const INGREDIENT_ALIAS_GROUPS=[
  {name:'커민파우더',aliases:['큐민파우더']},
  {name:'타바스코',aliases:['타비스코 소스']},
  {name:'땅콩버터',aliases:['피넷버터'],note:'피넷버터는 피넛버터 표기의 오타로 편집 판단, 원문 유지'},
- {name:'시래기',aliases:['시레기']},
+ {name:'시래기',aliases:['시레기','무청시래기']},
  // Whole vegetable-list review (2026-11-24): cutting/size labels share selection,
  // while original recipe names and quantities remain in each usage record.
  {name:'다진 마늘',aliases:['마늘다진것']},
@@ -40,7 +48,7 @@ export const INGREDIENT_ALIAS_GROUPS=[
  {name:'홍고추',aliases:['붉은 고추','다진 붉은 고추','다진 홍고추','홍고추 다진것','송송 썬 붉은 고추']},
  {name:'청홍고추',aliases:['청·홍고추다진것','청홍고추 각각']},
  {name:'청피망',aliases:['다진 청피망','청피망다진것']},
- {name:'홍피망',aliases:['다진 홍피망','홍피망다진것']},
+ {name:'홍피망',aliases:['다진 홍피망','홍피망다진것','붉은피망']},
  {name:'셀러리',aliases:['샐러리','샐러리다진것']},
  {name:'연근',aliases:['깐연근']},
  {name:'실파',aliases:['다진 실파','실파다진것','실파송송썬것']},

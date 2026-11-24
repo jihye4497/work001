@@ -71,6 +71,7 @@ export function ingredientDetailNote(ingredient) {
  return ['회','생선살'].includes(name)?'어종이 원문에 명시되지 않았어요. 원본 레시피를 확인해 주세요.':name==='알'?'알의 종류가 원문에 명시되지 않았어요. 원본 레시피를 확인해 주세요.':'';
 }
 const PREPARATION_DISPLAY_NAMES={
+ '냉동 열대과일 믹스':'열대과일 믹스(냉동)',
  // Display convention approved 2026-11-24. Keep source names/IDs intact.
  '건 표고버섯':'건표고버섯',
  '말린 자두':'건자두',

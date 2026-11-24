@@ -1,8 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {representativeIngredient} from '../js/ingredient-matching.js';
-import {browseIngredients} from '../js/ingredient-browse.js';
+import {representativeIngredient,matchIngredient} from '../js/ingredient-matching.js';
+import {browseIngredients,ingredientBrowseGroup} from '../js/ingredient-browse.js';
+import {ingredientDisplayName} from '../js/ingredient-display-names.js';
 import {searchIngredients} from '../js/ingredients.js';
 import {aggregate,totalText} from '../js/shopping-list.js';
 import {createStore,KEYS} from '../js/storage.js';
@@ -26,6 +27,34 @@ const mappings={
  '불린 고사리':'고사리','불린 무말랭이':'무말랭이','불린 함초':'건함초','불린 목이버섯':'목이버섯','두절콩나물':'콩나물',
  '데친 꼬막살':'꼬막','자숙꼬막':'꼬막','다진 오이피클':'오이피클'
 };
+
+test('콩·자몽·냉동 과일 분류와 잎/붉은 동의어는 같은 종류만 통합',()=>{
+ for(const name of ['콩','하루 불린 콩'])assert.deepEqual(ingredientBrowseGroup(get(name)),{category:'농산물',subcategory:'곡물·콩'});
+ for(const name of ['자몽','냉동 열대과일 믹스'])assert.deepEqual(ingredientBrowseGroup(get(name)),{category:'농산물',subcategory:'과일'});
+ assert.equal(ingredientDisplayName(get('냉동 열대과일 믹스')),'열대과일 믹스(냉동)');
+ const pairs={'마늘쫑':'마늘종','무청시래기':'시래기','알타리 무청':'무청','민들레 잎':'민들레','민트잎':'민트','애플민트잎':'애플민트','배추잎':'배춧잎','새싹':'새싹채소','어린싹':'새싹채소','어린잎':'어린잎채소','어린채소':'어린잎채소','미나리잎장식':'미나리','하루 불린 콩':'콩','붉은피망':'홍피망','붉은 고추':'홍고추','붉은 파프리카':'빨강 파프리카'};
+ for(const [form,base] of Object.entries(pairs)){
+  assert.equal(representativeIngredient(get(form),byId).id,get(base).id,form);
+  assert.ok(searchIngredients(ingredients,form).some(i=>i.id===get(base).id),form);
+ }
+ for(const [a,b] of [['무청','시래기'],['새싹채소','어린잎채소'],['민트','애플민트'],['쌈추','배추'],['쌈추','상추'],['홍피망','홍고추'],['콩','통조림콩']])assert.equal(matchIngredient(get(a).id,get(b).id,{name:'검수'},byId),0,`${a}/${b}`);
+});
+
+test('불린 콩·장식용 잎의 원문 상태별 수량과 기존 선택을 보존',()=>{
+ const forms=['콩','하루 불린 콩','미나리','미나리잎장식'];
+ const recipe={id:'leaves-beans',name:'검수',baseServings:1,ingredients:forms.map(name=>({ingredientId:get(name).id,amount:10,unit:'g',note:null}))};
+ const before=JSON.stringify(recipe),rows=aggregate(ingredients,[recipe],[{recipeId:recipe.id,servings:1}],1);
+ assert.equal(rows.length,2);
+ for(const [base,form] of [['콩','하루 불린 콩'],['미나리','미나리잎장식']]){
+  const row=rows.find(r=>r.ingredient.id===get(base).id);
+  assert.equal(row.preparations.get(base).totals.get('g'),10);
+  assert.equal(row.preparations.get(form).totals.get('g'),10);
+ }
+ assert.equal(JSON.stringify(recipe),before);
+ const saved=new Map([[KEYS.preferences,JSON.stringify({schemaVersion:1,excludedRecipeIds:[],pantryIngredientIds:[get('하루 불린 콩').id,get('배추잎').id]})]]);
+ const store=createStore({getItem:k=>saved.get(k)??null,setItem:(k,v)=>saved.set(k,v)});store.reconcile(ingredients,[recipe]);
+ assert.deepEqual(store.pantryIngredientIds,[get('콩').id,get('배춧잎').id]);
+});
 
 test('채소 전반과 지정 견과·꼬막의 손질 선택은 원재료로 연결하고 검색/목록 중복 제거',()=>{
  const listed=new Set(['농산물','육·수산','기타','양념'].flatMap(c=>browseIngredients(ingredients,c)).map(i=>i.id));

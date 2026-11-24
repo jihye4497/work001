@@ -25,6 +25,8 @@ const PRIORITY={
 };
 export function ingredientBrowseGroup(ingredient) {
  const n=ingredient.name.replace(/\s/g,'');
+ if(['자몽','냉동열대과일믹스'].includes(n))return {category:'농산물',subcategory:'과일'};
+ if(['콩','하루불린콩'].includes(n))return {category:'농산물',subcategory:'곡물·콩'};
  if(['미더덕','조갯살','조개살'].includes(n))return {category:'육·수산',subcategory:'해산물'};
  if(['우렁','우렁이','해물','오만둥이','패주'].includes(n))return {category:'육·수산',subcategory:'해산물'};
  if(['대구이리','동태이리','이리'].includes(n))return {category:'육·수산',subcategory:'생선'};
