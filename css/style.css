@@ -146,6 +146,7 @@ details[open] > summary::before { content: '−'; }
 /* Shared segment switch. Both source and recommendation switches use the same rule. */
 .ingredient-source-tabs,.mode-tabs { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: var(--s1); padding: var(--s1); background: var(--surface-soft); border: var(--line) solid var(--divider); border-radius: var(--radius-card); margin-bottom: var(--s4); }
 .ingredient-source-tabs .button,.mode-tabs .button { border: var(--line) solid transparent; background: transparent; color: var(--muted); padding-inline: var(--s2); font-size: var(--selected-basis-size); }
+.mode-tabs .ingredient-category-icon { width: var(--nav-icon-size); height: var(--nav-icon-size); flex-shrink: 0; }
 .ingredient-source-tabs .button[aria-selected=true],.mode-tabs .button.selected { background: var(--surface); border-color: var(--divider); color: var(--primary); box-shadow: var(--shadow-soft); }
 
 /* Ingredient picker: chips carry meaning; categories remain secondary. */
@@ -421,6 +422,15 @@ body[data-page=home] .landing-steps dt { color: var(--primary); font-weight: var
 body[data-page=home] .landing-steps dd { margin: var(--s1) 0 var(--s2); color: var(--muted); }
 body[data-page=home] .landing-section-title { display: flex; align-items: baseline; justify-content: space-between; gap: var(--s2); }
 body[data-page=home] .landing-demo { padding: var(--s4); background: var(--surface); border: var(--line) solid var(--divider); border-radius: var(--radius-card); }
+body[data-page=home] .landing-demo-flow > div:first-child > .landing-demo-step { margin-top: 0; }
+body[data-page=home] .landing-demo-ingredients { display: grid; gap: var(--s2); }
+body[data-page=home] .landing-demo-ingredient-row { display: flex; align-items: center; gap: var(--s2); }
+body[data-page=home] .landing-demo-ingredient-row > strong { display: inline-flex; align-items: center; gap: var(--s1); white-space: nowrap; font-weight: var(--weight-button); }
+body[data-page=home] .landing-demo-ingredient-row > strong { padding: var(--s1) var(--s2); border-radius: var(--pill-radius); background: var(--pantry-bg); color: var(--pantry-text); }
+body[data-page=home] .landing-demo-ingredient-row:nth-child(2) > strong { background: var(--interest-bg); color: var(--interest-text); }
+body[data-page=home] .landing-demo-ingredient-row .landing-tags { flex-wrap: nowrap; gap: var(--s1); }
+body[data-page=home] .landing-demo-ingredient-row .landing-tags span { white-space: nowrap; }
+body[data-page=home] .landing-demo-flow > .landing-arrow { margin: var(--s2) 0; }
 body[data-page=home] .landing-label { margin: var(--s3) 0 var(--s2); color: var(--muted); }
 body[data-page=home] .landing-tags .landing-owned { background: var(--pantry-bg); color: var(--pantry-text); }
 body[data-page=home] .landing-tags .landing-planned { background: var(--interest-bg); color: var(--interest-text); }
@@ -428,11 +438,21 @@ body[data-page=home] .landing-arrow { margin: var(--s3) 0; text-align: center; c
 body[data-page=home] .landing-demo-menus { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: var(--s2); align-items: start; }
 body[data-page=home] .landing-demo-menus figure { margin: 0; padding: var(--s3); background: var(--surface-soft); border-radius: var(--radius-control); min-width: 0; }
 body[data-page=home] .landing-demo-menus figcaption { font-size: var(--body-size); font-weight: var(--weight-button); }
+body[data-page=home] .landing-demo-step { text-align: left; color: var(--text); font-size: var(--compact-title); line-height: var(--body-line); margin: var(--s2) 0; }
+body[data-page=home] .landing-demo-description { text-align: left; color: var(--muted); margin: 0 0 var(--s2); }
+body[data-page=home] .landing-demo-actions { display: flex; flex-wrap: nowrap; gap: var(--s1); margin-top: var(--s2); }
+body[data-page=home] .landing-demo-actions .button { min-width: 0; min-height: var(--picker-chip-height); font-size: var(--selected-basis-size); padding: var(--s1); white-space: nowrap; cursor: default; }
+body[data-page=home] .landing-demo-actions .button.primary { width: auto; min-height: var(--picker-chip-height); background: var(--secondary); color: var(--primary); border-color: transparent; }
 body[data-page=home] .landing-demo-menus p { color: var(--muted); margin-bottom: 0; }
 body[data-page=home] .landing-demo-menus img { width: 100%; height: var(--home-photo-height); object-fit: cover; border-radius: var(--radius-control); display: block; margin-bottom: var(--s2); }
 body[data-page=home] .landing-demo-menus small { display: block; font-size: var(--selected-basis-size); font-weight: var(--weight-normal); color: var(--muted); }
-body[data-page=home] .landing-list-preview { background: var(--secondary); padding: var(--s4); border-radius: var(--radius-card); }
-body[data-page=home] .landing-list-preview ul { padding-left: var(--s5); margin: 0; }
+body[data-page=home] .landing-list-preview { padding: 0; }
+body[data-page=home] .landing-list-preview .landing-demo-step { margin-top: 0; }
+body[data-page=home] .landing-shopping-preview { padding: var(--s3); border: var(--line) solid var(--divider); border-radius: var(--radius-control); }
+body[data-page=home] .landing-shopping-preview .landing-shopping-heading { margin-top: 0; }
+body[data-page=home] .landing-shopping-heading { font-weight: var(--weight-button); margin-top: var(--s3); }
+body[data-page=home] .landing-shopping-row { display: flex; justify-content: space-between; gap: var(--s3); padding-block: var(--s3); border-bottom: var(--line) solid var(--divider); }
+body[data-page=home] .landing-owned-summary { display: flex; justify-content: space-between; gap: var(--s2); padding-top: var(--s3); color: var(--muted); }
 body[data-page=home] .landing-disclaimer { color: var(--muted); margin-bottom: 0; }
 body[data-page=home] .landing-final { background: var(--secondary); padding: var(--s4); border-radius: var(--radius-card); }
 body[data-page=home] .landing-final p { color: var(--muted); margin: 0 0 var(--s4); }

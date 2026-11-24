@@ -1,5 +1,7 @@
 // Small local SVG icons; no image downloads or icon library.
 const PATHS={
+ '추가 구매 최소':'M5 10h14v10H5V10ZM3 13h2m14 0h2M4 7l15-3M12 3l1 2',
+ '고른 재료 활용':'M4 3v6c0 3 6 3 6 0V3M7 3v18M18 3c-3 3-3 8 1 9V3Zm1 9v9',
  '우리 집 재료':'M3 10 12 3l9 7M5 9v12h14V9M9 21v-7h6v7',
  '장바구니 재료':'M6 13h20l-2 14H8L6 13Z M11 13l5-9 5 9 M12 18v5 M20 18v5',
  '제철':'M19 4C10 3 4 6 4 12a7 7 0 0 0 7 7c6 0 9-6 8-15ZM5 19l9-9M9 15V9',

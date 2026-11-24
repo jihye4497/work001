@@ -340,7 +340,7 @@ function drawRecipes() {
   const foodScroll = document.querySelector('.food-filters')?.scrollLeft || 0;
   const interests = data.ingredients.filter(i => store.draft.selectedIngredientIds.includes(i.id) && !i.isSeasoning);
   const modeIndex = MODES.indexOf(store.draft.activeRecommendationMode);
-  const tabs = el('div', {class: 'mode-tabs', role: 'tablist', 'aria-label': '추천 방식'}, MODES.map((mode,index) => button(MODE_LABELS[index], () => setMode(mode), index === modeIndex ? 'secondary selected' : 'secondary', {
+  const tabs = el('div', {class: 'mode-tabs', role: 'tablist', 'aria-label': '추천 방식'}, MODES.map((mode,index) => button([ingredientIcon(MODE_LABELS[index]),el('span',{},MODE_LABELS[index])], () => setMode(mode), index === modeIndex ? 'secondary selected' : 'secondary', {
     id: `mode-${index}`, role: 'tab', 'aria-selected': String(index === modeIndex), 'aria-controls': 'recommendations-panel', tabIndex: index === modeIndex ? 0 : -1,
     onkeydown: event => {
       if (!['ArrowRight','ArrowLeft','Home','End'].includes(event.key)) return;
