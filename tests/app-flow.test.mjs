@@ -535,25 +535,20 @@ test('제목 체크는 부분 선택을 나타내고 제외 이유 취소·보�
 });
 
 
-test('추천 카드 공식 사진은 지연 로딩하고 실패 시 숨기며 메뉴 담기는 유지',async()=>{
- // Verify image behavior independently of the recommendation source priority.
+test('공식 사진이 있는 추천도 사진과 출처 여백 없이 메뉴 담기는 유지',async()=>{
  const raw=JSON.parse(await readFile(new URL('../data/recipes.json',import.meta.url),'utf8'));
  const {body,saved}=await load('recipes',raw.filter(r=>r.id!=='mfds-cookrcp01-3296').map(r=>r.id));
- const image=all(body).find(x=>x.tagName==='img'&&x.className==='recipe-image'&&x.attrs.src.startsWith('https://'));assert.ok(image);
- assert.equal(image.attrs.loading,'lazy');assert.equal(image.attrs.decoding,'async');
- assert.ok(image.attrs.src.startsWith('https://www.foodsafetykorea.go.kr/'));
- await image.fire('error');assert.equal(image.hidden,true);
- const card=image.parent.parent;await button(card,'담기 +').click();await document.getElementById('confirm-add-menu').click();assert.equal(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes.length,1);
+ assert.equal(all(body).some(x=>['recipe-image','recipe-visual','photo-credit'].includes(x.className)),false);
+ const card=find(body,x=>x.className.includes('recipe-card'));assert.ok(card);await button(card,'담기 +').click();await document.getElementById('confirm-add-menu').click();assert.equal(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes.length,1);
  const shopping=await load('shopping-list',[],{draft:JSON.parse(saved.get('jmd_draft_v1'))});assert.equal(all(shopping.body).some(x=>x.tagName==='img'),false);
 });
 
 
-test('추천의 생성 사진에는 AI 표시가 있고 검색 결과는 사진 없이 유지',async()=>{
+test('생성 사진이 있는 추천도 이미지와 AI 표식을 숨기고 검색은 유지',async()=>{
  // Verify the generated-photo card independently of the growing menu ranking.
  const raw=JSON.parse(await readFile(new URL('../data/recipes.json',import.meta.url),'utf8'));
  const {body}=await load('recipes',raw.filter(r=>r.id!=='kimchi-stew').map(r=>r.id));
- const label=all(body).find(x=>x.className==='ai-image-label');assert.ok(label);assert.equal(label.textContent,'AI 생성 이미지');
- const image=label.parent.children.find(x=>x.tagName==='img');assert.ok(image.attrs.src.includes('/assets/images/generated/'));
+ assert.equal(all(body).some(x=>x.tagName==='img'||x.className==='ai-image-label'),false);
  const input=document.getElementById('menu-search');input.value='김치찌개';await input.fire('input');
  assert.equal(all(document.getElementById('menu-search-list')).some(x=>x.tagName==='img'),false);
 });

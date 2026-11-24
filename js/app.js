@@ -12,6 +12,8 @@ import { servingLabel } from './servings.js';
 import { FOOD_CATEGORIES, toggleFoodCategory, excludedRecipeResults } from './recipe-filters.js';
 
 const page = document.body.dataset.page;
+// Temporarily keep recommendation cards text-only; image data stays available.
+const showRecipeImages = false;
 const root = new URL('../', import.meta.url);
 const url = file => new URL(file, root).href;
 const settingsUrl = () => {
@@ -436,7 +438,7 @@ function drawRecipes() {
       const added = store.draft.selectedRecipes.some(s=>s.recipeId===recipe.id);
       const materials=recipeMaterialNames(recipe,data.ingredients,store.pantryIngredientIds,replacements);
       return el('article', {class:'recipe-card panel'}, [
-        recipe.imagePath ? el('div',{class:'recipe-visual'},[el('img', {src:recipe.imagePath, alt:'', loading:'lazy', decoding:'async', referrerPolicy:'no-referrer', width:480, height:300, class:'recipe-image', onerror:event=>{event.target.hidden=true;const visual=event.target.closest?.('.recipe-visual');if(visual)visual.hidden=true;}}),recipe.imageKind==='generated'?el('span',{class:'ai-image-label'},'AI 생성 이미지'):null]) : null,
+        showRecipeImages && recipe.imagePath ? el('div',{class:'recipe-visual'},[el('img', {src:recipe.imagePath, alt:'', loading:'lazy', decoding:'async', referrerPolicy:'no-referrer', width:480, height:300, class:'recipe-image', onerror:event=>{event.target.hidden=true;const visual=event.target.closest?.('.recipe-visual');if(visual)visual.hidden=true;}}),recipe.imageKind==='generated'?el('span',{class:'ai-image-label'},'AI 생성 이미지'):null]) : null,
         el('h3', {},recipe.name), sourceLabel(recipe), el('p', {class:'muted recipe-meta'},servingLabel(recipe)),
         el('div', {class:'recipe-card-actions'}, [button(added?'담김':'담기 +', () => {
           addMenu(recipe,replacements);
@@ -453,7 +455,7 @@ function drawRecipes() {
             : el('div',{class:'empty'},el('p',{},'재료를 고르면 추천 메뉴가 여기에 보여요.'))
           : empty('현재 조건에 맞는 추천 메뉴가 없어요.','장바구니 재료를 선택하거나 음식 종류를 바꿔 주세요. 메뉴 이름으로 직접 검색할 수도 있어요.'),
       slice.hasMore ? button('더 보기',()=>{visible+=8;renderResults();focus('more');},'secondary',{id:'more'}) : null,
-      slice.items.some(item=>item.recipe.imagePath&&item.recipe.imageKind!=='generated')?el('p',{class:'photo-credit'},link('사진 출처 · 식품의약품안전처', 'https://www.data.go.kr/data/15060073/openapi.do')):null].filter(Boolean));
+      showRecipeImages && slice.items.some(item=>item.recipe.imagePath&&item.recipe.imageKind!=='generated')?el('p',{class:'photo-credit'},link('사진 출처 · 식품의약품안전처', 'https://www.data.go.kr/data/15060073/openapi.do')):null].filter(Boolean));
   }
   input.addEventListener('keydown',event=>{
     if(event.isComposing)return;
