@@ -26,6 +26,9 @@ export function applyCalculationBasis(recipes) {
     if(BATCH_SOURCE_ADDITIONS[recipe.id])result={...result,showSourceNotes:true,ingredients:[...result.ingredients,...BATCH_SOURCE_ADDITIONS[recipe.id].filter(i=>!result.ingredients.some(prior=>prior.note===i.note)).map(i=>({...i}))]};
     if(recipe.id==='mincook-blog-59')result={...result,ingredients:result.ingredients.map(i=>i.note?.startsWith('원문: 양파 : 큰 것 기준 1개')?{...i,amount:1,unit:'개',note:'원문: 양파 : 큰 것 기준 1개 · 2026-11-25 공식 원문에서 큰 양파1개 명시 재확인. 중량 환산 없음.'}:i)};
     if(recipe.id==='mincook-blog-238')result={...result,ingredients:result.ingredients.filter(i=>i.note!=='원문: 전기밥솥')};
+    // Official article742: bowls/burgers reuse the patties made from the first
+    // ingredient section. They are not additional purchased patties.
+    if(recipe.id==='mincook-blog-742')result={...result,showSourceNotes:true,ingredients:result.ingredients.filter(i=>i.ingredientId!=='mincook-ingredient-e3213eb3c849')};
     if(ACTIVE_COMPOSITION_IDS.includes(recipe.id))result=composeRecipe(result);
     if(recipe.id==='mincook-blog-601')result={...result,
       components:[{id:'syrup',name:'수박청',mode:'batch'},{id:'ade',name:'수박에이드',mode:'batch',quantityUnknown:true,usesComponentId:'syrup'}],

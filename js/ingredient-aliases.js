@@ -1,5 +1,8 @@
 // User-reviewed equivalences only. Fresh/dried/powder/liquid and distinct products stay separate.
 export const INGREDIENT_ALIAS_GROUPS=[
+ {name:'해초국수',aliases:['해조국수'],note:'식약처3271 해조비빔국수·무니키친 해초콩국수 보관 재료표 대조. 원문 제품/단위 보존'},
+ {name:'우동면',aliases:['우동'],searchTerms:['우동사리'],note:'면·사리 문맥 확인. 냉동 우동사리/생생우동/곤약우동은 별도 유지'},
+ {name:'쫄면',aliases:['쫄면 사리'],searchTerms:['쫄면사리']},
  {name:'습식찹쌀가루',aliases:['젖은 찹쌀가루'],note:'식약처 852 돼지고기 찹쌀부침50g·992 섭산삼30g 원문 젖은 가루 표기 확인. 습식으로 판단, 건식/멥쌀가루와 구분'},
  {name:'감자전분',aliases:['감자녹말가루']},
  {name:'삼계탕 재료팩',aliases:['삼계탕 티백']},

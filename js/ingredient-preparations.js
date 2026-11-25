@@ -1,5 +1,8 @@
 // Availability families only: preparation quantities are never converted to raw weight.
 const groups = [
+ {name:'당면',forms:['불린 당면']},
+ {name:'떡국 떡',forms:['불린 떡국떡']},
+ {name:'떡볶이떡',forms:['불린 떡볶이떡']},
  {name:'검은깨', forms:['검정깨(볶은 것)','볶은 흑임자']},
  // User-approved bovine estimate, 2026-11-24; source 177 only says grilled intestine.
  {name:'소대창', forms:['구운 대창']},
