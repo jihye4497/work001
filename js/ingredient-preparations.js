@@ -1,5 +1,6 @@
 // Availability families only: preparation quantities are never converted to raw weight.
 const groups = [
+ {name:'검은깨', forms:['검정깨(볶은 것)','볶은 흑임자']},
  // User-approved bovine estimate, 2026-11-24; source 177 only says grilled intestine.
  {name:'소대창', forms:['구운 대창']},
  // Reviewed across the vegetable catalog, not inferred by stripping arbitrary words.
@@ -11,11 +12,13 @@ const groups = [
  {name:'미나리', forms:['데친 미나리','미나리잎장식']},
  {name:'민들레', forms:['민들레 잎']},
  {name:'콩', forms:['하루 불린 콩']},
+ {name:'병아리콩', forms:['불린 병아리콩']},
+ {name:'라이스페이퍼', forms:['불린 라이스페이퍼']},
  {name:'감자', forms:['찐 감자']},
  {name:'고구마', forms:['찐 고구마']},
  {name:'연근', forms:['자숙 연근']},
  {name:'우거지', forms:['데친 우거지']},
- {name:'토란줄기', forms:['데친 토란대','삶은 토란대','데친 토란줄기']},
+ {name:'토란줄기', forms:['데친 토란대','삶은 토란대','데친 토란줄기','불린 토란줄기']},
  {name:'고사리', forms:['불린 고사리']},
  {name:'무말랭이', forms:['불린 무말랭이']},
  {name:'건함초', forms:['불린 함초']},

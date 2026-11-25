@@ -1,4 +1,5 @@
 import { ingredientDisplayName } from './ingredient-display-names.js';
+import {isOfferedRecipe} from './catalog-exclusions.js';
 import { preparedPurchase } from './prepared-ingredients.js';
 import { matchIngredient, primaryIngredientIds, representativeIngredient } from './ingredient-matching.js';
 import { isCookingWater } from './ingredient-aliases.js';
@@ -22,6 +23,7 @@ export function recommend(ingredients,recipes,draft,excludedRecipeIds=[],pantryI
   const selected=new Set(draft.selectedRecipes.map(s=>s.recipeId)),excluded=new Set(excludedRecipeIds);
   const categories=draft.selectedFoodCategories||[],result=[];
   for(const recipe of recipes) {
+    if(!isOfferedRecipe(recipe))continue;
     if(selected.has(recipe.id)||excluded.has(recipe.id)||(categories.length&&!recipe.foodCategories?.some(c=>categories.includes(c))))continue;
     const ids=[...new Set(recipe.ingredients.map(i=>i.ingredientId))].filter(id=>general.has(id));
     const primary=new Set(recipe.primaryIngredientIds??primaryIngredientIds(recipe,byId));
@@ -59,7 +61,7 @@ export function recommend(ingredients,recipes,draft,excludedRecipeIds=[],pantryI
 export function searchMenus(recipes,query) {
   const normalize=value=>value.normalize('NFKC').toLocaleLowerCase('ko').replace(/[\s\p{P}\p{S}]+/gu,'');
   const q=normalize(query);
-  return q?recipes.filter(r=>[r.name,r.name.replace(/[&＆]/g,'와'),r.name.replace(/[&＆]/g,'과')].some(name=>normalize(name).includes(q))).sort((a,b)=>sourcePriority(a)-sourcePriority(b)||a.name.localeCompare(b.name,'ko')||a.id.localeCompare(b.id)):[];
+  return q?recipes.filter(r=>isOfferedRecipe(r)&&[r.name,r.name.replace(/[&＆]/g,'와'),r.name.replace(/[&＆]/g,'과')].some(name=>normalize(name).includes(q))).sort((a,b)=>sourcePriority(a)-sourcePriority(b)||a.name.localeCompare(b.name,'ko')||a.id.localeCompare(b.id)):[];
 }
 export function recipeAvailability(recipe,ingredients,pantryIds) {
   const byId=new Map(ingredients.map(i=>[i.id,i])),owned=[],buy=[];

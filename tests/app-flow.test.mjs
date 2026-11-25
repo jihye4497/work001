@@ -396,7 +396,7 @@ test('한 글자 검색 목록·더 보기·추천 제외 무시·직접 담기�
  const order=all(body);
  assert.ok(order.indexOf(document.getElementById('mode-0'))<order.indexOf(input));
  assert.ok(order.indexOf(input)<order.indexOf(document.getElementById('food-0')));
- assert.equal(all(body).find(x=>x.className==='menu-search-total').textContent,`${raw.length}개`);
+ assert.equal(all(body).find(x=>x.className==='menu-search-total').textContent,`${raw.filter(r=>r.id!=='mfds-cookrcp01-1112').length}개`);
  assert.equal(document.getElementById('menu-search-list').hidden,true);
  assert.equal(document.getElementById('clear-menu-search').hidden,true);
  input.value='김';await input.fire('input');
@@ -421,7 +421,7 @@ test('한 글자 검색 목록·더 보기·추천 제외 무시·직접 담기�
  assert.equal(document.getElementById('menu-search-list').hidden,true);
  assert.equal(document.getElementById('menu-results').hidden,false);
  assert.ok(!count().includes('검색 결과'));
- assert.equal(count(),`${raw.length}개`);assert.equal(heading.hidden,false);
+ assert.equal(count(),`${raw.filter(r=>r.id!=='mfds-cookrcp01-1112').length}개`);assert.equal(heading.hidden,false);
  assert.equal(document.getElementById('recommendation-filters').hidden,false);
  assert.deepEqual(JSON.parse(saved.get('jmd_draft_v1')).selectedFoodCategories,['양식']);
  input.value='고추장';await input.fire('input');await input.fire('keydown',{key:'Escape'});

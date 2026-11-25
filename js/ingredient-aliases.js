@@ -1,5 +1,16 @@
 // User-reviewed equivalences only. Fresh/dried/powder/liquid and distinct products stay separate.
 export const INGREDIENT_ALIAS_GROUPS=[
+ {name:'습식찹쌀가루',aliases:['젖은 찹쌀가루'],note:'식약처 852 돼지고기 찹쌀부침50g·992 섭산삼30g 원문 젖은 가루 표기 확인. 습식으로 판단, 건식/멥쌀가루와 구분'},
+ {name:'감자전분',aliases:['감자녹말가루']},
+ {name:'삼계탕 재료팩',aliases:['삼계탕 티백']},
+ {name:'중력분',aliases:['밀가루중력분']},
+ {name:'햄',aliases:['햄다진것']},
+ {name:'배추김치',aliases:['노브랜드 별미 포기김치'],note:'원문 제품명과 수량은 메뉴 사용내역에 보존. 종류미기재 김치 전체와는 자동통합하지 않음'},
+ {name:'검은깨',aliases:['검정깨','흑임자']},
+ // User checked source photos for recipes 156/104/29, 2026-11-25.
+ {name:'떡볶이떡',aliases:['떡사리']},
+ // User confirmed ordinary glass noodles are purchased dry, 2026-11-25.
+ {name:'당면',aliases:['건당면']},
  // Reviewed leaves / common vegetable labels, 2026-11-24.
  {name:'마늘종',aliases:['마늘쫑']},
  {name:'무청',aliases:['알타리 무청'],note:'원문 알타리 종류는 사용 내역 유지'},
@@ -61,7 +72,7 @@ export const INGREDIENT_ALIAS_GROUPS=[
  {name:'오만둥이',aliases:[],searchTerms:['오만둘이']},
  {name:'우렁이',aliases:['우렁']},
  {name:'관자',aliases:['패주']},
- {name:'크래미',aliases:['게살(크래미)']},
+ {name:'크래미',aliases:['게살(크래미)','크레미','크래비'],note:'크래비는 원문 맛살 사용문맥에 따른 대표선택 연결, 원문 제품표기 보존'},
  {name:'대하',aliases:['새우(대하)']},
  {name:'새우살',aliases:['새우살다진것','잔새우살다진것','새우다진것','생새우살']},
  {name:'칵테일새우',aliases:['칵텔새우']},
@@ -92,7 +103,7 @@ export const INGREDIENT_ALIAS_GROUPS=[
  {name:'표고버섯',aliases:['생표고버섯']},
  {name:'대파',aliases:['다진 대파','다진 파','파다진것','깐대파','파채'],searchTerms:['파']},
  {name:'쪽파',aliases:['다진 쪽파']},
- {name:'참깨',aliases:['부순 참깨','통깨']},
+ {name:'참깨',aliases:['부순 참깨','통깨','흰깨']},
  {name:'사과주스',aliases:['사과쥬스']},
  {name:'오레가노',aliases:['오레가노 다진것']},
  {name:'고형 카레',aliases:['일본식 고체형 카레'],searchTerms:['고체카레','고체 카레']},

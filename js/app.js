@@ -1,3 +1,4 @@
+import {isOfferedRecipe} from './catalog-exclusions.js';
 import { ingredientDisplayName } from './ingredient-display-names.js';
 import { ingredientIcon } from './ingredient-icons.js';
 import { recipeSource } from './recipe-sources.js';
@@ -274,9 +275,11 @@ function ingredientPicker(pantry = false) {
       category===activeCategory?'secondary selected':'secondary',
       {id:`${prefix}-category-${index-1}`,'aria-label':category,'aria-pressed':String(category===activeCategory)})));
     subcategoryTabs.hidden=activeCategory==='제철';
-    subcategoryTabs.replaceChildren(...(activeCategory==='제철'?[]:['전체',...BROWSE_SUBCATEGORIES[activeCategory]]).map((sub,index)=>button(sub,()=>{
+    subcategoryTabs.dataset.category=activeCategory;
+    const subLines={'면·떡':['면','떡'],'두부·묵':['두부','묵'],'반찬·통조림':['반찬','통조림'],'간편식·간식':['간편식','간식'],'고추·후추':['고추','후추'],'허브·시즈닝':['허브','시즈닝'],'기타 향신':['기타','향신']};
+    subcategoryTabs.replaceChildren(...(activeCategory==='제철'?[]:['전체',...BROWSE_SUBCATEGORIES[activeCategory]]).map((sub,index)=>button(el('span',{class:'subcategory-label'},subLines[sub]?[subLines[sub][0],el('br'),subLines[sub][1]]:sub),()=>{
       activeSubcategory=sub;ingredientLimit=24;update();focus(`${prefix}-subcategory-${index}`);
-    },sub===activeSubcategory?'secondary selected':'secondary',{id:`${prefix}-subcategory-${index}`,'aria-pressed':String(sub===activeSubcategory)})));
+    },sub===activeSubcategory?'secondary selected':'secondary',{id:`${prefix}-subcategory-${index}`,'aria-label':sub,'aria-pressed':String(sub===activeSubcategory)})));
     selected.replaceChildren(...selectedIds().map(id => {
       const item = data.ingredients.find(i => i.id === id);
       return button(`${ingredientDisplayName(item)} ×`, () => { toggle(id); input.focus(); }, 'secondary selected', { 'aria-label': `${ingredientDisplayName(item)} 선택 해제` });
@@ -411,7 +414,8 @@ function drawRecipes() {
     store.draft.menuQuery='';input.value='';resetVisible();save();renderResults();input.focus();
   }
   const clearSearch=button(el('span',{'aria-hidden':'true'},'×'),clearMenuSearch,'menu-search-clear',{id:'clear-menu-search','aria-label':'검색어 지우기',title:'검색어 지우기',hidden:!input.value.length});
-  const searchTotal=el('span',{class:'menu-search-total',role:'status','aria-label':'전체 메뉴 수'},`${data.recipes.length}개`);
+  const offeredMenuCount=data.recipes.filter(isOfferedRecipe).length;
+  const searchTotal=el('span',{class:'menu-search-total',role:'status','aria-label':'전체 메뉴 수'},`${offeredMenuCount}개`);
   const searchList=el('section',{id:'menu-search-list',class:'menu-search-list',hidden:true,'aria-label':'전체 메뉴 검색 결과'});
   const browseControls=el('div',{id:'recommendation-filters'},[
     el('div',{class:'food-kinds'},[el('span',{class:'flow-heading'},'음식 종류'),filters]),
@@ -436,7 +440,7 @@ function drawRecipes() {
     resultTitle.textContent=query?'메뉴 검색 결과':'추천 메뉴';
     resultCount.textContent=`${results.length}개`;
     resultHeading.hidden=Boolean(query);
-    searchTotal.textContent=query?`검색 결과 ${results.length}개`:`${data.recipes.length}개`;
+    searchTotal.textContent=query?`검색 결과 ${results.length}개`:`${offeredMenuCount}개`;
     searchTotal.setAttribute('aria-label',query?'검색 결과 수':'전체 메뉴 수');
     clearSearch.hidden=!input.value.length;
     searchList.hidden=!query;

@@ -6,6 +6,7 @@
   --home-guide-size: clamp(16px,calc(12px + 1vw),18px);
   --home-preview-border: #C8CEC5; --home-demo-checkbox-size: 16px;
   --picker-chip-height: 40px; --picker-tab-height: 44px; --picker-filter-height: 36px;
+  --picker-filter-line: 18px; --picker-filter-tracking: -0.4px; --picker-filter-scale: 1;
   --pantry-bg: #EAF3E7; --pantry-text: #365B34; --pantry-border: #B4CBB0;
   --interest-bg: #FFF0DF; --interest-text: #8A460D; --interest-border: #E8BF94;
   --interest-hover: #F9E3CA; --pantry-hover: #DFECDD;
@@ -393,8 +394,12 @@ dialog h2 { font-size: var(--heading-size); margin-bottom: var(--s3); }
 .seasonal-source { font-size: var(--selected-basis-size); line-height: var(--selected-basis-line); margin-top: var(--s3); }
 .seasonal-source a { color: var(--muted); }
 
-.ingredient-subcategories { display: flex; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: thin; gap: var(--s1); margin-bottom: var(--s3); }
-.ingredient-subcategories .button { white-space: nowrap; flex: 0 0 auto; min-height: var(--picker-filter-height); padding: var(--s1) var(--s2); border: 0; border-radius: var(--pill-radius); background: transparent; color: var(--muted); font-size: var(--selected-basis-size); font-weight: var(--weight-normal); }
+.ingredient-subcategories { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0,1fr); gap: 0; margin-bottom: var(--s3); }
+.ingredient-subcategories[data-category="기타"] { grid-template-columns: 2fr 3fr 2fr 3fr 2fr 3fr 3fr; }
+.ingredient-subcategories[data-category="양념"] { grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 3fr 2fr; }
+.ingredient-subcategories .button { white-space: normal; min-width: 0; height: var(--picker-filter-height); min-height: var(--picker-filter-height); padding: 0; border: 0; border-radius: var(--pill-radius); background: transparent; color: var(--muted); font-size: var(--selected-basis-size); line-height: var(--picker-filter-line); font-weight: var(--weight-normal); letter-spacing: var(--picker-filter-tracking); display: flex; align-items: center; justify-content: center; }
+.subcategory-label { display: block; white-space: nowrap; transform: scaleX(var(--picker-filter-scale)); }
+@media (max-width: 359px) { .ingredient-subcategories { --picker-filter-scale: .92; } }
 .ingredient-subcategories .button.selected { background: var(--secondary); color: var(--primary); font-weight: var(--weight-button); }
 
 @media (max-width: 359px) { .ingredient-category-icon { width: 14px; height: 14px; } }

@@ -1,0 +1,22 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {isOfferedRecipe} from '../js/catalog-exclusions.js';
+import {searchMenus,recommend} from '../js/recommendations.js';
+import {searchIngredients} from '../js/ingredients.js';
+import {browseIngredients} from '../js/ingredient-browse.js';
+import {aggregate} from '../js/shopping-list.js';
+const read=async p=>JSON.parse(await readFile(new URL('../data/'+p,import.meta.url),'utf8'));
+const [recipes,ingredients]=await Promise.all(['recipes.json','ingredients.json'].map(read));
+test('사용자 제외 호떡메뉴/전용반죽은 탐색에서만 제외하고 저장메뉴 계산용 원본 보존',()=>{
+ const recipe=recipes.find(r=>r.id==='mfds-cookrcp01-1112');assert.ok(recipe);
+ assert.equal(recipes.filter(isOfferedRecipe).length,recipes.length-1);
+ assert.ok(!searchMenus(recipes,'약밥 닮은 호떡').some(r=>r.id===recipe.id));
+ assert.deepEqual(searchIngredients(ingredients,'호떡반죽'),[]);
+ for(const category of ['농산물','육·수산','기타','양념'])assert.ok(!browseIngredients(ingredients,category).some(i=>i.id==='mfds-ingredient-fa973b9a12df'));
+ const draft={selectedIngredientIds:['mfds-ingredient-fa973b9a12df'],selectedRecipes:[],activeRecommendationMode:'추가 구매 최소'};
+ assert.deepEqual(recommend(ingredients,[recipe],draft),[]);
+ const selected=[{recipeId:recipe.id,servings:1,times:1}],before=JSON.stringify(selected);
+ assert.ok(aggregate(ingredients,recipes,selected,1).some(row=>row.uses.some(use=>use.name===recipe.name)));
+ assert.equal(JSON.stringify(selected),before);
+});

@@ -1,4 +1,5 @@
 import { representativeIngredient } from './ingredient-matching.js';
+import {isOfferedIngredient} from './catalog-exclusions.js';
 import { preparedIngredientKind } from './prepared-ingredients.js';
 import { ingredientDisplayName } from './ingredient-display-names.js';
 import { isCookingWater, ingredientSearchTerms } from './ingredient-aliases.js';
@@ -50,7 +51,7 @@ export function searchIngredients(ingredients, query) {
   const q = normalize(query);
   if (!q) return [];
   const byId=new Map(ingredients.map(i=>[i.id,i]));
-  return [...new Map(ingredients.filter(i => !isCookingWater(i) && !preparedIngredientKind(i) && [i.name, ingredientDisplayName(i), ingredientDisplayName(representativeIngredient(i,byId)), ...i.aliases, ...ingredientSearchTerms(i)].some(n => normalize(n).includes(q))).map(i=>{const representative=representativeIngredient(i,byId);return [representative.id,representative];})).values()];
+  return [...new Map(ingredients.filter(i => isOfferedIngredient(i) && !isCookingWater(i) && !preparedIngredientKind(i) && [i.name, ingredientDisplayName(i), ingredientDisplayName(representativeIngredient(i,byId)), ...i.aliases, ...ingredientSearchTerms(i)].some(n => normalize(n).includes(q))).map(i=>{const representative=representativeIngredient(i,byId);return [representative.id,representative];})).values()];
 }
 
 export async function loadData() {

@@ -10,6 +10,59 @@ import {ingredientDisplayName} from '../js/ingredient-display-names.js';
 const ingredients=JSON.parse(await readFile(new URL('../data/ingredients.json',import.meta.url),'utf8'));
 const get=name=>ingredients.find(i=>i.name===name);
 const byId=new Map(ingredients.map(i=>[i.id,i]));
+test('사진확인 떡사리는 떡볶이떡으로 통합하고 원문3메뉴 수량/미기재/단위 보존',async()=>{
+ const base=get('떡볶이떡'),alias=get('떡사리');
+ assert.deepEqual(searchIngredients(ingredients,'떡사리').map(i=>i.id),[base.id]);
+ assert.equal(ingredientDisplayName(alias),'떡볶이떡');
+ assert.ok(!browseIngredients(ingredients,'기타','면·떡').some(i=>i.id===alias.id));
+ const recipes=JSON.parse(await readFile(new URL('../data/recipes.json',import.meta.url),'utf8'));
+ const ids=['mincook-blog-156','mincook-blog-104','mincook-blog-29'];
+ const snapshot=JSON.stringify(recipes);
+ for(const id of ids){
+  const r=recipes.find(r=>r.id===id),item=r.ingredients.find(i=>i.ingredientId===alias.id);
+  assert.ok(item,id);
+  const row=aggregate(ingredients,[r],[{recipeId:id,servings:r.baseServings,times:1}],r.baseServings).find(row=>row.ingredient.id===base.id);
+  assert.ok(row,id);const use=row.uses.find(u=>u.note===item.note);
+  assert.equal(use.amount,item.amount);assert.equal(use.unit,item.unit);
+ }
+ const recipe={id:'merged-rice-cakes',name:'합산',baseServings:1,ingredients:[{ingredientId:base.id,amount:50,unit:'g',note:null},{ingredientId:alias.id,amount:100,unit:'g',note:'원문: 떡사리'}]};
+ const rows=aggregate(ingredients,[recipe],[{recipeId:recipe.id,servings:1,times:1}],1);
+ assert.equal(rows.length,1);assert.equal(totalText(rows[0]),'150g');
+ const values=new Map([[KEYS.preferences,JSON.stringify({schemaVersion:1,pantryIngredientIds:[alias.id,base.id],excludedRecipeIds:[]})]]);
+ const store=createStore({getItem:k=>values.get(k)??null,setItem:(k,v)=>values.set(k,v)});
+ store.reconcile(ingredients,recipes);assert.deepEqual(store.pantryIngredientIds,[base.id]);
+ assert.equal(JSON.stringify(recipes),snapshot);
+});
+test('불린 라이스페이퍼는 대표선택/보유로 연결하고 불린 상태의 무게는 분리',()=>{
+ const base=get('라이스페이퍼'),form=get('불린 라이스페이퍼');
+ assert.deepEqual(searchIngredients(ingredients,form.name).map(i=>i.id),[base.id]);
+ assert.equal(matchIngredient(base.id,form.id,{name:'테스트'},byId),2);
+ assert.ok(!browseIngredients(ingredients,'기타','면·떡').some(i=>i.id===form.id));
+ const recipe={id:'paper',name:'원문 상태',baseServings:1,ingredients:[base,form].map(i=>({ingredientId:i.id,amount:10,unit:'g',note:`원문: ${i.name}`}))};
+ const rows=aggregate(ingredients,[recipe],[{recipeId:recipe.id,servings:2}],2);
+ assert.equal(rows.length,1);assert.equal(totalText(rows[0]),'라이스페이퍼 20g + 불린 라이스페이퍼 20g');
+ const values=new Map([[KEYS.preferences,JSON.stringify({schemaVersion:1,pantryIngredientIds:[form.id],excludedRecipeIds:[]})]]);
+ const store=createStore({getItem:k=>values.get(k)??null,setItem:(k,v)=>values.set(k,v)});
+ store.reconcile(ingredients,[]);assert.deepEqual(store.pantryIngredientIds,[base.id]);
+});
+test('병아리콩 불림은 선택만 통합하고 건당면은 당면과 같은 건조재료로 합산',()=>{
+ const before=JSON.stringify(ingredients);
+ for(const [base,form] of [['병아리콩','불린 병아리콩'],['당면','건당면']]){
+  assert.deepEqual(searchIngredients(ingredients,form).map(i=>i.id),[get(base).id]);
+  assert.equal(matchIngredient(get(base).id,get(form).id,{name:'테스트'},byId),2);
+  for(const category of ['농산물','육·수산','기타','양념'])assert.ok(!browseIngredients(ingredients,category).some(i=>i.id===get(form).id));
+  const values=new Map([[KEYS.preferences,JSON.stringify({schemaVersion:1,pantryIngredientIds:[get(form).id,get(base).id],excludedRecipeIds:[]})]]);
+  const store=createStore({getItem:k=>values.get(k)??null,setItem:(k,v)=>values.set(k,v)});
+  store.reconcile(ingredients,[]);assert.deepEqual(store.pantryIngredientIds,[get(base).id]);
+ }
+ const recipe={id:'chickpea-noodles',name:'상태 보존',baseServings:1,ingredients:[['병아리콩',50],['불린 병아리콩',100],['당면',20],['건당면',30]].map(([name,amount])=>({ingredientId:get(name).id,amount,unit:'g',note:`원문: ${name}`}))};
+ const snapshot=JSON.stringify(recipe),rows=aggregate(ingredients,[recipe],[{recipeId:recipe.id,servings:2}],2);
+ assert.equal(rows.length,2);
+ assert.equal(totalText(rows.find(r=>r.ingredient.name==='병아리콩')),'병아리콩 100g + 불린 병아리콩 200g');
+ assert.equal(totalText(rows.find(r=>r.ingredient.name==='당면')),'100g');
+ assert.ok(rows.flatMap(r=>r.uses).some(u=>u.note==='원문: 건당면'));
+ assert.equal(JSON.stringify(recipe),snapshot);assert.equal(JSON.stringify(ingredients),before);
+});
 test('조리 상태 검색·선택·보유 연결은 계란/메추리알/건미역으로 모으고 원본은 보존',()=>{
  const before=JSON.stringify(ingredients);
  for(const [base,forms] of [['계란',['달걀노른자','달걀흰자','삶은 계란','반숙 계란']],['메추리알',['삶은 메추리알']],['건미역',['불린 미역','건조미역']]]) {
