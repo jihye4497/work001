@@ -9,9 +9,10 @@
   --pantry-bg: #EAF3E7; --pantry-text: #365B34; --pantry-border: #B4CBB0;
   --interest-bg: #FFF0DF; --interest-text: #8A460D; --interest-border: #E8BF94;
   --interest-hover: #F9E3CA; --pantry-hover: #DFECDD;
-  --servings-control-width: 144px; --bottom-panel-height: 45dvh;
-  --component-counter-width: var(--servings-control-width); --component-name-width: 3em;
-  --component-name-max: 5em;
+  --servings-control-width: 96px; --servings-control-height: 36px;
+  --servings-step-width: 28px; --bottom-panel-height: 45dvh;
+  --component-counter-width: var(--servings-control-width); --component-name-width: 4em;
+  --component-name-max: 7em;
   --home-display-size: 40px; --home-display-line: 52px;
   --shadow-soft: 0 2px 8px #25332B06; --pill-radius: 999px;
   --nav-icon-size: 18px; --nav-icon-gap: 6px;
@@ -260,9 +261,9 @@ body[data-page=recipes]:has(#menu-search:focus) .recipe-bottom { position: stati
 .selected-composite .selected-name { margin-bottom: var(--s1); }
 .selected-composite .selected-basis,.selected-composite .recipe-source { line-height: var(--selected-meta-line); }
 .component-control { grid-column: 2; display: grid; grid-template-columns: minmax(var(--component-name-width),max-content) var(--component-counter-width); justify-content: end; align-items: center; gap: var(--s1); }
-.component-control-name { font-size: var(--selected-basis-size); line-height: var(--selected-basis-line); max-width: var(--component-name-max); white-space: normal; overflow-wrap: anywhere; }
-.component-control .counter { height: 100%; min-height: var(--touch); }
-.component-control .counter .button { min-height: var(--touch); }
+.component-control-name { font-size: var(--selected-basis-size); line-height: var(--selected-basis-line); max-width: var(--component-name-max); white-space: normal; overflow-wrap: anywhere; text-align: right; }
+.selected-panel .counter { grid-template-columns: var(--servings-step-width) minmax(0,1fr) var(--servings-step-width); height: var(--servings-control-height); min-height: var(--servings-control-height); align-self: center; }
+.selected-panel .counter .button { width: var(--servings-step-width); min-width: 0; height: var(--servings-control-height); min-height: var(--servings-control-height); }
 .selected-menu-label { min-width: 0; }
 .selected-name { font-size: var(--body-size); line-height: var(--small-line); font-weight: var(--weight-button); }
 .selected-basis { display: block; font-size: var(--selected-basis-size); line-height: var(--selected-basis-line); color: var(--muted); }
@@ -362,7 +363,7 @@ dialog h2 { font-size: var(--heading-size); margin-bottom: var(--s3); }
   :root { --gutter: 32px; }
 }
 @media (max-width: 359px) {
-  :root { --gutter: 12px; --servings-control-width: 132px; }
+  :root { --gutter: 12px; }
   .brand { font-size: var(--body-size); }
   .brand-mark { width: 28px; height: 28px; }
   .main-nav { gap: 0; }
