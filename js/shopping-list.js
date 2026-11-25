@@ -6,6 +6,7 @@ import { ingredientKey, representativeIngredient } from './ingredient-matching.j
 import { canonicalIngredientName } from './ingredient-aliases.js';
 import { preparationFamilyName } from './ingredient-preparations.js';
 import { preparedPurchase, preparedSubstitution } from './prepared-ingredients.js';
+import { selectedBatchCount } from './recipe-calculation-basis.js';
 
 export function selectedServings(selection, household) {
   return selection.servings ?? household * selection.times;
@@ -20,7 +21,7 @@ export function aggregate(ingredients, recipes, selectedRecipes, servings) {
     if (!recipe) throw new Error('선택 메뉴의 데이터를 찾을 수 없어요.');
     for (const item of recipe.ingredients) {
       const component=recipe.components?.find(c=>c.id===item.componentId);
-      const batchTimes=component?.mode==='batch'?(selection.componentBatches?.[component.id]??1):null;
+      const batchTimes=recipe.calculationMode==='batch'?selectedBatchCount(selection):component?.mode==='batch'?(selection.componentBatches?.[component.id]??1):null;
       if(batchTimes===0)continue;
       const source = byId.get(selection.ingredientReplacements?.[item.ingredientId] || item.ingredientId);
       const prepared=preparedPurchase(item,recipe,byId,selection.ingredientReplacements?.[item.ingredientId]);
@@ -51,18 +52,24 @@ export function aggregate(ingredients, recipes, selectedRecipes, servings) {
         if(form===ingredient.name){row.totals=part.totals;row.unknown=part.unknown;}
       } else if (amount === null || unit === null) row.unknown = true;
       else row.totals.set(unit, (row.totals.get(unit) || 0) + amount);
-      if (recipe.servingsStatus === 'estimated') row.estimated = true;
-      row.uses.push({ originalIngredientName:byId.get(item.ingredientId)?.name, name: component?`${recipe.name} · ${component.name}`:recipe.name, amount:prepared?originalAmount:amount, unit: item.unit, note: item.note, ...(recipe.servingsBasisLabel?{showSourceNote:true}:{}), ...(batchTimes!==null?{batchTimes}:{}), servingLabel: servingLabel(recipe), servings: selectedServings(selection, servings), times: 1 });
+      if (recipe.servingsStatus === 'estimated'&&batchTimes===null) row.estimated = true;
+      row.uses.push({ originalIngredientName:byId.get(item.ingredientId)?.name, name: component?`${recipe.name} · ${component.name}`:recipe.name, amount:prepared?originalAmount:amount, unit: item.unit, note: item.note, ...(recipe.servingsBasisLabel||recipe.components||recipe.showSourceNotes?{showSourceNote:true}:{}), ...(batchTimes!==null?{batchTimes}:{}), servingLabel: servingLabel(recipe), servings: selectedServings(selection, servings), times: 1 });
       rows.set(ingredient.id, row);
     }
   }
   return [...rows.values()].sort((a, b) => CATEGORIES.indexOf(a.ingredient.category) - CATEGORIES.indexOf(b.ingredient.category) || a.ingredient.name.localeCompare(b.ingredient.name, 'ko'));
 }
 
-export function quantity(amount, unit) {
+export function quantity(amount, unit, {detail=false}={}) {
   if (amount === null || unit === null) return '수량 미기재';
   // Display-only rounding; all aggregation uses original numbers.
-  return `${new Intl.NumberFormat('ko-KR', { maximumFractionDigits: 4 }).format(amount)}${unit}`;
+  let display=amount;
+  if(!detail&&Number.isFinite(amount*10)){
+    const scaled=amount*10,nearest=Math.round(scaled);
+    const floatingNoise=nearest!==0&&Math.abs(scaled-nearest)<=Number.EPSILON*Math.max(1,Math.abs(scaled))*4;
+    display=(floatingNoise?nearest:Math.ceil(scaled))/10;
+  }
+  return `${new Intl.NumberFormat('ko-KR', { maximumFractionDigits: detail?2:1 }).format(display)}${unit}`;
 }
 export function totalText(row) {
   if(row.preparations)return [...row.preparations].map(([form,part])=>`${row.preparations.size===1&&form===row.ingredient.name?'':`${ingredientDisplayName(form)} `}${totalText(part)}`).join(' + ');

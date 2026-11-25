@@ -15,6 +15,7 @@ export function validDraft(d) {
     (d.selectedFoodCategories === undefined || validFoodCategories(d.selectedFoodCategories)) &&
     ['selectedIngredientIds', 'checkedIngredientIds'].every(k => Array.isArray(d[k]) && d[k].every(id => typeof id === 'string') && new Set(d[k]).size === d[k].length) &&
     Array.isArray(d.selectedRecipes) && d.selectedRecipes.every(s => s && typeof s.recipeId === 'string' && Number.isSafeInteger(s.times) && s.times >= 1 && (s.servings===undefined || (Number.isSafeInteger(s.servings)&&s.servings>=1)) && (s.componentBatches===undefined||(s.componentBatches&&typeof s.componentBatches==='object'&&!Array.isArray(s.componentBatches)&&Object.values(s.componentBatches).every(n=>Number.isSafeInteger(n)&&n>=0))) && (s.ingredientReplacements===undefined || (s.ingredientReplacements&&typeof s.ingredientReplacements==='object'&&!Array.isArray(s.ingredientReplacements)&&Object.values(s.ingredientReplacements).every(id=>typeof id==='string')))) &&
+    d.selectedRecipes.every(s=>s.batchCount===undefined||(Number.isSafeInteger(s.batchCount)&&s.batchCount>=1)) &&
     new Set(d.selectedRecipes.map(s => s.recipeId)).size === d.selectedRecipes.length;
 }
 

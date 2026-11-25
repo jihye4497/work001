@@ -9,6 +9,7 @@ import { aggregate, selectedServings, totalText, quantity, selectedCopyText, par
 import { createStore } from './storage.js';
 import { el, button, link, empty } from './ui.js';
 import { servingLabel } from './servings.js';
+import { selectedBatchCount } from './recipe-calculation-basis.js';
 import { FOOD_CATEGORIES, toggleFoodCategory, excludedRecipeResults } from './recipe-filters.js';
 
 const page = document.body.dataset.page;
@@ -120,8 +121,11 @@ function sourceLabel(recipe) {
 function selectedPanel(compact = false) {
   const entries = store.draft.selectedRecipes.map(s => {
     const recipe = data.recipes.find(r => r.id === s.recipeId);
+    const batch=recipe.calculationMode==='batch';
+    const currentQuantity=batch?selectedBatchCount(s):selectedServings(s,store.settings['기본 식사 인원']);
+    const quantityUnit=batch?'회':'인분';
     return el('div', {class:recipe.components?'selected-item selected-composite':'selected-item'}, [
-      el('div', {class:recipe.components?'selected-line component-heading':'selected-line'}, [
+      el('div', {class:recipe.components?'selected-line component-heading':'selected-line',style:recipe.components?`grid-row: 1 / span ${recipe.components.length}`:null}, [
         el('div', {class:'selected-menu-label'}, [
           el('strong', {class:'selected-name'}, recipe.name),
           ...(recipe.components||[]).map(c=>el('span',{class:'muted selected-basis'},servingLabel({...recipe,components:[c]}))),
@@ -132,10 +136,10 @@ function selectedPanel(compact = false) {
           ]):sourceLabel(recipe),
           ...Object.entries(s.ingredientReplacements||{}).map(([from,to])=>el('span',{class:'muted selected-basis'},`${ingredientDisplayName(data.ingredients.find(i=>i.id===from))} → ${ingredientDisplayName(data.ingredients.find(i=>i.id===to))} 활용`))
         ]),
-        recipe.components?null:el('div', {class:'counter', role:'group', 'aria-label':`${recipe.name} 준비할 인분`}, [
-          button('−',()=>changeTimes(s,-1,compact),'secondary square',{id:`minus-${s.recipeId}`,'aria-label':`${recipe.name} 인분 줄이기`}),
-          el('span',{class:'times-value'},`${selectedServings(s,store.settings['기본 식사 인원'])}인분`),
-          button('+',()=>changeTimes(s,1,compact),'secondary square',{id:`plus-${s.recipeId}`,disabled:selectedServings(s,store.settings['기본 식사 인원'])>=Number.MAX_SAFE_INTEGER,'aria-label':`${recipe.name} 인분 늘리기`})
+        recipe.components?null:el('div', {class:'counter', role:'group', 'aria-label':`${recipe.name} ${batch?'제조 횟수':'준비할 인분'}`}, [
+          button('−',()=>changeTimes(s,-1,compact),'secondary square',{id:`minus-${s.recipeId}`,'aria-label':`${recipe.name} ${quantityUnit} 줄이기`}),
+          el('span',{class:'times-value'},`${currentQuantity}${quantityUnit}`),
+          button('+',()=>changeTimes(s,1,compact),'secondary square',{id:`plus-${s.recipeId}`,disabled:currentQuantity>=Number.MAX_SAFE_INTEGER,'aria-label':`${recipe.name} ${quantityUnit} 늘리기`})
         ])
       ]),
       ...(recipe.components||[]).map(c=>el('div',{class:'component-control'},[
@@ -145,9 +149,9 @@ function selectedPanel(compact = false) {
           el('span',{class:'times-value'},`${selectedServings(s,store.settings['기본 식사 인원'])}인분`),
           button('+',()=>changeTimes(s,1,compact),'secondary square',{id:`plus-${s.recipeId}`,disabled:selectedServings(s,store.settings['기본 식사 인원'])>=Number.MAX_SAFE_INTEGER,'aria-label':`${c.name} 인분 늘리기`})
         ]):el('div',{class:'counter',role:'group','aria-label':`${recipe.name} ${c.name} 제조 횟수`},[
-          button('−',()=>changeBatch(s,c,-1),'secondary square',{id:`batch-minus-${recipe.id}-${c.id}`,disabled:(s.componentBatches?.[c.id]??1)===0,'aria-label':`${c.name} 제조 횟수 줄이기`}),
+          button('−',()=>changeBatch(s,c,-1,compact),'secondary square',{id:`batch-minus-${recipe.id}-${c.id}`,disabled:(s.componentBatches?.[c.id]??1)===0,'aria-label':`${c.name} 제조 횟수 줄이기`}),
           el('span',{class:'times-value'},`${s.componentBatches?.[c.id]??1}회`),
-          button('+',()=>changeBatch(s,c,1),'secondary square',{id:`batch-plus-${recipe.id}-${c.id}`,disabled:(s.componentBatches?.[c.id]??1)>=Number.MAX_SAFE_INTEGER,'aria-label':`${c.name} 제조 횟수 늘리기`})
+          button('+',()=>changeBatch(s,c,1,compact),'secondary square',{id:`batch-plus-${recipe.id}-${c.id}`,disabled:(s.componentBatches?.[c.id]??1)>=Number.MAX_SAFE_INTEGER,'aria-label':`${c.name} 제조 횟수 늘리기`})
         ])
       ]))
     ]);
@@ -161,14 +165,18 @@ function selectedPanel(compact = false) {
     ])
   ]);
 }
-function changeBatch(selection,component,difference){
+function changeBatch(selection,component,difference,compact=false){
+  const recipe=data.recipes.find(r=>r.id===selection.recipeId);
+  const next=Math.max(0,Math.min(Number.MAX_SAFE_INTEGER,(selection.componentBatches?.[component.id]??1)+difference));
+  if(next===0&&recipe.components.every(c=>c.mode==='batch'&&(c.id===component.id||((selection.componentBatches?.[c.id]??1)===0)))){
+    confirmMenuRemoval(selection,compact,`batch-minus-${selection.recipeId}-${component.id}`);return;
+  }
   selection.componentBatches??={};
-  selection.componentBatches[component.id]=Math.max(0,Math.min(Number.MAX_SAFE_INTEGER,(selection.componentBatches[component.id]??1)+difference));
+  selection.componentBatches[component.id]=next;
   save();draw();focus(`batch-${difference>0||selection.componentBatches[component.id]===0?'plus':'minus'}-${selection.recipeId}-${component.id}`);
   announce(`${component.name} ${selection.componentBatches[component.id]}회로 변경했어요.`);
 }
-function changeTimes(selection, difference, compact = false) {
-  if(difference<0&&selectedServings(selection,store.settings['기본 식사 인원'])===1) {
+function confirmMenuRemoval(selection,compact=false,triggerId=`minus-${selection.recipeId}`){
     const recipe=data.recipes.find(r=>r.id===selection.recipeId);
     const cancel=button('취소',()=>dialog.close(),'secondary');
     const dialog=el('dialog',{'aria-labelledby':'remove-menu-title','aria-describedby':'remove-menu-description'},[
@@ -180,13 +188,20 @@ function changeTimes(selection, difference, compact = false) {
         announce(`${recipe.name} 메뉴를 삭제했어요. 필요량을 다시 계산했어요.`);
       },'danger')])
     ]);
-    dialog.addEventListener('close',()=>{dialog.remove();focus(`minus-${selection.recipeId}`);});
+    dialog.addEventListener('close',()=>{dialog.remove();focus(triggerId);});
     document.body.append(dialog);dialog.showModal();cancel.focus();return;
-  }
-  selection.servings = Math.max(1, Math.min(Number.MAX_SAFE_INTEGER, selectedServings(selection,store.settings['기본 식사 인원']) + difference));
+}
+function changeTimes(selection, difference, compact = false) {
+  const selectedRecipe=data.recipes.find(r=>r.id===selection.recipeId);
+  const batch=selectedRecipe.calculationMode==='batch';
+  const currentQuantity=batch?selectedBatchCount(selection):selectedServings(selection,store.settings['기본 식사 인원']);
+  if(difference<0&&currentQuantity===1){confirmMenuRemoval(selection,compact);return;}
+  const nextQuantity=Math.max(1,Math.min(Number.MAX_SAFE_INTEGER,currentQuantity+difference));
+  if(batch)selection.batchCount=nextQuantity;
+  else selection.servings=nextQuantity;
   resetVisible(); save(); draw();
   focus(`${difference > 0 ? 'plus' : 'minus'}-${selection.recipeId}`);
-  announce(`준비할 양을 ${selection.servings}인분으로 변경했어요. 필요량을 다시 계산했어요.`);
+  announce(`준비할 양을 ${nextQuantity}${batch?'회':'인분'}로 변경했어요. 필요량을 다시 계산했어요.`);
 }
 
 function ingredientPicker(pantry = false) {
@@ -607,7 +622,7 @@ function drawShopping() {
         preparationText(row)?el('p',{class:'muted'},preparationText(row)):null,
         row.detailNote?el('p',{class:'muted'},row.detailNote):null,
         el('ul',{class:'uses',id:`uses-${id}`,hidden:!open},row.uses.map(use=>el('li',{},[
-          el('span',{class:'use-name'},use.name),use.originalIngredientName&&use.originalIngredientName!==ingredientDisplayName(row.ingredient)?el('span',{class:'use-detail'},`· 원문: ${use.originalIngredientName}`):null,' ',el('span',{class:'use-detail'},use.batchTimes!==undefined?`· ${use.batchTimes}회 제조량`:`· ${use.servings*use.times}인분`),' ',el('span',{class:'use-detail'},`· ${quantity(use.amount,use.unit)}`),use.showSourceNote&&use.note?el('span',{class:'use-detail'},` · ${use.note}`):null
+          el('span',{class:'use-name'},use.name),use.originalIngredientName&&use.originalIngredientName!==ingredientDisplayName(row.ingredient)?el('span',{class:'use-detail'},`· 원문: ${use.originalIngredientName}`):null,' ',el('span',{class:'use-detail'},use.batchTimes!==undefined?`· ${use.batchTimes}회 제조량`:`· ${use.servings*use.times}인분`),' ',el('span',{class:'use-detail'},`· ${quantity(use.amount,use.unit,{detail:true})}`),use.showSourceNote&&use.note?el('span',{class:'use-detail'},` · ${use.note}`):null
         ])))
       ]);
     });

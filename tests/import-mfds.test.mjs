@@ -181,7 +181,8 @@ test('명시 인분과 180mg을 보존하고 인원·횟수에 따라 같은 단
   assert.equal(servingLabel(four),'4인분');
   const row=aggregate(allIngredients,expandedRecipes,[{recipeId:four.id,times:1}],1);
   const surimi=row.find(r=>r.ingredient.name==='맛살');
-  assert.equal(totalText(surimi),'33.75g');
+  assert.equal(surimi.totals.get('g'),33.75);
+  assert.equal(totalText(surimi),'33.8g');
 });
 
 test('확장 수량 변조·범위의 임의 숫자화·명시 인분의 추정 변경을 거절',()=>{

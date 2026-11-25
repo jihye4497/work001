@@ -11,6 +11,7 @@
   --interest-hover: #F9E3CA; --pantry-hover: #DFECDD;
   --servings-control-width: 144px; --bottom-panel-height: 45dvh;
   --component-counter-width: var(--servings-control-width); --component-name-width: 3em;
+  --component-name-max: 5em;
   --home-display-size: 40px; --home-display-line: 52px;
   --shadow-soft: 0 2px 8px #25332B06; --pill-radius: 999px;
   --nav-icon-size: 18px; --nav-icon-gap: 6px;
@@ -258,8 +259,8 @@ body[data-page=recipes]:has(#menu-search:focus) .recipe-bottom { position: stati
 .selected-composite .selected-menu-label { display: flex; flex-direction: column; }
 .selected-composite .selected-name { margin-bottom: var(--s1); }
 .selected-composite .selected-basis,.selected-composite .recipe-source { line-height: var(--selected-meta-line); }
-.component-control { grid-column: 2; display: grid; grid-template-columns: var(--component-name-width) var(--component-counter-width); align-items: center; gap: var(--s1); }
-.component-control-name { font-size: var(--selected-basis-size); line-height: var(--selected-basis-line); white-space: nowrap; }
+.component-control { grid-column: 2; display: grid; grid-template-columns: minmax(var(--component-name-width),max-content) var(--component-counter-width); justify-content: end; align-items: center; gap: var(--s1); }
+.component-control-name { font-size: var(--selected-basis-size); line-height: var(--selected-basis-line); max-width: var(--component-name-max); white-space: normal; overflow-wrap: anywhere; }
 .component-control .counter { height: 100%; min-height: var(--touch); }
 .component-control .counter .button { min-height: var(--touch); }
 .selected-menu-label { min-width: 0; }

@@ -2,21 +2,21 @@
   "schemaVersion": 1,
   "checkedOn": "2026-11-25",
   "scope": "유튜브로 지정한 5채널 및 연결 공식블로그의 estimated 4인분이상. 식약처/테팔·1~3인분·원문명시인분 제외. 단 검토 후3인분으로 수정한 수육무김치1개는 최초368개 대상의 이력 보존을 위해 유지.",
-  "limitations": "전체 대상의 보관원문/검수메타/등록재료 기계 대조와 편집 우선순위 분류. 전체 원문 신규접속·영상재생·인분확정을 완료했다는 뜻이 아님. proposedBaseServings는 사용자 논의 전 전부 null. 1~3인분은 정확성 확인이 아니라 이번 범위 밖. calculationBasisProposal은 제조횟수/인분 분리 검토안. resolved-main-dish-basis인 수육무김치1건만 실제 적용했고 나머지는 미적용.",
+  "limitations": "전체 대상의 보관원문/검수메타/등록재료 기계 대조와 편집 우선순위 분류. 전체 원문 신규접속·영상재생·인분확정을 완료했다는 뜻이 아님. proposedBaseServings는 사용자 논의 전 전부 null. 1~3인분은 정확성 확인이 아니라 이번 범위 밖. calculationBasisProposal은 제조횟수/인분 분리 검토안. 수육무김치 원본 정정 및 BATCH_RECIPE_REVIEWS 명시목록의 실행시 제조형 정책 적용. 제조형 검토 진행은 creator-batch-review.json 참조, 나머지 미적용.",
   "summary": {
     "targetCount": 368,
     "calculationBasisProposals": [
       {
         "mode": "batch",
-        "count": 84
+        "count": 165
       },
       {
         "mode": "servings",
-        "count": 250
+        "count": 203
       },
       {
         "mode": "pending",
-        "count": 34
+        "count": 0
       }
     ],
     "withCachedIngredientText": 368,
@@ -247,12 +247,12 @@
         "한식 반찬"
       ],
       "bucket": "pieces",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "감동란·장조림 등은 완성 개수를 안내하고 원문 전량을 1회분으로 담는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -347,12 +347,12 @@
         "한식 반찬"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -440,15 +440,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -645,15 +645,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -751,12 +751,12 @@
         "한식 반찬"
       ],
       "bucket": "pieces",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "감동란·장조림 등은 완성 개수를 안내하고 원문 전량을 1회분으로 담는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -845,15 +845,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -1000,15 +1000,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -1099,15 +1099,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -1226,15 +1226,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -1318,15 +1318,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -1417,12 +1417,12 @@
         "한식 반찬"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -1573,15 +1573,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -1898,15 +1898,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -2258,15 +2258,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -2484,15 +2484,15 @@
         "양식"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -2781,15 +2781,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -3211,15 +3211,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -3465,15 +3465,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -3670,15 +3670,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -3755,15 +3755,15 @@
         "한식 주메뉴"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -3828,15 +3828,15 @@
         "양식"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -3907,12 +3907,12 @@
         "한식 반찬"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -4000,12 +4000,12 @@
         "양식"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -4079,12 +4079,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -4309,12 +4309,12 @@
         "한식 반찬"
       ],
       "bucket": "pieces",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "감동란·장조림 등은 완성 개수를 안내하고 원문 전량을 1회분으로 담는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -4403,12 +4403,12 @@
         "그 밖"
       ],
       "bucket": "pieces",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "감동란·장조림 등은 완성 개수를 안내하고 원문 전량을 1회분으로 담는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -4475,15 +4475,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -4554,12 +4554,12 @@
         "중식"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -4661,12 +4661,12 @@
         "한식 반찬"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -4727,12 +4727,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -4863,12 +4863,12 @@
         "한식 반찬"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -4942,12 +4942,12 @@
         "한식 반찬"
       ],
       "bucket": "pieces",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "감동란·장조림 등은 완성 개수를 안내하고 원문 전량을 1회분으로 담는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -5698,12 +5698,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -5792,12 +5792,12 @@
         "한식 국·찌개"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -6033,12 +6033,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -6211,12 +6211,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -6290,15 +6290,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -6382,12 +6382,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -6455,12 +6455,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -7021,15 +7021,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -7798,12 +7798,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "껍질 포함 양파15kg·식용유300ml 전체를100인분이 아닌 원문1회 제조량으로 계산.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -7854,15 +7854,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -7905,15 +7905,15 @@
         "양식"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -8011,12 +8011,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -8105,12 +8105,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -8304,15 +8304,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -8530,15 +8530,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -8657,12 +8657,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -8793,15 +8793,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -8899,12 +8899,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -9154,15 +9154,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -9274,15 +9274,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -9394,12 +9394,12 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 확인: 고기 된장조림(꼬기 된장)은 원문 전체를1회 제조량으로 계산.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -10565,15 +10565,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -10665,12 +10665,12 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -10764,15 +10764,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -10870,12 +10870,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -10977,15 +10977,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -11238,15 +11238,15 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "바로 먹는 반찬과 한 번에 만들어 두는 반찬 중 어느 기준이 자연스러운지 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "제조량/곁들임인분 구분 검토",
       "flags": [
@@ -11338,15 +11338,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -11423,12 +11423,12 @@
         "한식 반찬"
       ],
       "bucket": "pieces",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "감동란·장조림 등은 완성 개수를 안내하고 원문 전량을 1회분으로 담는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -11523,12 +11523,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -11644,15 +11644,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -11729,12 +11729,12 @@
         "양식"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -11942,12 +11942,12 @@
         "한식 반찬"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -12021,15 +12021,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -12113,12 +12113,12 @@
         "한식 반찬"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -13313,12 +13313,12 @@
         "한식 반찬"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -13963,15 +13963,15 @@
         "그 밖"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 등록범위는 땅콩마요잼4재료만 포함. 샌드위치 재료는 등록범위 밖. 기존 소스·잼 제조물 정책에 따라 원문1회 제조량.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -14288,12 +14288,12 @@
         "한식 반찬"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -14374,12 +14374,12 @@
         "한식 반찬"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -14799,15 +14799,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -14877,15 +14877,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [],
@@ -15127,15 +15127,15 @@
         "양식"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [],
@@ -15231,15 +15231,15 @@
         "양식"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [],
@@ -15460,12 +15460,12 @@
         "양식"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -15545,15 +15545,15 @@
         "양식"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [],
@@ -15975,12 +15975,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -16026,12 +16026,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -16091,12 +16091,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "두부200g·오일50ml 전체를10인분이 아닌 원문1회 제조량으로 계산.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -16160,12 +16160,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -16232,12 +16232,12 @@
         "한식 반찬"
       ],
       "bucket": "pieces",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "감동란·장조림 등은 완성 개수를 안내하고 원문 전량을 1회분으로 담는 후보.",
+        "status": "applied-batch",
+        "reason": "달걀6개를6인분으로 보던 추정을 폐기하고 원문 전체를1회 제조량으로 계산.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -16293,12 +16293,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -16414,15 +16414,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -16527,15 +16527,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -16591,15 +16591,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -16745,15 +16745,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -16872,15 +16872,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -16943,15 +16943,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -17008,15 +17008,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -17114,15 +17114,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -17241,15 +17241,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -17334,15 +17334,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -17454,15 +17454,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -17546,12 +17546,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -17618,12 +17618,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -17753,12 +17753,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -18180,12 +18180,12 @@
         "한식 주메뉴"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -18486,15 +18486,15 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "바로 먹는 반찬과 한 번에 만들어 두는 반찬 중 어느 기준이 자연스러운지 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "제조량/곁들임인분 구분 검토",
       "flags": [
@@ -18823,15 +18823,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [],
@@ -19282,12 +19282,12 @@
         "한식 주메뉴"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -19687,12 +19687,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -19953,12 +19953,12 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -20078,12 +20078,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -20316,12 +20316,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -20540,12 +20540,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -20639,15 +20639,15 @@
         "한식 주메뉴"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [],
@@ -20771,12 +20771,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -20885,12 +20885,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -21527,12 +21527,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -22776,12 +22776,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-composite",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-composite",
+        "reason": "2026-11-25 사용자 승인 구성별 제조횟수 조절. 활용요리에 적힌 열무김치2행은 만든 김치 연결로만 보존하고 별도 구매하지 않음. 본문 삶은계란/참깨 재료 보완.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -23134,15 +23134,15 @@
         "한식 국·찌개"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 등록범위는 사골3kg·잡뼈3kg 육수제조만 포함. 원문 완성국물량이 없으므로 기존20식사인분 대신 원문1회 제조량. 기존 제조물 정책 적용.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -23281,15 +23281,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [],
@@ -23935,12 +23935,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -24374,15 +24374,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [],
@@ -24807,15 +24807,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [],
@@ -25108,12 +25108,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -26009,12 +26009,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -26526,12 +26526,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -27154,12 +27154,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-composite",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-composite",
+        "reason": "2026-11-25 사용자 승인 구성별 제조횟수 조절. 김치버터 자체6재료와 볶음밥/오픈샌드위치 재료 구분. 본문 소고기구이 식용유 미기재 보완.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -27288,12 +27288,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-composite",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-composite",
+        "reason": "2026-11-25 사용자 승인 구성별 제조횟수 조절. 2026-11-25 사용자 제공 수량으로 양념장1회제조+5반찬6구성 확정. 본문 식용유/고사리참깨/깻잎찌간장 미기재 보완, 완성양념장은 연결로만 보존하여 중복구매 방지.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -28410,12 +28410,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-composite",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-composite",
+        "reason": "2026-11-25 사용자 승인: 수박청 & 수박에이드로 묶고 각각 제조횟수 조절. 에이드0회는 전용재료 제외. 모히또 전용 소주 제외, 원문 미기재 사용량은 추정하지 않음.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -28503,12 +28503,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-composite",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-composite",
+        "reason": "2026-11-25 사용자 승인 구성별 제조횟수 조절. 토마토 자체6재료와 파스타7재료 구분. 본문 파스타삶는 소금 미기재 보완.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -28631,15 +28631,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -28723,15 +28723,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -29184,15 +29184,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -29290,12 +29290,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -29407,12 +29407,12 @@
       "reviewStatus": "needs-editorial-decision",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
-        "householdScaling": false,
-        "defaultBatchCount": 1,
-        "quantityControl": "제조 횟수(정수)"
+        "mode": "servings",
+        "status": "applied-scope",
+        "reason": "2026-11-25 사용자 확인: 스테이크와 페퍼콘소스 함께 유지, 마늘0.5숟가락. 소스 단독제조형 제외. 기존 추정인분은 별도 재검토 필요.",
+        "householdScaling": true,
+        "defaultBatchCount": null,
+        "quantityControl": "식사 인분"
       },
       "suggestedBasis": "원문1회제조량 검토",
       "flags": [
@@ -30207,15 +30207,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -33174,12 +33174,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -33614,12 +33614,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -33806,12 +33806,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -35392,12 +35392,12 @@
         "한식 주메뉴"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -35461,12 +35461,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -35526,12 +35526,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -36821,12 +36821,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -37231,12 +37231,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -37513,15 +37513,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -37627,12 +37627,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -37848,15 +37848,15 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "여러 요리의 등록 범위부터 확인해야 하므로 계산 기준 확정 대기.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "제조량/곁들임인분 구분 검토",
       "flags": [
@@ -38374,12 +38374,12 @@
         "한식 반찬"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -39805,15 +39805,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -40067,15 +40067,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -40400,15 +40400,15 @@
         "한식 주메뉴"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -41037,15 +41037,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -41243,12 +41243,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 원문 확인: 생크림1L 유지. 도구인 전기밥솥은 제외하고 원문 제조량을1회로 계산.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -41330,15 +41330,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -41550,15 +41550,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "베트남식 장조림은 이름만으로 저장 반찬이라고 판단하지 않고 식사 주메뉴 여부 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -41945,12 +41945,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -42018,12 +42018,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -42077,15 +42077,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -42360,15 +42360,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -42587,15 +42587,15 @@
         "한식 주메뉴"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -42693,12 +42693,12 @@
         "그 밖"
       ],
       "bucket": "manufacturing",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "소스·밑재료 등은 원문 1회 제조량을 담고 식사 인원에 자동 비례하지 않는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -42793,15 +42793,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -43111,15 +43111,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -43224,15 +43224,15 @@
         "그 밖"
       ],
       "bucket": "dessert-drink",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "간식·음료는 완성 개수/한 판/제조량과 식사 인분의 관계를 별도 확인.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "완성개수/제조량/섭취분량 구분 검토",
       "flags": [
@@ -43338,15 +43338,15 @@
         "중식"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -43648,15 +43648,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -44078,15 +44078,15 @@
         "한식 주메뉴"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "pending",
-        "status": "proposal-only",
-        "reason": "여러 요리의 등록 범위부터 확인해야 하므로 계산 기준 확정 대기.",
-        "householdScaling": null,
-        "defaultBatchCount": null,
-        "quantityControl": "확인 대기"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -44319,15 +44319,15 @@
         "한식 반찬"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인 반찬1회 제조량 정책 적용. 경상도식 콩나물잡채는 반찬 제조전체를1회로 계산, 당면 포장의 약15인분을 완성잡채 명시인분으로 오인하지 않음.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -45631,12 +45631,12 @@
         "한식 주메뉴"
       ],
       "bucket": "pieces",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "감동란·장조림 등은 완성 개수를 안내하고 원문 전량을 1회분으로 담는 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -45787,15 +45787,15 @@
         "한식 주메뉴"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 공식 원문 앞발1개 확인, 중량 미기재. 사용자 승인:6인분 추정을 사용하지 않고 앞발1개 전체를1회 제조량으로 계산.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [
@@ -46083,12 +46083,12 @@
         "한식 주메뉴"
       ],
       "bucket": "preserved-side",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -46334,12 +46334,12 @@
         "그 밖"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
         "mode": "batch",
-        "status": "proposal-only",
-        "reason": "김치·장아찌·절임·장조림 등은 원문 1회 제조량으로 담는 저장 반찬 후보.",
+        "status": "applied-batch",
+        "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
         "householdScaling": false,
         "defaultBatchCount": 1,
         "quantityControl": "제조 횟수(정수)"
@@ -46417,15 +46417,15 @@
         "그 밖"
       ],
       "bucket": "meal",
-      "reviewStatus": "needs-editorial-decision",
+      "reviewStatus": "resolved-batch",
       "resolution": null,
       "calculationBasisProposal": {
-        "mode": "servings",
-        "status": "proposal-only",
-        "reason": "일반 요리·바로 먹는 반찬은 식사 인원 기준을 유지하되 현재 추정 인분 자체는 개별 재검토.",
-        "householdScaling": true,
-        "defaultBatchCount": null,
-        "quantityControl": "식사 인분"
+        "mode": "batch",
+        "status": "applied-batch",
+        "reason": "2026-11-25 사용자 승인: 반찬·즉석무침·샐러드도 식사인분 대신 원문 전체를1회 제조량으로 계산. 기존 추정인분은 원본기록에 보존.",
+        "householdScaling": false,
+        "defaultBatchCount": 1,
+        "quantityControl": "제조 횟수(정수)"
       },
       "suggestedBasis": "한끼인분 근거 개별 검토",
       "flags": [],

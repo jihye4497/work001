@@ -2,6 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {RECIPE_DISPLAY_NAMES,applyRecipeDisplayNames} from '../js/recipe-display-names.js';
+import {PAIRED_MENU_IDS} from '../js/paired-menu-names.js';
+import {ACTIVE_COMPOSITION_IDS} from '../js/recipe-calculation-basis.js';
 import {searchMenus} from '../js/recommendations.js';
 import {aggregate,totalText} from '../js/shopping-list.js';
 import {loadData} from '../js/ingredients.js';
@@ -18,7 +20,7 @@ test('같은 채널의 중복 이름만 검토한 이름으로 구분하고 원�
   const original=recipes[i],display=renamed[i];
   assert.ok(!seen.has(key(display)),`남은 동일 채널 중복: ${key(display)}`);seen.add(key(display));
   assert.deepEqual({...display,name:original.name},original);
-  if(display.name!==original.name){assert.ok(groups.get(key(original))>1);assert.ok(searchMenus(renamed,display.name).some(r=>r.id===display.id));}
+  if(display.name!==original.name){assert.ok(groups.get(key(original))>1||['mincook-blog-578','mincook-blog-601',...ACTIVE_COMPOSITION_IDS].includes(original.id)||PAIRED_MENU_IDS.has(original.id)||/[&＆]/.test(original.name));assert.ok(searchMenus(renamed,display.name).some(r=>r.id===display.id));}
   else assert.equal(display,original);
  }
  for(const [id,originalName,name,evidence] of RECIPE_DISPLAY_NAMES){const r=recipes.find(r=>r.id===id);assert.ok(r,id);assert.equal(r.name,originalName);assert.ok(name&&evidence);}
@@ -36,5 +38,12 @@ test('실제 데이터 로딩에서 사진·분류·주재료 판정 후 표시 
  const loaded=await loadData();
  assert.equal(loaded.recipes.find(r=>r.id==='paik-TFcNckg-1bQ').name,'돼지목살 두부 고추장찌개');
  assert.equal(loaded.recipes.find(r=>r.id==='caden-n6e08ay5tUw').name,'고추장찌개');
+ const steak=loaded.recipes.find(r=>r.id==='mincook-blog-578');
+ assert.equal(steak.name,'스테이크 & 페퍼콘소스');
+ assert.equal(steak.ingredients.find(i=>i.note==='원문: 다진마늘 : 0.5숟가락').amount,0.5);
+ assert.notEqual(steak.calculationMode,'batch');
+ const kaimak=loaded.recipes.find(r=>r.id==='mincook-blog-238');
+ assert.equal(kaimak.calculationMode,'batch');
+ assert.ok(kaimak.ingredients.some(i=>i.note==='원문: 생크림 : 1L'&&i.amount===1&&i.unit==='L'));
  assert.equal(responses.length,0);
 });

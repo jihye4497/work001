@@ -1,0 +1,42 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {applyCalculationBasis} from '../js/recipe-calculation-basis.js';
+import {applyRecipeDisplayNames} from '../js/recipe-display-names.js';
+import {aggregate} from '../js/shopping-list.js';
+import {syncMenuIngredients} from '../js/menu-ingredients.js';
+import {servingLabel} from '../js/servings.js';
+import {validateData} from '../js/ingredients.js';
+const read=async p=>JSON.parse(await readFile(new URL('../'+p,import.meta.url),'utf8'));
+const [ingredients,raw]=await Promise.all([read('data/ingredients.json'),read('data/recipes.json')]);
+const recipes=applyCalculationBasis(applyRecipeDisplayNames(raw)),recipe=recipes.find(r=>r.id==='mincook-blog-601');
+const calculate=(syrup,ade)=>aggregate(ingredients,[recipe],[{recipeId:recipe.id,times:1,servings:2,componentBatches:{syrup,ade}}],2);
+test('수박청과 에이드는 별도 제조량이고 소주/수박청 재료 중복·미기재양 추정 없음',()=>{
+ validateData(ingredients,recipes);
+ assert.equal(recipe.name,'수박청 & 수박에이드');
+ assert.equal(servingLabel(recipe),'수박청 1회 제조량 · 수박에이드 수량 미기재');
+ assert.equal(recipe.ingredients.length,7);
+ assert.ok(!recipe.ingredients.some(i=>i.note==='원문: 소주'));
+ const full=calculate(1,1),plain=calculate(1,0),twice=calculate(2,3);
+ assert.equal(full.flatMap(r=>r.uses).filter(u=>u.note==='원문: 수박 : 500g').length,1);
+ assert.equal(full.flatMap(r=>r.uses).find(u=>u.note==='원문: 수박 : 500g').amount,500);
+ assert.equal(twice.flatMap(r=>r.uses).find(u=>u.note==='원문: 수박 : 500g').amount,1000);
+ assert.equal(plain.flatMap(r=>r.uses).length,4);
+ for(const use of full.flatMap(r=>r.uses).filter(u=>u.name.endsWith('수박에이드'))){assert.equal(use.amount,null);assert.equal(use.unit,null);}
+ assert.equal(calculate(0,1).flatMap(r=>r.uses).length,3);
+ const before=JSON.stringify(raw.find(r=>r.id===recipe.id));
+ calculate(2,2);assert.equal(JSON.stringify(raw.find(r=>r.id===recipe.id)),before);
+});
+test('에이드0회는 자동연결 재료만 해제하고 직접 선택한 재료와 다른 메뉴는 보존',()=>{
+ const adeIds=recipe.ingredients.filter(i=>i.componentId==='ade').map(i=>i.ingredientId);
+ const draft={selectedRecipes:[{recipeId:recipe.id,times:1,componentBatches:{syrup:1,ade:1}}],selectedIngredientIds:[],activeInterestIds:[],manualIngredientIds:[],suppressedAutoIngredientIds:[]};
+ syncMenuIngredients(draft,ingredients,recipes);
+ const previous=[...draft.selectedIngredientIds];assert.ok(previous.length);
+ draft.selectedRecipes[0].componentBatches.ade=0;
+ syncMenuIngredients(draft,ingredients,recipes);
+ assert.ok(draft.selectedIngredientIds.length<previous.length);
+ draft.manualIngredientIds=[adeIds[1]];
+ syncMenuIngredients(draft,ingredients,recipes);
+ assert.ok(draft.selectedIngredientIds.includes(adeIds[1]));
+ assert.equal(draft.selectedRecipes.length,1);
+});

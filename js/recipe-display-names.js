@@ -1,6 +1,13 @@
 // Reviewed display names only. Source titles, quantities, IDs and import policies stay intact.
-// Each entry addresses a duplicate within the same publisher; other publishers are untouched.
+// Duplicate names within a publisher and explicitly approved recipe-scope corrections only.
+import {pairedMenuName} from './paired-menu-names.js';
 export const RECIPE_DISPLAY_NAMES = [
+ ['mincook-blog-728','열무물김치','열무물김치 & 국수 & 비빔밥','2026-11-25 사용자 승인: 원문 제조량과 미기재 활용재료를 구성별 조절'],
+ ['mincook-blog-625','김치버터','김치버터 & 볶음밥 & 샌드위치','2026-11-25 사용자 승인: 원문 제조량과 미기재 활용재료를 구성별 조절'],
+ ['mincook-blog-598','썬드라이토마토','썬드라이토마토 & 샐러드파스타','2026-11-25 사용자 승인: 원문 제조량과 미기재 활용재료를 구성별 조절'],
+ ['mincook-blog-623','만능 간장양념장','만능 간장양념장 & 활용 반찬','2026-11-25 사용자 확인: 양념장1회 제조량과5가지반찬 별도조절'],
+ ['mincook-blog-601','수박청','수박청 & 수박에이드','2026-11-25 사용자 승인: 청 제조와 에이드 활용을 각각 조절'],
+ ['mincook-blog-578','feat. 페퍼콘소스','스테이크 & 페퍼콘소스','2026-11-25 사용자 확인: 스테이크와 소스 함께 유지, 마늘은 재료표0.5숟가락'],
  ['paik-udirCMIxs_c','고추장찌개','대패삼겹살 고추장찌개','재료표의 대패 삼겹살'],
  ['paik-TFcNckg-1bQ','고추장찌개','돼지목살 두부 고추장찌개','재료표의 돼지고기목살·두부'],
  ['paik--yCwkUS0ECE','기름떡볶이','밀떡 기름떡볶이','재료표에 밀떡볶이떡 명시'],
@@ -56,6 +63,8 @@ const names=new Map(RECIPE_DISPLAY_NAMES.map(([id,originalName,name])=>[id,{orig
 export function applyRecipeDisplayNames(recipes) {
  return recipes.map(recipe=>{
   const entry=names.get(recipe.id);
-  return entry&&recipe.name===entry.originalName?{...recipe,name:entry.name}:recipe;
+  const named=entry&&recipe.name===entry.originalName?{...recipe,name:entry.name}:recipe;
+  const name=pairedMenuName(named);
+  return name===named.name?named:{...named,name};
  });
 }

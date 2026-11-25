@@ -52,7 +52,8 @@ test('two-portion kelp noodles use half the four-portion stock while fifty-porti
  assert.equal(totalText(row('iij0bMkadEw','칼국수면')),'225g');
  assert.equal(rows('iij0bMkadEw').some(r=>r.ingredient.name==='다시마 육수'),false);
  assert.equal(get('RTj2_VKVSBI').baseServings,50);
- assert.equal(totalText(row('RTj2_VKVSBI','물',1)),'0.16L');
+ assert.equal(row('RTj2_VKVSBI','물',1).totals.get('L'),0.16);
+ assert.equal(totalText(row('RTj2_VKVSBI','물',1)),'0.2L');
  assert.equal(totalText(row('RTj2_VKVSBI','소금',1)),'1.2g');
  assert.equal(totalText(row('RTj2_VKVSBI','콩나물',1)),'18g');
 });
@@ -84,5 +85,6 @@ test('new large-batch and single-bowl recipes restore alongside earlier selectio
  const store=createStore({getItem:k=>mem.get(k)??null,setItem:(k,v)=>mem.set(k,v)});
  store.reconcile(ingredients,recipes);
  assert.deepEqual(store.draft.selectedRecipes,selections);
- assert.equal(totalText(row('RTj2_VKVSBI','물',4)),'0.64L');
+ assert.equal(row('RTj2_VKVSBI','물',4).totals.get('L'),0.64);
+ assert.equal(totalText(row('RTj2_VKVSBI','물',4)),'0.7L');
 });

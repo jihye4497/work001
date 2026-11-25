@@ -74,6 +74,103 @@ test('수육과 무김치 수량 버튼은 독립 계산·0회 제외·새로고
  assert.match(body.textContent,/수육 3인분/);
 });
 
+test('장보기 총량은 소수1자리 올림·상세 사용량은2자리 표시',async()=>{
+ const draft={schemaVersion:1,selectedIngredientIds:[],activeInterestIds:[],selectedRecipes:[{recipeId:'mincook-blog-91',times:1,servings:2}],activeRecommendationMode:'추가 구매 최소',checkedIngredientIds:[]};
+ const {body}=await load('shopping-list',[],{draft});
+ const garlic=find(body,n=>n.className==='ingredient-name'&&n.textContent==='마늘');assert.ok(garlic);
+ const detail=garlic.parent;assert.match(detail.textContent,/6.7개/);
+ await detail.click();assert.equal(document.getElementById(detail.id).attrs['aria-expanded'],'true');
+ assert.ok(find(body,n=>n.className==='use-detail'&&n.textContent==='· 6.67개'));
+});
+
+test('감동란은 제조횟수로 담고 증감·삭제 취소·재방문 후 유지',async()=>{
+ const id='moony-UOWYEGyvVs0';
+ const draft={schemaVersion:1,selectedIngredientIds:[],activeInterestIds:[],selectedRecipes:[{recipeId:id,times:1,servings:2}],activeRecommendationMode:'추가 구매 최소',checkedIngredientIds:[]};
+ let {body,saved}=await load('shopping-list',[],{draft});
+ assert.match(body.textContent,/1회 제조량 · 달걀 6개/);
+ assert.equal(find(body,n=>n.className==='times-value').textContent,'1회');
+ await document.getElementById(`plus-${id}`).click();
+ assert.equal(find(body,n=>n.className==='times-value').textContent,'2회');
+ assert.equal(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes[0].batchCount,2);
+ const next=JSON.parse(saved.get('jmd_draft_v1'));
+ ({body,saved}=await load('shopping-list',[],{draft:next,people:4}));
+ assert.equal(find(body,n=>n.className==='times-value').textContent,'2회');
+ await document.getElementById(`minus-${id}`).click();
+ await document.getElementById(`minus-${id}`).click();
+ assert.equal(document.getElementById('remove-menu-title').textContent,'메뉴를 삭제할까요?');
+ await button(find(body,n=>n.tagName==='dialog'),'취소').click();
+ assert.equal(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes.length,1);
+});
+
+test('수박청·에이드 횟수 분리와 에이드 제외·복원·모두 제외 시 삭제 확인',async()=>{
+ const id='mincook-blog-601';
+ const draft={schemaVersion:1,selectedIngredientIds:[],activeInterestIds:[],selectedRecipes:[{recipeId:id,times:1,servings:2}],activeRecommendationMode:'추가 구매 최소',checkedIngredientIds:[]};
+ let {body,saved}=await load('shopping-list',[],{draft});
+ assert.match(body.textContent,/수박청 & 수박에이드/);
+ assert.match(body.textContent,/수박에이드 수량 미기재/);
+ assert.ok(find(body,n=>n.className==='ingredient-name'&&n.textContent==='탄산수'));
+ await document.getElementById(`batch-minus-${id}-ade`).click();
+ assert.ok(!find(body,n=>n.className==='ingredient-name'&&n.textContent==='탄산수'));
+ let next=JSON.parse(saved.get('jmd_draft_v1'));
+ assert.equal(next.selectedRecipes[0].componentBatches.ade,0);
+ ({body,saved}=await load('shopping-list',[],{draft:next}));
+ assert.equal(document.getElementById(`batch-minus-${id}-ade`).disabled,true);
+ await document.getElementById(`batch-minus-${id}-syrup`).click();
+ assert.ok(document.getElementById('remove-menu-title'));
+ await button(find(body,n=>n.tagName==='dialog'),'취소').click();
+ assert.equal(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes.length,1);
+ await document.getElementById(`batch-plus-${id}-ade`).click();
+ assert.ok(find(body,n=>n.className==='ingredient-name'&&n.textContent==='탄산수'));
+ await document.getElementById(`batch-minus-${id}-ade`).click();
+ await document.getElementById(`batch-minus-${id}-syrup`).click();
+ await button(find(body,n=>n.tagName==='dialog'),'메뉴 삭제').click();
+ assert.equal(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes.length,0);
+});
+
+test('간장양념장은25인분 대신1회 제조와5반찬을 각각 조절·복원',async()=>{
+ const id='mincook-blog-623';
+ const draft={schemaVersion:1,selectedIngredientIds:[],activeInterestIds:[],selectedRecipes:[{recipeId:id,times:1,servings:2}],activeRecommendationMode:'추가 구매 최소',checkedIngredientIds:[]};
+ let {body,saved}=await load('shopping-list',[],{draft});
+ const entry=find(body,n=>n.className==='selected-item selected-composite');
+ assert.equal(entry.children[0].attrs.style,'grid-row: 1 / span 6');
+ assert.equal(all(entry).filter(n=>n.className==='component-control').length,6);
+ assert.match(entry.textContent,/간장양념장 1회 제조량/);
+ assert.ok(!entry.textContent.includes('25인분'));
+ assert.ok(find(body,n=>n.className==='use-name'&&n.textContent.endsWith(' · 깻잎찌')));
+ await document.getElementById(`batch-minus-${id}-perilla`).click();
+ assert.ok(!find(body,n=>n.className==='use-name'&&n.textContent.endsWith(' · 깻잎찌')));
+ assert.ok(find(body,n=>n.className==='use-name'&&n.textContent.endsWith(' · 연두부양념장')));
+ await document.getElementById(`batch-plus-${id}-fishcake`).click();
+ const next=JSON.parse(saved.get('jmd_draft_v1'));
+ assert.equal(next.selectedRecipes[0].componentBatches.perilla,0);
+ assert.equal(next.selectedRecipes[0].componentBatches.fishcake,2);
+ ({body,saved}=await load('shopping-list',[],{draft:next}));
+ assert.equal(document.getElementById(`batch-minus-${id}-perilla`).disabled,true);
+ assert.ok(find(body,n=>n.className==='use-detail'&&n.textContent.includes('사용자 확인: 약간')));
+ await document.getElementById(`batch-plus-${id}-perilla`).click();
+ assert.ok(find(body,n=>n.className==='use-name'&&n.textContent.endsWith(' · 깻잎찌')));
+});
+
+test('나머지3개 복합메뉴도 활용요리0회 제외와 저장복원을 지원',async()=>{
+ for(const [article,count,last,name] of [[728,3,'rice','비빔밥'],[625,3,'sandwich','샌드위치'],[598,2,'pasta','샐러드파스타']]){
+  const id=`mincook-blog-${article}`;
+  const draft={schemaVersion:1,selectedIngredientIds:[],activeInterestIds:[],selectedRecipes:[{recipeId:id,times:1,servings:2}],activeRecommendationMode:'추가 구매 최소',checkedIngredientIds:[]};
+  let {body,saved}=await load('shopping-list',[],{draft});
+  const entry=find(body,n=>n.className==='selected-item selected-composite');
+  assert.equal(entry.children[0].attrs.style,`grid-row: 1 / span ${count}`);
+  assert.equal(all(entry).filter(n=>n.className==='component-control').length,count);
+  assert.ok(find(body,n=>n.className==='use-name'&&n.textContent.endsWith(` · ${name}`)));
+  await document.getElementById(`batch-minus-${id}-${last}`).click();
+  assert.ok(!find(body,n=>n.className==='use-name'&&n.textContent.endsWith(` · ${name}`)));
+  const next=JSON.parse(saved.get('jmd_draft_v1'));
+  assert.equal(next.selectedRecipes.length,1);assert.equal(next.selectedRecipes[0].componentBatches[last],0);
+  ({body,saved}=await load('shopping-list',[],{draft:next}));
+  assert.equal(document.getElementById(`batch-minus-${id}-${last}`).disabled,true);
+  await document.getElementById(`batch-plus-${id}-${last}`).click();
+  assert.ok(find(body,n=>n.className==='use-name'&&n.textContent.endsWith(` · ${name}`)));
+ }
+});
+
 test('재료 정보는 하나만 열고 내부 클릭 유지·바깥 클릭·닫기·Esc를 처리',async()=>{
  const {body,saved}=await load('recipes');
  const infos=all(body).filter(n=>n.className==='recipe-options');assert.ok(infos.length>=2);
