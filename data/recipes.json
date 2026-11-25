@@ -188944,11 +188944,11 @@
   {
     "id": "mincook-blog-91",
     "name": "수육 & 무김치",
-    "baseServings": 6,
+    "baseServings": 3,
     "servingsStatus": "estimated",
-    "servingsEvidence": "원문 전체 인분 미기재. 통삼겹600g 등 원문 전체 제조량을 6인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬은 곁들임 분량이며 원작자 명시 인분 아님.",
+    "servingsEvidence": "2026-11-25 편집 재검토: 원문 통삼겹600g을 주메뉴로 보고 생고기 약200g/인 기준 3인분으로 추정. 원작자 인분 명시 아님. 사용자 승인: 수육은 인분, 무김치는 별도 원문1회 제조량으로 계산. 이전6인분 추정 폐기.",
     "cookMinutes": null,
-    "cookingType": "김치",
+    "cookingType": "수육",
     "imagePath": null,
     "sourceKind": "official-blog",
     "sourceId": "blog-91",
@@ -188956,31 +188956,154 @@
     "sourceName": "1분요리 뚝딱이형",
     "sourceUrl": "https://chef-choice.tistory.com/91",
     "sourceTitle": "압력밥솥으로 간단하게 수육 만드는 방법, 보쌈 무김치 레시피",
-    "sourceNote": "1분요리 뚝딱이형 / 공식 블로그 게시글 91; 채널이 연결한 공식 블로그 재료·수량 대조 2026-11-23. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
+    "sourceNote": "1분요리 뚝딱이형 / 공식 블로그 게시글 91; 채널이 연결한 공식 블로그 재료·수량 대조 2026-11-25. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.",
     "ingredients": [
       {
         "ingredientId": "onion",
         "amount": 1,
         "unit": "개",
-        "note": "원문: 큰 양파 : 1개"
+        "note": "원문: 큰 양파 : 1개 · 큰 양파 기준",
+        "componentId": "suyuk"
       },
       {
         "ingredientId": "garlic",
         "amount": 10,
         "unit": "개",
-        "note": "원문: 통마늘 : 10개"
+        "note": "원문: 통마늘 : 10개",
+        "componentId": "suyuk"
       },
       {
         "ingredientId": "doenjang",
         "amount": 2,
         "unit": "숟가락",
-        "note": "원문: 된장 : 2숟가락"
+        "note": "원문: 된장 : 2숟가락",
+        "componentId": "suyuk"
       },
       {
         "ingredientId": "mfds-ingredient-d9a010b774f5",
         "amount": 600,
         "unit": "g",
-        "note": "원문: 통삼겹 : 600g"
+        "note": "원문: 통삼겹 : 600g",
+        "componentId": "suyuk"
+      },
+      {
+        "ingredientId": "hot-pepper",
+        "amount": 2,
+        "unit": "개",
+        "note": "원문: 청양고추 : 2개 · 재료표에는 없으나 수육 조리 본문2단계에 명시된 재료량 보완",
+        "componentId": "suyuk"
+      },
+      {
+        "ingredientId": "mfds-ingredient-a367ab3717bf",
+        "amount": 1,
+        "unit": "개",
+        "note": "원문: 무 : 1개 · 원문 무1.3kg 기준의1개. 임의 무게환산 아님",
+        "componentId": "radish-kimchi"
+      },
+      {
+        "ingredientId": "mfds-ingredient-e2f9b8467114",
+        "amount": 1,
+        "unit": "숟가락",
+        "note": "원문: 굵은소금 : 1숟가락 · 절임용. 본문에는 크게1숟가락으로 설명",
+        "componentId": "radish-kimchi"
+      },
+      {
+        "ingredientId": "syrup",
+        "amount": 360,
+        "unit": "ml",
+        "note": "원문: 물엿 : 2컵 (종이컵 기준, 약 360ml) · 원문2종이컵에 직접 병기된 약360ml 사용",
+        "componentId": "radish-kimchi"
+      },
+      {
+        "ingredientId": "chili",
+        "amount": 5,
+        "unit": "숟가락",
+        "note": "원문: 고춧가루 : 5숟가락",
+        "componentId": "radish-kimchi"
+      },
+      {
+        "ingredientId": "mfds-ingredient-09b50b6e2bc4",
+        "amount": 2,
+        "unit": "숟가락",
+        "note": "원문: 매실청 : 2숟가락",
+        "componentId": "radish-kimchi"
+      },
+      {
+        "ingredientId": "wine",
+        "amount": 2,
+        "unit": "숟가락",
+        "note": "원문: 미림 (맛술) : 2숟가락",
+        "componentId": "radish-kimchi"
+      },
+      {
+        "ingredientId": "mfds-ingredient-d5c0a936afac",
+        "amount": 2,
+        "unit": "숟가락",
+        "note": "원문: 멸치액젓 : 2숟가락",
+        "componentId": "radish-kimchi"
+      },
+      {
+        "ingredientId": "sugar",
+        "amount": 2,
+        "unit": "숟가락",
+        "note": "원문: 설탕 : 2숟가락",
+        "componentId": "radish-kimchi"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "amount": 2,
+        "unit": "숟가락",
+        "note": "원문: 다진마늘 : 크게 2숟가락 · 크게 계량",
+        "componentId": "radish-kimchi"
+      },
+      {
+        "ingredientId": "gochujang",
+        "amount": 1,
+        "unit": "숟가락",
+        "note": "원문: 고추장 : 1숟가락",
+        "componentId": "radish-kimchi"
+      },
+      {
+        "ingredientId": "msg-seasoning",
+        "amount": 0.5,
+        "unit": "숟가락",
+        "note": "원문: 미원 : 1/2숟가락",
+        "componentId": "radish-kimchi"
+      },
+      {
+        "ingredientId": "mfds-ingredient-fcf2d4ba8a5a",
+        "amount": 0.5,
+        "unit": "숟가락",
+        "note": "원문: 다진생강 : 1/2숟가락",
+        "componentId": "radish-kimchi"
+      },
+      {
+        "ingredientId": "green-onion",
+        "amount": 1,
+        "unit": "대",
+        "note": "원문: 대파 : 1대 (흰색 부분만 사용) · 흰색 부분만 사용",
+        "componentId": "radish-kimchi"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "amount": null,
+        "unit": null,
+        "note": "원문: 참깨 : 2숟가락~3숟가락 · 원문2~3숟가락 범위를 단일수량으로 임의확정하지 않음",
+        "componentId": "radish-kimchi"
+      }
+    ],
+    "servingsBasisLabel": "수육",
+    "accompanimentNote": "수육은 인분으로, 무김치는 원문 제조량(무1개·1.3kg 기준)의 횟수로 각각 조절해요. 무김치가 필요 없으면 0회로 바꿀 수 있어요.",
+    "components": [
+      {
+        "id": "suyuk",
+        "name": "수육",
+        "mode": "servings"
+      },
+      {
+        "id": "radish-kimchi",
+        "name": "무김치",
+        "mode": "batch"
       }
     ]
   },

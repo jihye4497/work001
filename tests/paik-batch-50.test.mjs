@@ -42,10 +42,10 @@ test('50 reviewed videos are separate searchable dishes with complete classifica
 });
 
 test('range servings retain the source wording and use the upper bound for quantities; invalid ranges fail validation',()=>{
- const r=recipe('cUQzxhmYdGs');assert.equal(servingLabel(r),'1~2인분 기준');assert.equal(r.baseServings,2);
+ const r=recipe('cUQzxhmYdGs');assert.equal(servingLabel(r),'1~2인분');assert.equal(r.baseServings,2);
  assert.equal(totalText(amount('cUQzxhmYdGs','양배추',1)),'100g');
- assert.equal(servingLabel(recipe('WT9tCViPddU')),'3~4인분 기준');
- assert.equal(servingLabel(recipe('1F4soB3rlMI')),'2~3인분 기준');
+ assert.equal(servingLabel(recipe('WT9tCViPddU')),'3~4인분');
+ assert.equal(servingLabel(recipe('1F4soB3rlMI')),'2~3인분');
  for(const servingsRange of [{min:2,max:1},{min:0,max:2},{min:1,max:3},{min:1.5,max:2}])assert.throws(()=>validateData(ingredients,[{...r,servingsRange}]));
 });
 

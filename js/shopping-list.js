@@ -19,6 +19,9 @@ export function aggregate(ingredients, recipes, selectedRecipes, servings) {
     const recipe = byRecipe.get(selection.recipeId);
     if (!recipe) throw new Error('선택 메뉴의 데이터를 찾을 수 없어요.');
     for (const item of recipe.ingredients) {
+      const component=recipe.components?.find(c=>c.id===item.componentId);
+      const batchTimes=component?.mode==='batch'?(selection.componentBatches?.[component.id]??1):null;
+      if(batchTimes===0)continue;
       const source = byId.get(selection.ingredientReplacements?.[item.ingredientId] || item.ingredientId);
       const prepared=preparedPurchase(item,recipe,byId,selection.ingredientReplacements?.[item.ingredientId]);
       const ingredient = representativeIngredient(prepared?.ingredient||source,byId);
@@ -26,7 +29,7 @@ export function aggregate(ingredients, recipes, selectedRecipes, servings) {
       const row = rows.get(ingredient.id) || { ingredient, totals: new Map(), unknown: false, uses: [] };
       const detailNote=ingredientDetailNote(byId.get(item.ingredientId));
       if(detailNote)row.detailNote=detailNote;
-      const factor=selectedServings(selection, servings)/recipe.baseServings;
+      const factor=batchTimes??selectedServings(selection, servings)/recipe.baseServings;
       const originalAmount=item.amount===null?null:item.amount*factor;
       const baseAmount=prepared?prepared.amount:item.amount;
       const amount=baseAmount===null?null:baseAmount*factor;
@@ -49,7 +52,7 @@ export function aggregate(ingredients, recipes, selectedRecipes, servings) {
       } else if (amount === null || unit === null) row.unknown = true;
       else row.totals.set(unit, (row.totals.get(unit) || 0) + amount);
       if (recipe.servingsStatus === 'estimated') row.estimated = true;
-      row.uses.push({ originalIngredientName:byId.get(item.ingredientId)?.name, name: recipe.name, amount:prepared?originalAmount:amount, unit: item.unit, note: item.note, servingLabel: servingLabel(recipe), servings: selectedServings(selection, servings), times: 1 });
+      row.uses.push({ originalIngredientName:byId.get(item.ingredientId)?.name, name: component?`${recipe.name} · ${component.name}`:recipe.name, amount:prepared?originalAmount:amount, unit: item.unit, note: item.note, ...(recipe.servingsBasisLabel?{showSourceNote:true}:{}), ...(batchTimes!==null?{batchTimes}:{}), servingLabel: servingLabel(recipe), servings: selectedServings(selection, servings), times: 1 });
       rows.set(ingredient.id, row);
     }
   }

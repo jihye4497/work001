@@ -133,6 +133,9 @@ if(missing.size){console.log('검토할 재료 이름:',JSON.stringify([...missi
 else{
  for(const {entry:e,cookingType,category} of built){
   const r={id:e.recipeId,name:e.name,baseServings:e.baseServings,servingsStatus:e.servingsStatus,servingsEvidence:e.servingsEvidence,...(e.servingsRange?{servingsRange:e.servingsRange}:{}),...(e.servingsRangeBasis?{servingsRangeBasis:e.servingsRangeBasis}:{}),cookMinutes:null,cookingType,imagePath:null,sourceKind:'official-blog',sourceId:e.sourceId,articleId:String(e.articleId),sourceName:e.sourceName,sourceUrl:e.sourceUrl,...(e.sourceTitle?{sourceTitle:e.sourceTitle}:{}),sourceNote:`${e.sourceName} / 공식 블로그 게시글 ${e.articleId}; 채널이 연결한 공식 블로그 재료·수량 대조 ${e.checkedOn}. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.`,ingredients:e.ingredients.filter(i=>!i.omitted).map(i=>({ingredientId:i.ingredientId,amount:i.amount,unit:i.unit,note:`원문: ${i.sourceText}${i.reason?' · '+i.reason:''}`}))};
+  if(e.servingsBasisLabel)r.servingsBasisLabel=e.servingsBasisLabel;
+  if(e.accompanimentNote)r.accompanimentNote=e.accompanimentNote;
+    if(e.components){r.components=e.components;r.ingredients.forEach((i,index)=>{i.componentId=e.ingredients.filter(x=>!x.omitted)[index].group==='무김치 재료'?'radish-kimchi':'suyuk';});}
   const prior=recipes.find(x=>x.id===r.id);if(prior)assert.deepEqual(prior,r);else recipes.push(r);
   const c={recipeId:r.id,name:r.name,categories:[category],mealRole:category==='한식 반찬'?'반찬':category==='한식 국·찌개'?'국·찌개':'주메뉴'};
   const old=catalog.entries.find(x=>x.recipeId===r.id);if(old)assert.deepEqual(old,c);else catalog.entries.push(c);

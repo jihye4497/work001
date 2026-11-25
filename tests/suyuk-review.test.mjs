@@ -1,0 +1,38 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {aggregate} from '../js/shopping-list.js';
+import {servingLabel} from '../js/servings.js';
+import {createStore,defaultDraft,KEYS} from '../js/storage.js';
+const read=async p=>JSON.parse(await readFile(new URL(p,import.meta.url),'utf8'));
+const [recipes,ingredients,review]=await Promise.all([read('../data/recipes.json'),read('../data/ingredients.json'),read('../data/source/mincook-review.json')]);
+const recipe=recipes.find(r=>r.id==='mincook-blog-91'),entry=review.entries.find(e=>e.sourceId==='blog-91');
+test('수육 주메뉴 추정3인분과 곁들임19행은 원문 조건을 보존',()=>{
+ assert.equal(servingLabel(recipe),'수육 3인분(추정) · 무김치 1회 제조량');
+ assert.equal(recipe.ingredients.length,19);assert.equal(entry.previousReview.baseServings,6);
+ assert.ok(entry.ingredients.some(i=>i.group==='무김치 재료'));
+ const get=name=>recipe.ingredients.find(i=>ingredients.find(x=>x.id===i.ingredientId)?.name===name);
+ assert.equal(get('통삼겹').amount,600);assert.equal(get('무').amount,1);assert.match(get('무').note,/1.3kg/);
+ assert.equal(get('물엿').amount,360);assert.equal(get('물엿').unit,'ml');assert.match(get('물엿').note,/약 360ml/);
+ assert.equal(get('MSG').amount,0.5);assert.match(get('대파').note,/흰색 부분/);
+ assert.match(get('다진 마늘').note,/크게/);assert.match(get('참깨').note,/2숟가락~3숟가락/);assert.equal(get('참깨').amount,null);
+ assert.match(get('청양고추').note,/본문2단계/);assert.equal(get('청양고추').amount,2);
+});
+test('수육 인분과 무김치 제조횟수를 독립 계산하고 저장 인분을 유지',()=>{
+ const selection={recipeId:recipe.id,servings:2,times:1};
+ const rows=aggregate(ingredients,[recipe],[selection],2);
+ assert.equal(rows.find(r=>r.ingredient.name==='통삼겹살').totals.get('g'),400);
+ assert.equal(rows.find(r=>r.ingredient.name==='무').totals.get('개'),1);
+ assert.equal(rows.find(r=>r.ingredient.name==='물엿').totals.get('ml'),360);
+ const twice=aggregate(ingredients,[recipe],[{...selection,componentBatches:{'radish-kimchi':2}}],2);
+ assert.equal(twice.find(r=>r.ingredient.name==='통삼겹살').totals.get('g'),400);
+ assert.equal(twice.find(r=>r.ingredient.name==='무').totals.get('개'),2);
+ const none=aggregate(ingredients,[recipe],[{...selection,componentBatches:{'radish-kimchi':0}}],2);
+ assert.ok(!none.some(r=>r.ingredient.name==='무'));
+ assert.equal(none.find(r=>r.ingredient.name==='통삼겹살').totals.get('g'),400);
+ assert.ok(rows.find(r=>r.ingredient.name==='참깨').uses[0].showSourceNote);
+ const saved=new Map([[KEYS.draft,JSON.stringify({...defaultDraft(),selectedRecipes:[{...selection,servings:6,componentBatches:{'radish-kimchi':0}}]})]]);
+ const store=createStore({getItem:k=>saved.get(k)??null,setItem:(k,v)=>saved.set(k,v)});store.reconcile(ingredients,recipes);
+ assert.equal(store.draft.selectedRecipes[0].servings,6);
+ assert.equal(store.draft.selectedRecipes[0].componentBatches['radish-kimchi'],0);
+});

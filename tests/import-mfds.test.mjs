@@ -113,8 +113,8 @@ test('명시 인분은 유지하고 승인된 두 메뉴만 1인분 추정으로
   assert.equal(result.report.servingClassification.pending, 1133);
   const estimated = result.recipes.filter(r => r.servingsStatus === 'estimated');
   assert.deepEqual(estimated.map(r=>r.id).sort(), ['mfds-cookrcp01-16','mfds-cookrcp01-17']);
-  assert.ok(estimated.every(r=>r.baseServings===1 && servingLabel(r)==='1인분 기준(추정)' && r.servingsEvidence));
-  assert.equal(servingLabel(result.recipes.find(r=>r.id==='mfds-cookrcp01-29')), '1인분 기준');
+  assert.ok(estimated.every(r=>r.baseServings===1 && servingLabel(r)==='1인분(추정)' && r.servingsEvidence));
+  assert.equal(servingLabel(result.recipes.find(r=>r.id==='mfds-cookrcp01-29')), '1인분');
 });
 test('추정 승인이 없거나 명시된 인분을 추정으로 덮어쓰면 거절', () => {
   const changed = structuredClone(reviews);
@@ -132,7 +132,7 @@ test('추정 인분은 인원·횟수 계산과 합산·복사에 표시하고 �
   const carrot=rows.find(r=>r.ingredient.id==='carrot');
   assert.equal(totalText(carrot),'35g');
   assert.equal(carrot.estimated,true);
-  assert.ok(carrot.uses.some(u=>u.servingLabel==='1인분 기준(추정)'));
+  assert.ok(carrot.uses.some(u=>u.servingLabel==='1인분(추정)'));
   assert.equal(totalText(rows.find(r=>r.ingredient.id==='water')),'수량 미기재');
   assert.match(copyText(rows,[]),/당근: 35g \(인분 추정 포함\)/);
   assert.match(copyText(rows,[]),/물: 수량 미기재 \(인분 추정 포함\)/);
@@ -178,7 +178,7 @@ test('명시 인분과 180mg을 보존하고 인원·횟수에 따라 같은 단
   const rows=aggregate(allIngredients,expandedRecipes,[{recipeId:risotto.id,times:2}],2);
   assert.equal(totalText(rows.find(r=>r.ingredient.id===milkId)),'720mg');
   const four=expandedRecipes.find(r=>r.id==='mfds-cookrcp01-3295');
-  assert.equal(servingLabel(four),'4인분 기준');
+  assert.equal(servingLabel(four),'4인분');
   const row=aggregate(allIngredients,expandedRecipes,[{recipeId:four.id,times:1}],1);
   const surimi=row.find(r=>r.ingredient.name==='맛살');
   assert.equal(totalText(surimi),'33.75g');

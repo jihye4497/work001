@@ -15,6 +15,7 @@ export function syncMenuIngredients(draft, ingredients, recipes, pantryIds = [])
   const auto = new Set();
   for (const selection of draft.selectedRecipes) {
     for (const item of byRecipe.get(selection.recipeId)?.ingredients || []) {
+      if(byRecipe.get(selection.recipeId)?.components?.some(c=>c.id===item.componentId&&c.mode==='batch')&&(selection.componentBatches?.[item.componentId]??1)===0)continue;
       const id = selection.ingredientReplacements?.[item.ingredientId] || item.ingredientId;
       const prepared=preparedPurchase(item,byRecipe.get(selection.recipeId),byId,selection.ingredientReplacements?.[item.ingredientId]);
       const ingredient = representativeIngredient(prepared?.ingredient||byId.get(id),byId);

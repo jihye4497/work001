@@ -49,8 +49,8 @@ test('pre-soak weight, comma-separated quantities, source serving ranges and alt
  assert.equal(amount('gJDxWPoMHgo','쌀국수'),'60g');
  assert.equal(amount('jN_inaLf9Zo','물'),'1,080ml');
  assert.equal(amount('iO0xX0AyS8M','닭'),'1팩');
- assert.equal(servingLabel(get('fVKaR66n9B4')),'3~4인분 기준');
- assert.equal(servingLabel(get('2T7BfP1sx9g')),'2~3인분 기준');
+ assert.equal(servingLabel(get('fVKaR66n9B4')),'3~4인분');
+ assert.equal(servingLabel(get('2T7BfP1sx9g')),'2~3인분');
  assert.equal(amount('JxWbJX-UNwY','돼지 뒷다리살',1),'270g');
  assert.equal(get('7cCAlN06WPc').ingredients.filter(i=>i.note.startsWith('원문: 안심')).reduce((n,i)=>n+i.amount,0),300);
  assert.equal(rows('0CL9U_Se8Gs').some(r=>r.ingredient.name==='밥'),false);

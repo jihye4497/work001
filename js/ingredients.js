@@ -25,6 +25,9 @@ export function validateData(ingredients, recipes) {
       !(r.imagePath === null || typeof r.imagePath === 'string') ||
       !(r.cookMinutes === null || (Number.isFinite(r.cookMinutes) && r.cookMinutes > 0))) throw new Error('메뉴 데이터를 확인해 주세요.');
     recipeIds.add(r.id);
+    if(r.servingsBasisLabel!==undefined&&(typeof r.servingsBasisLabel!=='string'||!r.servingsBasisLabel.trim()||r.servingsBasisLabel.length>40))throw new Error('주메뉴 인분 기준을 확인해 주세요.');
+    if(r.accompanimentNote!==undefined&&(typeof r.accompanimentNote!=='string'||!r.accompanimentNote.trim()||r.accompanimentNote.length>300))throw new Error('곁들임 재료 안내를 확인해 주세요.');
+    if(r.components!==undefined&&(!Array.isArray(r.components)||r.components.length<2||r.components.some(c=>!c||typeof c.id!=='string'||!c.id||typeof c.name!=='string'||!c.name||!['servings','batch'].includes(c.mode))||new Set(r.components.map(c=>c.id)).size!==r.components.length||r.components.filter(c=>c.mode==='servings').length!==1||r.ingredients.some(i=>!i||!r.components.some(c=>c.id===i.componentId))))throw new Error('메뉴별 계산 구성을 확인해 주세요.');
     if (r.servingsRangeBasis !== undefined && (r.servingsRangeBasis !== 'user-confirmed-min' || !r.servingsRange || typeof r.servingsEvidence !== 'string' || !r.servingsEvidence.trim())) throw new Error('사용자 확인 인분 계산 근거를 확인해 주세요.');
     if (r.servingsRange !== undefined && (!Number.isFinite(r.servingsRange?.min) || !Number.isFinite(r.servingsRange?.max) || r.servingsRange.min <= 0 || r.servingsRange.min >= r.servingsRange.max || (r.servingsRangeBasis === 'user-confirmed-min' ? r.baseServings !== r.servingsRange.min : !Number.isInteger(r.servingsRange.min) || !Number.isInteger(r.servingsRange.max) || r.baseServings !== r.servingsRange.max) || r.servingsStatus !== 'explicit')) throw new Error('원문 인분 범위와 계산 기준을 확인해 주세요.');
     if (r.servingsStatus !== undefined && !['explicit', 'estimated', 'user-confirmed'].includes(r.servingsStatus)) throw new Error('인분 확인 상태를 확인해 주세요.');

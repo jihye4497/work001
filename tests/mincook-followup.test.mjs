@@ -8,7 +8,7 @@ const read=async path=>JSON.parse(await readFile(new URL('../'+path,import.meta.
 const ingredients=await read('data/ingredients.json'),recipes=await read('data/recipes.json');
 test('청국장찌개는 원문1~1.5표시 유지·사용자지정1인분 계산·원문단위 보존',()=>{
  const recipe=recipes.find(r=>r.id==='mincook-blog-15');assert.ok(recipe);
- assert.equal(servingLabel(recipe),'1~1.5인분 기준');assert.equal(recipe.baseServings,1);
+ assert.equal(servingLabel(recipe),'1~1.5인분');assert.equal(recipe.baseServings,1);
  assert.equal(recipe.servingsRangeBasis,'user-confirmed-min');
  validateData(ingredients,[recipe]);
  const rows=aggregate(ingredients,recipes,[{recipeId:recipe.id,servings:2}],1);

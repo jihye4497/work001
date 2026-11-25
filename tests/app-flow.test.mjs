@@ -48,6 +48,32 @@ const load=async (page,excludedIds=[],overrides={})=>{
   return {body,saved};
 };
 
+test('수육과 무김치 수량 버튼은 독립 계산·0회 제외·새로고침 복원을 지원',async()=>{
+ const id='mincook-blog-91';
+ const draft={schemaVersion:1,selectedIngredientIds:[],activeInterestIds:[],selectedRecipes:[{recipeId:id,times:1,servings:2}],activeRecommendationMode:'추가 구매 최소',checkedIngredientIds:[]};
+ let {body,saved}=await load('shopping-list',[],{draft});
+ const mixed=find(body,n=>n.className==='selected-item selected-composite');
+ assert.ok(mixed);
+ const basis=all(mixed).filter(n=>n.className==='muted selected-basis');
+ assert.deepEqual(basis.map(n=>n.textContent),['수육 3인분(추정)','무김치 1회 제조량']);
+ assert.equal(all(mixed).filter(n=>n.className==='component-control').length,2);
+ await document.getElementById(`batch-plus-${id}-radish-kimchi`).click();
+ let selection=JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes[0];
+ assert.equal(selection.servings,2);assert.equal(selection.componentBatches['radish-kimchi'],2);
+ await document.getElementById(`plus-${id}`).click();
+ selection=JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes[0];
+ assert.equal(selection.servings,3);assert.equal(selection.componentBatches['radish-kimchi'],2);
+ await document.getElementById(`batch-minus-${id}-radish-kimchi`).click();
+ await document.getElementById(`batch-minus-${id}-radish-kimchi`).click();
+ assert.equal(document.getElementById(`batch-minus-${id}-radish-kimchi`).disabled,true);
+ const nextDraft=JSON.parse(saved.get('jmd_draft_v1'));
+ assert.equal(nextDraft.selectedRecipes[0].componentBatches['radish-kimchi'],0);
+ assert.equal(nextDraft.selectedRecipes.length,1);
+ ({body,saved}=await load('shopping-list',[],{draft:nextDraft}));
+ assert.equal(document.getElementById(`batch-minus-${id}-radish-kimchi`).disabled,true);
+ assert.match(body.textContent,/수육 3인분/);
+});
+
 test('재료 정보는 하나만 열고 내부 클릭 유지·바깥 클릭·닫기·Esc를 처리',async()=>{
  const {body,saved}=await load('recipes');
  const infos=all(body).filter(n=>n.className==='recipe-options');assert.ok(infos.length>=2);

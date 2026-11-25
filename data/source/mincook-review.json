@@ -104192,37 +104192,37 @@
       "sourceName": "1분요리 뚝딱이형",
       "sourceKind": "official-blog",
       "nameSource": "official-blog",
-      "checkedOn": "2026-11-23",
+      "checkedOn": "2026-11-25",
       "sourceTitle": "압력밥솥으로 간단하게 수육 만드는 방법, 보쌈 무김치 레시피",
       "menuNameCandidate": "수육 & 무김치 레시피",
-      "ingredientText": "<수육 재료>\n삼겹살 600g 기준\n(계량 : 밥 숟가락) \n큰 양파 : 1개 \n통마늘 : 10개 \n된장 : 2숟가락 \n통삼겹 : 600g",
+      "ingredientText": "<수육 재료>\n삼겹살600g 기준\n큰 양파 : 1개\n통마늘 : 10개\n된장 : 2숟가락\n통삼겹 : 600g\n청양고추 : 2개\n\n<무김치 재료>\n무1.3kg 기준\n무 : 1개\n굵은소금 : 1숟가락\n물엿 : 2컵 (종이컵 기준, 약 360ml)\n고춧가루 : 5숟가락\n매실청 : 2숟가락\n미림 (맛술) : 2숟가락\n멸치액젓 : 2숟가락\n설탕 : 2숟가락\n다진마늘 : 크게 2숟가락\n고추장 : 1숟가락\n미원 : 1/2숟가락\n다진생강 : 1/2숟가락\n대파 : 1대 (흰색 부분만 사용)\n참깨 : 2숟가락~3숟가락",
       "servingsStatements": [],
       "measureStatements": [],
       "equipmentSourceText": [
         "조리도구 : 전기 압력 밥솥"
       ],
-      "ingredientHash": "54647bfb2a43505a35377e400fa9d9259ee8b68a9c2ee89e3ed6e7fbfd18a3f7",
+      "ingredientHash": "471860d009480c66facbf7dadc67bf41706c5fb6d2598ac14fcebc0d22024539",
       "nameSourceText": "수육 & 무김치",
       "recipeId": "mincook-blog-91",
       "name": "수육 & 무김치",
-      "baseServings": 6,
+      "baseServings": 3,
       "servingsRange": null,
       "servingsStatus": "estimated",
-      "servingsEvidence": "원문 전체 인분 미기재. 통삼겹600g 등 원문 전체 제조량을 6인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬은 곁들임 분량이며 원작자 명시 인분 아님.",
+      "servingsEvidence": "2026-11-25 편집 재검토: 원문 통삼겹600g을 주메뉴로 보고 생고기 약200g/인 기준 3인분으로 추정. 원작자 인분 명시 아님. 사용자 승인: 수육은 인분, 무김치는 별도 원문1회 제조량으로 계산. 이전6인분 추정 폐기.",
       "ingredients": [
         {
           "sourceText": "큰 양파 : 1개",
-          "group": "재료",
+          "group": "수육 재료",
           "ingredientId": "onion",
           "sourceAmount": 1,
           "unit": "개",
           "factor": 1,
           "amount": 1,
-          "reason": null
+          "reason": "큰 양파 기준"
         },
         {
           "sourceText": "통마늘 : 10개",
-          "group": "재료",
+          "group": "수육 재료",
           "ingredientId": "garlic",
           "sourceAmount": 10,
           "unit": "개",
@@ -104232,7 +104232,7 @@
         },
         {
           "sourceText": "된장 : 2숟가락",
-          "group": "재료",
+          "group": "수육 재료",
           "ingredientId": "doenjang",
           "sourceAmount": 2,
           "unit": "숟가락",
@@ -104242,13 +104242,235 @@
         },
         {
           "sourceText": "통삼겹 : 600g",
-          "group": "재료",
+          "group": "수육 재료",
           "ingredientId": "mfds-ingredient-d9a010b774f5",
           "sourceAmount": 600,
           "unit": "g",
           "factor": 1,
           "amount": 600,
           "reason": null
+        },
+        {
+          "sourceText": "청양고추 : 2개",
+          "group": "수육 재료",
+          "ingredientId": "hot-pepper",
+          "sourceAmount": 2,
+          "unit": "개",
+          "factor": 1,
+          "amount": 2,
+          "reason": "재료표에는 없으나 수육 조리 본문2단계에 명시된 재료량 보완"
+        },
+        {
+          "sourceText": "무 : 1개",
+          "group": "무김치 재료",
+          "ingredientId": "mfds-ingredient-a367ab3717bf",
+          "sourceAmount": 1,
+          "unit": "개",
+          "factor": 1,
+          "amount": 1,
+          "reason": "원문 무1.3kg 기준의1개. 임의 무게환산 아님"
+        },
+        {
+          "sourceText": "굵은소금 : 1숟가락",
+          "group": "무김치 재료",
+          "ingredientId": "mfds-ingredient-e2f9b8467114",
+          "sourceAmount": 1,
+          "unit": "숟가락",
+          "factor": 1,
+          "amount": 1,
+          "reason": "절임용. 본문에는 크게1숟가락으로 설명"
+        },
+        {
+          "sourceText": "물엿 : 2컵 (종이컵 기준, 약 360ml)",
+          "group": "무김치 재료",
+          "ingredientId": "syrup",
+          "sourceAmount": 360,
+          "unit": "ml",
+          "factor": 1,
+          "amount": 360,
+          "reason": "원문2종이컵에 직접 병기된 약360ml 사용"
+        },
+        {
+          "sourceText": "고춧가루 : 5숟가락",
+          "group": "무김치 재료",
+          "ingredientId": "chili",
+          "sourceAmount": 5,
+          "unit": "숟가락",
+          "factor": 1,
+          "amount": 5,
+          "reason": null
+        },
+        {
+          "sourceText": "매실청 : 2숟가락",
+          "group": "무김치 재료",
+          "ingredientId": "mfds-ingredient-09b50b6e2bc4",
+          "sourceAmount": 2,
+          "unit": "숟가락",
+          "factor": 1,
+          "amount": 2,
+          "reason": null
+        },
+        {
+          "sourceText": "미림 (맛술) : 2숟가락",
+          "group": "무김치 재료",
+          "ingredientId": "wine",
+          "sourceAmount": 2,
+          "unit": "숟가락",
+          "factor": 1,
+          "amount": 2,
+          "reason": null
+        },
+        {
+          "sourceText": "멸치액젓 : 2숟가락",
+          "group": "무김치 재료",
+          "ingredientId": "mfds-ingredient-d5c0a936afac",
+          "sourceAmount": 2,
+          "unit": "숟가락",
+          "factor": 1,
+          "amount": 2,
+          "reason": null
+        },
+        {
+          "sourceText": "설탕 : 2숟가락",
+          "group": "무김치 재료",
+          "ingredientId": "sugar",
+          "sourceAmount": 2,
+          "unit": "숟가락",
+          "factor": 1,
+          "amount": 2,
+          "reason": null
+        },
+        {
+          "sourceText": "다진마늘 : 크게 2숟가락",
+          "group": "무김치 재료",
+          "ingredientId": "minced-garlic",
+          "sourceAmount": 2,
+          "unit": "숟가락",
+          "factor": 1,
+          "amount": 2,
+          "reason": "크게 계량"
+        },
+        {
+          "sourceText": "고추장 : 1숟가락",
+          "group": "무김치 재료",
+          "ingredientId": "gochujang",
+          "sourceAmount": 1,
+          "unit": "숟가락",
+          "factor": 1,
+          "amount": 1,
+          "reason": null
+        },
+        {
+          "sourceText": "미원 : 1/2숟가락",
+          "group": "무김치 재료",
+          "ingredientId": "msg-seasoning",
+          "sourceAmount": 0.5,
+          "unit": "숟가락",
+          "factor": 1,
+          "amount": 0.5,
+          "reason": null
+        },
+        {
+          "sourceText": "다진생강 : 1/2숟가락",
+          "group": "무김치 재료",
+          "ingredientId": "mfds-ingredient-fcf2d4ba8a5a",
+          "sourceAmount": 0.5,
+          "unit": "숟가락",
+          "factor": 1,
+          "amount": 0.5,
+          "reason": null
+        },
+        {
+          "sourceText": "대파 : 1대 (흰색 부분만 사용)",
+          "group": "무김치 재료",
+          "ingredientId": "green-onion",
+          "sourceAmount": 1,
+          "unit": "대",
+          "factor": 1,
+          "amount": 1,
+          "reason": "흰색 부분만 사용"
+        },
+        {
+          "sourceText": "참깨 : 2숟가락~3숟가락",
+          "group": "무김치 재료",
+          "ingredientId": "sesame-seeds",
+          "sourceAmount": null,
+          "unit": null,
+          "factor": 1,
+          "amount": null,
+          "reason": "원문2~3숟가락 범위를 단일수량으로 임의확정하지 않음"
+        }
+      ],
+      "previousReview": {
+        "checkedOn": "2026-11-23",
+        "baseServings": 6,
+        "servingsEvidence": "원문 전체 인분 미기재. 통삼겹600g 등 원문 전체 제조량을 6인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬은 곁들임 분량이며 원작자 명시 인분 아님.",
+        "ingredientText": "<수육 재료>\n삼겹살 600g 기준\n(계량 : 밥 숟가락) \n큰 양파 : 1개 \n통마늘 : 10개 \n된장 : 2숟가락 \n통삼겹 : 600g",
+        "ingredientHash": "54647bfb2a43505a35377e400fa9d9259ee8b68a9c2ee89e3ed6e7fbfd18a3f7",
+        "ingredients": [
+          {
+            "sourceText": "큰 양파 : 1개",
+            "group": "재료",
+            "ingredientId": "onion",
+            "sourceAmount": 1,
+            "unit": "개",
+            "factor": 1,
+            "amount": 1,
+            "reason": null
+          },
+          {
+            "sourceText": "통마늘 : 10개",
+            "group": "재료",
+            "ingredientId": "garlic",
+            "sourceAmount": 10,
+            "unit": "개",
+            "factor": 1,
+            "amount": 10,
+            "reason": null
+          },
+          {
+            "sourceText": "된장 : 2숟가락",
+            "group": "재료",
+            "ingredientId": "doenjang",
+            "sourceAmount": 2,
+            "unit": "숟가락",
+            "factor": 1,
+            "amount": 2,
+            "reason": null
+          },
+          {
+            "sourceText": "통삼겹 : 600g",
+            "group": "재료",
+            "ingredientId": "mfds-ingredient-d9a010b774f5",
+            "sourceAmount": 600,
+            "unit": "g",
+            "factor": 1,
+            "amount": 600,
+            "reason": null
+          }
+        ]
+      },
+      "servingsBasisLabel": "수육",
+      "accompanimentNote": "수육은 인분으로, 무김치는 원문 제조량(무1개·1.3kg 기준)의 횟수로 각각 조절해요. 무김치가 필요 없으면 0회로 바꿀 수 있어요.",
+      "ingredientClarification": "수육과 무김치 양쪽 재료표 및 수육 본문 청양고추2개 대조. 수육 인분과 무김치 제조횟수 독립 조절.",
+      "additionalIngredientFacts": [
+        {
+          "sourceText": "청양고추 : 2개",
+          "reason": "재료표에는 없으나 수육 조리 본문2단계에 명시된 재료량 보완",
+          "sourceLocation": "수육 조리 본문2단계",
+          "checkedOn": "2026-11-25"
+        }
+      ],
+      "components": [
+        {
+          "id": "suyuk",
+          "name": "수육",
+          "mode": "servings"
+        },
+        {
+          "id": "radish-kimchi",
+          "name": "무김치",
+          "mode": "batch"
         }
       ]
     },

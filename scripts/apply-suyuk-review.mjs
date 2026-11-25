@@ -1,0 +1,23 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import assert from 'node:assert/strict';
+import * as correction from './mincook-blog-91-correction.mjs';
+const read=async p=>JSON.parse(await readFile(new URL('../'+p,import.meta.url),'utf8'));
+const write=(p,v)=>writeFile(new URL('../'+p,import.meta.url),JSON.stringify(v,null,2)+'\n');
+const [recipes,ingredients,review,catalog]=await Promise.all(['data/recipes.json','data/ingredients.json','data/source/mincook-review.json','data/recipe-categories.json'].map(read));
+const entry=review.entries.find(e=>e.sourceId===correction.sourceId),recipe=recipes.find(r=>r.id==='mincook-blog-91');assert.ok(entry&&recipe);
+entry.previousReview??={checkedOn:entry.checkedOn,baseServings:entry.baseServings,servingsEvidence:entry.servingsEvidence,ingredientText:entry.ingredientText,ingredientHash:entry.ingredientHash,ingredients:structuredClone(entry.ingredients)};
+const rows=correction.groups.flatMap(g=>g.rows.map(row=>{
+ const target=ingredients.find(i=>i.name===row.name);assert.ok(target,row.name);
+ const prior=entry.previousReview.ingredients.find(i=>i.sourceText===row.sourceText&&i.sourceAmount===row.sourceAmount&&i.unit===row.unit);
+ return {sourceText:row.sourceText,group:g.name,ingredientId:prior?.ingredientId||target.id,sourceAmount:row.sourceAmount,unit:row.unit,factor:1,amount:row.sourceAmount,reason:row.reason};
+}));
+Object.assign(entry,{checkedOn:'2026-11-25',ingredientText:correction.ingredientText,ingredientHash:createHash('sha256').update(correction.ingredientText).digest('hex'),baseServings:3,servingsRange:null,servingsStatus:'estimated',servingsEvidence:correction.servingsEvidence,servingsBasisLabel:correction.servingsBasisLabel,accompanimentNote:correction.accompanimentNote,ingredients:rows,ingredientClarification:'수육과 무김치 양쪽 재료표 및 수육 본문 청양고추2개를 대조. 주메뉴 기준 인분으로 원문 전량 함께 계산.',additionalIngredientFacts:[{sourceText:'청양고추 : 2개',reason:'재료표에는 없으나 수육 조리 본문2단계에 명시된 재료량 보완',sourceLocation:'수육 조리 본문2단계',checkedOn:'2026-11-25'}]});
+Object.assign(recipe,{baseServings:3,servingsStatus:'estimated',servingsEvidence:entry.servingsEvidence,cookingType:'수육',servingsBasisLabel:entry.servingsBasisLabel,accompanimentNote:entry.accompanimentNote,sourceNote:`${entry.sourceName} / 공식 블로그 게시글 ${entry.articleId}; 채널이 연결한 공식 블로그 재료·수량 대조 ${entry.checkedOn}. 원문 단위 유지. 부속 조리물은 명시된 사용 비율만 반영. 사진·조리 문장 미사용.`,ingredients:rows.map(i=>({ingredientId:i.ingredientId,amount:i.amount,unit:i.unit,note:`원문: ${i.sourceText}${i.reason?' · '+i.reason:''}`}))});
+entry.components=correction.components;recipe.components=correction.components;
+entry.servingsEvidence=recipe.servingsEvidence=correction.servingsEvidence.replace('사용자 승인에 따라 무김치 원문 제조량도 수육 인분과 같은 비율로 함께 반영.','사용자 승인: 수육은 인분, 무김치는 별도 원문1회 제조량으로 계산.');
+entry.ingredientClarification='수육과 무김치 양쪽 재료표 및 수육 본문 청양고추2개 대조. 수육 인분과 무김치 제조횟수 독립 조절.';
+recipe.ingredients.forEach((item,index)=>{item.componentId=rows[index].group==='무김치 재료'?'radish-kimchi':'suyuk';});
+Object.assign(catalog.entries.find(c=>c.recipeId===recipe.id),{categories:['한식 주메뉴'],mealRole:'주메뉴'});
+if(process.argv.includes('--write'))await Promise.all([write('data/recipes.json',recipes),write('data/source/mincook-review.json',review),write('data/recipe-categories.json',catalog)]);
+console.log(`${recipe.name}: 수육3인분(추정) · 무김치1회 제조량, 원문 재료${rows.length}행. ${process.argv.includes('--write')?'저장':'검증만 실행'}`);

@@ -28,7 +28,7 @@ test('ten distinct original videos preserve reviewed ingredient quantities, unit
 });
 
 test('two-portion kimchi stew scales to three portions without changing the source, owned items or cooking water behavior',()=>{
- const recipe=pilot.find(r=>r.name==='돼지고기 김치찌개');assert.equal(servingLabel(recipe),'2인분 기준(추정)');
+ const recipe=pilot.find(r=>r.name==='돼지고기 김치찌개');assert.equal(servingLabel(recipe),'2인분(추정)');
  const rows=aggregate(ingredients,recipes,[{recipeId:recipe.id,servings:3}],2);
  assert.equal(totalText(rows.find(r=>r.ingredient.id==='mfds-ingredient-48f0320f90f9')),'195g');
  assert.equal(totalText(rows.find(r=>r.ingredient.id==='kimchi')),'585g');

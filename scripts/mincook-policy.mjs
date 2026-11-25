@@ -3,9 +3,13 @@ import * as b from './mincook-b-policy.mjs';
 import * as followup from './mincook-followup-policy.mjs';
 import * as third from './mincook-batch-03-policy.mjs';
 import * as fourth from './mincook-batch-04-policy.mjs';
+import * as suyuk from './mincook-blog-91-correction.mjs';
 
 const policies=[a,b,followup,third,fourth];
 export const batch50=policies.flatMap(policy=>policy.batch50);
+const suyukIndex=batch50.findIndex(row=>row[0]===suyuk.sourceId);
+const suyukSelection=[suyuk.sourceId,'수육 & 무김치',suyuk.baseServings,'수육','한식 주메뉴'];
+if(suyukIndex<0)batch50.push(suyukSelection);else batch50[suyukIndex]=suyukSelection;
 const owner=id=>policies.find(policy=>policy.batch50.some(row=>row[0]===id));
 export const canonicalOverrides=Object.assign({},...policies.map(policy=>policy.canonicalOverrides));
 const key=name=>name.normalize('NFKC').replace(/\s/g,'');
@@ -24,10 +28,18 @@ const reviewedDefinitions=policies.flatMap(policy=>policy.definitions??[]).map(r
 export const definitions=[...new Map(reviewedDefinitions.map(row=>[key(row[1]),row])).values()];
 export const intermediateRows=new Map(policies.flatMap(policy=>[...(policy.intermediateRows??new Map())]));
 export const lineOverrides=Object.assign({},...policies.map(policy=>policy.lineOverrides));
+lineOverrides[suyuk.sourceId]=suyuk.lineOverrides;
 export const servingsOverrides=Object.assign({},...policies.map(policy=>policy.servingsOverrides));
+servingsOverrides[suyuk.sourceId]={status:'estimated',evidence:suyuk.servingsEvidence};
 export const skips=policies.flatMap(policy=>policy.skips??[]);
 export const groupPolicy=(id,group)=>owner(id)?.groupPolicy?.(id,group)??{scale:1};
 export function prepareText(entry){
+ if(entry.sourceId===suyuk.sourceId){
+  lineOverrides[suyuk.sourceId]=suyuk.lineOverrides;
+  entry.nameSource='official-blog';entry.nameSourceText='수육 & 무김치';
+  entry.servingsBasisLabel=suyuk.servingsBasisLabel;entry.accompanimentNote=suyuk.accompanimentNote;entry.components=suyuk.components;
+  return suyuk.prepareText();
+ }
  const policy=owner(entry.sourceId);
  const text=policy?.prepareText?.(entry)??entry.ingredientText;
  Object.assign(lineOverrides,policy?.lineOverrides??{});

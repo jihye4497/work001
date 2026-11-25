@@ -53,8 +53,8 @@ test('source dry weight, user-approved sauce and egg totals, and original servin
  assert.equal(amount('At-u3lwsFtk','계란',2),'100g');
  assert.equal(amount('R0xWJ4c8wR4','칼국수면',1),'150g');
  assert.equal(amount('6e-IbuuD6ZU','물'),'270g');
- assert.equal(servingLabel(get('zfMHTfJ3Ih0')),'3인분 기준');
- assert.equal(servingLabel(get('fEYJSPSGaLI')),'1인분 기준');
+ assert.equal(servingLabel(get('zfMHTfJ3Ih0')),'3인분');
+ assert.equal(servingLabel(get('fEYJSPSGaLI')),'1인분');
  assert.match(servingLabel(get('eeiqjyYgPew')),/추정/);
 });
 
