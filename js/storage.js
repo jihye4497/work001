@@ -1,5 +1,5 @@
 import { MODES, LEGACY_MODES, normalizeMode } from './recommendations.js';
-import { validFoodCategories } from './recipe-filters.js';
+import { validStoredFoodCategories,restoreFoodCategories } from './recipe-filters.js';
 import { matchIngredient, representativeIngredient } from './ingredient-matching.js';
 export const KEYS = { settings: 'jmd_settings_v1', draft: 'jmd_draft_v1', meta: 'jmd_meta_v1', preferences: 'jmd_recipe_preferences_v1' };
 export const defaultSettings = () => ({ '기본 식사 인원': 1, '기본 추천 방식': MODES[0] });
@@ -12,7 +12,7 @@ export function validDraft(d) {
     (d.activeInterestIds === undefined || (Array.isArray(d.activeInterestIds) && d.activeInterestIds.every(id=>typeof id==='string') && new Set(d.activeInterestIds).size===d.activeInterestIds.length)) &&
     (d.menuQuery === undefined || (typeof d.menuQuery==='string'&&d.menuQuery.length<=200)) &&
     ['manualIngredientIds', 'suppressedAutoIngredientIds', 'excludedShoppingIngredientIds'].every(k => d[k] === undefined || (Array.isArray(d[k]) && d[k].every(id => typeof id === 'string') && new Set(d[k]).size === d[k].length)) &&
-    (d.selectedFoodCategories === undefined || validFoodCategories(d.selectedFoodCategories)) &&
+    (d.selectedFoodCategories === undefined || validStoredFoodCategories(d.selectedFoodCategories)) &&
     ['selectedIngredientIds', 'checkedIngredientIds'].every(k => Array.isArray(d[k]) && d[k].every(id => typeof id === 'string') && new Set(d[k]).size === d[k].length) &&
     Array.isArray(d.selectedRecipes) && d.selectedRecipes.every(s => s && typeof s.recipeId === 'string' && Number.isSafeInteger(s.times) && s.times >= 1 && (s.servings===undefined || (Number.isSafeInteger(s.servings)&&s.servings>=1)) && (s.componentBatches===undefined||(s.componentBatches&&typeof s.componentBatches==='object'&&!Array.isArray(s.componentBatches)&&Object.values(s.componentBatches).every(n=>Number.isSafeInteger(n)&&n>=0))) && (s.ingredientReplacements===undefined || (s.ingredientReplacements&&typeof s.ingredientReplacements==='object'&&!Array.isArray(s.ingredientReplacements)&&Object.values(s.ingredientReplacements).every(id=>typeof id==='string')))) &&
     d.selectedRecipes.every(s=>s.batchCount===undefined||(Number.isSafeInteger(s.batchCount)&&s.batchCount>=1)) &&
@@ -46,7 +46,7 @@ export function createStore(storage) {
     draft.activeInterestIds ??= [...draft.selectedIngredientIds];
     draft.menuQuery ??= '';
     draft.excludedShoppingIngredientIds ??= [];
-    draft.selectedFoodCategories ||= [];
+    draft.selectedFoodCategories = restoreFoodCategories(draft.selectedFoodCategories||[]);
     const preferences = read(KEYS.preferences, p => p && p.schemaVersion === 1 && Array.isArray(p.excludedRecipeIds) && p.excludedRecipeIds.every(id => typeof id === 'string') && new Set(p.excludedRecipeIds).size === p.excludedRecipeIds.length, { excludedRecipeIds: [] });
     excludedRecipeIds = preferences.excludedRecipeIds;
     if(preferences.pantryIngredientIds!==undefined && (!Array.isArray(preferences.pantryIngredientIds)||!preferences.pantryIngredientIds.every(id=>typeof id==='string'))) warn('집에 있는 재료를 읽지 못해 비웠어요. 선택 메뉴는 유지했어요.');

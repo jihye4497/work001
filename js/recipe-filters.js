@@ -1,4 +1,9 @@
-export const FOOD_CATEGORIES = ['한식 주메뉴', '한식 반찬', '한식 국·찌개', '양식', '일식', '중식', '그 밖', '퓨전'];
+export const FOOD_CATEGORIES = ['메인요리','면요리','국·찌개','반찬','밥·죽','간식','소스·음료'];
+export const LEGACY_FOOD_CATEGORIES=['한식 주메뉴','한식 반찬','한식 국·찌개','양식','일식','중식','그 밖','퓨전'];
+export const validStoredFoodCategories=value=>Array.isArray(value)&&new Set(value).size===value.length&&value.every(c=>[...FOOD_CATEGORIES,...LEGACY_FOOD_CATEGORIES].includes(c));
+// Country filters cannot map accurately to dish kinds. Reset only that filter,
+// never the user's recipes, quantities, pantry or shopping selection.
+export const restoreFoodCategories=value=>value.some(c=>LEGACY_FOOD_CATEGORIES.includes(c))?[]:[...value];
 export const validFoodCategories = value => Array.isArray(value) && new Set(value).size === value.length && value.every(x => FOOD_CATEGORIES.includes(x));
 export function toggleFoodCategory(current, category) {
   if (category === '전체') return [];

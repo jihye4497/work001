@@ -30,7 +30,10 @@ test('버터간장국수는 면 100g 기준 1인분 추정·식용유 미기재 
 test('무밥 양념장 전량·물 원문 g·불린 당면·미기재 후추를 그대로 계산',()=>{
  const rows=id=>{const r=get(id);return aggregate(ingredients,recipes,[{recipeId:r.id,servings:r.baseServings}],1);};
  const rice=rows('4RnCNlE1b6U');assert.equal(totalText(rice.find(x=>x.ingredient.name==='참기름')),'21g');assert.equal(totalText(rice.find(x=>x.ingredient.name==='물')),'360g');
- const soup=rows('bFX5lJgCPBQ');assert.equal(totalText(soup.find(x=>x.ingredient.name==='불린 당면')),'120g');assert.equal(totalText(soup.find(x=>x.ingredient.name==='후추가루')),'수량 미기재');
+ const soup=rows('bFX5lJgCPBQ'),noodles=soup.find(x=>x.ingredient.name==='당면');
+ assert.equal(totalText(noodles),'불린 당면 120g');
+ assert.ok(noodles.uses.some(u=>u.originalIngredientName==='불린 당면'&&u.amount===120));
+ assert.equal(totalText(soup.find(x=>x.ingredient.name==='후추가루')),'수량 미기재');
  assert.ok(!partitionShoppingRows(soup,[],ingredients)[0].rows.some(x=>x.ingredient.name==='물'));
  const stew=rows('TFcNckg-1bQ');assert.equal(totalText(stew.find(x=>x.ingredient.name==='돼지고기 목심')),'210g');assert.equal(totalText(stew.find(x=>x.ingredient.name==='청양고추')),'10g');
 });

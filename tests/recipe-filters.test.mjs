@@ -15,15 +15,44 @@ test('전체 메뉴 분류는 안정적인 ID로 연결하고 누락·이름 변
   assert.ok(recipes.length>=1033);
   assert.equal(catalog.entries.length,recipes.length);
   assert.ok(recipes.every(r=>r.foodCategories.length && r.foodCategories.every(c=>FOOD_CATEGORIES.includes(c))));
+  assert.ok(recipes.every(r=>r.foodCategories.length===1));
   assert.throws(()=>applyRecipeCategories(raw,{entries:catalog.entries.slice(1)}));
   assert.throws(()=>applyRecipeCategories(raw,{entries:[...catalog.entries,catalog.entries[0]]}));
   assert.throws(()=>applyRecipeCategories([{...raw[0],name:'바뀐 메뉴'}],catalog));
 });
 
+test('대표 음식형태 분류는 면·국·밥·반찬·소스 경계를 구분',()=>{
+ const expected={
+  'paik--_q9oyOToxs':'면요리', // 우유라면
+  'paik-ak5PBQQfPVI':'면요리', // 참기름 달걀라면
+  'paik-LwHQ_LE4b9I':'면요리', // 팟타이
+  'mincook-blog-636':'면요리',
+  'mincook-blog-452':'국·찌개',
+  'eonam-RLy4fO4fqBA':'밥·죽',
+  'potato-stir':'반찬','squid-stir':'메인요리',
+  'mincook-blog-623':'소스·음료','mincook-blog-601':'소스·음료'
+ };
+ for(const [id,category] of Object.entries(expected))assert.deepEqual(recipes.find(r=>r.id===id)?.foodCategories,[category],id);
+});
+
+test('옛 국가별 필터만 전체로 복원하며 선택메뉴·인분·제조횟수·재료 보존',()=>{
+ const storage=memory(),draft=defaultDraft();
+ draft.selectedFoodCategories=['한식 국·찌개','퓨전'];
+ draft.selectedIngredientIds=['onion'];draft.activeInterestIds=['onion'];
+ draft.selectedRecipes=[{recipeId:'squid-stir',times:2,servings:3},{recipeId:'mincook-blog-623',times:1,componentBatches:{sauce:2}}];
+ storage.setItem(KEYS.draft,JSON.stringify(draft));
+ const restored=createStore(storage);
+ assert.deepEqual(restored.draft.selectedFoodCategories,[]);
+ assert.deepEqual(restored.draft.selectedRecipes,draft.selectedRecipes);
+ assert.deepEqual(restored.draft.selectedIngredientIds,['onion']);
+ assert.deepEqual(restored.draft.activeInterestIds,['onion']);
+ assert.equal(restored.warnings.length,0);
+});
+
 test('종류 다중 선택은 합집합·겸용 중복 없음·전체 복귀·두 추천 방식 유지',()=>{
   const draft=defaultDraft();draft.selectedIngredientIds=['onion'];draft.activeInterestIds=[...draft.selectedIngredientIds];
-  draft.selectedFoodCategories=toggleFoodCategory([], '한식 주메뉴');
-  draft.selectedFoodCategories=toggleFoodCategory(draft.selectedFoodCategories,'한식 반찬');
+  draft.selectedFoodCategories=toggleFoodCategory([], '메인요리');
+  draft.selectedFoodCategories=toggleFoodCategory(draft.selectedFoodCategories,'반찬');
   for(const mode of MODES) {
     draft.activeRecommendationMode=mode;
     const result=recommend(ingredients,recipes,draft);
@@ -33,8 +62,8 @@ test('종류 다중 선택은 합집합·겸용 중복 없음·전체 복귀·�
     const all=recommend(ingredients,recipes,{...draft,selectedFoodCategories:[]});
     assert.deepEqual(result.map(x=>x.recipe.id),all.filter(x=>x.recipe.foodCategories.some(c=>draft.selectedFoodCategories.includes(c))).map(x=>x.recipe.id));
   }
-  assert.deepEqual(toggleFoodCategory(['양식'],'양식'),[]);
-  assert.deepEqual(toggleFoodCategory(['양식','중식'],'전체'),[]);
+  assert.deepEqual(toggleFoodCategory(['면요리'],'면요리'),[]);
+  assert.deepEqual(toggleFoodCategory(['면요리','반찬'],'전체'),[]);
 });
 
 test('이전 장보기는 종류 필드 없이 복원되고 제외 설정은 새 장보기·설정 변경 후에도 유지',()=>{
@@ -45,9 +74,9 @@ test('이전 장보기는 종류 필드 없이 복원되고 제외 설정은 새
   assert.deepEqual(store.draft.selectedFoodCategories,[]);
   assert.deepEqual(store.draft.selectedRecipes,old.selectedRecipes);
   store.setExcludedRecipeIds(['squid-stir']);
-  store.draft.selectedFoodCategories=['중식','양식'];store.saveDraft();
+  store.draft.selectedFoodCategories=['면요리','반찬'];store.saveDraft();
   const restored=createStore(storage);
-  assert.deepEqual(restored.draft.selectedFoodCategories,['중식','양식']);
+  assert.deepEqual(restored.draft.selectedFoodCategories,['면요리','반찬']);
   restored.saveSettings({'기본 식사 인원':3,'기본 추천 방식':MODES[1]});restored.reset();
   assert.deepEqual(createStore(storage).excludedRecipeIds,['squid-stir']);
   assert.deepEqual(createStore(storage).draft.selectedRecipes,[]);

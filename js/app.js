@@ -126,9 +126,13 @@ function selectedPanel(compact = false) {
     const currentQuantity=batch?selectedBatchCount(s):selectedServings(s,store.settings['기본 식사 인원']);
     const quantityUnit=batch?'회':'인분';
     return el('div', {class:recipe.components?'selected-item selected-composite':'selected-item'}, [
-      el('div', {class:recipe.components?'selected-line component-heading':'selected-line',style:recipe.components?`grid-row: 1 / span ${recipe.components.length}`:null}, [
+      compact?null:el('div',{class:'selected-item-heading'},[
+        el('strong',{class:'selected-name'},recipe.name),
+        button('×',()=>confirmMenuRemoval(s,false,`remove-${recipe.id}`),'secondary selected-remove',{id:`remove-${recipe.id}`,'aria-label':`${recipe.name} 전체 삭제`,title:'메뉴 전체 삭제'})
+      ]),
+      el('div', {class:recipe.components?'selected-line component-heading':'selected-line',style:recipe.components?`grid-row: ${compact?1:2} / span ${recipe.components.length}`:null}, [
         el('div', {class:'selected-menu-label'}, [
-          el('strong', {class:'selected-name'}, recipe.name),
+          compact?el('strong', {class:'selected-name'}, recipe.name):null,
           ...(recipe.components||[]).map(c=>el('span',{class:'muted selected-basis'},servingLabel({...recipe,components:[c]}))),
           !recipe.components?el('div',{class:'selected-meta'},[
             el('span',{class:'muted selected-basis'},servingLabel(recipe)),
@@ -404,10 +408,11 @@ function drawRecipes() {
   }));
   const filters = el('div', {class: 'food-filters horizontal-buttons', role: 'group', 'aria-label': '음식 종류 · 여러 개 선택 가능'}, ['전체',...FOOD_CATEGORIES].map((category,index) => {
     const checked = category === '전체' ? !store.draft.selectedFoodCategories.length : store.draft.selectedFoodCategories.includes(category);
-    return button(`${checked?'✓ ':''}${category}`, () => {
+    const lines={'메인요리':['메인','요리'],'면요리':['면','요리'],'국·찌개':['국','찌개'],'밥·죽':['밥','죽'],'소스·음료':['소스','음료']}[category]||[category];
+    return button([el('span',{class:'food-filter-check','aria-hidden':'true'},checked?'✓':''),el('span',{class:'food-filter-label'},lines.length===2?[lines[0],el('br'),lines[1]]:lines[0])], () => {
       store.draft.selectedFoodCategories = toggleFoodCategory(store.draft.selectedFoodCategories,category);
       resetVisible();save();drawRecipes();focus(`food-${index}`);
-    }, checked?'secondary selected':'secondary', {id:`food-${index}`, 'aria-pressed':String(checked)});
+    }, checked?'secondary selected':'secondary', {id:`food-${index}`, 'aria-label':category,'aria-pressed':String(checked)});
   }));
   const input = el('input', {id:'menu-search', type:'search', value:store.draft.menuQuery, maxLength:200, placeholder:'먹고 싶은 메뉴가 있으신가요?', autocomplete:'off', 'aria-controls':'menu-search-list'});
   function clearMenuSearch(){

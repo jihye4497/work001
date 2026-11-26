@@ -132,7 +132,8 @@ test('간장양념장은25인분 대신1회 제조와5반찬을 각각 조절·�
  const draft={schemaVersion:1,selectedIngredientIds:[],activeInterestIds:[],selectedRecipes:[{recipeId:id,times:1,servings:2}],activeRecommendationMode:'추가 구매 최소',checkedIngredientIds:[]};
  let {body,saved}=await load('shopping-list',[],{draft});
  const entry=find(body,n=>n.className==='selected-item selected-composite');
- assert.equal(entry.children[0].attrs.style,'grid-row: 1 / span 6');
+ assert.equal(entry.children[0].className,'selected-item-heading');
+ assert.equal(entry.children[1].attrs.style,'grid-row: 2 / span 6');
  assert.equal(all(entry).filter(n=>n.className==='component-control').length,6);
  assert.match(entry.textContent,/간장양념장 1회 제조량/);
  assert.ok(!entry.textContent.includes('25인분'));
@@ -157,7 +158,8 @@ test('나머지3개 복합메뉴도 활용요리0회 제외와 저장복원을 �
   const draft={schemaVersion:1,selectedIngredientIds:[],activeInterestIds:[],selectedRecipes:[{recipeId:id,times:1,servings:2}],activeRecommendationMode:'추가 구매 최소',checkedIngredientIds:[]};
   let {body,saved}=await load('shopping-list',[],{draft});
   const entry=find(body,n=>n.className==='selected-item selected-composite');
-  assert.equal(entry.children[0].attrs.style,`grid-row: 1 / span ${count}`);
+  assert.equal(entry.children[0].className,'selected-item-heading');
+  assert.equal(entry.children[1].attrs.style,`grid-row: 2 / span ${count}`);
   assert.equal(all(entry).filter(n=>n.className==='component-control').length,count);
   assert.ok(find(body,n=>n.className==='use-name'&&n.textContent.endsWith(` · ${name}`)));
   await document.getElementById(`batch-minus-${id}-${last}`).click();
@@ -239,8 +241,8 @@ test('추천 화면의 다중 선택·담기·횟수 편집·제외와 실행 �
   const {body,saved}=await load('recipes');
   assert.ok(find(body,x=>x.className.includes('recipe-card')));
   await document.getElementById('food-1').click();await document.getElementById('food-2').click();
-  assert.deepEqual(JSON.parse(saved.get('jmd_draft_v1')).selectedFoodCategories,['한식 주메뉴','한식 반찬']);
-  const card=find(body,x=>x.className.includes('recipe-card'));
+  assert.deepEqual(JSON.parse(saved.get('jmd_draft_v1')).selectedFoodCategories,['메인요리','면요리']);
+  const card=find(body,x=>x.className.includes('recipe-card')&&x.textContent.includes('인분')&&!x.textContent.includes('제조량'));
   await button(card,'담기 +').click();await document.getElementById('confirm-add-menu').click();
   assert.equal(JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes.length,1);
   await document.getElementById('selected-drawer-toggle').click();
@@ -381,7 +383,10 @@ test('구매 최소는 관심 버튼을 숨기고 두 방식 모두 음식 종�
  assert.deepEqual(JSON.parse(saved.get('jmd_draft_v1')).activeInterestIds,[]);
  await document.getElementById('mode-0').click();
  assert.equal(document.getElementById('interest-onion'),undefined);
- assert.ok(document.getElementById('food-8'));
+ assert.ok(document.getElementById('food-7'));
+ assert.equal(document.getElementById('food-8'),undefined);
+ assert.equal(document.getElementById('food-7').attrs['aria-label'],'소스·음료');
+ assert.ok(all(document.getElementById('food-1')).some(n=>n.tagName==='br'));
  assert.equal(find(body,x=>x.className==='food-disclosure'),undefined);
  assert.ok(find(body,x=>x.className==='recipe-card panel'));
  await document.getElementById('mode-1').click();
@@ -391,7 +396,7 @@ test('구매 최소는 관심 버튼을 숨기고 두 방식 모두 음식 종�
 test('한 글자 검색 목록·더 보기·추천 제외 무시·직접 담기와 모든 재료·양념의 장보기 연결',async()=>{
  const raw=JSON.parse(await readFile(new URL('../data/recipes.json',import.meta.url),'utf8'));
  const recipe=raw.find(r=>r.id==='kimchi-stew');
- const {body,saved}=await load('recipes',[recipe.id],{draft:{schemaVersion:1,selectedIngredientIds:[],selectedRecipes:[],activeRecommendationMode:'추가 구매 최소',activeInterestIds:[],checkedIngredientIds:[],selectedFoodCategories:['양식']}});
+ const {body,saved}=await load('recipes',[recipe.id],{draft:{schemaVersion:1,selectedIngredientIds:[],selectedRecipes:[],activeRecommendationMode:'추가 구매 최소',activeInterestIds:[],checkedIngredientIds:[],selectedFoodCategories:['면요리']}});
  const input=document.getElementById('menu-search');
  const order=all(body);
  assert.ok(order.indexOf(document.getElementById('mode-0'))<order.indexOf(input));
@@ -423,7 +428,7 @@ test('한 글자 검색 목록·더 보기·추천 제외 무시·직접 담기�
  assert.ok(!count().includes('검색 결과'));
  assert.equal(count(),`${raw.filter(r=>r.id!=='mfds-cookrcp01-1112').length}개`);assert.equal(heading.hidden,false);
  assert.equal(document.getElementById('recommendation-filters').hidden,false);
- assert.deepEqual(JSON.parse(saved.get('jmd_draft_v1')).selectedFoodCategories,['양식']);
+ assert.deepEqual(JSON.parse(saved.get('jmd_draft_v1')).selectedFoodCategories,['면요리']);
  input.value='고추장';await input.fire('input');await input.fire('keydown',{key:'Escape'});
  assert.equal(input.value,'');assert.equal(document.getElementById('recommendation-filters').hidden,false);
  input.value=recipe.name;await input.fire('input');
@@ -741,6 +746,32 @@ test('설정에서 보유 편집은 변경 인원을 저장하고 펼친 선택 
  } finally {delete globalThis.ResizeObserver;}
 });
 
+
+test('장보기 제목 오른쪽 삭제는 일반·묶음 메뉴를 한번에 확인삭제하고 취소·다른메뉴 보존',async()=>{
+ for(const id of ['squid-stir','mincook-blog-623']){
+  const draft={schemaVersion:1,selectedIngredientIds:['onion'],activeInterestIds:['onion'],manualIngredientIds:['onion'],selectedRecipes:[{recipeId:id,times:2,servings:3},{recipeId:'potato-stir',times:1,servings:2}],activeRecommendationMode:'추가 구매 최소',checkedIngredientIds:[]};
+  const {body,saved}=await load('shopping-list',[],{draft});
+  const trigger=document.getElementById(`remove-${id}`);
+  assert.ok(trigger);assert.match(trigger.attrs['aria-label'],/전체 삭제$/);
+  assert.equal(trigger.parent.className,'selected-item-heading');
+  assert.equal(trigger.parent.children[0].className,'selected-name');
+  assert.ok(!all(trigger.parent).some(n=>n.className==='counter'));
+  const before=saved.get('jmd_draft_v1');
+  await trigger.click();
+  assert.equal(saved.get('jmd_draft_v1'),before);
+  await button(find(body,n=>n.tagName==='dialog'),'취소').click();
+  assert.equal(document.activeElement.id,`remove-${id}`);
+  assert.equal(saved.get('jmd_draft_v1'),before);
+  await trigger.click();await button(find(body,n=>n.tagName==='dialog'),'메뉴 삭제').click();
+  const after=JSON.parse(saved.get('jmd_draft_v1'));
+  assert.deepEqual(after.selectedRecipes,[{recipeId:'potato-stir',times:1,servings:2}]);
+  assert.ok(after.selectedIngredientIds.includes('onion'));
+  assert.equal(document.getElementById(`remove-${id}`),undefined);
+  const restored=await load('shopping-list',[],{draft:after});
+  assert.ok(document.getElementById('remove-potato-stir'));
+  assert.ok(restored.body.textContent.includes('선택 메뉴 1개'));
+ }
+});
 
 test('고른 재료의 결과가 없으면 위 안내와 결과 상태를 갱신하고 검색과 구분',async()=>{
  const recipes=JSON.parse(await readFile(new URL('../data/recipes.json',import.meta.url),'utf8'));
