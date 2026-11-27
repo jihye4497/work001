@@ -10,7 +10,7 @@ import { aggregate, selectedServings, totalText, quantity, selectedCopyText, par
 import { createStore } from './storage.js';
 import { el, button, link, empty } from './ui.js';
 import { servingLabel } from './servings.js';
-import { selectedBatchCount } from './recipe-calculation-basis.js';
+import { selectedBatchCount,selectedComponentBatchCount } from './recipe-calculation-basis.js';
 import { FOOD_CATEGORIES, toggleFoodCategory, excludedRecipeResults } from './recipe-filters.js';
 
 const page = document.body.dataset.page;
@@ -29,7 +29,7 @@ let storage;
 try { storage = window.localStorage; } catch { storage = { getItem() { throw new Error(); }, setItem() { throw new Error(); } }; }
 const store = createStore(storage);
 let data, visible = 8, toastTimer, selectedExpanded = false;
-let selectedDrawerOpen = false, ownedOpen = false, excludedShoppingOpen = false;
+let selectedDrawerOpen = false, excludedShoppingOpen = false;
 const expandedIngredients = new Set();
 let ingredientTab = new URLSearchParams(location.search).get('tab') === 'planned' ? 'planned' : 'pantry';
 
@@ -154,9 +154,9 @@ function selectedPanel(compact = false) {
           el('span',{class:'times-value'},`${selectedServings(s,store.settings['기본 식사 인원'])}인분`),
           button('+',()=>changeTimes(s,1,compact),'secondary square',{id:`plus-${s.recipeId}`,disabled:selectedServings(s,store.settings['기본 식사 인원'])>=Number.MAX_SAFE_INTEGER,'aria-label':`${c.name} 인분 늘리기`})
         ]):el('div',{class:'counter',role:'group','aria-label':`${recipe.name} ${c.name} 제조 횟수`},[
-          button('−',()=>changeBatch(s,c,-1,compact),'secondary square',{id:`batch-minus-${recipe.id}-${c.id}`,disabled:(s.componentBatches?.[c.id]??1)===0,'aria-label':`${c.name} 제조 횟수 줄이기`}),
-          el('span',{class:'times-value'},`${s.componentBatches?.[c.id]??1}회`),
-          button('+',()=>changeBatch(s,c,1,compact),'secondary square',{id:`batch-plus-${recipe.id}-${c.id}`,disabled:(s.componentBatches?.[c.id]??1)>=Number.MAX_SAFE_INTEGER,'aria-label':`${c.name} 제조 횟수 늘리기`})
+          button('−',()=>changeBatch(s,c,-1,compact),'secondary square',{id:`batch-minus-${recipe.id}-${c.id}`,disabled:selectedComponentBatchCount(s,c)===0,'aria-label':`${c.name} 제조 횟수 줄이기`}),
+          el('span',{class:'times-value'},`${selectedComponentBatchCount(s,c)}회`),
+          button('+',()=>changeBatch(s,c,1,compact),'secondary square',{id:`batch-plus-${recipe.id}-${c.id}`,disabled:selectedComponentBatchCount(s,c)>=Number.MAX_SAFE_INTEGER,'aria-label':`${c.name} 제조 횟수 늘리기`})
         ])
       ]))
     ]);
@@ -172,8 +172,8 @@ function selectedPanel(compact = false) {
 }
 function changeBatch(selection,component,difference,compact=false){
   const recipe=data.recipes.find(r=>r.id===selection.recipeId);
-  const next=Math.max(0,Math.min(Number.MAX_SAFE_INTEGER,(selection.componentBatches?.[component.id]??1)+difference));
-  if(next===0&&recipe.components.every(c=>c.mode==='batch'&&(c.id===component.id||((selection.componentBatches?.[c.id]??1)===0)))){
+  const next=Math.max(0,Math.min(Number.MAX_SAFE_INTEGER,selectedComponentBatchCount(selection,component)+difference));
+  if(next===0&&recipe.components.every(c=>c.mode==='batch'&&(c.id===component.id||(selectedComponentBatchCount(selection,c)===0)))){
     confirmMenuRemoval(selection,compact,`batch-minus-${selection.recipeId}-${component.id}`);return;
   }
   selection.componentBatches??={};
@@ -580,7 +580,6 @@ function drawShopping() {
       if(owned) {
         store.setPantryIngredientIds([...new Set([...store.pantryIngredientIds,...selectedIds])]);
         store.draft.excludedShoppingIngredientIds=excludedIds.filter(id=>!selectedIds.includes(id));
-        ownedOpen=true;
       } else {
         store.draft.excludedShoppingIngredientIds=[...new Set([...excludedIds,...selectedIds])];
       }
@@ -636,8 +635,7 @@ function drawShopping() {
       ]);
     });
     if(title==='우리 집 재료') {
-      const details=el('details',{class:'shopping-category owned-disclosure',open:ownedOpen},[el('summary',{id:'owned-shopping-summary',tabIndex:-1},`우리 집 재료 ${group.length}종 · 필요량 확인`),...list]);
-      details.addEventListener('toggle',()=>{ownedOpen=details.open;});return details;
+      return el('section',{class:'shopping-category owned-disclosure','aria-labelledby':'owned-shopping-summary'},[el('h2',{id:'owned-shopping-summary',class:'owned-shopping-heading',tabIndex:-1},`우리 집 재료 ${group.length}종`),...list]);
     }
     return el('section',{class:'shopping-category purchase-category'},[purchaseHeading,el('div',{class:'purchase-controls'},[el('div',{class:'purchase-selection-info'},[el('label',{class:'purchase-select-label',htmlFor:toggleAll.id},[toggleAll,'전체 선택']),el('span',{class:'muted purchase-selection-count'},`선택 ${selectedRows.length}종`)]),el('div',{class:'shopping-selection-actions'},[copyButton,excludeSelected])]),copyFallback,...list]);
   }).filter(Boolean);

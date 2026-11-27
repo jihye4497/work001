@@ -5,6 +5,7 @@ import assert from 'node:assert/strict';
 import {MEAL_REVIEW_BATCHES,MEAL_REVIEW_SERVINGS,MEAL_REVIEW_RETAINED} from '../js/meal-servings-review-decisions.js';
 import {applyCalculationBasis} from '../js/recipe-calculation-basis.js';
 import {applyRecipeDisplayNames} from '../js/recipe-display-names.js';
+import {SUYUK_SERVINGS_REVIEWS} from '../js/suyuk-servings-review.js';
 const root=new URL('../',import.meta.url);
 const read=async p=>JSON.parse(await readFile(new URL(p,root),'utf8'));
 const [audit,baseline,raw]=await Promise.all(['data/source/creator-servings-audit.json','data/source/creator-meal-servings-baseline.json','data/recipes.json'].map(read));
@@ -47,7 +48,7 @@ const entries=baseline.recipeIds.map(id=>{
  const e=audit.entries.find(e=>e.recipeId===id),r=runtime.get(id);
  assert.ok(e&&r,id);assert.ok(/^(paik|caden|eonam|moony|mincook)-/.test(id));
  assert.ok(e.currentBaseServings>=4&&raw.find(r=>r.id===id).servingsStatus==='estimated',id);
- const batch=MEAL_REVIEW_BATCHES[id],changed=MEAL_REVIEW_SERVINGS[id],issue=issues[id];
+ const batch=SUYUK_SERVINGS_REVIEWS[id]?null:MEAL_REVIEW_BATCHES[id],changed=SUYUK_SERVINGS_REVIEWS[id]||MEAL_REVIEW_SERVINGS[id],issue=issues[id];
  const retained=MEAL_REVIEW_RETAINED[id];
  const pending=Boolean(issue&&!batch&&!changed&&!retained);
  const status=batch?'applied-batch':changed?'applied-serving-correction':pending?'needs-user-confirmation':'reviewed-retain-estimate';

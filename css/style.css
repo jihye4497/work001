@@ -313,6 +313,7 @@ body[data-page=recipes]:has(#menu-search:focus) .recipe-bottom { position: stati
 .use-detail { white-space: nowrap; }
 .owned-disclosure,.excluded-shopping { padding: var(--s2) var(--s4); background: var(--surface-soft); border: var(--line) solid var(--divider); border-radius: var(--radius-card); }
 .owned-disclosure > summary,.excluded-shopping > summary { color: var(--muted); font-size: var(--body-size); font-weight: var(--weight-button); }
+.owned-shopping-heading { color: var(--muted); font-size: var(--body-size); font-weight: var(--weight-button); margin: 0 0 var(--s2); padding-block: var(--s1); border-bottom: var(--line) solid var(--divider); }
 .owned-disclosure[open] > summary,.excluded-shopping[open] > summary { border-bottom: var(--line) solid var(--divider); margin-bottom: var(--s2); }
 .excluded-shopping-row { display: grid; grid-template-columns: minmax(0,1fr) auto auto; align-items: center; gap: var(--s2); padding-block: var(--s2); border-bottom: var(--line) solid var(--divider); }
 .excluded-shopping-row .button { font-size: var(--selected-basis-size); }

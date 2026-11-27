@@ -1,0 +1,16 @@
+{
+  "checkedOn": "2026-11-27",
+  "recipeId": "paik-1vfJqpklDSI",
+  "sourceUrl": "https://www.youtube.com/watch?v=1vfJqpklDSI",
+  "verification": "사용자가 대화에 제공한 정보란 재료표. 영상/정보란에 독립 재접근하여 확인한 것으로 표시하지 않음.",
+  "independentSourceFetchVerified": false,
+  "name": "사과조림 & 토스트 & 프렌치토스트",
+  "category": "간식",
+  "components": [
+    {"id":"apple","name":"사과조림","basis":"원문 전체1회 제조량","ingredientText":["사과 4개(1kg)","물 2컵(400g)","레몬쥬스 1/2컵(75g)","황설탕 1과3/4컵(300g)","시나몬 가루 1/2큰술(3g)"]},
+    {"id":"toast","name":"토스트","basis":"식빵1개 기준1회 제조량","ingredientText":["식빵 1개","스틱버터 1/8개(10g)","사과조림 1큰술(30g)"],"usesComponentId":"apple","usesAmount":30,"usesUnit":"g"},
+    {"id":"french-toast","name":"프렌치토스트","basis":"식빵1개 기준1회 제조량","ingredientText":["달걀 1개(60g)","우유 1/3컵(60g)","식빵 1개","소금 1꼬집","스틱버터(토스트용) 1/4개(20g)","스틱버터(토핑용) 1/8개(10g)","사과조림 1큰술(30g)"],"usesComponentId":"apple","usesAmount":30,"usesUnit":"g"}
+  ],
+  "limits": "완성 사과조림 수율 미기재. 활용요리30g을 원재료로 임의 환산하지 않고 사과조림 제조물은 한번만 구매계산. 토스트/프렌치토스트 인분 추정 없이 각1회 제조량.",
+  "originalImportedRecipePreserved": true
+}

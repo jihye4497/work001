@@ -4,9 +4,10 @@
   "scope": "최초 제조량형84후보・미정34건・후속 식사형검토에서 사용자 승인한 반찬/제조물의 처리기록. 개별 인분재검토는 creator-meal-servings-review.json 참조.",
   "summary": {
     "target": 166,
-    "applied": 160,
-    "composite": 5,
+    "applied": 158,
+    "composite": 6,
     "confirmedCombinedDish": 1,
+    "servingCorrected": 1,
     "remaining": 0
   },
   "entries": [
@@ -548,18 +549,40 @@
     },
     {
       "recipeId": "paik-1vfJqpklDSI",
-      "name": "사과조림",
+      "name": "사과조림 & 토스트 & 프렌치토스트",
       "sourceUrl": "https://www.youtube.com/watch?v=1vfJqpklDSI",
-      "status": "applied-batch",
-      "reason": "2026-11-25 개별 보관원문/검수행/등록 범위 대조. 소스·저장반찬·제조물의 원문 전체를1회 제조량으로 적용. 원문 단위·수량미기재·범위·기존 대체 선택을 보존.",
+      "status": "applied-composite",
+      "reason": "2026-11-25 사용자 승인 구성별 제조횟수 조절. 2026-11-27 사용자 제공 정보란 재료표 및 승인: 누락 토스트/프렌치토스트8행 보완, 사과조림30g씩2행은 제조물 연결로 보존해 별도 구매하지 않음. 직접 영상/정보란 재접근 검증과 구분.",
+      "calculationMode": "composite",
+      "components": [
+        {
+          "id": "apple",
+          "name": "사과조림",
+          "mode": "batch",
+          "ingredientRows": 5
+        },
+        {
+          "id": "toast",
+          "name": "토스트",
+          "mode": "batch",
+          "usesComponentId": "apple",
+          "ingredientRows": 2
+        },
+        {
+          "id": "french-toast",
+          "name": "프렌치토스트",
+          "mode": "batch",
+          "usesComponentId": "apple",
+          "ingredientRows": 6
+        }
+      ],
+      "sourceScopeNote": "2026-11-25 사용자 승인 구성별 제조횟수 조절. 2026-11-27 사용자 제공 정보란 재료표 및 승인: 누락 토스트/프렌치토스트8행 보완, 사과조림30g씩2행은 제조물 연결로 보존해 별도 구매하지 않음. 직접 영상/정보란 재접근 검증과 구분.",
+      "additionalSourceFacts": [],
+      "sourceReviewFile": "paik-apple-composition-review.json",
+      "independentSourceFetchVerified": false,
+      "sourceAdditionVerification": "2026-11-27 사용자 제공 정보란 재료표로 토스트/프렌치토스트8행 보완. 사과조림30g씩은 제조물 연결로 보존. 원문 재접근 검증으로 표시하지 않음.",
       "originalBaseServings": 10,
-      "sourceQuantitiesUnchanged": true,
-      "calculationMode": "batch",
-      "defaultBatchCount": 1,
-      "householdScaling": false,
-      "summary": "사과 1kg",
-      "verification": "이전 수집 원문 재료표 해시 및 검수행과 등록 수량 일치。보관자료 대조와 원문 신규접근을 구분. 단위/수량 미기재는 임의 보충하지 않음.",
-      "legacySelection": "선택메뉴와 기존인분은 보존. 제조횟수 미저장시 기존 times 사용(통상1회). 원문 전량으로 계산되므로 이전 인분비례 필요량과 달라짐."
+      "sourceQuantitiesUnchanged": true
     },
     {
       "recipeId": "paik-HI8DlDs1gko",
@@ -2554,8 +2577,11 @@
       "recipeId": "mincook-blog-112",
       "name": "와인수육과 파절이",
       "sourceUrl": "https://chef-choice.tistory.com/112",
-      "status": "applied-batch",
-      "reason": "2026-11-25 사용자 명시 결정: 계산방식 미정34건은 모두 원문 전체1회 제조량으로 계산. 기존 추정인분은 보관하고 인원자동비례를 중단. 원작자 명시 인분/완성개수를 확인했다는 의미 아님.",
+      "status": "applied-serving-correction",
+      "reason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기800g÷250g=3.2인분을3인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "calculationMode": "servings",
+      "effectiveBaseServings": 3,
+      "sourceReviewFile": "suyuk-servings-review.json",
       "originalBaseServings": 4,
       "sourceQuantitiesUnchanged": true,
       "sourceAdditions": [
@@ -2627,12 +2653,7 @@
         }
       ],
       "recheckedSourceUrl": "https://chef-choice.tistory.com/112",
-      "sourceAdditionVerification": "2026-11-25 공식블로그 재접근. 원문에 명시된 재료와 수량만 보완, 줌/개/장/숟가락 단위 유지.",
-      "calculationMode": "batch",
-      "defaultBatchCount": 1,
-      "householdScaling": false,
-      "verification": "이전 수집 원문 재료표 해시 및 검수행과 등록 수량 일치。보관자료 대조와 원문 신규접근을 구분. 단위/수량 미기재는 임의 보충하지 않음.",
-      "legacySelection": "선택메뉴와 기존인분은 보존. 제조횟수 미저장시 기존 times 사용(통상1회). 원문 전량으로 계산되므로 이전 인분비례 필요량과 달라짐."
+      "sourceAdditionVerification": "2026-11-25 공식블로그 재접근. 원문에 명시된 재료와 수량만 보완, 줌/개/장/숟가락 단위 유지."
     },
     {
       "recipeId": "mincook-blog-101",

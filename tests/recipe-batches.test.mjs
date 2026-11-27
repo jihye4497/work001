@@ -13,6 +13,8 @@ test('모든 명시 제조형은 원문 전량/2회분·미기재 단위를 보�
  const sort=rows=>rows.map(r=>JSON.stringify(r)).sort();
  for(const id of Object.keys(BATCH_RECIPE_REVIEWS)){
   const recipe=recipes.find(r=>r.id===id);assert.ok(recipe,id);
+  // Historical batch decisions may later become independently adjustable compositions.
+  if(recipe.components||recipe.calculationMode!=='batch')continue;
   for(const [people,count] of [[1,1],[4,1],[2,2]]){
    const rows=aggregate(ingredients,recipes,[{recipeId:id,times:1,servings:people,batchCount:count}],people);
    assert.deepEqual(sort(rows.flatMap(r=>r.uses.map(u=>[u.note,u.amount,u.unit]))),sort(recipe.ingredients.map(i=>[i.note,i.amount===null?null:i.amount*count,i.unit])),id);

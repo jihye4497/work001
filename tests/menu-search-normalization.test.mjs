@@ -13,7 +13,8 @@ test('메뉴 검색은 공백·연결기호 생략과 와/과 표현을 함께 �
 test('연결어만 표시 통일하고 사과·와인·와사비 같은 단어와 원본 정보는 보존',()=>{
  assert.equal(recipes.find(r=>r.id==='mfds-cookrcp01-506').name,'새우 & 스테이크');
  assert.equal(recipes.find(r=>r.id==='mincook-blog-112').name,'와인수육 & 파절이');
- for(const name of ['사과조림','홍합와인탕','와사비 연어초밥'])assert.equal(recipes.find(r=>r.name===name)?.name,name);
+ for(const name of ['홍합와인탕','와사비 연어초밥'])assert.equal(recipes.find(r=>r.name===name)?.name,name);
+ assert.equal(recipes.find(r=>r.id==='paik-1vfJqpklDSI').name,'사과조림 & 토스트 & 프렌치토스트');
  for(let i=0;i<raw.length;i++)assert.deepEqual({...recipes[i],name:raw[i].name},raw[i]);
  assert.deepEqual(applyRecipeDisplayNames(recipes),recipes);
 });

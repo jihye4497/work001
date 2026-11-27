@@ -27,8 +27,9 @@ test('활용요리별0회는 해당재료만 빼고 제조원재료/다른활용
    assert.equal(remaining.length,all.length-r.ingredients.filter(i=>i.componentId===c.id).length);
   }
   for(const c of r.components){
-   const remaining=uses(Object.fromEntries(r.components.filter(x=>x.id!==c.id).map(x=>[x.id,0])));
-   assert.equal(remaining.length,r.ingredients.filter(i=>i.componentId===c.id).length);
+   const remaining=uses(Object.fromEntries(r.components.filter(x=>x.id!==c.id&&x.mode==='batch').map(x=>[x.id,0])));
+   const retained=new Set(r.components.filter(x=>x.id===c.id||x.mode==='servings').map(x=>x.id));
+   assert.equal(remaining.length,r.ingredients.filter(i=>retained.has(i.componentId)).length);
   }
  }
  assert.equal(JSON.stringify(raw),before);

@@ -55,7 +55,7 @@ test('수육과 무김치 수량 버튼은 독립 계산·0회 제외·새로고
  const mixed=find(body,n=>n.className==='selected-item selected-composite');
  assert.ok(mixed);
  const basis=all(mixed).filter(n=>n.className==='muted selected-basis');
- assert.deepEqual(basis.map(n=>n.textContent),['수육 3인분(추정)','무김치 1회 제조량']);
+ assert.deepEqual(basis.map(n=>n.textContent),['수육 2인분(추정)','무김치 1회 제조량']);
  assert.equal(all(mixed).filter(n=>n.className==='component-control').length,2);
  await document.getElementById(`batch-plus-${id}-radish-kimchi`).click();
  let selection=JSON.parse(saved.get('jmd_draft_v1')).selectedRecipes[0];
@@ -71,16 +71,16 @@ test('수육과 무김치 수량 버튼은 독립 계산·0회 제외·새로고
  assert.equal(nextDraft.selectedRecipes.length,1);
  ({body,saved}=await load('shopping-list',[],{draft:nextDraft}));
  assert.equal(document.getElementById(`batch-minus-${id}-radish-kimchi`).disabled,true);
- assert.match(body.textContent,/수육 3인분/);
+ assert.match(body.textContent,/수육 2인분/);
 });
 
 test('장보기 총량은 소수1자리 올림·상세 사용량은2자리 표시',async()=>{
- const draft={schemaVersion:1,selectedIngredientIds:[],activeInterestIds:[],selectedRecipes:[{recipeId:'mincook-blog-91',times:1,servings:2}],activeRecommendationMode:'추가 구매 최소',checkedIngredientIds:[]};
+ const draft={schemaVersion:1,selectedIngredientIds:[],activeInterestIds:[],selectedRecipes:[{recipeId:'mincook-blog-578',times:1,servings:3}],activeRecommendationMode:'추가 구매 최소',checkedIngredientIds:[]};
  const {body}=await load('shopping-list',[],{draft});
- const garlic=find(body,n=>n.className==='ingredient-name'&&n.textContent==='마늘');assert.ok(garlic);
- const detail=garlic.parent;assert.match(detail.textContent,/6.7개/);
+ const garlic=find(body,n=>n.className==='ingredient-name'&&n.textContent.startsWith('다진 마늘'));assert.ok(garlic);
+ const detail=garlic.parent;assert.match(detail.textContent,/0.4숟가락/);
  await detail.click();assert.equal(document.getElementById(detail.id).attrs['aria-expanded'],'true');
- assert.ok(find(body,n=>n.className==='use-detail'&&n.textContent==='· 6.67개'));
+ assert.ok(find(body,n=>n.className==='use-detail'&&n.textContent==='· 0.38숟가락'));
 });
 
 test('감동란은 제조횟수로 담고 증감·삭제 취소·재방문 후 유지',async()=>{
@@ -324,7 +324,9 @@ test('장보기 보유별 구획·현재 인원·횟수·복사·체크와 초�
  assert.match(body.textContent,/4인분/);
  await button(body,'+').click();
  assert.match(body.textContent,/5인분/);
- const owned=find(body,x=>x.className.includes('owned-disclosure'));owned.open=true;await owned.fire('toggle');
+ const owned=find(body,x=>x.className.includes('owned-disclosure'));assert.equal(owned.tagName,'section');
+ assert.equal(document.getElementById('owned-shopping-summary').textContent,'우리 집 재료 1종');
+ assert.ok(!owned.textContent.includes('필요량 확인'));
  const check=document.getElementById('check-squid');check.checked=true;await check.fire('change');
  let copied='';Object.defineProperty(globalThis,'navigator',{configurable:true,value:{clipboard:{writeText:async text=>{copied=text;}}}});
  await button(body,'목록 복사').click();
@@ -652,7 +654,7 @@ test('제목 체크는 부분 선택을 나타내고 제외 이유 취소·보�
  dialog=find(body,x=>x.tagName==='dialog');await find(dialog,x=>x.tagName==='button'&&x.textContent.startsWith('이미 있어요')).click();
  assert.equal(document.getElementById(`check-${id}`),undefined);
  assert.ok(document.getElementById(`ingredient-detail-${id}`));
- assert.equal(find(body,x=>x.className.includes('owned-disclosure')).open,true);
+ assert.equal(find(body,x=>x.className.includes('owned-disclosure')).tagName,'section');
  assert.ok(JSON.parse(saved.get('jmd_recipe_preferences_v1')).pantryIngredientIds.includes(id));
  const current=JSON.parse(saved.get('jmd_draft_v1'));assert.equal(current.excludedShoppingIngredientIds.includes(id),false);assert.equal(current.checkedIngredientIds.includes(id),false);
  const restored=await load('shopping-list',[],{pantry:[id],draft:current});
@@ -771,6 +773,45 @@ test('장보기 제목 오른쪽 삭제는 일반·묶음 메뉴를 한번에 �
   assert.ok(document.getElementById('remove-potato-stir'));
   assert.ok(restored.body.textContent.includes('선택 메뉴 1개'));
  }
+});
+
+test('사과조림과 토스트2종은 각각 조절하고 이전 제조횟수·구성제외를 복원',async()=>{
+ const id='paik-1vfJqpklDSI';
+ const draft={schemaVersion:1,selectedIngredientIds:[],activeInterestIds:[],selectedRecipes:[{recipeId:id,times:1,batchCount:2,servings:2}],activeRecommendationMode:'추가 구매 최소',checkedIngredientIds:[]};
+ let {body,saved}=await load('shopping-list',[],{draft});
+ assert.match(body.textContent,/사과조림 & 토스트 & 프렌치토스트/);
+ assert.ok(document.getElementById(`batch-minus-${id}-apple`));
+ assert.equal(document.getElementById(`batch-minus-${id}-apple`).parent.children[1].textContent,'2회');
+ await document.getElementById(`batch-minus-${id}-french-toast`).click();
+ assert.ok(!find(body,n=>n.className==='ingredient-name'&&n.textContent==='우유'));
+ assert.ok(find(body,n=>n.className==='ingredient-name'&&n.textContent==='식빵'));
+ const next=JSON.parse(saved.get('jmd_draft_v1'));
+ assert.equal(next.selectedRecipes[0].componentBatches['french-toast'],0);
+ assert.equal(next.selectedRecipes[0].batchCount,2);
+ ({body,saved}=await load('shopping-list',[],{draft:next}));
+ assert.equal(document.getElementById(`batch-minus-${id}-french-toast`).disabled,true);
+ assert.equal(document.getElementById(`batch-minus-${id}-apple`).parent.children[1].textContent,'2회');
+ await document.getElementById(`batch-plus-${id}-french-toast`).click();
+ assert.ok(find(body,n=>n.className==='ingredient-name'&&n.textContent==='우유'));
+});
+
+test('양지수육 인분은 유지하고 평양냉면만0회로 제외하며 보유재료는 항상 바로 표시',async()=>{
+ const id='mincook-blog-442',pantry=['mfds-ingredient-4ef9b7d8ecdb','hot-pepper','mincook-ingredient-50a639c9a140'];
+ const draft={schemaVersion:1,selectedIngredientIds:[],activeInterestIds:[],selectedRecipes:[{recipeId:id,times:1,servings:2}],activeRecommendationMode:'추가 구매 최소',checkedIngredientIds:[]};
+ let {body,saved}=await load('shopping-list',[],{draft,pantry});
+ assert.match(body.textContent,/양지수육 & 평양냉면/);assert.match(body.textContent,/양지수육 12인분/);
+ assert.equal(document.getElementById('owned-shopping-summary').textContent,'우리 집 재료 3종');
+ const owned=find(body,n=>n.className.includes('owned-disclosure'));
+ assert.equal(owned.tagName,'section');assert.ok(!all(owned).some(n=>n.tagName==='summary'));
+ for(const ingredientId of pantry)assert.ok(owned.contains(document.getElementById(`ingredient-detail-${ingredientId}`)));
+ assert.ok(!body.textContent.includes('필요량 확인'));
+ await document.getElementById(`batch-minus-${id}-cold-noodles`).click();
+ const next=JSON.parse(saved.get('jmd_draft_v1'));
+ assert.equal(next.selectedRecipes[0].servings,2);assert.equal(next.selectedRecipes[0].componentBatches['cold-noodles'],0);
+ ({body,saved}=await load('shopping-list',[],{draft:next,pantry}));
+ assert.equal(document.getElementById(`batch-minus-${id}-cold-noodles`).disabled,true);
+ assert.equal(find(body,n=>n.className.includes('owned-disclosure')).tagName,'section');
+ assert.ok(!find(body,n=>n.className==='ingredient-name'&&n.textContent==='메밀면'));
 });
 
 test('고른 재료의 결과가 없으면 위 안내와 결과 상태를 갱신하고 검색과 구분',async()=>{

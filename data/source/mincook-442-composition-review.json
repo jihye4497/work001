@@ -1,0 +1,12 @@
+{
+ "checkedOn":"2026-11-27",
+ "recipeId":"mincook-blog-442",
+ "sourceUrl":"https://chef-choice.tistory.com/442",
+ "verification":"직접 열기는429로 실패했으나 동일 공식블로그 검색 결과의 전체본문에서 앞뒤 재료표 및 메밀면 조리본문 확인. 사용자도 뒤쪽 평양냉면 재료표 존재 확인 및 구성추가 승인.",
+ "name":"양지수육 & 평양냉면",
+ "mainServings":{"value":17,"status":"estimated","decision":"사용자 요청 기존값 유지. 원작자 명시인분 아님. 최초 원육3kg/180g올림 추정,180g은공식기준아님."},
+ "originalIngredientRows":7,
+ "addedSection":{"name":"남은 육수와 고기로 만드는 평양냉면","ingredientText":["오이","쌈무","메밀","계란 지단","다시다"],"bodyClarification":"메밀은 본문에 메밀면으로 명시. 양지수육과 육수는 앞서 만든 것을 재사용."},
+ "quantityPolicy":"추가5재료 모두 수량/단위 미기재. 임의분량 추정없음. 양지/육수는 연결로만 보존하여 중복구매하지 않음. 주메뉴인분과 냉면0회제외 독립조절.",
+ "originalImportedRecipePreserved":true
+}

@@ -4,6 +4,37 @@
 const batch=(id,name,usesComponentId,quantityUnknown=false)=>({id,name,mode:'batch',...(usesComponentId?{usesComponentId}:{}),...(quantityUnknown?{quantityUnknown:true}:{})});
 const fact=(ingredientId,componentId,note)=>({ingredientId,componentId,amount:null,unit:null,note:`원문 본문 재료: ${note} · 수량 미기재`});
 export const COMPOSITION_REVIEWS={
+ 'mincook-blog-442':{
+  name:'양지수육 & 평양냉면',
+  components:[{id:'suyuk',name:'양지수육',mode:'servings'},batch('cold-noodles','평양냉면','suyuk',true)],
+  groups:[['suyuk',0,7]],
+  additional:[
+   fact('mfds-ingredient-3ba1c580e487','cold-noodles','오이'),
+   fact('mfds-ingredient-0bca21b1b662','cold-noodles','쌈무'),
+   fact('mfds-ingredient-db39a8630179','cold-noodles','메밀 (본문: 메밀면)'),
+   fact('mincook-ingredient-f96bdc5100d3','cold-noodles','계란 지단'),
+   fact('dashida-seasoning','cold-noodles','다시다')
+  ],
+  note:'양지수육은 사용자 승인 생고기250g/인 기준으로12인분(추정)이에요. 평양냉면은 앞서 만든 수육과 육수를 활용하며, 그 사용량과 추가재료의 양은 원문에 없어 수량 미기재로 표시해요. 평양냉면을0회로 빼면 오이·쌈무·메밀면·계란 지단·다시다가 빠지고 양지수육 재료는 유지돼요.',
+  excluded:'2026-11-27 사용자 승인 및 공식 블로그442 전체 공개본문 확인: 뒤쪽 평양냉면 재료표5행 누락 보완. 메밀은 본문 메밀면 표기 확인. 양지/육수는 앞선 조리물 연결로만 기록하여 중복구매하지 않음. 메인17인분 변경없음.'
+ },
+ 'paik-1vfJqpklDSI':{
+  name:'사과조림 & 토스트 & 프렌치토스트',
+  components:[batch('apple','사과조림'),batch('toast','토스트','apple'),batch('french-toast','프렌치토스트','apple')],
+  groups:[['apple',0,5]],
+  additional:[
+   {ingredientId:'mfds-ingredient-4af4045bfc6e',componentId:'toast',amount:1,unit:'개',note:'사용자 제공 원문(2026-11-27): 사과조림 토스트 · 식빵 1개'},
+   {ingredientId:'mfds-ingredient-46b97d1a17c3',componentId:'toast',amount:10,unit:'g',note:'사용자 제공 원문(2026-11-27): 스틱버터 1/8개(10g)'},
+   {ingredientId:'egg',componentId:'french-toast',amount:60,unit:'g',note:'사용자 제공 원문(2026-11-27): 달걀 1개(60g)'},
+   {ingredientId:'mfds-ingredient-2b7e75051be2',componentId:'french-toast',amount:60,unit:'g',note:'사용자 제공 원문(2026-11-27): 우유 1/3컵(60g)'},
+   {ingredientId:'mfds-ingredient-4af4045bfc6e',componentId:'french-toast',amount:1,unit:'개',note:'사용자 제공 원문(2026-11-27): 사과조림 프렌치토스트 · 식빵 1개'},
+   {ingredientId:'salt',componentId:'french-toast',amount:1,unit:'꼬집',note:'사용자 제공 원문(2026-11-27): 소금 1꼬집'},
+   {ingredientId:'mfds-ingredient-46b97d1a17c3',componentId:'french-toast',amount:20,unit:'g',note:'사용자 제공 원문(2026-11-27): 스틱버터(토스트용) 1/4개(20g)'},
+   {ingredientId:'mfds-ingredient-46b97d1a17c3',componentId:'french-toast',amount:10,unit:'g',note:'사용자 제공 원문(2026-11-27): 스틱버터(토핑용) 1/8개(10g)'}
+  ],
+  note:'사과조림은 원문 전체1회 제조량이에요. 토스트와 프렌치토스트는 각각 식빵1개 기준이며 만든 사과조림을1큰술(30g)씩 사용해요. 완성 사과조림의 총중량이 없어 사과·설탕으로 다시 환산하지 않아요. 구성별0회로 빼면 그 구성의 재료만 빠져요.',
+  excluded:'2026-11-27 사용자 제공 정보란 재료표 및 승인: 누락 토스트/프렌치토스트8행 보완, 사과조림30g씩2행은 제조물 연결로 보존해 별도 구매하지 않음. 직접 영상/정보란 재접근 검증과 구분.'
+ },
  'mincook-blog-728':{
   name:'열무물김치 & 국수 & 비빔밥',
   components:[batch('kimchi','열무물김치'),batch('noodles','국수','kimchi',true),batch('rice','비빔밥','kimchi',true)],

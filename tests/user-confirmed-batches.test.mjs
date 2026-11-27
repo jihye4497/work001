@@ -8,10 +8,12 @@ import {servingLabel} from '../js/servings.js';
 const read=async p=>JSON.parse(await readFile(new URL('../'+p,import.meta.url),'utf8'));
 const [ingredients,raw]=await Promise.all([read('data/ingredients.json'),read('data/recipes.json')]);
 const recipes=applyCalculationBasis(raw);
-test('사용자 결정 미정34건을 전량1회 제조로 전환하고 기존 인분을 계산하지 않음',()=>{
+test('이전 제조형34건 기록은 보존하고 후속수육정책 외에는 인원과 분리',()=>{
  assert.equal(Object.keys(USER_CONFIRMED_BATCH_RECIPES).length,34);
  for(const id of Object.keys(USER_CONFIRMED_BATCH_RECIPES)){
-  const r=recipes.find(r=>r.id===id);assert.ok(r,id);assert.equal(servingLabel(r),'1회 제조량');
+  const r=recipes.find(r=>r.id===id);assert.ok(r,id);
+  if(id==='mincook-blog-112'){assert.equal(servingLabel(r),'3인분(추정)');continue;}
+  assert.equal(servingLabel(r),'1회 제조량');
   const rows=n=>aggregate(ingredients,[r],[{recipeId:id,times:1,servings:n}],n).flatMap(row=>row.uses).map(u=>[u.note,u.amount,u.unit]);
   assert.deepEqual(rows(1),rows(4),id);
   assert.equal(r.baseServings,raw.find(x=>x.id===id).baseServings);

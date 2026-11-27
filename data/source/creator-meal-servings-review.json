@@ -7,9 +7,9 @@
   "summary": {
     "targetCount": 250,
     "reviewedCount": 250,
-    "retainedEstimateCount": 187,
+    "retainedEstimateCount": 181,
     "appliedBatchCount": 48,
-    "changedServingNumbers": 15,
+    "changedServingNumbers": 21,
     "remainingCount": 0
   },
   "entries": [
@@ -5627,10 +5627,10 @@
       "sourceUrl": "https://www.youtube.com/watch?v=F3d9odPcgek",
       "currentBaseServings": 8,
       "currentEvidence": "원문 인분 미기재. 원본 전체 재료 양을 8인분으로 편집 추정(2026-11-23 사용자 승인). 주메뉴는 한 끼, 반찬·양념장은 곁들임 분량 기준이며 원작자 명시 인분 아님.",
-      "reviewStatus": "reviewed-retain-estimate",
-      "status": "reviewed-retain-estimate",
+      "reviewStatus": "applied-serving-correction",
+      "status": "applied-serving-correction",
       "calculationMode": "servings",
-      "effectiveBaseServings": 8,
+      "effectiveBaseServings": 6,
       "cachedIngredientTableAvailable": true,
       "cachedTextHashVerified": true,
       "sourceTableSha256": "60899c5200668237662f1f3531fcf8a0c2a660b7a6305d2909ec6b106e874c47",
@@ -5708,8 +5708,8 @@
           "note": "원문: 통깨(적당히)"
         }
       ],
-      "reviewReason": "보관원문 재료표와 등록범위를 대조. 주재료·국물·밥/면의 양과 곁들임을 함께 검토했으며 현재 추정인분을 반드시 바꿔야 할 명확한 근거가 없어 유지. 완성량/실제 식사량 확인을 뜻하지 않음.",
-      "proposedBaseServings": null,
+      "reviewReason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기1500g÷250g=6인분을6인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "proposedBaseServings": 6,
       "freshSourceCheck": false
     },
     {
@@ -11026,10 +11026,10 @@
       "sourceUrl": "https://chef-choice.tistory.com/737",
       "currentBaseServings": 8,
       "currentEvidence": "공식 블로그 원문 삼겹살1kg·막걸리750ml·물750ml·진간장90ml·무600g 등 선택한 요리 전체 재료량을 8인분으로 편집 추정. 한 끼 식사 분량 기준이며 원작자 명시 인분 아님(2026-11-23 사용자 승인).",
-      "reviewStatus": "reviewed-retain-estimate",
-      "status": "reviewed-retain-estimate",
+      "reviewStatus": "applied-serving-correction",
+      "status": "applied-serving-correction",
       "calculationMode": "servings",
-      "effectiveBaseServings": 8,
+      "effectiveBaseServings": 4,
       "cachedIngredientTableAvailable": true,
       "cachedTextHashVerified": true,
       "sourceTableSha256": "711d08d53cbf7d8bd6bb1049eb6ce4e8bd2bca0227684eb72d498b4c9fd1e32a",
@@ -11167,8 +11167,8 @@
           "note": "원문: 고추장 : 1숟가락"
         }
       ],
-      "reviewReason": "보관원문 재료표와 등록범위를 대조. 주재료·국물·밥/면의 양과 곁들임을 함께 검토했으며 현재 추정인분을 반드시 바꿔야 할 명확한 근거가 없어 유지. 완성량/실제 식사량 확인을 뜻하지 않음.",
-      "proposedBaseServings": null,
+      "reviewReason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기1000g÷250g=4인분을4인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "proposedBaseServings": 4,
       "freshSourceCheck": false
     },
     {
@@ -12067,10 +12067,10 @@
       "sourceUrl": "https://chef-choice.tistory.com/714",
       "currentBaseServings": 7,
       "currentEvidence": "공식 블로그 원문 차돌박이1.2kg·물3L 등 선택한 요리 전체 재료량을 7인분으로 편집 추정. 한 끼 식사 분량 기준이며 원작자 명시 인분 아님(2026-11-23 사용자 승인).",
-      "reviewStatus": "reviewed-retain-estimate",
-      "status": "reviewed-retain-estimate",
+      "reviewStatus": "applied-serving-correction",
+      "status": "applied-serving-correction",
       "calculationMode": "servings",
-      "effectiveBaseServings": 7,
+      "effectiveBaseServings": 5,
       "cachedIngredientTableAvailable": true,
       "cachedTextHashVerified": true,
       "sourceTableSha256": "874c9d9434f91c12055b4f8c71bed6184fb66c94492c28a3941a411c7fa235a4",
@@ -12124,8 +12124,8 @@
           "note": "원문: 다진대파 : 1숟가락"
         }
       ],
-      "reviewReason": "보관원문 재료표와 등록범위를 대조. 주재료·국물·밥/면의 양과 곁들임을 함께 검토했으며 현재 추정인분을 반드시 바꿔야 할 명확한 근거가 없어 유지. 완성량/실제 식사량 확인을 뜻하지 않음.",
-      "proposedBaseServings": null,
+      "reviewReason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기1200g÷250g=4.8인분을5인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "proposedBaseServings": 5,
       "freshSourceCheck": false
     },
     {
@@ -13719,10 +13719,10 @@
       "sourceUrl": "https://chef-choice.tistory.com/668",
       "currentBaseServings": 7,
       "currentEvidence": "공식 블로그 원문 물4L·무200g·대파100g·청양고추20g·통후추7g 등 선택한 요리 전체 재료량을 7인분으로 편집 추정. 한 끼 식사 분량 기준이며 원작자 명시 인분 아님(2026-11-23 사용자 승인).",
-      "reviewStatus": "reviewed-retain-estimate",
-      "status": "reviewed-retain-estimate",
+      "reviewStatus": "applied-serving-correction",
+      "status": "applied-serving-correction",
       "calculationMode": "servings",
-      "effectiveBaseServings": 7,
+      "effectiveBaseServings": 5,
       "cachedIngredientTableAvailable": true,
       "cachedTextHashVerified": true,
       "sourceTableSha256": "57a0eba6d393dbee9b159b24d6c97ba3e35a6348ecbb3de7057623b57c2e67a3",
@@ -13830,8 +13830,8 @@
           "note": "원문: 다진마늘: 2 숟가락"
         }
       ],
-      "reviewReason": "보관원문 재료표와 등록범위를 대조. 주재료·국물·밥/면의 양과 곁들임을 함께 검토했으며 현재 추정인분을 반드시 바꿔야 할 명확한 근거가 없어 유지. 완성량/실제 식사량 확인을 뜻하지 않음.",
-      "proposedBaseServings": null,
+      "reviewReason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기1200g÷250g=4.8인분을5인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "proposedBaseServings": 5,
       "freshSourceCheck": false
     },
     {
@@ -15796,10 +15796,10 @@
       "sourceUrl": "https://chef-choice.tistory.com/588",
       "currentBaseServings": 5,
       "currentEvidence": "공식 블로그 원문 양파300g·마늘80g·알배추400g·삼겹살600g·대파300g 등 선택한 요리 전체 재료량을 5인분으로 편집 추정. 한 끼 식사 분량 기준이며 원작자 명시 인분 아님(2026-11-23 사용자 승인).",
-      "reviewStatus": "reviewed-retain-estimate",
-      "status": "reviewed-retain-estimate",
+      "reviewStatus": "applied-serving-correction",
+      "status": "applied-serving-correction",
       "calculationMode": "servings",
-      "effectiveBaseServings": 5,
+      "effectiveBaseServings": 2,
       "cachedIngredientTableAvailable": true,
       "cachedTextHashVerified": true,
       "sourceTableSha256": "c5355aa1b899f226c0f729723b2a8ffc0fce38b76e27120d3d61d95819c3dfcd",
@@ -15943,8 +15943,8 @@
           "note": "원문: 두부 : 300g"
         }
       ],
-      "reviewReason": "보관원문 재료표와 등록범위를 대조. 주재료·국물·밥/면의 양과 곁들임을 함께 검토했으며 현재 추정인분을 반드시 바꿔야 할 명확한 근거가 없어 유지. 완성량/실제 식사량 확인을 뜻하지 않음.",
-      "proposedBaseServings": null,
+      "reviewReason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기600g÷250g=2.4인분을2인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "proposedBaseServings": 2,
       "freshSourceCheck": false
     },
     {
@@ -20118,14 +20118,14 @@
     },
     {
       "recipeId": "mincook-blog-442",
-      "name": "양지수육",
+      "name": "양지수육 & 평양냉면",
       "sourceUrl": "https://chef-choice.tistory.com/442",
       "currentBaseServings": 17,
       "currentEvidence": "공식 블로그 원문 소고기 양지3kg·대파100g·소금10g 등 선택한 요리 전체 재료량을 17인분으로 편집 추정. 한 끼 식사 분량 기준이며 원작자 명시 인분 아님(2026-11-23 사용자 승인).",
-      "reviewStatus": "reviewed-retain-estimate",
-      "status": "reviewed-retain-estimate",
+      "reviewStatus": "applied-serving-correction",
+      "status": "applied-serving-correction",
       "calculationMode": "servings",
-      "effectiveBaseServings": 17,
+      "effectiveBaseServings": 12,
       "cachedIngredientTableAvailable": true,
       "cachedTextHashVerified": true,
       "sourceTableSha256": "cb213b6e81d8552bfc1df75219152abe15466a3fe822529e20feafd4d096aa1e",
@@ -20173,8 +20173,8 @@
           "note": "원문: 참소스"
         }
       ],
-      "reviewReason": "양지3kg을17인분으로 나누면 원재료 약176g/인. 삶은후 수율 미기재이지만 큰 숫자만으로 오류라 단정하지 않고 유지.",
-      "proposedBaseServings": null,
+      "reviewReason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기3000g÷250g=12인분을12인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "proposedBaseServings": 12,
       "freshSourceCheck": false
     },
     {

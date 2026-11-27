@@ -15603,13 +15603,13 @@
       "recipeId": "paik-1vfJqpklDSI",
       "name": "사과조림",
       "categories": [
-        "메인요리"
+        "간식"
       ],
       "mealRole": "주메뉴",
       "legacyCategories": [
         "그 밖"
       ],
-      "classificationNote": "2026-11-26 음식 형태 기준 초기 재분류: 별도 밥·면·국·반찬·간식·소스에 해당하지 않는 식사의 중심 요리(초기 편집 분류). 주재료/추천순위는 변경하지 않음."
+      "classificationNote": "2026-11-27 사용자 제공 정보란으로 사과조림·토스트·프렌치토스트3구성 확인 및 간식 분류 승인. 이전 메인요리 오분류 정정."
     },
     {
       "recipeId": "paik-fD4wD3GTJq4",

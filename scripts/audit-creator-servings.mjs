@@ -21,6 +21,7 @@ export function reviewBucket(recipe){
 export function proposeCalculationBasis(recipe,bucket=reviewBucket(recipe),flags=[]){
  const proposal=(mode,reason)=>({mode,status:'proposal-only',reason,householdScaling:mode==='batch'?false:mode==='servings'?true:null,defaultBatchCount:mode==='batch'?1:null,quantityControl:mode==='batch'?'제조 횟수(정수)':mode==='servings'?'식사 인분':'확인 대기'});
  if(BATCH_RECIPE_REVIEWS[recipe.id])return {...proposal('batch',BATCH_RECIPE_REVIEWS[recipe.id].reason),status:'applied-batch'};
+ if(recipe.id==='mincook-blog-442')return {...proposal('servings',COMPOSITE_BATCH_REVIEWS[recipe.id].reason),status:'applied-composite',quantityControl:'양지수육 식사 인분 + 평양냉면 제조 횟수'};
  if(COMPOSITE_BATCH_REVIEWS[recipe.id])return {...proposal('batch',COMPOSITE_BATCH_REVIEWS[recipe.id].reason),status:'applied-composite'};
  if(recipe.id==='mincook-blog-578')return {...proposal('servings','2026-11-25 사용자 확인: 스테이크와 페퍼콘소스 함께 유지, 마늘0.5숟가락. 소스 단독제조형 제외. 기존 추정인분은 별도 재검토 필요.'),status:'applied-scope'};
  if(recipe.id==='mincook-blog-91'&&recipe.servingsBasisLabel)return {...proposal('servings','사용자 승인: 수육은 인분, 무김치는 원문1회 제조횟수로 독립 조절.'),status:'applied-main-dish-basis'};

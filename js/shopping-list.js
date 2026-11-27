@@ -6,7 +6,7 @@ import { ingredientKey, representativeIngredient } from './ingredient-matching.j
 import { canonicalIngredientName } from './ingredient-aliases.js';
 import { preparationFamilyName } from './ingredient-preparations.js';
 import { preparedPurchase, preparedSubstitution } from './prepared-ingredients.js';
-import { selectedBatchCount } from './recipe-calculation-basis.js';
+import { selectedBatchCount,selectedComponentBatchCount } from './recipe-calculation-basis.js';
 
 export function selectedServings(selection, household) {
   return selection.servings ?? household * selection.times;
@@ -21,7 +21,7 @@ export function aggregate(ingredients, recipes, selectedRecipes, servings) {
     if (!recipe) throw new Error('선택 메뉴의 데이터를 찾을 수 없어요.');
     for (const item of recipe.ingredients) {
       const component=recipe.components?.find(c=>c.id===item.componentId);
-      const batchTimes=recipe.calculationMode==='batch'?selectedBatchCount(selection):component?.mode==='batch'?(selection.componentBatches?.[component.id]??1):null;
+      const batchTimes=recipe.calculationMode==='batch'?selectedBatchCount(selection):component?.mode==='batch'?selectedComponentBatchCount(selection,component):null;
       if(batchTimes===0)continue;
       const source = byId.get(selection.ingredientReplacements?.[item.ingredientId] || item.ingredientId);
       const prepared=preparedPurchase(item,recipe,byId,selection.ingredientReplacements?.[item.ingredientId]);

@@ -2,6 +2,8 @@
 // Duplicate names within a publisher and explicitly approved recipe-scope corrections only.
 import {pairedMenuName} from './paired-menu-names.js';
 export const RECIPE_DISPLAY_NAMES = [
+ ['mincook-blog-442','양지수육','양지수육 & 평양냉면','2026-11-27 사용자 승인: 원문 뒤쪽 평양냉면5재료 보완, 메인17인분 유지 및 냉면별도조절'],
+ ['paik-1vfJqpklDSI','사과조림','사과조림 & 토스트 & 프렌치토스트','2026-11-27 사용자 제공 정보란 재료표로 활용요리 누락 보완,3구성별 제조횟수 조절 승인'],
  ['mincook-blog-728','열무물김치','열무물김치 & 국수 & 비빔밥','2026-11-25 사용자 승인: 원문 제조량과 미기재 활용재료를 구성별 조절'],
  ['mincook-blog-625','김치버터','김치버터 & 볶음밥 & 샌드위치','2026-11-25 사용자 승인: 원문 제조량과 미기재 활용재료를 구성별 조절'],
  ['mincook-blog-598','썬드라이토마토','썬드라이토마토 & 샐러드파스타','2026-11-25 사용자 승인: 원문 제조량과 미기재 활용재료를 구성별 조절'],

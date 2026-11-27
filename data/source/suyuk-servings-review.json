@@ -1,0 +1,191 @@
+{
+  "checkedOn": "2026-11-27",
+  "basis": "생고기250g/인·정수반올림·최소1인분. 공식기준아닌사용자승인서비스추정.",
+  "scope": "인분미명시 유튜브/연결블로그의 뼈없는생고기 중량확인 수육류15개. 식약처/테팔·원문명시인분·탕수육·국물전골·뼈있는고기·고기량미기재 제외.",
+  "limits": "이전 보관원문 중량으로 계산하며 원문 신규접속/완성수율 검증으로 표시하지 않음. 600g은2인분으로반올림하므로 실제계산300g/인,250g은정수추정의기준값. 원문재료/수량/단위/기존선택 유지.",
+  "entries": [
+    {
+      "recipeId": "caden-F3d9odPcgek",
+      "name": "냉제육",
+      "sourceUrl": "https://www.youtube.com/watch?v=F3d9odPcgek",
+      "previousBaseServings": 8,
+      "rawMeatGrams": 1500,
+      "baseServings": 6,
+      "status": "user-approved-estimate",
+      "reason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기1500g÷250g=6인분을6인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "sourceQuantitiesUnchanged": true
+    },
+    {
+      "recipeId": "eonam-3Cb1Le-NzRc",
+      "name": "마늘수육",
+      "sourceUrl": "https://www.youtube.com/watch?v=3Cb1Le-NzRc",
+      "previousBaseServings": 3,
+      "rawMeatGrams": 600,
+      "baseServings": 2,
+      "status": "user-approved-estimate",
+      "reason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기600g÷250g=2.4인분을2인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "sourceQuantitiesUnchanged": true
+    },
+    {
+      "recipeId": "mincook-blog-737",
+      "name": "오징어보쌈",
+      "sourceUrl": "https://chef-choice.tistory.com/737",
+      "previousBaseServings": 8,
+      "rawMeatGrams": 1000,
+      "baseServings": 4,
+      "status": "user-approved-estimate",
+      "reason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기1000g÷250g=4인분을4인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "sourceQuantitiesUnchanged": true
+    },
+    {
+      "recipeId": "mincook-blog-714",
+      "name": "차돌 수육",
+      "sourceUrl": "https://chef-choice.tistory.com/714",
+      "previousBaseServings": 7,
+      "rawMeatGrams": 1200,
+      "baseServings": 5,
+      "status": "user-approved-estimate",
+      "reason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기1200g÷250g=4.8인분을5인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "sourceQuantitiesUnchanged": true
+    },
+    {
+      "recipeId": "mincook-blog-699",
+      "name": "다시마 보쌈",
+      "sourceUrl": "https://chef-choice.tistory.com/699",
+      "previousBaseServings": 3,
+      "rawMeatGrams": 600,
+      "baseServings": 2,
+      "status": "user-approved-estimate",
+      "reason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기600g÷250g=2.4인분을2인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "sourceQuantitiesUnchanged": true
+    },
+    {
+      "recipeId": "mincook-blog-668",
+      "name": "소갈비살 수육",
+      "sourceUrl": "https://chef-choice.tistory.com/668",
+      "previousBaseServings": 7,
+      "rawMeatGrams": 1200,
+      "baseServings": 5,
+      "status": "user-approved-estimate",
+      "reason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기1200g÷250g=4.8인분을5인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "sourceQuantitiesUnchanged": true
+    },
+    {
+      "recipeId": "mincook-blog-588",
+      "name": "대파수육",
+      "sourceUrl": "https://chef-choice.tistory.com/588",
+      "previousBaseServings": 5,
+      "rawMeatGrams": 600,
+      "baseServings": 2,
+      "status": "user-approved-estimate",
+      "reason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기600g÷250g=2.4인분을2인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "sourceQuantitiesUnchanged": true
+    },
+    {
+      "recipeId": "mincook-blog-496",
+      "name": "소고기 수육무침",
+      "sourceUrl": "https://chef-choice.tistory.com/496",
+      "previousBaseServings": 3,
+      "rawMeatGrams": 1200,
+      "baseServings": 5,
+      "status": "user-approved-estimate",
+      "reason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기1200g÷250g=4.8인분을5인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "sourceQuantitiesUnchanged": true
+    },
+    {
+      "recipeId": "mincook-blog-442",
+      "name": "양지수육",
+      "sourceUrl": "https://chef-choice.tistory.com/442",
+      "previousBaseServings": 17,
+      "rawMeatGrams": 3000,
+      "baseServings": 12,
+      "status": "user-approved-estimate",
+      "reason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기3000g÷250g=12인분을12인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "sourceQuantitiesUnchanged": true
+    },
+    {
+      "recipeId": "mincook-blog-374",
+      "name": "닭수육",
+      "sourceUrl": "https://chef-choice.tistory.com/374",
+      "previousBaseServings": 3,
+      "rawMeatGrams": 600,
+      "baseServings": 2,
+      "status": "user-approved-estimate",
+      "reason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기600g÷250g=2.4인분을2인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "sourceQuantitiesUnchanged": true
+    },
+    {
+      "recipeId": "mincook-blog-209",
+      "name": "고추장 마늘보쌈",
+      "sourceUrl": "https://chef-choice.tistory.com/209",
+      "previousBaseServings": 3,
+      "rawMeatGrams": 600,
+      "baseServings": 2,
+      "status": "user-approved-estimate",
+      "reason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기600g÷250g=2.4인분을2인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "sourceQuantitiesUnchanged": true
+    },
+    {
+      "recipeId": "mincook-blog-112",
+      "name": "와인수육과 파절이",
+      "sourceUrl": "https://chef-choice.tistory.com/112",
+      "previousBaseServings": 4,
+      "rawMeatGrams": 800,
+      "baseServings": 3,
+      "status": "user-approved-estimate",
+      "reason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기800g÷250g=3.2인분을3인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "sourceQuantitiesUnchanged": true
+    },
+    {
+      "recipeId": "mincook-blog-91",
+      "name": "수육 & 무김치",
+      "sourceUrl": "https://chef-choice.tistory.com/91",
+      "previousBaseServings": 3,
+      "rawMeatGrams": 600,
+      "baseServings": 2,
+      "status": "user-approved-estimate",
+      "reason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기600g÷250g=2.4인분을2인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "sourceQuantitiesUnchanged": true
+    },
+    {
+      "recipeId": "mincook-blog-83",
+      "name": "마늘보쌈",
+      "sourceUrl": "https://chef-choice.tistory.com/83",
+      "previousBaseServings": 3,
+      "rawMeatGrams": 600,
+      "baseServings": 2,
+      "status": "user-approved-estimate",
+      "reason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기600g÷250g=2.4인분을2인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "sourceQuantitiesUnchanged": true
+    },
+    {
+      "recipeId": "mincook-blog-47",
+      "name": "한방 수육",
+      "sourceUrl": "https://chef-choice.tistory.com/47",
+      "previousBaseServings": 3,
+      "rawMeatGrams": 600,
+      "baseServings": 2,
+      "status": "user-approved-estimate",
+      "reason": "2026-11-27 사용자 승인: 수육류는 삶기 전 뼈 없는 생고기250g/인 기준을 사용하고 정수로 반올림. 원문 고기600g÷250g=2.4인분을2인분(추정)으로 표시·계산. 공식 영양/제공량 기준 또는 원작자 명시인분이 아님. 다른 요리/뼈있는고기/수량미기재에는 적용하지 않음.",
+      "sourceQuantitiesUnchanged": true
+    }
+  ],
+  "excluded": [
+    {
+      "recipeId": "mincook-blog-277",
+      "reason": "수육전골은국물요리이므로이번범위제외"
+    },
+    {
+      "recipeId": "mincook-blog-460",
+      "reason": "족발수육 고기량미기재"
+    },
+    {
+      "recipeId": "mincook-blog-348",
+      "reason": "수육보쌈김치 앞다리살중량미기재·기존제조량유지"
+    },
+    {
+      "recipeId": "mincook-blog-200",
+      "reason": "다시마수육굴보쌈 삼겹살중량미기재"
+    }
+  ]
+}

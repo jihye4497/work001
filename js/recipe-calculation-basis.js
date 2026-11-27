@@ -4,8 +4,9 @@ import {REVIEWED_BATCH_RECIPES} from './reviewed-batch-recipes.js';
 import {composeRecipe,COMPOSITION_REVIEWS} from './recipe-compositions.js';
 import {USER_CONFIRMED_BATCH_RECIPES,BATCH_SOURCE_ADDITIONS} from './user-confirmed-batch-recipes.js';
 import {MEAL_REVIEW_BATCHES,applyMealServingReview} from './meal-servings-review-decisions.js';
+import {applySuyukServingReview} from './suyuk-servings-review.js';
 // Only activate compositions whose quantities have been reviewed with the user.
-export const ACTIVE_COMPOSITION_IDS=['mincook-blog-623','mincook-blog-728','mincook-blog-625','mincook-blog-598'];
+export const ACTIVE_COMPOSITION_IDS=['mincook-blog-623','mincook-blog-728','mincook-blog-625','mincook-blog-598','paik-1vfJqpklDSI','mincook-blog-442'];
 export const BATCH_RECIPE_REVIEWS = {
   ...REVIEWED_BATCH_RECIPES,
   ...USER_CONFIRMED_BATCH_RECIPES,
@@ -35,9 +36,13 @@ export function applyCalculationBasis(recipes) {
       accompanimentNote:'수박에이드는 만든 수박청을 활용해요. 에이드 재료와 한 잔에 쓰는 수박청 양은 원문에 없어 수량 미기재로 표시해요. 에이드를0회로 바꾸면 얼음·탄산수·애플민트가 빠져요. 수박청 제조 재료는 한 번만 계산해요.',
       ingredients:result.ingredients.filter(i=>i.note!=='원문: 소주').map((i,index)=>({...i,componentId:index<4?'syrup':'ade'}))
     };
-    return BATCH_RECIPE_REVIEWS[recipe.id]
+    const calculated=BATCH_RECIPE_REVIEWS[recipe.id]&&!result.components
       ? {...result, calculationMode:'batch', ...(BATCH_RECIPE_REVIEWS[recipe.id].summary?{batchSummary:BATCH_RECIPE_REVIEWS[recipe.id].summary}:{})}
       : result;
+    return applySuyukServingReview(calculated);
   });
 }
 export function selectedBatchCount(selection) { return selection.batchCount ?? selection.times ?? 1; }
+export function selectedComponentBatchCount(selection,component) {
+  return selection.componentBatches?.[component.id] ?? (selection.recipeId==='paik-1vfJqpklDSI'&&component.id==='apple'?selectedBatchCount(selection):1);
+}

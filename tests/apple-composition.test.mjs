@@ -1,0 +1,38 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {applyCalculationBasis} from '../js/recipe-calculation-basis.js';
+import {applyRecipeDisplayNames} from '../js/recipe-display-names.js';
+import {applyRecipeCategories} from '../js/recipe-filters.js';
+import {aggregate,totalText} from '../js/shopping-list.js';
+import {validateData} from '../js/ingredients.js';
+const read=async name=>JSON.parse(await readFile(new URL('../data/'+name,import.meta.url),'utf8'));
+const [ingredients,raw,catalog]=await Promise.all(['ingredients.json','recipes.json','recipe-categories.json'].map(read));
+const id='paik-1vfJqpklDSI',snapshot=JSON.stringify(raw);
+const recipe=applyCalculationBasis(applyRecipeDisplayNames(applyRecipeCategories(raw,catalog))).find(r=>r.id===id);
+const rows=(counts={},extra={})=>aggregate(ingredients,[recipe],[{recipeId:id,times:1,servings:4,componentBatches:counts,...extra}],4);
+const row=(name,counts={},extra={})=>rows(counts,extra).find(r=>r.ingredient.name===name);
+test('user-provided apple mixture keeps original five facts and adds eight toast rows',()=>{
+ validateData(ingredients,[recipe]);
+ assert.equal(recipe.name,'사과조림 & 토스트 & 프렌치토스트');
+ assert.deepEqual(recipe.foodCategories,['간식']);
+ assert.equal(recipe.ingredients.length,13);
+ assert.deepEqual(recipe.ingredients.filter(i=>i.componentId==='apple').map(({componentId,...i})=>i),raw.find(r=>r.id===id).ingredients);
+ assert.deepEqual(applyCalculationBasis([recipe])[0],recipe);
+ assert.equal(totalText(row('버터')),'40g');assert.equal(row('버터').uses.length,3);
+ assert.equal(totalText(row('식빵')),'2개');assert.equal(totalText(row('계란')),'60g');assert.equal(totalText(row('우유')),'60g');
+ assert.match(recipe.accompanimentNote,/30g/);
+ assert.equal(JSON.stringify(raw),snapshot);
+});
+test('each component can be zero without changing the base or other component; old batch count survives',()=>{
+ assert.equal(totalText(row('버터',{toast:0})),'30g');
+ assert.equal(totalText(row('버터',{'french-toast':0})),'10g');
+ assert.equal(row('우유',{'french-toast':0}),undefined);
+ assert.equal(totalText(row('사과',{toast:0,'french-toast':0})),'1kg');
+ assert.equal(row('사과',{apple:0}),undefined);
+ assert.equal(totalText(row('버터',{apple:0})),'40g');
+ assert.equal(rows({apple:0,toast:0,'french-toast':0}).length,0);
+ assert.equal(totalText(row('사과',{}, {batchCount:2})),'2kg');
+ assert.equal(totalText(row('버터',{}, {batchCount:2})),'40g');
+ assert.equal(totalText(row('사과',{apple:3}, {batchCount:2})),'3kg');
+});

@@ -5,6 +5,7 @@ const read=async path=>JSON.parse(await readFile(new URL('../'+path,import.meta.
 const [recipes,catalog]=await Promise.all(['data/recipes.json','data/recipe-categories.json'].map(read));
 const byId=new Map(recipes.map(r=>[r.id,r]));
 function classify(recipe,entry){
+ if(recipe.id==='paik-1vfJqpklDSI')return {categories:['간식'],classificationNote:'2026-11-27 사용자 제공 정보란으로 사과조림·토스트·프렌치토스트3구성 확인 및 간식 분류 승인. 이전 메인요리 오분류 정정.'};
  const n=recipe.name.replace(/\s/g,''),role=entry.mealRole;
  const pick=(category,reason)=>({categories:[category],classificationNote:`2026-11-26 음식 형태 기준 초기 재분류: ${reason}. 주재료/추천순위는 변경하지 않음.`});
  const specific={
